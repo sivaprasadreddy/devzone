@@ -1,7 +1,6 @@
 package com.sivalabs.devzone.config.logging;
 
 import com.sivalabs.devzone.domain.utils.AppConstants;
-import com.sivalabs.devzone.domain.utils.TimeUtils;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.AfterThrowing;
@@ -63,7 +62,7 @@ public class LoggingAspect {
         long end = System.currentTimeMillis();
         if (log.isTraceEnabled()) {
             log.trace("Exit: {}.{}(). Time taken: {} millis", joinPoint.getSignature().getDeclaringTypeName(),
-                joinPoint.getSignature().getName(), TimeUtils.millisToLongDHMS(end - start));
+                joinPoint.getSignature().getName(), end - start);
         }
         return result;
     }

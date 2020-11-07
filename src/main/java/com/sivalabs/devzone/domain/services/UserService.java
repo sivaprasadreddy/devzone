@@ -1,6 +1,7 @@
 package com.sivalabs.devzone.domain.services;
 
 import com.sivalabs.devzone.domain.entities.Role;
+import com.sivalabs.devzone.domain.entities.RoleEnum;
 import com.sivalabs.devzone.domain.entities.User;
 import com.sivalabs.devzone.domain.exceptions.DevZoneException;
 import com.sivalabs.devzone.domain.exceptions.ResourceNotFoundException;
@@ -16,8 +17,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Collections;
 import java.util.Optional;
-
-import static com.sivalabs.devzone.domain.utils.AppConstants.ROLE_USER;
 
 @Service
 @Transactional
@@ -44,7 +43,7 @@ public class UserService {
         }
         user.setPassword(passwordEncoder.encode(user.getPassword()));
         User userEntity = user.toEntity();
-        Optional<Role> roleUser = roleRepository.findByName(ROLE_USER);
+        Optional<Role> roleUser = roleRepository.findByName(RoleEnum.ROLE_USER.name());
         userEntity.setRoles(Collections.singleton(roleUser.orElse(null)));
         return UserDTO.fromEntity(userRepository.save(userEntity));
     }

@@ -2,6 +2,7 @@ package com.sivalabs.devzone.domain.models;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.sivalabs.devzone.domain.entities.Role;
+import com.sivalabs.devzone.domain.entities.RoleEnum;
 import com.sivalabs.devzone.domain.entities.User;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -32,7 +33,7 @@ public class UserDTO {
     private String imageUrl;
 
 
-    private List<String> roles;
+    private List<RoleEnum> roles;
 
     public User toEntity() {
         User user = new User();

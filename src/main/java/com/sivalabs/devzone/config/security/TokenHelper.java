@@ -1,6 +1,7 @@
 package com.sivalabs.devzone.config.security;
 
 import com.sivalabs.devzone.config.ApplicationProperties;
+import com.sivalabs.devzone.domain.exceptions.DevZoneException;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
@@ -68,7 +69,7 @@ public class TokenHelper {
                 .parseClaimsJws(token)
                 .getBody();
         } catch (Exception e) {
-            throw new RuntimeException(e);
+            throw new DevZoneException(e);
         }
         return claims;
     }

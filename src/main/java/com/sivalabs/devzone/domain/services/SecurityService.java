@@ -1,6 +1,7 @@
 package com.sivalabs.devzone.domain.services;
 
 import com.sivalabs.devzone.config.security.SecurityUser;
+import com.sivalabs.devzone.domain.entities.RoleEnum;
 import com.sivalabs.devzone.domain.entities.User;
 import com.sivalabs.devzone.domain.models.LinkDTO;
 import com.sivalabs.devzone.domain.repositories.UserRepository;
@@ -13,9 +14,6 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
-
-import static com.sivalabs.devzone.domain.utils.AppConstants.ROLE_ADMIN;
-import static com.sivalabs.devzone.domain.utils.AppConstants.ROLE_MODERATOR;
 
 @Service
 @Transactional
@@ -48,15 +46,15 @@ public class SecurityService {
     }
 
     public boolean isCurrentUserAdmin() {
-        return isUserHasAnyRole(loginUser(), ROLE_ADMIN);
+        return isUserHasAnyRole(loginUser(), RoleEnum.ROLE_ADMIN);
     }
 
     private boolean isCurrentUserAdminOrModerator(User loginUser) {
-        return isUserHasAnyRole(loginUser, ROLE_ADMIN, ROLE_MODERATOR);
+        return isUserHasAnyRole(loginUser, RoleEnum.ROLE_ADMIN, RoleEnum.ROLE_MODERATOR);
     }
 
-    private boolean isUserHasAnyRole(User loginUser, String... roles) {
-        List<String> roleList = Arrays.asList(roles);
+    private boolean isUserHasAnyRole(User loginUser, RoleEnum... roles) {
+        List<RoleEnum> roleList = Arrays.asList(roles);
         if (loginUser != null && loginUser.getRoles() != null) {
             return loginUser.getRoles().stream()
                 .anyMatch(role -> roleList.contains(role.getName()));

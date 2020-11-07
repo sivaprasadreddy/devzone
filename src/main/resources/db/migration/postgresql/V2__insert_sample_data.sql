@@ -10,9 +10,7 @@ INSERT INTO users (email, password, name, created_at) VALUES
 ;
 
 INSERT INTO user_role (user_id, role_id) VALUES
-(1, 1),
-(1, 2),
-(1, 3)
+(1, 1)
 ;
 
 INSERT INTO tags(name) VALUES

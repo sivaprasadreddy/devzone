@@ -1,6 +1,7 @@
 package com.sivalabs.devzone.domain.models;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.sivalabs.devzone.domain.entities.RoleEnum;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -20,5 +21,5 @@ public class AuthUserDTO {
     private String email;
 
     @JsonProperty("roles")
-    private List<String> roles;
+    private List<RoleEnum> roles;
 }
