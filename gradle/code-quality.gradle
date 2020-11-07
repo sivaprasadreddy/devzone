@@ -1,0 +1,83 @@
+apply plugin: 'checkstyle'
+apply plugin: 'pmd'
+apply plugin: 'jacoco'
+apply plugin: "com.github.spotbugs"
+apply plugin: "org.sonarqube"
+
+checkstyle {
+    toolVersion "${checkstyle_version}"
+    maxWarnings = 0
+    configFile = file("${project.rootDir}/build-config/checkstyle/checkstyle.xml")
+    sourceSets = [sourceSets.main]
+}
+
+pmd {
+    toolVersion = "${pmd_version}"
+    consoleOutput = true
+    ruleSets = []
+    ruleSetFiles = files("${project.rootDir}/build-config/pmd/pmd-ruleset.xml")
+    sourceSets = [sourceSets.main]
+}
+
+tasks.matching {task -> task.name.startsWith('spotbugs')}.forEach {
+    it.reports {
+        html.enabled = true
+        xml.enabled = false
+    }
+}
+
+jacoco {
+    toolVersion = "${jacoco_plugin_version}"
+}
+
+def jacocoExcludes = [
+    'com/sivalabs/**/config/**',
+    'com/sivalabs/**/entities/**',
+    'com/sivalabs/**/models/**',
+    'com/sivalabs/**/exceptions/**',
+    'com/sivalabs/**/utils/**',
+]
+
+jacocoTestReport {
+    executionData tasks.withType(Test)
+
+    afterEvaluate {
+        getClassDirectories().setFrom(files(classDirectories.files.collect {
+            fileTree(dir: it, exclude: jacocoExcludes)
+        }))
+    }
+
+    reports {
+        xml.enabled = true
+    }
+}
+
+jacocoTestCoverageVerification {
+    afterEvaluate {
+        getClassDirectories().setFrom(files(classDirectories.files.collect {
+            fileTree(dir: it, exclude: jacocoExcludes)
+        }))
+    }
+
+    violationRules {
+        rule {
+            limit {
+                counter = 'LINE'
+                value = 'COVEREDRATIO'
+                minimum = 0.03
+            }
+            excludes = jacocoExcludes
+        }
+    }
+}
+
+sonarqube {
+    properties {
+        property "sonar.projectKey", "sivaprasadreddy_devzone"
+        property "sonar.organization", "sivaprasadreddy-github"
+        property "sonar.host.url", "https://sonarcloud.io"
+    }
+}
+
+test.finalizedBy jacocoTestReport
+check.dependsOn jacocoTestCoverageVerification

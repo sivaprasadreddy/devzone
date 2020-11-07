@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity"
+      layout:decorate="~{mainLayout}">
+<head>
+    <title>Home</title>
+</head>
+<body>
+
+<div layout:fragment="content">
+    <div class="row">
+    <div class="col-md-9">
+        <div>
+            <form class="form-inline pb-3" method="get" th:action="@{/links}">
+                <div class="form-group  col-md-9">
+                    <input class="col-md-12 form-control" type="search" name="query"/>
+                </div>
+                <button class="btn btn-primary btn" type="submit">Search</button>
+            </form>
+        </div>
+        <div th:if="${header != null}">
+            <div >
+                <strong th:text="${header}" style="font-size: 20px;">Header</strong>
+            </div>
+        </div>
+        <div th:replace="fragments/pagination :: pagination"> </div>
+
+        <div >
+            <div class="alert alert-primary" role="alert" th:each="link: ${linksData.data}">
+                <h3 class="alert-heading">
+                    <a href="#" th:href="${link.url}" th:text="${link.title}"
+                       target="_blank"></a>
+                </h3>
+                <p class="mb-0">
+                    <span th:each="tag: ${link.tags}" style="font-size: 20px">
+                      <a
+                       href="#"
+                       th:href="${'/links?tag='+tag}"
+                       class="badge badge-primary"
+                       th:text="${tag}">Tag</a>
+                    </span>
+                    &nbsp;
+                </p>
+
+                <p sec:authorize="isAuthenticated()" class="mt-1 mb-0"
+                    th:if="${link.editable}">
+                    <a class="button" href="#" th:href="${'/links/edit/'+link.id}">
+                        <i class="fas fa-edit" ></i>
+                    </a>
+                   <a class="button" href="#"
+                           th:onclick="'javascript:deleteLink( \''+${link.id}+'\');'">
+                       <i class="fas fa-trash-alt" ></i>
+                   </a>
+                </p>
+            </div>
+        </div>
+
+        <div th:replace="fragments/pagination :: pagination"> </div>
+    </div>
+    <div class="col-md-3">
+        <h2>Tags</h2>
+        <div class="list-group list-group-flush">
+            <a href="#"
+               class="list-group-item list-group-item-action badge badge-primary"
+               th:each="tag: ${tags}"
+               th:href="${'/links?tag='+tag.name}">
+                <i class="fas fa-tag" ></i>
+                <strong style="font-size: 16px;"><span th:text="${tag.name}">Tag Name</span></strong>
+            </a>
+        </div>
+    </div>
+    </div>
+</div>
+<div layout:fragment="pageScripts">
+
+    <script th:inline="javascript">
+        /*<![CDATA[*/
+        var page = /*[[${page}]]*/ 1;
+        //console.log(page);
+        /*]]>*/
+    </script>
+</div>
+</body>
+</html>

@@ -1,0 +1,126 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath "com.avast.gradle:gradle-docker-compose-plugin:${docker_compose_plugin_version}"
+        classpath "org.owasp:dependency-check-gradle:5.2.1"
+    }
+}
+
+plugins {
+    id "java-library"
+    id "org.springframework.boot" version "${spring_boot_version}"
+    id "io.spring.dependency-management" version "${spring_dependency_management_version}"
+    id "com.gorylenko.gradle-git-properties" version "${git_properties_plugin_version}"
+    id "com.github.spotbugs" version "4.5.0" apply false
+    id "org.sonarqube" version "3.0" apply false
+}
+apply plugin: "idea"
+apply plugin: "docker-compose"
+apply from: "gradle/tests.gradle"
+apply from: "gradle/code-quality.gradle"
+//apply from: "gradle/owasp.gradle"
+
+group = "com.sivalabs"
+version = "0.0.1-SNAPSHOT"
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.springframework.boot:spring-boot-starter-actuator"
+    implementation "org.springframework.boot:spring-boot-starter-cache"
+    implementation "org.springframework.boot:spring-boot-starter-data-jpa"
+    implementation "org.springframework.boot:spring-boot-starter-validation"
+    implementation "org.springframework.boot:spring-boot-starter-mail"
+    implementation "org.springframework.boot:spring-boot-starter-web"
+    implementation "org.springframework.boot:spring-boot-starter-thymeleaf"
+    implementation "org.thymeleaf.extras:thymeleaf-extras-springsecurity5"
+    implementation "nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect"
+
+
+    implementation "org.springframework.boot:spring-boot-starter-security"
+    implementation "io.jsonwebtoken:jjwt:${jjwt_version}"
+    implementation "org.zalando:problem-spring-web-starter:${problem_spring_web_version}"
+
+    implementation "org.flywaydb:flyway-core"
+    compileOnly "org.projectlombok:lombok"
+    testImplementation "org.projectlombok:lombok"
+    developmentOnly "org.springframework.boot:spring-boot-devtools"
+    runtimeOnly "com.h2database:h2"
+    runtimeOnly "io.micrometer:micrometer-registry-prometheus"
+    runtimeOnly "org.postgresql:postgresql"
+    annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
+    annotationProcessor "org.projectlombok:lombok"
+
+    implementation "io.springfox:springfox-swagger2:${swagger_version}"
+    implementation "io.springfox:springfox-swagger-ui:${swagger_version}"
+
+    implementation "org.webjars:bootstrap:${wj_bootstrap_version}"
+    implementation "org.webjars:font-awesome:${wj_fontawesome_version}"
+    implementation "org.webjars:vue:${wj_vue_version}"
+
+    implementation "com.opencsv:opencsv:${opencsv_version}"
+    implementation "org.jsoup:jsoup:${jsoup_version}"
+    implementation "com.github.ulisesbocchio:jasypt-spring-boot-starter:${jasypt_version}"
+    implementation "org.apache.commons:commons-lang3:${commons_lang_version}"
+    implementation "commons-io:commons-io:${commons_io_version}"
+
+    testImplementation("org.springframework.boot:spring-boot-starter-test") {
+        exclude group: "org.junit.vintage", module: "junit-vintage-engine"
+    }
+    testImplementation "org.testcontainers:junit-jupiter"
+    testImplementation "org.testcontainers:postgresql"
+    testImplementation "com.tngtech.archunit:archunit-junit5:${archunit_junit5_version}"
+}
+
+dependencyManagement {
+    imports {
+        mavenBom "org.springframework.cloud:spring-cloud-dependencies:${spring_cloud_version}"
+        mavenBom "org.testcontainers:testcontainers-bom:${testcontainers_version}"
+    }
+}
+
+springBoot {
+    buildInfo()
+}
+
+bootJar {
+    //launchScript()
+}
+//bootBuildInfo.mustRunAfter processResources
+bootBuildImage {
+    imageName = "sivaprasadreddy/devzone-api-springboot"
+}
+
+//dockerCompose.isRequiredBy(test)
+dockerCompose {
+    useComposeFiles = ["docker-compose.yml"]
+    //isRequiredBy(project.tasks.test)
+}
+
+compileJava.dependsOn processResources
+processResources.dependsOn bootBuildInfo
+
+bootRun {
+    args = ["--spring.profiles.active=local"]
+}
+bootRun.dependsOn composeUp
+
+gitProperties {
+    failOnNoGitDirectory = false
+    keys = ["git.branch", "git.commit.id.abbrev", "git.commit.id.describe"]
+}

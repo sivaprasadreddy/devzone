@@ -1,0 +1,21 @@
+url,title,tags
+https://linuxize.com/post/how-to-remove-docker-images-containers-volumes-and-networks/,"How To Remove Docker Containers, Images, Volumes, and Networks",docker
+https://reflectoring.io/unit-testing-spring-boot/,"All You Need To Know About Unit Testing with Spring Boot",spring-boot|junit
+https://winterbe.com/posts/2018/08/29/migrate-maven-projects-to-java-11-jigsaw/,"Migrate Maven Projects to Java 11",java|maven
+https://www.devglan.com/spring-security/spring-boot-jwt-auth,"Spring Boot Security Jwt Authentication",spring-boot|security
+https://junit.org/junit5/docs/current/user-guide/,"JUnit 5 User Guide",junit
+https://shekhargulati.com/2019/01/13/running-tests-and-building-react-applications-with-gradle-build-tool/,"Running Tests and Building React applications with Gradle Build Tool",gradle
+http://lewandowski.io/2016/02/formatting-java-time-with-spring-boot-using-json/index.html,"Formatting Java Time with Spring Boot using JSON",spring-boot
+https://blog.ippon.tech/creating-a-modern-web-app-using-vuejs-and-spring-boot-with-jhipster/,"Creating a modern Web app using Vue.js and Spring Boot with JHipster",jhipster|spring-boot|vuejs
+https://advancedweb.hu/2019/02/19/post_java_8/,"A categorized list of all Java and JVM features since JDK 8",java
+https://blog.jooq.org/2014/06/25/flyway-and-jooq-for-unbeatable-sql-development-productivity/,"Flyway and jOOQ for Unbeatable SQL Development Productivity",jooq|flyway
+https://reversecoding.net/spring-mvc-requestparam-binding-request-parameters/,"Spring MVC @Requestparam - Binding request parameters",java|spring-mvc
+https://www.marcobehler.com/guides/java-microservices-a-practical-guide,"Java Microservices: A Practical Guide",microservices|spring-boot
+https://github.com/gavlyukovskiy/spring-boot-data-source-decorator, "Spring Boot integration with p6spy, datasource-proxy, flexy-pool and spring-cloud-sleuth",spring-boot
+https://www.sitepoint.com/javascript-command-line-interface-cli-node-js/,"Build a JavaScript Command Line Interface (CLI) with Node.js",nodejs
+https://medium.com/faun/continuous-integration-of-java-project-with-github-actions-7a8a0e8246ef,"Continuous Integration of Java project with GitHub Actions",java|github|ci-cd
+https://rachelcarmena.github.io/2018/12/12/how-to-teach-git.html,"How to teach Git",git
+https://blog.noizwaves.io/2017/09/02/slow-spring-boot-startup.html,"Fixing Slow Spring Boot Startup",spring-boot
+https://rskupnik.github.io/framework-independence-with-hexagonal-architecture,"Achieving framework-independent zen with the power of interfaces and hexagonal architecture",architecture|spring
+https://www.baeldung.com/jackson-deserialize-immutable-objects,"Deserialize Immutable Objects with Jackson",java|jackson|json
+https://sivalabs.in/2020/02/spring-boot-integration-testing-using-testcontainers-starter/,"SpringBoot Integration Testing using TestContainers Starter",spring-boot|testcontainers
