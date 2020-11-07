@@ -46,7 +46,7 @@ public class AuthUserRestController {
     public void changePassword(@RequestBody @Valid ChangePasswordRequest changePasswordRequest,
                                @CurrentUser User loginUser) {
         String email = loginUser.getEmail();
-        log.info("process=change_password, email=" + email);
+        log.info("process=change_password, email={}", email);
         userService.changePassword(email, changePasswordRequest);
     }
 }

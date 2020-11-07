@@ -30,11 +30,13 @@ public class LoggingAspect {
         + " || within(@org.springframework.stereotype.Service *)"
         + " || within(@org.springframework.web.bind.annotation.RestController *)")
     public void springBeanPointcut() {
+        // pointcut definition
     }
 
     @Pointcut("@within(com.sivalabs.devzone.config.logging.Loggable) || "
         + "@annotation(com.sivalabs.devzone.config.logging.Loggable)")
     public void applicationPackagePointcut() {
+        // pointcut definition
     }
 
     @AfterThrowing(pointcut = "applicationPackagePointcut()", throwing = "e")
@@ -56,21 +58,13 @@ public class LoggingAspect {
             log.trace("Enter: {}.{}()", joinPoint.getSignature().getDeclaringTypeName(),
                 joinPoint.getSignature().getName());
         }
-        try {
-            long start = System.currentTimeMillis();
-            Object result = joinPoint.proceed();
-            long end = System.currentTimeMillis();
-            if (log.isTraceEnabled()) {
-                log.trace("Exit: {}.{}(). Time taken: {} millis", joinPoint.getSignature().getDeclaringTypeName(),
-                    joinPoint.getSignature().getName(), TimeUtils.millisToLongDHMS(end - start));
-            }
-            return result;
-        } catch (IllegalArgumentException e) {
-            log.error("Illegal argument Exception: {} in {}.{}()", e, joinPoint.getSignature().getDeclaringTypeName(),
-                joinPoint.getSignature().getName());
-
-            throw e;
+        long start = System.currentTimeMillis();
+        Object result = joinPoint.proceed();
+        long end = System.currentTimeMillis();
+        if (log.isTraceEnabled()) {
+            log.trace("Exit: {}.{}(). Time taken: {} millis", joinPoint.getSignature().getDeclaringTypeName(),
+                joinPoint.getSignature().getName(), TimeUtils.millisToLongDHMS(end - start));
         }
+        return result;
     }
-
 }

@@ -1,8 +1,8 @@
-version: '3.8'
+version: '3.5'
 services:
 
-  devzone-db:
-    image: postgres:10.7
+  app-db:
+    image: postgres:12.3
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres

@@ -1,0 +1,18 @@
+version: '3.5'
+
+services:
+
+  devzone:
+    build: ../.
+    ports:
+      - "18080:8080"
+      - "18787:8787"
+    restart: always
+    depends_on:
+      - app-db
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+      SPRING_DATASOURCE_DRIVER_CLASS_NAME: org.postgresql.Driver
+      SPRING_DATASOURCE_URL: jdbc:postgresql://app-db:5432/postgres
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: postgres
