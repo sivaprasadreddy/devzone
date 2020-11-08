@@ -52,7 +52,9 @@ public class UserDTO {
         dto.setEmail(user.getEmail());
         dto.setPassword(user.getPassword());
         dto.setImageUrl(user.getImageUrl());
-        dto.setRoles(user.getRoles().stream().map(Role::getName).collect(Collectors.toList()));
+        if (user.getRoles() != null) {
+            dto.setRoles(user.getRoles().stream().map(Role::getName).collect(Collectors.toList()));
+        }
         return dto;
     }
 }

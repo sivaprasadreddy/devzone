@@ -4,10 +4,11 @@ import com.sivalabs.devzone.config.security.SecurityUser;
 import com.sivalabs.devzone.domain.entities.RoleEnum;
 import com.sivalabs.devzone.domain.entities.User;
 import com.sivalabs.devzone.domain.models.LinkDTO;
-import com.sivalabs.devzone.domain.repositories.UserRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -19,13 +20,16 @@ import java.util.Objects;
 @Transactional
 @RequiredArgsConstructor
 public class SecurityService {
-    private final UserRepository userRepository;
+    private final UserService userService;
 
     public User loginUser() {
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         if (authentication != null && authentication.getPrincipal() instanceof SecurityUser) {
             SecurityUser securityUser = (SecurityUser) authentication.getPrincipal();
             return securityUser.getUser();
+        } else if (authentication instanceof UsernamePasswordAuthenticationToken) {
+            UserDetails userDetails = (UserDetails) authentication.getPrincipal();
+            return userService.getUserByEmail(userDetails.getUsername()).orElse(null);
         }
         return null;
     }

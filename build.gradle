@@ -83,6 +83,7 @@ dependencies {
     testImplementation("org.springframework.boot:spring-boot-starter-test") {
         exclude group: "org.junit.vintage", module: "junit-vintage-engine"
     }
+    testImplementation "org.springframework.security:spring-security-test"
     testImplementation "org.testcontainers:junit-jupiter"
     testImplementation "org.testcontainers:postgresql"
     testImplementation "com.tngtech.archunit:archunit-junit5:${archunit_junit5_version}"

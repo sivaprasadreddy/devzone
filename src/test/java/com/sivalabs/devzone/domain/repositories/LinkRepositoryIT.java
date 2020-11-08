@@ -1,5 +1,6 @@
 package com.sivalabs.devzone.domain.repositories;
 
+import com.sivalabs.devzone.common.TestContainersInitializer;
 import com.sivalabs.devzone.domain.entities.Link;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
@@ -8,7 +9,6 @@ import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabas
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.test.context.ActiveProfiles;
 
-import javax.persistence.EntityManager;
 import java.util.List;
 
 import static com.sivalabs.devzone.utils.TestConstants.PROFILE_IT;
@@ -18,10 +18,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @DataJpaTest
 @AutoConfigureTestDatabase(replace= AutoConfigureTestDatabase.Replace.NONE)
 @ActiveProfiles(PROFILE_IT)
-class LinkRepositoryIT {
-
-    @Autowired
-    private EntityManager entityManager;
+class LinkRepositoryIT extends TestContainersInitializer {
 
     @Autowired
     private LinkRepository linkRepository;

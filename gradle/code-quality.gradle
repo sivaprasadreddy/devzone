@@ -4,6 +4,8 @@ apply plugin: 'jacoco'
 apply plugin: "com.github.spotbugs"
 apply plugin: "org.sonarqube"
 
+def jacocoMinCoverageRequired = 0.6
+
 checkstyle {
     toolVersion "${checkstyle_version}"
     maxWarnings = 0
@@ -49,27 +51,27 @@ jacocoTestReport {
 
     reports {
         xml.enabled = true
+        html.enabled = true
     }
 }
 
 jacocoTestCoverageVerification {
-    afterEvaluate {
-        getClassDirectories().setFrom(files(classDirectories.files.collect {
-            fileTree(dir: it, exclude: jacocoExcludes)
-        }))
-    }
+    executionData fileTree(project.buildDir.absolutePath).include("jacoco/*.exec")
 
     violationRules {
         rule {
             limit {
                 counter = 'LINE'
                 value = 'COVEREDRATIO'
-                minimum = 0.03
+                minimum = jacocoMinCoverageRequired
             }
             excludes = jacocoExcludes
         }
     }
 }
+
+test.finalizedBy jacocoTestReport
+check.dependsOn jacocoTestCoverageVerification
 
 sonarqube {
     properties {
@@ -78,6 +80,3 @@ sonarqube {
         property "sonar.host.url", "https://sonarcloud.io"
     }
 }
-
-test.finalizedBy jacocoTestReport
-check.dependsOn jacocoTestCoverageVerification

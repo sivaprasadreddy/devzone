@@ -1,11 +1,11 @@
 package com.sivalabs.devzone.web.api.resources;
 
 import com.sivalabs.devzone.annotations.AnyAuthenticatedUser;
-import com.sivalabs.devzone.domain.exceptions.ResourceNotFoundException;
 import com.sivalabs.devzone.domain.models.CreateUserRequest;
 import com.sivalabs.devzone.domain.models.UserDTO;
 import com.sivalabs.devzone.domain.services.SecurityService;
 import com.sivalabs.devzone.domain.services.UserService;
+import com.sivalabs.devzone.web.exceptions.BadRequestException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
@@ -60,7 +60,7 @@ public class UserRestController {
     public UserDTO updateUser(@PathVariable Long id, @RequestBody @Valid UserDTO user) {
         log.info("process=update_user, user_id={}", id);
         if (!id.equals(securityService.loginUserId())) {
-            throw new ResourceNotFoundException("User not found with id=" + id);
+            throw new BadRequestException("Invalid details");
         }
         user.setId(id);
         return userService.updateUser(user);
@@ -75,7 +75,7 @@ public class UserRestController {
             return ResponseEntity.notFound().build();
         }
         if (!id.equals(securityService.loginUserId()) && !securityService.isCurrentUserAdmin()) {
-            return ResponseEntity.notFound().build();
+            return ResponseEntity.badRequest().build();
         }
         userService.deleteUser(id);
         return ResponseEntity.ok().build();

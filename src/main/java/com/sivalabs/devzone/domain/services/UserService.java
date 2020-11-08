@@ -43,7 +43,7 @@ public class UserService {
         }
         user.setPassword(passwordEncoder.encode(user.getPassword()));
         User userEntity = user.toEntity();
-        Optional<Role> roleUser = roleRepository.findByName(RoleEnum.ROLE_USER.name());
+        Optional<Role> roleUser = roleRepository.findByName(RoleEnum.ROLE_USER);
         userEntity.setRoles(Collections.singleton(roleUser.orElse(null)));
         return UserDTO.fromEntity(userRepository.save(userEntity));
     }
