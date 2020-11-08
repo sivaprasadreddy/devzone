@@ -118,7 +118,7 @@ compileJava.dependsOn processResources
 processResources.dependsOn bootBuildInfo
 
 bootRun {
-    args = ["--spring.profiles.active=local"]
+    args = ["--spring.profiles.active=dev"]
 }
 bootRun.dependsOn composeUp
 
