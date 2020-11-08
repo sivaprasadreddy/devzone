@@ -39,9 +39,9 @@ public class Application {
         } catch (UnknownHostException e) {
             log.warn("The host name could not be determined, using `localhost` as fallback");
         }
-        log.info("\n--------------------------------------------------------------\n" +
-                "\tApplication '{}' is running at {}://{}:{}{}\n" +
-                "\tProfile(s): {}\n--------------------------------------------------------------",
+        log.info("\n--------------------------------------------------------------\n"
+                + "\tApplication '{}' is running at {}://{}:{}{}\n"
+                + "\tProfile(s): {}\n--------------------------------------------------------------",
             env.getProperty("spring.application.name"),
             protocol, hostAddress, serverPort, contextPath,
             env.getActiveProfiles().length == 0 ? env.getDefaultProfiles() : env.getActiveProfiles());
