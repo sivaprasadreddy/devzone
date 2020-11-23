@@ -4,7 +4,7 @@ buildscript {
     }
     dependencies {
         classpath "com.avast.gradle:gradle-docker-compose-plugin:${docker_compose_plugin_version}"
-        classpath "org.owasp:dependency-check-gradle:5.2.1"
+        classpath "org.owasp:dependency-check-gradle:${owasp_plugin_version}"
     }
 }
 
@@ -13,8 +13,9 @@ plugins {
     id "org.springframework.boot" version "${spring_boot_version}"
     id "io.spring.dependency-management" version "${spring_dependency_management_version}"
     id "com.gorylenko.gradle-git-properties" version "${git_properties_plugin_version}"
-    id "com.github.spotbugs" version "4.5.0" apply false
-    id "org.sonarqube" version "3.0" apply false
+    id "com.github.ben-manes.versions" version "${versions_plugin_version}"
+    id "com.github.spotbugs" version "${spotbugs_plugin_version}" apply false
+    id "org.sonarqube" version "${sonarqube_plugin_version}" apply false
 }
 apply plugin: "idea"
 apply plugin: "docker-compose"
@@ -38,6 +39,7 @@ configurations {
 
 repositories {
     mavenCentral()
+    maven { url 'https://repo.spring.io/milestone' }
 }
 
 dependencies {
