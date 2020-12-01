@@ -4,7 +4,6 @@ import com.sivalabs.devzone.config.ApplicationProperties;
 import com.sivalabs.devzone.config.security.SecurityUserDetailsService;
 import com.sivalabs.devzone.config.security.SecurityUser;
 import com.sivalabs.devzone.config.security.TokenHelper;
-import com.sivalabs.devzone.domain.entities.Role;
 import com.sivalabs.devzone.domain.models.AuthUserDTO;
 import com.sivalabs.devzone.domain.models.AuthenticationRequest;
 import com.sivalabs.devzone.domain.models.AuthenticationResponse;
@@ -23,7 +22,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
 import java.time.LocalDateTime;
-import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/auth")
@@ -72,7 +70,7 @@ public class AuthenticationRestController {
             .user(AuthUserDTO.builder()
                 .name(user.getUser().getName())
                 .email(user.getUser().getEmail())
-                .roles(user.getUser().getRoles().stream().map(Role::getName).collect(Collectors.toList()))
+                .role(user.getUser().getRole())
                 .build())
             .accessToken(token)
             .expiresAt(LocalDateTime.now().plusSeconds(applicationProperties.getJwt().getExpiresIn()))

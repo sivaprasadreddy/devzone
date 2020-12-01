@@ -53,7 +53,6 @@ dependencies {
     implementation "org.thymeleaf.extras:thymeleaf-extras-springsecurity5"
     implementation "nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect"
 
-
     implementation "org.springframework.boot:spring-boot-starter-security"
     implementation "io.jsonwebtoken:jjwt:${jjwt_version}"
     implementation "org.zalando:problem-spring-web-starter:${problem_spring_web_version}"

@@ -1,7 +1,6 @@
 package com.sivalabs.devzone.domain.models;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.sivalabs.devzone.domain.entities.Role;
 import com.sivalabs.devzone.domain.entities.RoleEnum;
 import com.sivalabs.devzone.domain.entities.User;
 import lombok.AllArgsConstructor;
@@ -10,8 +9,6 @@ import lombok.NoArgsConstructor;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
-import java.util.List;
-import java.util.stream.Collectors;
 
 @Data
 @NoArgsConstructor
@@ -32,8 +29,7 @@ public class UserDTO {
 
     private String imageUrl;
 
-
-    private List<RoleEnum> roles;
+    private RoleEnum role;
 
     public User toEntity() {
         User user = new User();
@@ -52,9 +48,7 @@ public class UserDTO {
         dto.setEmail(user.getEmail());
         dto.setPassword(user.getPassword());
         dto.setImageUrl(user.getImageUrl());
-        if (user.getRoles() != null) {
-            dto.setRoles(user.getRoles().stream().map(Role::getName).collect(Collectors.toList()));
-        }
+        dto.setRole(user.getRole());
         return dto;
     }
 }

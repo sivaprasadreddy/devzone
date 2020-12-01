@@ -3,7 +3,6 @@ package com.sivalabs.devzone.web.api.resources;
 import com.sivalabs.devzone.annotations.AnyAuthenticatedUser;
 import com.sivalabs.devzone.annotations.CurrentUser;
 import com.sivalabs.devzone.config.security.SecurityUtils;
-import com.sivalabs.devzone.domain.entities.Role;
 import com.sivalabs.devzone.domain.entities.User;
 import com.sivalabs.devzone.domain.models.AuthUserDTO;
 import com.sivalabs.devzone.domain.models.ChangePasswordRequest;
@@ -16,7 +15,6 @@ import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/user")
@@ -34,7 +32,7 @@ public class AuthUserRestController {
             AuthUserDTO userDTO = AuthUserDTO.builder()
                 .name(loginUser.getName())
                 .email(loginUser.getEmail())
-                .roles(loginUser.getRoles().stream().map(Role::getName).collect(Collectors.toList()))
+                .role(loginUser.getRole())
                 .build();
             return ResponseEntity.ok(userDTO);
         }

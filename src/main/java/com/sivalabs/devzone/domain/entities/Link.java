@@ -3,29 +3,19 @@ package com.sivalabs.devzone.domain.entities;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.persistence.CascadeType;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.JoinTable;
-import javax.persistence.ManyToMany;
-import javax.persistence.ManyToOne;
-import javax.persistence.SequenceGenerator;
-import javax.persistence.Table;
+import javax.persistence.*;
 import javax.validation.constraints.NotEmpty;
 import java.io.Serializable;
 import java.util.Set;
 
-@Entity
-@Table(name = "links")
 @Setter
 @Getter
+@Entity
+@Table(name = "links")
 public class Link extends BaseEntity implements Serializable {
     @Id
-    @SequenceGenerator(name = "link_id_generator", sequenceName = "link_id_seq", allocationSize = 1)
-    @GeneratedValue(generator = "link_id_generator")
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "link_id_generator")
+    @SequenceGenerator(name = "link_id_generator", sequenceName = "link_id_seq", allocationSize = 100)
     private Long id;
 
     @Column(nullable = false)

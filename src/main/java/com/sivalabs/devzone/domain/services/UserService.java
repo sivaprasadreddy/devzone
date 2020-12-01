@@ -1,13 +1,11 @@
 package com.sivalabs.devzone.domain.services;
 
-import com.sivalabs.devzone.domain.entities.Role;
 import com.sivalabs.devzone.domain.entities.RoleEnum;
 import com.sivalabs.devzone.domain.entities.User;
 import com.sivalabs.devzone.domain.exceptions.DevZoneException;
 import com.sivalabs.devzone.domain.exceptions.ResourceNotFoundException;
 import com.sivalabs.devzone.domain.models.ChangePasswordRequest;
 import com.sivalabs.devzone.domain.models.UserDTO;
-import com.sivalabs.devzone.domain.repositories.RoleRepository;
 import com.sivalabs.devzone.domain.repositories.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -15,7 +13,6 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.Collections;
 import java.util.Optional;
 
 @Service
@@ -24,7 +21,6 @@ import java.util.Optional;
 @RequiredArgsConstructor
 public class UserService {
     private final UserRepository userRepository;
-    private final RoleRepository roleRepository;
     private final PasswordEncoder passwordEncoder;
 
     @Transactional(readOnly = true)
@@ -43,8 +39,7 @@ public class UserService {
         }
         user.setPassword(passwordEncoder.encode(user.getPassword()));
         User userEntity = user.toEntity();
-        Optional<Role> roleUser = roleRepository.findByName(RoleEnum.ROLE_USER);
-        userEntity.setRoles(Collections.singleton(roleUser.orElse(null)));
+        userEntity.setRole(RoleEnum.ROLE_USER);
         return UserDTO.fromEntity(userRepository.save(userEntity));
     }
 
@@ -53,7 +48,7 @@ public class UserService {
             .orElseThrow(() -> new ResourceNotFoundException("User with id " + user.getId() + " not found"));
         User userEntity = user.toEntity();
         userEntity.setPassword(userById.getPassword());
-        userEntity.setRoles(userById.getRoles());
+        userEntity.setRole(userById.getRole());
         return UserDTO.fromEntity(userRepository.save(userEntity));
     }
 

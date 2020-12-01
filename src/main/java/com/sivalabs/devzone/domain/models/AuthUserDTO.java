@@ -7,8 +7,6 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.List;
-
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -20,6 +18,6 @@ public class AuthUserDTO {
     @JsonProperty("email")
     private String email;
 
-    @JsonProperty("roles")
-    private List<RoleEnum> roles;
+    @JsonProperty("role")
+    private RoleEnum role;
 }

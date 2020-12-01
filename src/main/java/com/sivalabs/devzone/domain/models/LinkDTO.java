@@ -33,10 +33,6 @@ public class LinkDTO {
 
     private boolean editable;
 
-    public List<String> getTags() {
-        return this.tags;
-    }
-
     public String getTagsAsString() {
         return String.join(",", getTags());
     }

@@ -15,6 +15,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
@@ -39,12 +40,18 @@ public class LinkService {
 
     @Transactional(readOnly = true)
     public LinksDTO getAllLinks(Pageable pageable) {
-        return buildLinksResult(linkRepository.findAll(pageable));
+        Page<Long> pageOfLinkIds = linkRepository.fetchLinkIds(pageable);
+        List<Link> links = linkRepository.findLinksWithTags(pageOfLinkIds.getContent(), pageable.getSort());
+        Page<Link> pageOfAuthors = new PageImpl<>(links, pageable, pageOfLinkIds.getTotalElements());
+        return buildLinksResult(pageOfAuthors);
     }
 
     @Transactional(readOnly = true)
     public LinksDTO searchLinks(String query, Pageable pageable) {
-        return buildLinksResult(linkRepository.findByTitleContainingIgnoreCase(query, pageable));
+        Page<Long> pageOfLinkIds = linkRepository.fetchLinkIdsByTitleContainingIgnoreCase(query, pageable);
+        List<Link> links = linkRepository.findLinksWithTags(pageOfLinkIds.getContent(), pageable.getSort());
+        Page<Link> pageOfAuthors = new PageImpl<>(links, pageable, pageOfLinkIds.getTotalElements());
+        return buildLinksResult(pageOfAuthors);
     }
 
     @Transactional(readOnly = true)
@@ -53,7 +60,10 @@ public class LinkService {
         if (tagOptional.isEmpty()) {
             throw new ResourceNotFoundException("Tag " + tag + " not found");
         }
-        return buildLinksResult(linkRepository.findByTag(tag, pageable));
+        Page<Long> pageOfLinkIds = linkRepository.fetchLinkIdsByTag(tag, pageable);
+        List<Link> links = linkRepository.findLinksWithTags(pageOfLinkIds.getContent(), pageable.getSort());
+        Page<Link> pageOfAuthors = new PageImpl<>(links, pageable, pageOfLinkIds.getTotalElements());
+        return buildLinksResult(pageOfAuthors);
     }
 
     @Transactional(readOnly = true)

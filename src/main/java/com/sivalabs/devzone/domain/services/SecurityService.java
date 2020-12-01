@@ -13,7 +13,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Arrays;
-import java.util.List;
 import java.util.Objects;
 
 @Service
@@ -58,11 +57,6 @@ public class SecurityService {
     }
 
     private boolean isUserHasAnyRole(User loginUser, RoleEnum... roles) {
-        List<RoleEnum> roleList = Arrays.asList(roles);
-        if (loginUser != null && loginUser.getRoles() != null) {
-            return loginUser.getRoles().stream()
-                .anyMatch(role -> roleList.contains(role.getName()));
-        }
-        return false;
+        return Arrays.asList(roles).contains(loginUser.getRole());
     }
 }

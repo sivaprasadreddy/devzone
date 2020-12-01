@@ -4,16 +4,14 @@ import com.sivalabs.devzone.domain.entities.User;
 import lombok.EqualsAndHashCode;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 
-import java.util.stream.Collectors;
+import java.util.Set;
 
 @EqualsAndHashCode(callSuper = true)
 public class SecurityUser extends org.springframework.security.core.userdetails.User {
     private final User user;
 
     public SecurityUser(User user) {
-        super(user.getEmail(), user.getPassword(),
-            user.getRoles().stream()
-                .map(role -> new SimpleGrantedAuthority(role.getName().name())).collect(Collectors.toList()));
+        super(user.getEmail(), user.getPassword(), Set.of(new SimpleGrantedAuthority(user.getRole().name())));
         this.user = user;
     }
 
