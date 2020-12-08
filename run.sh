@@ -39,7 +39,6 @@ function build_api() {
     ./gradlew clean build
 }
 
-
 action="start"
 
 if [[ "$#" != "0"  ]]
