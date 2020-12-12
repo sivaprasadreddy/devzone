@@ -1,19 +1,15 @@
-pipeline {
-    agent any
+#!groovy
 
-    triggers {
-            pollSCM('* * * * *')
-    }
+node {
 
-    environment {
-        APPLICATION_NAME = 'devzone'
-    }
-
-    stages {
+    try {
+        checkout scm
         stage('Build') {
-            steps {
-                sh './gradlew clean build'
-            }
+            sh './gradlew build'
         }
+    }
+    catch(err) {
+        echo "ERROR: ${err}"
+        currentBuild.result = currentBuild.result ?: "FAILURE"
     }
 }
