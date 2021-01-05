@@ -67,8 +67,7 @@ dependencies {
     annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
     annotationProcessor "org.projectlombok:lombok"
 
-    implementation "io.springfox:springfox-swagger2:${swagger_version}"
-    implementation "io.springfox:springfox-swagger-ui:${swagger_version}"
+    implementation "io.springfox:springfox-boot-starter:${swagger_version}"
 
     implementation "org.webjars:bootstrap:${wj_bootstrap_version}"
     implementation "org.webjars:font-awesome:${wj_fontawesome_version}"
