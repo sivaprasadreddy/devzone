@@ -1,5 +1,7 @@
 package com.sivalabs.devzone.web.api.resources;
 
+import static org.springframework.data.domain.Sort.Direction.DESC;
+
 import com.sivalabs.devzone.annotations.AnyAuthenticatedUser;
 import com.sivalabs.devzone.annotations.CurrentUser;
 import com.sivalabs.devzone.domain.entities.User;
@@ -8,6 +10,7 @@ import com.sivalabs.devzone.domain.models.LinkDTO;
 import com.sivalabs.devzone.domain.models.LinksDTO;
 import com.sivalabs.devzone.domain.services.LinkService;
 import com.sivalabs.devzone.domain.services.SecurityService;
+import javax.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
@@ -27,10 +30,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.validation.Valid;
-
-import static org.springframework.data.domain.Sort.Direction.DESC;
-
 @RestController
 @RequestMapping("/api")
 @RequiredArgsConstructor
@@ -41,10 +40,11 @@ public class LinkRestController {
 
     @GetMapping("/links")
     public LinksDTO home(
-        @RequestParam(name = "query", required = false) String query,
-        @RequestParam(name = "tag", required = false) String tag,
-        @PageableDefault(size = 15)
-        @SortDefault.SortDefaults({@SortDefault(sort = "createdAt", direction = DESC)}) Pageable pageable) {
+            @RequestParam(name = "query", required = false) String query,
+            @RequestParam(name = "tag", required = false) String tag,
+            @PageableDefault(size = 15)
+                    @SortDefault.SortDefaults({@SortDefault(sort = "createdAt", direction = DESC)})
+                    Pageable pageable) {
         LinksDTO data;
         if (StringUtils.isNotEmpty(tag)) {
             log.info("Fetching links for tag {} with page: {}", tag, pageable.getPageNumber());
@@ -67,17 +67,15 @@ public class LinkRestController {
     @PostMapping("/links")
     @ResponseStatus(HttpStatus.CREATED)
     @AnyAuthenticatedUser
-    public void createLink(@Valid @RequestBody LinkDTO link,
-                               @CurrentUser User loginUser) {
+    public void createLink(@Valid @RequestBody LinkDTO link, @CurrentUser User loginUser) {
         link.setCreatedUserId(loginUser.getId());
         linkService.createLink(link);
     }
 
     @PutMapping("/links/{id}")
     @AnyAuthenticatedUser
-    public void updateLink(@PathVariable Long id,
-                               @Valid @RequestBody LinkDTO link,
-                               @CurrentUser User loginUser) {
+    public void updateLink(
+            @PathVariable Long id, @Valid @RequestBody LinkDTO link, @CurrentUser User loginUser) {
         this.checkPrivilege(id, link, loginUser);
         link.setId(id);
         link.setCreatedUserId(loginUser.getId());
@@ -94,8 +92,9 @@ public class LinkRestController {
     }
 
     private void checkPrivilege(Long linkId, LinkDTO link, User loginUser) {
-        if (link == null || !(link.getCreatedUserId().equals(loginUser.getId())
-            || securityService.isCurrentUserAdmin())) {
+        if (link == null
+                || !(link.getCreatedUserId().equals(loginUser.getId())
+                        || securityService.isCurrentUserAdmin())) {
             throw new ResourceNotFoundException("Link not found with id=" + linkId);
         }
     }

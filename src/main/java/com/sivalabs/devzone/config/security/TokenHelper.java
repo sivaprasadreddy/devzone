@@ -5,13 +5,12 @@ import com.sivalabs.devzone.domain.exceptions.DevZoneException;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
+import java.util.Date;
+import javax.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
-
-import javax.servlet.http.HttpServletRequest;
-import java.util.Date;
 
 @Component
 @RequiredArgsConstructor
@@ -39,11 +38,13 @@ public class TokenHelper {
         try {
             final Claims claims = this.getAllClaimsFromToken(token);
             claims.setIssuedAt(a);
-            refreshedToken = Jwts.builder()
-                .setClaims(claims)
-                .setExpiration(generateExpirationDate())
-                .signWith(SIGNATURE_ALGORITHM, applicationProperties.getJwt().getSecret())
-                .compact();
+            refreshedToken =
+                    Jwts.builder()
+                            .setClaims(claims)
+                            .setExpiration(generateExpirationDate())
+                            .signWith(
+                                    SIGNATURE_ALGORITHM, applicationProperties.getJwt().getSecret())
+                            .compact();
         } catch (Exception e) {
             log.error(e.getMessage(), e);
         }
@@ -52,22 +53,23 @@ public class TokenHelper {
 
     public String generateToken(String username) {
         return Jwts.builder()
-            .setIssuer(applicationProperties.getJwt().getIssuer())
-            .setSubject(username)
-            .setAudience(AUDIENCE_WEB)
-            .setIssuedAt(new Date())
-            .setExpiration(generateExpirationDate())
-            .signWith(SIGNATURE_ALGORITHM, applicationProperties.getJwt().getSecret())
-            .compact();
+                .setIssuer(applicationProperties.getJwt().getIssuer())
+                .setSubject(username)
+                .setAudience(AUDIENCE_WEB)
+                .setIssuedAt(new Date())
+                .setExpiration(generateExpirationDate())
+                .signWith(SIGNATURE_ALGORITHM, applicationProperties.getJwt().getSecret())
+                .compact();
     }
 
     private Claims getAllClaimsFromToken(String token) {
         Claims claims;
         try {
-            claims = Jwts.parser()
-                .setSigningKey(applicationProperties.getJwt().getSecret())
-                .parseClaimsJws(token)
-                .getBody();
+            claims =
+                    Jwts.parser()
+                            .setSigningKey(applicationProperties.getJwt().getSecret())
+                            .parseClaimsJws(token)
+                            .getBody();
         } catch (Exception e) {
             throw new DevZoneException(e);
         }
@@ -75,7 +77,8 @@ public class TokenHelper {
     }
 
     private Date generateExpirationDate() {
-        return new Date(System.currentTimeMillis() + applicationProperties.getJwt().getExpiresIn() * 1000);
+        return new Date(
+                System.currentTimeMillis() + applicationProperties.getJwt().getExpiresIn() * 1000);
     }
 
     public long getExpiredIn() {
@@ -98,5 +101,4 @@ public class TokenHelper {
     public String getAuthHeaderFromHeader(HttpServletRequest request) {
         return request.getHeader(applicationProperties.getJwt().getHeader());
     }
-
 }

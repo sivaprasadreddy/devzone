@@ -1,11 +1,11 @@
 package com.sivalabs.devzone.web.api.resources;
 
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+
 import com.sivalabs.devzone.common.AbstractIntegrationTest;
 import org.junit.jupiter.api.Test;
 import org.springframework.security.test.context.support.WithMockUser;
-
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 class AuthUserRestControllerIT extends AbstractIntegrationTest {
 

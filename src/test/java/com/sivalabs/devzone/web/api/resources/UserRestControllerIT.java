@@ -1,5 +1,9 @@
 package com.sivalabs.devzone.web.api.resources;
 
+import static org.springframework.http.MediaType.APPLICATION_JSON;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+
 import com.sivalabs.devzone.common.AbstractIntegrationTest;
 import com.sivalabs.devzone.domain.entities.User;
 import com.sivalabs.devzone.domain.models.ChangePasswordRequest;
@@ -11,14 +15,9 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.test.context.support.WithMockUser;
 
-import static org.springframework.http.MediaType.APPLICATION_JSON;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-
 class UserRestControllerIT extends AbstractIntegrationTest {
 
-    @Autowired
-    private UserService userService;
+    @Autowired private UserService userService;
 
     @Test
     void should_find_user_by_id() throws Exception {
@@ -28,26 +27,36 @@ class UserRestControllerIT extends AbstractIntegrationTest {
 
     @Test
     void should_create_new_user_with_valid_data() throws Exception {
-        CreateUserRequest createUserRequestDTO = CreateUserRequest.builder().email("myemail@gmail.com")
-            .password("secret").name("myname").build();
+        CreateUserRequest createUserRequestDTO =
+                CreateUserRequest.builder()
+                        .email("myemail@gmail.com")
+                        .password("secret")
+                        .name("myname")
+                        .build();
 
         this.mockMvc
-            .perform(post("/api/users").contentType(APPLICATION_JSON)
-                .content(objectMapper.writeValueAsString(createUserRequestDTO)))
-            .andExpect(status().isCreated());
-
+                .perform(
+                        post("/api/users")
+                                .contentType(APPLICATION_JSON)
+                                .content(objectMapper.writeValueAsString(createUserRequestDTO)))
+                .andExpect(status().isCreated());
     }
 
     @Test
     void should_fail_to_create_new_user_with_existing_email() throws Exception {
-        CreateUserRequest createUserRequestDTO = CreateUserRequest.builder().email("admin@gmail.com")
-            .password("secret").name("myname").build();
+        CreateUserRequest createUserRequestDTO =
+                CreateUserRequest.builder()
+                        .email("admin@gmail.com")
+                        .password("secret")
+                        .name("myname")
+                        .build();
 
         this.mockMvc
-            .perform(post("/api/users").contentType(APPLICATION_JSON)
-                .content(objectMapper.writeValueAsString(createUserRequestDTO)))
-            .andExpect(status().isBadRequest());
-
+                .perform(
+                        post("/api/users")
+                                .contentType(APPLICATION_JSON)
+                                .content(objectMapper.writeValueAsString(createUserRequestDTO)))
+                .andExpect(status().isBadRequest());
     }
 
     @Test
@@ -57,9 +66,12 @@ class UserRestControllerIT extends AbstractIntegrationTest {
 
         savedUser.setName("New name");
 
-        this.mockMvc.perform(put("/api/users/" + savedUser.getId()).contentType(APPLICATION_JSON)
-            .content(objectMapper.writeValueAsString(savedUser))).andExpect(status().isOk());
-
+        this.mockMvc
+                .perform(
+                        put("/api/users/" + savedUser.getId())
+                                .contentType(APPLICATION_JSON)
+                                .content(objectMapper.writeValueAsString(savedUser)))
+                .andExpect(status().isOk());
     }
 
     @Test
@@ -68,9 +80,12 @@ class UserRestControllerIT extends AbstractIntegrationTest {
         User savedUser = createUser("siva2@gmail.com");
         savedUser.setName("New name");
 
-        this.mockMvc.perform(put("/api/users/" + savedUser.getId()).contentType(APPLICATION_JSON)
-            .content(objectMapper.writeValueAsString(savedUser))).andExpect(status().isBadRequest());
-
+        this.mockMvc
+                .perform(
+                        put("/api/users/" + savedUser.getId())
+                                .contentType(APPLICATION_JSON)
+                                .content(objectMapper.writeValueAsString(savedUser)))
+                .andExpect(status().isBadRequest());
     }
 
     @Test
@@ -84,35 +99,45 @@ class UserRestControllerIT extends AbstractIntegrationTest {
     void should_be_able_to_delete_other_user_if_user_is_admin() throws Exception {
         User savedUser = createUser("someuser@gmail.com");
 
-        this.mockMvc.perform(delete("/api/users/{id}", savedUser.getId())).andExpect(status().isOk());
+        this.mockMvc
+                .perform(delete("/api/users/{id}", savedUser.getId()))
+                .andExpect(status().isOk());
     }
 
     @Test
     @WithMockUser("siva@gmail.com")
     void should_not_be_able_to_delete_other_user_if_not_admin() throws Exception {
         User savedUser = createUser("user123@gmail.com");
-        this.mockMvc.perform(delete("/api/users/{id}", savedUser.getId())).andExpect(status().isBadRequest());
+        this.mockMvc
+                .perform(delete("/api/users/{id}", savedUser.getId()))
+                .andExpect(status().isBadRequest());
     }
 
     @Test
     @WithMockUser("siva@gmail.com")
     void should_update_password_when_user_is_authorized() throws Exception {
-        ChangePasswordRequest changePasswordDTO = ChangePasswordRequest.builder().oldPassword("siva").newPassword("newpwd")
-            .build();
+        ChangePasswordRequest changePasswordDTO =
+                ChangePasswordRequest.builder().oldPassword("siva").newPassword("newpwd").build();
 
-        this.mockMvc.perform(post("/api/user/change-password").contentType(APPLICATION_JSON)
-            .content(objectMapper.writeValueAsString(changePasswordDTO))).andExpect(status().isOk());
-
+        this.mockMvc
+                .perform(
+                        post("/api/user/change-password")
+                                .contentType(APPLICATION_JSON)
+                                .content(objectMapper.writeValueAsString(changePasswordDTO)))
+                .andExpect(status().isOk());
     }
 
     @Test
     void should_fail_to_update_password_when_user_is_not_authorized() throws Exception {
-        ChangePasswordRequest changePasswordDTO = ChangePasswordRequest.builder().oldPassword("admin").newPassword("newpwd")
-            .build();
+        ChangePasswordRequest changePasswordDTO =
+                ChangePasswordRequest.builder().oldPassword("admin").newPassword("newpwd").build();
 
-        this.mockMvc.perform(post("/api/user/change-password").contentType(APPLICATION_JSON)
-            .content(objectMapper.writeValueAsString(changePasswordDTO))).andExpect(status().isForbidden());
-
+        this.mockMvc
+                .perform(
+                        post("/api/user/change-password")
+                                .contentType(APPLICATION_JSON)
+                                .content(objectMapper.writeValueAsString(changePasswordDTO)))
+                .andExpect(status().isForbidden());
     }
 
     private User createUser(String email) {
@@ -123,5 +148,4 @@ class UserRestControllerIT extends AbstractIntegrationTest {
         user.setPassword(plainPwd);
         return user;
     }
-
 }

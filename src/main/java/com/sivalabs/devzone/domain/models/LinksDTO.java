@@ -1,13 +1,12 @@
 package com.sivalabs.devzone.domain.models;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.springframework.data.domain.Page;
-
-import java.util.List;
 
 @Setter
 @Getter
@@ -18,12 +17,16 @@ public class LinksDTO {
     private long totalElements;
     private int pageNumber;
     private int totalPages;
+
     @JsonProperty("isFirst")
     private boolean isFirst;
+
     @JsonProperty("isLast")
     private boolean isLast;
+
     @JsonProperty("hasNext")
     private boolean hasNext;
+
     @JsonProperty("hasPrevious")
     private boolean hasPrevious;
 

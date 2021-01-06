@@ -7,13 +7,12 @@ import com.sivalabs.devzone.domain.exceptions.ResourceNotFoundException;
 import com.sivalabs.devzone.domain.models.ChangePasswordRequest;
 import com.sivalabs.devzone.domain.models.UserDTO;
 import com.sivalabs.devzone.domain.repositories.UserRepository;
+import java.util.Optional;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
-import java.util.Optional;
 
 @Service
 @Transactional
@@ -44,8 +43,13 @@ public class UserService {
     }
 
     public UserDTO updateUser(UserDTO user) {
-        User userById = userRepository.findById(user.getId())
-            .orElseThrow(() -> new ResourceNotFoundException("User with id " + user.getId() + " not found"));
+        User userById =
+                userRepository
+                        .findById(user.getId())
+                        .orElseThrow(
+                                () ->
+                                        new ResourceNotFoundException(
+                                                "User with id " + user.getId() + " not found"));
         User userEntity = user.toEntity();
         userEntity.setPassword(userById.getPassword());
         userEntity.setRole(userById.getRole());
@@ -57,8 +61,12 @@ public class UserService {
     }
 
     public void changePassword(String email, ChangePasswordRequest changePasswordRequest) {
-        User user = this.getUserByEmail(email)
-            .orElseThrow(() -> new ResourceNotFoundException("User with email " + email + " not found"));
+        User user =
+                this.getUserByEmail(email)
+                        .orElseThrow(
+                                () ->
+                                        new ResourceNotFoundException(
+                                                "User with email " + email + " not found"));
         if (passwordEncoder.matches(changePasswordRequest.getOldPassword(), user.getPassword())) {
             user.setPassword(passwordEncoder.encode(changePasswordRequest.getNewPassword()));
             userRepository.save(user);

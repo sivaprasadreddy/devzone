@@ -15,22 +15,24 @@ public class SwaggerConfig {
     @Bean
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
-            .select()
-            // .apis(RequestHandlerSelectors.any())
-            // .paths(PathSelectors.any())
+                .select()
+                // .apis(RequestHandlerSelectors.any())
+                // .paths(PathSelectors.any())
                 .apis(RequestHandlerSelectors.basePackage("com.sivalabs.devzone.web.api"))
                 .paths(PathSelectors.ant("/api/**"))
                 .build()
-            .apiInfo(apiInfo());
+                .apiInfo(apiInfo());
     }
 
     private ApiInfo apiInfo() {
         return new ApiInfo(
-            "DevZone Java REST API",
-            "DevZone Java REST API using SpringBoot",
-            "API TOS",
-            "Terms of services",
-            new Contact("Team", "www.example.com", "support@example.com"),
-            "License of API", "API license URL", Collections.emptyList());
+                "DevZone Java REST API",
+                "DevZone Java REST API using SpringBoot",
+                "API TOS",
+                "Terms of services",
+                new Contact("Team", "www.example.com", "support@example.com"),
+                "License of API",
+                "API license URL",
+                Collections.emptyList());
     }
 }

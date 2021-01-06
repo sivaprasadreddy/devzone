@@ -15,7 +15,12 @@ public class SecurityUserDetailsService implements UserDetailsService {
 
     @Override
     public UserDetails loadUserByUsername(String username) {
-        return userService.getUserByEmail(username).map(SecurityUser::new)
-            .orElseThrow(() -> new UsernameNotFoundException("No user found with username " + username));
+        return userService
+                .getUserByEmail(username)
+                .map(SecurityUser::new)
+                .orElseThrow(
+                        () ->
+                                new UsernameNotFoundException(
+                                        "No user found with username " + username));
     }
 }

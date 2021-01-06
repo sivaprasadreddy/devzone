@@ -10,18 +10,19 @@ buildscript {
 
 plugins {
     id "java-library"
-    id "org.springframework.boot" version "${spring_boot_version}"
-    id "io.spring.dependency-management" version "${spring_dependency_management_version}"
-    id "com.gorylenko.gradle-git-properties" version "${git_properties_plugin_version}"
-    id "com.github.ben-manes.versions" version "${versions_plugin_version}"
-    id "com.github.spotbugs" version "${spotbugs_plugin_version}" apply false
-    id "org.sonarqube" version "${sonarqube_plugin_version}" apply false
+    id "org.springframework.boot"
+    id "io.spring.dependency-management"
+    id "com.gorylenko.gradle-git-properties"
+    id "com.github.ben-manes.versions"
+    id "com.github.sherter.google-java-format"
+    id "com.github.spotbugs" apply false
+    id "org.sonarqube" apply false
+    id "org.owasp.dependencycheck" apply false
 }
 apply plugin: "idea"
 apply plugin: "docker-compose"
-apply from: "gradle/tests.gradle"
 apply from: "gradle/code-quality.gradle"
-//apply from: "gradle/owasp.gradle"
+apply from: "gradle/owasp.gradle"
 
 group = "com.sivalabs"
 version = "0.0.1-SNAPSHOT"
@@ -125,4 +126,49 @@ bootRun.dependsOn composeUp
 gitProperties {
     failOnNoGitDirectory = false
     keys = ["git.branch", "git.commit.id.abbrev", "git.commit.id.describe"]
+}
+
+googleJavaFormat {
+    options style: 'AOSP'
+}
+
+check.dependsOn verifyGoogleJavaFormat
+
+test {
+    useJUnitPlatform()
+    exclude "**/*IT*", "**/*IntegrationTest*"
+    testLogging {
+        events = ["PASSED", "FAILED", "SKIPPED"]
+        //showStandardStreams = true
+        exceptionFormat = "full"
+    }
+}
+
+task integrationTest(type: Test) {
+    useJUnitPlatform()
+
+    include "**/*IT*", "**/*IntegrationTest*"
+    shouldRunAfter test
+
+    testLogging {
+        events = ["PASSED", "FAILED", "SKIPPED"]
+        //showStandardStreams = true
+        exceptionFormat = "full"
+    }
+}
+
+check.dependsOn integrationTest
+
+task testReport(type: TestReport) {
+    destinationDir = file("$buildDir/reports/tests")
+    reportOn test
+}
+
+task integrationTestReport(type: TestReport) {
+    destinationDir = file("$buildDir/reports/tests")
+    reportOn integrationTest
+}
+
+wrapper {
+    gradleVersion = "6.7.1"
 }

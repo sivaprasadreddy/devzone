@@ -4,6 +4,8 @@ import com.sivalabs.devzone.config.security.SecurityUser;
 import com.sivalabs.devzone.domain.entities.RoleEnum;
 import com.sivalabs.devzone.domain.entities.User;
 import com.sivalabs.devzone.domain.models.LinkDTO;
+import java.util.Arrays;
+import java.util.Objects;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
@@ -11,9 +13,6 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
-import java.util.Arrays;
-import java.util.Objects;
 
 @Service
 @Transactional
@@ -35,9 +34,10 @@ public class SecurityService {
 
     public boolean canCurrentUserEditLink(LinkDTO linkDTO) {
         User loginUser = loginUser();
-        return loginUser != null && linkDTO != null
-            && (Objects.equals(linkDTO.getCreatedUserId(), loginUser.getId())
-            || isCurrentUserAdminOrModerator(loginUser));
+        return loginUser != null
+                && linkDTO != null
+                && (Objects.equals(linkDTO.getCreatedUserId(), loginUser.getId())
+                        || isCurrentUserAdminOrModerator(loginUser));
     }
 
     public Long loginUserId() {

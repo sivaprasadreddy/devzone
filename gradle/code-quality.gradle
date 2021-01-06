@@ -72,7 +72,6 @@ jacocoTestCoverageVerification {
     }
 }
 
-integrationTest.finalizedBy jacocoTestReport
 check.dependsOn jacocoTestCoverageVerification
 
 file("sonar-project.properties").withReader {

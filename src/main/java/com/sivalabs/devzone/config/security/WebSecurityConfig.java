@@ -38,8 +38,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
-        auth.userDetailsService(userDetailsService)
-            .passwordEncoder(passwordEncoder);
+        auth.userDetailsService(userDetailsService).passwordEncoder(passwordEncoder);
     }
 
     @Bean
@@ -56,8 +55,10 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         return roleHierarchy;
     }
 
-    private static SecurityExpressionHandler<FilterInvocation> webExpressionHandler(RoleHierarchy roleHierarchy) {
-        DefaultWebSecurityExpressionHandler defaultWebSecurityExpressionHandler = new DefaultWebSecurityExpressionHandler();
+    private static SecurityExpressionHandler<FilterInvocation> webExpressionHandler(
+            RoleHierarchy roleHierarchy) {
+        DefaultWebSecurityExpressionHandler defaultWebSecurityExpressionHandler =
+                new DefaultWebSecurityExpressionHandler();
         defaultWebSecurityExpressionHandler.setRoleHierarchy(roleHierarchy);
         return defaultWebSecurityExpressionHandler;
     }
@@ -77,21 +78,23 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
         @Override
         protected void configure(HttpSecurity http) throws Exception {
-            http
-                .antMatcher("/api/**")
-                    .csrf().disable()
+            http.antMatcher("/api/**")
+                    .csrf()
+                    .disable()
                     .sessionManagement()
-                        .sessionCreationPolicy(SessionCreationPolicy.STATELESS)
+                    .sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                     .and()
                     .authorizeRequests()
-                        .expressionHandler(webExpressionHandler(roleHierarchy))
-                        .antMatchers("/api/auth/**").permitAll()
-                        .antMatchers(HttpMethod.POST, "/api/users/change-password").authenticated()
-                        .antMatchers("/api/users/**").permitAll()
-                        .and()
+                    .expressionHandler(webExpressionHandler(roleHierarchy))
+                    .antMatchers("/api/auth/**")
+                    .permitAll()
+                    .antMatchers(HttpMethod.POST, "/api/users/change-password")
+                    .authenticated()
+                    .antMatchers("/api/users/**")
+                    .permitAll()
+                    .and()
                     .addFilterBefore(tokenAuthenticationFilter, BasicAuthenticationFilter.class);
         }
-
     }
 
     @Configuration
@@ -103,33 +106,38 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         @Override
         public void configure(WebSecurity web) {
             web.ignoring()
-                .antMatchers("/static/**", "/js/**", "/css/**", "/images/**", "/favicon.ico");
+                    .antMatchers("/static/**", "/js/**", "/css/**", "/images/**", "/favicon.ico");
         }
 
         @Override
         protected void configure(HttpSecurity http) throws Exception {
-            http
-                .authorizeRequests()
+            http.authorizeRequests()
                     .expressionHandler(webExpressionHandler(roleHierarchy))
-                    .antMatchers("/resources/**", "/webjars/**").permitAll()
-                    .antMatchers("/registration", "/forgot-password", "/reset-password").permitAll()
-                    .antMatchers("/h2-console/**").permitAll()
+                    .antMatchers("/resources/**", "/webjars/**")
+                    .permitAll()
+                    .antMatchers("/registration", "/forgot-password", "/reset-password")
+                    .permitAll()
+                    .antMatchers("/h2-console/**")
+                    .permitAll()
                     .and()
-                .formLogin()
+                    .formLogin()
                     .loginPage("/login")
                     .defaultSuccessUrl("/")
-                    .failureUrl("/login?error").permitAll()
+                    .failureUrl("/login?error")
+                    .permitAll()
                     .and()
-                .logout()
-                    .logoutRequestMatcher(new AntPathRequestMatcher("/logout")).permitAll();
+                    .logout()
+                    .logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
+                    .permitAll();
 
-            http
-                .csrf()
-                //.ignoringAntMatchers("/h2-console/**")//don't apply CSRF protection to /h2-console
-                .disable().headers().frameOptions().sameOrigin() // allow use of frame to same origin urls
+            http.csrf()
+                    // .ignoringAntMatchers("/h2-console/**")//don't apply CSRF protection to
+                    // /h2-console
+                    .disable()
+                    .headers()
+                    .frameOptions()
+                    .sameOrigin() // allow use of frame to same origin urls
             ;
         }
-
     }
-
 }

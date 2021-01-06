@@ -1,9 +1,8 @@
 package com.sivalabs.devzone.domain.models;
 
+import javax.validation.constraints.NotBlank;
 import lombok.Builder;
 import lombok.Data;
-
-import javax.validation.constraints.NotBlank;
 
 @Data
 @Builder
