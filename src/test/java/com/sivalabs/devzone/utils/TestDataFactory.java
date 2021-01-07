@@ -1,7 +1,6 @@
 package com.sivalabs.devzone.utils;
 
 import com.sivalabs.devzone.domain.entities.User;
-
 import java.util.UUID;
 
 public class TestDataFactory {

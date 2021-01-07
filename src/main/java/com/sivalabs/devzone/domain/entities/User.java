@@ -1,13 +1,12 @@
 package com.sivalabs.devzone.domain.entities;
 
-import lombok.Getter;
-import lombok.Setter;
-
+import java.io.Serializable;
 import javax.persistence.*;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
-import java.io.Serializable;
+import lombok.Getter;
+import lombok.Setter;
 
 @Entity
 @Table(name = "users")
@@ -18,7 +17,10 @@ public class User extends BaseEntity implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "user_id_generator")
-    @SequenceGenerator(name = "user_id_generator", sequenceName = "user_id_seq", allocationSize = 100)
+    @SequenceGenerator(
+            name = "user_id_generator",
+            sequenceName = "user_id_seq",
+            allocationSize = 100)
     private Long id;
 
     @Column(nullable = false)
@@ -35,11 +37,9 @@ public class User extends BaseEntity implements Serializable {
     @Size(min = 4)
     private String password;
 
-    @Column
-    private String imageUrl;
+    @Column private String imageUrl;
 
     @Column(nullable = false)
     @Enumerated(EnumType.STRING)
     private RoleEnum role;
-
 }

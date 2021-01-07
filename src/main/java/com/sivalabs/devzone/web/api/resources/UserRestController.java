@@ -1,11 +1,15 @@
 package com.sivalabs.devzone.web.api.resources;
 
+import static org.springframework.http.HttpStatus.CREATED;
+
 import com.sivalabs.devzone.annotations.AnyAuthenticatedUser;
 import com.sivalabs.devzone.domain.models.CreateUserRequest;
 import com.sivalabs.devzone.domain.models.UserDTO;
 import com.sivalabs.devzone.domain.services.SecurityService;
 import com.sivalabs.devzone.domain.services.UserService;
 import com.sivalabs.devzone.web.exceptions.BadRequestException;
+import java.util.Optional;
+import javax.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
@@ -19,11 +23,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.validation.Valid;
-import java.util.Optional;
-
-import static org.springframework.http.HttpStatus.CREATED;
-
 @RestController
 @RequestMapping("/api/users")
 @RequiredArgsConstructor
@@ -35,23 +34,24 @@ public class UserRestController {
     @GetMapping("/{id}")
     public ResponseEntity<UserDTO> getUser(@PathVariable Long id) {
         log.info("process=get_user, user_id={}", id);
-        return userService.getUserById(id)
-            .map(ResponseEntity::ok)
-            .orElse(ResponseEntity.notFound().build());
+        return userService
+                .getUserById(id)
+                .map(ResponseEntity::ok)
+                .orElse(ResponseEntity.notFound().build());
     }
 
     @PostMapping("")
     @ResponseStatus(CREATED)
     public UserDTO createUser(@RequestBody @Valid CreateUserRequest createUserRequest) {
         log.info("process=create_user, user_email={}", createUserRequest.getEmail());
-        UserDTO userDTO = new UserDTO(
-            null,
-            createUserRequest.getName(),
-            createUserRequest.getEmail(),
-            createUserRequest.getPassword(),
-            null,
-            null
-        );
+        UserDTO userDTO =
+                new UserDTO(
+                        null,
+                        createUserRequest.getName(),
+                        createUserRequest.getEmail(),
+                        createUserRequest.getPassword(),
+                        null,
+                        null);
         return userService.createUser(userDTO);
     }
 

@@ -17,25 +17,26 @@ import org.zalando.problem.spring.web.advice.ProblemHandling;
 @RestControllerAdvice(basePackageClasses = LinkRestController.class)
 public class GlobalExceptionHandler {
 
-    private final ProblemHandling translator = new ProblemHandling(){};
+    private final ProblemHandling translator = new ProblemHandling() {};
 
     @ExceptionHandler(ResourceNotFoundException.class)
-    ResponseEntity<Problem> handleResourceNotFoundException(ResourceNotFoundException exception,
-                                                            NativeWebRequest request) {
+    ResponseEntity<Problem> handleResourceNotFoundException(
+            ResourceNotFoundException exception, NativeWebRequest request) {
         log.error(exception.getLocalizedMessage(), exception);
         return translator.create(Status.NOT_FOUND, exception, request);
     }
 
     @ExceptionHandler(DevZoneException.class)
-    ResponseEntity<Problem> handleDevZoneException(DevZoneException exception, NativeWebRequest request) {
+    ResponseEntity<Problem> handleDevZoneException(
+            DevZoneException exception, NativeWebRequest request) {
         log.error(exception.getLocalizedMessage(), exception);
         return translator.create(Status.BAD_REQUEST, exception, request);
     }
 
     @ExceptionHandler(BadRequestException.class)
-    ResponseEntity<Problem> handleBadRequestException(BadRequestException exception, NativeWebRequest request) {
+    ResponseEntity<Problem> handleBadRequestException(
+            BadRequestException exception, NativeWebRequest request) {
         log.error(exception.getLocalizedMessage(), exception);
         return translator.create(Status.BAD_REQUEST, exception, request);
     }
-
 }

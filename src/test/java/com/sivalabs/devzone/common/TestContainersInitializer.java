@@ -5,10 +5,11 @@ import org.springframework.test.context.DynamicPropertySource;
 import org.testcontainers.containers.PostgreSQLContainer;
 
 public class TestContainersInitializer {
-    static PostgreSQLContainer<?> sqlContainer = new PostgreSQLContainer<>("postgres:12.3")
-        .withDatabaseName("integration-tests-db")
-        .withUsername("username")
-        .withPassword("password");
+    static PostgreSQLContainer<?> sqlContainer =
+            new PostgreSQLContainer<>("postgres:12.3")
+                    .withDatabaseName("integration-tests-db")
+                    .withUsername("username")
+                    .withPassword("password");
 
     static {
         sqlContainer.start();

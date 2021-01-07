@@ -2,6 +2,7 @@ package com.sivalabs.devzone.config.argresolvers;
 
 import com.sivalabs.devzone.annotations.CurrentUser;
 import com.sivalabs.devzone.domain.services.SecurityService;
+import java.lang.annotation.Annotation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.MethodParameter;
 import org.springframework.core.annotation.AnnotationUtils;
@@ -10,8 +11,6 @@ import org.springframework.web.bind.support.WebDataBinderFactory;
 import org.springframework.web.context.request.NativeWebRequest;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;
 import org.springframework.web.method.support.ModelAndViewContainer;
-
-import java.lang.annotation.Annotation;
 
 @Component
 @RequiredArgsConstructor
@@ -24,15 +23,17 @@ public class CurrentUserArgumentResolver implements HandlerMethodArgumentResolve
     }
 
     @Override
-    public Object resolveArgument(MethodParameter methodParameter,
-                                  ModelAndViewContainer modelAndViewContainer,
-                                  NativeWebRequest nativeWebRequest,
-                                  WebDataBinderFactory webDataBinderFactory) throws Exception {
+    public Object resolveArgument(
+            MethodParameter methodParameter,
+            ModelAndViewContainer modelAndViewContainer,
+            NativeWebRequest nativeWebRequest,
+            WebDataBinderFactory webDataBinderFactory)
+            throws Exception {
         return securityService.loginUser();
     }
 
-    private <T extends Annotation> T findMethodAnnotation(Class<T> annotationClass,
-                                                          MethodParameter parameter) {
+    private <T extends Annotation> T findMethodAnnotation(
+            Class<T> annotationClass, MethodParameter parameter) {
         T annotation = parameter.getParameterAnnotation(annotationClass);
         if (annotation != null) {
             return annotation;

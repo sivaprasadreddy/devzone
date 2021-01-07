@@ -1,13 +1,12 @@
 package com.sivalabs.devzone.domain.entities;
 
-import lombok.Getter;
-import lombok.Setter;
-
+import java.time.LocalDateTime;
 import javax.persistence.Column;
 import javax.persistence.MappedSuperclass;
 import javax.persistence.PrePersist;
 import javax.persistence.PreUpdate;
-import java.time.LocalDateTime;
+import lombok.Getter;
+import lombok.Setter;
 
 @MappedSuperclass
 @Setter
@@ -31,5 +30,4 @@ public abstract class BaseEntity {
     public void onUpdate() {
         updatedAt = LocalDateTime.now();
     }
-
 }

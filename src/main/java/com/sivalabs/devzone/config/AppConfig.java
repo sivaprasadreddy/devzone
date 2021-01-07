@@ -25,5 +25,4 @@ public class AppConfig {
     JavaTimeModule javaTimeModule() {
         return new JavaTimeModule();
     }
-
 }

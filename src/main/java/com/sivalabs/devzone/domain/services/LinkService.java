@@ -9,6 +9,12 @@ import com.sivalabs.devzone.domain.models.LinksDTO;
 import com.sivalabs.devzone.domain.repositories.LinkRepository;
 import com.sivalabs.devzone.domain.repositories.TagRepository;
 import com.sivalabs.devzone.domain.repositories.UserRepository;
+import java.io.IOException;
+import java.time.LocalDateTime;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Optional;
+import java.util.Set;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
@@ -20,13 +26,6 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
-import java.io.IOException;
-import java.time.LocalDateTime;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Optional;
-import java.util.Set;
 
 @Service
 @Transactional
@@ -41,16 +40,21 @@ public class LinkService {
     @Transactional(readOnly = true)
     public LinksDTO getAllLinks(Pageable pageable) {
         Page<Long> pageOfLinkIds = linkRepository.fetchLinkIds(pageable);
-        List<Link> links = linkRepository.findLinksWithTags(pageOfLinkIds.getContent(), pageable.getSort());
-        Page<Link> pageOfAuthors = new PageImpl<>(links, pageable, pageOfLinkIds.getTotalElements());
+        List<Link> links =
+                linkRepository.findLinksWithTags(pageOfLinkIds.getContent(), pageable.getSort());
+        Page<Link> pageOfAuthors =
+                new PageImpl<>(links, pageable, pageOfLinkIds.getTotalElements());
         return buildLinksResult(pageOfAuthors);
     }
 
     @Transactional(readOnly = true)
     public LinksDTO searchLinks(String query, Pageable pageable) {
-        Page<Long> pageOfLinkIds = linkRepository.fetchLinkIdsByTitleContainingIgnoreCase(query, pageable);
-        List<Link> links = linkRepository.findLinksWithTags(pageOfLinkIds.getContent(), pageable.getSort());
-        Page<Link> pageOfAuthors = new PageImpl<>(links, pageable, pageOfLinkIds.getTotalElements());
+        Page<Long> pageOfLinkIds =
+                linkRepository.fetchLinkIdsByTitleContainingIgnoreCase(query, pageable);
+        List<Link> links =
+                linkRepository.findLinksWithTags(pageOfLinkIds.getContent(), pageable.getSort());
+        Page<Link> pageOfAuthors =
+                new PageImpl<>(links, pageable, pageOfLinkIds.getTotalElements());
         return buildLinksResult(pageOfAuthors);
     }
 
@@ -61,8 +65,10 @@ public class LinkService {
             throw new ResourceNotFoundException("Tag " + tag + " not found");
         }
         Page<Long> pageOfLinkIds = linkRepository.fetchLinkIdsByTag(tag, pageable);
-        List<Link> links = linkRepository.findLinksWithTags(pageOfLinkIds.getContent(), pageable.getSort());
-        Page<Link> pageOfAuthors = new PageImpl<>(links, pageable, pageOfLinkIds.getTotalElements());
+        List<Link> links =
+                linkRepository.findLinksWithTags(pageOfLinkIds.getContent(), pageable.getSort());
+        Page<Link> pageOfAuthors =
+                new PageImpl<>(links, pageable, pageOfLinkIds.getTotalElements());
         return buildLinksResult(pageOfAuthors);
     }
 
@@ -90,7 +96,7 @@ public class LinkService {
 
     public void deleteAllLinks() {
         log.debug("process=delete_all_links");
-        linkRepository.deleteAll();
+        linkRepository.deleteAllInBatch();
     }
 
     @Transactional(readOnly = true)
@@ -114,12 +120,14 @@ public class LinkService {
         link.setCreatedBy(userRepository.getOne(linkDTO.getCreatedUserId()));
         link.setCreatedAt(LocalDateTime.now());
         Set<Tag> tagsList = new HashSet<>();
-        linkDTO.getTags().forEach(tagName -> {
-            if (!tagName.trim().isEmpty()) {
-                Tag tag = createTagIfNotExist(tagName.trim());
-                tagsList.add(tag);
-            }
-        });
+        linkDTO.getTags()
+                .forEach(
+                        tagName -> {
+                            if (!tagName.trim().isEmpty()) {
+                                Tag tag = createTagIfNotExist(tagName.trim());
+                                tagsList.add(tag);
+                            }
+                        });
         link.setTags(tagsList);
         return linkRepository.save(link);
     }
@@ -146,5 +154,4 @@ public class LinkService {
         tag.setName(tagName);
         return tagRepository.save(tag);
     }
-
 }

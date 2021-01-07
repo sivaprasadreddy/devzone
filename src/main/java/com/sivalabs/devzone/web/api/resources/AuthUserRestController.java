@@ -7,14 +7,13 @@ import com.sivalabs.devzone.domain.entities.User;
 import com.sivalabs.devzone.domain.models.AuthUserDTO;
 import com.sivalabs.devzone.domain.models.ChangePasswordRequest;
 import com.sivalabs.devzone.domain.services.UserService;
+import javax.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
-
-import javax.validation.Valid;
 
 @RestController
 @RequestMapping("/api/user")
@@ -29,11 +28,12 @@ public class AuthUserRestController {
     public ResponseEntity<AuthUserDTO> me() {
         User loginUser = securityUtils.loginUser();
         if (loginUser != null) {
-            AuthUserDTO userDTO = AuthUserDTO.builder()
-                .name(loginUser.getName())
-                .email(loginUser.getEmail())
-                .role(loginUser.getRole())
-                .build();
+            AuthUserDTO userDTO =
+                    AuthUserDTO.builder()
+                            .name(loginUser.getName())
+                            .email(loginUser.getEmail())
+                            .role(loginUser.getRole())
+                            .build();
             return ResponseEntity.ok(userDTO);
         }
         return ResponseEntity.status(HttpStatus.UNAUTHORIZED).build();
@@ -41,8 +41,9 @@ public class AuthUserRestController {
 
     @PostMapping("/change-password")
     @AnyAuthenticatedUser
-    public void changePassword(@RequestBody @Valid ChangePasswordRequest changePasswordRequest,
-                               @CurrentUser User loginUser) {
+    public void changePassword(
+            @RequestBody @Valid ChangePasswordRequest changePasswordRequest,
+            @CurrentUser User loginUser) {
         String email = loginUser.getEmail();
         log.info("process=change_password, email={}", email);
         userService.changePassword(email, changePasswordRequest);
