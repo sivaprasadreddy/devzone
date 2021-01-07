@@ -96,7 +96,7 @@ public class LinkService {
 
     public void deleteAllLinks() {
         log.debug("process=delete_all_links");
-        linkRepository.deleteAll();
+        linkRepository.deleteAllInBatch();
     }
 
     @Transactional(readOnly = true)

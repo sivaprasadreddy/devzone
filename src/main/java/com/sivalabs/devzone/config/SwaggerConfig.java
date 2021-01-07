@@ -30,7 +30,7 @@ public class SwaggerConfig {
                 "DevZone Java REST API using SpringBoot",
                 "API TOS",
                 "Terms of services",
-                new Contact("Team", "www.example.com", "support@example.com"),
+                new Contact("Siva", "https://sivalabs.in", "support@sivalabs.in"),
                 "License of API",
                 "API license URL",
                 Collections.emptyList());

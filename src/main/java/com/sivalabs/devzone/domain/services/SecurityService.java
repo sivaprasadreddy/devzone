@@ -3,9 +3,7 @@ package com.sivalabs.devzone.domain.services;
 import com.sivalabs.devzone.config.security.SecurityUser;
 import com.sivalabs.devzone.domain.entities.RoleEnum;
 import com.sivalabs.devzone.domain.entities.User;
-import com.sivalabs.devzone.domain.models.LinkDTO;
 import java.util.Arrays;
-import java.util.Objects;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
@@ -32,14 +30,6 @@ public class SecurityService {
         return null;
     }
 
-    public boolean canCurrentUserEditLink(LinkDTO linkDTO) {
-        User loginUser = loginUser();
-        return loginUser != null
-                && linkDTO != null
-                && (Objects.equals(linkDTO.getCreatedUserId(), loginUser.getId())
-                        || isCurrentUserAdminOrModerator(loginUser));
-    }
-
     public Long loginUserId() {
         User loginUser = loginUser();
         if (loginUser != null) {
@@ -52,7 +42,7 @@ public class SecurityService {
         return isUserHasAnyRole(loginUser(), RoleEnum.ROLE_ADMIN);
     }
 
-    private boolean isCurrentUserAdminOrModerator(User loginUser) {
+    public boolean isCurrentUserAdminOrModerator(User loginUser) {
         return isUserHasAnyRole(loginUser, RoleEnum.ROLE_ADMIN, RoleEnum.ROLE_MODERATOR);
     }
 

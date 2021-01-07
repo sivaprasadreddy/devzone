@@ -18,7 +18,7 @@ node {
 
         stage('Build') {
             try {
-                sh './gradlew build'
+                sh './gradlew build -Pci'
             } finally {
                 junit 'build/test-results/test/*.xml'
                 junit 'build/test-results/integrationTest/*.xml'

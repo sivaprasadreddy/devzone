@@ -72,7 +72,7 @@ public class LinkController {
             model.addAttribute(PAGINATION_PREFIX, "/links?");
         }
         model.addAttribute("linksData", data);
-        return "home";
+        return "links";
     }
 
     @GetMapping("/links/new")

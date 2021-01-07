@@ -28,6 +28,9 @@
         <div th:replace="fragments/pagination :: pagination"> </div>
 
         <div >
+            <div class="alert alert-warning" role="alert" th:if="${linksData.data == null || linksData.data.isEmpty() }">
+                <h3 class="alert-heading">No results found</h3>
+            </div>
             <div class="alert alert-primary" role="alert" th:each="link: ${linksData.data}">
                 <h3 class="alert-heading">
                     <a href="#" th:href="${link.url}" th:text="${link.title}"

@@ -22,8 +22,9 @@ plugins {
 apply plugin: "idea"
 apply plugin: "docker-compose"
 apply from: "gradle/code-quality.gradle"
-apply from: "gradle/owasp.gradle"
-
+if (project.hasProperty("ci")) {
+    apply from: "gradle/owasp.gradle"
+}
 group = "com.sivalabs"
 version = "0.0.1-SNAPSHOT"
 
@@ -104,24 +105,24 @@ springBoot {
 bootJar {
     //launchScript()
 }
-//bootBuildInfo.mustRunAfter processResources
+
 bootBuildImage {
     imageName = "sivaprasadreddy/devzone-api-springboot"
 }
 
-//dockerCompose.isRequiredBy(test)
 dockerCompose {
     useComposeFiles = ["docker/docker-compose.yml"]
-    //isRequiredBy(project.tasks.test)
 }
 
 compileJava.dependsOn processResources
 processResources.dependsOn bootBuildInfo
 
-bootRun {
-    args = ["--spring.profiles.active=dev"]
+if (project.hasProperty("dev")) {
+    bootRun {
+        args = ["--spring.profiles.active=dev"]
+    }
+    bootRun.dependsOn composeUp
 }
-bootRun.dependsOn composeUp
 
 gitProperties {
     failOnNoGitDirectory = false
@@ -136,7 +137,7 @@ check.dependsOn verifyGoogleJavaFormat
 
 test {
     useJUnitPlatform()
-    exclude "**/*IT*", "**/*IntegrationTest*"
+    exclude "**/*IT*", "**/*IntegrationTest*", "**/*IntTest*"
     testLogging {
         events = ["PASSED", "FAILED", "SKIPPED"]
         //showStandardStreams = true
@@ -147,7 +148,7 @@ test {
 task integrationTest(type: Test) {
     useJUnitPlatform()
 
-    include "**/*IT*", "**/*IntegrationTest*"
+    include "**/*IT*", "**/*IntegrationTest*", "**/*IntTest*"
     shouldRunAfter test
 
     testLogging {
