@@ -1,6 +1,5 @@
 package com.sivalabs.devzone.config.security;
 
-import com.sivalabs.devzone.domain.entities.RoleEnum;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +12,6 @@ import org.springframework.security.access.hierarchicalroles.RoleHierarchy;
 import org.springframework.security.access.hierarchicalroles.RoleHierarchyImpl;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
-import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
@@ -28,7 +26,6 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 @Configuration
 @EnableWebSecurity
-@EnableGlobalMethodSecurity(securedEnabled = true, prePostEnabled = true, proxyTargetClass = true)
 @RequiredArgsConstructor
 @Slf4j
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
@@ -45,14 +42,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     public AuthenticationManager authenticationManagerBean() throws Exception {
         return super.authenticationManagerBean();
-    }
-
-    @Bean
-    public RoleHierarchy roleHierarchy() {
-        RoleHierarchyImpl roleHierarchy = new RoleHierarchyImpl();
-        roleHierarchy.setHierarchy(RoleEnum.getRoleHierarchy());
-        log.debug("RoleHierarchy: {}", RoleEnum.getRoleHierarchy());
-        return roleHierarchy;
     }
 
     private static SecurityExpressionHandler<FilterInvocation> webExpressionHandler(

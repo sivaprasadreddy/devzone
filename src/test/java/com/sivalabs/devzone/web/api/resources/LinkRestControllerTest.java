@@ -1,4 +1,4 @@
-package com.sivalabs.devzone.web.controllers;
+package com.sivalabs.devzone.web.api.resources;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.BDDMockito.given;
@@ -9,7 +9,6 @@ import com.sivalabs.devzone.common.AbstractWebMvcTest;
 import com.sivalabs.devzone.domain.models.LinksDTO;
 import com.sivalabs.devzone.domain.services.LinkService;
 import com.sivalabs.devzone.domain.services.SecurityService;
-import com.sivalabs.devzone.web.api.resources.LinkRestController;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
