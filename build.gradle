@@ -104,10 +104,13 @@ springBoot {
 
 bootJar {
     //launchScript()
+    layered {
+        enabled = true
+    }
 }
 
 bootBuildImage {
-    imageName = "sivaprasadreddy/devzone-api-springboot"
+    imageName = "sivaprasadreddy/devzone"
 }
 
 dockerCompose {

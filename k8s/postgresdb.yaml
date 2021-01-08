@@ -1,0 +1,71 @@
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: devzone-postgres-pv-claim
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 4Gi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: devzone-postgres-svc
+spec:
+  selector:
+    app: devzone-postgres-pod
+  ports:
+    - port: 5432
+      targetPort: 5432
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: devzone-postgres-deployment
+spec:
+  selector:
+    matchLabels:
+      app: devzone-postgres-pod
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: devzone-postgres-pod
+    spec:
+      containers:
+        - name: postgres
+          image: "postgres:12.3"
+          ports:
+            - name: postgres
+              containerPort: 5432
+          env:
+            - name: POSTGRES_USER
+              valueFrom:
+                secretKeyRef:
+                  name: devzone-secrets
+                  key: postgres_username
+            - name: POSTGRES_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: devzone-secrets
+                  key: postgres_password
+            - name: POSTGRES_DB
+              valueFrom:
+                configMapKeyRef:
+                  name: devzone-configmap
+                  key: postgres_database
+            - name: PGDATA
+              value: /var/lib/postgresql/data/pgdata
+
+          volumeMounts:
+            - name: postgres-storage
+              mountPath: /var/lib/postgresql/data
+      volumes:
+        - name: postgres-storage
+          persistentVolumeClaim:
+            claimName: devzone-postgres-pv-claim
+
