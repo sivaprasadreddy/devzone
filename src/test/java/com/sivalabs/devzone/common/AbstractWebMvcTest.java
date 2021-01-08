@@ -7,6 +7,7 @@ import com.sivalabs.devzone.config.security.SecurityUtils;
 import com.sivalabs.devzone.config.security.TokenHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.security.access.hierarchicalroles.RoleHierarchyImpl;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.test.context.ActiveProfiles;
@@ -26,6 +27,8 @@ public abstract class AbstractWebMvcTest {
     @MockBean protected SecurityUtils securityUtils;
 
     @MockBean protected PasswordEncoder passwordEncoder;
+
+    @MockBean protected RoleHierarchyImpl roleHierarchy;
 
     @Autowired protected ObjectMapper objectMapper;
 }

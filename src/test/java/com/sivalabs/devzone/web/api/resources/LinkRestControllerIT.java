@@ -1,4 +1,4 @@
-package com.sivalabs.devzone.web.controllers;
+package com.sivalabs.devzone.web.api.resources;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
