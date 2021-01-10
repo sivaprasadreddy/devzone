@@ -24,7 +24,7 @@ services:
     container_name: logstash
     command: logstash -f /etc/logstash/conf.d/logstash.conf
     volumes:
-      - ../config/elk:/etc/logstash/conf.d
+      - ./elk:/etc/logstash/conf.d
     ports:
       - "5000:5000"
     links:
