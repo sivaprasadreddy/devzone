@@ -72,7 +72,7 @@ jacocoTestCoverageVerification {
     }
 }
 
-check.dependsOn jacocoTestCoverageVerification
+check.dependsOn jacocoTestReport, jacocoTestCoverageVerification
 
 file("sonar-project.properties").withReader {
     Properties sonarProperties = new Properties()

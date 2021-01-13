@@ -1,6 +1,6 @@
 FROM openjdk:11-jdk-slim
 VOLUME /tmp
-ADD build/libs/*.jar app.jar
+ADD build/libs/devzone-0.0.1-SNAPSHOT.jar app.jar
 RUN sh -c 'touch /app.jar'
 ENV JAVA_OPTS="-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=0.0.0.0:8787"
 ENV SPRING_PROFILES_ACTIVE "default"
