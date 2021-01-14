@@ -10,6 +10,7 @@ checkstyle {
     toolVersion "${checkstyle_version}"
     maxWarnings = 0
     configFile = file("${project.rootDir}/build-config/checkstyle/checkstyle.xml")
+    configProperties = ["suppressionFile" : file("${project.rootDir}/build-config/checkstyle/suppressions.xml")]
     sourceSets = [sourceSets.main]
 }
 
