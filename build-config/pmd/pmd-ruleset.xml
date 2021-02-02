@@ -12,15 +12,9 @@
     <rule ref="category/java/bestpractices.xml">
         <exclude name="GuardLogStatement"/>
     </rule>
-    <rule ref="category/java/bestpractices.xml/UnusedPrivateField">
-        <properties>
-            <property name="violationSuppressXPath"
-                      value="//ClassOrInterfaceDeclaration['.*Aggregate']"/>
-        </properties>
-    </rule>
     <rule ref="category/java/codestyle.xml/ShortClassName">
         <properties>
-            <property name="minimum" value="4"/>
+            <property name="minimum" value="3"/>
         </properties>
     </rule>
     <rule ref="category/java/codestyle.xml">

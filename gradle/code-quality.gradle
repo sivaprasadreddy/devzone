@@ -9,8 +9,8 @@ def jacocoMinCoverageRequired = 0.65
 checkstyle {
     toolVersion "${checkstyle_version}"
     maxWarnings = 0
-    configFile = file("${project.rootDir}/build-config/checkstyle/checkstyle.xml")
-    configProperties = ["suppressionFile" : file("${project.rootDir}/build-config/checkstyle/suppressions.xml")]
+    configFile = file("build-config/checkstyle/checkstyle.xml")
+    configProperties = ["suppressionFile" : file("build-config/checkstyle/suppressions.xml")]
     sourceSets = [sourceSets.main]
 }
 
@@ -18,7 +18,7 @@ pmd {
     toolVersion = "${pmd_version}"
     consoleOutput = true
     ruleSets = []
-    ruleSetFiles = files("${project.rootDir}/build-config/pmd/pmd-ruleset.xml")
+    ruleSetFiles = files("build-config/pmd/pmd-ruleset.xml")
     sourceSets = [sourceSets.main]
 }
 
