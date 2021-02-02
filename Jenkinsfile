@@ -2,7 +2,8 @@
 
 properties([
     parameters([
-        booleanParam(defaultValue: false, name: 'PUBLISH_TO_DOCKERHUB', description: 'Publish Docker Image to DockerHub?')
+        booleanParam(defaultValue: false, name: 'PUBLISH_TO_DOCKERHUB',
+            description: 'Publish Docker Image to DockerHub?')
     ])
 ])
 
@@ -18,7 +19,7 @@ node {
 
         stage('Build') {
             try {
-                sh './gradlew build -Pci'
+                sh './gradlew build'
             } finally {
                 junit 'build/test-results/test/*.xml'
                 junit 'build/test-results/integrationTest/*.xml'
@@ -29,14 +30,6 @@ node {
                     reportDir            : 'build/reports/jacoco/test/html',
                     reportFiles          : 'index.html',
                     reportName           : "Jacoco Report"
-                ])
-                publishHTML(target: [
-                    allowMissing         : true,
-                    alwaysLinkToLastBuild: true,
-                    keepAll              : true,
-                    reportDir            : 'build/reports',
-                    reportFiles          : 'dependency-check-report.html',
-                    reportName           : "OWASP Report"
                 ])
             }
         }
