@@ -10,10 +10,22 @@
             <appender-ref ref="FILE" />
         </root>
     </springProfile>
-    <springProfile name="!default">
-        <root level="INFO">
-            <appender-ref ref="CONSOLE" />
+    <springProfile name="docker,k8s">
+        <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+            <file>/apps/devzone/logs/devzone.log</file>
+
+            <encoder class="net.logstash.logback.encoder.LogstashEncoder"/>
+        </appender>
+
+        <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+            <encoder>
+                <pattern>%date %level [%thread] %logger{10} [%file:%line] %msg%n</pattern>
+            </encoder>
+        </appender>
+
+        <root level="info">
             <appender-ref ref="FILE" />
+            <appender-ref ref="STDOUT" />
         </root>
     </springProfile>
 </configuration>

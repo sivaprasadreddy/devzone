@@ -16,3 +16,5 @@ services:
       SPRING_DATASOURCE_URL: jdbc:postgresql://app-db:5432/postgres
       SPRING_DATASOURCE_USERNAME: postgres
       SPRING_DATASOURCE_PASSWORD: postgres
+    volumes:
+    - ../logs/:/apps/devzone/logs/

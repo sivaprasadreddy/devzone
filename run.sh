@@ -9,7 +9,7 @@ declare dc_monitoring=${project_dir}/docker/docker-compose-monitoring.yml
 declare devzone="devzone"
 declare sonarqube="sonarqube"
 declare elk="elasticsearch logstash kibana"
-declare monitoring="prometheus grafana"
+declare monitoring="prometheus loki grafana"
 
 function restart() {
     stop

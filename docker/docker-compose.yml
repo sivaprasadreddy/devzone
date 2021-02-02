@@ -9,5 +9,5 @@ services:
       - POSTGRES_DB=postgres
       - PGDATA=/data/postgres
     ports:
-      - "5432:5432"
+      - "15432:5432"
     restart: unless-stopped
