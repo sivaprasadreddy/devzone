@@ -2,15 +2,16 @@
 <configuration>
     <include resource="org/springframework/boot/logging/logback/defaults.xml" />
     <include resource="org/springframework/boot/logging/logback/console-appender.xml" />
-    <include resource="org/springframework/boot/logging/logback/file-appender.xml" />
 
     <springProfile name="default, dev">
         <root level="INFO">
             <appender-ref ref="CONSOLE" />
-            <appender-ref ref="FILE" />
         </root>
     </springProfile>
+
     <springProfile name="docker,k8s">
+        <include resource="org/springframework/boot/logging/logback/file-appender.xml" />
+
         <appender name="FILE" class="ch.qos.logback.core.FileAppender">
             <file>/apps/devzone/logs/devzone.log</file>
 

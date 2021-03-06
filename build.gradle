@@ -74,7 +74,6 @@ dependencies {
 
     implementation "org.webjars:bootstrap:${wj_bootstrap_version}"
     implementation "org.webjars:font-awesome:${wj_fontawesome_version}"
-    implementation "org.webjars:vue:${wj_vue_version}"
 
     implementation "com.opencsv:opencsv:${opencsv_version}"
     implementation "org.jsoup:jsoup:${jsoup_version}"

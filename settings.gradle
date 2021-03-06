@@ -5,7 +5,7 @@ pluginManagement {
         id 'com.gorylenko.gradle-git-properties' version "${git_properties_plugin_version}"
         id 'org.sonarqube' version "${sonarqube_plugin_version}"
         id "com.github.spotbugs" version "${spotbugs_plugin_version}"
-        id "com.github.ben-manes.versions" version "${benmanes_versions_plugin_version}"
+        id "com.github.ben-manes.versions" version "${versions_plugin_version}"
         id "com.github.sherter.google-java-format" version "${google_java_format_plugin_version}"
         id "org.owasp.dependencycheck" version "${owasp_plugin_version}"
     }
