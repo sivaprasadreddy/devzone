@@ -4,7 +4,7 @@ apply plugin: 'jacoco'
 apply plugin: "com.github.spotbugs"
 apply plugin: "org.sonarqube"
 
-def jacocoMinCoverageRequired = 0.65
+def jacocoMinCoverageRequired = 0.50
 
 checkstyle {
     toolVersion "${checkstyle_version}"

@@ -18,6 +18,7 @@ plugins {
     id "com.github.spotbugs" apply false
     id "org.sonarqube" apply false
     id "org.owasp.dependencycheck" apply false
+    id "io.gatling.gradle"
 }
 apply plugin: "idea"
 apply plugin: "docker-compose"
@@ -46,18 +47,13 @@ repositories {
 
 dependencies {
     implementation "org.springframework.boot:spring-boot-starter-actuator"
-    implementation "org.springframework.boot:spring-boot-starter-cache"
     implementation "org.springframework.boot:spring-boot-starter-data-jpa"
     implementation "org.springframework.boot:spring-boot-starter-validation"
-    implementation "org.springframework.boot:spring-boot-starter-mail"
     implementation "org.springframework.boot:spring-boot-starter-web"
     implementation "org.springframework.boot:spring-boot-starter-thymeleaf"
     implementation "org.thymeleaf.extras:thymeleaf-extras-springsecurity5"
     implementation "nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect"
-
     implementation "org.springframework.boot:spring-boot-starter-security"
-    implementation "io.jsonwebtoken:jjwt:${jjwt_version}"
-    implementation "org.zalando:problem-spring-web-starter:${problem_spring_web_version}"
 
     implementation "org.flywaydb:flyway-core"
     compileOnly "org.projectlombok:lombok"
@@ -103,7 +99,6 @@ springBoot {
 }
 
 bootJar {
-    //launchScript()
     layered {
         enabled = true
     }

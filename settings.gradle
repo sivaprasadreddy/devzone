@@ -8,6 +8,7 @@ pluginManagement {
         id "com.github.ben-manes.versions" version "${versions_plugin_version}"
         id "com.github.sherter.google-java-format" version "${google_java_format_plugin_version}"
         id "org.owasp.dependencycheck" version "${owasp_plugin_version}"
+        id "io.gatling.gradle" version "${gatling_plugin_version}"
     }
 }
 rootProject.name = 'devzone'
