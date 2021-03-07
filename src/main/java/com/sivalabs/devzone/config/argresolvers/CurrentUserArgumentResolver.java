@@ -27,8 +27,7 @@ public class CurrentUserArgumentResolver implements HandlerMethodArgumentResolve
             MethodParameter methodParameter,
             ModelAndViewContainer modelAndViewContainer,
             NativeWebRequest nativeWebRequest,
-            WebDataBinderFactory webDataBinderFactory)
-            throws Exception {
+            WebDataBinderFactory webDataBinderFactory) {
         return securityService.loginUser();
     }
 

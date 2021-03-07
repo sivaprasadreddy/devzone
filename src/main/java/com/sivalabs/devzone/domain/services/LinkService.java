@@ -7,7 +7,6 @@ import com.sivalabs.devzone.domain.mappers.LinkMapper;
 import com.sivalabs.devzone.domain.models.LinkDTO;
 import com.sivalabs.devzone.domain.models.LinksDTO;
 import com.sivalabs.devzone.domain.repositories.LinkRepository;
-import com.sivalabs.devzone.domain.repositories.TagRepository;
 import com.sivalabs.devzone.domain.repositories.UserRepository;
 import java.io.IOException;
 import java.time.LocalDateTime;
@@ -23,7 +22,6 @@ import org.jsoup.nodes.Document;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -32,8 +30,8 @@ import org.springframework.transaction.annotation.Transactional;
 @RequiredArgsConstructor
 @Slf4j
 public class LinkService {
+    private final TagService tagService;
     private final LinkRepository linkRepository;
-    private final TagRepository tagRepository;
     private final UserRepository userRepository;
     private final LinkMapper linkMapper;
 
@@ -60,7 +58,7 @@ public class LinkService {
 
     @Transactional(readOnly = true)
     public LinksDTO getLinksByTag(String tag, Pageable pageable) {
-        Optional<Tag> tagOptional = tagRepository.findByName(tag);
+        Optional<Tag> tagOptional = tagService.findTagByName(tag);
         if (tagOptional.isEmpty()) {
             throw new ResourceNotFoundException("Tag " + tag + " not found");
         }
@@ -99,12 +97,6 @@ public class LinkService {
         linkRepository.deleteAllInBatch();
     }
 
-    @Transactional(readOnly = true)
-    public List<Tag> findAllTags() {
-        Sort sort = Sort.by("name");
-        return tagRepository.findAll(sort);
-    }
-
     private LinksDTO buildLinksResult(Page<Link> links) {
         log.trace("Found {} links in page", links.getNumberOfElements());
         return new LinksDTO(links.map(linkMapper::toDTO));
@@ -124,7 +116,7 @@ public class LinkService {
                 .forEach(
                         tagName -> {
                             if (!tagName.trim().isEmpty()) {
-                                Tag tag = createTagIfNotExist(tagName.trim());
+                                Tag tag = this.getOrCreateTag(tagName.trim());
                                 tagsList.add(tag);
                             }
                         });
@@ -145,13 +137,13 @@ public class LinkService {
         return link.getUrl();
     }
 
-    private Tag createTagIfNotExist(String tagName) {
-        Optional<Tag> tagOptional = tagRepository.findByName(tagName);
+    private Tag getOrCreateTag(String tagName) {
+        Optional<Tag> tagOptional = tagService.findTagByName(tagName);
         if (tagOptional.isPresent()) {
             return tagOptional.get();
         }
         Tag tag = new Tag();
         tag.setName(tagName);
-        return tagRepository.save(tag);
+        return tagService.createTag(tag);
     }
 }

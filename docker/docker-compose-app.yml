@@ -7,6 +7,7 @@ services:
     ports:
       - "18080:8080"
       - "18787:8787"
+      - "9010:9010"
     restart: unless-stopped
     depends_on:
       - app-db
@@ -16,5 +17,6 @@ services:
       SPRING_DATASOURCE_URL: jdbc:postgresql://app-db:5432/postgres
       SPRING_DATASOURCE_USERNAME: postgres
       SPRING_DATASOURCE_PASSWORD: postgres
+      JAVA_TOOL_OPTIONS: "-Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=9010 -Dcom.sun.management.jmxremote.local.only=false -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djava.rmi.server.hostname=localhost -Dcom.sun.management.jmxremote.rmi.port=9010"
     volumes:
     - ../logs/:/apps/devzone/logs/

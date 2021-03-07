@@ -11,6 +11,7 @@ import com.sivalabs.devzone.domain.models.LinkDTO;
 import com.sivalabs.devzone.domain.models.LinksDTO;
 import com.sivalabs.devzone.domain.services.LinkService;
 import com.sivalabs.devzone.domain.services.SecurityService;
+import com.sivalabs.devzone.domain.services.TagService;
 import java.util.List;
 import javax.validation.Valid;
 import lombok.RequiredArgsConstructor;
@@ -40,11 +41,12 @@ public class LinkController {
     private static final String MODEL_ATTRIBUTE_LINK = "link";
 
     private final LinkService linkService;
+    private final TagService tagService;
     private final SecurityService securityService;
 
     @ModelAttribute("tags")
     public List<Tag> allTags() {
-        return linkService.findAllTags();
+        return tagService.findAllTags();
     }
 
     @GetMapping("/links")

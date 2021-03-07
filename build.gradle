@@ -74,6 +74,7 @@ dependencies {
     implementation "com.opencsv:opencsv:${opencsv_version}"
     implementation "org.jsoup:jsoup:${jsoup_version}"
     implementation "com.github.gavlyukovskiy:p6spy-spring-boot-starter:${p6spy_version}"
+    implementation("com.github.gavlyukovskiy:flexy-pool-spring-boot-starter:${flexypool_version}")
     implementation "com.github.ulisesbocchio:jasypt-spring-boot-starter:${jasypt_version}"
     implementation "org.apache.commons:commons-lang3:${commons_lang_version}"
     implementation "commons-io:commons-io:${commons_io_version}"
