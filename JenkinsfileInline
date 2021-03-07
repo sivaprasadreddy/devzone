@@ -14,7 +14,7 @@ node {
 
         stage('Build') {
             try {
-                sh './mvnw clean verify'
+                sh './gradlew clean build'
             } finally {
                 junit allowEmptyResults: true, testResults: 'target/test-results/test/*.xml'
                 junit allowEmptyResults: true, testResults: 'target/test-results/integrationTest/*.xml'
@@ -38,7 +38,7 @@ node {
         }
 
         stage('Publish Docker Image') {
-            sh "./mvnw spring-boot:build-image -DskipTests -Dspring-boot.build-image.imageName=${DOCKER_USERNAME}/${DOCKER_IMAGE_NAME}:${env.BUILD_NUMBER}"
+            sh "./gradlew bootBuildImage -Dspring-boot.build-image.imageName=${DOCKER_USERNAME}/${DOCKER_IMAGE_NAME}:${env.BUILD_NUMBER}"
             if(env.BRANCH_NAME == 'master' || env.BRANCH_NAME == 'main') {
                 echo "Publishing to dockerhub DOCKER_USERNAME=${DOCKER_USERNAME}, APPLICATION_NAME=${DOCKER_IMAGE_NAME}"
                 def appImage = docker.build("${DOCKER_USERNAME}/${DOCKER_IMAGE_NAME}:${env.BUILD_NUMBER}")
