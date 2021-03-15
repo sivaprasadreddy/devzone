@@ -7,6 +7,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.MessageSource;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -28,7 +29,10 @@ public class DataInitializer implements CommandLineRunner {
         if (applicationProperties.isImportDataEnabled()) {
             linkService.deleteAllLinks();
             String fileName = applicationProperties.getImportFilePath();
-            linksImportService.importLinks(fileName);
+            log.info("Importing links from file: {}", fileName);
+            ClassPathResource file = new ClassPathResource(fileName, this.getClass());
+            long count = linksImportService.importLinks(file.getInputStream());
+            log.info("Imported {} links from file {}", count, fileName);
         } else {
             log.info("Data importing is disabled");
         }

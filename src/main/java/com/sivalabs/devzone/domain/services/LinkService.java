@@ -10,10 +10,9 @@ import com.sivalabs.devzone.domain.repositories.LinkRepository;
 import com.sivalabs.devzone.domain.repositories.UserRepository;
 import java.io.IOException;
 import java.time.LocalDateTime;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Optional;
-import java.util.Set;
+import java.util.stream.Collectors;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
@@ -34,6 +33,13 @@ public class LinkService {
     private final LinkRepository linkRepository;
     private final UserRepository userRepository;
     private final LinkMapper linkMapper;
+
+    @Transactional(readOnly = true)
+    public List<LinkDTO> getAllLinks() {
+        return linkRepository.findAll().stream()
+                .map(linkMapper::toDTO)
+                .collect(Collectors.toList());
+    }
 
     @Transactional(readOnly = true)
     public LinksDTO getAllLinks(Pageable pageable) {
@@ -111,16 +117,15 @@ public class LinkService {
         link.setTitle(getTitle(linkDTO));
         link.setCreatedBy(userRepository.getOne(linkDTO.getCreatedUserId()));
         link.setCreatedAt(LocalDateTime.now());
-        Set<Tag> tagsList = new HashSet<>();
+        Link finalLink = link;
         linkDTO.getTags()
                 .forEach(
                         tagName -> {
                             if (!tagName.trim().isEmpty()) {
                                 Tag tag = this.getOrCreateTag(tagName.trim());
-                                tagsList.add(tag);
+                                finalLink.addTag(tag);
                             }
                         });
-        link.setTags(tagsList);
         return linkRepository.save(link);
     }
 

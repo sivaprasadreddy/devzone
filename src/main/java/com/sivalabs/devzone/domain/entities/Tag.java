@@ -2,6 +2,7 @@ package com.sivalabs.devzone.domain.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.io.Serializable;
+import java.util.HashSet;
 import java.util.Set;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -33,4 +34,11 @@ public class Tag extends BaseEntity implements Serializable {
     @JsonIgnore
     @ManyToMany(mappedBy = "tags")
     private Set<Link> links;
+
+    public Set<Link> getLinks() {
+        if (this.links == null) {
+            this.links = new HashSet<>();
+        }
+        return this.links;
+    }
 }

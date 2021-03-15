@@ -41,9 +41,11 @@ node {
             sh "./gradlew bootBuildImage -Dspring-boot.build-image.imageName=${DOCKER_USERNAME}/${DOCKER_IMAGE_NAME}:${env.BUILD_NUMBER}"
             if(env.BRANCH_NAME == 'master' || env.BRANCH_NAME == 'main') {
                 echo "Publishing to dockerhub DOCKER_USERNAME=${DOCKER_USERNAME}, APPLICATION_NAME=${DOCKER_IMAGE_NAME}"
-                def appImage = docker.build("${DOCKER_USERNAME}/${DOCKER_IMAGE_NAME}:${env.BUILD_NUMBER}")
-                appImage.push()
-                appImage.push('latest')
+                withDockerRegistry(credentialsId: 'dockerhub-credentials') {
+                    def appImage = docker.build("${DOCKER_USERNAME}/${DOCKER_IMAGE_NAME}:${env.BUILD_NUMBER}")
+                    appImage.push()
+                    appImage.push('latest')
+                }
             } else {
                 echo "Skipping Publish Docker Image"
             }
