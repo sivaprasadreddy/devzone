@@ -9,9 +9,12 @@ import com.sivalabs.devzone.domain.models.LinksDTO;
 import com.sivalabs.devzone.domain.repositories.LinkRepository;
 import com.sivalabs.devzone.domain.repositories.UserRepository;
 import java.io.IOException;
+import java.text.Normalizer;
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.Locale;
 import java.util.Optional;
+import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -29,6 +32,10 @@ import org.springframework.transaction.annotation.Transactional;
 @RequiredArgsConstructor
 @Slf4j
 public class LinkService {
+
+    private static final Pattern NON_LATIN = Pattern.compile("[^\\w-]");
+    private static final Pattern WHITESPACE = Pattern.compile("[\\s]");
+
     private final TagService tagService;
     private final LinkRepository linkRepository;
     private final UserRepository userRepository;
@@ -122,7 +129,7 @@ public class LinkService {
                 .forEach(
                         tagName -> {
                             if (!tagName.trim().isEmpty()) {
-                                Tag tag = this.getOrCreateTag(tagName.trim());
+                                Tag tag = this.getOrCreateTag(toSlug(tagName.trim()));
                                 finalLink.addTag(tag);
                             }
                         });
@@ -150,5 +157,12 @@ public class LinkService {
         Tag tag = new Tag();
         tag.setName(tagName);
         return tagService.createTag(tag);
+    }
+
+    public static String toSlug(String input) {
+        String noWhitespace = WHITESPACE.matcher(input).replaceAll("-");
+        String normalized = Normalizer.normalize(noWhitespace, Normalizer.Form.NFD);
+        String slug = NON_LATIN.matcher(normalized).replaceAll("");
+        return slug.toLowerCase(Locale.ENGLISH);
     }
 }
