@@ -1,29 +1,18 @@
 package com.sivalabs.devzone.config.logging;
 
-import com.sivalabs.devzone.domain.utils.AppConstants;
+import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.AfterThrowing;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.core.env.Environment;
-import org.springframework.core.env.Profiles;
 import org.springframework.stereotype.Component;
 
 @Aspect
 @Component
+@Slf4j
 public class LoggingAspect {
-
-    private final Logger log = LoggerFactory.getLogger(this.getClass());
-
-    private final Environment env;
-
-    public LoggingAspect(Environment env) {
-        this.env = env;
-    }
 
     @Pointcut(
             "within(@org.springframework.stereotype.Repository *)"
@@ -42,22 +31,12 @@ public class LoggingAspect {
 
     @AfterThrowing(pointcut = "applicationPackagePointcut()", throwing = "e")
     public void logAfterThrowing(JoinPoint joinPoint, Throwable e) {
-        if (env.acceptsProfiles(Profiles.of(AppConstants.PROFILE_NOT_PROD))) {
-            log.error(
-                    "Exception in {}.{}() with cause = '{}' and exception = '{}'",
-                    joinPoint.getSignature().getDeclaringTypeName(),
-                    joinPoint.getSignature().getName(),
-                    e.getCause() == null ? "NULL" : e.getCause(),
-                    e.getMessage(),
-                    e);
-
-        } else {
-            log.error(
-                    "Exception in {}.{}() with cause = {}",
-                    joinPoint.getSignature().getDeclaringTypeName(),
-                    joinPoint.getSignature().getName(),
-                    e.getCause() == null ? "NULL" : e.getCause());
-        }
+        log.error(
+                "Exception in {}.{}() with cause = '{}'",
+                joinPoint.getSignature().getDeclaringTypeName(),
+                joinPoint.getSignature().getName(),
+                e.getCause() == null ? "NULL" : e.getCause(),
+                e);
     }
 
     @Around("applicationPackagePointcut()")

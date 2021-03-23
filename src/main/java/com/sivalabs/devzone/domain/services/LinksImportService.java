@@ -1,7 +1,5 @@
 package com.sivalabs.devzone.domain.services;
 
-import static com.sivalabs.devzone.domain.utils.AppConstants.SYSTEM_USER_ID;
-
 import com.opencsv.CSVIterator;
 import com.opencsv.CSVReader;
 import com.opencsv.exceptions.CsvValidationException;
@@ -23,6 +21,7 @@ import org.springframework.transaction.annotation.Transactional;
 @RequiredArgsConstructor
 @Slf4j
 public class LinksImportService {
+    public static final Long SYSTEM_USER_ID = 1L;
     private final LinkService linkService;
 
     public long importLinks(InputStream inputStream) throws IOException, CsvValidationException {
