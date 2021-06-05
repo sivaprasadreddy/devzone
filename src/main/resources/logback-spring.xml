@@ -10,10 +10,10 @@
     </springProfile>
 
     <springProfile name="docker,k8s">
-        <include resource="org/springframework/boot/logging/logback/file-appender.xml" />
+        <!--<include resource="org/springframework/boot/logging/logback/file-appender.xml" />-->
 
         <appender name="FILE" class="ch.qos.logback.core.FileAppender">
-            <file>/apps/devzone/logs/devzone.log</file>
+            <file>logs/devzone.log</file>
 
             <encoder class="net.logstash.logback.encoder.LogstashEncoder"/>
         </appender>

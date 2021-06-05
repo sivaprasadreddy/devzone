@@ -11,3 +11,11 @@ services:
     ports:
       - "15432:5432"
     restart: unless-stopped
+
+  pghero:
+    image: ankane/pghero
+    environment:
+      - DATABASE_URL=postgres://postgres:postgres@app-db:5432/postgres
+    ports:
+      - "28080:8080"
+    restart: unless-stopped

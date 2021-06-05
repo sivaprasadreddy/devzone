@@ -49,6 +49,14 @@
                     <a class="dropdown-item" href="#">
                         <i class="fas fa-user-circle" ></i> My Profile
                     </a>
+                    <a class="dropdown-item" href="#" th:href="@{/links/download}"
+                       sec:authorize="hasRole('ROLE_ADMIN')">
+                        <i class="fas fa-download" ></i> Download Links
+                    </a>
+                    <a class="dropdown-item" href="#" th:href="@{/links/upload}"
+                       sec:authorize="hasRole('ROLE_ADMIN')">
+                        <i class="fas fa-upload" ></i> Upload Links
+                    </a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#" th:href="@{/logout}">
                         <i class="fas fa-sign-out-alt" ></i> Logout

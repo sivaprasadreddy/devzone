@@ -7,14 +7,15 @@ import com.sivalabs.devzone.domain.mappers.LinkMapper;
 import com.sivalabs.devzone.domain.models.LinkDTO;
 import com.sivalabs.devzone.domain.models.LinksDTO;
 import com.sivalabs.devzone.domain.repositories.LinkRepository;
-import com.sivalabs.devzone.domain.repositories.TagRepository;
 import com.sivalabs.devzone.domain.repositories.UserRepository;
 import java.io.IOException;
+import java.text.Normalizer;
 import java.time.LocalDateTime;
-import java.util.HashSet;
 import java.util.List;
+import java.util.Locale;
 import java.util.Optional;
-import java.util.Set;
+import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
@@ -23,7 +24,6 @@ import org.jsoup.nodes.Document;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -32,10 +32,21 @@ import org.springframework.transaction.annotation.Transactional;
 @RequiredArgsConstructor
 @Slf4j
 public class LinkService {
+
+    private static final Pattern NON_LATIN = Pattern.compile("[^\\w-]");
+    private static final Pattern WHITESPACE = Pattern.compile("[\\s]");
+
+    private final TagService tagService;
     private final LinkRepository linkRepository;
-    private final TagRepository tagRepository;
     private final UserRepository userRepository;
     private final LinkMapper linkMapper;
+
+    @Transactional(readOnly = true)
+    public List<LinkDTO> getAllLinks() {
+        return linkRepository.findAll().stream()
+                .map(linkMapper::toDTO)
+                .collect(Collectors.toList());
+    }
 
     @Transactional(readOnly = true)
     public LinksDTO getAllLinks(Pageable pageable) {
@@ -60,7 +71,7 @@ public class LinkService {
 
     @Transactional(readOnly = true)
     public LinksDTO getLinksByTag(String tag, Pageable pageable) {
-        Optional<Tag> tagOptional = tagRepository.findByName(tag);
+        Optional<Tag> tagOptional = tagService.findTagByName(tag);
         if (tagOptional.isEmpty()) {
             throw new ResourceNotFoundException("Tag " + tag + " not found");
         }
@@ -99,12 +110,6 @@ public class LinkService {
         linkRepository.deleteAllInBatch();
     }
 
-    @Transactional(readOnly = true)
-    public List<Tag> findAllTags() {
-        Sort sort = Sort.by("name");
-        return tagRepository.findAll(sort);
-    }
-
     private LinksDTO buildLinksResult(Page<Link> links) {
         log.trace("Found {} links in page", links.getNumberOfElements());
         return new LinksDTO(links.map(linkMapper::toDTO));
@@ -119,16 +124,15 @@ public class LinkService {
         link.setTitle(getTitle(linkDTO));
         link.setCreatedBy(userRepository.getOne(linkDTO.getCreatedUserId()));
         link.setCreatedAt(LocalDateTime.now());
-        Set<Tag> tagsList = new HashSet<>();
+        Link finalLink = link;
         linkDTO.getTags()
                 .forEach(
                         tagName -> {
                             if (!tagName.trim().isEmpty()) {
-                                Tag tag = createTagIfNotExist(tagName.trim());
-                                tagsList.add(tag);
+                                Tag tag = this.getOrCreateTag(toSlug(tagName.trim()));
+                                finalLink.addTag(tag);
                             }
                         });
-        link.setTags(tagsList);
         return linkRepository.save(link);
     }
 
@@ -145,13 +149,20 @@ public class LinkService {
         return link.getUrl();
     }
 
-    private Tag createTagIfNotExist(String tagName) {
-        Optional<Tag> tagOptional = tagRepository.findByName(tagName);
+    private Tag getOrCreateTag(String tagName) {
+        Optional<Tag> tagOptional = tagService.findTagByName(tagName);
         if (tagOptional.isPresent()) {
             return tagOptional.get();
         }
         Tag tag = new Tag();
         tag.setName(tagName);
-        return tagRepository.save(tag);
+        return tagService.createTag(tag);
+    }
+
+    public static String toSlug(String input) {
+        String noWhitespace = WHITESPACE.matcher(input).replaceAll("-");
+        String normalized = Normalizer.normalize(noWhitespace, Normalizer.Form.NFD);
+        String slug = NON_LATIN.matcher(normalized).replaceAll("");
+        return slug.toLowerCase(Locale.ENGLISH);
     }
 }

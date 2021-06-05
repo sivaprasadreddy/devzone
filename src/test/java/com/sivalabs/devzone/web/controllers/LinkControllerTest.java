@@ -10,6 +10,7 @@ import com.sivalabs.devzone.common.AbstractWebMvcTest;
 import com.sivalabs.devzone.domain.models.LinksDTO;
 import com.sivalabs.devzone.domain.services.LinkService;
 import com.sivalabs.devzone.domain.services.SecurityService;
+import com.sivalabs.devzone.domain.services.TagService;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
@@ -19,6 +20,8 @@ import org.springframework.data.domain.Pageable;
 public class LinkControllerTest extends AbstractWebMvcTest {
 
     @MockBean protected LinkService linkService;
+
+    @MockBean protected TagService tagService;
 
     @MockBean protected SecurityService securityService;
 

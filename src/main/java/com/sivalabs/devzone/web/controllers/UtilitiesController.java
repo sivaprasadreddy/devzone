@@ -1,4 +1,4 @@
-package com.sivalabs.devzone.web.api.resources;
+package com.sivalabs.devzone.web.controllers;
 
 import java.io.IOException;
 import java.util.Map;

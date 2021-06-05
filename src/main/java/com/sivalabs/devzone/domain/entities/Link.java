@@ -1,6 +1,7 @@
 package com.sivalabs.devzone.domain.entities;
 
 import java.io.Serializable;
+import java.util.HashSet;
 import java.util.Set;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -39,7 +40,7 @@ public class Link extends BaseEntity implements Serializable {
     @NotEmpty()
     private String title;
 
-    @ManyToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE})
+    @ManyToMany(cascade = {CascadeType.MERGE})
     @JoinTable(
             name = "link_tag",
             joinColumns = {@JoinColumn(name = "link_id", referencedColumnName = "ID")},
@@ -49,4 +50,12 @@ public class Link extends BaseEntity implements Serializable {
     @ManyToOne
     @JoinColumn(name = "created_by", nullable = false)
     private User createdBy;
+
+    public void addTag(Tag tag) {
+        if (this.tags == null) {
+            this.tags = new HashSet<>();
+        }
+        this.tags.add(tag);
+        tag.getLinks().add(this);
+    }
 }
