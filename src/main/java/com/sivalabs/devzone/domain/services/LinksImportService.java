@@ -34,15 +34,15 @@ public class LinksImportService {
             CSVIterator iterator = new CSVIterator(csvReader);
 
             while (iterator.hasNext()) {
-                String[] nextLine = iterator.next();
+                String[] linkTokens = iterator.next();
                 LinkDTO linkDTO = new LinkDTO();
-                linkDTO.setUrl(nextLine[0]);
-                linkDTO.setTitle(nextLine[1]);
+                linkDTO.setUrl(linkTokens[0]);
+                linkDTO.setTitle(linkTokens[1]);
                 linkDTO.setCreatedUserId(SYSTEM_USER_ID);
                 linkDTO.setCreatedAt(LocalDateTime.now());
-                if (nextLine.length > 2 && StringUtils.trimToNull(nextLine[2]) != null) {
+                if (linkTokens.length > 2 && StringUtils.trimToNull(linkTokens[2]) != null) {
                     linkDTO.setTags(
-                            Arrays.asList(StringUtils.trimToEmpty(nextLine[2]).split("\\|")));
+                            Arrays.asList(StringUtils.trimToEmpty(linkTokens[2]).split("\\|")));
                 }
                 linkService.createLink(linkDTO);
                 count++;

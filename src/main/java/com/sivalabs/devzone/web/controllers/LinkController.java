@@ -88,8 +88,8 @@ public class LinkController {
     @AnyAuthenticatedUser
     public String createLink(
             @Valid @ModelAttribute(MODEL_ATTRIBUTE_LINK) LinkDTO link,
-            @CurrentUser User loginUser,
-            BindingResult bindingResult) {
+            BindingResult bindingResult,
+            @CurrentUser User loginUser) {
         if (bindingResult.hasErrors()) {
             return "add-link";
         }
@@ -112,8 +112,8 @@ public class LinkController {
     public String updateBookmark(
             @PathVariable Long id,
             @Valid @ModelAttribute(MODEL_ATTRIBUTE_LINK) LinkDTO link,
-            @CurrentUser User loginUser,
-            BindingResult bindingResult) {
+            BindingResult bindingResult,
+            @CurrentUser User loginUser) {
         if (bindingResult.hasErrors()) {
             return "edit-link";
         }

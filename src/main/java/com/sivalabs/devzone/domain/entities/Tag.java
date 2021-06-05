@@ -35,6 +35,26 @@ public class Tag extends BaseEntity implements Serializable {
     @ManyToMany(mappedBy = "tags")
     private Set<Link> links;
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        }
+
+        if (!(o instanceof Tag)) {
+            return false;
+        }
+
+        Tag other = (Tag) o;
+
+        return id != null && id.equals(other.getId());
+    }
+
+    @Override
+    public int hashCode() {
+        return getClass().hashCode();
+    }
+
     public Set<Link> getLinks() {
         if (this.links == null) {
             this.links = new HashSet<>();

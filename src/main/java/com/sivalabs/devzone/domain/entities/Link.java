@@ -51,6 +51,26 @@ public class Link extends BaseEntity implements Serializable {
     @JoinColumn(name = "created_by", nullable = false)
     private User createdBy;
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        }
+
+        if (!(o instanceof Link)) {
+            return false;
+        }
+
+        Link other = (Link) o;
+
+        return id != null && id.equals(other.getId());
+    }
+
+    @Override
+    public int hashCode() {
+        return getClass().hashCode();
+    }
+
     public void addTag(Tag tag) {
         if (this.tags == null) {
             this.tags = new HashSet<>();

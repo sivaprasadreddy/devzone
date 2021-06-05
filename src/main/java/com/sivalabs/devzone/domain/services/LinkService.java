@@ -10,10 +10,11 @@ import com.sivalabs.devzone.domain.repositories.LinkRepository;
 import com.sivalabs.devzone.domain.repositories.UserRepository;
 import java.io.IOException;
 import java.text.Normalizer;
-import java.time.LocalDateTime;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
 import java.util.Optional;
+import java.util.Set;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import lombok.RequiredArgsConstructor;
@@ -116,23 +117,33 @@ public class LinkService {
     }
 
     private Link saveLink(LinkDTO linkDTO) {
-        Link link = new Link();
-        if (linkDTO.getId() != null) {
-            link = linkRepository.findById(linkDTO.getId()).orElse(link);
+        Link link;
+        if (linkDTO.getId() == null || linkDTO.getId() == 0) {
+            link = new Link();
+            link.setCreatedBy(userRepository.getOne(linkDTO.getCreatedUserId()));
+        } else {
+            link =
+                    linkRepository
+                            .findById(linkDTO.getId())
+                            .orElseThrow(
+                                    () ->
+                                            new ResourceNotFoundException(
+                                                    "Link with id: "
+                                                            + linkDTO.getId()
+                                                            + " not found"));
         }
         link.setUrl(linkDTO.getUrl());
         link.setTitle(getTitle(linkDTO));
-        link.setCreatedBy(userRepository.getOne(linkDTO.getCreatedUserId()));
-        link.setCreatedAt(LocalDateTime.now());
-        Link finalLink = link;
-        linkDTO.getTags()
-                .forEach(
-                        tagName -> {
-                            if (!tagName.trim().isEmpty()) {
-                                Tag tag = this.getOrCreateTag(toSlug(tagName.trim()));
-                                finalLink.addTag(tag);
-                            }
-                        });
+
+        Set<Tag> tagSet = new HashSet<>();
+        for (String tagName : linkDTO.getTags()) {
+            if (StringUtils.isNotBlank(tagName)) {
+                Tag tag = this.getOrCreateTag(toSlug(tagName.trim()));
+                tagSet.add(tag);
+                tag.getLinks().add(link);
+            }
+        }
+        link.setTags(tagSet);
         return linkRepository.save(link);
     }
 
