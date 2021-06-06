@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{mainLayout}">
+<head>
+    <title>Registration</title>
+</head>
+<body>
+
+<div layout:fragment="content">
+
+    <div class="row">
+
+        <div class="col-md-6 offset-md-3">
+
+            <div class="card">
+                <div class="card-header">
+                    <h3>Registration Form</h3>
+                </div>
+                <div class="card-body">
+                    <form id="registrationForm" method="post" th:action="@{/registration}" th:object="${user}"
+                          class="form-horizontal" role="form"
+                          cssStyle="width: 800px; margin: 0 auto;">
+                        <div class="form-group">
+                            <label for="name" class="col-sm-2 control-label">Name*</label>
+                            <div class="col-sm-10">
+                                <input type="text" id="name" name="name"
+                                       th:field="*{name}"
+                                       class="form-control"
+                                       th:classappend="${#fields.hasErrors('name')} ? 'is-invalid' : ''"
+                                       placeholder="Enter Name"/>
+                                <div class="invalid-feedback" th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name Error</div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="col-sm-2 control-label">Email*</label>
+                            <div class="col-sm-10">
+                                <input type="text" id="email" name="email"
+                                       th:field="*{email}"
+                                       class="form-control"
+                                       th:classappend="${#fields.hasErrors('email')} ? 'is-invalid' : ''"
+                                       placeholder="Enter email" />
+                                <div class="invalid-feedback"  th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Email Error</div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="password" class="col-sm-2 control-label">Password*</label>
+                            <div class="col-sm-10">
+                                <input type="password" id="password" name="password"
+                                       th:field="*{password}"
+                                       class="form-control"
+                                       th:classappend="${#fields.hasErrors('password')} ? 'is-invalid' : ''"
+                                       placeholder="Enter password" />
+                                <div class="invalid-feedback"  th:if="${#fields.hasErrors('password')}" th:errors="*{password}">Password Error</div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-4">
+                                <input type="submit" class="btn btn-primary pull-right"
+                                       value="Submit"/>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

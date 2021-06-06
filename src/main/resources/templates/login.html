@@ -20,7 +20,9 @@
             <div th:if="${param.logout}">
                 <div class="alert alert-success">You have been logged out.</div>
             </div>
-
+            <div th:if="${msg}">
+                <div class="alert alert-success"><span th:text="${msg}">Message</span></div>
+            </div>
             <div class="card">
                 <div class="card-header">
                     <h3 >Login Form</h3>
