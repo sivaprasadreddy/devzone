@@ -1,7 +1,9 @@
 package com.sivalabs.devzone.web.controllers;
 
+import com.opencsv.exceptions.CsvValidationException;
 import com.sivalabs.devzone.annotations.AdminOnly;
 import com.sivalabs.devzone.domain.services.LinksImportService;
+import java.io.IOException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
@@ -27,9 +29,13 @@ public class LinksUploadController {
     @AdminOnly
     public String uploadBookmarks(
             @RequestParam("file") MultipartFile file, RedirectAttributes redirectAttributes)
-            throws Exception {
-        linksImportService.importLinks(file.getInputStream());
-        redirectAttributes.addFlashAttribute("msg", "Links imported successfully");
+            throws IOException, CsvValidationException {
+        if (file.isEmpty()) {
+            redirectAttributes.addFlashAttribute("msg", "Please select the file to upload");
+        } else {
+            linksImportService.importLinks(file.getInputStream());
+            redirectAttributes.addFlashAttribute("msg", "Links imported successfully");
+        }
         return "redirect:/links/upload";
     }
 }

@@ -49,8 +49,11 @@
                     <i class="fas fa-user" ></i> <span sec:authentication="principal.user.name">User</span>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="#" th:href="@{/profile}">
                         <i class="fas fa-user-circle" ></i> My Profile
+                    </a>
+                    <a class="dropdown-item" href="#" th:href="@{/change-password}">
+                        <i class="fas fa-user-circle" ></i> Change Password
                     </a>
                     <a class="dropdown-item" href="#" th:href="@{/links/download}"
                        sec:authorize="hasRole('ROLE_ADMIN')">
