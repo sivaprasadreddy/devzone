@@ -3,7 +3,7 @@
 import com.sivalabs.JenkinsGradleLib
 
 def dockerUsername = 'sivaprasadreddy'
-def dockerImageName = 'dzone'
+def dockerImageName = 'devzone'
 
 def project = new JenkinsGradleLib(this, scm, env, params, currentBuild)
 

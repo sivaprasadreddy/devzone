@@ -1,7 +1,7 @@
 package com.sivalabs.devzone.web.controllers;
 
-import com.sivalabs.devzone.annotations.AnyAuthenticatedUser;
-import com.sivalabs.devzone.annotations.CurrentUser;
+import com.sivalabs.devzone.config.annotations.AnyAuthenticatedUser;
+import com.sivalabs.devzone.config.annotations.CurrentUser;
 import com.sivalabs.devzone.domain.entities.User;
 import com.sivalabs.devzone.domain.exceptions.DevZoneException;
 import com.sivalabs.devzone.domain.exceptions.ResourceAlreadyExistsException;

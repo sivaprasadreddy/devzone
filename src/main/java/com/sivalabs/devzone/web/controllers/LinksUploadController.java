@@ -1,7 +1,7 @@
 package com.sivalabs.devzone.web.controllers;
 
 import com.opencsv.exceptions.CsvValidationException;
-import com.sivalabs.devzone.annotations.AdminOnly;
+import com.sivalabs.devzone.config.annotations.AdminOnly;
 import com.sivalabs.devzone.domain.services.LinksImportService;
 import java.io.IOException;
 import lombok.RequiredArgsConstructor;

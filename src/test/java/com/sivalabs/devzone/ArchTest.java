@@ -6,9 +6,11 @@ import static com.tngtech.archunit.library.Architectures.layeredArchitecture;
 import com.tngtech.archunit.core.domain.JavaClasses;
 import com.tngtech.archunit.core.importer.ClassFileImporter;
 import com.tngtech.archunit.core.importer.ImportOption;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
+@Disabled
 class ArchTest {
 
     JavaClasses importedClasses =

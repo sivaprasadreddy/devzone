@@ -1,6 +1,6 @@
 package com.sivalabs.devzone.config.argresolvers;
 
-import com.sivalabs.devzone.annotations.CurrentUser;
+import com.sivalabs.devzone.config.annotations.CurrentUser;
 import com.sivalabs.devzone.domain.services.SecurityService;
 import java.lang.annotation.Annotation;
 import lombok.RequiredArgsConstructor;

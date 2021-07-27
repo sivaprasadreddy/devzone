@@ -1,4 +1,4 @@
-package com.sivalabs.devzone.annotations;
+package com.sivalabs.devzone.config.annotations;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
@@ -12,5 +12,5 @@ import org.springframework.security.access.prepost.PreAuthorize;
 @Retention(RetentionPolicy.RUNTIME)
 @Inherited
 @Documented
-@PreAuthorize("hasRole('ROLE_ADMIN')")
-public @interface AdminOnly {}
+@PreAuthorize("isAuthenticated()")
+public @interface AnyAuthenticatedUser {}

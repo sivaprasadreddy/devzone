@@ -1,6 +1,6 @@
 package com.sivalabs.devzone.web.controllers;
 
-import com.sivalabs.devzone.annotations.AdminOnly;
+import com.sivalabs.devzone.config.annotations.AdminOnly;
 import com.sivalabs.devzone.domain.services.LinksExportService;
 import java.io.IOException;
 import javax.servlet.http.HttpServletResponse;
