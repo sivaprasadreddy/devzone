@@ -9,86 +9,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <title layout:title-pattern="$LAYOUT_TITLE - $CONTENT_TITLE">DevZone</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"/>
-    <!--<link rel="stylesheet" th:href="@{'/webjars/bootstrap/4.4.1/css/bootstrap.css'}">-->
-    <link rel="stylesheet" th:href="@{'/webjars/font-awesome/5.8.1/css/all.css'}">
-    <link rel="stylesheet" th:href="@{'/bootswatch/cosmo/bootstrap.min.css'}">
+    <link rel="stylesheet" th:href="@{'/webjars/bootstrap/css/bootstrap.css'}">
+    <!--<link rel="stylesheet" th:href="@{'/bootswatch/cosmo/bootstrap.min.css'}">-->
+    <link rel="stylesheet" th:href="@{'/webjars/font-awesome/css/all.css'}">
     <link rel="stylesheet" th:href="@{'/css/styles.css'}">
 </head>
 
 <body>
+<main>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" th:href="@{/}">DevZone</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item" sec:authorize="isAnonymous()">
+                        <a class="nav-link" href="#" th:href="@{/login}">Login</a>
+                    </li>
+                    <li class="nav-item" sec:authorize="isAnonymous()">
+                        <a class="nav-link" href="#" th:href="@{/registration}">Register</a>
+                    </li>
+                    <li class="nav-item" sec:authorize="!isAnonymous()">
+                        <a class="nav-link" href="#" th:href="@{/links/new}">
+                            <i class="fas fa-plus-circle" ></i> Add
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown" sec:authorize="isAuthenticated()">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                           role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-user" ></i> <span sec:authentication="principal.user.name">User</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                            <li>
+                            <a class="dropdown-item" href="#" th:href="@{/profile}">
+                                <i class="fas fa-user-circle" ></i> My Profile
+                            </a>
+                            </li>
+                            <li>
+                            <a class="dropdown-item" href="#" th:href="@{/change-password}">
+                                <i class="fas fa-user-circle" ></i> Change Password
+                            </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#" th:href="@{/links/download}"
+                                   sec:authorize="hasRole('ROLE_ADMIN')">
+                                    <i class="fas fa-download" ></i> Download Links
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#" th:href="@{/links/upload}"
+                                   sec:authorize="hasRole('ROLE_ADMIN')">
+                                    <i class="fas fa-upload" ></i> Upload Links
+                                </a>
+                            </li>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-    <a class="navbar-brand" href="#" th:href="@{/}">DevZone</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse"
-            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-            aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+                            <div class="dropdown-divider"></div>
+                            <li>
+                                <a class="dropdown-item" href="#" th:href="@{/logout}">
+                                    <i class="fas fa-sign-out-alt" ></i> Logout
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <!--<li class="nav-item">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>-->
-        </ul>
-        <ul class="navbar-nav">
-            <li class="nav-item" sec:authorize="isAuthenticated()">
-                <a class="nav-link" href="#" th:href="@{/links/new}">
-                    <i class="fas fa-plus-circle" ></i> Add
-                </a>
-            </li>
-            <li class="nav-item" sec:authorize="isAnonymous()">
-                <a class="nav-link" href="#" th:href="@{/login}">Login</a>
-            </li>
-            <li class="nav-item" sec:authorize="isAnonymous()">
-                <a class="nav-link" href="#" th:href="@{/registration}">Register</a>
-            </li>
-            <li class="nav-item dropdown" sec:authorize="isAuthenticated()">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="fas fa-user" ></i> <span sec:authentication="principal.user.name">User</span>
-                </a>
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#" th:href="@{/profile}">
-                        <i class="fas fa-user-circle" ></i> My Profile
-                    </a>
-                    <a class="dropdown-item" href="#" th:href="@{/change-password}">
-                        <i class="fas fa-user-circle" ></i> Change Password
-                    </a>
-                    <a class="dropdown-item" href="#" th:href="@{/links/download}"
-                       sec:authorize="hasRole('ROLE_ADMIN')">
-                        <i class="fas fa-download" ></i> Download Links
-                    </a>
-                    <a class="dropdown-item" href="#" th:href="@{/links/upload}"
-                       sec:authorize="hasRole('ROLE_ADMIN')">
-                        <i class="fas fa-upload" ></i> Upload Links
-                    </a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#" th:href="@{/logout}">
-                        <i class="fas fa-sign-out-alt" ></i> Logout
-                    </a>
-                </div>
-            </li>
-
-        </ul>
-    </div>
-</nav>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
 <div id="app" class="container-fluid">
     <div layout:fragment="content">
         <!-- Your Page Content Here -->
     </div>
 </div>
-
-<footer class="footer">
-    <div class="container">
-        <p class="text-center">SivaLabs &copy; 2021</p>
-    </div>
-</footer>
-
-<script th:src="@{'/webjars/jquery/3.0.0/jquery.js'}"></script>
-<script th:src="@{'/webjars/popper.js/1.14.3/umd/popper.js'}"></script>
-<script th:src="@{'/webjars/bootstrap/4.4.1/js/bootstrap.js'}"></script>
+</main>
+<script th:src="@{'/webjars/jquery/jquery.js'}"></script>
+<script th:src="@{'/webjars/bootstrap/js/bootstrap.bundle.js'}"></script>
 <script th:src="@{'/js/common.js'}"></script>
 <script th:src="@{'/js/app.js'}"></script>
 <div layout:fragment="pageScripts">

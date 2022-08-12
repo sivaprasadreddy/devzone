@@ -6,11 +6,9 @@ import static com.tngtech.archunit.library.Architectures.layeredArchitecture;
 import com.tngtech.archunit.core.domain.JavaClasses;
 import com.tngtech.archunit.core.importer.ClassFileImporter;
 import com.tngtech.archunit.core.importer.ImportOption;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
-@Disabled
 class ArchTest {
 
     JavaClasses importedClasses =
@@ -19,16 +17,14 @@ class ArchTest {
                     .importPackages("com.sivalabs.devzone");
 
     @Test
-    void servicesAndRepositoriesShouldNotDependOnWebLayer() {
+    void domainShouldNotDependOnWebLayer() {
         noClasses()
                 .that()
-                .resideInAnyPackage("com.sivalabs.devzone.domain.services..")
-                .or()
-                .resideInAnyPackage("com.sivalabs.devzone.domain.repositories..")
+                .resideInAnyPackage("com.sivalabs.devzone.domain..")
                 .should()
                 .dependOnClassesThat()
-                .resideInAnyPackage("com.sivalabs.devzone.web..")
-                .because("Services and repositories should not depend on web layer")
+                .resideInAnyPackage("com.sivalabs.devzone.web..", "com.sivalabs.devzone.api..")
+                .because("Domain layer should not depend on Web or API layer")
                 .check(importedClasses);
     }
 
@@ -43,7 +39,7 @@ class ArchTest {
                 .layer("Config")
                 .definedBy("..config..")
                 .layer("Web")
-                .definedBy("..web..")
+                .definedBy("..web..", "..api..")
                 .layer("Service")
                 .definedBy("..services..")
                 .layer("Mapper")

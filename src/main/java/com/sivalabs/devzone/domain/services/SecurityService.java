@@ -42,7 +42,7 @@ public class SecurityService {
         return isUserHasAnyRole(loginUser(), RoleEnum.ROLE_ADMIN);
     }
 
-    public boolean isCurrentUserAdminOrModerator(User loginUser) {
+    public boolean isUserAdminOrModerator(User loginUser) {
         return isUserHasAnyRole(loginUser, RoleEnum.ROLE_ADMIN, RoleEnum.ROLE_MODERATOR);
     }
 

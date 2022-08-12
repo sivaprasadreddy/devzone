@@ -37,6 +37,6 @@ public class LinkMapper {
         return loginUser != null
                 && linkDTO != null
                 && (Objects.equals(linkDTO.getCreatedUserId(), loginUser.getId())
-                        || securityService.isCurrentUserAdminOrModerator(loginUser));
+                        || securityService.isUserAdminOrModerator(loginUser));
     }
 }

@@ -37,10 +37,10 @@ ext {
     set('spring_cloud_version', "2021.0.3")
     set('awspring_version', "2.4.2")
     set('testcontainers_version', "1.17.3")
-    set('bootstrap_version', "4.4.1")
     set('webjars_locator_version', "0.45")
+    set('bootstrap_version', "5.2.0")
     set('jquery_version', "3.6.0")
-    set('font_awesome_version', "5.8.1")
+    set('font_awesome_version', "6.1.2")
     set('commons_lang_version', "3.12.0")
     set('commons_io_version', "2.11.0")
     set('problem_spring_web_version', "0.26.2")
@@ -67,8 +67,6 @@ dependencies {
     implementation "io.jsonwebtoken:jjwt:${jjwt_version}"
     implementation "org.zalando:problem-spring-web-starter:${problem_spring_web_version}"
     implementation "org.springdoc:springdoc-openapi-ui:${springdoc_openapi}"
-    implementation "org.webjars:bootstrap:${bootstrap_version}"
-    implementation "org.webjars:font-awesome:${font_awesome_version}"
     implementation "com.opencsv:opencsv:${opencsv_version}"
     implementation "org.jsoup:jsoup:${jsoup_version}"
     implementation "com.github.gavlyukovskiy:p6spy-spring-boot-starter:${p6spy_version}"
@@ -79,6 +77,11 @@ dependencies {
     runtimeOnly "com.h2database:h2"
     runtimeOnly "io.micrometer:micrometer-registry-prometheus"
     runtimeOnly "org.postgresql:postgresql"
+
+    implementation "org.webjars:webjars-locator:${webjars_locator_version}"
+    implementation "org.webjars:bootstrap:${bootstrap_version}"
+    implementation "org.webjars:jquery:${jquery_version}"
+    implementation "org.webjars:font-awesome:${font_awesome_version}"
 
     compileOnly "org.projectlombok:lombok"
     developmentOnly "org.springframework.boot:spring-boot-devtools"

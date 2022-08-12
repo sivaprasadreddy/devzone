@@ -8,7 +8,6 @@
     <title>Profile</title>
 </head>
 <body>
-
 <div layout:fragment="content">
 
     <div class="row">
@@ -20,39 +19,31 @@
                     <h3>User Profile</h3>
                 </div>
                 <div class="card-body">
-                    <form id="profileForm" method="post" action="#" th:object="${user}"
-                          class="form-horizontal" role="form">
-                        <div class="form-group">
-                            <label for="name" class="col-sm-12 control-label">Name*</label>
-                            <div class="col-sm-12">
-                                <input type="text" id="name" name="name"
-                                       readonly="readonly"
-                                       th:field="*{name}"
-                                       class="form-control"
-                                       th:classappend="${#fields.hasErrors('name')} ? 'is-invalid' : ''"
-                                       placeholder="Enter Name"/>
-                                <div class="invalid-feedback" th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name Error</div>
-                            </div>
+                    <form id="registrationForm" method="post" action="#" th:object="${user}">
+                        <div class="mb-3">
+                            <label for="name" class="control-label">Name*</label>
+                            <input type="text" id="name" name="name"
+                                   readonly="readonly"
+                                   th:field="*{name}"
+                                   class="form-control"
+                                   th:classappend="${#fields.hasErrors('name')} ? 'is-invalid' : ''"
+                                   placeholder="Enter Name"/>
+                            <div class="invalid-feedback" th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name Error</div>
                         </div>
-                        <div class="form-group">
-                            <label for="email" class="col-sm-12 control-label">Email*</label>
-                            <div class="col-sm-12">
-                                <input type="text" id="email" name="email"
-                                       readonly="readonly"
-                                       th:field="*{email}"
-                                       class="form-control"
-                                       th:classappend="${#fields.hasErrors('email')} ? 'is-invalid' : ''"
-                                       placeholder="Enter email" />
-                                <div class="invalid-feedback"  th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Email Error</div>
-                            </div>
+                        <div class="mb-3">
+                            <label for="email" class="control-label">Email*</label>
+                            <input type="text" id="email" name="email"
+                                   readonly="readonly"
+                                   th:field="*{email}"
+                                   class="form-control"
+                                   th:classappend="${#fields.hasErrors('email')} ? 'is-invalid' : ''"
+                                   placeholder="Enter email" />
+                            <div class="invalid-feedback"  th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Email Error</div>
                         </div>
-                        <!--<div class="form-group">
-                            <div class="col-sm-offset-2 col-sm-4">
-                                <input type="submit" class="btn btn-primary pull-right"
-                                       value="Submit"/>
-                                <div class="clearfix"></div>
-                            </div>
+                        <!--<div class="col-auto">
+                            <button type="submit" class="btn btn-primary">Submit</button>
                         </div>-->
+
                     </form>
                 </div>
             </div>

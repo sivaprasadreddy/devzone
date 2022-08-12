@@ -1,6 +1,5 @@
 package com.sivalabs.devzone.config.advice;
 
-import com.sivalabs.devzone.api.controllers.LinkRestController;
 import com.sivalabs.devzone.domain.exceptions.BadRequestException;
 import com.sivalabs.devzone.domain.exceptions.DevZoneException;
 import com.sivalabs.devzone.domain.exceptions.ResourceAlreadyExistsException;
@@ -16,7 +15,7 @@ import org.zalando.problem.spring.web.advice.ProblemHandling;
 import org.zalando.problem.spring.web.advice.security.SecurityAdviceTrait;
 
 @Slf4j
-@RestControllerAdvice(basePackageClasses = LinkRestController.class)
+@RestControllerAdvice
 public class GlobalExceptionHandler implements ProblemHandling, SecurityAdviceTrait {
 
     @ExceptionHandler(ResourceNotFoundException.class)

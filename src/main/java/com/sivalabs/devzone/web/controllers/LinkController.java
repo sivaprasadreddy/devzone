@@ -137,7 +137,7 @@ public class LinkController {
     private void checkPrivilege(Long linkId, LinkDTO link, User loginUser) {
         if (link == null
                 || !(link.getCreatedUserId().equals(loginUser.getId())
-                        || securityService.isCurrentUserAdmin())) {
+                        || securityService.isUserAdminOrModerator(loginUser))) {
             throw new ResourceNotFoundException("Link not found with id=" + linkId);
         }
     }
