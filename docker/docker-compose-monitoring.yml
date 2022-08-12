@@ -28,7 +28,7 @@ services:
     - promtail
 
   grafana:
-    image: grafana/grafana:7.3.6
+    image: grafana/grafana:7.5.16
     container_name: monitoring-grafana
     ports:
     - "3000:3000"
