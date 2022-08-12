@@ -1,12 +1,16 @@
 plugins {
     id 'java'
+    id 'jacoco'
     id 'org.springframework.boot' version '2.7.2'
     id 'io.spring.dependency-management' version '1.0.12.RELEASE'
     id 'com.gorylenko.gradle-git-properties' version "2.4.1"
     id 'com.google.cloud.tools.jib' version "3.2.1"
     id 'com.diffplug.spotless' version "6.9.0"
+    id 'org.sonarqube' version "3.0"
 }
 
+def jacocoToolVersion = "0.8.8"
+def jacocoMinCoverageRequired = 0.30
 def googleJavaFormatToolVersion = "1.12.0"
 
 group = "com.sivalabs"
@@ -42,12 +46,12 @@ ext {
     set('problem_spring_web_version', "0.26.2")
     set('jjwt_version', "0.9.1")
     set('springdoc_openapi', "1.6.9")
-    set('opencsv_version', "5.3")
-    set('jsoup_version', "1.13.1")
+    set('opencsv_version', "5.6")
+    set('jsoup_version', "1.15.2")
     set('jasypt_version', "3.0.3")
-    set('p6spy_version', "1.6.3")
-    set('flexypool_version', "1.6.2")
-    set('archunit_junit5_version', "0.17.0")
+    set('p6spy_version', "1.8.0")
+    set('flexypool_version', "1.8.0")
+    set('archunit_junit5_version', "0.23.1")
 
 }
 dependencies {
@@ -153,6 +157,61 @@ test {
         events = ["PASSED", "FAILED", "SKIPPED"]
         showStandardStreams = true
         exceptionFormat = "full"
+    }
+}
+jacoco {
+    toolVersion = jacocoToolVersion
+}
+
+def jacocoExcludes = [
+    'com/sivalabs/devzone/*Application.*',
+]
+
+jacocoTestReport {
+    executionData tasks.withType(Test)
+    classDirectories.from = files(sourceSets.main.output.classesDirs)
+    sourceDirectories.from = files(sourceSets.main.java.srcDirs)
+
+    afterEvaluate {
+        getClassDirectories().setFrom(files(classDirectories.files.collect {
+            fileTree(dir: it, exclude: jacocoExcludes)
+        }))
+    }
+
+    reports {
+        xml.required = true
+        html.required = true
+    }
+}
+
+jacocoTestCoverageVerification {
+    dependsOn "test"
+    executionData fileTree(project.buildDir.absolutePath).include("jacoco/*.exec")
+
+    violationRules {
+        rule {
+            limit {
+                counter = 'LINE'
+                value = 'COVEREDRATIO'
+                minimum = jacocoMinCoverageRequired
+            }
+            excludes = jacocoExcludes
+        }
+    }
+}
+
+check.dependsOn jacocoTestReport, jacocoTestCoverageVerification
+
+file("sonar-project.properties").withReader {
+    Properties sonarProperties = new Properties()
+    sonarProperties.load(it)
+
+    sonarProperties.each { key, value ->
+        sonarqube {
+            properties {
+                property key, value
+            }
+        }
     }
 }
 
