@@ -56,7 +56,7 @@ public class UserController {
     @AnyAuthenticatedUser
     public String viewProfile(Model model, @CurrentUser User loginUser) {
         Optional<UserDTO> userOptional = userService.getUserById(loginUser.getId());
-        model.addAttribute("user", userOptional.get());
+        model.addAttribute("user", userOptional.orElseThrow());
         return "profile";
     }
 
