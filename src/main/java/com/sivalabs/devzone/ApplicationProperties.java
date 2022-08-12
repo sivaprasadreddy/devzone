@@ -1,4 +1,4 @@
-package com.sivalabs.devzone.config;
+package com.sivalabs.devzone;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

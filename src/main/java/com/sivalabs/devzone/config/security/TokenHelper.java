@@ -1,6 +1,6 @@
 package com.sivalabs.devzone.config.security;
 
-import com.sivalabs.devzone.config.ApplicationProperties;
+import com.sivalabs.devzone.ApplicationProperties;
 import com.sivalabs.devzone.domain.exceptions.DevZoneException;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

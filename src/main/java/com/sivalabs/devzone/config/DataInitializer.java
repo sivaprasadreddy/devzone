@@ -1,5 +1,6 @@
 package com.sivalabs.devzone.config;
 
+import com.sivalabs.devzone.ApplicationProperties;
 import com.sivalabs.devzone.domain.services.LinkService;
 import com.sivalabs.devzone.domain.services.LinksImportService;
 import java.util.Locale;

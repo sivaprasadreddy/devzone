@@ -4,8 +4,8 @@ import static org.springframework.http.MediaType.APPLICATION_JSON;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
+import com.sivalabs.devzone.ApplicationProperties;
 import com.sivalabs.devzone.common.AbstractIntegrationTest;
-import com.sivalabs.devzone.config.ApplicationProperties;
 import com.sivalabs.devzone.config.security.TokenHelper;
 import com.sivalabs.devzone.domain.entities.User;
 import com.sivalabs.devzone.domain.models.AuthenticationRequest;

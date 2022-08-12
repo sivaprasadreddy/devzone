@@ -1,6 +1,6 @@
 package com.sivalabs.devzone.api.controllers;
 
-import com.sivalabs.devzone.config.ApplicationProperties;
+import com.sivalabs.devzone.ApplicationProperties;
 import com.sivalabs.devzone.config.security.SecurityUser;
 import com.sivalabs.devzone.config.security.SecurityUserDetailsService;
 import com.sivalabs.devzone.config.security.TokenHelper;
