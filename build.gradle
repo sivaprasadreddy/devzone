@@ -209,7 +209,3 @@ file("sonar-project.properties").withReader {
         }
     }
 }
-
-wrapper {
-    gradleVersion = "7.5"
-}

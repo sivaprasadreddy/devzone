@@ -1,15 +1,9 @@
 # DevZone
 
-![Build](https://github.com/sivaprasadreddy/devzone/workflows/Build/badge.svg)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=sivaprasadreddy_devzone&metric=coverage)](https://sonarcloud.io/dashboard?id=sivaprasadreddy_devzone)
+[![Build](https://github.com/sivaprasadreddy/devzone/actions/workflows/gradle.yml/badge.svg)](https://github.com/sivaprasadreddy/devzone/actions/workflows/gradle.yml) 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=sivaprasadreddy_devzone&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=sivaprasadreddy_devzone)
 
 ### Run locally
 
-`$ ./gradlew bootRun -Pdev`
+`$ ./gradlew bootRun`
 
-### Jenkins Setup
-
-Plugin Dependencies:
-
-* https://plugins.jenkins.io/docker-workflow/
-* https://plugins.jenkins.io/htmlpublisher/
