@@ -4,14 +4,14 @@ import static org.springframework.data.domain.Sort.Direction.DESC;
 
 import com.sivalabs.devzone.config.annotations.AnyAuthenticatedUser;
 import com.sivalabs.devzone.config.annotations.CurrentUser;
-import com.sivalabs.devzone.domain.entities.Tag;
+import com.sivalabs.devzone.domain.entities.Category;
 import com.sivalabs.devzone.domain.entities.User;
 import com.sivalabs.devzone.domain.exceptions.ResourceNotFoundException;
 import com.sivalabs.devzone.domain.models.LinkDTO;
 import com.sivalabs.devzone.domain.models.LinksDTO;
+import com.sivalabs.devzone.domain.services.CategoryService;
 import com.sivalabs.devzone.domain.services.LinkService;
 import com.sivalabs.devzone.domain.services.SecurityService;
-import com.sivalabs.devzone.domain.services.TagService;
 import java.util.List;
 import javax.validation.Valid;
 import lombok.RequiredArgsConstructor;
@@ -41,28 +41,31 @@ public class LinkController {
     private static final String MODEL_ATTRIBUTE_LINK = "link";
 
     private final LinkService linkService;
-    private final TagService tagService;
+    private final CategoryService categoryService;
     private final SecurityService securityService;
 
-    @ModelAttribute("tags")
-    public List<Tag> allTags() {
-        return tagService.findAllTags();
+    @ModelAttribute("categories")
+    public List<Category> allCategories() {
+        return categoryService.findAllCategories();
     }
 
     @GetMapping("/links")
     public String home(
             @RequestParam(name = "query", required = false) String query,
-            @RequestParam(name = "tag", required = false) String tag,
+            @RequestParam(name = "category", required = false) String category,
             @PageableDefault(size = 15)
                     @SortDefault.SortDefaults({@SortDefault(sort = "createdAt", direction = DESC)})
                     Pageable pageable,
             Model model) {
         LinksDTO data;
-        if (StringUtils.isNotEmpty(tag)) {
-            log.info("Fetching links for tag {} with page: {}", tag, pageable.getPageNumber());
-            data = linkService.getLinksByTag(tag, pageable);
-            model.addAttribute("header", "Links by Tag : " + tag);
-            model.addAttribute(PAGINATION_PREFIX, "/links?tag=" + tag);
+        if (StringUtils.isNotEmpty(category)) {
+            log.info(
+                    "Fetching links for category {} with page: {}",
+                    category,
+                    pageable.getPageNumber());
+            data = linkService.getLinksByCategory(category, pageable);
+            model.addAttribute("header", "Links by Category : " + category);
+            model.addAttribute(PAGINATION_PREFIX, "/links?category=" + category);
         } else if (StringUtils.isNotEmpty(query)) {
             log.info("Searching links for {} with page: {}", query, pageable.getPageNumber());
             data = linkService.searchLinks(query, pageable);

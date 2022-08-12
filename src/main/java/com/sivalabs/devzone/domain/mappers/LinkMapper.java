@@ -1,12 +1,10 @@
 package com.sivalabs.devzone.domain.mappers;
 
 import com.sivalabs.devzone.domain.entities.Link;
-import com.sivalabs.devzone.domain.entities.Tag;
 import com.sivalabs.devzone.domain.entities.User;
 import com.sivalabs.devzone.domain.models.LinkDTO;
 import com.sivalabs.devzone.domain.services.SecurityService;
 import java.util.Objects;
-import java.util.stream.Collectors;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 
@@ -24,8 +22,8 @@ public class LinkMapper {
         dto.setCreatedUserName(link.getCreatedBy().getName());
         dto.setCreatedAt(link.getCreatedAt());
         dto.setUpdatedAt(link.getUpdatedAt());
-        if (link.getTags() != null) {
-            dto.setTags(link.getTags().stream().map(Tag::getName).collect(Collectors.toList()));
+        if (link.getCategory() != null) {
+            dto.setCategory(link.getCategory().getName());
         }
         boolean editable = this.canCurrentUserEditLink(dto);
         dto.setEditable(editable);

@@ -1,17 +1,12 @@
 package com.sivalabs.devzone.domain.entities;
 
 import java.io.Serializable;
-import java.util.HashSet;
-import java.util.Set;
-import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
-import javax.persistence.JoinTable;
-import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
@@ -26,10 +21,7 @@ import lombok.Setter;
 public class Link extends BaseEntity implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "link_id_generator")
-    @SequenceGenerator(
-            name = "link_id_generator",
-            sequenceName = "link_id_seq",
-            allocationSize = 100)
+    @SequenceGenerator(name = "link_id_generator", sequenceName = "link_id_seq")
     private Long id;
 
     @Column(nullable = false)
@@ -40,12 +32,9 @@ public class Link extends BaseEntity implements Serializable {
     @NotEmpty()
     private String title;
 
-    @ManyToMany(cascade = {CascadeType.MERGE})
-    @JoinTable(
-            name = "link_tag",
-            joinColumns = {@JoinColumn(name = "link_id", referencedColumnName = "ID")},
-            inverseJoinColumns = {@JoinColumn(name = "tag_id", referencedColumnName = "ID")})
-    private Set<Tag> tags;
+    @ManyToOne
+    @JoinColumn(name = "cat_id")
+    private Category category;
 
     @ManyToOne
     @JoinColumn(name = "created_by", nullable = false)
@@ -57,11 +46,9 @@ public class Link extends BaseEntity implements Serializable {
             return true;
         }
 
-        if (!(o instanceof Link)) {
+        if (!(o instanceof Link other)) {
             return false;
         }
-
-        Link other = (Link) o;
 
         return id != null && id.equals(other.getId());
     }
@@ -69,13 +56,5 @@ public class Link extends BaseEntity implements Serializable {
     @Override
     public int hashCode() {
         return getClass().hashCode();
-    }
-
-    public void addTag(Tag tag) {
-        if (this.tags == null) {
-            this.tags = new HashSet<>();
-        }
-        this.tags.add(tag);
-        tag.getLinks().add(this);
     }
 }

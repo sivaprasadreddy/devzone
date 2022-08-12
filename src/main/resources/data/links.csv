@@ -1,4 +1,4 @@
-url,title,tags
+url,title,category
 https://linuxize.com/post/how-to-remove-docker-images-containers-volumes-and-networks/,"How To Remove Docker Containers, Images, Volumes, and Networks",docker
 https://reflectoring.io/unit-testing-spring-boot/,"All You Need To Know About Unit Testing with Spring Boot",spring-boot|junit
 https://winterbe.com/posts/2018/08/29/migrate-maven-projects-to-java-11-jigsaw/,"Migrate Maven Projects to Java 11",java|maven

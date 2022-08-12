@@ -15,31 +15,25 @@
 
         <div class="col-md-6 offset-md-3">
             <div th:if="${msg}">
-                <div class="alert alert-success"><span th:text="${msg}">Imported status</span></div>
+                <div class="alert alert-success">
+                    <span th:text="${msg}">Imported status</span>
+                </div>
             </div>
             <div class="card">
                 <div class="card-header">
                     <h3>Upload Links File</h3>
                 </div>
                 <div class="card-body">
-                    <form id="addForm" method="post" th:action="@{/links/upload}"
-                          enctype="multipart/form-data"
-                          class="form-horizontal" role="form">
-                        <div class="form-group">
-                            <label for="file" class="col-sm-12 control-label">File*</label>
-                            <div class="col-sm-12">
-                                <input type="file" id="file" name="file"/>
-                            </div>
+                    <form id="uploadForm" method="post" th:action="@{/links/upload}"
+                          enctype="multipart/form-data">
+                        <div class="mb-3">
+                            <label for="file" class="control-label">File*</label>
+                            <input type="file" id="file" name="file"
+                                   class="form-control"/>
                         </div>
-
-                        <div class="form-group">
-                            <div class="col-sm-offset-2 col-sm-4">
-                                <input type="submit" class="btn btn-primary pull-right"
-                                       value="Upload"/>
-                                <div class="clearfix"></div>
-                            </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-primary">Upload</button>
                         </div>
-
                     </form>
                 </div>
             </div>

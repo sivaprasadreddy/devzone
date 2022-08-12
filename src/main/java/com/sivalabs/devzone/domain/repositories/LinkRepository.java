@@ -20,14 +20,14 @@ public interface LinkRepository extends JpaRepository<Link, Long> {
     Page<Long> fetchLinkIdsByTitleContainingIgnoreCase(
             @Param("query") String query, Pageable pageable);
 
-    @Query("select l.id from Link l join l.tags t where t.name=?1")
-    Page<Long> fetchLinkIdsByTag(String tagName, Pageable pageable);
+    @Query("select l.id from Link l join l.category c where c.name=?1")
+    Page<Long> fetchLinkIdsByCategory(String categoryName, Pageable pageable);
 
     @Query(
             """
             select DISTINCT l
-            from Link l JOIN FETCH l.tags join fetch l.createdBy
+            from Link l JOIN FETCH l.category join fetch l.createdBy
             where l.id in ?1
         """)
-    List<Link> findLinksWithTags(List<Long> linkIds, Sort sort);
+    List<Link> findLinksWithCategory(List<Long> linkIds, Sort sort);
 }

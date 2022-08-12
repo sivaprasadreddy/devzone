@@ -41,14 +41,17 @@ public class LinkRestController {
     @GetMapping("/links")
     public LinksDTO home(
             @RequestParam(name = "query", required = false) String query,
-            @RequestParam(name = "tag", required = false) String tag,
+            @RequestParam(name = "category", required = false) String category,
             @PageableDefault(size = 15)
                     @SortDefault.SortDefaults({@SortDefault(sort = "createdAt", direction = DESC)})
                     Pageable pageable) {
         LinksDTO data;
-        if (StringUtils.isNotEmpty(tag)) {
-            log.info("Fetching links for tag {} with page: {}", tag, pageable.getPageNumber());
-            data = linkService.getLinksByTag(tag, pageable);
+        if (StringUtils.isNotEmpty(category)) {
+            log.info(
+                    "Fetching links for category {} with page: {}",
+                    category,
+                    pageable.getPageNumber());
+            data = linkService.getLinksByCategory(category, pageable);
         } else if (StringUtils.isNotEmpty(query)) {
             log.info("Searching links for {} with page: {}", query, pageable.getPageNumber());
             data = linkService.searchLinks(query, pageable);

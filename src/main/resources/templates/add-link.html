@@ -46,15 +46,15 @@
                                  th:errors="*{title}">Title Error</div>
                         </div>
                         <div class="mb-3">
-                            <label for="tags" class="control-label">Tags</label>
-                            <input type="text" id="tags" name="tags"
-                                   th:field="*{tags}"
+                            <label for="category" class="control-label">Category</label>
+                            <input type="text" id="category" name="category"
+                                   th:field="*{category}"
                                    class="form-control"
-                                   th:classappend="${#fields.hasErrors('tags')} ? 'is-invalid' : ''"
-                                   placeholder="Enter tags separated by comma"
+                                   th:classappend="${#fields.hasErrors('category')} ? 'is-invalid' : ''"
+                                   placeholder="Enter category"
                             />
-                            <div class="invalid-feedback" th:if="${#fields.hasErrors('tags')}"
-                                 th:errors="*{tags}">Tags Error</div>
+                            <div class="invalid-feedback" th:if="${#fields.hasErrors('category')}"
+                                 th:errors="*{category}">Category Error</div>
                         </div>
                         <div class="col-auto">
                             <button type="submit" class="btn btn-primary">Submit</button>

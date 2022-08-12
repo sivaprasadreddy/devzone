@@ -21,14 +21,10 @@ import lombok.Setter;
 @Setter
 @Getter
 public class User extends BaseEntity implements Serializable {
-    private static final long serialVersionUID = 1L;
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "user_id_generator")
-    @SequenceGenerator(
-            name = "user_id_generator",
-            sequenceName = "user_id_seq",
-            allocationSize = 100)
+    @SequenceGenerator(name = "user_id_generator", sequenceName = "user_id_seq")
     private Long id;
 
     @Column(nullable = false)

@@ -14,13 +14,8 @@ class LinkControllerIT extends AbstractIntegrationTest {
     }
 
     @Test
-    void shouldFetchLinksSecondPage() throws Exception {
-        this.mockMvc.perform(get("/links?page=2")).andExpect(status().isOk());
-    }
-
-    @Test
-    void shouldFetchLinksByTag() throws Exception {
-        this.mockMvc.perform(get("/links?tag=spring-boot")).andExpect(status().isOk());
+    void shouldFetchLinksByCategory() throws Exception {
+        this.mockMvc.perform(get("/links?category=spring-boot")).andExpect(status().isOk());
     }
 
     @Test

@@ -8,9 +8,9 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 import com.sivalabs.devzone.common.AbstractWebMvcTest;
 import com.sivalabs.devzone.domain.models.LinksDTO;
+import com.sivalabs.devzone.domain.services.CategoryService;
 import com.sivalabs.devzone.domain.services.LinkService;
 import com.sivalabs.devzone.domain.services.SecurityService;
-import com.sivalabs.devzone.domain.services.TagService;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
@@ -21,7 +21,7 @@ public class LinkControllerTest extends AbstractWebMvcTest {
 
     @MockBean protected LinkService linkService;
 
-    @MockBean protected TagService tagService;
+    @MockBean protected CategoryService categoryService;
 
     @MockBean protected SecurityService securityService;
 
@@ -38,12 +38,13 @@ public class LinkControllerTest extends AbstractWebMvcTest {
     }
 
     @Test
-    void shouldFetchLinksByTag() throws Exception {
+    void shouldFetchLinksByCategory() throws Exception {
         LinksDTO linksDTO = new LinksDTO();
-        given(linkService.getLinksByTag(anyString(), any(Pageable.class))).willReturn(linksDTO);
+        given(linkService.getLinksByCategory(anyString(), any(Pageable.class)))
+                .willReturn(linksDTO);
 
         this.mockMvc
-                .perform(get("/links?tag=java"))
+                .perform(get("/links?category=java"))
                 .andExpect(status().isOk())
                 .andExpect(view().name("links"))
                 .andExpect(model().attributeExists("linksData", "header"));

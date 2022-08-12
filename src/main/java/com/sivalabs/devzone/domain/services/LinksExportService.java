@@ -15,7 +15,7 @@ public class LinksExportService {
 
     public byte[] getLinksCSVFileAsString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("url,title,tags").append(System.lineSeparator());
+        sb.append("url,title,category").append(System.lineSeparator());
         List<LinkDTO> allLinks = linkService.getAllLinks();
         for (LinkDTO linkDTO : allLinks) {
             sb.append(
@@ -23,7 +23,7 @@ public class LinksExportService {
                                     ",",
                                     linkDTO.getUrl(),
                                     "\"" + linkDTO.getTitle() + "\"",
-                                    String.join("|", linkDTO.getTags())))
+                                    linkDTO.getCategory()))
                     .append(System.lineSeparator());
         }
         return sb.toString().getBytes(StandardCharsets.UTF_8);

@@ -9,7 +9,6 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.time.LocalDateTime;
-import java.util.Arrays;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
@@ -41,8 +40,7 @@ public class LinksImportService {
                 linkDTO.setCreatedUserId(SYSTEM_USER_ID);
                 linkDTO.setCreatedAt(LocalDateTime.now());
                 if (linkTokens.length > 2 && StringUtils.trimToNull(linkTokens[2]) != null) {
-                    linkDTO.setTags(
-                            Arrays.asList(StringUtils.trimToEmpty(linkTokens[2]).split("\\|")));
+                    linkDTO.setCategory(StringUtils.trimToEmpty(linkTokens[2].split("\\|")[0]));
                 }
                 linkService.createLink(linkDTO);
                 count++;

@@ -4,7 +4,7 @@ INSERT INTO users (email, password, name, role, created_at) VALUES
 ('siva@gmail.com', '$2a$10$CIXGKN9rPfV/mmBMYas.SemoT9mfVUUwUxueFpU3DcWhuNo5fexYC', 'Siva', 'ROLE_MODERATOR', CURRENT_TIMESTAMP)
 ;
 
-INSERT INTO tags(name) VALUES
+INSERT INTO categories(name) VALUES
 ('java'),
 ('spring'),
 ('spring-boot'),

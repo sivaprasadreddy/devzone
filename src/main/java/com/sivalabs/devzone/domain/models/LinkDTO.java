@@ -2,8 +2,6 @@ package com.sivalabs.devzone.domain.models;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.List;
 import javax.validation.constraints.NotBlank;
 import lombok.Data;
 
@@ -28,11 +26,7 @@ public class LinkDTO {
     @JsonProperty("updated_at")
     private LocalDateTime updatedAt;
 
-    private List<String> tags = new ArrayList<>();
+    private String category;
 
     private boolean editable;
-
-    public String getTagsAsString() {
-        return String.join(",", getTags());
-    }
 }

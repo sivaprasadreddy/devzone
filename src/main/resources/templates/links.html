@@ -45,14 +45,14 @@
                        target="_blank"></a>
                 </h3>
                 <p class="mt-2 mb-0">
-                    <strong>Tags:</strong>
-                    <span th:each="tag: ${link.tags}">
+                    <strong>Category:</strong>
+                    <span>
                       <a
                        href="#"
-                       th:href="${'/links?tag='+tag}"
-                       th:text="${tag}"
+                       th:href="${'/links?category='+link.category}"
+                       th:text="${link.category}"
                        class="badge bg-primary"
-                       >Tag</a>
+                       >category</a>
                     </span>
                     &nbsp;&nbsp;
                 </p>
@@ -75,27 +75,20 @@
         <div th:replace="fragments/pagination :: pagination"> </div>
     </div>
     <div class="col-md-2">
-        <h2>Tags</h2>
+        <h2>Categories</h2>
         <div class="list-group list-group-flush">
             <a href="#"
                class="list-group-item list-group-item-action badge badge-primary"
-               th:each="tag: ${tags}"
-               th:href="${'/links?tag='+tag.name}">
+               th:each="category: ${categories}"
+               th:href="${'/links?category='+category.name}">
                 <i class="fas fa-tag" ></i>
-                <span style="font-size: 16px;" th:text="${tag.name}">Tag Name</span>
+                <span style="font-size: 16px;" th:text="${category.name}">Category Name</span>
             </a>
         </div>
     </div>
     </div>
 </div>
 <div layout:fragment="pageScripts">
-
-    <script th:inline="javascript">
-        /*<![CDATA[*/
-        var page = /*[[${page}]]*/ 1;
-        //console.log(page);
-        /*]]>*/
-    </script>
 </div>
 </body>
 </html>
