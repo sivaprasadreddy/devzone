@@ -44,7 +44,7 @@ ext {
     set('springdoc_openapi', "1.6.9")
     set('opencsv_version', "5.3")
     set('jsoup_version', "1.13.1")
-    set('jasypt_version', "3.0.3")
+    set('jasypt_version', "3.0.4")
     set('p6spy_version', "1.6.3")
     set('flexypool_version', "1.6.2")
     set('archunit_junit5_version', "0.17.0")
