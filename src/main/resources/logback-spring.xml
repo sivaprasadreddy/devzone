@@ -2,31 +2,10 @@
 <configuration>
     <include resource="org/springframework/boot/logging/logback/defaults.xml" />
     <include resource="org/springframework/boot/logging/logback/console-appender.xml" />
+    <include resource="org/springframework/boot/logging/logback/file-appender.xml" />
 
-    <springProfile name="default, dev">
-        <root level="INFO">
-            <appender-ref ref="CONSOLE" />
-        </root>
-    </springProfile>
+    <root level="INFO">
+        <appender-ref ref="CONSOLE" />
+    </root>
 
-    <springProfile name="docker,k8s">
-        <!--<include resource="org/springframework/boot/logging/logback/file-appender.xml" />-->
-
-        <appender name="FILE" class="ch.qos.logback.core.FileAppender">
-            <file>logs/devzone.log</file>
-
-            <encoder class="net.logstash.logback.encoder.LogstashEncoder"/>
-        </appender>
-
-        <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
-            <encoder>
-                <pattern>%date %level [%thread] %logger{10} [%file:%line] %msg%n</pattern>
-            </encoder>
-        </appender>
-
-        <root level="info">
-            <appender-ref ref="FILE" />
-            <appender-ref ref="STDOUT" />
-        </root>
-    </springProfile>
 </configuration>

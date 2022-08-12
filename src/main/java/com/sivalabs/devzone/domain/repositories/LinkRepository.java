@@ -23,7 +23,8 @@ public interface LinkRepository extends JpaRepository<Link, Long> {
     @Query("select l.id from Link l join l.tags t where t.name=?1")
     Page<Long> fetchLinkIdsByTag(String tagName, Pageable pageable);
 
-    @Query("""
+    @Query(
+            """
             select DISTINCT l
             from Link l JOIN FETCH l.tags join fetch l.createdBy
             where l.id in ?1

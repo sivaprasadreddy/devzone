@@ -13,7 +13,7 @@
 
     <div class="row">
 
-        <div class="col-md-6 offset-md-3">
+        <div class="col-md-4 offset-md-4">
 
             <div class="card">
                 <div class="card-header">
@@ -23,11 +23,11 @@
                     <form id="editForm" method="post" th:method="put"
                           th:action="${'/links/'+link.id}" th:object="${link}"
                           class="form-horizontal" role="form"
-                          cssStyle="width: 800px; margin: 0 auto;">
+                          >
                         <input type="hidden" name="id" th:value="${link.id}"/>
                         <div class="form-group">
-                            <label for="url" class="col-sm-2 control-label">URL*</label>
-                            <div class="col-sm-10">
+                            <label for="url" class="col-sm-12 control-label">URL*</label>
+                            <div class="col-sm-12">
                                 <input type="text" id="url" name="url"
                                        class="form-control"
                                        required="required"
@@ -40,8 +40,8 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="title" class="col-sm-2 control-label">Title</label>
-                            <div class="col-sm-10">
+                            <label for="title" class="col-sm-12 control-label">Title</label>
+                            <div class="col-sm-12">
                                 <input type="text" id="title" name="title"
                                        th:field="*{title}"
                                        th:value="${link.title}"
@@ -51,8 +51,8 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="tags" class="col-sm-2 control-label"><string>Tags</string></label>
-                            <div class="col-sm-10">
+                            <label for="tags" class="col-sm-12 control-label"><string>Tags</string></label>
+                            <div class="col-sm-12">
                                 <input type="text" id="tags" name="tags"
                                        th:field="*{tags}"
                                        th:value="${link.getTagsAsString()}"

@@ -4,16 +4,13 @@ declare project_dir=$(dirname "$0")
 declare dc_app_deps=${project_dir}/docker/docker-compose.yml
 declare dc_app=${project_dir}/docker/docker-compose-app.yml
 declare dc_sonarqube=${project_dir}/docker/docker-compose-sonarqube.yml
-declare dc_elk=${project_dir}/docker/docker-compose-elk.yml
 declare dc_monitoring=${project_dir}/docker/docker-compose-monitoring.yml
 declare devzone="devzone"
 declare sonarqube="sonarqube"
-declare elk="elasticsearch logstash kibana"
 declare monitoring="prometheus loki grafana"
 
-function restart() {
-    stop
-    start
+function build_api() {
+    ./gradlew clean bootJar
 }
 
 function start() {
@@ -28,6 +25,11 @@ function stop() {
     docker-compose -f "${dc_app_deps}" rm -f
 }
 
+function restart() {
+    stop
+    start
+}
+
 function start_app() {
     echo "Starting ${devzone} and dependencies...."
     build_api
@@ -40,23 +42,6 @@ function stop_app() {
     # shellcheck disable=SC2086
     docker-compose -f ${dc_app_deps} -f ${dc_app} stop
     docker-compose -f "${dc_app_deps}" -f "${dc_app}" rm -f
-}
-
-function build_api() {
-    ./gradlew clean bootJar
-}
-
-function sonarqube() {
-    echo 'Starting sonarqube....'
-    docker-compose -f "${dc_sonarqube}" up --build --force-recreate -d ${sonarqube}
-    # shellcheck disable=SC2086
-    docker-compose -f ${dc_sonarqube} logs -f
-}
-
-function elk() {
-    echo 'Starting ELK....'
-    docker-compose -f "${dc_elk}" up --build --force-recreate -d "${elk}"
-    docker-compose -f "${dc_elk}" logs -f
 }
 
 function monitoring() {
