@@ -112,9 +112,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                     .expressionHandler(webExpressionHandler(roleHierarchy))
                     .antMatchers("/resources/**", "/webjars/**")
                     .permitAll()
-                    .antMatchers("/registration", "/forgot-password", "/reset-password")
-                    .permitAll()
-                    .antMatchers("/h2-console/**")
+                    .antMatchers("/registration")
                     .permitAll()
                     .and()
                     .formLogin()
@@ -126,15 +124,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                     .logout()
                     .logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
                     .permitAll();
-
-            http.csrf()
-                    // .ignoringAntMatchers("/h2-console/**")//don't apply CSRF protection to
-                    // /h2-console
-                    .disable()
-                    .headers()
-                    .frameOptions()
-                    .sameOrigin() // allow use of frame to same origin urls
-            ;
         }
     }
 }

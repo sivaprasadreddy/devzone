@@ -3,9 +3,14 @@ function deleteLink(id)
 {
     let yes = confirm("Are you sure to delete?");
     if (yes) {
+        let token = $("meta[name='_csrf']").attr("content");
+        let header = $("meta[name='_csrf_header']").attr("content");
         $.ajax ({
             url: '/links/'+id,
             type: "DELETE",
+            headers: {
+              [header]: token
+            },
             success: function(responseData, status){
                 window.location = '/'
             }

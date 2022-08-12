@@ -7,6 +7,8 @@
       layout:decorate="~{mainLayout}">
 <head>
     <title>Home</title>
+    <meta th:name="_csrf" th:content="${_csrf.token}"/>
+    <meta th:name="_csrf_header" th:content="${_csrf.headerName}"/>
 </head>
 <body>
 
@@ -60,10 +62,12 @@
                     <a class="button" href="#" th:href="${'/links/edit/'+link.id}">
                         <i class="fas fa-edit" ></i> Edit
                     </a>
-                   <a class="button" href="#"
-                           th:onclick="'javascript:deleteLink( \''+${link.id}+'\');'">
-                       <i class="fas fa-trash-alt" ></i> Delete
-                   </a>
+
+                       <a class="button" href="#"
+                               th:onclick="'javascript:deleteLink( \''+${link.id}+'\');'">
+                           <i class="fas fa-trash-alt" ></i> Delete
+                       </a>
+
                 </p>
             </div>
         </div>
