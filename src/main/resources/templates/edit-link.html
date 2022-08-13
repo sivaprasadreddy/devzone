@@ -53,7 +53,7 @@
                             <label for="category" class="control-label">Category</label>
                             <input type="text" id="category" name="category"
                                    class="form-control"
-                                   placeholder="Enter category"
+                                   placeholder="Select category"
                                    th:field="*{category}"
                                    th:value="${link.category}"
                                    th:classappend="${#fields.hasErrors('category')} ? 'is-invalid' : ''"
@@ -72,6 +72,12 @@
         </div>
     </div>
 </div>
-
+<div layout:fragment="pageScripts">
+    <script>
+        $(function () {
+            initCategoriesAutoComplete("#category")
+        });
+    </script>
+</div>
 </body>
 </html>

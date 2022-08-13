@@ -1,0 +1,1001 @@
+url,title,category
+https://dzone.com/articles/write-your-kubernetes-infrastructure-as-go-code-ex,"Write Your Kubernetes Infrastructure as Go Code - Extend cdk8s With Custom...",Cloud
+https://dzone.com/articles/google-cloud-messaging-android,"Google Cloud Messaging with Android",Cloud
+https://dzone.com/articles/6-myths-about-the-cloud-that-you-should-stop-belie,"6 Myths About the Cloud That You Should Stop Believing",Cloud
+https://dzone.com/articles/multi-cloud-management-tools-challenges-and-best-p,"Multi-Cloud Management: Tools, Challenges, and Best Practices",Cloud
+https://dzone.com/articles/back-to-basics-accessing-kubernetes-pods,"Back to Basics: Accessing Kubernetes Pods",Cloud
+https://dzone.com/articles/monitoring-blind-spots-and-what-to-do-about-them-1,"Monitoring Blind Spots in the Cloud and What to Do About Them",Cloud
+https://dzone.com/articles/how-to-migrate-from-ecs-to-eks-and-the-1-trick-to,"How To Migrate From ECS to EKS and the #1 Trick To Make EKS Easier",Cloud
+https://dzone.com/articles/shared-kubernetes-clusters-for-hybrid-and-multiclo,"Shared Kubernetes Clusters for Hybrid and Multi-Cloud",Cloud
+https://dzone.com/articles/monitoring-at-the-edge-of-the-third-act-of-the-int,"Monitoring at the Edge of the Third Act of the Internet",Cloud
+https://dzone.com/articles/verizons-data-breach-report-cloud-security-insights,"Verizon’s Data Breach Report: Cloud Security Insights",Cloud
+https://dzone.com/articles/amazon-lightsail-virtual-cloud-server,"Amazon Lightsail: Virtual Cloud Server",Cloud
+https://dzone.com/articles/kubernetes-data-simplicity-getting-started-with-k8,"Kubernetes Data Simplicity: Getting Started With K8ssandra",Cloud
+https://dzone.com/articles/developing-a-cloud-adoption-strategy-1,"Developing a Cloud Adoption Strategy",Cloud
+https://dzone.com/articles/everything-you-need,"Everything You Need to Know About Cloud Automation in 2022",Cloud
+https://dzone.com/articles/what-is-cloud-storage-definition-types-pros-and-co,"What Is Cloud Storage: Definition, Types, Pros, and Cons",Cloud
+https://dzone.com/articles/the-need-for-a-kubernetes-alternative,"The Need for a Kubernetes Alternative",Cloud
+https://dzone.com/articles/debugging-a-wordle-bug,"Debugging a Wordle Bug",Cloud
+https://dzone.com/articles/upgrading-kubernetes-cluster-with-cluster-api-on-oracle-cloud,"Upgrading Kubernetes Clusters With Cluster API on Oracle Cloud",Cloud
+https://dzone.com/articles/common-mistakes-to-avoid-when-migrating,"Common Mistakes to Avoid When Migrating",Cloud
+https://dzone.com/articles/cloud-tagging-strategic-practices-1,"Cloud Tagging Strategic Practices",Cloud
+https://dzone.com/articles/installing-flex-gateway-on-the-kubernetes-as-a-ing-2,"Install Anypoint Flex Gateway on the Kubernetes as an Ingress Controller in...",Cloud
+https://dzone.com/articles/the-best-infrastructure-as-code-tools-for-2022-1,"The Best Infrastructure as Code Tools for 2022",Cloud
+https://dzone.com/articles/installing-flex-gateway-on-the-kubernetes-as-a-ing-1,"Install Anypoint Flex Gateway on the Kubernetes as an Ingress Controller in...",Cloud
+https://dzone.com/articles/installing-flex-gateway-on-the-kubernetes-as-a-ing,"Install Anypoint Flex Gateway on the Kubernetes as an Ingress Controller in...",Cloud
+https://dzone.com/articles/multi-cloud-identity-orchestration-what-does-the-f-1,"Multi-Cloud Identity Orchestration — What Does the Future Look Like?",Cloud
+https://dzone.com/articles/5-best-practices-for-building-cloud-native-permiss,"5 Best Practices for Building Cloud-Native Permissions",Cloud
+https://dzone.com/articles/how-to-bring-shadow-kubernetes-it-into-the-light,"How to Bring Shadow Kubernetes IT Into the Light",Cloud
+https://dzone.com/articles/aws-azure-and-gcp-find-the-right-platform-1,"AWS, Azure, and GCP: Find the Right Platform",Cloud
+https://dzone.com/articles/securing-access-to-kubernetes-environments-with-ze,"Securing Access to Kubernetes Environments With Zero Trust",Cloud
+https://dzone.com/articles/getting-started-with-aws-config,"Introduction to AWS Config: Simplified Cloud Auditing",Cloud
+https://dzone.com/articles/write-your-kubernetes-infrastructure-as-go-code-us,"Write Your Kubernetes Infrastructure as Go Code — Using Custom Resource...",Cloud
+https://dzone.com/articles/aws-azure-and-gcp-the-ultimate-iam-comparison,"AWS, Azure, and GCP: The Ultimate IAM Comparison",Cloud
+https://dzone.com/articles/deploy-ecr-based-aws-lambda,"Deploy ECR-Based AWS Lambda",Cloud
+https://dzone.com/articles/yaml-and-its-usage-in-kubernetes,"YAML and Its Usage in Kubernetes",Cloud
+https://dzone.com/articles/kubernetes-requests-and-limits-demystified,"Kubernetes Requests and Limits Demystified",Cloud
+https://dzone.com/articles/learn-how-to-use-dynamodb-streams-with-aws-lambda,"Learn How To Use DynamoDB Streams With AWS Lambda and Go",Cloud
+https://dzone.com/articles/invoking-an-aws-lambda-function-during-a-cdk-deplo,"Invoking an AWS Lambda Function During a CDK Deployment",Cloud
+https://dzone.com/articles/developing-a-multi-cluster-friendly-kubernetes-operator,"Developing a Multi-Cluster-Friendly Kubernetes Operator",Cloud
+https://dzone.com/articles/how-to-host-a-static-website-on-aws-with-s3-cloudf,"How to Host a Static Website on AWS With S3, CloudFront, Route53 and...",Cloud
+https://dzone.com/articles/why-a-cloud-native-database-must-run-on-k8s,"Why a Cloud-Native Database Must Run on K8s",Cloud
+https://dzone.com/articles/cleaning-out-the-server-closet-enterprise-sustaina,"Cleaning Out the Server Closet: Enterprise Sustainability Through Cloud...",Cloud
+https://dzone.com/articles/policy-as-versioned-code,"Policy as (Versioned) Code",Cloud
+https://dzone.com/articles/write-your-kubernetes-infrastructure-as-go-code-cd,"Write Your Kubernetes Infrastructure as Go Code — Cdk8s-Plus in Action!",Cloud
+https://dzone.com/articles/access-undenied-on-aws,"Access Undenied on AWS",Cloud
+https://dzone.com/articles/the-cost-of-production-blindness,"The Cost of Production Blindness",Cloud
+https://dzone.com/articles/aws-lambda-provisioned-concurrency-autoscaling-con,"AWS Lambda Provisioned Concurrency AutoScaling Configuration With AWS CDK",Cloud
+https://dzone.com/articles/write-your-kubernetes-infrastructure-as-go-code-ge,"Write Your Kubernetes Infrastructure as Go Code - Getting Started With...",Cloud
+https://dzone.com/articles/cloud-security-testing-checklist-everything-you-ne,"Cloud Security Testing Checklist: Everything You Need to Know",Cloud
+https://dzone.com/articles/kubernetes-cluster-backups-with-velero,"Kubernetes Cluster Backups With Velero",Cloud
+https://dzone.com/articles/increasing-cloud-native-sustainability-with-observ,"Increasing Cloud-Native Sustainability With Observability",Cloud
+https://dzone.com/articles/live-loading-to-deploy-kubernetes-on-bare-metal,"Live Loading to Deploy Kubernetes on Bare Metal",Cloud
+https://dzone.com/articles/trends-we-are-watching-api-democratization-and-api,"Trends We Are Watching: API Democratization and API Management",Cloud
+https://dzone.com/articles/scale-up-to-a-collaborative-and-multiplayer-archit,"Scale Up to a Collaborative and Multiplayer Architecture With Edge...",Cloud
+https://dzone.com/articles/is-sustainability-the-new-security-amp-compliance,"Is Sustainability the New Security and Compliance?",Cloud
+https://dzone.com/articles/lessons-learned-in-cloud-security-from-lapsus-surf,"Lessons Learned in Cloud Security From Lapsus$ Surfacing",Cloud
+https://dzone.com/articles/azure-synapse-vs-snowflake-the-definitive-guide,"Azure Synapse vs Snowflake: The Definitive Guide",Cloud
+https://dzone.com/articles/how-to-manage-a-red-hat-microshift-cluster-with-shipa,"How to Manage a Red Hat MicroShift Cluster with Shipa",Cloud
+https://dzone.com/articles/understanding-kubernetes-resource-types,"Understanding Kubernetes Resource Types",Cloud
+https://dzone.com/articles/how-to-operationalize-a-cloud-security-solution,"How to Operationalize a Cloud Security Solution",Cloud
+https://dzone.com/articles/internal-developer-platform-in-plain-english,"Internal Developer Platform in Plain English",Cloud
+https://dzone.com/articles/the-advanced-risk-of-basic-roles-in-gcp-iam,"The Advanced Risk of Basic Roles In GCP IAM",Cloud
+https://dzone.com/articles/terraform-controller-cloud-resource-self-service,"Terraform Controller: Cloud Resource Self-Service",Cloud
+https://dzone.com/articles/experiences-at-kubecon-europe-and-advice-for-trade,"Experiences at KUBECon Europe and Advice for Trade Shows",Cloud
+https://dzone.com/articles/container-orchestration-tools-comparison,"Container Orchestration Tools Comparison",Cloud
+https://dzone.com/articles/building-a-qr-code-generator-with-azure-functions,"Building a QR Code Generator with Azure Functions",Cloud
+https://dzone.com/articles/deploying-java-applications-to-aws-elastic-beansta,"Deploying Java Applications to AWS Elastic Beanstalk",Cloud
+https://dzone.com/articles/dynamically-provisioning-persistent-volumes-with-k,"Dynamically Provisioning Persistent Volumes with Kubernetes",Cloud
+https://dzone.com/articles/five-myths-of-kubernetes,"5 Myths of Kubernetes",Cloud
+https://dzone.com/articles/digging-out-data-with-adobe-pdf-extract-api,"Digging Out Data With Adobe PDF Extract API",Cloud
+https://dzone.com/articles/how-to-reduce-cloud-cost-by-99-for-eda-kafka-appli,"How to Reduce Cloud Cost by 99% for EDA Kafka Applications",Cloud
+https://dzone.com/articles/managing-applications-in-kubernetes-carvel-kapp-controller,"Managing Applications in Kubernetes With the Carvel Kapp Controller",Cloud
+https://dzone.com/articles/kubernetes-monitoring-with-prometheus,"Kubernetes Monitoring With Prometheus",Cloud
+https://dzone.com/articles/how-to-prevent-security-risks-in-the-private-cloud,"How to Prevent Security Risks in the Private Cloud",Cloud
+https://dzone.com/articles/portfolio-architecture-examples-automation-collect,"Portfolio Architecture Examples: Automation Collection",Cloud
+https://dzone.com/articles/portfolio-architecture-examples-infrastructure-col,"Portfolio Architecture Examples: Infrastructure Collection",Cloud
+https://dzone.com/articles/portfolio-architecture-examples-telco-collection,"Portfolio Architecture Examples: Telco Collection",Cloud
+https://dzone.com/articles/cloud-erp-vs-on-premise-erp-which-is-right-for-you,"Cloud ERP vs On-Premise ERP: Which Is Right for You?",Cloud
+https://dzone.com/articles/news-roundup-from-kubecon-barcelona,"News Roundup From KubeCon Europe 2022",Cloud
+https://dzone.com/articles/what-is-cloud-native-architecture,"What Is Cloud-Native Architecture?",Cloud
+https://dzone.com/articles/apache-kafka-in-the-healthcare-industry,"Apache Kafka in the Healthcare Industry",Cloud
+https://dzone.com/articles/build-a-twitter-leaderboard-app-with-redis-and-aws-2,"Build a Twitter Leaderboard App With Redis and AWS Lambda (Part 2)",Cloud
+https://dzone.com/articles/the-serverless-database-you-really-want,"The Serverless Database You Really Want",Cloud
+https://dzone.com/articles/aws-lambda-basics-writing-serverless-code,"AWS Lambda Basics: Writing Serverless Code",Cloud
+https://dzone.com/articles/develop-a-daily-reporting-system-for-chaos-mesh-to,"Develop a Daily Reporting System for Chaos Mesh To Improve System...",Cloud
+https://dzone.com/articles/A-Guide-to-Serverless-With-AWS-Lambda-and-Bitrise,"Introduction to Serverless With AWS Lambda and Bitrise API: Part 1",Cloud
+https://dzone.com/articles/benefits-of-using-cloud-with-devops-services,"Benefits of Using Cloud With DevOps Services",Cloud
+https://dzone.com/articles/awsterraform-workshop-5-aws-lambda-functions,"AWS/Terraform Workshop #5: AWS Lambda Functions",Cloud
+https://dzone.com/articles/awsterraform-workshop-4-s3-iam-terraform-remote-state-and-jenkins,"AWS/Terraform Workshop #4: S3, IAM, Terraform Remote State, and Jenkins",Cloud
+https://dzone.com/articles/awsterraform-workshop-2-ec2-networking-autoscaling,"AWS/Terraform Workshop (Part 2): EC2 Networking, Autoscaling Groups, and...",Cloud
+https://dzone.com/articles/aws-lambda-with-mysql-rds-and-api-gateway,"AWS Lambda With MySQL (RDS) and API Gateway",Cloud
+https://dzone.com/articles/cloud-native-core-banking-modernization-with-apach,"Cloud-Native Core Banking Modernization With Apache Kafka",Cloud
+https://dzone.com/articles/build-cloud-native-apps-with-aws-app-runner-redis,"Build Cloud-Native Apps with AWS App Runner, Redis, and AWS CDK",Cloud
+https://dzone.com/articles/cloud-based-ha-options-for-ibm-i-applications,"Choose Your Player: Cloud-Based High Availability Options for IBM i...",Cloud
+https://dzone.com/articles/applying-kappa-architecture-to-make-data-available,"Applying Kappa Architecture to Make Data Available Where It Matters",Cloud
+https://dzone.com/articles/creating-event-based-architecture-on-top-of-existi,"Creating Event-Based Architecture on Top of Existing API Ecosystem",Cloud
+https://dzone.com/articles/ami-amp-snapshot-management-using-aws-lambda,"AMI and Snapshot Management Using AWS Lambda",Cloud
+https://dzone.com/articles/build-a-twitter-leaderboard-app-with-redis-and-aws,"Build a Twitter Leaderboard App with Redis and AWS Lambda (Part 1)",Cloud
+https://dzone.com/articles/geographic-scale-with-virtual-machines-and-kuberne,"Geographic Scale With Virtual Machines and Kubernetes Nodes",Cloud
+https://dzone.com/articles/event-meshes-and-multicloud,"Event Meshes and Multi-Cloud",Cloud
+https://dzone.com/articles/raft-or-not-the-best-solution-to-data-consistency,"Raft or Not? The Best Solution to Data Consistency in Cloud-native...",Cloud
+https://dzone.com/articles/how-to-use-cluster-mesh-for-multi-region-kubernete,"How To Use Cluster Mesh for Multi-Region Kubernetes Pod Communication",Cloud
+https://dzone.com/articles/6-enterprise-kubernetes-takeaways-from-kubecon-san,"6 Enterprise Kubernetes Takeaways from KubeCon San Diego",Cloud
+https://dzone.com/articles/4-tips-for-creating-a-successful-saas-application,"4 Tips for Creating a Successful SaaS Application",Cloud
+https://dzone.com/articles/15-useful-links-azure-users,"Useful Links for Azure Users",Cloud
+https://dzone.com/articles/11-best-practices-to-do-functional-testing-on-the,"11 Best Practices to Do Functional Testing on the Cloud",Cloud
+https://dzone.com/articles/why-we-decided-to-build-a-k8ssandra-operator-part,"Why We Decided to Build a K8ssandra Operator",Cloud
+https://dzone.com/articles/demystifying-cloud-native-commerce,"Demystifying Cloud-Native Commerce",Cloud
+https://dzone.com/articles/etl-with-aws-glue-interactive-sessions,"Performing ETL with AWS Glue Interactive Sessions",Cloud
+https://dzone.com/articles/new-stackpod-episode-best-practices-for-aws-observ,"StackPod Episode: Best Practices for AWS Observability With Russell Foster...",Cloud
+https://dzone.com/articles/top-six-kubernetes-best-practices-for-fleet-manage,"Top Six Kubernetes Best Practices for Fleet Management",Cloud
+https://dzone.com/articles/deployment-of-low-latency-solutions-in-the-cloud,"Deployment of Low-Latency Solutions in the Cloud",Cloud
+https://dzone.com/articles/real-time-supply-chain-with-apache-kafka-in-the-fo,"Real-Time Supply Chain With Apache Kafka in the Food and Retail Industry",Cloud
+https://dzone.com/articles/podsecuritypolicy-is-dead-long-live,"PodSecurityPolicy Is Dead, Long Live...?",Cloud
+https://dzone.com/articles/use-lambda-function-url-to-write-a-serverless-app,"Use Lambda Function URL To Write a Serverless App Backed by DynamoDB",Cloud
+https://dzone.com/articles/securely-authenticate-to-google-cloud-from-github,"Securely Authenticate to Google Cloud From GitHub",Cloud
+https://dzone.com/articles/package-and-deploy-a-lambda-function-as-a-docker-c,"Package and Deploy a Lambda Function as a Docker Container With AWS CDK",Cloud
+https://dzone.com/articles/popular-kubernetes-alternatives-competitors,"The Most Popular Kubernetes Alternatives and Competitors",Cloud
+https://dzone.com/articles/run-containers-and-vms-together-with-kubevirt,"Run Containers and VMs Together With KubeVirt",Cloud
+https://dzone.com/articles/leveraging-change-data-capture-for-fraud-detection,"Leveraging Change Data Capture for Fraud Detection using Arcion Cloud",Cloud
+https://dzone.com/articles/aws-serverless-lambda-resiliency,"AWS Serverless Lambda Resiliency: Part 1",Cloud
+https://dzone.com/articles/aws-serverless-lambda-resiliency-patterns,"AWS Serverless Lambda Resiliency: Part 2",Cloud
+https://dzone.com/articles/using-aws-lambda-function-url-to-build-a-serverles,"Using AWS Lambda Function URL To Build a Serverless Backend for Slack",Cloud
+https://dzone.com/articles/5-common-step-functions-issues,"5 Common Step Functions Issues",Cloud
+https://dzone.com/articles/diagrams-as-code-the-complete-how-to-use-guide,"Diagrams as Code: The Complete How-to-Use Guide",Cloud
+https://dzone.com/articles/private-container-registry-in-alicloud-with-harbor,"Kubernetes-Based Private Container Registry in Alibaba Cloud With Harbor...",Cloud
+https://dzone.com/articles/how-to-use-shipa-to-make-k8s-adoption-easier-for-developers,"How to Use Shipa to Make Kubernetes Adoption Easier for Developers",Cloud
+https://dzone.com/articles/cloud-computing-architecture-for-healthcare,"Cloud Computing Architecture for Healthcare",Cloud
+https://dzone.com/articles/manage-distributed-applications-in-kubernetes,"How to Manage Distributed Applications in Kubernetes Using Cilium and Istio",Cloud
+https://dzone.com/articles/cost-governance-of-cloud-native-workloads-using-kubecost-and-kyverno,"Cost Governance of Cloud-Native Workloads Using Kubecost and Kyverno",Cloud
+https://dzone.com/articles/not-just-buckets-are-you-aware-of-all-your-public,"Not Just Buckets: Are You Aware of ALL Your Public Resources?",Cloud
+https://dzone.com/articles/configuring-apache-activemq-on-aws,"How to Configure Apache ActiveMQ on AWS",Cloud
+https://dzone.com/articles/kubernetes-for-application-developers,"Introduction to Kubernetes for Application Developers",Cloud
+https://dzone.com/articles/3-best-practices-to-make-cloud-migration-easier,"3 Best Practices To Make Cloud Migration Easier",Cloud
+https://dzone.com/articles/cloud-pricing-comparison-aws-vs-azure-vs-google-cloud,"Cloud Pricing Comparison: AWS vs Azure vs Google Cloud",Cloud
+https://dzone.com/articles/an-introduction-to-aws-step-functions,"An Introduction to AWS Step Functions",Cloud
+https://dzone.com/articles/multi-cluster-cassandra-deployment-with-gke,"Multi-Cluster Cassandra Deployment With Google Kubernetes Engine (Pt. 2)",Cloud
+https://dzone.com/articles/best-practices-tools-and-approaches-for-kubernetes,"Best Practices, Tools, and Approaches for Kubernetes Monitoring",Cloud
+https://dzone.com/articles/azure-infrastructure-made-immutable-with-locks,"Azure Infrastructure Made Immutable With Locks",Cloud
+https://dzone.com/articles/hotswapping-improving-cdk-development-cycle,"Hotswapping: Improving the CDK Development Cycle",Cloud
+https://dzone.com/articles/how-to-put-a-database-in-kubernetes,"How to Put a Database in Kubernetes",Cloud
+https://dzone.com/articles/3-steps-to-streamline-kubernetes-multi-cluster-man,"3 Steps To Streamline Kubernetes Multi-Cluster Management",Cloud
+https://dzone.com/articles/oracle-fusion-cloud-vs-propel-plm,"Oracle Fusion Cloud vs. Propel PLM",Cloud
+https://dzone.com/articles/how-to-deploy-github-projects-on-amazon-EC2,"A Complete Guide to Deploying Github Projects on Amazon EC2",Cloud
+https://dzone.com/articles/deploy-a-multi-datacenter-apache-cassandra-cluster,"Deploy a Multi-Datacenter Apache Cassandra Cluster in Kubernetes (Pt. 1)",Cloud
+https://dzone.com/articles/serverless-for-survival,"Serverless for Survival",Cloud
+https://dzone.com/articles/environmental-impact-of-the-cloud-5-data-based-ins,"Environmental Impact of the Cloud: 5 Data-Based Insights and One Good Fix",Cloud
+https://dzone.com/articles/delete-multiple-resources-resource-groups-azure-tags,"Delete Multiple Resources and Resource Groups in Azure With Tags",Cloud
+https://dzone.com/articles/how-to-set-up-a-scalable-and-highly-available-grap-1,"How To Set Up a Scalable and Highly-Available GraphQL API in Minutes",Cloud
+https://dzone.com/articles/delivering-your-code-to-the-cloud-with-jfrog-artifactory-and-github-actions,"Delivering Your Code to the Cloud With JFrog Artifactory and GitHub Actions",Cloud
+https://dzone.com/articles/new-features-red-hat-data-grid-8-3,"6 New Features in Data Grid 8.3 Release",Cloud
+https://dzone.com/articles/adobe-document-generation-microsoft-power-automate,"Hands-On With Adobe Document Generation in Microsoft Power Automate",Cloud
+https://dzone.com/articles/aws-lambda-aliases-a-practical-approach,"AWS Lambda Aliases: A Practical Approach",Cloud
+https://dzone.com/articles/top-aws-certificates-you-need-to-know,"The Top 11 AWS Certificates You Need to Know",Cloud
+https://dzone.com/articles/top-aws-unmanaged-resources-that-you-should-know-about,"Legacy in Your Cloud: Top AWS Unmanaged Resources That You Should Know...",Cloud
+https://dzone.com/articles/four-pillars-of-kubernetes-fleet-management,"Four Pillars of Kubernetes Fleet Management",Cloud
+https://dzone.com/articles/the-cloud-challenge,"The Cloud Challenge: Choice Paralysis and the Bad Strategy of...",Cloud
+https://dzone.com/articles/an-introduction-to-aws-serverless-application-mode,"An Introduction to AWS Serverless Application Model",Cloud
+https://dzone.com/articles/migrating-java-applications-to-azure-app-service-p,"Migrating Spring Java Applications to Azure App Service (Part 1:...",Cloud
+https://dzone.com/articles/remote-debugging-cloud-foundry-apps,"Remote Debugging Cloud Foundry Apps",Cloud
+https://dzone.com/articles/cross-region-lambda-invocation-in-aws,"Cross-Region Lambda Invocation in AWS",Cloud
+https://dzone.com/articles/dynamo-db-connector-operations-in-mule-4,"Amazon Dynamo DB Connector Operations Walkthrough in Mule 4, Part 1",Cloud
+https://dzone.com/articles/how-to-reuse-your-ansible-roles-to-build-docker-im,"How To Reuse Your Ansible Roles To Build Docker Images With Packer",Cloud
+https://dzone.com/articles/kubeflow-tips-amp-tricks-february-23rd-2022,"Kubeflow Machine Learning Tips and Tricks – February 2022",Cloud
+https://dzone.com/articles/tips-for-managing-multi-cluster-kubernetes-deploym,"Tips for Managing Multi-Cluster Kubernetes Deployment With High...",Cloud
+https://dzone.com/articles/trino-superset-and-ranger-on-kubernetes-what-why-h,"Trino, Superset, and Ranger on Kubernetes: What, Why, How?",Cloud
+https://dzone.com/articles/installing-private-s3-storage-with-minio-on-alibab,"Installing Private S3 Storage With MinIO on Alibaba Cloud Kubernetes",Cloud
+https://dzone.com/articles/cloud-computing-trends-for-watch-for,"Cloud Computing Trends for 2022",Cloud
+https://dzone.com/articles/data-lives-longer-than-any-environment-data-manage,"Data Lives Longer Than Any Environment, Data Management Needs to Extend...",Cloud
+https://dzone.com/articles/the-intelligent-storage-revolution,"The Intelligent Storage Revolution",Cloud
+https://dzone.com/articles/cloud-migration-manual-the-adjustment-to-saas-mode,"Cloud Migration Manual: The Adjustment to SaaS Model",Cloud
+https://dzone.com/articles/kubernetes-auditing-which-iam-user-deleted-a-names,"Kubernetes Auditing: Which IAM User Deleted a Namespace?",Cloud
+https://dzone.com/articles/how-to-use-embedded-hazelcast-on-kubernetes-1,"How to Use Embedded Hazelcast on Kubernetes",Cloud
+https://dzone.com/articles/the-hidden-shortcut-to-increasing-fintech-gross-ma,"The Hidden Shortcut to Increasing Fintech Gross Margins – Cloud Automation",Cloud
+https://dzone.com/articles/cloud-based-multimedia-solutions,"Designing Cloud-Based Multimedia Solutions",Cloud
+https://dzone.com/articles/top-google-cloud-certification,"Top 9 Google Cloud Platform Certification Courses for 2022",Cloud
+https://dzone.com/articles/cassandra-database-migration-to-kubernetes-with-ze,"Cassandra Database Migration to Kubernetes with Zero Downtime",Cloud
+https://dzone.com/articles/modernizing-a-legacy-microsoftnet-application-by-u,"Modernizing a Legacy Microsoft .NET Application by Upgrading It to the...",Cloud
+https://dzone.com/articles/enter-the-cloud-native-dojo-blackbelt-level-debugg,"Enter the Cloud Native Dojo: Blackbelt-Level Debugging",Cloud
+https://dzone.com/articles/cdk-lessons-learned,"5 CDK Lessons Learned",Cloud
+https://dzone.com/articles/cloud-systems-part-three-deploying-to-amazon-ecs,"Cloud Systems (Part 3): Deploying to Amazon ECS",Cloud
+https://dzone.com/articles/containers-landscape-seen-through-oci-and-cncf-standards-lenses,"Containers Landscape: Seen Through OCI and CNCF Standards Lenses",Cloud
+https://dzone.com/articles/detect-untagged-pdfs-for-accessibility,"Detect Untagged PDFs for Accessibility",Cloud
+https://dzone.com/articles/5-best-google-cloud-platform-gcp-courses-for-begin,"5 Best Google Cloud Platform (GCP) Courses for Beginners",Cloud
+https://dzone.com/articles/low-code-aging-like-wine,"Low-Code: Aging Like Wine",Cloud
+https://dzone.com/articles/cloud-systems-part-two-containerizing-a-website,"Cloud Systems (Part 2): Containerizing a Website",Cloud
+https://dzone.com/articles/python-sdks-package-management-in-gcp-artifact-reg,"Python SDKs Package Management in GCP Artifact Registry",Cloud
+https://dzone.com/articles/row-vs-columnar-storage-for-cloud-based-data,"Row vs. Columnar Storage for Cloud-Based Data",Cloud
+https://dzone.com/articles/the-search-for-a-cloud-native-database,"The Search for a Cloud-Native Database",Cloud
+https://dzone.com/articles/cloud-systems-part-one-static-sites-and-aws-s3,"Cloud Systems (Part 1): Static Sites and AWS S3",Cloud
+https://dzone.com/articles/enterprise-computing-and-the-public-cloud-dilemma,"Enterprise Computing and the Public Cloud Dilemma",Cloud
+https://dzone.com/articles/kubernetes-fundamentals-part-two,"Kubernetes Fundamentals - Part 2",Cloud
+https://dzone.com/articles/connect-external-opensearch-dashboard-to-aws-opens,"Connect External OpenSearch Dashboard to AWS OpenSearch Domain With Helm",Cloud
+https://dzone.com/articles/kubernetes-kops-for-cluster-management,"Kubernetes kOps for Cluster Management",Cloud
+https://dzone.com/articles/goodbye-azure-portal-welcome-azure-cli,"Goodbye Azure Portal, Welcome Azure CLI",Cloud
+https://dzone.com/articles/How-to-Stream-Docker-Containers-to-Your-Browser,"How to Stream Docker Containers to Your Browser",Cloud
+https://dzone.com/articles/refactoring-infrastructure-as-code,"Refactoring Infrastructure as Code",Cloud
+https://dzone.com/articles/api-gateway-to-eventbridge-with-pulumi,"API Gateway to EventBridge With Pulumi",Cloud
+https://dzone.com/articles/backing-up-k8ssandra-with-minio-1,"Backing Up K8ssandra With MinIO",Cloud
+https://dzone.com/articles/kubernetes-fundamentals-part-one,"Kubernetes Fundamentals: Part 1",Cloud
+https://dzone.com/articles/5-best-azure-amp-cloud-computing-courses-for-begin,"5 Best Azure and Cloud Computing Courses for Beginners To Learn Online",Cloud
+https://dzone.com/articles/cicd-with-azure-devops-and-ack-alibaba-cloud-kuber,"CI/CD With Azure DevOps and Alibaba Cloud Kubernetes (ACK)",Cloud
+https://dzone.com/articles/effective-reporting-for-cloud-well-architected-ass,"Effective Reporting for Cloud Well-Architectured Frameworks",Cloud
+https://dzone.com/articles/cloud-migration-checklist,"Cloud Migration Checklist",Cloud
+https://dzone.com/articles/testing-serverless-functions,"Testing Serverless Functions",Cloud
+https://dzone.com/articles/new-open-source-multi-cloud-asset-to-build-saas,"New Open-Source Multi-Cloud Asset to Build SaaS",Cloud
+https://dzone.com/articles/setting-up-a-docker-registry-as-pull-through-cache,"Setting Up A Docker Registry As Pull Through Cache",Cloud
+https://dzone.com/articles/how-to-secure-aws-api-gateway-with-cognito-user-po,"How to Secure AWS API Gateway With Cognito User Pool",Cloud
+https://dzone.com/articles/unboxing-k8ssandra-the-data-layer-for-your-kuberne,"Unboxing K8ssandra: The Data Layer For Your Kubernetes-Powered Applications",Cloud
+https://dzone.com/articles/how-to-integrate-infracost-with-terraform-cloud,"How To Integrate Infracost With Terraform Cloud",Cloud
+https://dzone.com/articles/kubernetes-package-management-with-helm,"Kubernetes Package Management With Helm",Cloud
+https://dzone.com/articles/a-comparison-of-current-kubernetes-distributions,"A Comparison of Current Kubernetes Distributions",Cloud
+https://dzone.com/articles/advanced-kubernetes-deployment-strategies,"Advanced Kubernetes Deployment Strategies",Cloud
+https://dzone.com/articles/docker-how-to-stop-and-remove-all-containers-at-on,"Docker: How to Stop and Remove All Containers at Once",Cloud
+https://dzone.com/articles/kubernetes-comparison-eks-gke,"Managed Kubernetes Comparison: EKS vs GKE",Cloud
+https://dzone.com/articles/crud-with-dynamodb-using-serverless-and-nodejs,"CRUD with DynamoDB Using Serverless and NodeJS",Cloud
+https://dzone.com/articles/from-aspiration-to-action-begin-implementing-the-s,"From Aspiration to Action: Begin Implementing the Serverless Cloud",Cloud
+https://dzone.com/articles/ces-2022-ambient-computing-integrations-announced,"CES 2022: Ambient Computing Integrations Announced for Vehicles",Cloud
+https://dzone.com/articles/6-top-cloud-cost-optimization-issues-to-avoid-in-2,"6 Top Cloud Cost Optimization Issues To Avoid in 2022 and How To Deal With...",Cloud
+https://dzone.com/articles/s3-compatible-object-storage-powered-by-blockchain,"S3-Compatible Object Storage Powered by Blockchain/Web3",Cloud
+https://dzone.com/articles/serverless-security-aws-lambda,"5 Steps to Serverless Security With the AWS Lambda Plugin",Cloud
+https://dzone.com/articles/aws-lambda-versions-and-aliases-explained-by-examp,"AWS Lambda Versions and Aliases Explained By Example",Cloud
+https://dzone.com/articles/platform-engineering-with-pulumi-part-2-build-deploy-react,"Platform Engineering With Pulumi (Part 2): Build and Deploy a React.js...",Cloud
+https://dzone.com/articles/service-discovery-from-within-the-kubernetes-clust,"Service Discovery From Within the Kubernetes Cluster",Cloud
+https://dzone.com/articles/intelligently-adapt-kubernetes-clusters-to-use-spo,"Adapt Kubernetes Clusters to Use Spot Nodes",Cloud
+https://dzone.com/articles/building-with-open-policy-agent-opa-for-better-pol,"Building With Open Policy Agent (OPA) for Better Policy as Code",Cloud
+https://dzone.com/articles/the-cloud-security-solutions-why-cloud-computing-m,"The Cloud Security Solutions: Why Cloud Computing Must Be Used",Cloud
+https://dzone.com/articles/what-are-the-7-rs-of-cloud-migration-strategy,"What Are the 7 Rs of Cloud Migration Strategy?",Cloud
+https://dzone.com/articles/next-generation-cloud-connectivity,"Proxies, Gateways, and Meshes: Next Generation Cloud Connectivity",Cloud
+https://dzone.com/articles/aws-cli-in-3-mins,"AWS CLI in 3 Minutes",Cloud
+https://dzone.com/articles/why-application-cloud-migration-or-application-mod,"Application Cloud Migration or Application Modernization?",Cloud
+https://dzone.com/articles/codeready-containers-beginners-guide-to-openshift,"CodeReady Containers - Beginners guide to OpenShift Container Platform...",Cloud
+https://dzone.com/articles/inspecting-cloud-composer-apache-airflow,"Inspecting Cloud Composer - Apache Airflow",Cloud
+https://dzone.com/articles/why-a-developer-should-be-a-bit-of-a-cloud-engineer,"Why a Developer Should Be a Bit of a Cloud Engineer: The Need for Cloud...",Cloud
+https://dzone.com/articles/develop-spring-boot-rest-api-in-aws-part-4-codepip,"Develop a Spring Boot REST API in AWS: PART 4 (CodePipeline / CI/CD)",Cloud
+https://dzone.com/articles/raising-the-bar-on-security-by-purging-credentials,"Raising the Bar on Security by Purging Credentials From the Cloud",Cloud
+https://dzone.com/articles/getting-started-with-aws-amplify,"Getting Started With AWS Amplify",Cloud
+https://dzone.com/articles/what-does-2022-have-in-store-for-cybersecurity-and,"What Does 2022 Have in Store for Cybersecurity and Cloud Security...",Cloud
+https://dzone.com/articles/kubeflow-fundamentals-part-6-working-with-jupyter,"Kubeflow Fundamentals Part 6: Working With Jupyter Lab Notebooks",Cloud
+https://dzone.com/articles/apache-kafka-as-cloud-native-ipaas-integration-mid,"Apache Kafka as Cloud-Native iPaaS Integration Middleware",Cloud
+https://dzone.com/articles/everything-you-need-to-know-about-aws-graviton2,"Everything You Need to Know About AWS Graviton2",Cloud
+https://dzone.com/articles/create-lambda-layers-in-aws-lambda,"Create Lambda Layers in AWS Lambda",Cloud
+https://dzone.com/articles/25-most-commonly-used-blockchain-terms-explained,"25 Most Commonly Used Blockchain Terms Explained",Cloud
+https://dzone.com/articles/deploy-an-application-for-azure-container-registry,"Deploy an Application for Azure Container Registry",Cloud
+https://dzone.com/articles/grab-hold-of-meta-w-tech,"Grab Hold of Meta With Tech",Cloud
+https://dzone.com/articles/systematic-and-chaotic-testing-a-way-to-achieve-cl,"Systematic and Chaotic Testing: A Way to Achieve Cloud Resilience",Cloud
+https://dzone.com/articles/azure-create-azure-blob-storage-account-and-upload,"Create an Azure Blob Storage Account and Upload a File",Cloud
+https://dzone.com/articles/microsoft-azure-app-service-cloud-services-or-vms,"Azure App Service, Azure Cloud Services, or VMs - Which Hosting Service Is...",Cloud
+https://dzone.com/articles/how-to-connect-stateful-workloads-across-kubernete,"How To Connect Stateful Workloads Across Kubernetes Clusters",Cloud
+https://dzone.com/articles/cloud-disaster-recovery-a-solution-to-your-cloud-r,"Cloud Disaster Recovery: A Solution to Your Cloud-Related Concerns",Cloud
+https://dzone.com/articles/aws-karpenter-is-the-aws-open-source-kubernetes-autoscaler-right-for-you,"AWS Karpenter: Is the AWS Open Source Kubernetes Autoscaler Right for You?",Cloud
+https://dzone.com/articles/observability-with-zero-code-instrumentation-meet,"eBPF: Observability with Zero Code Instrumentation [Video]",Cloud
+https://dzone.com/articles/cube-cloud-deep-dive-starting-a-new-cube-app,"Cube Cloud Deep Dive: Starting a New Cube App",Cloud
+https://dzone.com/articles/scaling-in-azure-app-service,"Scaling in Azure App Service – Almost Everything You Need To Know",Cloud
+https://dzone.com/articles/monitoring-openshift-pods-with-ansible-and-zabbix,"Monitoring OpenShift PODS With Ansible and Zabbix Sender",Cloud
+https://dzone.com/articles/running-enterprise-messaging-in-serverless-aws-far,"IBM MQ in ECS on AWS Fargate",Cloud
+https://dzone.com/articles/diy-serverless-with-hyperlambda-kubernetes-and-pur,"DIY Serverless with Hyperlambda, Kubernetes and pure Magic",Cloud
+https://dzone.com/articles/4-pitfalls-to-be-aware-of-when-adopting-a-hybrid-c-1,"4 Pitfalls To Be Aware of When Adopting a Hybrid Cloud",Cloud
+https://dzone.com/articles/kubeflow-fundamentals-part-5-getting-started-with,"Kubeflow Fundamentals Part 5: Getting Started With Notebooks",Cloud
+https://dzone.com/articles/cloud-app-security-top-10-things-developers-must-k,"Cloud App Security: Top 10 Preventions Developers Must Know",Cloud
+https://dzone.com/articles/under-the-lid-how-atomicjar-is-reshaping-testconta,"Under the Lid: How AtomicJar is Reshaping Testcontainers",Cloud
+https://dzone.com/articles/extracting-useful-information-from-your-kubernetes,"Extracting Useful Kubernetes Cluster Info With custom-columns and jq",Cloud
+https://dzone.com/articles/tips-on-making-sprint-retrospectives-better-3,"5 Ways to Make Sprint Retrospectives Better",Cloud
+https://dzone.com/articles/cloud-cost-management-alone-wont-fix-your-cloud-sp,"Cloud Cost Management Alone Won’t Fix Your Cloud Spend Problem",Cloud
+https://dzone.com/articles/stream-landing-kafka-data-to-object-storage-using,"Stream Landing Kafka Data to Object Storage using Terraform",Cloud
+https://dzone.com/articles/the-ultimate-guide-to-cloud-cost-optimization,"The Ultimate Guide to Cloud Cost Optimization",Cloud
+https://dzone.com/articles/introduction-to-intelligent-cloud-machine-learning,"Intelligent Cloud: Machine Learning Integration in the Cloud",Cloud
+https://dzone.com/articles/everything-you-need-to-know-about-gantt-chart-time,"Everything You Need to Know About Gantt Chart Timeline",Cloud
+https://dzone.com/articles/platform-engineering-with-pulumi-part-1-landing-zone,"Platform Engineering With Pulumi (Part 1): Landing Zone",Cloud
+https://dzone.com/articles/hybrid-multi-cloud-strategy-winning-theme-for-ente,"Hybrid Multi Cloud Strategy: Winning Theme For Enterprise",Cloud
+https://dzone.com/articles/cloud-computing-security-parameters-on-various-cloud-platforms,"Cloud Computing Security Parameters on Various Cloud Platforms",Cloud
+https://dzone.com/articles/custom-authentication-azure-api-gateway,"How to Set Custom Authentication with Azure API Gateway",Cloud
+https://dzone.com/articles/install-apache-druid-kubernetes-quickly,"Setting Up Apache Druid on Kubernetes in Under 30 Minutes",Cloud
+https://dzone.com/articles/how-to-use-amazon-sqs-in-a-spring-boot-app,"How to Use Amazon SQS in a Spring Boot App",Cloud
+https://dzone.com/articles/developer-productivity-masterclass-interview,"Developer Productivity Masterclass: Interview With Leonid Blouvshtein",Cloud
+https://dzone.com/articles/custom-authentication-in-the-cloud-with-amazon-api,"Custom Authentication in the Cloud with Amazon API Gateway and Lambda...",Cloud
+https://dzone.com/articles/building-an-opensearch-index-from-dynamodb,"Building an OpenSearch Index from DynamoDB",Cloud
+https://dzone.com/articles/how-to-delete-all-pods-in-replicaset,"How to Delete all Pods in a ReplicaSet",Cloud
+https://dzone.com/articles/microservices-and-the-event-aggregator-pattern,"What Are Microservices and The Event Aggregator Pattern?",Cloud
+https://dzone.com/articles/aws-cli-basics-part-3,"AWS CLI Basics – Part 3",Cloud
+https://dzone.com/articles/what-is-cloud-ecommerce-solutions,"What is Cloud eCommerce Solutions?",Cloud
+https://dzone.com/articles/open-source-otomi-provides-developer-self-service,"Otomi: OSS Developer Self-Service for Kubernetes",Cloud
+https://dzone.com/articles/understanding-persistent-volumes-and-pvcs-in-kuber,"Understanding Persistent Volumes and PVCs in Kubernetes and OpenEBS",Cloud
+https://dzone.com/articles/how-to-explain-kubernetes-to-a-business-team,"How to Explain Kubernetes to a Business Team",Cloud
+https://dzone.com/articles/how-to-use-opentelemetry-with-aws-lambda,"How to Use OpenTelemetry With AWS Lambda",Cloud
+https://dzone.com/articles/migrating-oracle-ebs-to-cloud-via-test-automation,"Migrating Oracle EBS to Cloud via Test Automation",Cloud
+https://dzone.com/articles/containers-the-essentials,"Containers – The Essentials",Cloud
+https://dzone.com/articles/google-cloud-vmware-engine-bastion-host-access-wit,"Intro to Google Cloud VMware Engine: Bastion Host Access With IAP",Cloud
+https://dzone.com/articles/build-sustainable-applications-using-azure-service,"Build Sustainable Applications Using Azure Services",Cloud
+https://dzone.com/articles/new-vs-code-debugging-tools-for-alexa,"New VS Code Debugging Tools for Alexa",Cloud
+https://dzone.com/articles/becoming-cloud-native-1,"Becoming Cloud Native",Cloud
+https://dzone.com/articles/multi-container-pod-design-patterns-in-kubernetes,"Multi-Container Pod Design Patterns in Kubernetes",Cloud
+https://dzone.com/articles/how-to-start-cloud-application-development,"How To Start Cloud Application Development",Cloud
+https://dzone.com/articles/microsoft-cloud-for-healthcare-architect-perspecti-2,"Microsoft Cloud for Healthcare: Architect Perspective",Cloud
+https://dzone.com/articles/aws-cli-basics-part-2,"AWS CLI Basics – Part 2",Cloud
+https://dzone.com/articles/aws-vs-azure-vs-gcp-cloud-web-services-comparison,"AWS vs Azure vs GCP: Cloud Web Services Comparison in Detail",Cloud
+https://dzone.com/articles/kubeflow-fundamentals-part-4-external-add-ons,"Kubeflow Fundamentals Part 4: External Add-ons",Cloud
+https://dzone.com/articles/codeanywhere-adventures-getting-started-with-devel-1,"Codeanywhere Adventures: Getting Started With Developer Decision Management...",Cloud
+https://dzone.com/articles/aws-cli-basics,"AWS CLI – Basics",Cloud
+https://dzone.com/articles/mulesoft-application-logs-to-amazon-cloudwatch,"Export Mulesoft Application Logs To Amazon Cloudwatch",Cloud
+https://dzone.com/articles/production-horrors-handling-disasters-public-debri,"Production Horrors – Handling Disasters: Public Debrief",Cloud
+https://dzone.com/articles/how-to-create-an-aws-cloudformation-fargate-templa,"How to Create an AWS CloudFormation Fargate Template",Cloud
+https://dzone.com/articles/aws-serverless-constraints-iac-and-beyond,"AWS S3 Access via API Gateway, IaC, and More",Cloud
+https://dzone.com/articles/cloud-metrics-a-tool-to-measure-success-of-cloud-a,"Cloud Metrics: A Tool to Measure Success of Cloud Adoption",Cloud
+https://dzone.com/articles/aws-cloud-watch-ycrash-monitoring-rca,"AWS CloudWatch + yCrash = Monitoring + RCA",Cloud
+https://dzone.com/articles/how-to-improve-mobile-application-performance-thro,"How To Improve Mobile Application Performance Through Cloud Integration",Cloud
+https://dzone.com/articles/kubernetes-container-lifecycle-events-and-hooks,"Kubernetes Container Lifecycle Events and Hooks",Cloud
+https://dzone.com/articles/cloud-observability,"Cloud Observability - Understand the Complex State of Your System",Cloud
+https://dzone.com/articles/beginners-guide-to-using-amazon-s3-storage-classes,"Beginner’s Guide To Using Amazon S3 Storage Classes",Cloud
+https://dzone.com/articles/the-cloud-continuum,"The Cloud Continuum",Cloud
+https://dzone.com/articles/edge-cloud-benefits-and-top-considerations,"Edge Cloud: Benefits and Top Considerations",Cloud
+https://dzone.com/articles/the-shifting-cloud-native-landscape-understanding,"The Shifting Cloud-Native Landscape: Understanding Kubernetes Compliance...",Cloud
+https://dzone.com/articles/microsoft-cloud-for-retail-architect-perspective,"Microsoft Cloud for Retail: Architect Perspective",Cloud
+https://dzone.com/articles/think-your-on-prem-app-is-cloud-stubborn-think-aga,"Think Your On-Prem App is Cloud Stubborn? Think Again!",Cloud
+https://dzone.com/articles/dzone-cloud-show-kubecon-2021-recap,"DZone Cloud Show: KubeCon 2021 Recap",Cloud
+https://dzone.com/articles/a-deep-dive-into-aws-control-toweran-innovative-mu,"A Deep Dive into AWS Control Tower — An Innovative Multi-Account Management...",Cloud
+https://dzone.com/articles/benchmarking-aws-graviton2-and-gp3-support-for-apa,"Benchmarking AWS Graviton2 and gp3 Support for Apache Kafka",Cloud
+https://dzone.com/articles/success-story-from-aws-emr-to-kubernetes,"Success Story: From AWS EMR to Kubernetes",Cloud
+https://dzone.com/articles/how-to-discover-personal-data-in-cloud-storage,"How To Discover Personal Data in Cloud Storage",Cloud
+https://dzone.com/articles/codeanywhere-adventures-getting-started-with-devel,"Codeanywhere adventures - Getting started with developer process automation...",Cloud
+https://dzone.com/articles/block-amp-file-storage-object-amp-cloud-storage,"Block and File Storage + Object and Cloud Storage",Cloud
+https://dzone.com/articles/continuous-integration-continuous-deployment-ci-cd,"CI/CD With Azure DevOps",Cloud
+https://dzone.com/articles/aws-audit-and-security-strengthening,"AWS Audit and Security Strengthening",Cloud
+https://dzone.com/articles/cloud-native-5g-mec-and-ossbssott-telco-with-apach,"Cloud-Native 5G, MEC and OSS/BSS/OTT Telco with Apache Kafka and Kubernetes",Cloud
+https://dzone.com/articles/why-cloud-native-apps-need-cloud-native-ransomware-protection,"Why Cloud-Native Apps Need Cloud-Native Ransomware Protection",Cloud
+https://dzone.com/articles/how-to-deploy-a-spring-boot-app-on-aws-fargate,"How to Deploy a Spring Boot App on AWS Fargate",Cloud
+https://dzone.com/articles/introduction-to-helm-charts,"Introduction to Helm Charts",Cloud
+https://dzone.com/articles/microsoft-cloud-for-financial-services-architect-p,"Microsoft Cloud for Financial Services — Architect Perspective",Cloud
+https://dzone.com/articles/how-to-implement-cloud-migration-automation,"Automation-Driven Cloud Migration — An Introduction",Cloud
+https://dzone.com/articles/leveraging-aws-for-backup-and-disaster-recovery-8,"Leveraging AWS for Backup and Disaster Recovery — 8 Best DR Practices",Cloud
+https://dzone.com/articles/how-to-use-ketch-to-deploy-applications-on-kuberne,"Use Ketch to Deploy Apps on Kubernetes Without YAML",Cloud
+https://dzone.com/articles/7-steps-to-improve-data-security-during-cloud-migr,"7 Steps To Improve Data Security During Cloud Migration",Cloud
+https://dzone.com/articles/kubeflow-fundamentals-part-3-distributions-and-ins,"Kubeflow Fundamentals Part 3: Distributions and Installations",Cloud
+https://dzone.com/articles/cloud-data-warehouse-comparison-redshift-vs-bigque,"Cloud Data Warehouse Comparison: Redshift vs. BigQuery vs. Azure vs....",Cloud
+https://dzone.com/articles/benchmark-apps-aws-well-architected-framework,"Benchmark Your Apps Against the AWS Well-Architected Framework",Cloud
+https://dzone.com/articles/getting-started-with-kubernetes-in-2-days,"Getting Started With Kubernetes In 2 Days",Cloud
+https://dzone.com/articles/codeanywhere-adventures-creating-your-first-contai,"Codeanywhere adventures - Creating your first container project (part 2)",Cloud
+https://dzone.com/articles/building-our-ecommerce-platform-with-serverless-faas,"Building Our E-Commerce Platform With Serverless FaaS",Cloud
+https://dzone.com/articles/the-pros-and-cons-of-cloud-computing,"The Pros and Cons of Cloud Computing",Cloud
+https://dzone.com/articles/efficient-model-training-in-the-cloud-case-study,"Efficient Model Training in the Cloud with Kubernetes, TensorFlow, and...",Cloud
+https://dzone.com/articles/managing-docker-apps-with-kubernetes-ingress-contr,"Managing Docker Apps With Kubernetes Ingress Controller",Cloud
+https://dzone.com/articles/aws-terraform-snitcher,"AWS Terraform Snitcher",Cloud
+https://dzone.com/articles/monitoring-nvidia-gpu-usage-in-kubernetes-with-pro-1,"Monitoring NVIDIA GPU Usage in Kubernetes With Prometheus",Cloud
+https://dzone.com/articles/elastic-stack-guide-part-2-heartbeat,"Elastic Stack Guide Part – 2 (Heartbeat)",Cloud
+https://dzone.com/articles/edge-computing-the-future-of-cloud,"Edge Computing: The Future of Cloud",Cloud
+https://dzone.com/articles/how-to-track-email-opens-clicks-and-bounces,"How to Track Email Opens, Clicks, and Bounces Using AWS SES, SNS, and...",Cloud
+https://dzone.com/articles/why-devsecops-is-just-a-fancy-acronym-for-kubernet,"Why DevSecOps Is Just a Fancy Acronym for Kubernetes Service Ownership",Cloud
+https://dzone.com/articles/use-vm-as-your-personal-computer-ft-vscode,"Use VM as Your Personal Computer Featuring VSCode [Video]",Cloud
+https://dzone.com/articles/running-presto-in-a-hybrid-cloud-architecture-1,"Running Presto in a Hybrid Cloud Architecture",Cloud
+https://dzone.com/articles/cloud-cost-optimization-a-pivotal-part-of-cloud-st,"Cloud Cost Optimization: A Pivotal Part of Cloud Strategy",Cloud
+https://dzone.com/articles/kubernetes-on-aws-what-you-should-know-before-gett,"Kubernetes on AWS: What You Should Know Before Getting Started",Cloud
+https://dzone.com/articles/solution-thinking-workshop,"Solution Thinking Design",Cloud
+https://dzone.com/articles/cloud-as-an-enabler-for-sustainability,"Cloud as an Enabler for Sustainability",Cloud
+https://dzone.com/articles/beginners-guide-to-installing-decision-management,"Beginners Guide to Installing Decision Management Tooling in a Local...",Cloud
+https://dzone.com/articles/multiple-cloud-perspectives-and-introduction-to-az-1,"Multiple Cloud Perspectives and Introduction To Azure Arc",Cloud
+https://dzone.com/articles/hybrid-multicloud-adoption-a-programmatic-approach,"Hybrid Multicloud Adoption: A Programmatic Approach To Get Started",Cloud
+https://dzone.com/articles/microsoft-cloud-for-manufacturing-architect-perspe,"Microsoft Cloud for Manufacturing: An Architecture Perspective",Cloud
+https://dzone.com/articles/cloud-technology-news-of-the-month-september-2021,"Cloud Technology News of the Month: September 2021",Cloud
+https://dzone.com/articles/mainframe-modernization-to-cloud,"Mainframe Modernization to Cloud",Cloud
+https://dzone.com/articles/deploy-rapids-on-gpu-enabled-virtual-servers-on-ib,"Deploy RAPIDs on GPU-Enabled Virtual Servers on a Virtual Private Cloud",Cloud
+https://dzone.com/articles/kubernetes-for-application-developers-ckad,"Kubernetes for Application Developers (CKAD)",Cloud
+https://dzone.com/articles/kubexpose-a-kubernetes-operator-for-fun-and-profit,"Kubexpose: A Kubernetes Operator for Fun and Profit!",Cloud
+https://dzone.com/articles/five-different-ways-to-build-aws-infrastructure,"Five Different Ways to Build AWS Infrastructure",Cloud
+https://dzone.com/articles/codeanywhere-adventures-getting-started-with-brows,"Codeanywhere adventures - Getting started with browser based development in...",Cloud
+https://dzone.com/articles/a-minimalistic-python-wrapper-to-aws-dynamodb,"A Minimalistic Python Wrapper to AWS DynamoDB",Cloud
+https://dzone.com/articles/after-the-lift-and-shift-10-steps-to-optimize-your,"After the Lift and Shift: 10 Steps To Optimize Your Cloud Efficiency",Cloud
+https://dzone.com/articles/thoughfulness-innovation-cloud-computing,"The Green Lining in Cloud Computing",Cloud
+https://dzone.com/articles/kubernetes-assimilation-persistence-is-futile,"Kubernetes Assimilation: Persistence Is Futile",Cloud
+https://dzone.com/articles/mainframe-modernization-acceleration-by-openshift,"Mainframe Modernization Acceleration Through OpenShift",Cloud
+https://dzone.com/articles/kubernetes-multi-node-on-prem-installation-with-k0,"Kubernetes Multi-Node On-Premise Installation With k0s Distribution",Cloud
+https://dzone.com/articles/ipaas-for-mobile-developers,"iPaaS for Mobile Developers",Cloud
+https://dzone.com/articles/how-to-deploy-tidb-on-google-cloud-platformpart-2,"How to Deploy TiDB on Google Cloud Platform—Part 2",Cloud
+https://dzone.com/articles/open-networking-for-network-switches-how-the-open,"Open Networking for Network Switches - How the Open-Source DENT Project...",Cloud
+https://dzone.com/articles/replacing-docker-desktop-with-hyperkit-minikube,"Replacing Docker Desktop With hyperkit + minikube",Cloud
+https://dzone.com/articles/how-to-deploy-tidb-on-google-cloud-platformpart-1,"How to Deploy TiDB on Google Cloud Platform—Part 1",Cloud
+https://dzone.com/articles/incident-review-aws-outage-led-to-spikes-in-respon-1,"Incident Review – AWS Outage Led To Spikes In Response Times For...",Cloud
+https://dzone.com/articles/getting-started-with-kubeflow-on-google-cloud-plat,"Getting Started With Kubeflow on Google Cloud Platform",Cloud
+https://dzone.com/articles/kubeflow-fundamentals-machine-learning-workflows-p,"Kubeflow Fundamentals: Machine Learning Workflows — Part 2",Cloud
+https://dzone.com/articles/kubeflow-fundamentals-an-introduction,"Kubeflow Fundamentals: An Introduction",Cloud
+https://dzone.com/articles/elastic-stack-guide-part-1,"Elastic Stack Guide Part – 1",Cloud
+https://dzone.com/articles/importance-of-transit-gateway-in-anypoint-platform,"Importance of Transit Gateway in Anypoint Platform",Cloud
+https://dzone.com/articles/how-to-use-open-source-kubecost-to-understand-and,"Use Open-Source Kubecost to Understand (and Control) Kubernetes Spending",Cloud
+https://dzone.com/articles/top-challenges-in-saas-customer-onboarding,"Top Challenges in SAAS Customer Onboarding",Cloud
+https://dzone.com/articles/multiple-cloud-perspectives-and-introduction-to-az,"Multiple Cloud Perspectives and Introduction To Azure Arc",Cloud
+https://dzone.com/articles/how-to-run-chaos-experiments-on-your-physical-mach,"How to Run Chaos Experiments on Your Physical Machine",Cloud
+https://dzone.com/articles/how-to-become-a-10x-software-developer-in-15-minut,"How to become a 10x Software Developer in 15 minutes",Cloud
+https://dzone.com/articles/blockchain-network-with-hyperledger-fabric-peculia,"Blockchain Network with Hyperledger Fabric: Peculiarities and Use Cases",Cloud
+https://dzone.com/articles/using-the-cloud-as-a-sandbox-for-server-consolidat,"Using the Cloud as a Sandbox for Server Consolidation",Cloud
+https://dzone.com/articles/industry-cloud-is-the-future-of-cloud-transformati,"Industry Cloud Is The Future Of Cloud Transformation and Realization",Cloud
+https://dzone.com/articles/test-environments-why-test-in-the-cloud,"Test Environments: Why Test in the Cloud?",Cloud
+https://dzone.com/articles/cloudhub-dedicated-load-balancer-advanced-concepts-mapping-rules,"CloudHub Dedicated Load Balancer Advanced Concepts: Mapping Rules",Cloud
+https://dzone.com/articles/get-aws-monthly-cost-using-ps-script-1,"Get AWS Monthly Cost Using PS Script",Cloud
+https://dzone.com/articles/laas-paas-caas-iaas-faas-and-saas-1,"Understanding LaaS, PaaS, CaaS, IaaS, FaaS, and SaaS",Cloud
+https://dzone.com/articles/are-solution-architects-relevant-in-post-covid-tim,"Are Solution Architects Relevant In Post-Covid Time?",Cloud
+https://dzone.com/articles/multiple-ways-to-invoke-aws-lambda-functions,"Multiple Ways to Invoke AWS Lambda Functions",Cloud
+https://dzone.com/articles/debugging-in-production-how-to-move-fast-without-b,"Debugging in Production - How To Move Fast Without Breaking Things",Cloud
+https://dzone.com/articles/kubernetes-the-ultimate-platform-for-containerized,"Kubernetes - The Ultimate Platform for Containerized Application Management",Cloud
+https://dzone.com/articles/generate-documents-and-send-in-bulk-for-e-signatur,"Generate Documents and Send Them in Bulk for E-Signature in Microsoft Power...",Cloud
+https://dzone.com/articles/why-you-should-use-adobe-document-generation-api-w,"Why You Should Use Adobe Document Generation API With Adobe Sign",Cloud
+https://dzone.com/articles/its-not-all-bad-using-cloud-drift-as-a-teachable-m,"It’s Not All Bad! Using Cloud Drift for Teachable Moments",Cloud
+https://dzone.com/articles/how-to-deploy-a-spring-boot-app-on-aws-ecs-cluster,"How to Deploy a Spring Boot App on AWS ECS Cluster",Cloud
+https://dzone.com/articles/global-saas-compliance-a-complete-audit-checklist,"Global SaaS Compliance: A Complete Audit Checklist",Cloud
+https://dzone.com/articles/getting-started-with-azure-data-explorer-and-azure,"Exploring Azure Data Explorer and Azure Synapse Analytics for Big Data...",Cloud
+https://dzone.com/articles/how-to-install-latest-version-kubernetes-cluster-o,"Installing the Latest Version of Kubernetes Cluster on Premises Using k0s...",Cloud
+https://dzone.com/articles/moving-components-to-paas-what-to-expect,"Moving Components to PAAS? What To Expect",Cloud
+https://dzone.com/articles/cloudhub-dedicated-load-balancer-advanced-concepts-internal-calls,"CloudHub Dedicated Load Balancer Advanced Concepts: Internal Calls",Cloud
+https://dzone.com/articles/cloudhub-dedicated-load-balancer-advanced-concepts-basics,"CloudHub Dedicated Load Balancer Advanced Concepts: Basics",Cloud
+https://dzone.com/articles/intro-to-google-cloud-vmware-engine-connecting-a-v,"Introduction to Google Cloud VMware Engine: Connecting a VPC",Cloud
+https://dzone.com/articles/tools-to-visualize-your-terraform-plan,"Tools to Visualize your Terraform plan",Cloud
+https://dzone.com/articles/observability-let-your-ide-debug-for-you,"Observability: Let Your IDE Debug for You",Cloud
+https://dzone.com/articles/auto-filter-messages-into-subscriptions-in-azure-s,"Auto Filter Messages Into Subscriptions in Azure Service Bus Topic",Cloud
+https://dzone.com/articles/dzone-live-the-cloud-security-episode,"DZone Live: The Cloud Security Episode",Cloud
+https://dzone.com/articles/google-cloud-pubsub-messaging-with-spring-boot-25,"Google Cloud Pub/Sub: Messaging With Spring Boot 2.5",Cloud
+https://dzone.com/articles/setup-google-cloud-pubsub,"Google Cloud Pub/Sub - Setup and Tryout",Cloud
+https://dzone.com/articles/zapier-vs-choreo-web-based-integration-technologies-comparison,"Zapier vs. Choreo: How These Web-Based Integration Technologies Stack Up",Cloud
+https://dzone.com/articles/provisioning-high-performance-storage-for-nosql-da,"Provisioning High-Performance Storage for NoSQL databases with OpenEBS",Cloud
+https://dzone.com/articles/is-cloud-native-security-a-must,"Is Cloud-Native Security a Must?",Cloud
+https://dzone.com/articles/micronaut-jpa-application-performance-on-aws-lambd,"Micronaut JPA Application Performance in AWS Lambda",Cloud
+https://dzone.com/articles/what-is-sql-injection-types-examples-and-preventio,"What Is SQL Injection? Types, Examples, and Prevention",Cloud
+https://dzone.com/articles/pros-and-cons-of-cloud-backup-and-recovery,"Pros and Cons of Cloud Backup and Recovery",Cloud
+https://dzone.com/articles/understanding-ai-ops-part-2,"Understanding AI Ops: Part 2",Cloud
+https://dzone.com/articles/containers-on-aws-which-service-is-right-for-your,"Containers on AWS: Which Service Is Right for Your Workload",Cloud
+https://dzone.com/articles/a-guide-to-spot-readiness-in-kubernetes-1,"A Guide to Spot-Readiness in Kubernetes",Cloud
+https://dzone.com/articles/why-and-when-to-opt-for-a-multicloud-strategy,"Why and When to Opt for a Multicloud Strategy?",Cloud
+https://dzone.com/articles/evolution-of-k8s-worker-nodes-cri-o,"The Evolution of K8s Worker Nodes-CRI-O",Cloud
+https://dzone.com/articles/using-best-practices-amp-cloud-native-aws-services,"Using Best Practices and Cloud Native AWS Services to Strengthen Security...",Cloud
+https://dzone.com/articles/want-a-successful-cloud-migration-first-change-you,"Want a Successful Cloud Migration? First, Change Your Mindset",Cloud
+https://dzone.com/articles/google-cloud-vmware-engine-establishing-an-sddc,"Intro to Google Cloud VMware Engine: Establishing an SDDC in Google Cloud",Cloud
+https://dzone.com/articles/aws-stack-runner-deployment-stack-for-spring-boot-apps,"Setting Up an AWS App Runner Deployment Stack for Spring Boot Applications",Cloud
+https://dzone.com/articles/replatform-for-your-cloud-migration-is-it-the-best,"Replatform For Your Cloud Migration: Is it the Best Strategy?",Cloud
+https://dzone.com/articles/observability-in-hybrid-multi-cloud-environment,"Observability in Hybrid Multi-Cloud Environment",Cloud
+https://dzone.com/articles/a-low-code-approach-for-serverless-file-extraction,"A Low Code Approach for Serverless File Extraction and Transfer",Cloud
+https://dzone.com/articles/overcoming-critical-oracle-epm-cloud-migration-cha,"Overcoming Critical Oracle EPM Cloud Migration Challenges With Testing",Cloud
+https://dzone.com/articles/most-frequently-asked-questions-surrounding-google,"Most Frequently Asked Questions Surrounding Google’s Cloud Operations...",Cloud
+https://dzone.com/articles/hybrid-multi-cloud-dynamic-security-management,"Hybrid Multi-Cloud Dynamic Security Management",Cloud
+https://dzone.com/articles/dzone-live-the-kubecon-preview-episode,"DZone Live The KubeCon Preview Episode",Cloud
+https://dzone.com/articles/trend-check-saas-is-the-next-edge-business-require,"Trend Check: SAAS Is the Next-Edge Business Requirement",Cloud
+https://dzone.com/articles/which-managed-kubernetes-is-right-for-me,"Which Managed Kubernetes Is Right for Me?",Cloud
+https://dzone.com/articles/choosing-a-paas-provider-to-empower-not-limit-you,"Choosing a PaaS Provider To Empower, Not To Limit You",Cloud
+https://dzone.com/articles/aws-cloud-migration-how-to-determine-first-mover-w-1,"AWS Cloud Migration: How To Determine First-Mover Workloads",Cloud
+https://dzone.com/articles/free-docker-registries,"Free Docker Registries to Host Images",Cloud
+https://dzone.com/articles/all-about-serverless-computing,"All About Serverless Computing",Cloud
+https://dzone.com/articles/understanding-ai-ops,"Understanding AI Ops: Part 1",Cloud
+https://dzone.com/articles/lessons-in-cloud-modern-engineering,"Lessons From The Trenches: Cloud Modern Engineering",Cloud
+https://dzone.com/articles/deploy-postgresql-on-kubernetes-using-openebs-loca,"Deploy PostgreSQL On Kubernetes Using OpenEBS LocalPV",Cloud
+https://dzone.com/articles/deploy-wordpress-on-aws-using-openebs,"Deploy WordPress on AWS Using OpenEBS",Cloud
+https://dzone.com/articles/cloud-adoption-maturity-model-a-curtain-raiser,"Cloud Adoption Maturity Model: A Curtain-Raiser",Cloud
+https://dzone.com/articles/kubernetes-cloud-native-report-one-authors-honest-review,"Kubernetes Cloud Native Report: One Author's Honest Review",Cloud
+https://dzone.com/articles/aws-iam-policy-simulator,"AWS IAM Policy Simulator",Cloud
+https://dzone.com/articles/comprehensive-guideline-on-salesforce-cloud-native,"Comprehensive Guideline On Salesforce Cloud Native",Cloud
+https://dzone.com/articles/getting-started-with-azure-translator-service,"Getting Started With Azure Translator Service",Cloud
+https://dzone.com/articles/the-future-of-ipaas,"The Future of iPaaS",Cloud
+https://dzone.com/articles/overview-of-making-hybrid-multi-cloud-gitops-works,"Overview of Making Hybrid Multi-Cloud GitOps Work",Cloud
+https://dzone.com/articles/a-first-impression-of-aws-app-runner,"The First Impression of AWS App Runner",Cloud
+https://dzone.com/articles/what-is-google-cloud-pubsub-and-how-it-works,"Understanding Google Cloud Pub/Sub and How It Works",Cloud
+https://dzone.com/articles/azure-api-app-vs-web-app,"Azure API App vs Web App",Cloud
+https://dzone.com/articles/serverless-contact-form-using-aws-lambda-amp-kumol,"Serverless Contact Form Using AWS Lambda and Kumologica Forms Node",Cloud
+https://dzone.com/articles/migrating-to-aws,"Migrating to AWS",Cloud
+https://dzone.com/articles/cloud-factory-example-factory-deployment,"Cloud factory - Example factory deployment",Cloud
+https://dzone.com/articles/a-study-of-hosting-and-managing-on-hybrid-multi-cl,"A Study of Hosting and Managing on Hybrid Multi-Cloud",Cloud
+https://dzone.com/articles/a-guide-on-estimating-aws-ec2-workloads-for-a-micr,"A Guide on Estimating AWS EC2 Workloads for a Microservice Application",Cloud
+https://dzone.com/articles/how-to-fight-the-coming-latency-wars,"How to Fight the Coming Latency Wars",Cloud
+https://dzone.com/articles/what-are-cspm-tools-and-why-are-they-becoming-a-ne,"What Are CSPM Tools and Why Are They Becoming a Necessity?",Cloud
+https://dzone.com/articles/why-use-localpv-with-nvme-for-your-workload,"Why Use LocalPV with NVMe for Your Workload?",Cloud
+https://dzone.com/articles/how-5g-is-transforming-the-world-of-mobile-app-dev,"How 5G Is Transforming the World of Mobile App Development",Cloud
+https://dzone.com/articles/cloud-factory-common-architectural-elements,"Cloud factory - Common architectural elements",Cloud
+https://dzone.com/articles/revolutionary-role-of-cloud-computing-services-in,"Revolutionary Role of Cloud Computing Services in Retail Industry",Cloud
+https://dzone.com/articles/container-attached-storage-cas-vs-shared-storage-w,"Container Attached Storage (CAS) vs. Shared Storage: Which One to Choose?",Cloud
+https://dzone.com/articles/serverless-kafka-in-a-cloud-native-data-lake-archi,"Serverless Kafka in a Cloud-Native Data Lake Architecture",Cloud
+https://dzone.com/articles/aws-vs-google-cloud-2021-comparing-the-two-cloud-g,"AWS vs. Google Cloud: Comparing the Giants",Cloud
+https://dzone.com/articles/secure-your-move-to-the-cloud-a-roadmap-to-acceler,"Secure Your Move to the Cloud: A Roadmap to Accelerate Adoption",Cloud
+https://dzone.com/articles/serverless-architecture-with-aws-cloud-development,"Serverless Architecture with AWS Cloud Development Kit (CDK)",Cloud
+https://dzone.com/articles/cloud-factory-architectural-introduction,"Cloud factory - Architectural introduction",Cloud
+https://dzone.com/articles/optimizing-aws-architecture-for-cost-management,"Optimizing AWS Architecture for Cost Management",Cloud
+https://dzone.com/articles/how-to-trigger-aws-lambda-by-sms,"How To Trigger AWS Lambda by SMS",Cloud
+https://dzone.com/articles/manage-webassembly-apps-in-wasmedge-using-docker-tools,"Manage WebAssembly Apps in WasmEdge Using Docker Tools",Cloud
+https://dzone.com/articles/implementing-non-trivial-containerized-systems-part-4-adding-a-web-interface,"Implementing Non-Trivial Containerized Systems Part 4: Adding a Web...",Cloud
+https://dzone.com/articles/the-three-pillars-of-kubernetes-troubleshooting,"The Three Pillars of Kubernetes Troubleshooting",Cloud
+https://dzone.com/articles/do-you-really-need-kubernetes,"Do You Really Need Kubernetes?",Cloud
+https://dzone.com/articles/google-cloud-pubsub-overview,"Google Cloud Pub/Sub - Overview",Cloud
+https://dzone.com/articles/container-attached-storage-cas-vs-software-defined,"Container Attached Storage (CAS) vs. Software-Defined Storage - Which One...",Cloud
+https://dzone.com/articles/containers-in-the-cloud-what-are-your-options,"Containers in the Cloud: What Are Your Options?",Cloud
+https://dzone.com/articles/do-aws-reserved-instances-and-savings-plans-really,"Do AWS Reserved Instances and Savings Plans Really Reduce Costs?",Cloud
+https://dzone.com/articles/enabling-docker-volume-local-direction-react-application,"Enabling Docker Volume Local Directory for a Docker React Application",Cloud
+https://dzone.com/articles/persistent-volume-management-and-expansion-in-kubernetes,"Persistent Volume Management and Expansion in Kubernetes With Azure...",Cloud
+https://dzone.com/articles/everything-you-need-to-know-kubernetes-scheduler,"Everything You Need To Know About Kubernetes Scheduler",Cloud
+https://dzone.com/articles/6-best-practices-for-good-cloud-governance,"6 Best Practices for Good Cloud Governance",Cloud
+https://dzone.com/articles/how-to-develop-successful-cloud-based-saas-applica,"How to Develop a Successful Cloud-Based SaaS Application in 2021",Cloud
+https://dzone.com/articles/decoding-disaster-recovery-scenarios-in-aws,"Decoding Disaster Recovery Scenarios in AWS",Cloud
+https://dzone.com/articles/cloud-hopping,"Cloud-Hopping",Cloud
+https://dzone.com/articles/implementing-non-trivial-containerized-systems-part-2-containerizing-with-docker,"Implementing Non-Trivial Containerized Systems, Part 2: Containerizing With...",Cloud
+https://dzone.com/articles/cloud-automation-in-2021-the-new-normal,"Cloud Automation in 2021: The New Normal in the Tech Industry",Cloud
+https://dzone.com/articles/remote-server-management-example-remote-architectu,"Remote Server Management — Example Remote Architecture",Cloud
+https://dzone.com/articles/hashicorp-becoming-important-part-of-spring-cloud,"HashiCorp Is Becoming an Important Part of Spring Cloud (Part 1)",Cloud
+https://dzone.com/articles/setting-up-openshift-environment-variables-on-depl,"Setting up OpenShift Environment Variables on Deployment Configuration",Cloud
+https://dzone.com/articles/a-secure-online-payment-for-cloud-marketing-1,"A Secure Online Payment for Cloud Marketing",Cloud
+https://dzone.com/articles/explaining-cloud-computing-in-layman-terms,"Explaining Cloud Computing in Layman Terms",Cloud
+https://dzone.com/articles/next-gen-data-pipes-with-spark-kafka-and-k8s,"Next-Gen Data Pipes With Spark, Kafka and k8s",Cloud
+https://dzone.com/articles/removing-the-bastion-host-and-improving-the-securi,"Removing the Bastion Host and Improving the Security in AWS",Cloud
+https://dzone.com/articles/deploying-a-quarkus-app-on-openshift-with-s2i-and,"Deploying a Quarkus App on OpenShift With S2I and OpenShift Pipelines",Cloud
+https://dzone.com/articles/low-latency-edge-data-streaming-with-kafka-and-clo,"Low Latency Edge Data Streaming With Kafka and Cloud-Native 5G...",Cloud
+https://dzone.com/articles/docker-multi-stage-build-for-running-react-applica,"Docker Multi-Stage Build for Running React Application on Nginx Server",Cloud
+https://dzone.com/articles/remote-server-management-common-architectural-elem,"Remote server management - Common architectural elements",Cloud
+https://dzone.com/articles/how-education-technology-has-become-more-important-1,"How Education Technology Has Become More Important Than Ever",Cloud
+https://dzone.com/articles/five-common-challenges-faced-by-cloud-users,"Five Common Challenges Faced by Cloud Users",Cloud
+https://dzone.com/articles/simplifying-iac-using-terraform-terragrunt-atlanti,"Simplifying IAC Using Terraform, Terragrunt, and Atlantis",Cloud
+https://dzone.com/articles/a-guide-to-aws-instance-scheduler,"A Guide to AWS Instance Scheduler",Cloud
+https://dzone.com/articles/free-book-best-practices-in-software-architecture,"Free book: Best Practices in Software Architecture in the Cloud era",Cloud
+https://dzone.com/articles/unexpected-aws-charges-you-should-be-monitoring-cl,"Unexpected AWS Charges You Should Be Monitoring Closely",Cloud
+https://dzone.com/articles/aws-data-pipeline-vs-glue-vs-lambda-who-is-a-clear,"AWS Data Pipeline vs Glue vs Lambda: Who Is a Clear Winner?",Cloud
+https://dzone.com/articles/the-importance-of-persistent-storage-in-kubernetes,"The Importance of Persistent Storage in Kubernetes- OpenEBS",Cloud
+https://dzone.com/articles/how-did-i-processed-half-a-million-transactions-in,"How Did I Process Half a Million Transactions in AWS Lambda Within Minutes?",Cloud
+https://dzone.com/articles/vpc-auto-scaling-and-dedicated-hosts-with-terrafor,"VPC Auto Scaling and Dedicated Hosts with Terraform",Cloud
+https://dzone.com/articles/how-can-i-know-what-happens-inside-amazon-rds,"The Ultimate Guide to Amazon RDS Database Notifications",Cloud
+https://dzone.com/articles/the-benefits-of-using-nvme-for-kubernetes,"The Benefits of Using NVMe for Kubernetes",Cloud
+https://dzone.com/articles/deploying-net-core-apis-in-aws-lambda,"Deploying .NET Core APIs in AWS Lambda",Cloud
+https://dzone.com/articles/kubernetes-native-gateway-series-part-3-web-assemb,"Kubernetes Native Gateway Series (Part 3): Web Assembly at Scale with Gloo...",Cloud
+https://dzone.com/articles/remote-server-management-an-architectural-introduc,"Remote Server Management — An Architectural Introduction",Cloud
+https://dzone.com/articles/generate-google-cloud-api-credentials,"Generate Google Cloud API Credentials [Video]",Cloud
+https://dzone.com/articles/confused-by-aws-storage-options-s3-ebs-amp-efs-explained,"Confused by AWS Storage Options? S3, EBS, EFS Explained",Cloud
+https://dzone.com/articles/lead-generation-strategies-for-saas-2,"Lead Generation Strategies for SaaS",Cloud
+https://dzone.com/articles/crash-course-amazon-ec2-pricing-and-cutting-your-a,"Crash Course: Amazon EC2 Pricing and Cutting Your AWS Bill",Cloud
+https://dzone.com/articles/aws-application-deployment-basics-docker-container,"AWS Application Deployment Basics: Docker Containers",Cloud
+https://dzone.com/articles/cloud-adoption-example-adoption-architecture,"Cloud adoption - Example adoption architecture",Cloud
+https://dzone.com/articles/reducing-your-cloud-costs-by-90,"Reducing Your Cloud Costs by 90%",Cloud
+https://dzone.com/articles/aws-eks-implementation-easy-ten,"AWS EKS Implementation",Cloud
+https://dzone.com/articles/400-ec2-instance-types-the-good-the-bad-and-the-ug,"EC2 Instance Types: the Good, the Bad, and the Ugly",Cloud
+https://dzone.com/articles/cloud-adoption-common-architectural-elements,"Cloud adoption - Common architectural elements",Cloud
+https://dzone.com/articles/zoom-spotify-and-others-slashed-their-cloud-costs,"How Are Zoom, Spotify, etc Slashing Their Cloud Costs by Millions?",Cloud
+https://dzone.com/articles/how-to-create-an-aws-alb-and-asg,"How to Create an AWS ALB and ASG",Cloud
+https://dzone.com/articles/aws-application-deployment-basics-net-core-apps,"AWS Application Deployment Basics: .NET Core Apps",Cloud
+https://dzone.com/articles/need-more-confidence-in-your-cloud-security-take-t-1,"5 Ways to Increase Your Cloud Security Confidence",Cloud
+https://dzone.com/articles/one-gallon-of-milk-and-a-medium-sized-cloud-please,"One gallon of Milk and a medium sized Cloud please",Cloud
+https://dzone.com/articles/cloud-adoption-an-architectural-introduction,"Cloud adoption — An architectural introduction",Cloud
+https://dzone.com/articles/implementing-zero-trust-architecture-on-azure-hybr,"Implementing Zero Trust Architecture on Azure Hybrid Cloud",Cloud
+https://dzone.com/articles/serverless-computing-vs-cloud-computing,"Serverless Computing vs Cloud Computing",Cloud
+https://dzone.com/articles/kubernetes-native-gateway-series-part-3-web-assemb-1,"Kubernetes Native Gateway Series (Part 3): WebAssembly at Scale With Gloo...",Cloud
+https://dzone.com/articles/building-a-lightweight-trino-distribution,"Building a Lightweight Trino Distribution",Cloud
+https://dzone.com/articles/open-source-tools-you-should-be-aware-of-to-manage,"Open-Source Tools You Should Be Aware of to Manage Your Cloud",Cloud
+https://dzone.com/articles/ibm-cloud-satellite-in-india-chennai-dc,"IBM Cloud Satellite in India Chennai DC",Cloud
+https://dzone.com/articles/top-5-behavioral-emails-every-developer-tool-shoul,"Top 5 Behavioral Emails Every Developer Tool Should Use",Cloud
+https://dzone.com/articles/a-detailed-amp-comprehensive-guide-to-disaggregate,"A Detailed and Comprehensive Guide to Disaggregated Storage",Cloud
+https://dzone.com/articles/hybrid-multicloud-adoption,"Hybrid Multicloud Adoption",Cloud
+https://dzone.com/articles/gitless-cloud-systems,"Gitless Cloud Systems",Cloud
+https://dzone.com/articles/5-expensive-kubernetes-cost-traps-and-how-to-deal,"5 Costly Kubernetes Traps and Their Solutions",Cloud
+https://dzone.com/articles/how-to-create-an-aws-ec2-vm,"How to Create an AWS EC2 VM",Cloud
+https://dzone.com/articles/aws-cloud-development-kit-cdk-for-terraform-enabli,"AWS Cloud Development Kit (CDK) for Terraform: Enabling TypeScript and...",Cloud
+https://dzone.com/articles/my-experience-with-the-cka-exam,"My Experience With The CKA Exam",Cloud
+https://dzone.com/articles/interaction-with-autonomous-database-via-docker-co,"Interaction With Autonomous Database via Docker Container",Cloud
+https://dzone.com/articles/popular-saas-podcasts-for-2021,"Popular SaaS Podcasts for 2021",Cloud
+https://dzone.com/articles/from-solution-architecture-to-building-an-aws-serv,"From Architecture to an AWS Serverless POC: Architect's Journey",Cloud
+https://dzone.com/articles/how-to-set-up-and-run-a-really-powerful-free-minec,"How to Set Up and Run a (Really Powerful) Free Minecraft Server in the...",Cloud
+https://dzone.com/articles/aws-applications-deployment-basics-setup-nginx,"AWS Applications Deployment Basics: Setup NGINX",Cloud
+https://dzone.com/articles/finding-optimal-nodes-kubernetes-cluster,"How to Find an Optimal Set of Nodes for A Kubernetes Cluster",Cloud
+https://dzone.com/articles/deploy-an-aspnet-core-application-in-the-ibm-cloud,"Deploy an ASP.NET Core Application in the IBM Cloud Code Engine",Cloud
+https://dzone.com/articles/deploying-percona-kubernetes-operators-using-opene,"Deploying Percona Kubernetes Operators using OpenEBS Local Storage",Cloud
+https://dzone.com/articles/route53-quick-hands-on,"Route53 With a Private Hosted Zone",Cloud
+https://dzone.com/articles/redis-streams-in-action-part-2-tweets-consumer-app,"Redis Streams in Action (Part 2): Tweets Consumer App",Cloud
+https://dzone.com/articles/magic-terminal-over-web-sockets-and-signalr,"Magic Terminal over Web Sockets and SignalR",Cloud
+https://dzone.com/articles/aws-app-deployment-basics-vpc-and-postgresql-setup,"AWS App Deployment Basics: VPC and PostgreSQL Setup",Cloud
+https://dzone.com/articles/deploying-cockroachdb-on-kubernetes-using-openebs,"Deploying CockroachDB on Kubernetes using OpenEBS LocalPV",Cloud
+https://dzone.com/articles/kustomize-a-tool-for-kubernetes-configuration-mana,"Kustomize: A Tool for Kubernetes Configuration Management",Cloud
+https://dzone.com/articles/deploying-containerized-apps-on-aws-in-this-articl,"Deploying Containerized Apps on AWS? EKS vs. ECS For Workload Deployment",Cloud
+https://dzone.com/articles/how-to-set-real-time-cost-alerts-in-kubernetes,"Setting Real-Time Cost Alerts in Kubernetes With Kubecost",Cloud
+https://dzone.com/articles/kubernetes-adoption-accelerates-but-operational-ch,"Kubernetes Adoption Accelerates but Operational Challenges Persist",Cloud
+https://dzone.com/articles/a-complete-guide-to-sap-testing,"A Complete Guide to SAP Testing",Cloud
+https://dzone.com/articles/what-aws-lambda-metrics-should-you-definitely-be-m,"What AWS Lambda Metrics Should You Definitely Be Monitoring?",Cloud
+https://dzone.com/articles/practical-top-down-resource-monitoring-of-a-kubern,"Practical Top-down Resource Monitoring of a Kubernetes Cluster With Metrics...",Cloud
+https://dzone.com/articles/how-to-create-a-ubuntu-packer-image-and-deploy-on,"How to Create a Ubuntu Packer Image and Deploy on a Bare Metal Server",Cloud
+https://dzone.com/articles/guide-to-aws-penetration-testing,"Guide to AWS Penetration Testing",Cloud
+https://dzone.com/articles/top-practices-for-containers-kubernetes,"Top Practices for Containers, Kubernetes",Cloud
+https://dzone.com/articles/net-promoter-scores-for-saas,"Net Promoter Scores for SaaS",Cloud
+https://dzone.com/articles/customized-artemis-broker-configuration-with-init,"Customized Artemis Broker Configuration With Init Containers on Kubernetes...",Cloud
+https://dzone.com/articles/iac-methodologies-approach-best-practices,"Infrastructure-as-Code (IaC): Methodologies, Approach, and Best Practices",Cloud
+https://dzone.com/articles/container-images-for-aws-lambda-with-python,"Container Images for AWS Lambda With Python",Cloud
+https://dzone.com/articles/deploy-elasticsearch-on-kubernetes-using-openebs-l,"Deploy Elasticsearch on Kubernetes Using OpenEBS LocalPV",Cloud
+https://dzone.com/articles/6-lambda-optimization-strategies-that-work,"6 Lambda Optimization Strategies that Work",Cloud
+https://dzone.com/articles/docker-image-tutorial,"Docker Image Tutorial",Cloud
+https://dzone.com/articles/the-dark-side-of-docker-avoid-the-latest-tag,"The Dark Side of Docker: Avoid the “Latest” Tag",Cloud
+https://dzone.com/articles/appops-with-kubernetes-and-devtron-the-perfect-fit,"AppOps with Kubernetes and Devtron - The Perfect Fit",Cloud
+https://dzone.com/articles/aws-eks-vs-ecs-vs-fargate-where-to-manage-your-kub,"Managing Kubernetes: AWS EKS vs. ECS vs. Fargate",Cloud
+https://dzone.com/articles/aws-s3-client-side-encryption-in-aws-sdk-net-core,"AWS S3 Client-side Encryption in AWS SDK .NET Core",Cloud
+https://dzone.com/articles/energy-monitoring-with-aws-services-and-go-part-2,"Energy Monitoring With AWS Services and Go: Part 2",Cloud
+https://dzone.com/articles/home-electricity-usage-monitoring-with-aws-service,"Home Electricity Usage Monitoring With AWS Services and Go: Part 1",Cloud
+https://dzone.com/articles/make-pdfs-searchable-ocr-after-importing-into-shar,"Make PDFs Searchable (OCR) After Importing Into SharePoint",Cloud
+https://dzone.com/articles/google-cloud-compliance-a-complete-guide,"Google Cloud Compliance: A Complete Guide",Cloud
+https://dzone.com/articles/migrating-to-serverless-and-making-it-work-post-tr,"Migrating to Serverless and Making It Work Post-Transition",Cloud
+https://dzone.com/articles/application-modernization-and-rabbits-webinar,"Application Modernization and Rabbits [Webinar]",Cloud
+https://dzone.com/articles/multizone-kubernetes-and-vpc-load-balancer-setup,"Multizone Kubernetes and VPC Load Balancer Setup",Cloud
+https://dzone.com/articles/what-is-multi-cloud-strategy-amp-why-you-should-ad,"Adopting a Multi-Cloud Strategy",Cloud
+https://dzone.com/articles/we-explore-the-risks-and-rewards-of-going-cloud-na,"Exploring the Risks and Rewards of Going Cloud-Native",Cloud
+https://dzone.com/articles/tips-and-tricks-for-creating-a-saas-application,"Tips And Tricks For Creating A SaaS Application",Cloud
+https://dzone.com/articles/oracle-plm-cloud-vs-arena-plm,"Oracle PLM Cloud vs Arena PLM",Cloud
+https://dzone.com/articles/how-to-prepare-for-an-aix-migration-to-the-cloud,"How to Prepare for an AIX Migration to the Cloud",Cloud
+https://dzone.com/articles/what-is-multus-cni,"What Is Multus CNI?",Cloud
+https://dzone.com/articles/how-to-architect-your-applications-to-scale-with-l,"How to Architect Your Applications To Scale With Lee Atchison [Podcast]",Cloud
+https://dzone.com/articles/8-reasons-your-qa-team-would-use-a-virtual-machine,"8 Reasons Your QA Team Would Use a Virtual Machine for Automated Testing",Cloud
+https://dzone.com/articles/migrate-hdfs-data-to-azure-1,"Migrate HDFS Data to Azure",Cloud
+https://dzone.com/articles/making-sense-out-of-serverless,"Making Sense Out of Serverless",Cloud
+https://dzone.com/articles/migration-of-hive-metastore-to-azure,"Migration of Hive Metastore To Azure",Cloud
+https://dzone.com/articles/building-a-hybrid-multi-cloud-event-mesh-demo-with,"Hybrid Multi-Cloud Event Mesh Architectural Design",Cloud
+https://dzone.com/articles/utilize-openshift-to-manage-external-services-metr,"Utilize OpenShift to Manage External Services Metrics",Cloud
+https://dzone.com/articles/oxidizing-the-kubernetes-operator,"Oxidizing the Kubernetes Operator",Cloud
+https://dzone.com/articles/why-we-moved-from-lambda-to-ecs,"Why We Moved From Lambda to ECS",Cloud
+https://dzone.com/articles/how-to-provision-direct-attached-storage-das-for-a,"How To Provision Direct Attached Storage (DAS) For A Kubernetes Cluster...",Cloud
+https://dzone.com/articles/the-kubernetes-native-gateway-series-part-1-envoy,"The Kubernetes Native Gateway Series (Part 1): Envoy at Scale",Cloud
+https://dzone.com/articles/cloud-storage-security-and-data-encryption,"Cloud Storage Security and Data Encryption",Cloud
+https://dzone.com/articles/what-does-serverless-architecture-hold,"What Does Serverless Architecture Hold?",Cloud
+https://dzone.com/articles/cloud-is-a-big-mindset-change-heres-how-you-can-pr,"Cloud Is a Big Mindset Change: Here’s How You Can Prepare for It",Cloud
+https://dzone.com/articles/cloud-governance-a-holistic-view,"Cloud Governance: A Holistic View",Cloud
+https://dzone.com/articles/containerized-5g-infrastructure-visibility,"Containerized 5G Infrastructure Visibility",Cloud
+https://dzone.com/articles/app-modernization-hybrid-cloud-architectures-with,"App Modernization + Hybrid Cloud Architectures With Apache Kafka [Video]",Cloud
+https://dzone.com/articles/introduction-to-kubernetes-part-1,"Introduction To Kubernetes",Cloud
+https://dzone.com/articles/three-ways-to-run-kubernetes-in-your-laptop-with-d,"Three Ways to Run Kubernetes in Your Laptop With Docker",Cloud
+https://dzone.com/articles/aws-basics-bastian-hosts-and-nat,"AWS Basics: Bastion Hosts and NAT",Cloud
+https://dzone.com/articles/gcp-cost-management-best-practices,"GCP Cost Management Best Practices",Cloud
+https://dzone.com/articles/securing-kubernetes-secrets-with-conjur,"Securing Kubernetes Secrets With Conjur",Cloud
+https://dzone.com/articles/understanding-aws-costs,"Understanding AWS Costs",Cloud
+https://dzone.com/articles/automating-your-enterprise-infrastructure-part-2-c,"Automating Your Enterprise Infrastructure: Part 2: Cloud Infrastructure as...",Cloud
+https://dzone.com/articles/aws-lambda-performance-main-issues-and-how-to-over,"AWS Lambda Performance: Main Issues and How To Overcome Them",Cloud
+https://dzone.com/articles/magic-cloud-is-now-100-open-source,"Magic Cloud is now 100% Open Source",Cloud
+https://dzone.com/articles/automating-your-enterprise-infrastructure-part-1-i,"Automating Your Enterprise Infrastructure, Part 1: Introduction to Cloud...",Cloud
+https://dzone.com/articles/kubernetes-cluster-federation-with-admiralty,"Kubernetes Cluster Federation With Admiralty",Cloud
+https://dzone.com/articles/how-does-an-aws-cost-optimization-strategy-look-li,"What Does an AWS Cost Optimization Strategy Look Like?",Cloud
+https://dzone.com/articles/aws-elastic-compute-cloud-ec2-basics,"AWS Elastic Compute Cloud (EC2) Basics",Cloud
+https://dzone.com/articles/revealing-the-secrets-of-kubernetes-secrets,"Revealing the Secrets of Kubernetes Secrets",Cloud
+https://dzone.com/articles/10-mistakes-to-avoid-when-sizing-your-cloud-resour,"10 Mistakes to Avoid When Sizing Your Cloud Resources",Cloud
+https://dzone.com/articles/3-reasons-why-you-need-aws-cost-optimization,"3 Ways To Improve AWS Cost Optimization",Cloud
+https://dzone.com/articles/7-challenges-with-aws-costs,"7 Challenges With AWS Costs",Cloud
+https://dzone.com/articles/spring-cloud-stream-binding-kafka-with-embeddedkaf,"Spring Cloud Stream Binding Kafka With EmbeddedKafkaRule Using In Tests",Cloud
+https://dzone.com/articles/application-resiliency-in-a-multi-cloud-world-requ,"Application Resiliency in a Multi-Cloud World Requires a New, Modern...",Cloud
+https://dzone.com/articles/aws-internet-gateway-and-vpc-routing,"AWS Internet Gateway and VPC Routing",Cloud
+https://dzone.com/articles/going-serverless-with-adnan-rahic-1,"Going Serverless With Adnan Rahic",Cloud
+https://dzone.com/articles/should-you-avoid-the-hype-around-cloud-adoption,"Should You Avoid The Hype Around Cloud Adoption? [Podcast]",Cloud
+https://dzone.com/articles/expose-your-app-to-the-internet-using-ingress-cont,"Expose Your App to The Internet Using Ingress Controller",Cloud
+https://dzone.com/articles/silly-kubectl-trick-7-merge-all-the-kubeconfigs,"Silly Kubectl Trick #7: Merge All the Kubeconfigs!",Cloud
+https://dzone.com/articles/on-prem-vs-the-cloud-comparing-the-cost-of-configu,"On-Prem vs the Cloud: Comparing the Cost of Configuring for High...",Cloud
+https://dzone.com/articles/developer-tooling-for-kubernetes-in-2021-helm-kust,"Developer Tooling for Kubernetes in 2021: Helm, Kustomize, and Skaffold",Cloud
+https://dzone.com/articles/how-is-cloud-computing-impacting-healthcare-sector,"How Is Cloud Computing Impacting the Healthcare Sector?",Cloud
+https://dzone.com/articles/amazon-virtual-private-cloud-vpc-basics,"Amazon Virtual Private Cloud (VPC) Basics",Cloud
+https://dzone.com/articles/create-a-kubernetes-cluster-with-centos,"Create a Kubernetes Cluster With Centos",Cloud
+https://dzone.com/articles/lambda-container-images,"Lambda Container Images",Cloud
+https://dzone.com/articles/cloud-service-providers-comparison-both-top-3-and,"Cloud Service Providers Comparison",Cloud
+https://dzone.com/articles/top-trends-in-cloud-computing-2021,"Top Trends in Cloud Computing in 2021",Cloud
+https://dzone.com/articles/silly-kubectl-trick-2-list-running-images,"Silly Kubectl Trick #2: List Running Images",Cloud
+https://dzone.com/articles/how-run-elastic-mapreduce-job,"How to Run an Elastic MapReduce Job Using a Custom Jar on Amazon EMR",Cloud
+https://dzone.com/articles/how-to-setup-the-openshift-container-platform-47-o,"How to setup the OpenShift Container Platform 4.7 on your local machine",Cloud
+https://dzone.com/articles/how-to-achieve-effective-kubernetes-cost-optimizat,"How to Achieve Effective Kubernetes Cost Optimization",Cloud
+https://dzone.com/articles/preparing-for-a-new-norm-technical-considerations,"Preparing for a New Norm: Technical Considerations for a Hybrid Workplace",Cloud
+https://dzone.com/articles/top-10-free-cloud-storage-services,"Top 10 Free Cloud Storage Services",Cloud
+https://dzone.com/articles/introduction-to-google-anthos,"Introduction To Google Anthos",Cloud
+https://dzone.com/articles/qampa-with-noelle-faris-national-womens-month-high,"Q and A With Noelle Faris: National Women's Month Highlights",Cloud
+https://dzone.com/articles/run-and-scale-an-apache-spark-application-on-kuber,"Run and Scale an Apache Spark Application on Kubernetes",Cloud
+https://dzone.com/articles/explore-clouddocs-one-of-the-efficient-azure-docum,"Explore Clouddocs, One of the Efficient Azure Documentation Generator Tool...",Cloud
+https://dzone.com/articles/resubmit-and-delete-dead-letter-messages-of-queues,"Resubmit/Delete Dead-letter Messages of Queues and Topic Subscriptions",Cloud
+https://dzone.com/articles/4-ways-cspm-can-help-improve-and-scale-cloud-secur,"4 Ways CSPM Can Help Improve and Scale Cloud Security",Cloud
+https://dzone.com/articles/the-advantages-of-cloud-computing,"The Advantages of Cloud Computing",Cloud
+https://dzone.com/articles/serverless-where-is-the-industry-going-in-2021,"Serverless: Where Is the Industry Going in 2021?",Cloud
+https://dzone.com/articles/peer-to-peer-content-distribution-and-why-it-matte,"Peer-to-Peer Content Distribution and Why It Matters Today",Cloud
+https://dzone.com/articles/best-ruby-on-rails-add-ons-for-heroku-hosting,"Best Ruby on Rails Add-ons for Heroku Hosting",Cloud
+https://dzone.com/articles/why-moving-your-big-data-project-to-the-cloud-is-a,"Why Moving Your Big Data Project to the Cloud Is Always a Good Idea",Cloud
+https://dzone.com/articles/kpis-to-measure-success-with-aws-saving-efforts,"AWS Saving Efforts Provide Powerful KPIs",Cloud
+https://dzone.com/articles/aws-basics,"AWS Basics",Cloud
+https://dzone.com/articles/a-short-introduction-to-finops,"A Short Introduction to FinOps",Cloud
+https://dzone.com/articles/serverless-architecture-best-practices-with-aws-la,"Serverless Architecture Best Practices With AWS Lambda",Cloud
+https://dzone.com/articles/silly-kubectl-trick-4-getting-at-those-logs,"Silly Kubectl Trick #4: Getting at Those Logs",Cloud
+https://dzone.com/articles/how-to-design-a-scalable-serverless-application-on,"How to Design a Scalable Serverless Application on AWS",Cloud
+https://dzone.com/articles/application-portfolio-rationalization-risk-assessm,"Application Portfolio Rationalization: Risk Assessment for Digital...",Cloud
+https://dzone.com/articles/using-docker-inside-kubernetes,"Using Docker Inside Kubernetes",Cloud
+https://dzone.com/articles/connecting-to-kibana-within-an-aws-vpc-snippets,"Connecting to Kibana Within an AWS VPC [Snippet]",Cloud
+https://dzone.com/articles/how-to-test-applications-after-migrating-to-cloud,"How To Test Applications After Migrating To the Cloud",Cloud
+https://dzone.com/articles/make-the-most-of-your-migration-to-aws-cloud,"Make the Most of Your Migration To AWS Cloud",Cloud
+https://dzone.com/articles/how-to-build-docker-images-for-windows-desktop-app,"How To Build Docker Images for Windows Desktop Applications",Cloud
+https://dzone.com/articles/customizing-oracle-ebs-applications-continued,"Customizing Oracle EBS Applications Continued",Cloud
+https://dzone.com/articles/a-step-by-step-guide-to-the-final-upgrade-from-agi,"A Step by Step Guide to the Final Upgrade From Agile to Cloud PLM",Cloud
+https://dzone.com/articles/9-aws-security-best-practices-securing-your-aws-cl,"9 AWS Security Best Practices: Securing Your AWS Cloud",Cloud
+https://dzone.com/articles/examining-serverless-security-strategies-tools-and,"Examining Serverless Security Strategies, Tools, and (Current) Best...",Cloud
+https://dzone.com/articles/first-go-application-in-kubernetes,"My First GoLang Application in Kubernetes",Cloud
+https://dzone.com/articles/building-a-bot-as-an-alternative-to-classic-user-i,"Building a Bot As an Alternative to Classic User Interface. Why Is It...",Cloud
+https://dzone.com/articles/is-freemium-killing-your-saas-business-1,"Is Freemium Killing Your SaaS Business?",Cloud
+https://dzone.com/articles/working-with-persistent-volumes-in-kubernetes,"Working With Persistent Volumes in Kubernetes",Cloud
+https://dzone.com/articles/messaging-in-aws-using-sns-and-sqs,"Messaging in AWS Using SNS and SQS",Cloud
+https://dzone.com/articles/the-rise-of-cloud-native-engineering-organizations,"The Rise of Cloud-Native Engineering Organizations: SRE, Platform...",Cloud
+https://dzone.com/articles/a-tech-revolution-is-underway-that-will-fundamenta,"Fog Computing is the Future",Cloud
+https://dzone.com/articles/the-theory-and-motive-behind-activeactive-multi-re,"The Theory and Motive Behind Active/Active Multi-Region Architectures",Cloud
+https://dzone.com/articles/image-classification-with-ibm-cloud-code-engine-an,"Image Classification with Code Engine and TensorFlow",Cloud
+https://dzone.com/articles/introducing-grafana-on-aws,"Introducing Grafana on AWS",Cloud
+https://dzone.com/articles/nomadic-cloud-systems,"Nomadic Cloud Systems",Cloud
+https://dzone.com/articles/docker-with-spring-boot-how-to,"How To: Docker With Spring Boot",Cloud
+https://dzone.com/articles/importance-of-measuring-ces,"The Importance of Measuring CES",Cloud
+https://dzone.com/articles/benefits-of-cloud-computing-2,"The Benefits of Cloud Computing",Cloud
+https://dzone.com/articles/silly-kubectl-trick-1-explain-yourself-kubernetes,"Silly Kubectl Trick #1: EXPLAIN YOURSELF, KUBERNETES!",Cloud
+https://dzone.com/articles/the-right-sizing-problem-in-cloud-computing-reason,"The Right-Sizing Problem in Cloud Computing: Reasons and Solution",Cloud
+https://dzone.com/articles/a-hybrid-approach-why-pure-serverless-isnt-always,"A Hybrid Approach: Why Pure Serverless Isn't Always the Answer",Cloud
+https://dzone.com/articles/what-is-amazon-rds-explained-through-comics,"What is Amazon RDS? Explained Through Comics",Cloud
+https://dzone.com/articles/azure-health-monitoring,"Azure Health Monitoring With Serverless360",Cloud
+https://dzone.com/articles/setting-up-kubernetes-master-and-worker-node-on-am,"Setting up Kubernetes Master and Worker Node on Amazon Web Service (AWS)",Cloud
+https://dzone.com/articles/10-mandatory-services-you-should-consider-adopting,"10 Mandatory Services You Should Consider Adopting in AWS and Azure",Cloud
+https://dzone.com/articles/centralized-logging-for-kafka-on-kubernetes-with-g,"Centralized Logging for Kafka on Kubernetes With Grafana, Loki, and...",Cloud
+https://dzone.com/articles/getting-to-the-new-future-of-work,"Getting To the New Future of Work",Cloud
+https://dzone.com/articles/scheduling-jobs-on-heroku-with-azure-logic-apps,"Scheduling Jobs on Heroku with Azure Logic Apps",Cloud
+https://dzone.com/articles/7-reasons-why-serverless-encourages-useful-enginee,"7 Reasons Why Serverless Encourages Useful Engineering Practices",Cloud
+https://dzone.com/articles/tutorial-install-kubesphere-on-digitalocean-kubern,"Tutorial: How to Install KubeSphere on DigitalOcean Kubernetes",Cloud
+https://dzone.com/articles/4-easy-steps-for-migrating-projects-to-openshift-c,"4 Easy Steps for Migrating Projects to OpenShift Container Platform",Cloud
+https://dzone.com/articles/kubernetes-autoscaling-with-custom-metrics-updated,"Kubernetes Autoscaling with Custom Metrics (Updated)",Cloud
+https://dzone.com/articles/on-matters-of-cloud-success-with-ian-moyse,"On Matters of Cloud Success With Ian Moyse [Podcast]",Cloud
+https://dzone.com/articles/spring-cloud-function-in-azure-cicd,"Spring Cloud Functions in Azure: CI/CD",Cloud
+https://dzone.com/articles/building-pipelines-with-terraform-cloud,"Building Pipelines With Terraform Cloud",Cloud
+https://dzone.com/articles/serverless-as-a-competitive-advantage-for-your-bus,"Serverless as a Competitive Advantage for Your Business",Cloud
+https://dzone.com/articles/azure-service-bus-dead-letter-queues-1,"Azure Service Bus Dead-letter Queues",Cloud
+https://dzone.com/articles/guide-to-debugging-serverless-applications,"Guide to Debugging Serverless Applications",Cloud
+https://dzone.com/articles/lift-and-shift-my-experience-on-the-ground,"Cloud Migration(Lift-and-Shift): My Notes From the Ground",Cloud
+https://dzone.com/articles/chaos-engineering-in-the-world-of-saas-amp-cloud-c,"Chaos Engineering in the World of SaaS and Cloud Computing",Cloud
+https://dzone.com/articles/how-to-use-aws-elastic-beanstalk-to-reduce-risk-of,"How to Use AWS Elastic Beanstalk to Reduce Risk of Deployment Downtime",Cloud
+https://dzone.com/articles/tracing-and-profiling-a-net-core-application-on-az,"Tracing and Profiling a .NET Core Application on Azure Kubernetes Service...",Cloud
+https://dzone.com/articles/12-tips-to-optimize-aws-lambda-performance,"12 Tips To Optimize AWS Lambda Performance",Cloud
+https://dzone.com/articles/the-5-azure-platform-tools-you-actually-need,"The 5 Azure Platform Tools You Actually Need",Cloud
+https://dzone.com/articles/alexa-and-kubernetes,"Alexa and Kubernetes",Cloud
+https://dzone.com/articles/oracle-erp-cloud-ess-jobs,"Oracle ERP Cloud ESS Jobs",Cloud
+https://dzone.com/articles/spring-cloud-function-in-azure,"Spring Cloud Function in Azure",Cloud
+https://dzone.com/articles/alexa-and-kubernetes-deploying-the-alexa-skill-on-1,"Alexa and Kubernetes. Deploying the Alexa Skill on Azure Kubernetes...",Cloud
+https://dzone.com/articles/caas-services-through-aws-azure-and-google-cloud,"CaaS Services Through AWS, Azure, and Google Cloud",Cloud
+https://dzone.com/articles/how-can-i-quickly-integrate-cloud-storage-of-appga-1,"How Can I Quickly Integrate Cloud Storage of AppGallery Connect Into My...",Cloud
+https://dzone.com/articles/ebs-vs-efs-vs-s3-when-to-use-aws-three-storage-sol,"EBS vs. EFS vs. S3: When to Use AWS's Three Storage Solutions",Cloud
+https://dzone.com/articles/automate-docker-container-deployment-to-aws-ecs-us,"Automate Docker Container Deployment to AWS ECS Using CloudFormation",Cloud
+https://dzone.com/articles/alexa-and-kubernetes-deploying-the-alexa-skill-on-2,"Alexa and Kubernetes: Deploying the Alexa Skill on Google Kubernetes Engine...",Cloud
+https://dzone.com/articles/alexa-and-kubernetes-deploying-the-alexa-skill-on,"Alexa and Kubernetes: Deploying the Alexa Skill on AWS Elastic Kubernetes...",Cloud
+https://dzone.com/articles/alexa-and-kubernetes-local-development-and-deploym,"Alexa and Kubernetes: Local Development and Deployment With DevSpace (VI)",Cloud
+https://dzone.com/articles/alexa-and-kubernetes-helm-chart-of-the-alexa-skill,"Alexa and Kubernetes: Helm Chart of the Alexa Skill (V)",Cloud
+https://dzone.com/articles/alexa-and-kubernetes-alexa-skill-as-a-web-i,"Alexa and Kubernetes: Alexa Skill as a Web Server (I)",Cloud
+https://dzone.com/articles/deploying-aws-lambdas-across-environments,"Deploying AWS Lambdas Across Environments",Cloud
+https://dzone.com/articles/spring-cloud-functions-azure-serverless-deployment,"Java Function: Azure Serverless Deployment",Cloud
+https://dzone.com/articles/7-reasons-to-choose-aws-as-your-cloud-platform,"7 Reasons to Choose AWS as Your Cloud Platform",Cloud
+https://dzone.com/articles/avengers-of-container-world-episode-1-podman-hands,"Avengers of the Container World, Episode 1: Podman Hands-On",Cloud
+https://dzone.com/articles/alexa-and-kubernetes-kubernetes-objects-of-the-ale,"Alexa and Kubernetes: Kubernetes Objects of the Alexa Skill (IV)",Cloud
+https://dzone.com/articles/alexa-and-kubernetes-dockerizing-the-alexa-skill-i,"Alexa and Kubernetes: Dockerizing the Alexa Skill (III)",Cloud
+https://dzone.com/articles/alexa-and-kubernetes-mongodb-persistence-adapter-i,"Alexa and Kubernetes: MongoDB Persistence Adapter (II)",Cloud
+https://dzone.com/articles/useful-tools-for-local-development-with-aws-servic,"Useful Tools for Local Development With AWS Services",Cloud
+https://dzone.com/articles/deploy-wordpress-on-kubernetes-in-15-minutes-using,"Deploy WordPress on Kubernetes in 15 Minutes Using Helm",Cloud
+https://dzone.com/articles/avengers-of-container-world-episode-2-buildah-amp,"Avengers of Container World, Episode 2: Buildah and Skopeo Hands-On",Cloud
+https://dzone.com/articles/a-storage-hack-for-bringing-stateful-apps-to-kuber,"A Storage Hack for Bringing Stateful Apps to Kubernetes: Data That Follows...",Cloud
+https://dzone.com/articles/2021-autonomous-cloud-operations-agile-app-securit,"2021: Autonomous Cloud Operations, Agile App Security, Customer-First...",Cloud
+https://dzone.com/articles/home-lab-deployment-openshiftokd-44x-on-rhvmovirt,"Home Lab Deployment: OpenShift/OKD 4.4.x on RHVM/Ovirt 4.3",Cloud
+https://dzone.com/articles/top-5-evolving-cybersecurity-threats-to-cloud-comp,"Top 5 Evolving Cybersecurity Threats to Cloud Computing in 2021",Cloud
+https://dzone.com/articles/how-to-optimize-aws-observability-tools,"How to Optimize AWS Observability Tools",Cloud
+https://dzone.com/articles/here-are-the-top-browsers-for-cross-browser-testin,"Top Browsers for Cross-Browser Testing in 2020",Cloud
+https://dzone.com/articles/have-a-cloud-transition-you-can-be-proud-of,"How to Have a Cloud Transition You Can Be Proud Of",Cloud
+https://dzone.com/articles/going-cloud-native-with-david-linthicum,"Going Cloud-Native with David Linthicum",Cloud
+https://dzone.com/articles/developing-a-cloud-adoption-strategy,"Developing a Cloud Adoption Strategy",Cloud
+https://dzone.com/articles/aws-hipaa-compliance-best-practices-checklist,"AWS HIPAA Compliance Best Practices Checklist",Cloud
+https://dzone.com/articles/tutorial-kubernetes-native-backup-and-recovery-wit,"Tutorial: Kubernetes-Native Backup and Recovery With Stash",Cloud
+https://dzone.com/articles/aws-lambda-errors-with-java-lambdas-and-serverless,"AWS Lambda Errors With Java Lambdas and Serverless Framework",Cloud
+https://dzone.com/articles/analyze-your-peloton-workout-stats-with-real-time-4,"Analyze Your Peloton Workout Stats with Real-time Updates (Template and...",Cloud
+https://dzone.com/articles/easy-and-fast-adjustment-of-kubernetes-cpu-and-mem,"Easy and Fast Adjustment of Kubernetes CPU and Memory",Cloud
+https://dzone.com/articles/an-approach-to-cloud-transformation-and-cloud-migr,"An Approach to Cloud Transformation and Cloud Migration",Cloud
+https://dzone.com/articles/know-why-cloud-service-providers-are-important-for,"Why Cloud Service Providers Are Important for Small Businesses",Cloud
+https://dzone.com/articles/getting-started-with-aws-monitoring,"Getting Started With AWS Monitoring",Cloud
+https://dzone.com/articles/autoscaling-an-amazon-elastic-kubernetes-service-c,"Autoscaling an Amazon Elastic Kubernetes Service cluster",Cloud
+https://dzone.com/articles/kubernetes-autoscaling-explained,"Kubernetes Autoscaling Explained",Cloud
+https://dzone.com/articles/setting-up-kubernetes-with-tectonic,"Setting up Kubernetes With Tectonic [Slides]",Cloud
+https://dzone.com/articles/aws-vs-azure-vs-google-which-is-the-best-for-cloud,"AWS vs. Azure vs. Google: Which Is the Best for Cloud Computing?",Cloud
+https://dzone.com/articles/background-jobs-in-heroku-with-azure-service-bus,"Background Jobs in Heroku with Azure Service Bus",Cloud
+https://dzone.com/articles/demystifying-the-top-10-myths-surrounding-cloud-co,"Demystifying the Top 10 Myths Surrounding Cloud Computing in 2021",Cloud
+https://dzone.com/articles/blue-green-deployments-in-openshift-with-eclipse-j,"Blue/Green Deployments in OpenShift With Eclipse JKube",Cloud
+https://dzone.com/articles/how-to-setup-the-openshift-container-platform-46-o,"How to setup the OpenShift Container Platform 4.6 on your local machine",Cloud
+https://dzone.com/articles/why-is-a-hybrid-cloud-approach-the-best-approach-t-9,"Why Is a Hybrid Cloud Approach the Best for Cloud?",Cloud
+https://dzone.com/articles/private-vs-public-vs-hybrid-cloud-which-one-to-cho,"Private vs. Public vs. Hybrid Cloud: Which One to Choose?",Cloud
+https://dzone.com/articles/aws-lambda-error-handling,"AWS Lambda Error Handling",Cloud
+https://dzone.com/articles/injecting-sql-queries-with-oracle-erp-cloud,"Dynamic SQL Injection With Oracle ERP Cloud",Cloud
+https://dzone.com/articles/utilizing-the-cloud-effectively-for-optimal-erp-pe,"Utilizing the Cloud Effectively for Optimal ERP Performance",Cloud
+https://dzone.com/articles/cloud-applications-require-a-distributed-database-1,"Cloud Applications Require a Distributed Database",Cloud
+https://dzone.com/articles/cost-optimization-on-aws-eks-clusters,"Cost Optimization on AWS EKS Clusters",Cloud
+https://dzone.com/articles/consul-deployment-patterns-a-brief-overview,"Consul Deployment Patterns: A Brief Overview",Cloud
+https://dzone.com/articles/prometheus-vs-cloudwatch-for-cloud-native-applicat,"Prometheus vs. CloudWatch for Cloud Native Applications",Cloud
+https://dzone.com/articles/what-is-vpc-peering-and-why-should-i-use-it,"What Is VPC Peering and Why Should I Use It?",Cloud
+https://dzone.com/articles/codeready-containers-installing-business-automatio-3,"CodeReady Containers - Installing business automation operator (Part 4)",Cloud
+https://dzone.com/articles/codeready-containers-building-a-human-resources-pr,"CodeReady Containers - Building a Human Resources Process with an OpenShift...",Cloud
+https://dzone.com/articles/top-ten-technology-trends-for-2021,"Top Ten Technology Trends For 2021",Cloud
+https://dzone.com/articles/smart-stocks-with-nifi-kafka-flink-sql,"Smart Stocks With NiFi, Kafka, and Flink SQL",Cloud
+https://dzone.com/articles/codeready-containers-installing-business-automatio-2,"CodeReady Containers - Installing business automation operator (Part 3)",Cloud
+https://dzone.com/articles/oracle-cloud-bi-reports,"Oracle Cloud BI Reports",Cloud
+https://dzone.com/articles/azure-monitor-and-serverless360-comparison,"Azure Monitor and Serverless360 Comparison",Cloud
+https://dzone.com/articles/codeready-containers-exploring-a-home-loan-mortgag,"CodeReady Containers - Exploring a home loan mortgage process",Cloud
+https://dzone.com/articles/implementing-multi-session-sequential-convoy-patte,"Implementing Multi-Session Sequential Convoy Pattern with Azure Service Bus...",Cloud
+https://dzone.com/articles/hybrid-cloud-implementation-for-enterprises,"Hybrid Cloud Implementation for Enterprises",Cloud
+https://dzone.com/articles/which-aws-storage-solution-is-right-for-your-elast,"Which AWS Storage Solution Is Right for Your Elasticsearch Cluster?",Cloud
+https://dzone.com/articles/how-to-make-docker-build-run-faster,"How to Make Docker Build Run Faster",Cloud
+https://dzone.com/articles/how-to-test-saas-platforms,"How to Test SaaS Platforms",Cloud
+https://dzone.com/articles/affordable-kubernetes-for-personal-projects,"Affordable Kubernetes for Personal Projects",Cloud
+https://dzone.com/articles/dynamic-nfs-provisioning-in-red-hat-openshift,"Dynamic NFS Provisioning in Red Hat OpenShift",Cloud
+https://dzone.com/articles/capacity-management-in-a-cloud-environment,"Capacity Management in a Cloud Environment",Cloud
+https://dzone.com/articles/why-migrate-to-kubernetes-in-2021-key-devops-and-d,"Why Migrate to Kubernetes in 2021: Key DevOps and DataOps Benefits",Cloud
+https://dzone.com/articles/lessons-learned-from-aws-services-outage-nov-2020,"Lessons Learned from the November AWS Outage",Cloud
+https://dzone.com/articles/understanding-kubernetes-operators,"Understanding Kubernetes Operators",Cloud
+https://dzone.com/articles/using-shipa-to-automate-kubernetes-object-creation,"Using Shipa to Automate Kubernetes Object Creation",Cloud
+https://dzone.com/articles/exploring-kubernetes-with-gigi-sayfan,"Exploring Kubernetes With Gigi Sayfan",Cloud
+https://dzone.com/articles/migrating-to-the-cloud-6-strategies-for-future-suc,"Migrating to the Cloud: 6 Strategies for Future Success",Cloud
+https://dzone.com/articles/new-cloud-services-are-foundational-to-gaining-con,"New Cloud Services Are Foundational to Gaining Control Over Content",Cloud
+https://dzone.com/articles/webinar-hybrid-cloud-for-financial-services-series-1,"Webinar - Hybrid cloud for financial services series features payments...",Cloud
+https://dzone.com/articles/twilio-vs-mirrorfly-who-is-the-future-of-real-time,"Twilio Vs. MirrorFly: Who Is the Future of Real-Time Communication?",Cloud
+https://dzone.com/articles/aws-cloud-migration-your-checklist-to-success,"AWS Cloud Migration: Your Checklist to Success",Cloud
+https://dzone.com/articles/cloud-myth-ahead-of-time-compilation-will-save-you,"Cloud Myth: Ahead of Time Compilation Will Save You Money",Cloud
+https://dzone.com/articles/gridgains-apache-ignite-operator-for-kubernetes-an,"GridGain's Apache Ignite Operator for Kubernetes and Other Cloud Updates",Cloud
+https://dzone.com/articles/reducing-cloud-waste-with-automatically-scheduled,"Reducing Cloud Waste With Automatically Scheduled Hibernation",Cloud
+https://dzone.com/articles/kubernetes-is-deprecating-docker-support-and-why-w,"Kubernetes Is Deprecating Docker Support and Why We Shouldn't Worry That...",Cloud
+https://dzone.com/articles/cloud-governance-why-it-is-critical-for-the-succes,"Why Is Cloud Governance Critical for the Success of Cloud Adoption?",Cloud
+https://dzone.com/articles/monitor-applications-via-application-insights-usin,"Monitor Applications Via Application Insights Using Log Alerts",Cloud
+https://dzone.com/articles/openshift-pull-image-from-one-project-to-another,"OpenShift Pull Image From One Project to Another",Cloud
+https://dzone.com/articles/virtualization-vs-cloud-computing-how-to-easily-di,"Virtualization vs. Cloud Computing: How to Easily Differentiate",Cloud
+https://dzone.com/articles/7-step-data-migration-plan,"7-Step Data Migration Plan",Cloud
+https://dzone.com/articles/ensuring-a-smooth-kubernetes-dockershim-deprecatio,"Ensuring a Smooth Kubernetes Dockershim Deprecation With Chaos Engineering",Cloud
+https://dzone.com/articles/benefits-of-serverless-for-startups,"Benefits of Serverless For Startups",Cloud
+https://dzone.com/articles/serverless-visitor-counter-badge-with-azure-functi,"Serverless Visitor Counter Badge with Azure Functions",Cloud
+https://dzone.com/articles/how-do-serverless-functions-actually-work-exam,"How Do Serverless Functions Actually Work? Examining AWS Lambda to...",Cloud
+https://dzone.com/articles/user-authentication-with-aws-cognito,"User Authentication With Amazon Cognito",Cloud
+https://dzone.com/articles/apache-kafka-fundamentals,"Apache Kafka Fundamentals",Cloud
+https://dzone.com/articles/lets-run-cloud-native-computing-through-the-wash,"Let’s Run Cloud-Native Computing Through the Wash",Cloud
+https://dzone.com/articles/how-to-setup-refinitivs-amazon-ec2-machine-image-f-1,"Using Refinitiv's Amazon EC2 Machine Image For a Real-Time Application",Cloud
+https://dzone.com/articles/codeready-containers-installing-business-automatio-1,"CodeReady Containers - Installing Business Automation Operator (Part 2)",Cloud
+https://dzone.com/articles/adjust-speaking-ratessml-via-curl-post,"Adjust speaking rate(SSML) via cURL POST",Cloud
+https://dzone.com/articles/dzone-trend-report-leaders-in-tech,"DZone Trend Report: Leaders in Tech",Cloud
+https://dzone.com/articles/an-introduction-to-cloud-native-devops,"An Introduction to Cloud-Native DevOps",Cloud
+https://dzone.com/articles/tutorial-how-to-simulate-a-multi-region-cockroachd,"How to Simulate a Multi-Region CockroachDB Cluster on localhost With Docker",Cloud
+https://dzone.com/articles/how-to-create-e-learning-cloud-software-users-will,"How to Create E-Learning Cloud Software Users Will Love",Cloud
+https://dzone.com/articles/all-you-need-to-know-for-selenium-testing-on-the-c,"All You Need to Know for Selenium Testing on the Cloud",Cloud
+https://dzone.com/articles/how-to-create-an-aws-continuous-deployment-pipelin-1,"How to Create an AWS Continuous Deployment Pipeline Cont’d",Cloud
+https://dzone.com/articles/answers-to-5-kubernetes-ckad-practice-questions,"Answers to 5 Kubernetes CKAD Practice Questions",Cloud
+https://dzone.com/articles/complete-guide-to-develop-cloud-based-application,"A Complete Guide To Develop A Cloud-Based Application",Cloud
+https://dzone.com/articles/serverless-in-financial-services-1,"Serverless in Financial Services",Cloud
+https://dzone.com/articles/using-docker-swarm-secrets-to-store-rotate-ssl-certificates-nginx,"Using Docker Swarm Secrets to Store and Rotate your SSL Certificates with...",Cloud
+https://dzone.com/articles/5-best-practices-for-cloud-cost-optimization,"5 Best Practices for Cloud Cost Optimization",Cloud
+https://dzone.com/articles/8-configuration-management-tools-for-creating-serv,"8 Configuration Management Tools for Creating Serverless Apps in AWS",Cloud
+https://dzone.com/articles/aws-cloud-monitoring-best-practices-and-top-notch,"AWS Cloud Monitoring: Best Practices and Top-Notch Tools",Cloud
+https://dzone.com/articles/codeready-containers-installing-business-automatio,"CodeReady Containers - Installing business automation operator (Part 1)",Cloud
+https://dzone.com/articles/how-to-create-an-aws-continuous-deployment-pipelin,"How to Create an AWS Continuous Deployment Pipeline",Cloud
+https://dzone.com/articles/using-cloud-computing-to-build-a-remote-organizati,"Using Cloud Computing To Build a Remote Organization",Cloud
+https://dzone.com/articles/how-to-deploy-azure-function-apps-with-powershell,"How to Deploy Azure Function Apps With Powershell",Cloud
+https://dzone.com/articles/aws-well-architected-framework-in-serverless-part,"AWS Well-Architected Framework in Serverless Part I: Security",Cloud
+https://dzone.com/articles/deploy-friday-e32,"Deploy Friday: E32 Elasticsearch Lightning-fast Search at Scale With Ease",Cloud
+https://dzone.com/articles/delete-a-non-empty-cos-bucket-using-terraform,"Delete a Non-Empty COS Bucket Using Terraform",Cloud
+https://dzone.com/articles/influencing-factors-in-choosing-the-right-cloud-se,"Influencing Factors in Choosing the Right Cloud Service Provider for...",Cloud
+https://dzone.com/articles/gain-better-visibility-into-kubernetes-cost-alloca,"Gain Better Visibility Into Kubernetes Cost Allocation",Cloud
+https://dzone.com/articles/load-balancer-explained-simplified-through-comics,"Load Balancer Explained – Simplified Through Comics",Cloud
+https://dzone.com/articles/aws-step-functions-use-cases,"AWS Step Functions Use Cases",Cloud
+https://dzone.com/articles/kubernetes-operators-in-go,"Kubernetes Operators in Go",Cloud
+https://dzone.com/articles/when-is-it-time-to-retire-your-legacy-system-and-g,"When Is It Time to Retire Your Legacy System and Go Cloud?",Cloud
+https://dzone.com/articles/serverless-eventing-architecture,"Serverless Eventing Architecture",Cloud
+https://dzone.com/articles/how-to-deploy-a-spring-cloud-function-on-aws-lambd,"How to Deploy a Spring Cloud Function on AWS Lambda",Cloud
+https://dzone.com/articles/large-scale-cloud-migrations-challenges-and-recomm,"Large Scale Cloud Migrations: Challenges and Recommendations",Cloud
+https://dzone.com/articles/getting-to-the-bottom-of-the-multi-cloud-managemen,"Getting to the Bottom of the Multi-Cloud Management Hype",Cloud
+https://dzone.com/articles/tips-for-optimizing-docker-builds,"Tips for Optimizing Docker Builds",Cloud
+https://dzone.com/articles/pros-and-cons-of-cloudwatch-for-error-monitoring,"Pros and Cons of CloudWatch for Error Monitoring",Cloud
+https://dzone.com/articles/monitoring-yugabytedb-in-kubernetes-with-the-prome,"Monitoring YugabyteDB in Kubernetes",Cloud
+https://dzone.com/articles/diy-cloud-systems,"DIY Cloud Systems",Cloud
+https://dzone.com/articles/simplifying-terraform-deployments-with-ansible-par-1,"Simplifying Terraform Deployments With Ansible - Part 2",Cloud
+https://dzone.com/articles/monitoring-your-kubernetes-cluster-the-right-way,"Monitoring Your Kubernetes Cluster the Right Way",Cloud
+https://dzone.com/articles/elastic-computing-meets-low-code-1,"Elastic Computing Meets Low Code",Cloud
+https://dzone.com/articles/webinar-hybrid-cloud-for-financial-services-series,"Webinar - Hybrid cloud for financial services series features payments...",Cloud
+https://dzone.com/articles/how-to-become-a-cloud-native-company-and-13-tools,"How to Become a Cloud-Native Company and 13 Tools to Get You There",Cloud
+https://dzone.com/articles/navigating-the-perplexities-of-cloud-centric-pytho,"Navigating the Perplexities of Cloud-Centric Python Development",Cloud
+https://dzone.com/articles/how-kubernetes-can-help-to-operationalize-your-con,"How Kubernetes Can Help to Operationalize Your Container Security",Cloud
+https://dzone.com/articles/an-introduction-to-red-hat-openshift-codeready-con,"An Introduction to Red Hat OpenShift CodeReady Containers",Cloud
+https://dzone.com/articles/everything-you-need-to-know-about-cloud-testing,"Everything You Need To Know About Cloud Testing",Cloud
+https://dzone.com/articles/aws-scheduled-lambda-function-possible-options-and,"AWS Scheduled Lambda Function: Possible Options and Ultimate Solution",Cloud
+https://dzone.com/articles/building-a-simple-kafka-client-for-the-web-and-des,"Building a Simple Kafka Client for the Web and Desktop",Cloud
+https://dzone.com/articles/benefits-of-hybrid-cloud-for-data-warehouse,"Benefits of Hybrid Cloud for Data Warehouse",Cloud
+https://dzone.com/articles/simplifying-terraform-deployments-with-ansible-par,"Simplifying Terraform Deployments with Ansible - Part 1",Cloud
+https://dzone.com/articles/setting-the-reliability-standard,"Setting the Reliability Standard",Cloud
+https://dzone.com/articles/on-premise-to-cloud-migration-4-key-challenges-in-becoming-cloud-native,"On-Premise to Cloud Migration: 4 Key Challenges in Becoming Cloud-Native",Cloud
+https://dzone.com/articles/reduce-the-cloud-bill-of-your-java-applications,"Reduce the Cloud Bill of Your Java Applications",Cloud
+https://dzone.com/articles/multi-user-applications-with-pouchdb-and-ibm-cloud,"Multi-User Applications With PouchDB and IBM Cloudant",Cloud
+https://dzone.com/articles/codeready-containers-exploring-a-nodejs-front-end,"CodeReady Containers - Exploring a Node.js Front End with Decision...",Cloud
+https://dzone.com/articles/what-is-scriptless-testing-and-how-can-it-help-you,"What Is Scriptless Testing? How Can It Help You?",Cloud
+https://dzone.com/articles/solving-the-challenges-of-serverless-at-scale,"Solving the Challenges of Serverless at Scale",Cloud
+https://dzone.com/articles/how-to-reduce-docker-image-size,"How to Reduce Docker Image Size",Cloud
+https://dzone.com/articles/7-best-log-management-tools-for-kubernetes-2020,"7 Best Log Management Tools for Kubernetes [2020]",Cloud
+https://dzone.com/articles/how-to-deploy-a-spring-boot-app-to-aws-elastic-bea,"How to Deploy a Spring Boot App to AWS Elastic Beanstalk",Cloud
+https://dzone.com/articles/deploy-and-auto-scale-isolated-workloads-across-mu,"Deploy and Auto Scale Isolated Workloads Across Multiple Zones",Cloud
+https://dzone.com/articles/a-day-in-the-life-of-a-software-engineer-a-develop-1,"A Day in the Life of a Software Engineer: A Developer’s Perspective on...",Cloud
+https://dzone.com/articles/the-cloud-is-booming-so-is-the-cloud-spend,"The Cloud Is Booming, so Is the Cloud Spending",Cloud
+https://dzone.com/articles/how-to-create-ec2-instance-in-aws-tutorial-for-beg,"How to Create EC2 Instance in AWS — Tutorial for Beginners",Cloud
+https://dzone.com/articles/aws-serverless-platform-2,"AWS Serverless Platform",Cloud
+https://dzone.com/articles/understanding-amazon-elastic-container-service-for,"Understanding Amazon Elastic Container Service for Kubernetes (EKS)",Cloud
+https://dzone.com/articles/running-presto-kubernetes-ahana-aws,"Running Presto on Kubernetes With Ahana Cloud and AWS EKS",Cloud
+https://dzone.com/articles/monitoring-health-of-aspnet-core-background-servic,"Monitoring Health of ASP.NET Core Background Services With TCP Probes on...",Cloud
+https://dzone.com/articles/configure-cross-account-access-and-codepipeline-fo,"Configure Cross-Account Access for CodeCommit Repositories",Cloud
+https://dzone.com/articles/how-to-build-real-time-notification-service-using,"How to Build Real-Time Notification Service Using Server-Sent Events (SSE)",Cloud
+https://dzone.com/articles/do-we-really-need-a-5g-enabled-cloud-native-edge,"Do We Really Need a 5G-Enabled Cloud-Native Edge?",Cloud
+https://dzone.com/articles/locking-for-multiple-nodes-the-easy-way-gcs,"Locking for Multiple Nodes the Easy Way: GCS",Cloud
+https://dzone.com/articles/how-to-reduce-amazon-s3-costs,"How to Reduce Amazon S3 Costs",Cloud
+https://dzone.com/articles/the-ultimate-guide-to-aws-step-functions,"The Ultimate Guide to AWS Step Functions",Cloud
+https://dzone.com/articles/how-to-protect-yourself-from-unexpectedly-high-aws,"How To Protect Yourself From Unexpectedly High AWS Bills",Cloud
+https://dzone.com/articles/minions-in-minikube-a-kubernetes-intro-for-java-de,"Minions in Minikube - A Kubernetes Intro for Java Developers",Cloud
+https://dzone.com/articles/sending-files-between-computers-in-21st-century,"Sending Files Between Computers in the 21st Century",Cloud
+https://dzone.com/articles/kubernetes-1,"Kubernetes — Replication, and Self-Healing",Cloud
+https://dzone.com/articles/how-to-run-selenium-bdd-tests-in-parallel-with-aws-1,"How to Run Selenium BDD Tests in Parallel With AWS Lambda",Cloud
+https://dzone.com/articles/the-mic-drop-on-fast-file-migration-speed,"The “Mic Drop” On Fast File Migration Speed",Cloud
+https://dzone.com/articles/best-practices-for-executing-successful-cloud-migr,"Best Practices for Executing Successful Cloud Migration Strategy",Cloud
+https://dzone.com/articles/free-kubernetes-resources,"Free Resources: Kubernetes &amp; Containers",Cloud
+https://dzone.com/articles/kubernetes-dashboard-webui,"Kubernetes Dashboard WebUI",Cloud
+https://dzone.com/articles/6-incredible-ides-that-can-be-managed-seamlessly-o,"6 Incredible IDEs that Can Be Managed Seamlessly Over the Cloud",Cloud
+https://dzone.com/articles/top-gui-for-docker,"Top GUI for Docker",Cloud
+https://dzone.com/articles/10-minute-builds-serverless-docker-with-a-simple-c,"10-Minute Builds: Serverless Docker With a Simple CI/CD Pipeline",Cloud
+https://dzone.com/articles/document-versioning-with-azure-blob-storage,"Document Versioning With Azure Blob Storage",Cloud
+https://dzone.com/articles/codeready-containers-getting-started-with-openshif-1,"CodeReady Containers - Getting Started with OpenShift 4.5 and Process...",Cloud
+https://dzone.com/articles/untangling-sap-for-serverless-deployment,"Untangling SAP for Serverless Deployment",Cloud
+https://dzone.com/articles/going-serverless-with-oracle-stored-procedures,"Going Serverless With Oracle Stored Procedures",Cloud
+https://dzone.com/articles/azure-spring-cloud-a-comprehensive-overview,"Azure Spring Cloud: A Comprehensive Overview",Cloud
+https://dzone.com/articles/creating-test-kubernetes-clusters-with-kind,"Creating Test Kubernetes Clusters With Kind",Cloud
+https://dzone.com/articles/generating-dynamic-open-graph-images-with-azure-fu,"Generating Dynamic Open Graph Images With Azure Functions",Cloud
+https://dzone.com/articles/configuring-bare-metal-vultr-servers-with-cloud-in,"Configuring Bare Metal Vultr Servers With Cloud-init",Cloud
+https://dzone.com/articles/5-common-myths-debunked-hybrid-vs-native,"5 Common Myths Debunked: Hybrid Vs Native",Cloud
+https://dzone.com/articles/maximize-your-google-cloud-investment-with-redis-e-1,"Maximize Your Google Cloud Investment With Redis Enterprise",Cloud
+https://dzone.com/articles/introduction-to-kubernetes-security-container-secu,"Introduction to Kubernetes Security: Container Security",Cloud
+https://dzone.com/articles/trusted-repositories-and-container-registries-in-k,"Trusted Repositories and Container Registries in Kubernetes",Cloud
+https://dzone.com/articles/codeready-containers-getting-started-with-openshif,"CodeReady Containers - Getting Started with OpenShift 4.5 and Decision...",Cloud
+https://dzone.com/articles/reasons-why-you-should-get-a-cloud-computing-certi,"Reasons Why You Should Get a Cloud Computing Certification",Cloud
+https://dzone.com/articles/configure-kubernetes-network-with-flannel,"Configure Kubernetes Network With Flannel",Cloud
+https://dzone.com/articles/6-easy-ways-to-manage-and-harden-vm-images-in-azur,"6 Easy Ways to Manage and Harden VM Images in Azure",Cloud
+https://dzone.com/articles/cicd-using-google-cloud-build-and-google-cloud-run-1,"CI/CD Using Google Cloud Build and Google Cloud Run — Part 2",Cloud
+https://dzone.com/articles/terraform-vs-yaml-deployment-for-eks-server,"Terraform vs. YAML Deployment for Kubernetes Objects",Cloud
+https://dzone.com/articles/practical-serverless-long-running-workflows-with-h,"Practical Serverless: Long-Running Workflows With Human Interactions Using...",Cloud
+https://dzone.com/articles/2020-and-the-cloud-top-trends-for-industry-owners-1,"2020 and the Cloud: Top Trends For Industry Owners",Cloud
+https://dzone.com/articles/minimal-dev-environment-vs-code-docker,"Minimal Dev Environment: VS Code + Docker",Cloud
+https://dzone.com/articles/trapping-hackers-with-containerized-deception,"Trapping Hackers With Containerized Deception",Cloud
+https://dzone.com/articles/securing-remote-work-with-the-cloud,"Securing Remote Work With the Cloud",Cloud
+https://dzone.com/articles/exploring-ingress-v1-graduating-to-ga-in-kubernete,"Exploring Ingress V1, Graduating to GA in Kubernetes 1.19",Cloud
+https://dzone.com/articles/write-kubernetes-native-application-using-camel-k,"Write Kubernetes Native Application Using Camel K: Part 1",Cloud
+https://dzone.com/articles/should-you-use-privileged-containers,"Should You Use Privileged Containers?",Cloud
+https://dzone.com/articles/fast-deploy-nebula-graph-cluster-with-docker-swarm,"Fast Deploy Nebula Graph Cluster With Docker Swarm",Cloud
+https://dzone.com/articles/introduction-to-kudo-automate-day-2-operations-ii,"Introduction to KUDO: Automate Day-2 Operations (II)",Cloud
+https://dzone.com/articles/dynamic-admission-control-in-aks-with-azure-functi,"Dynamic Admission Control in AKS with Azure Functions",Cloud
+https://dzone.com/articles/enable-tls-on-http-triggered-function-app-in-kuber,"Enable TLS on HTTP Triggered Function App in Kubernetes With KEDA and NGINX",Cloud
+https://dzone.com/articles/how-to-setup-openshift-container-platform-45-on-yo,"How to setup OpenShift Container Platform 4.5 on your local machine in...",Cloud
+https://dzone.com/articles/getting-started-with-windows-containers,"Getting Started With Windows Containers",Cloud
+https://dzone.com/articles/micronaut-build-for-next-wave-of-microservices-amp,"Microservice and Serverless With Micronaut + GraalVM",Cloud
+https://dzone.com/articles/introduction-to-kudo-automate-day-2-operations-i,"Introduction to KUDO: Automate Day-2 Operations (I)",Cloud
+https://dzone.com/articles/the-complete-aws-lambda-handbook-for-beginners-par-1,"The Complete AWS Lambda Handbook for Beginners (Part 2)",Cloud
+https://dzone.com/articles/the-complete-aws-lambda-handbook-for-beginners-par,"The Complete AWS Lambda Handbook for Beginners (Part 1)",Cloud
+https://dzone.com/articles/top-4-post-cloud-migration-risks-to-look-for,"Top 4 Post Cloud Migration Risks to Look For",Cloud
+https://dzone.com/articles/jakarta-ee-amp-wildfly-running-on-kubernetes,"Jakarta EE &amp; Wildfly Running on Kubernetes",Cloud
+https://dzone.com/articles/cicd-using-google-cloud-build-and-google-cloud-run,"CI/CD Using Google Cloud Build and Google Cloud Run — Part 1",Cloud
+https://dzone.com/articles/kubernetes-docker-secret-deployment-with-terraform,"Kubernetes Docker Secret Deployment With Terraform",Cloud
+https://dzone.com/articles/serverless-asterisk-with-docker-and-aws-fargate,"Serverless Asterisk with Docker and AWS Fargate",Cloud
+https://dzone.com/articles/the-ultimate-guide-to-monitoring-serverless-applic,"The Ultimate Guide to Monitoring Serverless Applications",Cloud
+https://dzone.com/articles/converting-a-kubernetes-fullstack-application-to-h,"Converting a Kubernetes Fullstack Application to Heroku Containers",Cloud
+https://dzone.com/articles/serverless-computing-vs-containers-how-to-choose-1,"Serverless Computing vs Containers: How to Choose",Cloud
+https://dzone.com/articles/cloud-native-standpoint-landscape-and-best-practic,"Cloud-Native Landscape and Best Practices",Cloud
+https://dzone.com/articles/aws-basics-why-do-we-need-regions-and-availability,"Why Do We Need Regions and Availability Zones?",Cloud
+https://dzone.com/articles/running-sonarqube-in-ibm-kubernetes-service-iks-on,"Running SonarQube in IBM Kubernetes Service (IKS) on IBM Cloud",Cloud
+https://dzone.com/articles/event-based-data-warehousing-with-azure-event-hubs,"Event-Based Data Warehousing with Azure Event Hubs and Logic Apps",Cloud
+https://dzone.com/articles/how-to-build-a-superb-go-to-market-strategy-for-sa,"How To Build a Superb Go-To-Market Strategy for SaaS Startups [With Use...",Cloud
+https://dzone.com/articles/aws-cost-allocation-tags-and-cost-reduction,"AWS Cost Allocation Tags and Cost Reduction",Cloud
+https://dzone.com/articles/optimize-aws-landing-zone,"Optimize AWS Landing Zone",Cloud
+https://dzone.com/articles/devconfus-2020-appdev-amp-containerization-and-ask,"DevConf.US 2020 - AppDev &amp; Containerization and Ask the Experts Panels",Cloud
+https://dzone.com/articles/write-your-first-aws-lambda-in-java,"Write Your First AWS Lambda in Java",Cloud
+https://dzone.com/articles/testing-azure-functions-on-azure-devops,"Testing Azure Functions on Azure DevOps",Cloud
+https://dzone.com/articles/what-is-saas-business-model,"What Is SaaS Business Model?",Cloud
+https://dzone.com/articles/single-tenant-vs-multi-tenant-saas-architecture,"Single-Tenant vs Multi-Tenant: SaaS Architecture",Cloud
+https://dzone.com/articles/how-to-build-a-kubernetes-operator,"How to Build a Kubernetes Operator",Cloud
+https://dzone.com/articles/kubernetes-cloud-autoscalar-in-terraform,"Kubernetes Cloud Autoscalar in Terraform - Part 1",Cloud
+https://dzone.com/articles/developing-software-for-connected-cars-common-chal,"Developing Software for Connected Cars – Common Challenges and How to...",Cloud
+https://dzone.com/articles/why-you-should-never-ever-print-in-a-lambda-functi,"Why You Should Never, Ever print() in a Lambda Function",Cloud
+https://dzone.com/articles/survey-reveals-covid-19-driving-cloud-adoption,"Survey Reveals COVID-19 Driving Cloud Adoption",Cloud
+https://dzone.com/articles/getting-started-with-azure-event-grid-viewer,"Getting Started With Azure Event Grid Viewer",Cloud
+https://dzone.com/articles/serverless-for-enterprises-scale-big-or-go-home,"Serverless for Enterprises: Scale Big or Go Home",Cloud
+https://dzone.com/articles/efk-stack-on-kubernetes-part-1,"EFK Stack on Kubernetes (Part 1)",Cloud
+https://dzone.com/articles/monitor-your-containers-with-csysdig,"Monitor Your Containers With Csysdig",Cloud
+https://dzone.com/articles/efk-stack-on-kubernetes-part-2,"EFK Stack on Kubernetes (Part 2)",Cloud
+https://dzone.com/articles/why-getting-aws-certification-is-significant,"Why Getting an AWS Certification Is Significant?",Cloud
+https://dzone.com/articles/no-code-incident-management-system-with-azure-logi,"No Code Incident Management System with Azure Logic Apps",Cloud
+https://dzone.com/articles/5-rules-of-cloud-practices,"5 Rules of Cloud Practices",Cloud
+https://dzone.com/articles/a-complete-guide-for-integrating-aws-amplify-to-re,"A Complete Guide for Integrating AWS Amplify to React Native",Cloud
+https://dzone.com/articles/serverless-the-new-frontier-of-web-services-do-or,"Serverless: The New Frontier of Web Services. Do or Don’t?",Cloud
+https://dzone.com/articles/automate-application-deployment-using-github-actio,"Automate Application Deployment Using Github Actions",Cloud
+https://dzone.com/articles/a-centralized-approach-of-resource-usage-analytics,"A Centralized Approach of Resource Usage Analytics for Multiple Managed...",Cloud
+https://dzone.com/articles/reverse-engineer-docker-images-into-dockerfiles,"Reverse Engineer Docker Images into Dockerfiles",Cloud
+https://dzone.com/articles/improve-your-cost-management-with-aws-saving-plans,"Improve Your Cost Management with AWS Saving Plans",Cloud
+https://dzone.com/articles/adapt-to-the-cloud-operating-model-part-1-velocity,"Adapt to the Cloud Operating Model Part 1: Velocity as the Business Driver",Cloud
+https://dzone.com/articles/cloud-native-take-a-ride-on-the-control-plane,"Cloud-Native? Take a Ride on the Control Plane",Cloud
+https://dzone.com/articles/identity-federation-in-aws-with-okta,"Identity Federation in AWS with Okta",Cloud
+https://dzone.com/articles/kubevirt-amp-openshift-cnv-why-does-it-make-sense,"KubeVirt and OpenShift CNV: Why It Makes Sense",Cloud
+https://dzone.com/articles/prometheus-metrics-based-autoscaling-in-kubernetes,"Prometheus Metrics Autoscaling in Kubernetes",Cloud
+https://dzone.com/articles/those-thinking-of-starting-with-cloud-native-a-sta,"A Cloud-Native Starter Kit",Cloud
+https://dzone.com/articles/how-to-serve-premiumprivate-content-on-your-site,"How to Serve Premium/Private Content on Your Site?",Cloud
+https://dzone.com/articles/using-rbac-with-service-accounts-in-kubernetes,"Using RBAC with Service Accounts in Kubernetes",Cloud
+https://dzone.com/articles/how-to-run-selenium-bdd-tests-in-parallel-with-aws,"How to Run Selenium BDD Tests in Parallel with AWS Lambda",Cloud
+https://dzone.com/articles/why-getting-a-citrix-certification-is-significant,"Why Getting a Citrix Certification Is Significant for Your Career",Cloud
+https://dzone.com/articles/targeting-kubernetes-cluster-with-gremlin-chaos-te,"Targeting Kubernetes Cluster With Gremlin Chaos Test",Cloud
+https://dzone.com/articles/unlock-the-power-of-the-cloud-with-aws,"Unlock the Power of the Cloud With AWS",Cloud
+https://dzone.com/articles/whose-cluster-is-it-anyway,"Whose Cluster Is It Anyway?",Cloud
+https://dzone.com/articles/three-pitfalls-to-consider-before-decentralizing-y,"Three Pitfalls to Consider Before Decentralizing Your Development",Cloud
+https://dzone.com/articles/aws-vs-google-cloud-vs-azure-which-does-fit-in,"AWS vs Google Cloud vs Azure: Which Does Fit In?",Cloud
+https://dzone.com/articles/an-introduction-to-cncf-k8s-certifications,"An Introduction to CNCF K8S Certifications",Cloud
+https://dzone.com/articles/the-path-towards-enterprise-level-aws-infrastructu-2,"The Path Towards Enterprise Level AWS Infrastructure – Load Balancing and...",Cloud
+https://dzone.com/articles/the-path-towards-enterprise-level-aws-infrastructu-1,"The Path Towards Enterprise Level AWS Infrastructure – EC2, AMI, Bastion...",Cloud
+https://dzone.com/articles/rethink-the-journey-to-being-cloud-native,"Rethink the Journey to Being Cloud-Native",Cloud
+https://dzone.com/articles/multi-cluster-vulnerability-scanning-with-alcide,"Multi-Cluster Vulnerability Scanning with Alcide",Cloud
+https://dzone.com/articles/event-driven-architectures,"Event Driven Architectures",Cloud
+https://dzone.com/articles/the-path-towards-enterprise-level-aws-infrastructu,"The Path Towards Enterprise Level AWS Infrastructure – Architecture...",Cloud
+https://dzone.com/articles/kubernetes-cluster-management-size-and-resources,"Kubernetes Cluster Management: Size and Resources",Cloud

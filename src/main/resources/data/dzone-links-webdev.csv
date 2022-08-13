@@ -1,0 +1,1001 @@
+url,title,category
+https://dzone.com/articles/guide-to-new-javascript-features-introduced-at-goo,"Guide to New JavaScript Features Introduced at Google I/O 2019",WebDev
+https://dzone.com/articles/getting-started-php-framework,"Getting started with PHP framework codeigniter",WebDev
+https://dzone.com/articles/five-methodologies-for-architecting-css,"Five Methodologies for Architecting CSS",WebDev
+https://dzone.com/articles/extending-iridium-with-custom-step-definitions,"Extending Iridium With Custom Step Definitions",WebDev
+https://dzone.com/articles/rusts-ownership-and-borrowing-enforce-memory-safety,"Rust’s Ownership and Borrowing Enforce Memory Safety",WebDev
+https://dzone.com/articles/hide-your-api-keys-with-an-api-proxy-server,"Hide Your API Keys With an API Proxy Server",WebDev
+https://dzone.com/articles/why-should-you-choose-reactjs-for-your-next-projec,"Why Should You Choose ReactJS for Your Next Project?",WebDev
+https://dzone.com/articles/turn-time-into-value,"TURN Time Into Value",WebDev
+https://dzone.com/articles/create-time-ticks-chart-with-nodejs-and-lightningchart-js,"Create a Millisecond-Precision Time Ticks Chart with NodeJS",WebDev
+https://dzone.com/articles/event-loop-in-javascript-1,"Event Loop in JavaScript",WebDev
+https://dzone.com/articles/tools-and-integrations-to-significantly-improve-co,"Tools and Integrations to Significantly Improve Code Review in GitHub",WebDev
+https://dzone.com/articles/diving-deep-into-smart-contracts,"Diving Deep into Smart Contracts",WebDev
+https://dzone.com/articles/onboarding-new-users-with-coinbase-wallet,"Onboarding New Users With Coinbase Wallet",WebDev
+https://dzone.com/articles/the-impacts-of-blockchain-on-the-software-developm,"The Impacts of Blockchain on the Software Development Industry",WebDev
+https://dzone.com/articles/trending-programming-language-to-learn,"Trending Programming Language to Learn",WebDev
+https://dzone.com/articles/the-essential-web3-tools-and-technologies-develope,"The Essential Web3 Tools and Technologies Developers Must Know",WebDev
+https://dzone.com/articles/cockroachdb-amp-deno-combining-2-quick-to-start-te,"CockroachDB and Deno: Combining Two “Quick to Start” Technologies",WebDev
+https://dzone.com/articles/build-a-serverless-url-shortener-with-go,"Build a Serverless URL Shortener With Go",WebDev
+https://dzone.com/articles/what-to-know-about-python-and-why-its-the-most-popular-today,"What to Know About Python and Why Its the Most Popular Today",WebDev
+https://dzone.com/articles/launch-your-startup-idea-in-a-day,"Launch Your Startup Idea in a Day",WebDev
+https://dzone.com/articles/best-react-developer-tools-for-programmers,"Best React Developer Tools for Programmers",WebDev
+https://dzone.com/articles/rails-asynchronous-processing,"Rails Asynchronous Processing",WebDev
+https://dzone.com/articles/native-vs-hybrid-vs-cross-platform-how-and-what-to,"Native vs Hybrid vs Cross-Platform: How and What to Choose?",WebDev
+https://dzone.com/articles/use-of-javascript-in-online-games,"Use of JavaScript In Online Games",WebDev
+https://dzone.com/articles/top-10-benefits-of-reactjs-for-your-application-de,"Top 10 Benefits of ReactJS for Your Application Development",WebDev
+https://dzone.com/articles/a-brief-history-of-javascript,"A Brief History of JavaScript",WebDev
+https://dzone.com/articles/create-a-minimal-web-api-with-aspnet-core-and-publ,"Create a Minimal Web API With ASP.NET Core and Publish To Azure API...",WebDev
+https://dzone.com/articles/introduction-to-building-desktop-applications-with-electron,"Introduction to Building Desktop Applications With Electron",WebDev
+https://dzone.com/articles/3d-tetris-threejs-tutorial-–,"3D Tetris With Three.js Tutorial",WebDev
+https://dzone.com/articles/set-conditional-breakpoints-id,"Set Conditional Breakpoints in IDEA",WebDev
+https://dzone.com/articles/new-ie10-platform-preview-now,"New IE10 Platform Preview: Now With More HTML5",WebDev
+https://dzone.com/articles/css3-transitions-vs-jquery,"CSS3 Transitions vs. jQuery Animate: Performance",WebDev
+https://dzone.com/articles/develop-web-apps-f-websharper,"Develop Web Apps in F# with WebSharper",WebDev
+https://dzone.com/articles/you-should-never-use-flags-for,"You Should Never Use Flags For Language Choice",WebDev
+https://dzone.com/articles/relational-really-relational,"From Relational to Really Relational: The RDB2RDF Working Group",WebDev
+https://dzone.com/articles/w3c-news-roundup-helping-the-disabled-use-the-web,"W3C News Roundup: Annotations and Disability Access",WebDev
+https://dzone.com/articles/optimize-your-links-print-usin,"Optimize Your Links For Print Using CSS: Show The URL",WebDev
+https://dzone.com/articles/building-a-http-tunnel-with-websocket-and-nodejs,"Building an HTTP Tunnel With WebSocket and Node.JS",WebDev
+https://dzone.com/articles/covid-dashboard-upgrade,"COVID Dashboard Upgrade",WebDev
+https://dzone.com/articles/angular-reactive-typed-forms-not-just-a-dream,"Angular Reactive Typed Forms — Not Just a Dream",WebDev
+https://dzone.com/articles/top-13-mobile-app-development-platforms-you-need,"Top 13 Mobile App Development Platforms You Need",WebDev
+https://dzone.com/articles/how-to-handle-koajs-route-parameters,"Creating Routes in KoaJS",WebDev
+https://dzone.com/articles/how-to-build-a-crowdfunding-web3-dapp-lets-buy-twi,"How to Build a Crowdfunding Web3 Dapp – Let's Buy Twitter!",WebDev
+https://dzone.com/articles/using-javascript-logic-statements-to-make-decision,"Using JavaScript Logic Statements to Make Decisions in Your Code",WebDev
+https://dzone.com/articles/how-to-create-a-fullstack-app-using-nuxtjs-nestjs,"Create a Full-Stack App Using Nuxt.js, NestJS, and DataStax Astra DB (With...",WebDev
+https://dzone.com/articles/low-code-viable-for-developers,"Low Code: Viable for Developers?",WebDev
+https://dzone.com/articles/its-time-to-use-a-data-privacy-vault,"It’s Time to Use a Data Privacy Vault",WebDev
+https://dzone.com/articles/7-ways-to-dramatically-reduce-your-time-in-code-re,"7 Ways to Dramatically Reduce Your Time in Code Review",WebDev
+https://dzone.com/articles/from-ethereum-to-aurora-with-infura,"From Ethereum to Aurora With Infura",WebDev
+https://dzone.com/articles/how-to-make-a-symbolic-link-on-linux,"How to Make a Symbolic Link on Linux",WebDev
+https://dzone.com/articles/how-developers-need-to-choose-the-right-database-f,"How Developers Need to Choose the Right Database for React Native App",WebDev
+https://dzone.com/articles/enabling-nft-royalties-with-eip-2981,"Enabling NFT Royalties With EIP-2981",WebDev
+https://dzone.com/articles/crypto-payments,"Accepting Crypto Payments in a Classic Commerce App",WebDev
+https://dzone.com/articles/building-a-better-notification-system-video,"Building a Better Notification System [Video]",WebDev
+https://dzone.com/articles/using-infuras-new-api-with-lootbox,"Using Infura’s New API With Lootbox",WebDev
+https://dzone.com/articles/using-insomnia-to-upgrade-dependencieswith-confide,"Using Insomnia to Upgrade Dependencies — With Confidence",WebDev
+https://dzone.com/articles/how-to-use-mqtt-in-php,"How To Use MQTT in PHP",WebDev
+https://dzone.com/articles/which-backend-frameworks-are-impacting-web-app-dev,"Which Backend Frameworks Are Impacting Web App Development Immensely?",WebDev
+https://dzone.com/articles/how-intrinsic-type-manipulations-work-in-typescrip,"How Intrinsic Type Manipulations Work in TypeScript",WebDev
+https://dzone.com/articles/nativescript-vs-flutter-a-comparison-for-tech-busi,"NativeScript vs. Flutter: A Comparison for Tech Businesses and...",WebDev
+https://dzone.com/articles/everything-you-need-to-know-about-building-mvp-wit,"Everything You Need to Know About Building MVP With React and Firebase",WebDev
+https://dzone.com/articles/nextjs-vs-react-key-differences-advantages-and-lim,"NextJS Vs React: Key Differences, Advantages and Limitations",WebDev
+https://dzone.com/articles/5-best-javascript-web-development-frameworks,"5 Best JavaScript Web Development Frameworks",WebDev
+https://dzone.com/articles/using-an-array-as-function-parameter-in-javascript,"Using an Array as Function Parameter in JavaScript",WebDev
+https://dzone.com/articles/purpose-driven-microservice-design,"Purpose-Driven Microservice Design",WebDev
+https://dzone.com/articles/mean-vs-mern-stack-which-one-is-better,"MEAN vs MERN Stack: Which One Is Better?",WebDev
+https://dzone.com/articles/python-vs-php-which-technology-will-dominate-in-th,"Python vs PHP Which Technology Will Dominate in the Future",WebDev
+https://dzone.com/articles/low-code-and-no-code-the-security-challenge,"Low Code and No Code: The Security Challenge",WebDev
+https://dzone.com/articles/practice-on-pushing-messages-to-devices-of-differe,"Practice on Pushing Messages to Devices of Different Manufacturers",WebDev
+https://dzone.com/articles/when-writing-code-isnt-enough-citizen-development,"When Writing Code Isn't Enough: Citizen Development and the Developer...",WebDev
+https://dzone.com/articles/migrating-legacy-applications-and-services-to-low,"Migrating Legacy Applications and Services to Low Code",WebDev
+https://dzone.com/articles/no-codelow-code-use-cases-in-the-enterprise,"No-Code/Low-Code Use Cases in the Enterprise",WebDev
+https://dzone.com/articles/how-low-code-demands-more-creativity-from-develope,"How Low Code Demands More Creativity From Developers",WebDev
+https://dzone.com/articles/what-is-edge-compute-its-kind-of-like-knitting-dog,"What Is Edge Compute? It’s Kind of Like Knitting Dog Hats",WebDev
+https://dzone.com/articles/future-of-software-development-with-low-code-platf,"Future of Software Development With Low Code Platform",WebDev
+https://dzone.com/articles/writing-beautiful-optimized-and-better-net-code-wi,"Writing Beautiful, Optimized, and Better .NET Code With NDepend Static...",WebDev
+https://dzone.com/articles/mach-architecture-explained,"MACH Architecture Explained",WebDev
+https://dzone.com/articles/no-code-expectations-vs-reality,"No Code Expectations vs Reality",WebDev
+https://dzone.com/articles/python-class-attributes-vs-instance-attributes,"Python Class Attribute: Class Attribute vs. Instance Attribute",WebDev
+https://dzone.com/articles/making-your-own-express-middleware,"Making Your Own Express Middleware",WebDev
+https://dzone.com/articles/c-creator-bjarne-stroustrup-interview,"C++ Creator Bjarne Stroustrup Interview",WebDev
+https://dzone.com/articles/how-template-literal-types-work-in-typescript,"How Template Literal Types Work in TypeScript",WebDev
+https://dzone.com/articles/pubsub-design-pattern-in-net-distributed-cache,"Pub/Sub Design Pattern in .NET Distributed Cache",WebDev
+https://dzone.com/articles/12-modern-css-techniques-for-older-css,"12 Modern CSS Techniques For Older CSS Problems",WebDev
+https://dzone.com/articles/php-headers-serve-json,"Using PHP Headers When Serving JSON Data",WebDev
+https://dzone.com/articles/rest-with-rails-part-iii-using,"How To REST With Rails and ActiveResource: Part Three",WebDev
+https://dzone.com/articles/exploring-deferred-and-promise,"Exploring Deferred and Promise in JQuery",WebDev
+https://dzone.com/articles/how-to-make-git-forget-a-tracked-file-now-in-gitig,"How to Make Git Forget a Tracked File Now in .gitignore",WebDev
+https://dzone.com/articles/getting-started-building-on-the-near-network-with,"Getting Started Building on the NEAR Network with Infura",WebDev
+https://dzone.com/articles/anatomy-of-a-webhook-http-request,"Anatomy of a Webhook HTTP Request",WebDev
+https://dzone.com/articles/what-software-developers-can-learn-from-andy-warho,"What Software Developers Can Learn From Andy Warhol",WebDev
+https://dzone.com/videos/installing-joomla-sql-server,"Installing Joomla on SQL Server 2008 and SQL Azure",WebDev
+https://dzone.com/articles/sending-emails-with-ruby,"Sending Emails with Ruby",WebDev
+https://dzone.com/articles/easily-format-markdown-files-in-vs-code,"Easily Format Markdown Files in VS Code",WebDev
+https://dzone.com/articles/working-with-salesforce-apis-of-cors,"Working with Salesforce APIs? Of CORS!",WebDev
+https://dzone.com/articles/complete-guide-to-lazy-load-images-for-better-webs,"Complete Guide to Lazy Load Images for Better Website Performance",WebDev
+https://dzone.com/articles/most-used-streaming-protocols,"Most Used Streaming Protocols in 2022 With Technical Specifications",WebDev
+https://dzone.com/articles/how-to-completely-uninstall-xcode-from-mac,"How to Completely Uninstall Xcode From Mac",WebDev
+https://dzone.com/articles/major-difference-between-cross-browser-testing-and,"Major Difference Between Cross Browser Testing and Responsive Testing",WebDev
+https://dzone.com/articles/how-i-built-my-own-insomnia-plugin,"How I Built My Own Insomnia Plugin",WebDev
+https://dzone.com/articles/which-programming-language-is-optimal-for-developi,"Which Programming Language is Optimal for Developing Web Scrapers?",WebDev
+https://dzone.com/articles/what-is-webassembly,"What Is WebAssembly?",WebDev
+https://dzone.com/articles/software-development-team-structure-amp-roles-that,"Software Development Team Structure and the Roles That Are Vital",WebDev
+https://dzone.com/articles/importance-of-mobile-app-development-in-todays-era,"Importance of Mobile App Development in Today’s Era",WebDev
+https://dzone.com/articles/cross-browser-compatibility-testing-what-browsers,"Cross-Browser Compatibility Testing —What Browsers Should You Test?",WebDev
+https://dzone.com/articles/treemap-chart-javascript,"How to Build a Treemap Using JavaScript",WebDev
+https://dzone.com/articles/how-to-pass-arguments-to-events-like-onclick-in-sv,"How to Pass Arguments to Events Like On:Click in Svelte",WebDev
+https://dzone.com/articles/where-does-middleware-stand-in-web-development-2,"Where Does Middleware Stand in Web Development?",WebDev
+https://dzone.com/articles/reference-non-printable-characters-list,"Reference: Non-Printable Characters List",WebDev
+https://dzone.com/articles/xmake-and-cc-package-management,"Xmake and C/C++ Package Management",WebDev
+https://dzone.com/articles/how-to-create-a-tech-stack-that-improves-business-and-increases-growth,"How to Create a Tech Stack That Improves Business and Increases Growth",WebDev
+https://dzone.com/articles/automatic-reference-counting-arc-and-memory-manage,"Automatic Reference Counting (ARC) and Memory Management in Swift",WebDev
+https://dzone.com/articles/a-tiny-event-based-state-manager-storeon-for-corvi,"Storeon: An Event-Based State Manager for Velo",WebDev
+https://dzone.com/articles/applying-an-image-texture-on-text-with-html-and-cs,"Applying An Image Texture To Text With HTML And CSS",WebDev
+https://dzone.com/articles/android-tutorial-learn-android-from-scratch,"Android Tutorial – Learn Android From Scratch!",WebDev
+https://dzone.com/articles/android-application-development-with-amazon-web-se,"Android Application Development With Amazon Web Services SDK",WebDev
+https://dzone.com/articles/how-to-add-a-blank-directory-to-your-git-repositor,"How to Add a Blank Directory to Your Git Repository",WebDev
+https://dzone.com/articles/low-code-development-why-it-is-important-and-why-i,"Low-Code Development: Why It Is Important and Why It Can't Replace...",WebDev
+https://dzone.com/articles/what-is-sso-and-why-do-you-need-it,"What Is SSO and Why Do You Need It?",WebDev
+https://dzone.com/articles/the-difference-between-created-and-mounted-in-vue,"The Difference between Created and Mounted in Vue",WebDev
+https://dzone.com/articles/functional-vs-non-functional-requirements-the-full,"Functional vs. Non-Functional Requirements: The Full Guide, Definitions,...",WebDev
+https://dzone.com/articles/experience-obsolesce-the-glaring-reality-of-rapid,"Experience Obsolesce: The Glaring Reality of Rapid Technology Change",WebDev
+https://dzone.com/articles/data-management-platform-definition-use-cases-bene,"Data Management Platform: Definition, Use Cases, Benefits",WebDev
+https://dzone.com/articles/cypress-the-future-of-test-automation-advantages-a,"Cypress: The Future of Test Automation! Advantages and Disadvantages",WebDev
+https://dzone.com/articles/how-the-typescript-nonnullable-type-works,"How the TypeScript NonNullable Type Works",WebDev
+https://dzone.com/articles/how-we-migrated-hundreds-of-posts-from-hugo-to-web-1,"How We Migrated Hundreds of Posts from Hugo to Webflow",WebDev
+https://dzone.com/articles/6-best-excel-vba-programming-books,"6 Best Excel VBA Programming Books",WebDev
+https://dzone.com/articles/taking-your-app-offline-with-the-salesforce-mobile,"Taking Your App Offline with the Salesforce Mobile SDK",WebDev
+https://dzone.com/articles/setup-for-success-creating-web3-projects-with-the,"Setup for Success: Creating Web3 Projects With the Truffle for VS Code...",WebDev
+https://dzone.com/articles/getting-started-with-events-in-svelte,"Getting Started With Events in Svelte",WebDev
+https://dzone.com/articles/a-developer-evangelists-thoughts-on-angular2,"A Developer Evangelist's Thoughts on Angular 2",WebDev
+https://dzone.com/articles/add-material-ui-table-in-reactjs-application,"Add Material-UI Table In ReactJS Application",WebDev
+https://dzone.com/articles/adding-authentication-to-a-web-application-with-au,"Adding Authentication to a Web Application with Auth0, React, and JWT",WebDev
+https://dzone.com/articles/css-position-relative-vs-position-absolute,"CSS Position: Relative vs Position Absolute",WebDev
+https://dzone.com/articles/everything-you-need-to-know-about-page-object-mode,"Everything You Need To Know About Page Object Model and Page Factory in...",WebDev
+https://dzone.com/articles/how-to-give-props-default-values-in-vue,"How to Give Props Default Values in Vue",WebDev
+https://dzone.com/articles/develop-a-sense-of-code,"Develop a Sense of Code",WebDev
+https://dzone.com/articles/how-the-alias-command-works-on-linux,"How the Alias Command Works on Linux",WebDev
+https://dzone.com/articles/how-to-create-pr-review-apps-with-render,"How To Create PR Review Apps With Render",WebDev
+https://dzone.com/articles/a-first-look-at-css-when-and-else-statements,"A First Look at CSS When and Else Statements",WebDev
+https://dzone.com/articles/how-the-typescript-returntype-type-works,"How the TypeScript ReturnType Works",WebDev
+https://dzone.com/articles/building-a-login-screen-with-react-and-bootstrap,"Building a Login Screen With React and Bootstrap",WebDev
+https://dzone.com/articles/what-does-mean-stack-development-mean,"What Does Mean Stack Development Mean?",WebDev
+https://dzone.com/articles/each-logic-in-svelte,"Each Logic in Svelte",WebDev
+https://dzone.com/articles/migrating-from-heroku-to-render,"Migrating From Heroku To Render",WebDev
+https://dzone.com/articles/building-a-kotlin-mobile-app-with-the-salesforce-s-2,"Building a Kotlin Mobile App with the Salesforce SDK, Part 3: Synchronizing...",WebDev
+https://dzone.com/articles/a-guide-to-events-in-vue,"A Guide to Events in Vue",WebDev
+https://dzone.com/articles/flutter-vs-react-native-how-to-cover-all-mobile-pl,"Flutter vs React Native. How to Cover All Mobile Platforms in 2022 With No...",WebDev
+https://dzone.com/articles/how-to-create-components-in-svelte,"How to Create Components in Svelte",WebDev
+https://dzone.com/articles/how-to-watch-for-nested-changes-in-vue,"How to Watch for Nested Changes in Vue",WebDev
+https://dzone.com/articles/a-simple-guide-to-heaps-stacks-references-and-valu,"A Simple Guide to Heaps, Stacks, References, and Values in JavaScript",WebDev
+https://dzone.com/articles/check-if-an-object-contains-all-keys-in-array-in-j,"Check if an Object Contains All Keys in an Array in JavaScript",WebDev
+https://dzone.com/articles/how-the-typescript-parameters-type-works,"How the TypeScript Parameters Type Works",WebDev
+https://dzone.com/articles/a-guide-to-understanding-vue-lifecycle-hooks,"A Guide to Understanding Vue Lifecycle Hooks",WebDev
+https://dzone.com/articles/the-difference-between-the-composition-api-and-opt,"The Difference Between the Composition API and Options API in Vue",WebDev
+https://dzone.com/articles/how-dynamic-rendering-works-using-html-and-css,"How Dynamic Rendering Works Using HTML and CSS?",WebDev
+https://dzone.com/articles/vue-3-reactivity-composition-api,"Vue 3 Reactivity Composition API Using Reactive() And Ref()",WebDev
+https://dzone.com/articles/making-your-ssr-sites-42x-faster-with-redis-cache,"Making Your SSR Sites 42x Faster With Redis Cache",WebDev
+https://dzone.com/articles/removing-javascript-how-to-use-html-with-htmx-and,"Removing JavaScript: How To Use HTML With Htmx and Reduce the Amount of...",WebDev
+https://dzone.com/articles/proven-tips-to-optimize-the-performance-of-react-n,"Proven Tips to Optimize the Performance of React Native App",WebDev
+https://dzone.com/articles/laravel-cron-scheduling-and-its-secrets,"Laravel Cron Scheduling and Its Secrets",WebDev
+https://dzone.com/articles/how-the-typescript-pick-type-works,"How the TypeScript Pick Type works",WebDev
+https://dzone.com/articles/is-webrtc-making-zoom-redundant,"The Battle Of New Industry Standards: Is WebRTC Making Zoom Redundant?",WebDev
+https://dzone.com/articles/detecting-screen-orientation-in-javascript,"Detecting Screen Orientation in JavaScript",WebDev
+https://dzone.com/articles/how-the-typescript-omit-type-works,"How the TypeScript Omit Type Works",WebDev
+https://dzone.com/articles/guide-to-testng-assertions-in-selenium-based-test,"Guide to TestNG Assertions in Selenium Based Test Automation",WebDev
+https://dzone.com/articles/what-features-are-crucial-in-customized-virtual-cl,"What Features Are Crucial in Customized Virtual Classroom Software?",WebDev
+https://dzone.com/articles/how-to-rename-files-in-linux-and-macos-terminal,"How To Rename Files in Linux and macOS Terminal",WebDev
+https://dzone.com/articles/handling-iframes-in-selenium-based-test-automation,"Handling Iframes in Selenium Based Test Automation",WebDev
+https://dzone.com/articles/getting-started-with-html5-canvas,"Getting Started With HTML5 Canvas",WebDev
+https://dzone.com/articles/how-the-typescript-readonly-type-works,"How the TypeScript Readonly Type Works",WebDev
+https://dzone.com/articles/the-complete-react-developer-salary-guide,"The Complete React Developer Salary Guide for 2022",WebDev
+https://dzone.com/articles/css-basics-creating-inset-borders-with-css,"CSS Basics: Creating Inset Borders With CSS",WebDev
+https://dzone.com/articles/how-to-use-vue-template-refs-to-access-html-elemen,"How To Use Vue Template Refs to Access HTML Elements",WebDev
+https://dzone.com/articles/make-beautifully-resilient-apps-with-progressive-e,"Make Beautifully Resilient Apps With Progressive Enhancement",WebDev
+https://dzone.com/articles/how-to-use-a-python-variable-in-an-external-javasc,"How To Use a Python Variable in an External Javascript (Django)",WebDev
+https://dzone.com/articles/how-the-mv-command-works-on-linux,"How the MV Command Works on Linux",WebDev
+https://dzone.com/articles/typescript-basics-how-generic-types-work,"TypeScript Basics: How Generic Types Work",WebDev
+https://dzone.com/articles/how-if-else-logic-works-in-svelte,"How If-Else Logic works in Svelte",WebDev
+https://dzone.com/articles/how-to-save-html-canvas-as-an-image,"How To Save HTML Canvas as an Image",WebDev
+https://dzone.com/articles/how-the-touch-command-works-on-linux,"How the touch Command Works on Linux",WebDev
+https://dzone.com/articles/book-review-python-distilled,"Book Review: Python Distilled",WebDev
+https://dzone.com/articles/types-may-finally-be-coming-to-javascript,"Types May Finally Be Coming to JavaScript",WebDev
+https://dzone.com/articles/laravel-validation-and-custom-rules,"Laravel Validation and Custom Rules",WebDev
+https://dzone.com/articles/how-the-typescript-partial-type-works,"How the TypeScript Partial Type Works",WebDev
+https://dzone.com/articles/differences-between-laravel-and-yii,"Differences Between Laravel and Yii",WebDev
+https://dzone.com/articles/how-the-typescript-exclude-type-works,"How the TypeScript Exclude Type Works",WebDev
+https://dzone.com/articles/demystifying-how-this-works-in-javascript,"Demystifying How 'this' Works in JavaScript",WebDev
+https://dzone.com/articles/top-automation-practices-to-avoid-during-testing,"Top Automation Practices to Avoid During Testing",WebDev
+https://dzone.com/articles/how-the-typescript-extract-type-works,"How the TypeScript Extract Type Works",WebDev
+https://dzone.com/articles/using-the-pdf-embed-api-with-vuejs,"Using the PDF Embed API With Vue.js",WebDev
+https://dzone.com/articles/css-layers-tutorial-real-css-encapsulation,"CSS Layers Tutorial: Real CSS Encapsulation",WebDev
+https://dzone.com/articles/email-subscription-service-with-nodejs,"Making Your Own Email Subscription Service with Node.JS",WebDev
+https://dzone.com/articles/build-image-carousel-with-svelte-transitions,"How to Build an Image Carousel Using SvelteTransitions",WebDev
+https://dzone.com/articles/saving-form-data-in-client-side-storage,"Saving Form Data in Client-side Storage",WebDev
+https://dzone.com/articles/how-the-typescript-record-type-works,"How the TypeScript Record Type Works",WebDev
+https://dzone.com/articles/5-steps-to-implementing-file-upload-in-nodejs,"5 Steps to Implementing File Upload in Node.js",WebDev
+https://dzone.com/articles/top-python-coding-best-practices-for-beginners,"Top Python Coding Best Practices for Beginners",WebDev
+https://dzone.com/articles/how-fetch-works-in-javascript,"How Fetch Works in JavaScript",WebDev
+https://dzone.com/articles/how-the-typescript-required-type-works,"How the Typescript Required Type Works",WebDev
+https://dzone.com/articles/when-to-use-keyextractor-prop-in-react-natives-fla,"When to Use keyExtractor Prop in React Native's FlatList",WebDev
+https://dzone.com/articles/c-programming-basics-for-absolute-beginners-codebu,"C# for Absolute Beginners: The Basics",WebDev
+https://dzone.com/articles/document-generation-with-dynamic-image-generation,"Document Generation With Dynamic Image Generation",WebDev
+https://dzone.com/articles/what-is-dynamic-programming,"What Is Dynamic Programming?",WebDev
+https://dzone.com/articles/using-pdfs-with-the-jamstack-adding-search-with-te,"Using PDFs With the Jamstack: Adding Search With Text Extraction",WebDev
+https://dzone.com/articles/know-your-gems,"Know Your Gems",WebDev
+https://dzone.com/articles/how-to-make-a-rest-api-call-in-react,"How To Make a REST API Call In React",WebDev
+https://dzone.com/articles/future-javascript-temporal,"Future JavaScript: Temporal",WebDev
+https://dzone.com/articles/the-many-quirks-of-javascript-dates,"The Many Quirks of JavaScript Dates",WebDev
+https://dzone.com/articles/add-liberating-logins-and-in-app-purchases-to-your,"Add “Liberating” Logins and In-App Purchases to Your Web Product: A How-To...",WebDev
+https://dzone.com/articles/cp-command-lin,"How the cp Command Works on Linux",WebDev
+https://dzone.com/articles/guide-to-react-context-with-functional-component-u,"Guide To React Context With Functional Component Using Hooks",WebDev
+https://dzone.com/articles/automated-accessibility-testing,"Automated Accessibility Testing",WebDev
+https://dzone.com/articles/6-ios-and-swift-projects-to-learn-ios-app-developm,"6 iOS and Swift Projects to Learn iOS App Development",WebDev
+https://dzone.com/articles/how-to-add-images-to-html-canvas,"How To Add Images to HTML Canvas",WebDev
+https://dzone.com/articles/syllables-with-rails,"Syllables With Rails",WebDev
+https://dzone.com/articles/how-javascript-generator-functions-work,"How JavaScript Generator Functions Work",WebDev
+https://dzone.com/articles/makefiles-for-modern-development,"Makefiles For Modern Development",WebDev
+https://dzone.com/articles/8-best-free-vuejs-courses-for-beginners-to-learn-o,"8 Best Free Vue.js Courses for Beginners To Learn Online",WebDev
+https://dzone.com/articles/drawing-basic-shapes-with-html-canvas,"Drawing Basic Shapes with HTML5 Canvas",WebDev
+https://dzone.com/articles/how-to-master-your-software-engineering-journey-pa,"How to Master Your Software Engineering Journey, Part 2",WebDev
+https://dzone.com/articles/how-i-built-a-basic-salesforce-mobile-app-with-lig,"How I Built a Basic Salesforce Mobile App with Lightning App Builder",WebDev
+https://dzone.com/articles/how-the-chmod-command-works-on-linux,"How the chmod Command Works on Linux",WebDev
+https://dzone.com/articles/building-a-buy-now-pay-later-payment-solution,"Building a Buy Now, Pay Later Payment Solution",WebDev
+https://dzone.com/articles/getting-started-with-storing-vue-data-in-vuex,"Getting Started With Storing Vue Data in Vuex",WebDev
+https://dzone.com/articles/uploading-modifying-and-viewing-video-files-with-t,"Uploading, Modifying, and Viewing Video Files with the DailyMotion API",WebDev
+https://dzone.com/articles/internationalizing-your-lightning-web-component-lw,"Internationalizing Your Lightning Web Component (LWC)",WebDev
+https://dzone.com/articles/old-habits-die-hard-but-getting-new-ones-is-essent,"Old Habits Die Hard, But Getting New Ones is Essential. Tips on Getting the...",WebDev
+https://dzone.com/articles/javascript-map-and-how-it-is-different-from-foreac,"Javascript Map and How It Is Different From Foreach",WebDev
+https://dzone.com/articles/scheduled-cron-jobs-with-render,"Scheduled Cron Jobs With Render",WebDev
+https://dzone.com/articles/under-the-hood-render-unified-cloud,"Under the Hood: Render Unified Cloud",WebDev
+https://dzone.com/articles/flutter-vs-react-native-detailed-framework-comparison,"Flutter vs. React Native in 2022: Detailed Framework Comparison",WebDev
+https://dzone.com/articles/how-to-manage-sessions-in-nodejs-using-passport-re,"How to Manage Sessions in Node.js Using Passport, Redis, and MySQL",WebDev
+https://dzone.com/articles/how-to-draw-text-with-html-canvas,"How to Draw Text With HTML Canvas",WebDev
+https://dzone.com/articles/low-code-platforms-require-software-development-skills,"Low Code Platforms Require Software Development Skills",WebDev
+https://dzone.com/articles/how-to-mkdir-command-works-in-linux,"How to Mkdir Command Works in Linux",WebDev
+https://dzone.com/articles/how-to-wrap-text-in-html-canvas,"How to Wrap Text in HTML Canvas",WebDev
+https://dzone.com/articles/how-does-tcp-work,"How Does TCP Work?",WebDev
+https://dzone.com/articles/building-a-slack-app-with-native-sfdc-integration,"Building a Slack App With Native SFDC Integration: Part 1",WebDev
+https://dzone.com/articles/python-nosql-amp-fastapi-tutorial-web-scraping-on,"Python, NoSQL and FastAPI Tutorial: Web Scraping on a Schedule",WebDev
+https://dzone.com/articles/how-the-ls-command-works-on-linux,"How the LS Command Works on Linux",WebDev
+https://dzone.com/articles/12-useful-javascript-newsletters,"12 Useful JavaScript Newsletters",WebDev
+https://dzone.com/articles/dynamic-lists-with-swiftui-using-swift-concurrency,"Dynamic Lists With SwiftUI Using Swift Concurrency for Asynchronous Data...",WebDev
+https://dzone.com/articles/typescript-basics-how-keyof-works,"Typescript Basics: How keyof Works",WebDev
+https://dzone.com/articles/how-to-change-nodejs-version,"How To Change Node.JS Version",WebDev
+https://dzone.com/articles/testing-golang-with-httptest,"Testing Golang With httptest",WebDev
+https://dzone.com/articles/lessons-learned-moving-from-on-prem-to-cloud-native,"Lessons Learned Moving From On-Prem to Cloud Native",WebDev
+https://dzone.com/articles/ultimate-guide-to-types-in-typescript,"Ultimate Guide to Types in TypeScript",WebDev
+https://dzone.com/articles/cookies-at-the-edge-not-a-baking-blog-post,"Cookies at the Edge: Not a Baking Blog Post",WebDev
+https://dzone.com/articles/javascript-building-table-sorting-and-pagination,"JavaScript: Building Table Sorting and Pagination",WebDev
+https://dzone.com/articles/how-to-hire-remote-developers-successfully,"How To Hire Remote Developers Successfully",WebDev
+https://dzone.com/articles/how-to-clear-an-html-canvas,"How to Clear an HTML Canvas",WebDev
+https://dzone.com/articles/creating-your-first-svelte-app-with-sveltekit,"Creating Your First Svelte App With SvelteKit",WebDev
+https://dzone.com/articles/modular-feature-driven-development-the-smart-phone,"Modular Feature-Driven Development: The Smartphone Pattern (OS) with React...",WebDev
+https://dzone.com/articles/b2b-vs-b2c-mobile-apps-how-to-know-the-differences,"B2B vs B2C Mobile Apps: How to Know the Differences in Development",WebDev
+https://dzone.com/articles/automation-testing-the-bright-future-of-software-t,"Automation Testing: The Bright Future of Software Testing",WebDev
+https://dzone.com/articles/how-vue-components-work,"How Vue Components Work",WebDev
+https://dzone.com/articles/react-apps-can-be-incredibly-fast-heres-how-to-opt,"React Apps Can Be Incredibly Fast: Here’s How to Optimize Load Time",WebDev
+https://dzone.com/articles/how-to-get-started-with-vaadin-flow,"How to Get Started With Vaadin Flow",WebDev
+https://dzone.com/articles/how-to-easily-add-csv-import-to-your-react-app,"How to Easily Add CSV Import to Your React App",WebDev
+https://dzone.com/articles/typescript-tuples-and-how-they-work,"Typescript Tuples: How They Work",WebDev
+https://dzone.com/articles/functional-testing-for-aspnet-core-api,"Functional Testing For ASP.NET Core API",WebDev
+https://dzone.com/articles/implementing-spatial-audio-with-web-audio-api,"Create a Truly Immersive Metaverse Experience: Implementing Spatial Audio...",WebDev
+https://dzone.com/articles/xamarin-vs-react-native-which-one-wins-the-race,"Xamarin vs React Native: Which One Wins The Race?",WebDev
+https://dzone.com/articles/binary-search-in-python,"Binary Search in Python",WebDev
+https://dzone.com/articles/how-to-use-templates-in-vue,"How to Use Templates in Vue",WebDev
+https://dzone.com/articles/creating-custom-types-in-typescript,"Creating Custom Types in TypeScript",WebDev
+https://dzone.com/articles/future-javascript-javascript-shadowrealms,"Future JavaScript: JavaScript ShadowRealms",WebDev
+https://dzone.com/articles/find-all-files-containing-a-string-or-text-on-linu,"Find All Files Containing a String or Text on Linux and Mac",WebDev
+https://dzone.com/articles/top-5-customer-communication-channels-in-2022-part,"Top 5 Customer Communication Channels in 2022",WebDev
+https://dzone.com/articles/milvus-20-a-glimpse-at-new-features,"Milvus 2.0: A Glimpse at New Features",WebDev
+https://dzone.com/articles/easily-embed-pdfs-on-your-website-using-adobe-pdf,"Embed PDFs in Your Webpage Using Adobe PDF Embed API",WebDev
+https://dzone.com/articles/teach-yourself-angular-in-11-minutes-and-6-seconds,"Teach Yourself Angular in 11 Minutes and 6 Seconds",WebDev
+https://dzone.com/articles/introducing-to-new-adobe-document-generation-servi,"Introducing New Adobe Document Generation Service",WebDev
+https://dzone.com/articles/how-the-cd-command-works-in-linux,"How the CD Command Works in Linux",WebDev
+https://dzone.com/articles/enabling-high-quality-code-in-net,"Enabling High-Quality Code in .NET",WebDev
+https://dzone.com/articles/building-a-kotlin-mobile-app-with-the-salesforce-s-1,"Building a Kotlin Mobile App With the Salesforce SDK: Editing and Creating...",WebDev
+https://dzone.com/articles/create-a-svelte-reusable-tab-component-without-com,"Create a Svelte Reusable Tab Component Without Complicated CSS",WebDev
+https://dzone.com/articles/how-to-use-v-for-in-vue,"How To Use V-for in Vue",WebDev
+https://dzone.com/articles/must-know-python-libraries,"Must-Know Python Libraries",WebDev
+https://dzone.com/articles/6-easy-ways-to-start-coding-accessibly,"6 Easy Ways to Start Coding Accessibly",WebDev
+https://dzone.com/articles/putting-javascript-in-css,"Putting JavaScript in CSS",WebDev
+https://dzone.com/articles/cobol-a-1959-idea-and-2022-technology,"COBOL: A 1959 Idea and 2022 Technology",WebDev
+https://dzone.com/articles/mobile-software-development-native-or-web,"Mobile Software Development: Native or Web?",WebDev
+https://dzone.com/articles/how-to-add-authentication-secure-apis-with-supertokens-in-react,"Add Secure HarperDB APIs Using SuperTokens in React",WebDev
+https://dzone.com/articles/webrtc-comprehensive-guide,"The Most Comprehensive Guide on WebRTC",WebDev
+https://dzone.com/articles/vue-quick-tips-globally-registering-vue-components,"Vue Quick Tips: Globally Registering Vue Components",WebDev
+https://dzone.com/articles/nodejs-vs-php-choosing-between-modernity-vs-tradition,"Node.js vs. PHP: Modernity vs. Tradition",WebDev
+https://dzone.com/articles/how-to-use-watchers-in-vue,"How To Use Watchers in Vue",WebDev
+https://dzone.com/articles/making-a-to-do-list-app-in-vue,"Making a To-Do List App in Vue",WebDev
+https://dzone.com/articles/the-best-nodejs-ides-in-the-market-right-now,"The Best Node.js IDEs in the Market Right Now",WebDev
+https://dzone.com/articles/building-a-kotlin-mobile-app-with-the-salesforce-s,"Building a Kotlin Mobile App With the Salesforce SDK",WebDev
+https://dzone.com/articles/realtime-challenges-for-audience-engagement,"Realtime Challenges for Audience Engagement",WebDev
+https://dzone.com/articles/how-v-if-and-v-else-work-in-vue,"How v-if and v-else Work in Vue",WebDev
+https://dzone.com/articles/implementing-cool-animations-and-transitions-in-d3,"Implementing Cool Animations and Transitions in D3 Charts",WebDev
+https://dzone.com/articles/auto-generating-post-thumbnails-with-nodejs,"Auto Generating Post Thumbnails With Node.JS",WebDev
+https://dzone.com/articles/what-is-map-method-in-javascript,"What Is Map() Method in JavaScript?",WebDev
+https://dzone.com/articles/how-to-make-a-rest-api-call-in-angular,"How to Make a REST API Call in Angular",WebDev
+https://dzone.com/articles/model-validation-using-fluentvalidation-in-aspnet,"Model Validation Using FluentValidation in ASP.NET",WebDev
+https://dzone.com/articles/a-complete-guide-on-flutter-app-development,"A Complete Guide on Flutter App Development",WebDev
+https://dzone.com/articles/nginx-nodejs-perform-identification-and-authentica,"Nginx + Node.JS: Perform Identification and Authentication",WebDev
+https://dzone.com/articles/future-javascript-records-and-tuples,"Future JavaScript: Records and Tuples",WebDev
+https://dzone.com/articles/a-complete-interactive-guide-to-css-flex-box,"A Complete, Interactive Guide to CSS Flexbox",WebDev
+https://dzone.com/articles/bloomreach-headless-experience-manager-part-2,"Getting Started With Bloomreach Headless Experience Manager (Part 2)",WebDev
+https://dzone.com/articles/javascript-reserved-keywords,"JavaScript Reserved Keywords Cheatsheet",WebDev
+https://dzone.com/articles/how-to-use-postman-to-build-a-mock-server-that-mim,"How to Use Postman to Build a Mock Server That Mimics the Marqeta Core API",WebDev
+https://dzone.com/articles/resolving-http-headers-sent-error-in-nodejs,"Resolving HTTP Headers Sent Error in Node.js",WebDev
+https://dzone.com/articles/6-best-web-development-courses-for-beginners,"5 Best Web Development Courses for Beginners to Learn Online",WebDev
+https://dzone.com/articles/what-you-see-vs-whats-going-on-under-the-hood-sett,"What You See vs What's Going On Under the Hood - Setting Development...",WebDev
+https://dzone.com/articles/parsing-binary-data-formats,"Parsing Binary Data Formats",WebDev
+https://dzone.com/articles/how-good-is-nodejs-for-backend-development,"How Good Is Node.js for Backend Development?",WebDev
+https://dzone.com/articles/everything-you-need-to-know-about-javascript-varia,"Everything You Need To Know About JavaScript Variables",WebDev
+https://dzone.com/articles/how-to-write-a-software-requirements-specification,"How to Write a Software Requirements Specification (SRS) Document",WebDev
+https://dzone.com/articles/making-3d-css-flippable-cards,"Making 3D CSS Flippable Cards",WebDev
+https://dzone.com/articles/10-tips-to-optimize-angular-application-that-incre,"10 Tips To Optimize Angular Application To Increase Website Speed",WebDev
+https://dzone.com/articles/html-tags-for-text,"HTML Tags for Text",WebDev
+https://dzone.com/articles/browser-specific-CSS-code,"How to Create Browser-Specific CSS Code",WebDev
+https://dzone.com/articles/why-php-is-best-for-web-dev,"7 Reasons Why PHP is Best For Web Development",WebDev
+https://dzone.com/articles/a-guide-to-build-test-and-deploy-your-first-dapp,"A Guide To Build, Test, and Deploy Your First DApp",WebDev
+https://dzone.com/articles/contextual-polymorphism-with-operator-overloading,"Contextual Polymorphism With Operator Overloading in Kotlin and Scala",WebDev
+https://dzone.com/articles/more-than-10-free-custom-css-checkboxes,"More Than 10 Free Custom CSS Checkboxes",WebDev
+https://dzone.com/articles/bloomreach-headless-experience-manager,"Get Started With Bloomreach Headless Experience Manager (Part 1)",WebDev
+https://dzone.com/articles/exploring-the-salesforce-mobile-sdk-using-xcode,"Exploring the Salesforce Mobile SDK Using Xcode",WebDev
+https://dzone.com/articles/how-to-use-props-in-vue,"How To Use Props in Vue",WebDev
+https://dzone.com/articles/how-to-handle-forms-in-svelte,"How To Handle Forms in Svelte?",WebDev
+https://dzone.com/articles/how-to-make-ajax-calls-in-laravel,"How to Make an Ajax Call in Laravel",WebDev
+https://dzone.com/articles/becoming-a-10x-engineer-part-1,"How to Master Your Software Engineering Journey, Part 1",WebDev
+https://dzone.com/articles/implement-pagination-in-net-core-mvc-application-w,"Implement Pagination in .NET Core MVC Application With Custom HTML Helpers",WebDev
+https://dzone.com/articles/smooth-cs-gradient-transitions,"Smooth CSS Gradient Transitions",WebDev
+https://dzone.com/articles/run-your-apps-on-kubernetes-one-pull-request-at-a,"Run Your Apps on Kubernetes One Pull Request at a Time",WebDev
+https://dzone.com/articles/argocd-managing-a-gitops-flow-for-kubernetes-clust,"ArgoCD: Managing a GitOps Flow for Kubernetes Clusters",WebDev
+https://dzone.com/articles/css-glass-morphism-generator,"CSS Glass Morphism Generator",WebDev
+https://dzone.com/articles/how-to-internationalize-your-apps-product-notifica,"How To Internationalize Your App’s Product Notifications",WebDev
+https://dzone.com/articles/copypast-row-as-childsibling-in-syncfusion-treegri,"Copy and Paste Row as Child/Sibling in Syncfusion Angular TreeGrid",WebDev
+https://dzone.com/articles/2021-tech-highlights-best-software-for-dev-teams,"Tech Highlights: Best Software For Dev Teams",WebDev
+https://dzone.com/articles/exploring-the-salesforce-mobile-sdk-using-android,"Exploring the Salesforce Mobile SDK Using Android Studio",WebDev
+https://dzone.com/articles/teach-yourself-web-sockets-in-5-minutes,"Teach yourself Web Sockets in 5 minutes",WebDev
+https://dzone.com/articles/how-to-build-a-video-streaming-app-with-screen-sha,"How to Build a Video Streaming App With Screen Sharing Using Flutter",WebDev
+https://dzone.com/articles/exploring-the-salesforce-mobile-sdk-using-react-na,"Exploring the Salesforce Mobile SDK Using React Native",WebDev
+https://dzone.com/articles/aspnet-web-forms-modernization-series-part-01-data,"ASP.NET Web Forms Modernization Series (Part 1): Data Access Layer...",WebDev
+https://dzone.com/articles/creating-your-first-vue-app,"Creating Your First Vue App",WebDev
+https://dzone.com/articles/5-best-online-courses-to-learn-django-in-depth,"5 Best Django Online Courses for Beginners To Learn",WebDev
+https://dzone.com/articles/import-export-and-require-in-javascript,"Import, Export, and Require in JavaScript",WebDev
+https://dzone.com/articles/redux-toolkit-with-typescript-how-to-get-started,"Redux Toolkit With Typescript: How to Get Started",WebDev
+https://dzone.com/articles/the-principle-behind-the-practice,"The Principle Behind the Practice",WebDev
+https://dzone.com/articles/use-harperdb-custom-functions-with-react,"Use HarperDB Custom Functions With React",WebDev
+https://dzone.com/articles/why-is-redux-state-immutable,"Why Is Redux State Immutable?",WebDev
+https://dzone.com/articles/css-transitions-generator,"CSS Transitions Generator",WebDev
+https://dzone.com/articles/optimizing-content-migrations-with-edge-compute,"Optimizing Content Migrations With Edge Compute",WebDev
+https://dzone.com/articles/angular-standalone-components-and-their-impact-on,"Angular Standalone Components and Their Impact on Modularity",WebDev
+https://dzone.com/articles/comparing-the-3-types-of-app-development-no-code-v,"Comparing 3 Types of App Development: No-Code vs Low-Code vs Full Code",WebDev
+https://dzone.com/articles/creating-a-vuejs-websocket-server,"Creating a Vue.JS Websocket Server",WebDev
+https://dzone.com/articles/syncfusion-angular-menu,"Change Column in Syncfusion TreeGrid Angular",WebDev
+https://dzone.com/articles/my-favorite-online-courses-to-learn-data-structure,"My Favorite Online Courses to Learn Data Structure and Algorithms in...",WebDev
+https://dzone.com/articles/adding-barcode-support-to-a-salesforce-mobile-appl,"Adding Barcode Support to a Salesforce Mobile Application",WebDev
+https://dzone.com/articles/the-realtime-web-evolution-of-the-user-experience,"The Real-time Web: Evolution of the User Experience",WebDev
+https://dzone.com/articles/static-analysis-with-eslint-and-lwc,"Static Analysis with ESLint and LWC",WebDev
+https://dzone.com/articles/postgre-sql-push-notifications,"Hacking PostgreSQL Internals to Deliver Push Notifications",WebDev
+https://dzone.com/articles/difference-between-bootstrap-and-angularjs-in-2022,"Difference Between Bootstrap and AngularJS in 2022",WebDev
+https://dzone.com/articles/using-remote-testing-with-net-core,"Using Remote Testing With .NET Core",WebDev
+https://dzone.com/articles/moving-from-full-stack-developer-to-web3-pioneer,"Moving From Full-Stack Developer To Web3 Pioneer",WebDev
+https://dzone.com/articles/evolving-role-of-qa-with-advancements-in-elearning,"Evolving Role of QA With Advancements in eLearning",WebDev
+https://dzone.com/articles/qaops-and-other-future-trends-in-software-testing,"QAOps and Other Future Trends in Software Testing",WebDev
+https://dzone.com/articles/a-practical-guide-to-light-and-dark-mode-in-bootst,"A Practical Guide To Light and Dark Mode in Bootstrap 5 and Jekyll",WebDev
+https://dzone.com/articles/vuetensils-features,"Vuetensils 0.10: Vue 3, Vite, Better Forms, and More",WebDev
+https://dzone.com/articles/ruby-map-with-index,"Ruby: Map With Index",WebDev
+https://dzone.com/articles/ci-for-apis-with-the-kong-insomnia-cli-and-github,"CI for APIs with the Kong Insomnia CLI and GitHub Actions",WebDev
+https://dzone.com/articles/how-to-do-inline-event-handling-in-svelte,"How To Do Inline Event Handling in Svelte?",WebDev
+https://dzone.com/articles/bemit-itcss-bem,"BEMIT: ITCSS + BEM",WebDev
+https://dzone.com/articles/static-analysis-with-pmd-and-apex,"Writing Clean and Consistent Code with Static Analysis using PMD and Apex",WebDev
+https://dzone.com/articles/top-7-react-native-components-for-software-develop,"Top 7 React Native Components for Software Development",WebDev
+https://dzone.com/articles/getting-started-with-c-dataframe-and-xplotploty,"Getting Started With C# DataFrame and XPlot.Ploty",WebDev
+https://dzone.com/articles/build-an-sms-app-with-infobip,"Build an SMS App with Infobip",WebDev
+https://dzone.com/articles/the-css-box-model,"The CSS Box Model",WebDev
+https://dzone.com/articles/most-popular-web-development-framework-in-2022,"Most Popular Web Development Framework in 2022",WebDev
+https://dzone.com/articles/aspect-ratio-css-responsive-web-design,"How to Use Aspect Ratio CSS Property in Responsive Web Designs",WebDev
+https://dzone.com/articles/using-render-and-go-for-the-first-time,"Using Render and Go for the First Time",WebDev
+https://dzone.com/articles/configuring-amazon-s3-using-mulesoft,"Configuring Amazon S3 Using Mulesoft",WebDev
+https://dzone.com/articles/the-top-9-container-registry-picks,"How to Choose a Container Registry: The Top 9 Picks",WebDev
+https://dzone.com/articles/20-best-proxies-online-free-and-paid-services,"20 Best Proxies Online: Free and Paid Services",WebDev
+https://dzone.com/articles/my-favorite-free-numpy-courses-for-beginners,"My Favorite Free NumPy Courses for Beginners",WebDev
+https://dzone.com/articles/top-seven-javascript-kanban-widgets-for-effective,"Top Seven JavaScript Kanban Widgets for Effective Task Management",WebDev
+https://dzone.com/articles/how-i-used-harperdb-custom-functions-to-build-a-we,"How I Used HarperDB Custom Functions To Build a Web App for My Newsletter",WebDev
+https://dzone.com/articles/create-customizable-database-app-systems-with-1-command,"Create Customizable Database App Systems With One Command",WebDev
+https://dzone.com/articles/beginners-guide-taichi,"A Beginner's Guide to High-Performance Computing in Python",WebDev
+https://dzone.com/articles/lessons-from-a-tech-lead,"Lessons From a Tech Lead",WebDev
+https://dzone.com/articles/biggest-threats-application-development-companies,"Biggest Threats Application Development Companies Are Facing Today",WebDev
+https://dzone.com/articles/why-do-business-analysts-and-project-managers-get,"Why Do Business Analysts and Project Managers Get Higher Salaries Than...",WebDev
+https://dzone.com/articles/best-coding-practices-in-reactjs,"Best Coding Practices in ReactJS",WebDev
+https://dzone.com/articles/8-react-native-project-ideas-for-beginners,"8 Best React Native Project Ideas for Beginners",WebDev
+https://dzone.com/articles/7-best-ides-for-angularjs-app-development-to-code,"7 Best IDEs for AngularJS App Development",WebDev
+https://dzone.com/articles/how-to-build-livestreaming-app,"How to Build Your Own Live Streaming App",WebDev
+https://dzone.com/articles/special-characters-escaped,"Which Special Characters Must Be Escaped in Regular Expressions?",WebDev
+https://dzone.com/articles/umbraco-vs-kentico-cms,"Umbraco vs Kentico: Which Is Right For Your Business?",WebDev
+https://dzone.com/articles/vim-creator-bram-moolenaar-interview,"Vim Creator Bram Moolenaar Interview",WebDev
+https://dzone.com/articles/kubernetes-networking-challenges,"Solving Four Kubernetes Networking Challenges",WebDev
+https://dzone.com/articles/pwa-push-notifications-in-javascript-yes-you-can-in-12-steps,"PWA Push Notifications in JavaScript? Yes, You Can in 12 Steps!",WebDev
+https://dzone.com/articles/top-5-python-frameworks-libraries-and-packages-for,"Top 5 Python Frameworks, Libraries, and Packages for Web Development",WebDev
+https://dzone.com/articles/backend-engineering-skills-are-emphasized-too-heav,"Backend Engineering Skills Are Emphasized Too Heavily for Principal...",WebDev
+https://dzone.com/articles/a-guide-to-svelte-reactive-variables,"A Guide To Svelte Reactive Variables",WebDev
+https://dzone.com/articles/first-steps-to-understanding-react,"The First Steps to Understanding React",WebDev
+https://dzone.com/articles/the-most-interesting-c-net-blogs-and-websites,"The Most Interesting C# / .NET Blogs and Websites",WebDev
+https://dzone.com/articles/chartjs-line-chart-for-route-elevations-graph,"Chart.js Line Chart Tutorial: Visualize Route Elevation Data",WebDev
+https://dzone.com/articles/Introduction-to-JIT-in-PHP-8,"Introduction to JIT in PHP 8",WebDev
+https://dzone.com/articles/digital-lending-is-a-new-trend-in-fintech-in-recen,"Digital Lending Is a New Trend in Fintech in Recent Years",WebDev
+https://dzone.com/articles/turn-visual-studio-code-into-a-top-notch-javascrip,"Turn Visual Studio Code Into A Top-Notch JavaScript IDE With These 25...",WebDev
+https://dzone.com/articles/top-skills-to-become-a-professional-full-stack-dev,"Top Skills To Become a Professional Full-Stack Developer in 2022",WebDev
+https://dzone.com/articles/golang-vs-python-programming-language,"Golang Vs. Python: Which Programming Language Will Suit You?",WebDev
+https://dzone.com/articles/top-web-scraping-tools,"Top 13 Web Scraping Tools in 2022",WebDev
+https://dzone.com/articles/top-front-end-development-trends-you-should-know-i,"Top Front End Development Trends You Should Know in 2022",WebDev
+https://dzone.com/articles/nodejs-vs-java-which-is-best-for-your-business-in,"Node.js vs Java: Which is Best for Your Business in 2022",WebDev
+https://dzone.com/articles/3-types-of-user-communication-apis-and-when-to-use,"3 Types of User Communication APIs and When to Use Them",WebDev
+https://dzone.com/articles/es2022-preview-10-exciting-javascript-language-fea,"ES2022 Preview: 10 Exciting JavaScript Language Features From 2021",WebDev
+https://dzone.com/articles/10-web-frameworks-for-golang-development,"10 Web Frameworks for Golang Development",WebDev
+https://dzone.com/articles/api-prototyping-for-salesforce-with-postman-1,"API Prototyping with Postman",WebDev
+https://dzone.com/articles/multiple-entry-points-for-the-ngxsimplecharts-angu,"Multiple Entry Points for the NgxSimpleCharts Angular Library",WebDev
+https://dzone.com/articles/demystifying-grids-for-developers-and-designers,"Demystifying Grids For Developers and Designers",WebDev
+https://dzone.com/articles/batch-processing-in-go,"Batch Processing in Go",WebDev
+https://dzone.com/articles/having-more-fun-creating-components-with-the-light,"Having (More) Fun Creating Components with the Lightning Design System for...",WebDev
+https://dzone.com/articles/step-by-step-walkthrough-of-your-first-svelte-appl,"Step by Step Walkthrough of Your First Svelte Application",WebDev
+https://dzone.com/articles/dev-tools-to-look-out-for-in-2022,"5 Dev Tools to Look Out for in 2022",WebDev
+https://dzone.com/articles/errors-and-suspicious-code-fragments-in-net-6-sour,"Errors and Suspicious Code Fragments in .NET 6 Sources",WebDev
+https://dzone.com/articles/angular-for-workflow-processes,"Angular for Workflow Processes",WebDev
+https://dzone.com/articles/hiring-full-stack-developers-6-skills-to-look-for,"Hiring Full-Stack Developers? 6 Skills To Look For in 2022",WebDev
+https://dzone.com/articles/how-to-create-and-run-your-first-svelte-rollup-app,"How To Create and Run Your First Svelte Rollup Application?",WebDev
+https://dzone.com/articles/is-nodejs-popular-in-2022,"Is Node.JS Popular in 2022?",WebDev
+https://dzone.com/articles/creating-5000-background-threads-in-my-aspnet-web,"Creating 5,000 background threads in my ASP.NET Web app",WebDev
+https://dzone.com/articles/why-choose-nodejs-for-backend-web-development-in-2,"Why Choose Node.js for Backend Web Development in 2022?",WebDev
+https://dzone.com/articles/xmake-v262-released-support-building-linux-kernel,"Xmake V2.6.2 Released: Support Building Linux Kernel Driver Module",WebDev
+https://dzone.com/articles/lancet-a-comprehensive-efficient-and-reusable-util-1,"Lancet: A Comprehensive, Efficient, and Reusable Util Function Library of...",WebDev
+https://dzone.com/articles/what-are-expressions-in-angularjs,"What Are Expressions in AngularJS?",WebDev
+https://dzone.com/articles/what-are-the-different-sorts-of-directives,"What Are the Different Sorts of Directives?",WebDev
+https://dzone.com/articles/top-choices-for-programming-languages-for-web-deve,"Top Choices for Programming Languages for Web Development",WebDev
+https://dzone.com/articles/what-are-the-8-stages-of-the-software-development,"8 Stages of the Software Development Life Cycle",WebDev
+https://dzone.com/articles/create-a-multi-tenancy-application-in-nestjs-part-3,"Create a Multi-tenancy Application In Nest.js - Part 3",WebDev
+https://dzone.com/articles/8-amazing-benefits-of-vuejs-that-can-make-your-dev,"8 Amazing Benefits of Vue.js That Can Make Your Dev Life Easy",WebDev
+https://dzone.com/articles/build-a-crypto-price-tracker-using-nodejs-and-cass,"Build A Crypto Price Tracker Using Node.js and Cassandra",WebDev
+https://dzone.com/articles/top-things-to-know-about-net-60,"Everything You Need To Know About .Net 6.0",WebDev
+https://dzone.com/articles/top-6-web-development-languages-to-use,"Top 6 Web Development Languages To Use",WebDev
+https://dzone.com/articles/enjoy-your-holiday-doom,"Enjoy Your Holiday DOOM",WebDev
+https://dzone.com/articles/the-developers-guide-to-building-notification-syst-2,"Developer's Guide to Building Notification Systems: Part 4 - Observability...",WebDev
+https://dzone.com/articles/developers-guide-to-building-notification-systems,"Developer's Guide to Building Notification Systems: Part 3 - Routing and...",WebDev
+https://dzone.com/articles/golang-first-look-at-generics,"Golang - First Look at Generics",WebDev
+https://dzone.com/articles/why-mean-stack-is-the-key-to-success-for-web-devel,"Why MEAN Stack Is Essential For Web Development?",WebDev
+https://dzone.com/articles/recreating-the-realworld-api-with-low-code,"Recreating the Real-World API With Low-Code",WebDev
+https://dzone.com/articles/the-developers-guide-to-building-notification-syst,"Developer's Guide to Building Notification Systems: Part 1 - User...",WebDev
+https://dzone.com/articles/the-developers-guide-to-building-notification-syst-1,"Developer's Guide to Building Notification Systems: Part 2 - Scalability...",WebDev
+https://dzone.com/articles/how-to-set-up-multi-channel-notifications-in-your,"How to Set Up Multi-Channel Notifications in AWS Stack",WebDev
+https://dzone.com/articles/how-to-use-shadow-dom,"Using the Shadow DOM to Isolate Styles on a DOM You Don't Own",WebDev
+https://dzone.com/articles/what-is-10dlc-and-why-should-you-care,"What is 10DLC, and Why Should You Care?",WebDev
+https://dzone.com/articles/4-kubernetes-anti-patterns-to-avoid,"4 Kubernetes Anti-Patterns to Avoid",WebDev
+https://dzone.com/articles/what-is-api-test-automation,"What Is API Test Automation?",WebDev
+https://dzone.com/articles/is-mathematics-crucial-as-a-software-developer,"Is Mathematics Crucial as a Software Developer?",WebDev
+https://dzone.com/articles/7-challenges-to-creating-your-ecommerce-shops-pwa,"7 Challenges of Creating Progressive Web Applications (PWAs)",WebDev
+https://dzone.com/articles/login-with-google-in-angular-firebase-application,"Login With Google in Angular Firebase Application",WebDev
+https://dzone.com/articles/why-php-is-more-hated-and-popular-than-ever,"Why PHP Is More Hated and Popular Than Ever Before",WebDev
+https://dzone.com/articles/develop-spring-boot-rest-api-in-aws-part-24-ecs-cl,"Develop Spring Boot REST API in AWS - Part 2: ECS Cluster",WebDev
+https://dzone.com/articles/cakephp-translation-agile-localization-for-devs,"CakePHP Translation: Agile Localization for Devs",WebDev
+https://dzone.com/articles/lifecycle-hooksangular,"Angular Lifecycle Hooks",WebDev
+https://dzone.com/articles/a-complete-guide-to-state-transition-testing,"A Complete Guide to State Transition Testing",WebDev
+https://dzone.com/articles/launching-a-profitable-app-startup-checklist,"Your Checklist for Launching a Profitable App Startup",WebDev
+https://dzone.com/articles/itcss-inverted-triangle-css,"Inverted Triangle Architecture for CSS (ITCSS)",WebDev
+https://dzone.com/articles/it-staff-augmentation-a-smart-way-to-hire-top-tale,"IT Staff Augmentation: A Smart Way To Hire Top Talent in 2022",WebDev
+https://dzone.com/articles/integrating-appgallery-connect-crash-in-a-xamarin,"Integrating AppGallery Connect Crash in a Xamarin App for Android",WebDev
+https://dzone.com/articles/building-an-aws-integration-for-salesforce-image-h,"Building an AWS Integration for Salesforce Image Handling",WebDev
+https://dzone.com/articles/how-to-do-deletion-animations-with-css,"How To Do Deletion Animations With CSS",WebDev
+https://dzone.com/articles/8-misconceptions-about-software-development,"8 Misconceptions About Software Development",WebDev
+https://dzone.com/articles/how-to-develop-web-application-using-ruby-on-rails,"How To Develop Web Application Using Ruby on Rails",WebDev
+https://dzone.com/articles/what-is-platform-ops-and-why-should-developers-nee,"What Is Platform Ops and Why Should Developers Need to Watch Out?",WebDev
+https://dzone.com/articles/powershell-inventor-jeffrey-snover-interview,"Interview - Jeffrey Snover, The Inventor of PowerShell",WebDev
+https://dzone.com/articles/how-to-use-ballerina-local-repository,"How to Use Ballerina Local Repository",WebDev
+https://dzone.com/articles/develop-spring-boot-rest-api-in-aws-part-14-codebu,"Develop Spring Boot REST API in AWS - PART 1/4 (CodeBuild + ECR)",WebDev
+https://dzone.com/articles/is-web-scraping-legal,"Is Web Scraping Legal?",WebDev
+https://dzone.com/articles/flutter-web-development-all-you-need-to-know,"Flutter Web Development: All You Need to Know",WebDev
+https://dzone.com/articles/backend-interview-with-oriol-saludes-fullstack-dev,"Backend Interview With Oriol Saludes: Fullstack Developer at Apiumhub",WebDev
+https://dzone.com/articles/revisiting-switch-and-if-then-else,"Revisiting Switch and If-then-else",WebDev
+https://dzone.com/articles/using-datafold-to-enhance-dbt,"Using Datafold to Enhance DBT for Data Observability",WebDev
+https://dzone.com/articles/how-to-create-widgets-with-swiftui-an-ios-app-deve,"How to Create Widgets With SwiftUI? An iOS App Development Guide",WebDev
+https://dzone.com/articles/introduce-gitops-across-any-infrastructure-without,"Introduce GitOps Across Any Infrastructure Without Adding Complexity",WebDev
+https://dzone.com/articles/pandas-pandastutor,"Pandas: Pandas Tutor",WebDev
+https://dzone.com/articles/dogs-not-barking-what-does-it-mean-in-it,"Dogs Not Barking: What Does It Mean in IT?",WebDev
+https://dzone.com/articles/8-easy-steps-to-set-up-multiple-git-accounts-cheat,"8 Easy Steps To Set Up Multiple Git Accounts (Cheat Sheet)",WebDev
+https://dzone.com/articles/teach-yourself-html-in-21-minutes,"Teach yourself HTML in 21 minutes",WebDev
+https://dzone.com/articles/what-to-know-about-drag-and-drop-app-builders,"What to Know About Drag and Drop App Builders",WebDev
+https://dzone.com/articles/ai-assisted-coding-with-tabnine,"AI-Assisted Coding with Tabnine",WebDev
+https://dzone.com/articles/trigger-c-functions-on-specific-intervals,"Trigger C# Functions on Specific Intervals",WebDev
+https://dzone.com/articles/a-beginners-guide-to-implementing-mvvm-architectur,"A Beginner’s Guide To Implementing MVVM Architecture In Flutter",WebDev
+https://dzone.com/articles/scalable-web-apps-how-does-micro-frontend-make-it-easy,"Scalable Web Apps: How Does Micro-Frontend Make it Easy?",WebDev
+https://dzone.com/articles/making-accessibility-more-accessible,"Making Accessibility More Accessible",WebDev
+https://dzone.com/articles/learn-how-to-use-vue-and-spring-boot-to-create-a-single-page-app,"Learn How to Use Vue and Spring Boot to Create a Single-Page App",WebDev
+https://dzone.com/articles/next-level-communication-with-infobip-and-webrtc-1,"Quick Start WebRTC with Infobip",WebDev
+https://dzone.com/articles/testing-websocket-endpoints-with-firecamp,"Testing WebSocket Endpoints With Firecamp",WebDev
+https://dzone.com/articles/trunk-based-development-2,"Trunk-Based Development",WebDev
+https://dzone.com/articles/short-circuiting-in-javascript,"Short-Circuiting in JavaScript",WebDev
+https://dzone.com/articles/five-data-quality-tools,"Five Data Quality Tools You Should Know",WebDev
+https://dzone.com/articles/vicious-test-mockery-of-a-perl-modulino,"Vicious (Test) Mockery of a Perl Modulino",WebDev
+https://dzone.com/articles/can-you-refactor-javascript-safely-without-test-co,"Can You Refactor JavaScript Safely Without Test Coverage?",WebDev
+https://dzone.com/articles/use-websockets-aws-serverless-framework,"How to Use WebSockets with AWS Serverless",WebDev
+https://dzone.com/articles/boost-your-efficiency-top-productivity-plugins-for-dev-teams,"Boost Your Efficiency: Top 5 Productivity Plugins For Dev Teams",WebDev
+https://dzone.com/articles/having-fun-with-the-lightning-design-system-for-re,"Having Fun with the Lightning Design System for React",WebDev
+https://dzone.com/articles/in-defense-of-clean-code-100-pieces-of-timeless-ad,"In Defense of Clean Code: 100+ pieces of timeless advice from Uncle Bob",WebDev
+https://dzone.com/articles/from-naked-objects-to-naked-functions,"From Naked Objects to Naked Functions",WebDev
+https://dzone.com/articles/how-to-get-the-current-url-with-javascript,"How To Get the Current URL With Javascript",WebDev
+https://dzone.com/articles/inserting-dynamic-data-into-jekyll-static-sites-python-bash,"Inserting Dynamic Data Into Jekyll Static Sites Using Python or Bash",WebDev
+https://dzone.com/articles/is-flutter-a-good-choice-for-creating-ios-apps,"Is Flutter a Good Choice for Creating iOS Apps?",WebDev
+https://dzone.com/articles/the-greatest-software-development-books-of-all-tim,"The Greatest Software Development Books of All Time",WebDev
+https://dzone.com/articles/art-generator-with-javascript-and-webgl,"Art Generator With Javascript and WebGL",WebDev
+https://dzone.com/articles/how-to-make-googles-data-grid-scroll-faster,"How to Make Google's Data Grid Scroll Faster",WebDev
+https://dzone.com/articles/multi-tenant-saas-where-to-start-18,"Multi-tenant SaaS: Where to Start?",WebDev
+https://dzone.com/articles/easy-pretty-url-redirects-with-jekyll-and-netlify,"Easy Pretty URL Redirects With Jekyll and Netlify",WebDev
+https://dzone.com/articles/optimising-jpg-and-png-images-for-a-jekyll-website,"Optimizing JPG and PNG Images for a Jekyll Website",WebDev
+https://dzone.com/articles/aspnet-web-api-benefits-and-why-to-choose-it,"ASP.NET Web API: Benefits and Why to Choose It",WebDev
+https://dzone.com/articles/why-you-should-develop-custom-api-for-your-busines,"Why You Should Develop Custom API for Your Business?",WebDev
+https://dzone.com/articles/simplifying-http-invocations,"Simplifying HTTP invocations",WebDev
+https://dzone.com/articles/things-you-can-only-do-with-a-web-ide,"Things you can only do with a Web IDE",WebDev
+https://dzone.com/articles/implementing-dynamic-heat-maps-in-angular-apps,"Implementing Dynamic Heat Maps In Angular Applications",WebDev
+https://dzone.com/articles/indexers-in-javascript,"Indexers in JavaScript",WebDev
+https://dzone.com/articles/css-pixel-art-generator,"CSS Pixel Art Generator",WebDev
+https://dzone.com/articles/linking-jekyll-pages-back-to-their-git-source-code,"Linking Jekyll Pages Back to Their Git Source Code",WebDev
+https://dzone.com/articles/extract-text-with-aws-textract-using-aws-step-func,"Extract Text With AWS Textract Using AWS Step Functions",WebDev
+https://dzone.com/articles/django-translation-agile-localization-for-developers,"Django Translation: Agile Localization for Devs",WebDev
+https://dzone.com/articles/how-does-enterkeyhint-work-in-html,"How Does enterkeyhint Work in HTML?",WebDev
+https://dzone.com/articles/top-reasons-why-you-should-opt-for-native-mobile-a,"Top Reasons Why You Should Opt for Native Mobile App Development",WebDev
+https://dzone.com/articles/get-started-with-typescript-the-easy-way-1,"Get Started With TypeScript the Easy Way",WebDev
+https://dzone.com/articles/react-hoc-for-the-event-read,"React Higher Order Component (Hoc) For the Event Read",WebDev
+https://dzone.com/articles/a-proper-guide-for-restful-api,"A Proper Guide For RESTful API",WebDev
+https://dzone.com/articles/deploying-ballerina-code-to-cloud,"Deploying Ballerina Code on the Cloud",WebDev
+https://dzone.com/articles/how-to-create-the-iphone-interface-with-long-press,"How to Create iPhone Interface with Long Press in Javascript",WebDev
+https://dzone.com/articles/react-vue-context-provider-pattern-with-custom-hoo,"̶R̶e̶a̶c̶t̶ VUE Context Provider Pattern With Custom Hooks",WebDev
+https://dzone.com/articles/xmake-new-version-features,"Introduction to Xmake v2.5.9's New Features",WebDev
+https://dzone.com/articles/the-difference-between-web-scraping-and-web-crawli,"The Difference Between Web Scraping and Web Crawling",WebDev
+https://dzone.com/articles/everything-software-developers-need-to-know-about,"Everything Software Developers Need to Know About Telemetry",WebDev
+https://dzone.com/articles/create-a-multi-tenancy-application-in-nestjs-part-2,"Create a Multi-tenancy Application In Nest.js - Part 2",WebDev
+https://dzone.com/articles/to-my-programmer-self-20-years-ago-do-these-4-thin,"To My Programmer Self 20 Years Ago: Do These 4 Things More",WebDev
+https://dzone.com/articles/how-to-implement-a-flutter-qr-code-scanner-plugin,"How to Implement a Flutter QR Code Scanner Plugin",WebDev
+https://dzone.com/articles/how-to-emit-and-listen-to-events-using-the-nestjs,"How To Emit and Listen to Events Using The NestJS Event Emitter?",WebDev
+https://dzone.com/articles/future-javascript-javascript-pipeline-operators,"Future Javascript: Javascript Pipeline Operators",WebDev
+https://dzone.com/articles/the-five-dysfunctions-of-an-engineering-team,"The Five Dysfunctions of an Engineering Team",WebDev
+https://dzone.com/articles/machine-learning-and-react-native-feasible-for-web,"Machine Learning and React Native: Feasible for Web Development?",WebDev
+https://dzone.com/articles/char-array-is-preferred-over-strings-to-store-pass,"Why Is Char Array Preferred Over Strings To Store Passwords in Java?",WebDev
+https://dzone.com/articles/code-quality-loc-4,"Analyzing Code Quality Through LoC",WebDev
+https://dzone.com/articles/google-charts-dashboard-a-tutorial-with-an-artisti,"Google Charts Dashboard: A Tutorial With an Artistic Touch of MoMA",WebDev
+https://dzone.com/articles/how-to-become-a-hyper-productive-software-develope,"Become a Hyper-Productive Software Developer in 1 Week",WebDev
+https://dzone.com/articles/how-i-got-a-web-dev-job-week-after-publishing-portfolio,"How I Got a Web Development Job 1 Week After Publishing My Portfolio",WebDev
+https://dzone.com/articles/meta-tag-reference-and-bullet-proof-html5-template,"Meta Tag Reference and Bullet Proof HTML5 Template",WebDev
+https://dzone.com/articles/how-to-automate-restful-apis-using-jayway,"How to Automate Restful APIs Using Jayway Library",WebDev
+https://dzone.com/articles/test-driven-development-with-the-oclif-testing-lib-1,"Test-Driven Development With The oclif Testing Library: Part Two",WebDev
+https://dzone.com/articles/support-for-transaction-api-for-codeless,"Transaction API Support for Codeless",WebDev
+https://dzone.com/articles/codeless-oauth-api-amp-email-api-attachments,"Codeless OAuth API and Email API Attachments",WebDev
+https://dzone.com/articles/ios-crystalline-blurred-backgrounds-with-css-backd,"iOS Crystalline Blurred Backgrounds with CSS Backdrop Filters",WebDev
+https://dzone.com/articles/nodejs-vs-python-pros-cons-and-use-cases,"Node.js Vs. Python: Pros, Cons, and Use Cases",WebDev
+https://dzone.com/articles/how-to-create-high-order-components-with-angular,"How to Create High Order Components With Angular",WebDev
+https://dzone.com/articles/building-secure-html-forms,"How to Build HTML Forms Right: Security",WebDev
+https://dzone.com/articles/test-driven-development-with-the-oclif-testing-lib,"Test-Driven Development With The oclif Testing Library: Part One",WebDev
+https://dzone.com/articles/rewrite-rules-in-nginx,"Rewrite Rules in Nginx",WebDev
+https://dzone.com/articles/how-to-generate-an-execution-plan-with-planner,"How to Generate an Execution Plan With Planner",WebDev
+https://dzone.com/articles/quick-and-easy-client-side-javascript-search-with,"Quick and Easy Client-side JavaScript Search With Lunr.js",WebDev
+https://dzone.com/articles/in-memory-automated-ui-testing-aspnet-core,"In-memory Automated UI Testing ASP.NET Core",WebDev
+https://dzone.com/articles/a-z-guide-to-an-ideal-dashboard-design,"A-Z Guide to an Ideal Dashboard Design",WebDev
+https://dzone.com/articles/how-product-engineering-teams-avoid-dependencies,"How Product Engineering Teams Avoid Dependencies",WebDev
+https://dzone.com/articles/deploying-jamstack-sites-to-azure,"Deploying Jamstack Sites to Azure",WebDev
+https://dzone.com/articles/the-power-of-saying-no-a-superpower,"Saying "NO" - A Superpower",WebDev
+https://dzone.com/articles/low-code-laravel-application-development,"Create and Deploy a Laravel Application Using a Low-code Approach",WebDev
+https://dzone.com/articles/data-table-filtering-d3-timeline,"Data Table Filtering Using a D3 Timeline",WebDev
+https://dzone.com/articles/how-prototyping-saves-you-key-development-time,"How Prototyping Saves You Key Development Time",WebDev
+https://dzone.com/articles/creating-light-and-dark-themes-for-websites-the-ri,"Creating Light and Dark Themes for Websites The Right Way Using...",WebDev
+https://dzone.com/articles/how-to-find-broken-images-using-selenium-webdriver,"How to Find Broken Images Using Selenium WebDriver",WebDev
+https://dzone.com/articles/tests-are-for-the-future,"Tests Are for the Future",WebDev
+https://dzone.com/articles/the-best-vs-code-extensions-for-remote-working,"The Best VS Code Extensions for Remote Work",WebDev
+https://dzone.com/articles/is-nextjs-here-to-stay-a-closer-look-at-javascript,"Is Next.js Here to Stay? A Closer Look at JavaScript Development Frameworks",WebDev
+https://dzone.com/articles/a-real-world-introduction-to-event-driven-architec,"A Real-World Introduction to Event-Driven Architecture",WebDev
+https://dzone.com/articles/live-video-mobile-apps-with-flutter,"Build Live Video Mobile Apps With Flutter",WebDev
+https://dzone.com/articles/the-ux-files-accessibility,"The UX Files: Accessibility",WebDev
+https://dzone.com/articles/turing-machine-prototype-of-programming-language-by-alan-turing-the-father-of-it-era,"Turing Machine: Prototype of Programming Language by Alan Turing, the...",WebDev
+https://dzone.com/articles/perform-nestjs-typeorm-transaction-using-queryrunner,"How to Perform a NestJS TypeORM Transaction Using QueryRunner?",WebDev
+https://dzone.com/articles/dynamic-styling-in-vuejs,"Dynamic Styling in Vue.js",WebDev
+https://dzone.com/articles/building-apps-that-avoid-in-app-taxes,"Building Apps That Avoid In-App Taxes: There Are Several Workable Options",WebDev
+https://dzone.com/articles/become-235-billion-times-more-productive,"Become 235 billion times more productive",WebDev
+https://dzone.com/articles/automatically-import-sass-scss-into-every-vuejs-component,"Automatically Import SASS/SCSS Into Every Vue.js Component",WebDev
+https://dzone.com/articles/how-css-subgrids-makes-vertical-alignment-easy,"How CSS Subgrids Make Vertical Alignment Easy",WebDev
+https://dzone.com/articles/enable-subscription-apollo-federation,"How to Enable Subscription in Apollo Federation With NestJS GraphQL",WebDev
+https://dzone.com/articles/how-to-build-html-forms-right-user-experience,"How to Build HTML Forms Right: User Experience",WebDev
+https://dzone.com/articles/tridion-sites-version-updates,"What’s Cooking in Tridion Sites 9.6 Pot",WebDev
+https://dzone.com/articles/when-to-utilize-cross-browser-testing,"How to Know When to Utilize Cross-Browser Testing",WebDev
+https://dzone.com/articles/tips-for-cutting-down-web-development-time-1,"Tips for Cutting Down Web Development Time",WebDev
+https://dzone.com/articles/the-middle-developer-plateau,"The Middle Developer Plateau",WebDev
+https://dzone.com/articles/openapi-for-secure-and-robust-api-integration,"How to Use OpenAPI for Secure and Robust API Integration",WebDev
+https://dzone.com/articles/solve-every-problem-twice,"Solve Every Problem Twice",WebDev
+https://dzone.com/articles/what-is-web-data-harvesting,"What Is Web Data Harvesting",WebDev
+https://dzone.com/articles/build-a-uwp-document-scanning-app-in-webview-conte,"Build a UWP Document Scanning App in WebView Context",WebDev
+https://dzone.com/articles/vagrant-box,"Building a Vagrant Box: Setting Up Your Environment",WebDev
+https://dzone.com/articles/token-based-security-angular-applications-part-3,"Token Based Security: Angular Applications, Part 3",WebDev
+https://dzone.com/articles/use-socketio-with-nuxtjsvuejs,"Use Socket.IO With Nuxt.js/Vue.js",WebDev
+https://dzone.com/articles/vue-pwa-a-progressive-web-application-development,"Vue PWA: A Progressive Web Application Development With Nuxt",WebDev
+https://dzone.com/articles/4-benefits-of-continuous-deployment,"4 Benefits of Continuous Deployment",WebDev
+https://dzone.com/articles/hyperlambda-the-fastest-programming-language-in-th,"Hyperlambda, the Fastest Programming Language in the World",WebDev
+https://dzone.com/articles/whats-new-in-nodejs-v16,"What’s New in NodeJS v16?",WebDev
+https://dzone.com/articles/extending-the-salesforce-cli-with-a-custom-plugin,"Extending the Salesforce CLI with a Custom Plugin",WebDev
+https://dzone.com/articles/utilising-binding-patterns-in-ballerina,"Using Binding Patterns in Ballerina",WebDev
+https://dzone.com/articles/5-jetbrain-plugins-upgrade-git-support,"5 JetBrains Plugins to Upgrade Your Built-In Git Support",WebDev
+https://dzone.com/articles/binding-patterns-in-ballerina,"Binding Patterns in Ballerina",WebDev
+https://dzone.com/articles/apiclarity-in-action,"Watching the Requests Go By: Reconstructing an API Spec with APIClarity",WebDev
+https://dzone.com/articles/azure-function-an-introduction,"Azure Function - An Introduction",WebDev
+https://dzone.com/articles/angularspring-boot-feature-activation-by-spring-pr,"Angular/Spring Boot Feature Activation by Spring Profile",WebDev
+https://dzone.com/articles/postman-collection-for-salesforce-mock-servers-and,"Postman Collection for Salesforce: Mock Servers and Code Snippets",WebDev
+https://dzone.com/articles/books-every-new-software-developer-should-read,"10 Books Every New Software Developer Should Read",WebDev
+https://dzone.com/articles/rails-encrypted-credentials-on-62,"Rails Encrypted Credentials on 6.2",WebDev
+https://dzone.com/articles/the-right-way-to-use-favicons,"The Right Way to Use Favicons",WebDev
+https://dzone.com/articles/5-things-to-consider-before-you-build-your-app,"5 Things to Consider Before You Build Your App",WebDev
+https://dzone.com/articles/why-dont-developers-write-more-tests,"Why Don't Developers Write More Tests?",WebDev
+https://dzone.com/articles/execute-playwright-test-sequentially-same-browser-context,"How to Run Playwright Tests Sequentially in Same Browser Context",WebDev
+https://dzone.com/articles/6-ways-to-ruin-your-logging,"6 Ways To Ruin Your Logging",WebDev
+https://dzone.com/articles/5-enterprise-web-development-trends-relevant-in-20,"5 Enterprise Web Development Trends Relevant in 2021-2022",WebDev
+https://dzone.com/articles/token-based-security-angular-applications-part-2,"Token Based Security: Angular Applications, Part 2",WebDev
+https://dzone.com/articles/super-dry-code,"Super DRY Code",WebDev
+https://dzone.com/articles/practical-complex-data-for-unit-testing,"Practical Complex Data for Unit Testing",WebDev
+https://dzone.com/articles/steps-to-convert-the-react-tesla-battery-range-calc-to-func-comp-with-hooks,"Hooks by Example: Convert a Tesla Battery Range Calculator to Functional...",WebDev
+https://dzone.com/articles/top-reasons-to-go-for-angular-development-servic,"Top Reasons to Go for Angular Development Services",WebDev
+https://dzone.com/articles/8-details-that-make-angular-the-favorite-web-dev,"8 Details That Make Angular the Favorite Web Development Framework",WebDev
+https://dzone.com/articles/deploying-a-kotlin-app-to-heroku,"Deploying a Kotlin App to Heroku",WebDev
+https://dzone.com/articles/how-to-build-a-github-activity-dashboard-with-open,"How To Build GitHub Activity Dashboard With Open-Source",WebDev
+https://dzone.com/articles/getting-started-with-low-code-in-5-minutes,"Getting Started With Low-Code in 5 Minutes",WebDev
+https://dzone.com/articles/creating-3d-css-buttons-which-move-as-you-mouse-ov,"Creating 3D CSS Buttons That Move as You Mouse Over",WebDev
+https://dzone.com/articles/how-to-create-your-own-abstract-base-class-in-pyth,"Create Your Own Abstract Base Class in Python: Using Polyhedral Dice...",WebDev
+https://dzone.com/articles/tips-to-enhance-your-cross-browser-testing-with-mi,"Tips To Enhance Your Cross Browser Testing With Minimal Effort",WebDev
+https://dzone.com/articles/css-variables-in-media-queries,"CSS Variables in Media Queries",WebDev
+https://dzone.com/articles/native-vs-cross-platform-app-development,"Pros and Cons of Native vs Cross-Platform App Development",WebDev
+https://dzone.com/articles/coding-challenges-for-web-developers,"10 Coding Challenge Websites For Developer",WebDev
+https://dzone.com/articles/how-to-standardize-postal-addresses,"How to Parse and Standardize Street/Postal Addresses",WebDev
+https://dzone.com/articles/transitioning-from-monolith-to-microservices,"Transitioning from Monolith to Microservices",WebDev
+https://dzone.com/articles/how-to-create-a-restful-client-in-go,"How To Create a Restful Client in Go?",WebDev
+https://dzone.com/articles/how-to-create-a-fully-automated-job-board-using-no,"How To Create a Fully Automated Job Board Using No-Code Tools",WebDev
+https://dzone.com/articles/how-to-use-react-with-react-bootstrap,"How To Use React With React Bootstrap?",WebDev
+https://dzone.com/articles/writing-logs-into-elastic-with-nlog-elk-and-net-50,"Writing Logs Into Elastic With NLog, ELK, and .NET 5.0",WebDev
+https://dzone.com/articles/dynamic-pagination-with-vuejs,"Dynamic Pagination With Vue.js",WebDev
+https://dzone.com/articles/transfer-data-with-animated-qr-codes,"Transfer Data With Animated QR codes",WebDev
+https://dzone.com/articles/dx-seo-e-commerce-thats-why-nextjs-is-so-popular,"DX, SEO, E-Commerce: Why Next.js Is so Popular",WebDev
+https://dzone.com/articles/token-based-security-angular-applications-part-1,"Token-based Security: Angular Applications - Part 1",WebDev
+https://dzone.com/articles/angular-2-vs-angularjs-for-e-commerce,"Angular 2 vs AngularJS for E-Commerce: What’s the Difference?",WebDev
+https://dzone.com/articles/leveraging-salesforce-using-a-client-written-in-an,"Leveraging Salesforce Using a Client Written In Angular",WebDev
+https://dzone.com/articles/how-to-extend-laravel-with-driver-based-services,"How To Extend Laravel With Driver-Based Services",WebDev
+https://dzone.com/articles/best-practices-how-to-write-an-nda-with-external-d,"Best Practices To Write an NDA With External Developers",WebDev
+https://dzone.com/articles/lamp-is-dead-long-live-perl-web-frameworks,"LAMP Is Dead! Long Live (Perl) Web Frameworks",WebDev
+https://dzone.com/articles/how-to-use-paperjs-to-compare-rc-cars,"How To Use paper.js To Compare RC Cars",WebDev
+https://dzone.com/articles/web-application-architecture-best-practices-in-202,"Web Application Architecture Best Practices in 2021",WebDev
+https://dzone.com/articles/why-developers-are-embracing-modern-card-issuing-a,"Why Developers are Embracing Modern Card Issuing and the Open API",WebDev
+https://dzone.com/articles/a-brief-guide-to-using-sassscss-in-an-angular-app,"A Brief Guide to Using Sass/SCSS in an Angular App",WebDev
+https://dzone.com/articles/key-design-guidelines-building-privacy-friendly-apps,"Key Design Guidelines for Building Privacy-Friendly Applications",WebDev
+https://dzone.com/articles/you-cant-keep-building-on-a-broken-system-why-mana,"You Can’t Keep Building on a Broken System: Why managing technical debt is...",WebDev
+https://dzone.com/articles/nestjs-pipes-with-examples,"NestJS Pipes With Examples",WebDev
+https://dzone.com/articles/django-using-context-processors-for-custom-environments,"Django: Context Processors for Custom Environments",WebDev
+https://dzone.com/articles/why-do-you-need-the-misra-compliance-report-and-ho,"Why You Need the MISRA Compliance Report and How to Generate One in...",WebDev
+https://dzone.com/articles/token-based-security-part-6-setting-up-identity-se,"Token-Based Security Part 6: Setting Up Identity-Server UI",WebDev
+https://dzone.com/articles/what-is-filter-method-in-javascript-1,"What Is filter() Method in JavaScript",WebDev
+https://dzone.com/articles/manual-feature-toggles-in-c,"Manual Feature Toggles in C",WebDev
+https://dzone.com/articles/with-test-slices-you-can-test-spring-boot-faster,"With Test Slices, You Can Test Spring Boot Faster",WebDev
+https://dzone.com/articles/introduction-to-jekyll,"Introduction to Jekyll",WebDev
+https://dzone.com/articles/how-to-build-scalable-and-robust-enterprise-web-ap,"How To Build Scalable and Robust Enterprise Web Applications",WebDev
+https://dzone.com/articles/leveraging-salesforce-using-mobile-applications-wr,"Leveraging Salesforce Using Mobile Applications Written (Once) In React...",WebDev
+https://dzone.com/articles/most-trending-tech-stacks-for-web-development-fitt,"Most Trending Tech Stacks for Web Development Fitting Your Needs",WebDev
+https://dzone.com/articles/low-code-development-for-developers,"Why Developers Should Care About Low Code Development",WebDev
+https://dzone.com/articles/how-to-choose-technology-stack-for-web-app-dev,"Choose a Technology Stack for Web Application Development",WebDev
+https://dzone.com/articles/automate-sign-in-selenium-web-driver,"Automate Sign-In To Any Website Using Selenium Web-Driver",WebDev
+https://dzone.com/articles/how-to-animate-data-with-the-arcgis-api-for-javasc,"How To Animate Data With the ArcGIS API for JavaScript",WebDev
+https://dzone.com/articles/16-hotel-technology-trends-gaining-steam-in-2021,"16 Hotel Technology Trends Gaining Steam in 2021",WebDev
+https://dzone.com/articles/how-to-build-html-forms-right-styling,"How to Build HTML Forms Right: Styling",WebDev
+https://dzone.com/articles/5-html-and-css-good-practices,"5 HTML and CSS Good Practices",WebDev
+https://dzone.com/articles/7-vs-code-extensions-for-frontend-developers,"VS Code Extensions for Frontend Developers",WebDev
+https://dzone.com/articles/using-variables-in-jekyll-to-define-custom-content,"Using Variables in Jekyll To Define Custom Content",WebDev
+https://dzone.com/articles/website-accessibility-what-you-need-to-know,"Website Accessibility: What You Need to Know",WebDev
+https://dzone.com/articles/migrating-to-kubernetes-what-you-need-to-know,"Migrating to Kubernetes: What You Need to Know",WebDev
+https://dzone.com/articles/deploying-the-adobe-pdf-embed-api-with-adobe-exper,"Deploying the Adobe PDF Embed API with Adobe Experience Platform Launch",WebDev
+https://dzone.com/articles/oracle-apex-tutorial-uncover-the-oracles-best-kept,"Oracle APEX Tutorial: Uncover The Best Low-Code Secrets",WebDev
+https://dzone.com/articles/leveraging-salesforce-using-a-client-written-in-vu,"Leveraging Salesforce Using a Client Written In Vue.js",WebDev
+https://dzone.com/articles/top-php-frameworks-1,"Top PHP Frameworks",WebDev
+https://dzone.com/articles/the-hitchhikers-guide-to-laravel-vapor,"The Hitchhiker’s Guide to Laravel Vapor",WebDev
+https://dzone.com/articles/how-to-check-if-an-exception-is-raised-or-not-with,"How To Check if an Exception Is Raised (Or Not) With pytest",WebDev
+https://dzone.com/articles/some-vulnerabilities-of-react-js-security-guide-fo,"Some Vulnerabilities of React.js Security-Guide for 2021",WebDev
+https://dzone.com/articles/talk-python-to-me-podcast-founder-michael-kennedy,"Talk Python To Me Podcast Founder Michael Kennedy Interview",WebDev
+https://dzone.com/articles/97-things-every-java-programmer-should-know-with-kevlin-henney,"97 Things Every Java Programmer Should Know with Kevlin Henney [Podcast]",WebDev
+https://dzone.com/articles/event-driven-apis-with-webhook-and-websub,"Event-Driven APIs With Webhook and WebSub",WebDev
+https://dzone.com/articles/the-best-javascript-frameworks-for-2022,"The Best Javascript Frameworks for 2022",WebDev
+https://dzone.com/articles/drawbacks-of-mobx,"The Drawbacks of MobX",WebDev
+https://dzone.com/articles/creating-a-10-million-visits-a-month-community-at,"Creating a 10 Million Visits a Month Community at DZone",WebDev
+https://dzone.com/articles/async-support-in-django,"Async Support in Django",WebDev
+https://dzone.com/articles/iframe-pcf-control-used-in-ms-power-app,"Iframe PCF Control Used in MS Power App",WebDev
+https://dzone.com/articles/software-engineering-is-a-losers-game,"Software Engineering is a Loser’s Game",WebDev
+https://dzone.com/articles/using-the-in-built-nestjs-validationpipe,"Using the In-Built NestJS ValidationPipe",WebDev
+https://dzone.com/articles/top-10-location-tracking-apps-for-enhanced-safety,"Top 10 Location Tracking Apps for Enhanced Safety in 2021",WebDev
+https://dzone.com/articles/a-simple-web-crawler-with-nodejs,"A Simple Web Crawler with Node.js",WebDev
+https://dzone.com/articles/composite-requests-in-salesforce-are-a-great-idea,"Composite Requests in Salesforce Are a Great Idea",WebDev
+https://dzone.com/articles/challenges-implementing-ddd,"Challenges With Implementing DDD",WebDev
+https://dzone.com/articles/a-good-old-fashioned-perl-log-analyzer,"A Good Old-Fashioned Perl Log Analyzer",WebDev
+https://dzone.com/articles/dont-get-caught-in-these-6-mobile-ab-testing-mista,"Don’t Get Caught in These 6 Mobile A/B Testing Mistakes",WebDev
+https://dzone.com/articles/key-features-of-swift-programming-language,"Key Features of Swift Programming Language",WebDev
+https://dzone.com/articles/how-to-reduce-costs-in-cross-platform-mobile-devel,"How Do You Reduce Costs in Cross-Platform Mobile Development?",WebDev
+https://dzone.com/articles/react-hooks-vs-redux,"React Hooks vs. Redux: Choosing the Right State Management Strategy",WebDev
+https://dzone.com/articles/what-is-segmentation-in-operating-system,"What Is Segmentation in Operating System?",WebDev
+https://dzone.com/articles/intermodular-analysis-of-c-projects-in-pvs-studio,"Intermodular Analysis of C++ Projects in PVS-Studio",WebDev
+https://dzone.com/articles/optimization-of-net-applications-a-big-result-of-s,"Optimization of .NET Applications: A Big Result From Small Edits",WebDev
+https://dzone.com/articles/will-the-real-senior-dev-please-stand-up-2021-edit,"Will the Real Senior Dev Please Stand Up? (2021 Edition)",WebDev
+https://dzone.com/articles/how-a-low-code-approach-can-scale-to-building-mvps-1,"How a Low-Code Approach Can Scale to Building MVPs (Part 2)",WebDev
+https://dzone.com/articles/how-a-low-code-approach-can-scale-to-building-mvps,"How a Low-Code Approach Can Scale to Building MVPs (Part 1)",WebDev
+https://dzone.com/articles/migrate-to-vuejs-3-composition-api-and-typescript,"Migrate to VueJS 3, Composition API, and TypeScript?",WebDev
+https://dzone.com/articles/did-you-know-you-can-implement-web-guis-in-java-he,"Learn How To Implement Web GUIs in Java",WebDev
+https://dzone.com/articles/golang-app-with-embedded-webassembly-functions-wasmedge,"Extend Your Golang App With Embedded WebAssembly Functions in WasmEdge",WebDev
+https://dzone.com/articles/top-web-development-trends-how-to-stay-ahead,"Top 10 Web Development Trends: How To Stay Ahead In 2021",WebDev
+https://dzone.com/articles/how-to-scale-like-a-boss-with-heroku-dynos,"How to Scale Like a Boss with Heroku Dynos",WebDev
+https://dzone.com/articles/the-ultimate-list-of-free-coding-games-for-learnin,"Free Coding Games for Learning Web Development",WebDev
+https://dzone.com/articles/amount-validator-js,"Amount Validator JS [Snippets]",WebDev
+https://dzone.com/articles/typescript-44-be-on-your-guard,"TypeScript 4.4: Be on Your Guard",WebDev
+https://dzone.com/articles/a-guide-to-web-scraping-in-python-using-beautifuls,"A Guide to Web Scraping in Python using BeautifulSoup",WebDev
+https://dzone.com/articles/understanding-significance-observables-javascript-programming,"Understanding the Significance of Observables in JavaScript Programming",WebDev
+https://dzone.com/articles/best-python-compilers-for-developers,"The 10 Best Python Compilers for Developers",WebDev
+https://dzone.com/articles/nodejs-vs-php-understanding-serverside-development,"Node.js vs. PHP: Understanding Server-Side Development",WebDev
+https://dzone.com/articles/user-analytics-for-web-apps,"3 Ways to Gather and Leverage User Analytics for Your Web App",WebDev
+https://dzone.com/articles/an-introduction-to-type-safety-in-javascript-with-prisma,"An Introduction to Type Safety in JavaScript With Prisma",WebDev
+https://dzone.com/articles/building-zero-trust-with-an-api-gateway-and-servic,"Building Zero Trust with an API Gateway and Service Mesh",WebDev
+https://dzone.com/articles/nestjs-providers-with-examples,"NestJS Providers With Examples",WebDev
+https://dzone.com/articles/python-low-code-development-jupyter-notebooks,"Python and Low-Code Development: Smooth Sailing With Jupyter Notebooks",WebDev
+https://dzone.com/articles/no-code-low-code-development-ultimate-time-saver,"No-Code and Low-Code Development: The Ultimate Dev Time-Saver",WebDev
+https://dzone.com/articles/low-code-automation-myths-debunked,"Low-Code Automation Myths Debunked",WebDev
+https://dzone.com/articles/no-code-automated-testing-best-practices-tools,"No-Code Automated Testing: Best Practices and Tools",WebDev
+https://dzone.com/articles/how-to-build-html-forms-right-semantics,"How to Build HTML Forms Right: Semantics",WebDev
+https://dzone.com/articles/low-code-the-silent-revolution,"Low-Code, the Silent Revolution",WebDev
+https://dzone.com/articles/how-to-improve-website-loading-speed,"How To Improve Website Loading Speed",WebDev
+https://dzone.com/articles/top-10-trends-to-reshape-ios-app-development-in-20,"Top 10 Trends to Reshape iOS App Development in 2021",WebDev
+https://dzone.com/articles/why-use-flutter-over-react-native-for-app-developm,"Why I Prefer Flutter Over React Native for App Development",WebDev
+https://dzone.com/articles/software-development-models-how-to-choose-the-right-one,"7 Software Development Models: How to Choose the Right One?",WebDev
+https://dzone.com/articles/what-is-webrtc-and-how-it-works,"What Is WebRTC and How It Works",WebDev
+https://dzone.com/articles/web-application-development-principles-to-be-followed,"12 Web Application Development Principles To Be Followed In 2021",WebDev
+https://dzone.com/articles/how-much-time-does-low-code-save-you,"How much time does Low-Code save you?",WebDev
+https://dzone.com/articles/cypress-preserve-cookies-and-keep-login-session-active-in-tests,"Cypress Tests: Preserve Cookies and Keep Login Session Active",WebDev
+https://dzone.com/articles/why-choose-nodejs-for-real-time-application-develo,"Node.js for Real-Time Application Development",WebDev
+https://dzone.com/articles/how-to-build-html-forms-right-accessibility,"How to Build HTML Forms Right: Accessibility",WebDev
+https://dzone.com/articles/leveraging-salesforce-using-a-client-written-in-sv,"Leveraging Salesforce Using a Client Written In Svelte",WebDev
+https://dzone.com/articles/ruby-based-legacy-system-modernization-case-studie,"Ruby-Based Legacy System Modernization Case Studies",WebDev
+https://dzone.com/articles/dos-and-donts-for-making-your-nodejs-application-f,"Do's and Don'ts for Making Your NodeJS Application Faster",WebDev
+https://dzone.com/articles/improving-mobile-app-performance-with-a-powerful-database,"Improving Mobile App Performance With a Powerful Database",WebDev
+https://dzone.com/articles/best-chat-solution-to-choose-from-firebase-firecha,"Top 4 Chat Solutions",WebDev
+https://dzone.com/articles/building-high-performance-websockets-on-android-vi,"Building High Performance WebSockets on Android [Video]",WebDev
+https://dzone.com/articles/flutter-vs-react-native-what-is-the-best-language,"Flutter vs React Native: What Is the Best Language for Food Delivery App...",WebDev
+https://dzone.com/articles/how-to-code-for-beginners,"How to Code for Beginners",WebDev
+https://dzone.com/articles/nestjs-basics-and-core-fundamentals,"NestJS Basics and Core Fundamentals",WebDev
+https://dzone.com/articles/how-typescript-enums-work,"How Typescript Enums Work",WebDev
+https://dzone.com/articles/rusts-vector,"Rust's Vector",WebDev
+https://dzone.com/articles/low-code-enterprise-application-development-the-fu,"Low-Code Enterprise Application Development: The Future of Technology",WebDev
+https://dzone.com/articles/symfony-vs-laravel-why-symfony-is-better-than-lara,"Symfony vs Laravel: Why Symfony Is Better Than Laravel",WebDev
+https://dzone.com/articles/the-appstore-is-giving-away-free-apples,"The AppStore is giving away free apples!",WebDev
+https://dzone.com/articles/what-services-does-a-software-development-company,"Services Offered by Software Development Companies",WebDev
+https://dzone.com/articles/omg-svg-favicons-ftw,"OMG, SVG Favicons FTW!",WebDev
+https://dzone.com/articles/preach-to-the-choir-article-about-low-code-no-cod,"A “Preach to the Choir” About Low-Code/No-Code and Legacy Application...",WebDev
+https://dzone.com/articles/protractor-is-dead-long-live-cypress-part-1,"Protractor Is Dead, Long Live Cypress! (Part 1) [Video]",WebDev
+https://dzone.com/articles/top-pros-and-cons-of-reactjs-web-application-devel,"Top Pros and Cons of ReactJS Web Application Development",WebDev
+https://dzone.com/articles/top-reasons-why-you-should-opt-for-offshore-softwa,"Top Reasons Why Offshore Software Development Is Becoming Increasingly...",WebDev
+https://dzone.com/articles/automate-oracle-flexcube-testing-protect-core-bank,"Automate Oracle FLEXCUBE Testing",WebDev
+https://dzone.com/articles/9-vital-reasons-to-use-docker-with-aspnet,"9 Vital Reasons to Use Docker With ASP.NET",WebDev
+https://dzone.com/articles/go-language-library-for-reading-and-writing-micros,"Read and Write Excel (XLSX) Files With Go",WebDev
+https://dzone.com/articles/the-value-of-wireframing-in-the-design-process,"The Value of Wireframing in the Design Process",WebDev
+https://dzone.com/articles/building-a-restful-service-using-aspnet-core-and-d,"Building a RESTful Service Using ASP.NET Core and dotConnect for PostgreSQL",WebDev
+https://dzone.com/articles/testcafe-typescript-javascript-automation-testing-from-scratch,"How to Set up TestCafe and TypeScript JavaScript End-to-End Automation...",WebDev
+https://dzone.com/articles/a-guide-to-the-best-barcode-reader-sdks,"A Guide to the Best Barcode Reader SDKs",WebDev
+https://dzone.com/articles/working-with-transactions-in-entity-framework-core,"Working With Transactions in Entity Framework Core and Entity Developer",WebDev
+https://dzone.com/articles/a-guide-to-component-driven-development-cdd,"A Guide to Component Driven Development (CDD)",WebDev
+https://dzone.com/articles/mongodb-and-its-database-architecture,"An Introduction to MongoDB and its Database Architecture",WebDev
+https://dzone.com/articles/how-selenium-4-relative-locator-can-change-the-way,"How Selenium 4 Relative Locator Can Change The Way You Test",WebDev
+https://dzone.com/articles/express-js-conditional-routing-how-to-route-multip,"Express JS Conditional Routing: How to Route Multiple Payment Gateways",WebDev
+https://dzone.com/articles/5-critical-areas-of-focus-for-software-product-dev,"5 Critical Areas of Focus for Software Product Development Partner...",WebDev
+https://dzone.com/articles/dzone-live-episode-7-writing-summit,"DZone Live Episode 7: Writing Summit",WebDev
+https://dzone.com/articles/3-great-tools-your-android-mobile-app-developer-wi,"3 Great Tools Your Android Mobile App Developer Will Love to Use",WebDev
+https://dzone.com/articles/5-of-the-most-popular-iphone-development-tools,"5 of the Most Popular iPhone Development Tools",WebDev
+https://dzone.com/articles/build-a-customer-service-chatbot-using-python-flas,"Build a Customer Service Chatbot Using Python, Flask, and Pinecone",WebDev
+https://dzone.com/articles/4-reasons-why-net-core-angular-is-great-combinatio,"4 Reasons Why .NET Core + Angular Is a Great Combination for Web App...",WebDev
+https://dzone.com/articles/how-to-hire-react-native-developer-a-guide-for-the,"How To Hire React Native Developer — A Guide For The Founder (Part 1)",WebDev
+https://dzone.com/articles/getting-started-with-webdriverio-typescript-jasmin,"Getting Started With WebdriverIO Typescript Jasmine",WebDev
+https://dzone.com/articles/how-to-build-a-web-document-scanner-with-blazor,"How to Build a Web Document Scanner With Blazor",WebDev
+https://dzone.com/articles/leveraging-salesforce-without-using-salesforce,"Leveraging Salesforce Using Spring Boot",WebDev
+https://dzone.com/articles/intro-to-the-content-security-policy-csp,"Introduction to Content Security Policy (CSP)",WebDev
+https://dzone.com/articles/how-to-handoff-accurate-specs,"Design Implementation With App Development",WebDev
+https://dzone.com/articles/how-to-set-up-react-18-alpha-snowpack-vercel,"A First Look at How To Set Up React 18 Alpha With Snowpack and Vercel",WebDev
+https://dzone.com/articles/why-headless-cms-needs-page-management,"Why Headless CMS Needs Page Management",WebDev
+https://dzone.com/articles/top-10-web-developer-communities-to-join-2021,"Top 10 Web Developer Communities Developers Should Join in 2021",WebDev
+https://dzone.com/articles/popular-javascript-treegrid-components-for-product,"Popular JavaScript TreeGrid Components for Productive Data Management",WebDev
+https://dzone.com/articles/securing-modern-development-lifecycle-in-the-cloud,"Securing Modern Development Lifecycle in The Cloud With The Microsoft...",WebDev
+https://dzone.com/articles/transforming-messages-with-dataweave,"Transforming Messages With DataWeave",WebDev
+https://dzone.com/articles/tutorial-how-to-create-a-modal-in-ui-builder,"How to Create a Modal in UI Builder",WebDev
+https://dzone.com/articles/common-anti-patterns-in-python,"Common Anti-Patterns in Python",WebDev
+https://dzone.com/articles/demo-how-to-build-a-no-code-to-do-app-with-ui-buil,"Demo: How to Build a No-Code to-Do App With UI Builder",WebDev
+https://dzone.com/articles/dzone-live-episode-6-the-low-codeno-code-special-s,"DZone Live Episode 6: The Low-Code/No-Code Special Show",WebDev
+https://dzone.com/articles/2021-prospects-for-the-development-of-net-amp-ruby,".NET Vs Ruby in 2021",WebDev
+https://dzone.com/articles/breaking-up-the-god-service-using-heroku,"Breaking Up the God Service Using Heroku",WebDev
+https://dzone.com/articles/cypress-test-suite-grouping-and-organizing-tests,"Cypress Test Suite: Grouping and Organizing Tests",WebDev
+https://dzone.com/articles/delegating-effectively-as-a-tech-lead,"Delegating Effectively as a Tech Lead",WebDev
+https://dzone.com/articles/what-are-micro-apps-and-why-businesses-need-them,"What Are Micro-apps and Why Do Businesses Need Them?",WebDev
+https://dzone.com/articles/3-business-benefits-of-custom-erp-and-custom-softw,"3 Business Benefits of Custom ERP and Custom Software Development",WebDev
+https://dzone.com/articles/protractor-end-of-life-alternative-tools,"Protractor End of Support, Future of Angular E2E, Best Alternative Tools",WebDev
+https://dzone.com/articles/observability-recipes,"Observability Recipes",WebDev
+https://dzone.com/articles/7-key-reasons-why-progressive-web-apps-are-the-fut,"7 Key Reasons Why Progressive Web Apps Are the Future of Web Development",WebDev
+https://dzone.com/articles/drupal-8-features-you-must-know,"22 Drupal 8 Features You Must Know",WebDev
+https://dzone.com/articles/three-advantages-of-working-with-mean-stack-for-yo,"Three Advantages of Working with MEAN Stack for Your Development Project",WebDev
+https://dzone.com/articles/6-crucial-skills-for-angular-development-services,"6 Crucial Skills for Angular Development Services and Project Success",WebDev
+https://dzone.com/articles/metamorphosis-of-an-e-commerce-system-by-kafka,"Metamorphosis of an E-Commerce System by Kafka",WebDev
+https://dzone.com/articles/are-you-guys-still-coding,"Are you guys still coding?",WebDev
+https://dzone.com/articles/configure-cypress-tests-to-run-on-multiple-environments,"Configure Cypress Tests to Run on Multiple Environments",WebDev
+https://dzone.com/articles/perl-debugger-superpowers-part-2,"Perl Debugger Superpowers, Part 2",WebDev
+https://dzone.com/articles/what-the-heck-are-websockets,"What the Heck Are WebSockets!?",WebDev
+https://dzone.com/articles/the-floating-point-precision-error,"The Floating Point Precision Error",WebDev
+https://dzone.com/articles/websockets-tutorial-creating-a-real-time-websocket,"WebSockets Tutorial: Creating a Real-Time WebSocket Server",WebDev
+https://dzone.com/articles/how-to-execute-javascript-commands-in-cypress,"How To Execute Javascript Commands in Cypress",WebDev
+https://dzone.com/articles/javascript-class-vs-prototype-organizing-javascrip,"JavaScript Class vs Prototype - Organizing JavaScript Code",WebDev
+https://dzone.com/articles/how-much-can-a-single-developer-accomplish-in-a-ye,"How Much Can a Single Developer Accomplish in a Year?",WebDev
+https://dzone.com/articles/javafx-overview-with-hands-on-3,"JavaFX — Overview with Hands-on",WebDev
+https://dzone.com/articles/cypress-typescript-end-to-end-automation-testing-from-scratch,"How to Set up Cypress and Typescript End-to-End Automation Testing...",WebDev
+https://dzone.com/articles/web-barcode-reader-using-b4x,"Web Barcode Reader Using B4X",WebDev
+https://dzone.com/articles/working-with-lazy-loading-and-eager-loading-in-ent,"Working With Lazy Loading and Eager Loading in Entity Framework Core and...",WebDev
+https://dzone.com/articles/the-unknown-design-pattern,"The Unknown Design Pattern",WebDev
+https://dzone.com/articles/jquery-vs-vuejs,"jQuery vs Vue.js",WebDev
+https://dzone.com/articles/3-areas-of-focus-to-consider-when-selecting-an-and-1,"3 Areas of Focus to Consider When Selecting an Android Development Partner",WebDev
+https://dzone.com/articles/a-brief-insight-into-managing-ux-projects-1,"A Brief Insight Into Managing UX Projects",WebDev
+https://dzone.com/articles/brief-rundown-about-the-flourishing-uber-x-app,"A Brief Rundown About the Flourishing Uber X App",WebDev
+https://dzone.com/articles/how-dgraph-cloud-can-assist-your-customer-360-goal,"How Dgraph Cloud Can Assist Your Customer 360 Goals",WebDev
+https://dzone.com/articles/7-easy-steps-to-generate-xml-and-html-reports-in-cypress,"7 Easy Steps to Generate Both XML and HTML Reports in Cypress",WebDev
+https://dzone.com/articles/typescript-43-i-object-your-honour,"TypeScript 4.3: I Object, Your Honour!",WebDev
+https://dzone.com/articles/getting-wicked-cool-with-the-wicked-coolkit,"Getting Wicked Cool with the Wicked Coolkit",WebDev
+https://dzone.com/articles/revisiting-regular-expression,"Revisiting Regular Expression",WebDev
+https://dzone.com/articles/fintech-and-software-development-opportunities,"Fintech and Software Development Opportunities in IT",WebDev
+https://dzone.com/articles/cypress-generate-html-results-with-screenshot,"How to Generate HTML Reports With Screenshots in Cypress",WebDev
+https://dzone.com/articles/importance-of-customer-experience-in-software-deve,"The Importance of Customer Experience in Software Development",WebDev
+https://dzone.com/articles/dzone-community-meetup-how-to-learn-git-commands-f,"[DZone Community Meetup] How to Learn Git Commands Fast with Best Practices",WebDev
+https://dzone.com/articles/what-i-learned-by-relearning-html,"What I Learned by Relearning HTML",WebDev
+https://dzone.com/articles/bringing-back-the-90s-with-the-wicked-coolkit,"Bringing Back the 90s with the Wicked Coolkit",WebDev
+https://dzone.com/articles/on-demand-apps-how-are-they-disrupting-modern-day,"How Are On-Demand Apps Disrupting Modern-Day Businesses?",WebDev
+https://dzone.com/articles/angularjs-vs-react-js-vs-vue-js-a-detailed-compari,"AngularJS Vs. ReactJS Vs. VueJS: A Detailed Comparison",WebDev
+https://dzone.com/articles/building-3factor-apps-with-event-driven-programming,"Building Modern 3factor Apps in 2021 With Event-Driven Programming",WebDev
+https://dzone.com/articles/e2e-testing-with-react-jest-and-the-testproject-ja,"E2E Testing with React, Jest, and the TestProject JavaScript OpenSDK",WebDev
+https://dzone.com/articles/how-blockchain-is-revolutionizing-ecommerce-paymen,"5 Ways Blockchain Is Revolutionizing E-commerce Payments",WebDev
+https://dzone.com/articles/pros-and-cons-of-outsourcing-software-development,"Pros and Cons of Outsourcing Software Development",WebDev
+https://dzone.com/articles/is-c-a-dying-language,"Is C# a Dying Language? [Video]",WebDev
+https://dzone.com/articles/package-management-in-go,"Package Management in Go",WebDev
+https://dzone.com/articles/moving-perl-mojolicious-routes-to-their-own-module,"Moving Perl Mojolicious Routes to Their Own Module",WebDev
+https://dzone.com/articles/user-survey-what-devs-should-know-about-app-prefer,"User Survey: What Devs Should Know About App Preferences",WebDev
+https://dzone.com/articles/write-your-own-imaging-processing-ui-in-15-minutes,"Write Your Own Imaging Processing UI in 15 Minutes, Using Kotlin and...",WebDev
+https://dzone.com/articles/decorators-and-mixins-in-lightning-web-components,"Decorators and Mixins in Lightning Web Components",WebDev
+https://dzone.com/articles/updating-and-supporting-url-parameters-with-vuejs,"Updating (and Supporting) URL Parameters With Vue.js",WebDev
+https://dzone.com/articles/how-to-make-an-e-learning-app-for-android-and-ios,"How To Make an E-Learning App for Android and iOS",WebDev
+https://dzone.com/articles/consequences-of-plagiarism-in-web-design,"Consequences of Plagiarism in Web Design",WebDev
+https://dzone.com/articles/top-web-design-trends,"All You Need to Know About 8 Web Design Trends: 2021",WebDev
+https://dzone.com/articles/regular-expression-in-python-using-re-module,"Regular Expressions in Python Using The re Module",WebDev
+https://dzone.com/articles/Deep-Links-with-Angular-Routing-and-i18n-in-Prod-Mode,"Deep Links With Angular Routing and i18n in Prod Mode",WebDev
+https://dzone.com/articles/5-things-you-should-consider-before-wireframing-1,"5 Things You Should Consider Before Wireframing",WebDev
+https://dzone.com/articles/hit-for-miss-and-why-a-null-ttl-is-bad-for-you,"Hit-for-Miss and Why a Null TTL Is Bad For You",WebDev
+https://dzone.com/articles/creating-a-web-chat-with-signalr-web-sockets-angul,"Creating a Web Chat with SignalR, Web Sockets, Angular and Magic",WebDev
+https://dzone.com/articles/top-ecommerce-trends,"Top 5 eCommerce Trends For 2022",WebDev
+https://dzone.com/articles/vuejs-and-symfony-forms,"Vue.js and Symfony Forms",WebDev
+https://dzone.com/articles/whats-happening-to-low-code,"What’s Happening to Low-Code?",WebDev
+https://dzone.com/articles/using-typescript-const-assertions-for-fun-and-prof,"Using TypeScript const Assertions for Fun and Profit",WebDev
+https://dzone.com/articles/get-better-result-full-stack-project,"How to Approach Your Next Full Stack Project for Better Results",WebDev
+https://dzone.com/articles/angular-vs-react-seo-the-basics-of-what-you-need-t,"Angular vs React SEO: The Basics",WebDev
+https://dzone.com/articles/creating-a-web-ide-in-a-weekend,"Creating a Web IDE in a Weekend",WebDev
+https://dzone.com/articles/comparison-of-object-mapper-libraries-1,"Comparison of Object Mapper Libraries",WebDev
+https://dzone.com/articles/how-heroku-works,"How Heroku Works",WebDev
+https://dzone.com/articles/complete-guide-to-ecommerce-website-testing-for-be,"Complete Guide to eCommerce Website Testing for a Better Website Experience",WebDev
+https://dzone.com/articles/craft-conference-is-coming-back-online,"Craft Conference Is Coming Back Online",WebDev
+https://dzone.com/articles/migrating-my-heroku-based-saas-to-heroku-postgres,"Migrating My Heroku-Based SaaS to Heroku Postgres",WebDev
+https://dzone.com/articles/most-common-types-of-technical-debt-in-rails,"Most Common Types of Technical Debt in Rails",WebDev
+https://dzone.com/articles/running-concurrent-requests-with-asyncawait-and-pr,"Running Concurrent Requests With Async/Await and Promise.all",WebDev
+https://dzone.com/articles/using-net-core-in-jupyter-notebook,"Using .NET Core in Jupyter Notebook",WebDev
+https://dzone.com/articles/avoid-project-failure-with-custom-flutter-packages,"Avoid Project Failure With Custom Flutter Packages",WebDev
+https://dzone.com/articles/advanced-c-programming-part-1,"Advanced C# Programming (Part 1)",WebDev
+https://dzone.com/articles/what-are-floating-point-numbers,"What Are Floating-point Numbers?",WebDev
+https://dzone.com/articles/node-dependency-management-part2,"Node Dependency Management (Part 2)",WebDev
+https://dzone.com/articles/basics-of-react-and-typescript,"Basics of React and TypeScript",WebDev
+https://dzone.com/articles/definitive-guide-to-erp-implementation,"Definitive Guide to ERP Implementation",WebDev
+https://dzone.com/articles/react-vs-angular-who-wins-the-competition,"React vs. Angular: Who Wins the Competition?",WebDev
+https://dzone.com/articles/understanding-the-nodejs-event-loop,"Understanding the Node.js Event Loop",WebDev
+https://dzone.com/articles/how-i-stopped-coding-repetitive-service-components,"How I Stopped Coding Repetitive Service Components with Kong",WebDev
+https://dzone.com/articles/mobile-app-architecture-design-and-development,"Mobile App Architecture Design and Development",WebDev
+https://dzone.com/articles/mxgraph-usage-in-typescript-projects,"mxGraph Usage in TypeScript Projects",WebDev
+https://dzone.com/articles/c90-is-here,"C#9.0 Is Here: Dealing With Record Keyword Errors",WebDev
+https://dzone.com/articles/localizing-dates-in-a-perl-web-application-with-ja,"Localizing Dates in a Perl Web App With JavaScript",WebDev
+https://dzone.com/articles/what-app-developers-should-know-about-gdpr-complia,"What App Developers Should Know About GDPR Compliance",WebDev
+https://dzone.com/articles/pushing-rails-validations-down-to-the-database,"Pushing Rails Validations Down to The Database?",WebDev
+https://dzone.com/articles/overview-of-javascript-form-widgets,"Overview of JavaScript Form Widgets",WebDev
+https://dzone.com/articles/how-to-implement-flutter-barcode-scanner-from-scra,"How to Implement Flutter Barcode Scanner From Scratch",WebDev
+https://dzone.com/articles/using-bing-maps-to-remove-shapes-with-angular-in-a,"Using Bing Maps to remove Shapes With Angular in a Spring Boot Application",WebDev
+https://dzone.com/articles/nodejs-dependency-management,"Node.js – Dependency Management",WebDev
+https://dzone.com/articles/deno-vs-node-a-detailed-comparison,"Deno vs. Node: A Detailed Comparison",WebDev
+https://dzone.com/articles/12-common-web-design-mistakes-to-avoid-in-2021,"12 Common Web Design Mistakes To Avoid in 2021",WebDev
+https://dzone.com/articles/discovering-crystal,"Discovering Crystal",WebDev
+https://dzone.com/articles/recommendations-effective-app-development,"11 Recommendations for Effective App Development",WebDev
+https://dzone.com/articles/webrtc-use-cases-challenges-and-trends,"WebRTC Use Cases, Challenges, and Trends",WebDev
+https://dzone.com/articles/adding-coroutine-feature-to-c-language,"Adding Coroutine Feature To C Language",WebDev
+https://dzone.com/articles/what-can-i-do-if-music-playback-pauses-upon-song-s,"Fixing Music Playback Pause With Huawei",WebDev
+https://dzone.com/articles/how-to-create-a-mosaic-chart-using-javascript,"How to Create a Mosaic Chart Using JavaScript",WebDev
+https://dzone.com/articles/xml-tutorial-for-beginners-what-is-xml-learn-xml,"XML Tutorial for Beginners | What is XML? [Video]",WebDev
+https://dzone.com/articles/its-about-location-developers-draw-on-geospatial-t,"It’s About Location: Developers Draw on Geospatial Tech One Service at a...",WebDev
+https://dzone.com/articles/8-essential-questions-you-need-to-answer-before-de,"8 Questions to Answer Before Developing a Mobile App",WebDev
+https://dzone.com/articles/using-selenium-to-clear-browsing-data-in-chrome,"Using Selenium To Clear Browsing Data In Chrome",WebDev
+https://dzone.com/articles/trends-you-may-have-missed-about-nodejs-developmen,"Trends You May Have Missed in Node.js Development",WebDev
+https://dzone.com/articles/build-a-reddit-clone-with-react-and-slash-graphql,"Build a Reddit Clone with React and Dgraph Cloud",WebDev
+https://dzone.com/articles/flutter-20-state-management-introduction-with-prov,"Flutter 2.0 State Management Introduction With Provider 5.0",WebDev
+https://dzone.com/articles/structure-javascript-code,"Structure JavaScript Code",WebDev
+https://dzone.com/articles/develop-a-scraper-with-nodejs-socketio-and-vuejsnu,"Develop a Scraper With Node.js, Socket.IO, and Vue.js/Nuxt.js",WebDev
+https://dzone.com/articles/how-to-trace-formulas-in-a-graphic-way,"How I Visualize My Spreadsheet Formula Dependencies in a Chart",WebDev
+https://dzone.com/articles/how-web-developers-can-optimize-for-googles-core-w,"How Web Developers Can Optimize For Google’s Core Web Vitals",WebDev
+https://dzone.com/articles/symfony-routes-in-vuejs-spa,"Symfony Routes in Vue.js (SPA)",WebDev
+https://dzone.com/articles/flutter-vs-swift-for-ios-apps-which-one-is-better,"Flutter vs Swift for iOS Apps in 2021",WebDev
+https://dzone.com/articles/how-to-visualize-a-social-network-in-python-with-a,"How to Visualize a Social Network in Python With a Graph Database: Flask +...",WebDev
+https://dzone.com/articles/accessibility-testing-for-beginners,"Accessibility Testing for Beginners",WebDev
+https://dzone.com/articles/remote-pair-programming-with-visual-studio-code-an,"Remote Pair Programming with Visual Studio Code and Live Share",WebDev
+https://dzone.com/articles/the-features-of-c-9-that-will-make-your-life-easie,"The Features of C# 9 That Will Make Your Life Easier [Snippets]",WebDev
+https://dzone.com/articles/laravel-and-vuejs-perfect-combination-for-web-appl,"Laravel and Vue.JS: Perfect Combination for Web App Development",WebDev
+https://dzone.com/articles/how-to-design-a-web-application-architecture,"How to Design a Web Application Architecture",WebDev
+https://dzone.com/articles/what-are-the-problems-with-angular-migration,"Problems With Angular Migration",WebDev
+https://dzone.com/articles/getting-started-with-python-beginner-books,"Getting Started with Python: 17 Books to Read",WebDev
+https://dzone.com/articles/effective-code-reviews-for-remote-teams,"Effective Code Reviews For Remote Teams",WebDev
+https://dzone.com/articles/top-5-gantt-chart-libraries-for-vuejs,"Top 5 Gantt Chart Libraries for Vue.js",WebDev
+https://dzone.com/articles/how-to-compare-core-dumps-for-simple-time-travel-d,"How to Compare Core Dumps for Simple Time Travel Debugging",WebDev
+https://dzone.com/articles/how-beginner-web-developers-can-create-a-simple-sc,"Beginner's Guide To Developing a Scalable Web Business",WebDev
+https://dzone.com/articles/what-is-bubble-sort,"What Is Bubble Sort?",WebDev
+https://dzone.com/articles/Using-Bing-Maps-to-add-Shapes-With-Angular-in-a-Spring-Boot-Application,"Using Bing Maps to add Shapes With Angular in a Spring Boot Application",WebDev
+https://dzone.com/articles/beginners-guide-to-javascript-static-code-analysis,"Beginner's Guide to JavaScript Static Code Analysis",WebDev
+https://dzone.com/articles/c-memory-model-migrating-from-x86-to-arm,"C++ Memory Model: Migrating From X86 to ARM",WebDev
+https://dzone.com/articles/localizing-dates-in-a-perl-web-application,"Localizing Dates in A Perl Web Application",WebDev
+https://dzone.com/articles/mobile-game-testing-industry-leaders-challenges-an,"Mobile Game Testing: Industry Leaders’ Challenges and Strategies",WebDev
+https://dzone.com/articles/what-is-server-side-rendering-and-why-do-you-need,"Server-Side Rendering Explained",WebDev
+https://dzone.com/articles/how-to-debug-a-segmentation-fault-without-a-core-d,"How to Debug a Segmentation Fault Without a Core Dump",WebDev
+https://dzone.com/articles/react-tutorial-build-a-weather-app-from-scratch-pa-1,"React Tutorial: Build a Weather App From Scratch, Part 2",WebDev
+https://dzone.com/articles/5-handy-javascript-uploaders-to-keep-in-mind,"Five Handy JavaScript Uploaders to Keep in Mind",WebDev
+https://dzone.com/articles/working-with-dotconnect-for-oracle-in-aspnet-core-1,"Working With dotConnect for Oracle in ASP.NET Core",WebDev
+https://dzone.com/articles/working-with-stored-procedures-using-dotconnect-fo,"Working With Stored Procedures Using dotConnect for Oracle",WebDev
+https://dzone.com/articles/creating-a-social-media-website-with-pure-magic,"Creating a Social Media Website with Pure Magic",WebDev
+https://dzone.com/articles/progressbar-in-android,"Progress Bar In Android (Code Snippet)",WebDev
+https://dzone.com/articles/3-steps-to-give-your-spreadsheet-a-modern-touch,"3 Steps to Give Your Spreadsheet a Modern Touch",WebDev
+https://dzone.com/articles/how-to-handle-spreadsheet-uploads-for-your-web-app,"How to Handle Spreadsheet Uploads for Your Web App",WebDev
+https://dzone.com/articles/how-to-implement-beautiful-charts-in-flutter,"How to Implement Beautiful Charts in Flutter",WebDev
+https://dzone.com/articles/react-js-vs-angular-js-1,"ReactJS Vs. AngularJS",WebDev
+https://dzone.com/articles/building-dark-mode,"Building Dark Mode",WebDev
+https://dzone.com/articles/what-are-ionic-flutter-amp-react-native-when-to-us,"Ionic, Flutter, and React Native: When To Use Them",WebDev
+https://dzone.com/articles/poem-generator-web-application-with-keras-react-an,"Poem Generator Web Application With Keras, React, and Flask",WebDev
+https://dzone.com/articles/getting-started-with-kafka-and-rust-part-1,"Getting Started With Kafka and Rust (Part 1)",WebDev
+https://dzone.com/articles/c-pitfalls-in-string-pool,"C#: Pitfalls in String Pool",WebDev
+https://dzone.com/articles/the-most-popular-angular-ui-libraries-to-try-in-20,"The Most Popular Angular UI Libraries To Try in 2021",WebDev
+https://dzone.com/articles/dynamically-resolving-urls-in-net-5,"Dynamically resolving URLs in .Net 5",WebDev
+https://dzone.com/articles/where-to-start-when-building-your-first-mobile-app,"Where to Start When Building Your First Mobile Application",WebDev
+https://dzone.com/articles/differences-between-material-design-and-flat-desig,"Differences Between Material Design and Flat Design",WebDev
+https://dzone.com/articles/android-10s-amp-11s-scoped-storage-image-pickercam,"Android's 10 and 11 Scoped Storage",WebDev
+https://dzone.com/articles/most-preferred-react-native-databases,"5 Most Preferred React Native Databases",WebDev
+https://dzone.com/articles/quick-ways-to-attract-clients-as-a-freelance-softw,"6 Quick Ways to Attract Clients as a Freelance Software Developer",WebDev
+https://dzone.com/articles/how-we-used-arctype-to-improve-user-onboarding,"How We Used Arctype to Improve User Onboarding",WebDev
+https://dzone.com/articles/stop-coding-start-configuring,"Stop Coding, Start Configuring",WebDev
+https://dzone.com/articles/whats-the-difference-between-t-volatile-t-and-stda,"What's the Difference Between T, Volatile T, and std::atomic in C++?",WebDev
+https://dzone.com/articles/ussr-again-or-how-we-optimize-ration-card-system-f,"How To Optimize Ration Card System for Social Nutrition",WebDev
+https://dzone.com/articles/chromium-vs-chrome-whats-the-difference,"Chromium vs Chrome: What’s the Difference?",WebDev
+https://dzone.com/articles/getting-deep-into-c-pointers,"Getting Deep Into C++ Pointers",WebDev
+https://dzone.com/articles/10-popular-software-testing-tools-for-2021,"10 Popular Software Testing Tools for 2021",WebDev
+https://dzone.com/articles/simple-quarkus-example-with-cors,"Simple Quarkus Example With CORS",WebDev
+https://dzone.com/articles/http-protocol-obviously-unobvious,"HTTP Protocol: Obviously Unobvious",WebDev
+https://dzone.com/articles/bing-maps-with-angular-in-a-spring-boot-applicatio,"Bing Maps With Angular in a Spring Boot Application",WebDev
+https://dzone.com/articles/appsettingsjson-gets-intellisense,"IntelliSense for appsettings.json Files",WebDev
+https://dzone.com/articles/packaging-python-classes-as-a-wheel,"Packaging Python Classes as a Wheel",WebDev
+https://dzone.com/articles/interview-with-jeremy-evans,"Interview With Jeremy Evans, Lead Developer of Sequel and Roda",WebDev
+https://dzone.com/articles/flutter-release-ios-app-on-apple-store,"How to: Flutter Release iOS App on Apple Store",WebDev
+https://dzone.com/articles/react-tutorial-build-a-weather-app-from-scratch-pa,"React Tutorial: Build a Weather App From Scratch, Part 1",WebDev
+https://dzone.com/articles/have-it-your-way-with-microprofile-graphql,"Have It Your Way With MicroProfile GraphQL",WebDev
+https://dzone.com/articles/top-gantt-chart-solutions-for-react,"Top 4 Gantt Chart Solutions for React",WebDev
+https://dzone.com/articles/smackdown-pro-code-vs-low-code,"Smackdown: Pro Code vs. Low Code",WebDev
+https://dzone.com/articles/create-aspnet-core-web-application-with-visual-stu,"Create ASP.NET Core Web Application With Visual Studio Code",WebDev
+https://dzone.com/articles/python-201-the-functools-module-video,"Python 201: The functools Module [Video]",WebDev
+https://dzone.com/articles/the-best-way-to-migration-rabbitmq,"The Best Way To Migrate a RabbitMQ Server",WebDev
+https://dzone.com/articles/bdd-tests-on-github-actions-with-cucumber-run-in-p,"BDD Tests on Github Actions With Cucumber Run in Parallel Jobs",WebDev
+https://dzone.com/articles/how-to-make-icons-for-applications-on-android-and,"How to Make Icons for Applications on Android and iOS",WebDev
+https://dzone.com/articles/10-augmented-reality-trends-in-2021-the-future-is,"10 Augmented Reality Trends in 2021: The Future is Here",WebDev
+https://dzone.com/articles/the-quick-guide-to-dark-mode,"The Quick Guide to Dark Mode",WebDev
+https://dzone.com/articles/why-do-you-need-a-web-app-for-your-insurance-compa,"Why Do You Need a Web App for Your Insurance Company?",WebDev
+https://dzone.com/articles/how-to-draw-directions-on-a-map-in-react-native,"How to Draw Directions on a Map in React Native",WebDev
+https://dzone.com/articles/reimagining-the-sql-curriculum-change-how-sql-is-t,"Reimagining the SQL Curriculum: Change How SQL is Taught",WebDev
+https://dzone.com/articles/common-anti-patterns-in-go,"Common Anti-Patterns in Go",WebDev
+https://dzone.com/articles/top-18-python-pattern-programs-you-must-know-about,"Top 18 Python Pattern Programs You Must Know About [Snippets]",WebDev
+https://dzone.com/articles/c-string-format-examples,"C# String Format Examples",WebDev
+https://dzone.com/articles/extracting-reddit-data-to-airtable-using-bytelines,"Extracting Reddit Data to Airtable Using Byteline's No-Code Platform",WebDev
+https://dzone.com/articles/what-makes-no-code-app-development-an-ideal-choice,"What Makes No-Code App Development an Ideal Choice?",WebDev
+https://dzone.com/articles/how-to-develop-a-hipaa-compliant-m-health-app,"How To Develop a HIPAA Compliant m-Health App",WebDev
+https://dzone.com/articles/test-automation-using-selenium-chromedriver,"Test Automation Using Selenium ChromeDriver",WebDev
+https://dzone.com/articles/lazy-loading-in-web-applications-js-angular-and-re,"Lazy Loading in Web Applications: JS, Angular, and React",WebDev
+https://dzone.com/articles/the-beginners-guide-to-appium-android-amp-ios-mobi,"The Beginner's Guide to Appium Android and iOS Mobile Apps Testing: Part 1",WebDev
+https://dzone.com/articles/data-analytics-and-visualization-dashboard-develop,"Data Analytics and Visualization Dashboard Development: Choosing the Right...",WebDev
+https://dzone.com/articles/what-to-expect-from-zero-bundle-size-react-server,"What to Expect From Zero-Bundle-Size React Server Components",WebDev
+https://dzone.com/articles/react-vs-vue-in-2021-best-javascript-framework,"React vs. Vue in 2021: Best JavaScript Framework",WebDev
+https://dzone.com/articles/5-things-to-do-now-for-apple-app-tracking-transpar,"5 Things to Do NOW for Apple App Tracking Transparency API",WebDev
+https://dzone.com/articles/android-third-party-libraries-0,"Android Third-Party Libraries and SDK's",WebDev
+https://dzone.com/articles/the-vital-importance-of-saas-buyer-persona-develop,"The Vital Importance of SaaS Buyer Persona Development",WebDev
+https://dzone.com/articles/how-to-create-review-apps-on-heroku,"How to Create Review Apps on Heroku",WebDev
+https://dzone.com/articles/video-for-better-perl-subroutine-signatures-and-ty,"Video for Better Perl: Subroutine Signatures and Type Validation",WebDev
+https://dzone.com/articles/ecommerce-api-integration-what-it-is-and-why-you-n,"eCommerce API Integration: What It Is and Why You Need It",WebDev
+https://dzone.com/articles/incorporate-biometric-authentication-to-your-react,"Biometric Authentication in React-Native Applications",WebDev
+https://dzone.com/articles/top-10-date-pickers-in-react,"Top 10 Date Pickers in React",WebDev
+https://dzone.com/articles/how-to-create-a-pdf-file-from-a-list-of-images-wit,"How To Create a PDF File From a List of Images With Python",WebDev
+https://dzone.com/articles/add-menu-on-the-admin-side-using-plugin-in-nopcomm,"How to Create and Debug a Plugin in NopCommerce 4.40",WebDev
+https://dzone.com/articles/a-complete-guide-about-font-identification,"A Complete Guide to Font Identification",WebDev

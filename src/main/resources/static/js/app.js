@@ -35,3 +35,22 @@ function getPageMetadata(formId)
         }
     });
 }
+
+function initCategoriesAutoComplete(fieldSelector)
+{
+    $.ajax ({
+      url: '/api/categories',
+      type: "GET",
+      dataType: "json",
+      success: function(responseData){
+        $(fieldSelector).selectize({
+          maxItems: 1,
+          valueField: 'name',
+          labelField: 'name',
+          searchField: 'name',
+          options: responseData,
+          create: true
+        })
+      }
+  });
+}

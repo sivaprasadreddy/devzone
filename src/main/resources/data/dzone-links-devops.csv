@@ -1,0 +1,1001 @@
+url,title,category
+https://dzone.com/articles/what-are-ephemeral-environments-and-how-to-deploy,"What Are Ephemeral Environments and How to Deploy and Use Them Efficiently",DevOps
+https://dzone.com/articles/devops-challenges-in-2019-how-to-overcome-them,"DevOps Challenges in 2019 and How to Overcome Them",DevOps
+https://dzone.com/articles/build-intentional-remote-collaboration-like-gitlab,"Build Intentional Remote Collaboration - Like GitLab",DevOps
+https://dzone.com/articles/how-to-govern-terraform-states-using-gitlab-enterp,"How to Govern Terraform States Using GitLab Enterprise",DevOps
+https://dzone.com/articles/sre-from-theory-to-practice-whats-difficult-about-2,"SRE: From Theory to Practice: What’s Difficult About Tech Debt?",DevOps
+https://dzone.com/articles/10-best-infrastructure-as-code-tools-for-automatin,"10 Best Infrastructure-as-Code Tools for Automating Deployments in 2022",DevOps
+https://dzone.com/articles/difference-between-data-mining-and-data-warehousing,"Difference Between Data Mining and Data Warehousing",DevOps
+https://dzone.com/articles/sre-from-theory-to-practice-whats-difficult-about-1,"SRE: From Theory to Practice: What's Difficult About Incident Command?",DevOps
+https://dzone.com/articles/a-concise-guide-to-devsecops-and-their-importance,"A Concise Guide to DevSecOps and Their Importance in CI/CD Pipeline",DevOps
+https://dzone.com/articles/7-great-terminalcli-tools-not-everyone-knows,"7 Great Terminal/CLI Tools Not Everyone Knows",DevOps
+https://dzone.com/articles/what-you-need-to-know-to-debug-a-preempted-pod-on,"What You Need to Know to Debug a Preempted Pod on Kubernetes",DevOps
+https://dzone.com/articles/top-5-datadog-integrations-to-improve-the-efficiency-of-tech-teams,"Top 5 Datadog Integrations To Improve the Efficiency of Tech Teams",DevOps
+https://dzone.com/articles/observability-tools-help-catch-application-failure,"Observability Tools Help Catch Application Failures — But Automating the...",DevOps
+https://dzone.com/articles/sre-from-theory-to-practice-whats-difficult-about,"SRE From Theory to Practice: What's Difficult About On-Call?",DevOps
+https://dzone.com/articles/devops-security-checklist-for-kubernetes,"DevOps Security Checklist for Kubernetes",DevOps
+https://dzone.com/articles/testing-strategies-for-microservices,"Testing Strategies for Microservices",DevOps
+https://dzone.com/articles/a-checklist-for-building-a-devops-organization-par,"A Checklist for Building a DevOps Organization",DevOps
+https://dzone.com/articles/automated-deployment-mule,"Automated Deployment with Mule Management Console and Maven",DevOps
+https://dzone.com/articles/replace-your-scripts-gradle,"Replace your Scripts with Gradle Tasks",DevOps
+https://dzone.com/articles/5-must-have-features-of-full-stack-test-automation-1,"5 Must-Have Features of Full-Stack Test Automation Frameworks",DevOps
+https://dzone.com/articles/cicd-pipelines-and-caching-of-dependencies-on-azur,"CI/CD Pipelines and Caching of Dependencies on Azure DevOps",DevOps
+https://dzone.com/articles/the-best-solution-to-burnout-weve-ever-heard,"The Best Solution to Burnout We’ve Ever Heard",DevOps
+https://dzone.com/articles/5-options-for-deploying-microservices,"5 Options for Deploying Microservices",DevOps
+https://dzone.com/articles/writing-your-own-service-discovery-client-for-apac,"Writing Your Own Service Discovery Client for Apache APISIX",DevOps
+https://dzone.com/articles/how-to-install-grafana-loki-stack-using-aws-s3-buc-1,"How to Install Grafana Loki Stack Using AWS S3 Bucket",DevOps
+https://dzone.com/articles/what-i-have-understood-about-devops-as-an-engineer,"What I Have Understood About DevOps",DevOps
+https://dzone.com/articles/regression-testing-in-cicd-and-its-challenges-1,"Regression Testing in CI/CD and Its Challenges",DevOps
+https://dzone.com/articles/test-management-for-qa-engineers-1,"Test Management for QA Engineers",DevOps
+https://dzone.com/articles/creating-github-actions-for-vercel-deployment,"Creating GitHub Actions for Vercel Deployment",DevOps
+https://dzone.com/articles/12-best-software-development-tools-for-this-year,"12 Best Software Development Tools for This Year",DevOps
+https://dzone.com/articles/what-is-devops-and-why-you-should-have-it,"What Is DevOps and Why You Should Have It",DevOps
+https://dzone.com/articles/setting-up-a-jenkins-instance-with-configuration-a,"Setting Up a Jenkins Instance With Configuration as Code (Using Yaml...",DevOps
+https://dzone.com/articles/release-management-for-microservices-multi-vs-mono,"Release Management for Microservices: Multi vs. Monorepos",DevOps
+https://dzone.com/articles/devops-career-opportunities-in-2021,"Top DevOps Career Opportunities in 2022",DevOps
+https://dzone.com/articles/writing-your-first-python-github-action,"Writing Your First Python GitHub Action",DevOps
+https://dzone.com/articles/learning-by-auditing-kubernetes-manifests,"Learning by Auditing Kubernetes Manifests",DevOps
+https://dzone.com/articles/how-to-handle-javascript-alert-in-selenium-webdriv-1,"How to Handle JavaScript Alert in Selenium WebDriver Using Python?",DevOps
+https://dzone.com/articles/cio-guide-for-operational-amp-business-benefits-of,"CIO Guide for Operational and Business Benefits of DevOps",DevOps
+https://dzone.com/articles/why-more-incidents-are-better,"Why More Incidents Are Better",DevOps
+https://dzone.com/articles/devops-for-enterprise-are-you-doing-it-right,"DevOps for Enterprise — Are You Doing It Right?",DevOps
+https://dzone.com/articles/7-tips-for-using-instrumentation-and-metrics-to-al,"7 Tips for Using Instrumentation and Metrics To Align Site Reliability With...",DevOps
+https://dzone.com/articles/3-best-tools-to-implement-kubernetes-observability,"3 Best Tools to Implement Kubernetes Observability",DevOps
+https://dzone.com/articles/complete-guide-to-testops,"Complete Guide to TestOps",DevOps
+https://dzone.com/articles/to-shift-right-you-need-observability-1,"To Shift Right, You Need Observability",DevOps
+https://dzone.com/articles/top-salesforce-deployment-challenges-and-tips,"Top Salesforce Deployment Challenges and Tips",DevOps
+https://dzone.com/articles/applying-domain-driven-design-principles-to-micros,"Applying Domain-Driven Design Principles to Microservice Architectures",DevOps
+https://dzone.com/articles/progressive-delivery-with-argo-rollouts-blue-green,"Progressive Delivery With Argo Rollouts: Blue-Green Deployment",DevOps
+https://dzone.com/articles/correlation-between-fast-ttm-and-containers,"Correlation Between Fast TTM and Containers",DevOps
+https://dzone.com/articles/troubleshooting-http-502-bad-gateway-in-aws-ebs,"Troubleshooting HTTP 502 Bad Gateway in AWS EBS",DevOps
+https://dzone.com/articles/demystifying-cloud-native-data-management-layers-of-operation,"Demystifying Cloud-Native Data Management: Layers of Operation",DevOps
+https://dzone.com/articles/top-trends-driving-the-growth-of-test-data-management,"Top Trends Driving the Growth of Test Data Management (TDM) in 2022",DevOps
+https://dzone.com/articles/testing-your-infrastructure-as-code-using-terrates,"Testing Your Infrastructure as Code Using Terratest",DevOps
+https://dzone.com/articles/11-reasons-why-go-for-automation-testing-using-sel,"11 Reasons To Use Selenium for Automation Testing",DevOps
+https://dzone.com/articles/what-is-selenium-getting-started-with-selenium-aut,"What Is Selenium? Getting Started With Selenium Automation Testing",DevOps
+https://dzone.com/articles/kubernetes-service-types-explained-in-detail,"Kubernetes Service Types Explained In-Detail",DevOps
+https://dzone.com/articles/top-10-automated-software-testing-tools,"Top 10 Automated Software Testing Tools",DevOps
+https://dzone.com/articles/is-your-code-dry-or-wet,"Is Your Code DRY or WET?",DevOps
+https://dzone.com/articles/top-20-git-commands-with-examples,"Top 20 Git Commands With Examples",DevOps
+https://dzone.com/articles/4-careers-for-people-with-coding-backgrounds,"4 Careers for People with Coding Backgrounds",DevOps
+https://dzone.com/articles/how-to-translate-value-to-executives-using-an-outc,"How to Translate Value to Executives Using an Outcome-Driven Mindset",DevOps
+https://dzone.com/articles/chef-inspec-where-compliance-and-security-blend,"Chef InSpec: Where Compliance and Security Blend",DevOps
+https://dzone.com/articles/is-noops-the-end-of-devops,"Is NoOps the End of DevOps?",DevOps
+https://dzone.com/articles/getting-the-respect-your-work-deserves-a-live-work,"Getting the Respect Your Work Deserves: A Live Workshop w/ Engineering...",DevOps
+https://dzone.com/articles/why-you-should-stop-relying-on-jenkins-plugins-2,"Why You Should Stop Relying on Jenkins Plug-ins",DevOps
+https://dzone.com/articles/salesforce-devops-keys-to-productivity-amp-complia,"Salesforce DevOps: Keys to Productivity and Compliance",DevOps
+https://dzone.com/articles/tips-to-master-salesforce-release-management,"Tips to Master Salesforce Release Management",DevOps
+https://dzone.com/articles/what-you-should-know-before-setting-up-your-first,"What You Should Know Before Setting Up Your First CI/CD Pipeline",DevOps
+https://dzone.com/articles/3-reasons-its-hard-to-invest-in-true-innovation,"3 Reasons It’s Hard To Invest In True Innovation",DevOps
+https://dzone.com/articles/the-democratisation-of-test-data,"The Democratization of (Test) Data",DevOps
+https://dzone.com/articles/the-2-things-you-ask-your-team-when-you-pass-1b-w,"The 2 Things You Ask Your Team When You Pass $1B w/ Hippo’s VP of...",DevOps
+https://dzone.com/articles/scriptless-test-automation-a-pass-to-the-future,"Scriptless Test Automation — A Pass to the Future",DevOps
+https://dzone.com/articles/kubernetes-as-sustainability-tool,"Kubernetes as Sustainability Tool",DevOps
+https://dzone.com/articles/is-devsecops-compatible-with-managed-detection-and,"Is DevSecOps Compatible With Managed Detection and Response?",DevOps
+https://dzone.com/articles/which-one-is-better-kotlin-vs-flutter,"Which One Is Better: Kotlin vs Flutter?",DevOps
+https://dzone.com/articles/selenium-vs-protractor-whats-the-difference,"Selenium vs. Protractor: What's the Difference?",DevOps
+https://dzone.com/articles/continuous-delivery-create-products-faster-with-lo,"Continuous Delivery: Create Products Faster with Lower Risks",DevOps
+https://dzone.com/articles/jump-into-the-devops-pool-the-water-is-fine,"Jump Into the DevOps Pool: The Water Is Fine",DevOps
+https://dzone.com/articles/the-quest-to-build-the-perfect-bot-w-ubisofts-josh,"The Quest to Build the Perfect Bot w/ Ubisoft's Joshua Romoff",DevOps
+https://dzone.com/articles/devops-vs-sre-their-differential-impact-on-buildin,"DevOps vs. SRE — Their Differential Impact on Building Efficiency and...",DevOps
+https://dzone.com/articles/reasons-why-devops-adoption-might-be-of-help-for-b,"Reasons Why DevOps Adoption Might Be of Help for Business",DevOps
+https://dzone.com/articles/the-3-conversations-that-improve-developers-lives,"The 3 Conversations That Improve Developers' Lives w/ Reprise's Jennie...",DevOps
+https://dzone.com/articles/5-tips-if-youre-the-1st-sre-hire-by-instacarts-fir,"5 Tips if You’re the First SRE Hire, by Instacart's First SRE",DevOps
+https://dzone.com/articles/what-is-smoke-testing-a-brief-guide,"What Is Smoke Testing? - A Brief Guide",DevOps
+https://dzone.com/articles/automating-the-change-request-process-1,"Automating the Change Request Process",DevOps
+https://dzone.com/articles/are-you-getting-what-you-need-from-your-ui-testing,"Are You Getting What You Need from Your UI Testing Tool?",DevOps
+https://dzone.com/articles/why-do-microcontainers-matter-in-your-enterprise,"Why Do Microcontainers Matter in Your Enterprise?",DevOps
+https://dzone.com/articles/system-hardening-standards-and-best-practices-with,"System Hardening Standards and Best Practices With Chef",DevOps
+https://dzone.com/articles/how-should-you-apply-automation-in-devops-practice,"How Should You Apply Automation in DevOps Practice?",DevOps
+https://dzone.com/articles/dockerizing-your-nodejs-application,"Dockerizing Your Node.js Application",DevOps
+https://dzone.com/articles/30-common-cicd-interview-questions-with-answers,"30 Common CI/CD Interview Questions (With Answers)",DevOps
+https://dzone.com/articles/9-extraordinary-terraform-best-practices-that-will,"9 Extraordinary Terraform Best Practices That Will Change Your Infra World",DevOps
+https://dzone.com/articles/ways-you-can-amplify-your-software-development-pro,"Ways You Can Amplify Your Software Development Process",DevOps
+https://dzone.com/articles/comprehensive-guide-to-jenkins-declarative-pipelin,"Comprehensive Guide to Jenkins Declarative Pipeline [With Examples]",DevOps
+https://dzone.com/articles/a-coos-guide-to-test-strategy-creation,"A COO's Guide to Test Strategy Creation",DevOps
+https://dzone.com/articles/4-things-developers-should-know-about-recruiting-n,"4 Things Developers Should Know About Recruiting Neurodiverse People",DevOps
+https://dzone.com/articles/scaling-feature-flag-management-for-better-progres,"Scaling Feature Flag Management for Better Progressive Delivery [Webinar]",DevOps
+https://dzone.com/articles/a-guide-to-test-automation-types-tools-and-benefits,"A Guide to Test Automation Types, Tools, and Benefits",DevOps
+https://dzone.com/articles/tutorial-securing-containers-with-seccomp,"Securing Containers With Seccomp",DevOps
+https://dzone.com/articles/how-to-check-which-process-is-using-port-8080-or-a,"How to Check Which Process Is Using Port 8080 or Any Other Port (and Vice...",DevOps
+https://dzone.com/articles/adaptive-change-management,"Adaptive Change Management: A DevOps Approach to Change Management",DevOps
+https://dzone.com/articles/5-reasons-why-manual-testing-is-still-very-importa,"5 Reasons Why Manual Testing Is Still Very Important",DevOps
+https://dzone.com/articles/20-testing-toolslibraries-you-need-to-know,"20 Testing Tools and Libraries You Need to Know",DevOps
+https://dzone.com/articles/14-mistakes-i-did-that-you-should-avoid-as-a-newbi,"14 Mistakes I Did That You Should Avoid As A Newbie Automation Tester",DevOps
+https://dzone.com/articles/10-things-to-remember-before-you-say-yes-to-automa,"10 Things to Remember Before You Say Yes to Automation Testing",DevOps
+https://dzone.com/articles/build-a-seamless-gitops-pipeline-with-flux,"Build a Seamless GitOps Pipeline with Flux",DevOps
+https://dzone.com/articles/why-to-implement-gitops-into-your-kubernetes-cicd,"Why to Implement GitOps into Your Kubernetes CI/CD Pipelines",DevOps
+https://dzone.com/articles/why-engineers-make-the-best-entrepreneurs-w-dratas,"Why Engineers Make the Best Entrepreneurs w/ Drata's Co-founder &amp; CTO...",DevOps
+https://dzone.com/articles/sdlc-vs-stlc-whats-the-difference,"SDLC Vs STLC: What's the Difference?",DevOps
+https://dzone.com/articles/what-sres-can-learn-from-the-atlassian-nightmare-o,"What SREs Can Learn From the Atlassian Nightmare Outage of 2022",DevOps
+https://dzone.com/articles/pulumi-vs-terraform,"Why I'm Choosing Pulumi Over Terraform",DevOps
+https://dzone.com/articles/3-predictions-about-how-technology-businesses-will,"3 Predictions About How Technology Businesses Will Change In 10 Years",DevOps
+https://dzone.com/articles/modernize-legacy-code-in-production-rebuild-your-a,"Modernize Legacy Code in Production: Rebuild Your Airplane Midflight...",DevOps
+https://dzone.com/articles/the-evolution-of-configuration-management-iac-vs-g,"The Evolution of Configuration Management: IaC vs. GitOps",DevOps
+https://dzone.com/articles/automated-cicd-of-multiple-projects-using-teamcity,"Automated CI/CD of Multiple Projects Using TeamCity’s Kotlin DSL",DevOps
+https://dzone.com/articles/stupid-things-orgs-do-that-kill-productivity-w-net,"Stupid Things Orgs Do That Kill Productivity w/ Netflix, FloSports &amp;...",DevOps
+https://dzone.com/articles/templates-are-indispensable-for-gitops-driven-auto,"Templates Are Indispensable for GitOps-Driven Automation",DevOps
+https://dzone.com/articles/simulators-vs-emulators-whats-the-difference,"Simulators vs. Emulators: What's the Difference",DevOps
+https://dzone.com/articles/what-is-white-box-testing-a-brief-guide,"What Is White Box Testing? — A Brief Guide",DevOps
+https://dzone.com/articles/what-is-erp-testing-a-brief-guide,"What Is ERP Testing? - A Brief Guide",DevOps
+https://dzone.com/articles/request-routing-through-service-mesh-for-websphere,"Request Routing Through Service Mesh for WebSphere Liberty Profile...",DevOps
+https://dzone.com/articles/migrating-secrets-using-hashicorp-vault-and-safecl,"Migrating Secrets Using HashiCorp Vault and Safe CLI",DevOps
+https://dzone.com/articles/sre-vs-platform-engineering-the-key-differences-ex,"SRE vs. Platform Engineering: The Key Differences, Explained",DevOps
+https://dzone.com/articles/why-1-good-ux-is-worth-5-engineers-w-toasts-brad-p,"Why 1 Good UX Is Worth 5 Engineers w/ Toast's Brad Pielech",DevOps
+https://dzone.com/articles/devops-operational-benefits-how-does-devops-sync-y,"DevOps Operational Benefits — How Does DevOps Sync Your Operations With...",DevOps
+https://dzone.com/articles/how-to-integrate-zoom-in-react-application,"How to Integrate Zoom in React Application?",DevOps
+https://dzone.com/articles/top-10-criteria-to-select-the-best-angular-develop,"Top 10 Criteria to Select the Best Angular Development Company",DevOps
+https://dzone.com/articles/the-true-state-of-sap-s4hana,"The True State of SAP S/4HANA in 2022",DevOps
+https://dzone.com/articles/sast-in-secure-sdlc-3-reasons-to-integrate-it-in-a-4,"SAST in Secure SDLC: 3 Reasons to Integrate It in a DevSecOps Pipeline",DevOps
+https://dzone.com/articles/why-great-money-doesnt-retain-great-devs-w-stack-o,"Why Great Money Doesn’t Retain Great Devs w/ Stack Overflow, DataStax &amp;...",DevOps
+https://dzone.com/articles/everything-i-needed-to-know-about-observability-i,"Everything I Needed to Know About Observability, I Learned from ‘Bewitched’",DevOps
+https://dzone.com/articles/pre-commit-hooks-devops-engineer-should-know-to-co,"Pre-Commit Hooks DevOps Engineer Should Know To Control Kubernetes",DevOps
+https://dzone.com/articles/zero-to-hero-on-kubernetes-with-devtron,"Zero to Hero on Kubernetes With Devtron",DevOps
+https://dzone.com/articles/best-practices-to-optimize-continuous-testing-in-d,"Best Practices To Optimize Continuous Testing in DevOps",DevOps
+https://dzone.com/articles/the-subversive-structure-of-the-worlds-best-perfor,"The Subversive Structure of the World's Best-Performing Dev Teams w/ A...",DevOps
+https://dzone.com/articles/dont-forget-these-points-in-your-devops-transforma,"Don’t Forget These Points in Your DevOps Transformation",DevOps
+https://dzone.com/articles/leverage-docker-to-produce-classic-deployment-artifacts,"Leverage Docker to Produce Classic Deployment Artifacts",DevOps
+https://dzone.com/articles/test-case-vs-test-scenario-key-differences-to-note-1,"Test Case vs. Test Scenario: Key Differences to Note for Software...",DevOps
+https://dzone.com/articles/gcp-devops-top-7-implementation-services,"GCP DevOps: Top 7 Implementation Services",DevOps
+https://dzone.com/articles/the-testing-pyramid-how-to-structure-your-test-sui,"The Testing Pyramid: How to Structure Your Test Suite",DevOps
+https://dzone.com/articles/beta-testing-a-brief-guide,"Beta Testing: A Brief Guide",DevOps
+https://dzone.com/articles/dont-have-a-devops-team-this-is-why-youre-wrong,"Don’t Have a DevOps Team? This Is Why You’re Wrong",DevOps
+https://dzone.com/articles/your-daughters-favorite-dev-fixed-techs-mentorship,"How to Fix Tech's Mentorship Problem w/ Amex's VP of Technology, Sarvenaz...",DevOps
+https://dzone.com/articles/the-pros-and-cons-of-embedded-sres,"The Pros and Cons of Embedded SREs",DevOps
+https://dzone.com/articles/10-books-every-senior-engineer-should-read,"10 Books Every Senior Engineer Should Read",DevOps
+https://dzone.com/articles/how-continuous-integration-plays-a-crucial-role-in-business-agility,"How Continuous Integration Plays a Crucial Role In Business Agility",DevOps
+https://dzone.com/articles/validate-or-verify-what-should-your-tests-actually,"Validate or Verify: What Should Your Tests Actually Be Doing?",DevOps
+https://dzone.com/articles/2020-and-top-codeless-testing-tools-youd-better-kn,"2020 and Top Codeless Testing Tools You'd Better Know",DevOps
+https://dzone.com/articles/gitops-best-practices-for-devops-teams,"GitOps Best Practices for DevOps Teams",DevOps
+https://dzone.com/articles/how-promotions-ruin-dev-careers-w-shopifys-dir-of,"How Promotions Ruin Dev Careers With Shopify's Dir. of Engineering, James...",DevOps
+https://dzone.com/articles/lessons-to-learn-from-etsys-devops-strategy,"Lessons to Learn from Etsy’s DevOps Strategy",DevOps
+https://dzone.com/articles/securing-your-cicd-pipeline,"Securing Your CI/CD Pipeline",DevOps
+https://dzone.com/articles/making-the-case-for-observability-to-your-boss,"Making the Case for Observability to Your Boss",DevOps
+https://dzone.com/articles/the-principles-of-test-automation,"The Principles of Test Automation",DevOps
+https://dzone.com/articles/managed-vs-self-hosted-cicd,"Managed vs. Self-Hosted CI/CD",DevOps
+https://dzone.com/articles/how-to-build-a-strong-incident-response-process,"How To Build a Strong Incident Response Process",DevOps
+https://dzone.com/articles/automated-tests-you-are-doing-it-wrong-comic,"Automated Tests: You Are Doing It Wrong [Comic]",DevOps
+https://dzone.com/articles/why-a-site-reliability-engineer-is-important-to-yo,"Why a Site Reliability Engineer Is Important to Your CI/CD Pipeline",DevOps
+https://dzone.com/articles/7-factors-to-consider-when-choosing-a-network-performance-solution,"7 Factors to Consider When Choosing a Network Performance Solution",DevOps
+https://dzone.com/articles/what-the-next-20-million-devs-want-w-tiff-in-tech,"What the Next 20 Million Devs Want — With Tiff in Tech and Stereotype...",DevOps
+https://dzone.com/articles/continuous-test-automation-using-cicd-how-cicd-has,"Continuous Test Automation Using CI/CD: How CI/CD Has Revolutionized...",DevOps
+https://dzone.com/articles/infrastructure-as-code-everything-you-need-to-know,"Infrastructure as Code: Everything You Need to Know",DevOps
+https://dzone.com/articles/3-steps-to-developing-a-successful-gitops-model,"3 Steps to Developing a Successful GitOps Model",DevOps
+https://dzone.com/articles/test-automation-vs-autonomous-testing,"Test Automation vs. Autonomous Testing",DevOps
+https://dzone.com/articles/infrastructure-provisioning-for-cloud-native-appli,"Infrastructure Provisioning for Cloud-Native Applications",DevOps
+https://dzone.com/articles/cicd-for-cloud-native-applications,"CI/CD for Cloud-Native Applications",DevOps
+https://dzone.com/articles/how-to-enable-cicd-to-boost-the-potential-of-devop,"How To Enable CI/CD To Boost the Potential of DevOps",DevOps
+https://dzone.com/articles/kubernetes-hardening-tutorial-3,"Kubernetes Hardening Tutorial Part 3: Logging and Auditing",DevOps
+https://dzone.com/articles/visual-studio-code-extension-development,"How to Start Visual Studio Code Extension Development",DevOps
+https://dzone.com/articles/apache-kafka-python,"Apache Kafka in Docker Container and Implement Its Functionalities with...",DevOps
+https://dzone.com/articles/the-best-developer-conferences-of-2022,"The Best Developer Conferences of 2022",DevOps
+https://dzone.com/articles/how-to-boost-your-in-house-enterprise-devops-talen,"How To Boost Your In-house Enterprise DevOps Talent?",DevOps
+https://dzone.com/articles/how-to-provision-an-azure-sql-database-with-active,"How to Provision an Azure SQL Database With Active Directory Authentication",DevOps
+https://dzone.com/articles/gitops-what-is-it-and-how-does-it-work,"GitOps: What Is It and How Does It Work?",DevOps
+https://dzone.com/articles/5-keys-successfully-implement-team-topologies,"5 Keys to Successfully Implement Team Topologies in Your Organization",DevOps
+https://dzone.com/articles/is-your-dev-team-too-big-to-succeed-w-saics-bob-ri,"Is Your Dev Team TOO Big to Succeed? w/ SAIC’s Bob Ritchie",DevOps
+https://dzone.com/articles/key-challenges-platform-teams-experience,"What Are The Key Challenges a Platform Team Experiences?",DevOps
+https://dzone.com/articles/what-is-sanity-testing-a-brief-guide,"What Is Sanity Testing? - A Brief Guide",DevOps
+https://dzone.com/articles/devops-maturity-model-trends-and-best-practices,"DevOps Maturity Model: Trends and Best Practices in Today’s World",DevOps
+https://dzone.com/articles/5-steps-to-implement-dataops-within-your-organizat,"5 Steps To Implement DataOps Within Your Organization",DevOps
+https://dzone.com/articles/writing-a-jenkins-file-for-multi-branch-build-pipe,"Writing a Jenkins File for Multi Branch Build Pipeline",DevOps
+https://dzone.com/articles/interview-with-tom-granot-developer-observability,"Interview With Tom Granot: Developer Observability, KoolKits, and...",DevOps
+https://dzone.com/articles/how-to-bridge-the-devops-rd-gap,"How to Effectively Bridge the DevOps – R and D Gap Without Sacrificing...",DevOps
+https://dzone.com/articles/what-does-aiops-mean-for-sres-its-complicated,"What Does AIOps Mean for SREs? It’s Complicated",DevOps
+https://dzone.com/articles/7-reasons-why-companies-should-apply-devops-and-cicd-practices-to-their-data-pipelines,"7 Reasons Why Companies Should Apply DevOps and CI/CD Practices to Their...",DevOps
+https://dzone.com/articles/creating-a-culture-of-engineering-productivity-at,"Creating a Culture of Engineering Productivity at Netflix",DevOps
+https://dzone.com/articles/what-is-a-self-service-developer-platform-and-why,"What Is a Self-Service Developer Platform and Why Does It Matter?",DevOps
+https://dzone.com/articles/4-big-gitops-moments-of-2021,"4 Big GitOps Moments of 2021",DevOps
+https://dzone.com/articles/practical-introduction-to-kubernetes-autoscaling-t,"Practical Introduction to Kubernetes Autoscaling Tools with Linode...",DevOps
+https://dzone.com/articles/what-sres-can-learn-from-capt-sully-when-to-follow,"What SREs Can Learn From Capt. Sully: When To Follow Playbooks",DevOps
+https://dzone.com/articles/gitops-takes-devops-teams-to-higher-levels-of-matu,"GitOps Takes DevOps Teams To Higher Levels of Maturity",DevOps
+https://dzone.com/articles/best-practices-for-a-successful-devops-transformat,"Best Practices for a Successful DevOps Transformation",DevOps
+https://dzone.com/articles/how-much-does-it-cost-to-create-a-flutter-app,"How Much Does It Cost to Create a Flutter App in 2022?",DevOps
+https://dzone.com/articles/what-if-you-dont-want-to-be-a-developer-anymore-w,"What If You Don't Want To Be a Developer Anymore? w/ CTO Connection's Peter...",DevOps
+https://dzone.com/articles/iac-hot-reload-with-pulumi-watch,"IaC Hot Reload With Pulumi Watch",DevOps
+https://dzone.com/articles/the-economics-of-tdd,"The Economics of TDD",DevOps
+https://dzone.com/articles/why-gitops-is-so-important-to-businesses-today-wea,"Why GitOps Is So Important to Businesses Today",DevOps
+https://dzone.com/articles/deploying-concourse-ci-on-alicloud-kubernetes,"Deploying Concourse CI on AliCloud Kubernetes",DevOps
+https://dzone.com/articles/aws-devops-engineer-salary-the-ultimate-guide-for,"AWS DevOps Engineer Salary: The Ultimate Guide",DevOps
+https://dzone.com/articles/best-infrastructure-as-code-tools-iac-the-top-10-f,"Top 10 Infrastructure as Code (IaC) Tools",DevOps
+https://dzone.com/articles/building-a-multi-feature-pipeline-with-openshift-p,"Building a Multi-Feature Pipeline With OpenShift Pipelines",DevOps
+https://dzone.com/articles/devops-roadmap-2022,"DevOps Roadmap for 2022",DevOps
+https://dzone.com/articles/why-do-you-need-to-move-from-crud-to-event-sourcin,"Why Do You Need to Move From CRUD to Event Sourcing Architecture?",DevOps
+https://dzone.com/articles/selenium-4-relative-locators,"Analysis of Selenium 4 Relative Locators",DevOps
+https://dzone.com/articles/why-and-how-sres-can-benefit-from-feature-flags,"Why and How SREs Can Benefit From Feature Flags",DevOps
+https://dzone.com/articles/5-devops-tools-to-add-to-your-stack-in-2022,"5 DevOps Tools To Add to Your Stack in 2022",DevOps
+https://dzone.com/articles/alpha-testing-a-brief-guide,"Alpha Testing - A Brief Guide",DevOps
+https://dzone.com/articles/the-four-pillars-of-mobile-devops-strategy,"The Four Pillars of Mobile DevOps Strategy",DevOps
+https://dzone.com/articles/using-travis-ci-for-deploying-mulesoft-application,"Using Travis CI for Deploying Mulesoft Applications to Cloudhub",DevOps
+https://dzone.com/articles/dzone-early-access-april-7th-meet-my-friends-from,"Learn From Netflix, Stack Overflow, Slack, and More",DevOps
+https://dzone.com/articles/instant-devops,"Instant DevOps",DevOps
+https://dzone.com/articles/3-predictions-for-software-product-development-in,"3 Predictions for Software Product Development in 2022",DevOps
+https://dzone.com/articles/how-containers-enable-you-to-use-microservices-in,"How Containers Enable You To Use Microservices in DevOps",DevOps
+https://dzone.com/articles/devops-overcoming-the-struggle,"DevOps - Overcoming the Struggle",DevOps
+https://dzone.com/articles/dont-make-these-10-kubernetes-mistakes,"Don't Make These 10 Kubernetes Mistakes",DevOps
+https://dzone.com/articles/how-a-725m-vc-judges-your-engineering-team-w-redpo,"How a $725M VC Judges Your Engineering Team w/ Redpoint Ventures' Jason...",DevOps
+https://dzone.com/articles/the-2021-dora-report-gives-a-veiled-nod-to-gitops,"The 2021 DORA Report Gives a Veiled Nod to GitOps",DevOps
+https://dzone.com/articles/highlights-from-the-2021-state-of-devops-report,"Highlights From the 2021 State of DevOps Report",DevOps
+https://dzone.com/articles/why-sustainability-in-software-engineering-matters,"Why Sustainability in Software Engineering Matters",DevOps
+https://dzone.com/articles/5-step-strategy-for-optimizing-slow-tests,"5-Step Strategy for Optimizing Slow Tests",DevOps
+https://dzone.com/articles/managing-multiple-environments-with-weave-gitops,"Managing Multiple Environments With Weave GitOps",DevOps
+https://dzone.com/articles/the-ultimate-devops-hourly-rate-guide-for-2022,"The Ultimate DevOps Hourly Rate Guide for 2022",DevOps
+https://dzone.com/articles/top-9-skills-for-sres-from-ex-instacart-sre,"Top 9 Skills for SREs From Ex-Instacart SRE",DevOps
+https://dzone.com/articles/unified-observability-metrics-logs-and-tracing-of,"Unified Observability: Metrics, Logs, and Tracing of App and Database Tiers...",DevOps
+https://dzone.com/articles/devops-metrics-that-actually-matter,"DevOps Metrics That Actually Matter",DevOps
+https://dzone.com/articles/install-orocrm-on-ubuntu,"How to Install OroCRM on Ubuntu 20.04",DevOps
+https://dzone.com/articles/what-ctos-say-vs-what-their-developers-hear,"What CTOs Say vs. What Their Developers Hear",DevOps
+https://dzone.com/articles/the-path-to-aiops-top-tips-advancing-remediation,"How Monitoring and AIOps Delivers the Ultimate DevOps Platform",DevOps
+https://dzone.com/articles/applying-devops-to-api-development-for-apiops,"Applying DevOps to API Development for APIOps",DevOps
+https://dzone.com/articles/how-to-rename-an-aws-s3-bucket-in-terraform,"How to Rename an AWS S3 Bucket in Terraform",DevOps
+https://dzone.com/articles/major-incident-management-process,"Major Incident Management Process",DevOps
+https://dzone.com/articles/why-you-should-reduce-wait-time-and-speed-up-your,"Why You Should Reduce Wait Time and Speed Up Your Deployment Pipeline",DevOps
+https://dzone.com/articles/im-from-ops-should-i-do-chaos,"I'm From Ops, Should I Do Chaos?",DevOps
+https://dzone.com/articles/pulumi-with-an-azure-blob-storage-backend,"Pulumi With an Azure Blob Storage Backend",DevOps
+https://dzone.com/articles/platform-engineering-with-pulumi-episode-3-platfor,"Platform Engineering With Pulumi (Part 3): Platform and Application...",DevOps
+https://dzone.com/articles/how-to-get-notified-on-new-helm-chart-release-with,"How To Get Notified On New Helm Chart Release With Nova?",DevOps
+https://dzone.com/articles/gray-box-testing-guide,"A Brief Guide to Gray Box Testing",DevOps
+https://dzone.com/articles/important-lessons-supervising-devops,"3 Important Lessons When Supervising DevOps",DevOps
+https://dzone.com/articles/quick-guide-to-migrate-godadday-dns-to-oci,"Quick Guide to Migrate GoDaddy DNS to Oracle Cloud Infrastructure (OCI)",DevOps
+https://dzone.com/articles/alpha-testing-vs-beta-testing-1,"The Differences Between Alpha Testing and Beta Testing",DevOps
+https://dzone.com/articles/how-are-artificial-intelligenceai-amp-machine-lear,"How Are Artificial Intelligence(AI) And Machine Learning(ML) Revamping...",DevOps
+https://dzone.com/articles/how-to-prepare-for-programming-and-coding-intervie,"How To Prepare for Programming and Coding Interviews? Topics and Skills",DevOps
+https://dzone.com/articles/3-things-every-engineer-should-know-about-inclusiv,"3 Things Every Engineer Should Know About Inclusive Design",DevOps
+https://dzone.com/articles/how-to-simulate-a-dockerhub-outage-to-test-image-c,"How to Simulate a DockerHub Outage to Test Image Caching",DevOps
+https://dzone.com/articles/the-role-of-cicd-pipeline-in-software-development-1,"The Role of CI/CD Pipeline in Software Development",DevOps
+https://dzone.com/articles/how-to-get-c-speed-in-java-serialisation,"How To Get C++ Speed in Java Serialization",DevOps
+https://dzone.com/articles/deploy-jmeter-on-aws-using-terraform,"Deploy JMeter on AWS Using Terraform",DevOps
+https://dzone.com/articles/build-ci-cd-pipeline-with-travis-ci,"How to Build Your First CI/CD Pipeline With Travis CI",DevOps
+https://dzone.com/articles/top-25-tree-data-structure-interview-questions-for,"Tree Data Structure Questions for Coding Interviews Preparation",DevOps
+https://dzone.com/articles/7-tools-for-code-review-engineers,"7 Tools for Code Review Engineers - GitHub Edition",DevOps
+https://dzone.com/articles/devops-cicd-tools-to-watch-out-for-in-2022,"DevOps: CI/CD Tools to Watch Out for in 2022",DevOps
+https://dzone.com/articles/devops-orchestration-the-vital-step-after-automati,"DevOps Orchestration | Vital Step After Automation",DevOps
+https://dzone.com/articles/canary-deployments-the-benefits-of-an-iterative-ap,"Canary Deployments - Benefits of an Iterative Approach",DevOps
+https://dzone.com/articles/why-an-autistic-developer-is-your-next-great-hire,"Why an Autistic Developer is Your Next Great Hire w/ Matt Nigh of UW...",DevOps
+https://dzone.com/articles/implementing-chaos-engineering-in-kubernetes,"Implement Chaos Engineering in Kubernetes",DevOps
+https://dzone.com/articles/resolved-crossslot-keys-error-in-redis-cluster-mod,"[Resolved] CROSSSLOT Keys Error in Redis Cluster-Mode Enabled",DevOps
+https://dzone.com/articles/understanding-canary-analysis,"Understanding Canary Analysis",DevOps
+https://dzone.com/articles/opa-gatekeeper-otomo,"Getting Started With OPA/Gatekeeper Using Otomi",DevOps
+https://dzone.com/articles/what-is-devsecops-top-5-automation-tools-for-ci-pi,"Understanding DevSecOps and Discussing Top Automation Tools for CI...",DevOps
+https://dzone.com/articles/how-security-reliability-and-design-teams-can-get,"How Security, Reliability, and Design Teams Can Get Other Teams To Do Work...",DevOps
+https://dzone.com/articles/site-reliability-engineer-sre-roles-and-responsibi,"Site Reliability Engineer (SRE) Roles and Responsibilities",DevOps
+https://dzone.com/articles/move-fast-with-safety-cloudbees-connect-2022,"Move Fast, With Safety: CloudBees Connect 2022",DevOps
+https://dzone.com/articles/a-primer-on-the-history-and-evolution-of-incident,"A Primer on the History and Evolution of Incident Management to Today",DevOps
+https://dzone.com/articles/rancher-vs-kubernetes-its-not-either-or,"Rancher vs Kubernetes: It’s Not Either-Or",DevOps
+https://dzone.com/articles/kubernetes-nocode-azure-devops-gopaddle,"Using Azure DevOps Pipeline With Gopaddle for No-Code Kubernetes...",DevOps
+https://dzone.com/articles/continuous-profiling-in-kubernetes-using-pyroscope,"Continuous Profiling in Kubernetes Using Pyroscope",DevOps
+https://dzone.com/articles/how-lambdatest-cuts-e2e-test-speeds,"How LambdaTest Cuts E2E Test Speeds",DevOps
+https://dzone.com/articles/requirements-for-running-k8ssandra-for-development,"Requirements for Running K8ssandra for Development",DevOps
+https://dzone.com/articles/what-is-a-kubernetes-operator,"What Is a Kubernetes Operator?",DevOps
+https://dzone.com/articles/the-universal-language-reliability-for-non-enginee,"The Universal Language: Reliability for Non-Engineering Teams",DevOps
+https://dzone.com/articles/how-a-hacker-a-hustler-and-a-designer-made-rss-fee,"How a Hacker, a Hustler, and a Designer Made RSS Feeds Cool",DevOps
+https://dzone.com/articles/infracost-how-to-get-started,"Infracost: How to Get Started",DevOps
+https://dzone.com/articles/testing-in-devops-the-basic-amp-critical-things-yo,"Testing in DevOps – The Basic and Critical Things You Need to Know",DevOps
+https://dzone.com/articles/one-click-trial-tyk-API-gateway-tin,"One-Click Trial on Tyk API Gateway With Tin",DevOps
+https://dzone.com/articles/how-to-deploy-and-manage-redis-database-on-aws-usi,"How To Deploy and Manage Redis Database on AWS Using Terraform",DevOps
+https://dzone.com/articles/devops-contribution-in-using-its-methods-for-adopt,"DevOps Contribution in Using Its Methods for Adoption in Software...",DevOps
+https://dzone.com/articles/monitoring-cicd-workflows,"Monitoring CI/CD Workflows",DevOps
+https://dzone.com/articles/chaos-engineering-the-practice-behind-controlling,"Chaos Engineering - The Practice Behind Controlling Chaos",DevOps
+https://dzone.com/articles/top-incidents-and-outages-of-2021,"Top 5 Incidents and Outages of 2021",DevOps
+https://dzone.com/articles/will-automation-replace-devops-jobs,"Will Automated Cloud Optimization Replace Your DevOps Job?",DevOps
+https://dzone.com/articles/keep-it-stupid-simple-please,"Keep It Stupid Simple please",DevOps
+https://dzone.com/articles/building-an-sre-team-with-specialization,"Building an SRE Team With Specialization",DevOps
+https://dzone.com/articles/introduction-to-feature-flags,"Feature Flags: A Gentle Introduction",DevOps
+https://dzone.com/articles/how-to-connect-two-containers-from-different-docke,"How to Connect Two Containers From Different docker-compose Files",DevOps
+https://dzone.com/articles/from-devs-to-vps-to-co-founders-10xing-a-startup-5,"From Devs, to VPs, to Co-Founders: 10Xing a Startup 5,000 Miles Apart",DevOps
+https://dzone.com/articles/how-to-make-your-scrum-master-fail,"How to Make Your Scrum Master Fail",DevOps
+https://dzone.com/articles/community-ama-bryan-finster-and-continuous-deliver,"Community AMA: Bryan Finster and Continuous Delivery",DevOps
+https://dzone.com/articles/devops-on-aws-everything-you-need-to-know,"DevOps on AWS: Everything You Need to Know",DevOps
+https://dzone.com/articles/how-disaster-ready-are-your-backup-systems-really,"How Disaster Ready Are Your Backup Systems, Really?",DevOps
+https://dzone.com/articles/kubernetes-salary-guide-a-detailed-comparison,"Kubernetes Salary Guide: A Detailed Comparison",DevOps
+https://dzone.com/articles/free-devops-training-and-certifications-you-should,"Free DevOps Training and Certifications You Should Know",DevOps
+https://dzone.com/articles/the-role-of-cicd-pipeline-in-software-development,"The Role of CI/CD Pipeline in Software Development",DevOps
+https://dzone.com/articles/kessel-run-smuggling-devops-into-the-department-of,"Kessel Run: Smuggling DevOps into the Department of Defense",DevOps
+https://dzone.com/articles/why-psp22-is-important-to-the-polkadot-ecosystem,"Why PSP22 Is Important to The Polkadot Ecosystem",DevOps
+https://dzone.com/articles/chef-inspec-configuration-steps,"Chef Inspec Configuration Steps",DevOps
+https://dzone.com/articles/desktop-high-performance-computing,"Desktop High-Performance Computing",DevOps
+https://dzone.com/articles/holidays-entrepreneurship-and-slos-with-nobl9,"Holidays, Entrepreneurship and SLOs with Nobl9",DevOps
+https://dzone.com/articles/improving-development-velocity-using-ephemeral-env,"Improving Development Velocity Using Ephemeral Environments",DevOps
+https://dzone.com/articles/the-clinical-trial-technical-challenge-programmabi-1,"The Clinical Trial Technical Challenge: Programmability and Extensibility...",DevOps
+https://dzone.com/articles/sonarqube-local-setup-using-docker,"SonarQube Local Setup Using Docker",DevOps
+https://dzone.com/articles/devops-engineer-salary-gcp-guide-for-2021,"DevOps Engineer Salary: GCP Guide for 2021",DevOps
+https://dzone.com/articles/what-is-test-scenario,"What Is Test Scenario?",DevOps
+https://dzone.com/articles/why-you-should-rethink-your-software-bill-of-mater,"Why You Should Rethink Your Software Bill of Materials (SBOM)",DevOps
+https://dzone.com/articles/what-is-gitops,"What is GitOps?",DevOps
+https://dzone.com/articles/5-key-metrics-in-test-automation-and-how-to-track,"5 Key Metrics in Test Automation and How to Track Them",DevOps
+https://dzone.com/articles/what-is-devops-dzone,"What is DevOps?",DevOps
+https://dzone.com/articles/5-tangible-metrics-for-the-speed-of-software-engin,"5 Tangible Metrics for the Speed of Software Engineering Teams",DevOps
+https://dzone.com/articles/extending-apache-skywalking-with-non-breaking-breakpoints,"Extending Apache SkyWalking With Non-Breaking Breakpoints",DevOps
+https://dzone.com/articles/eliminate-confusion-in-choosing-a-low-codeno-code,"Questions to Ask When Choosing a Low-Code/No-Code Platform",DevOps
+https://dzone.com/articles/to-enable-devops-enterprises-need-autonomous-multi,"To Enable DevOps, Enterprises Need Autonomous Multi-Cloud Networking",DevOps
+https://dzone.com/articles/systems-observability-1,"Systems Observability",DevOps
+https://dzone.com/articles/hardening-devsecops-with-domain-data-security-and,"Hardening DevSecOps With Domain Data Security and CircleCI",DevOps
+https://dzone.com/articles/a-site-reliability-engineers-guide-to-the-holidays,"A Site Reliability Engineer’s Guide to the Holiday Season",DevOps
+https://dzone.com/articles/community-ama-adam-furtado-and-scaling-kessel-run,"Community AMA: Adam Furtado and Scaling Kessel Run",DevOps
+https://dzone.com/articles/externalizing-configurations-kubernetes-configmap-secrets,"Externalizing Configurations in Kubernetes Using ConfigMap and Secret",DevOps
+https://dzone.com/articles/manage-test-data-software-testing,"How to Manage Test Data in Software Testing",DevOps
+https://dzone.com/articles/slow-build-pipeline-build-faster-by-building-only,"Slow Build Pipeline? Build Faster by Building Only What You Need",DevOps
+https://dzone.com/articles/checklist-for-an-efficient-code-review,"Checklist for an Efficient Code Review",DevOps
+https://dzone.com/articles/how-to-become-devops-engineer,"How to Become a DevOps Engineer",DevOps
+https://dzone.com/articles/need-for-speed-through-continuous-testing-practice-in-devsecops,"Tune the Need for Speed With Quality and Security Through Continuous...",DevOps
+https://dzone.com/articles/how-to-write-meaningful-retrospectives,"How To Write Meaningful Retrospectives",DevOps
+https://dzone.com/articles/jenkins-multibranch-pipeline-and-git-lfs,"Jenkins Multibranch Pipeline and Git LFS",DevOps
+https://dzone.com/articles/how-to-manage-active-directory-objects-with-azure,"Managing Active Directory Objects With Azure AD Provider for Terraform",DevOps
+https://dzone.com/articles/yakdt-yet-another-kubernetes-development-toolkit,"YAKDT: Yet Another Kubernetes Development Toolkit",DevOps
+https://dzone.com/articles/complex-test-data-prototyping-shapeless-monocle,"Complex Test Data Prototyping With shapeless and Monocle",DevOps
+https://dzone.com/articles/kubernetes-version-123-is-out-everything-you-shoul,"Kubernetes Version 1.23 Is Out: Everything You Should Know",DevOps
+https://dzone.com/articles/how-to-use-shared-libraries-in-a-jenkins-pipeline,"How To Use Shared Libraries in a Jenkins Pipeline?",DevOps
+https://dzone.com/articles/practical-guide-to-sre-infrastructure-as-code-iac,"Practical Guide to SRE: Infrastructure-as-Code (IaC)",DevOps
+https://dzone.com/articles/introduction-to-multi-tenancy-in-kubernetes,"Introduction to Multi-Tenancy in Kubernetes",DevOps
+https://dzone.com/articles/deploying-board-resource-depot-for-large-scale-semiconductor-companies-with-multi-geographical-teams,"Deploying Board Resource Depot for Large Scale Semiconductor Companies With...",DevOps
+https://dzone.com/articles/how-to-analyze-contributing-factors-blamelessly-8,"How To Analyze Contributing Factors Blamelessly",DevOps
+https://dzone.com/articles/tackling-technical-debt-founding-outsystems,"Tackling Technical Debt: Founding OutSystems",DevOps
+https://dzone.com/articles/avoiding-alert-fatigue-8-tips-for-every-k8s-engine,"Avoiding Alert Fatigue: 8 Tips for Every K8s Engineering Team",DevOps
+https://dzone.com/articles/use-kubernetes-on-bare-metal,"6 Reasons to Utilize Kubernetes on Bare Metal",DevOps
+https://dzone.com/articles/role-of-techops-devops-and-noops-in-the-sdlc,"Role of TechOps, DevOps, and NoOps in the SDLC",DevOps
+https://dzone.com/articles/dzone-spotlight-interview-meet-devops-expert-alire,"DZone Spotlight Interview: Meet DevOps Expert Alireza",DevOps
+https://dzone.com/articles/how-to-develop-terraform-custom-provider,"How to Develop a Terraform Custom Provider",DevOps
+https://dzone.com/articles/5-reasons-why-your-software-value-stream-is-broken,"5 Reasons Why Your Software Value Stream Is Broken and How to Fix It",DevOps
+https://dzone.com/articles/comparison-between-site-reliability-engineering-sr,"Comparison Between Site Reliability Engineering (SRE) and DevOps",DevOps
+https://dzone.com/articles/guidelines-on-leveraging-cpan-and-perl-modules-in,"Leveraging CPAN and Perl Modules in Your DevOps Projects",DevOps
+https://dzone.com/articles/the-6-best-devops-podcasts-you-should-listen-to,"The 6 Best DevOps Podcasts You Should Listen To",DevOps
+https://dzone.com/articles/who-needs-sres,"Who Needs Site Reliability Engineers (SREs)?",DevOps
+https://dzone.com/articles/rethinking-teamwork-with-range,"Rethinking Teamwork with Range",DevOps
+https://dzone.com/articles/incident-management-process-amp-tools,"Incident Management Process and Tools",DevOps
+https://dzone.com/articles/0-to-100-your-devops-using-zeet,"0 to 100 Your DevOps Using Zeet",DevOps
+https://dzone.com/articles/what-is-open-policy-agent-and-how-it-works,"What Is Open Policy Agent and How It Works",DevOps
+https://dzone.com/articles/time-estimation-in-software-testing,"Time Estimation in Software Testing",DevOps
+https://dzone.com/articles/devops-services-pricing-aws-vs-azure-vs-google-clo,"DevOps Services Pricing: AWS vs Azure vs Google Cloud",DevOps
+https://dzone.com/articles/port-management-in-your-local-kubernetes-cluster,"Port Management in Your Local Kubernetes Cluster",DevOps
+https://dzone.com/articles/add-custom-domain-ssl-to-aws-ec2,"Adding a Custom Domain and SSL to AWS EC2",DevOps
+https://dzone.com/articles/xpath-axis-steps-node-tests-syntax,"XPath: Axis Steps, Node Tests, Unabbreviated Syntax",DevOps
+https://dzone.com/articles/spinning-up-a-nodejs-server-in-a-container-on-aws,"Spinning up a Node.js Server in a Container on AWS with EC2",DevOps
+https://dzone.com/articles/a-systematic-review-on-ai-driven-qa-automation-the,"A Systematic Review on AI-Driven QA Automation: The Next Normal for...",DevOps
+https://dzone.com/articles/what-makes-a-good-enterprise-release-manager,"What Makes a Good Enterprise Release Manager?",DevOps
+https://dzone.com/articles/devops-trends-to-look-out-for-in-2022,"DevOps Trends To Look Out for in 2022",DevOps
+https://dzone.com/articles/steps-sres-should-take-to-prepare-for-cyber-monday,"6 Steps SREs Should Take to Prepare for Black Friday and Cyber Monday 2021",DevOps
+https://dzone.com/articles/building-a-unicorn-engineering-org-at-grin,"Building a Unicorn Engineering Org at GRIN",DevOps
+https://dzone.com/articles/build-3d-model-5-minutes,"How to Build a 3D Product Model In Just 5 Minutes",DevOps
+https://dzone.com/articles/cicd-security-management-best-practices,"CI/CD Security Management: Best Practices",DevOps
+https://dzone.com/articles/a-starting-point-to-automate-infrastructure,"A Starting Point To Automate Infrastructure",DevOps
+https://dzone.com/articles/the-ultimate-guide-to-automation-testing,"The Ultimate Guide to Automation Testing",DevOps
+https://dzone.com/articles/we-are-testing-software-incorrectly-and-its-costly,"We Are Testing Software Incorrectly and It's Costly",DevOps
+https://dzone.com/articles/heres-what-slis-arent,"Here's What SLIs AREN'T",DevOps
+https://dzone.com/articles/devops-amp-sre-words-matter-how-our-language-has-e,"DevOps and SRE Words Matter: How Our Language has Evolved",DevOps
+https://dzone.com/articles/chef-101-getting-started-with-automation,"Chef 101: Getting Started With Automation",DevOps
+https://dzone.com/articles/git-clone-command-vs-github-backup-best-practices,"Git Clone Command vs. GitHub Backup - Best Practices",DevOps
+https://dzone.com/articles/beyond-compliance-fables-mission-to-improve-digita,"Beyond Compliance: Fable’s Mission to Improve Digital Accessibility",DevOps
+https://dzone.com/articles/history-of-sre-why-google-invented-the-sre-role,"History of SRE: Why Google Invented the SRE Role",DevOps
+https://dzone.com/articles/deploy-quarkus-graalvm-native-application-to-ibm-c,"Deploy Quarkus Graalvm Native Application to IBM Cloud With GitOps Using...",DevOps
+https://dzone.com/articles/manage-code-concurrency-executor-reloader,"Two Easy Ways to Manage Code Concurrency",DevOps
+https://dzone.com/articles/value-stream-optimization-for-devops-a-complete-gu,"Value Stream Optimization for DevOps – A Complete Guide",DevOps
+https://dzone.com/articles/the-best-vs-code-extensions-to-supercharge-git,"The Best VS Code Extensions to Supercharge Git",DevOps
+https://dzone.com/articles/spinnaker-meets-minikube-2-of-3,"Spinnaker Meets Minikube: Part 2",DevOps
+https://dzone.com/articles/tricky-task-how-to-measure-devops-roi,"Tricky Task: How to Measure DevOps ROI",DevOps
+https://dzone.com/articles/how-to-perform-incident-post-mortems-identify-root,"How to Perform Incident Post-mortems: Identify Root Cause With “Five Whys”",DevOps
+https://dzone.com/articles/understanding-the-relationships-between-slo-sli-an,"Understanding the relationships between SLO, SLI, and SRE",DevOps
+https://dzone.com/articles/sre-complete-resume-writing-guide,"SRE Complete Resume Writing Guide",DevOps
+https://dzone.com/articles/top-time-wastes-as-a-devops-engineer,"Top 11 Time Wastes as a DevOps Engineer",DevOps
+https://dzone.com/articles/services-dont-have-to-be-eight-9s-reliable,"Services Don’t Have to Be Eight-9s Reliable [Video]",DevOps
+https://dzone.com/articles/how-to-handle-hypergrowth-in-a-remote-world,"How to Handle Hypergrowth in a Remote World",DevOps
+https://dzone.com/articles/git-bash-or-git-in-bash,"Git Bash (Or Git in Bash)?",DevOps
+https://dzone.com/articles/is-proof-of-concept-approach-crucial-in-software-d,"Is Proof of Concept Approach Crucial in Software Development?",DevOps
+https://dzone.com/articles/all-you-need-to-know-about-automation-testing-life-1,"All You Need to Know About Automation Testing Life Cycle",DevOps
+https://dzone.com/articles/3-reasons-you-should-talk-about-release-schedules,"3 Reasons You Should Talk About Release Schedules More Often",DevOps
+https://dzone.com/articles/from-tdd-to-pbt-via-kotest,"From TDD to PBT via Kotest",DevOps
+https://dzone.com/articles/kubernetes-logging-in-production,"Kubernetes Logging in Production",DevOps
+https://dzone.com/articles/who-makes-a-better-devops-engineer-developer-vs-sy,"Who Makes a Better DevOps Engineer? | Developer Vs. Sysadmin",DevOps
+https://dzone.com/articles/reducing-costs-and-improving-efficiencies-of-your,"Reducing Costs and Improving Efficiencies of Your Log Management Investment",DevOps
+https://dzone.com/articles/render-jenkins-build-parameters-dynamically,"How to Render Jenkins Build Parameters Dynamically",DevOps
+https://dzone.com/articles/four-vital-metrics-mobile-developers,"Four Metrics Every Mobile Developer Should Care About",DevOps
+https://dzone.com/articles/how-to-integrate-security-into-your-devops-toolcha,"How To Integrate Security Into the DevOps Toolchain",DevOps
+https://dzone.com/articles/devops-toolchain-for-beginners,"DevOps Toolchain for Beginners",DevOps
+https://dzone.com/articles/sre-vs-devops-responsibilities-differences-and-sal-8,"SRE vs. DevOps: Responsibilities, Differences, and Salaries",DevOps
+https://dzone.com/articles/how-to-handle-hypergrowth-like-grammarly,"How to Handle Hypergrowth Like Grammarly",DevOps
+https://dzone.com/articles/sla-vs-slo-vs-sli-understanding-the-similarities-a,"SLA vs SLO vs SLI: Understanding the Similarities and Differences",DevOps
+https://dzone.com/articles/spinnaker-meets-minikube-part-3,"Spinnaker Meets Minikube: Part 3",DevOps
+https://dzone.com/articles/the-most-common-blind-spots-in-devops-governance-a,"The Most Common Blind Spots in DevOps Governance and Compliance",DevOps
+https://dzone.com/articles/no-code-is-for-coders-too,"No-code Is for Coders Too",DevOps
+https://dzone.com/articles/devsecops-enable-it-on-your-software-development-l,"Enable DevSecOps in Software Development Life Cycle",DevOps
+https://dzone.com/articles/how-to-use-asserts-in-nunit-using-selenium,"How to Use Asserts in NUnit Using Selenium",DevOps
+https://dzone.com/articles/setup-sonar-with-ginkgo-mac,"SonarQube Analysis With Ginkgo on Mac",DevOps
+https://dzone.com/articles/devops-predictions-for-2022-key-trends,"DevOps Predictions For 2022: Key Trends",DevOps
+https://dzone.com/articles/how-to-start-an-infrastructure-as-code-project,"How to Start an Infrastructure as Code Project",DevOps
+https://dzone.com/articles/tutorial-on-how-to-use-active-storage-on-rails-62,"How to Use Active Storage on Rails 6.2",DevOps
+https://dzone.com/articles/top-5-git-tips-amp-tricks,"Top 5 Git Tips and Tricks to Improve Your Workflow",DevOps
+https://dzone.com/articles/what-is-the-difference-between-git-and-github,"What Is the Difference Between Git and GitHub?",DevOps
+https://dzone.com/articles/sre-vs-swe-similarities-and-differences,"SRE vs. SWE: Similarities and Differences",DevOps
+https://dzone.com/articles/live-from-interact-engineering-leadership-screwups,"Live From INTERACT: Engineering Leadership Screwups",DevOps
+https://dzone.com/articles/what-ci-observability-means-for-devops-1,"What CI Observability Means for DevOps",DevOps
+https://dzone.com/articles/how-to-learn-devops,"How To Learn DevOps",DevOps
+https://dzone.com/articles/prometheus-operator-guide,"Prometheus Definitive Guide: Prometheus Operator",DevOps
+https://dzone.com/articles/what-are-dora-metrics-and-why-is-everyone-talking,"What Are DORA Metrics? (And Why Is Everyone Talking About Them?)",DevOps
+https://dzone.com/articles/developer-experience,"Defining the Developer Experience",DevOps
+https://dzone.com/articles/spinnaker-meets-minikube,"Spinnaker Meets Minikube: Part 1",DevOps
+https://dzone.com/articles/how-to-change-certificate-without-downtime,"How to Change Certificates At Runtime Without Downtime",DevOps
+https://dzone.com/articles/an-introduction-to-incident-response-roles,"An Introduction to Incident Response Roles",DevOps
+https://dzone.com/articles/the-most-innovative-companies-prioritize-developer,"The Most Innovative Companies Prioritize Developers and Empower Their...",DevOps
+https://dzone.com/articles/how-to-build-the-process-and-culture-behind-using,"How to Build the Process and Culture Behind Using Feature Flags at Scale",DevOps
+https://dzone.com/articles/5-dos-and-4-donts-to-successfully-adopt-test-autom-1,"Dos and Don’ts to Successfully Adopt Test Automation in DevOps",DevOps
+https://dzone.com/articles/reduce-onboarding-costs-using-a-code-repository,"How to Reduce Onboarding Costs by Using a Code Repository",DevOps
+https://dzone.com/articles/the-coding-sysadmin,"The Coding SysAdmin",DevOps
+https://dzone.com/articles/what-makes-a-good-test-data-manager,"What Makes a Good Test Data Manager?",DevOps
+https://dzone.com/articles/scaling-kubernetes-clusters-with-armory,"Scaling Kubernetes Clusters with Armory",DevOps
+https://dzone.com/articles/unearthing-observability-with-new-relic,"Unearthing Observability with New Relic",DevOps
+https://dzone.com/articles/ensuring-quality-code-without-sacrificing-developm,"Ensure Quality Code Without Sacrificing Development Speed",DevOps
+https://dzone.com/articles/aws-communism-part-1-how-we-cut-our-load-balancing,"AWS Communism: Part 1 (How We Cut Our Load Balancing Cost by More Than 96%)",DevOps
+https://dzone.com/articles/free-resources-to-become-a-sredevops-engineer,"Free Resources To Become SRE/DevOps Engineer",DevOps
+https://dzone.com/articles/externalising-your-configurations-with-vault-for-s,"Externalizing Your Configurations With Vault for Scalable Deployments",DevOps
+https://dzone.com/articles/building-a-holistic-security-system-for-devops-pro,"Building a Holistic Security System for DevOps Projects",DevOps
+https://dzone.com/articles/unifiedflow-git-branching-strategy,"UnifiedFlow: Git Branching Strategy",DevOps
+https://dzone.com/articles/containers-are-here-to-stay,"Containers are Here to Stay",DevOps
+https://dzone.com/articles/what-managed-kubernetes-service-is-best-for-sres,"What Managed Kubernetes Service is Best for SREs?",DevOps
+https://dzone.com/articles/increase-your-devops-productivity-using-infrastruc,"Increase Your DevOps Productivity Using Infrastructure as Low Code",DevOps
+https://dzone.com/articles/two-key-focuses-and-a-checklist-for-new-engineerin,"Two Key Focuses (And a Checklist) For New Engineering Managers",DevOps
+https://dzone.com/articles/best-no-code-low-code-back-ends-2021,"11 Best No-Code/Low-Code Backends of 2021",DevOps
+https://dzone.com/articles/how-to-secure-containers-with-cosign-and-distroles,"How to Secure Containers with Cosign and Distroless Images",DevOps
+https://dzone.com/articles/what-is-an-sre-how-to-land-an-sre-role-today,"What Is an SRE? How To Land an SRE Role Today",DevOps
+https://dzone.com/articles/how-to-enhance-your-deployment-with-continuous-tes,"How to Enhance Your Deployment With Continuous Testing in CI/CD",DevOps
+https://dzone.com/articles/7-lessons-you-learned-in-kindergarten-thatll-help,"7 Lessons You Learned in Kindergarten That’ll Help You With DevOps",DevOps
+https://dzone.com/articles/kubernetes-co-founder-joe-beda-interview,"Software Development Is a Team Sport - Kubernetes Co-Founder, Joe Beda",DevOps
+https://dzone.com/articles/solution-architecture-vs-software-architecture,"Solution vs Software Architecture",DevOps
+https://dzone.com/articles/ice-cream-cone-pattern-test-automation,"How to Avoid the Ice Cream Cone of Test Automation",DevOps
+https://dzone.com/articles/staying-calms-with-observability,"Understanding How CALMS Extends To Observability",DevOps
+https://dzone.com/articles/selenium-grid-4-and-appium-1,"Selenium Grid 4 and Appium",DevOps
+https://dzone.com/articles/about-using-regexp-in-nginx-map,"About Using Regexp in Nginx Map",DevOps
+https://dzone.com/articles/parameterize-jenkinsfile-in-multibranch-jobs,"Parameterize Jenkinsfile in MultiBranch Jobs",DevOps
+https://dzone.com/articles/what-sres-can-learn-from-facebooks-largest-outage,"What SREs Can Learn From Facebook’s Largest Outage",DevOps
+https://dzone.com/articles/how-to-scale-engineering-processes-w-twitters-vp-o,"How to Scale Engineering Processes w/ Twitter's VP of Engineering",DevOps
+https://dzone.com/articles/how-to-choose-the-best-test-cases-to-automate,"How Do You Choose the Best Test Cases to Automate?",DevOps
+https://dzone.com/articles/googles-state-of-devops-2021-report-what-sres-need,"Google’s State of DevOps 2021 Report: What SREs Need to Know",DevOps
+https://dzone.com/articles/best-practices-terraform-setup,"5 Key Best Practices for Sane and Usable Terraform Setups",DevOps
+https://dzone.com/articles/reasons-to-leverage-infrastructure-as-code,"Why Should You Leverage Infrastructure as Code?",DevOps
+https://dzone.com/articles/coding-amp-testing-linux-applications-on-windows-u,"Coding and Testing Linux Applications on Windows Using WSL and VS Code",DevOps
+https://dzone.com/articles/outsystems-the-journey-to-a-95b-valuation,"OutSystems: the journey to a $9.5B valuation",DevOps
+https://dzone.com/articles/automating-smart-contract-development-with-docker,"Automating Smart Contract Development With Docker",DevOps
+https://dzone.com/articles/prometheus-at-scale-part-one,"Prometheus at Scale – Part 1",DevOps
+https://dzone.com/articles/find-unplanned-work-and-match-developer-effort-to,"Find Unplanned Work And Match Developer Effort To The Right Project With...",DevOps
+https://dzone.com/articles/introduction-provisioning-and-configuring-vagrant,"An Intro to, Provisioning, and Configuring Vagrant",DevOps
+https://dzone.com/articles/unlocking-developer-velocity-with-the-right-cicd-p,"Unlocking Developer Velocity With the Right CI/CD Platform",DevOps
+https://dzone.com/articles/aws-web-application-amp-ddos-resiliency,"AWS Web Application and DDoS Resiliency",DevOps
+https://dzone.com/articles/cloud-infrastructure-sast-scanning-terraform-for-s,"Cloud Infrastructure SAST: Scanning Terraform for security vulnerabilities...",DevOps
+https://dzone.com/articles/five-leadership-lessons-i-learned-from-microsoft-n,"Five Leadership Lessons I Learned From Microsoft, Netflix, Stack Overflow,...",DevOps
+https://dzone.com/articles/yakd-yet-another-kubernetes-dashboard,"YAKD: Yet Another Kubernetes Dashboard",DevOps
+https://dzone.com/articles/ngrx-best-practices-series-0-introduction,"NgRx Best Practices Series: Introduction",DevOps
+https://dzone.com/articles/prometheus-blackbox-what-why-how,"Prometheus Blackbox: What? Why? How?",DevOps
+https://dzone.com/articles/diy-devops-ci-and-cd-with-github-docker-and-a-vps,"DIY DevOps, CI, and CD with GitHub, Docker and a VPS",DevOps
+https://dzone.com/articles/feature-flagging-falsehoods-fallacies-and-downright-fictions,"Feature Flagging: Falsehoods, Fallacies, and Downright Fictions",DevOps
+https://dzone.com/articles/your-guide-to-automated-vulnerability-scanners-typ,"Your Guide to Automated Vulnerability Scanners: Types, Benefits, and More",DevOps
+https://dzone.com/articles/5-key-techniques-to-improve-devsecops-framework-im,"5 Key Techniques To Improve DevSecOps Framework Implementation",DevOps
+https://dzone.com/articles/low-code-no-code-business-strategies,"Respond, Reset, and Renew Your Business Strategy Using Low Code/No Code...",DevOps
+https://dzone.com/articles/common-mistakes-in-ci-cd-implementation,"CI/CD Implementation: 5 Common Mistakes and How to Avoid Them",DevOps
+https://dzone.com/articles/solving-the-top-10-test-automation-challenges-1,"Solving the Top 10 Test Automation Challenges",DevOps
+https://dzone.com/articles/sre-vs-devops-what-are-the-differences,"SRE vs. DevOps: What are the Differences?",DevOps
+https://dzone.com/articles/detailed-comparison-unit-testing-vs-functional-testing,"A Detailed Comparison: Unit Testing vs. Functional Testing",DevOps
+https://dzone.com/articles/practical-experiences-from-full-stack-development,"Practical Experiences From Full Stack Development of A Single Page Web App",DevOps
+https://dzone.com/articles/the-power-of-devops-self-service-platforms-how-sta,"The Power of DevOps Self-Service Platforms: How Standard Tools and Tech...",DevOps
+https://dzone.com/articles/things-to-look-forward-to-at-this-years-devops-world,"Things to Look Forward to at This Year’s DevOps World",DevOps
+https://dzone.com/articles/what-is-mlops,"What Is MLOps?",DevOps
+https://dzone.com/articles/what-is-an-sre,"What Is an SRE?",DevOps
+https://dzone.com/articles/make-spinnaker-even-better-using-armory,"Make Spinnaker Even Better Using Armory",DevOps
+https://dzone.com/articles/five-ways-developers-can-help-sres,"Five Ways Developers Can Help SREs",DevOps
+https://dzone.com/articles/why-we-need-tool-choice-a-developers-story,"Why We Need Tool Choice: A Developer’s Story",DevOps
+https://dzone.com/articles/top-10-devops-books-that-you-must-read,"Top 10 DevOps Books That You Must Read",DevOps
+https://dzone.com/articles/bigger-and-better-scaling-devops-and-your-career-a,"Bigger and Better: Scaling DevOps and Your Career at DevOps World",DevOps
+https://dzone.com/articles/path-to-continuous-test-automation-using-cicd-pipe,"Path to Continuous Test Automation Using CI/CD Pipeline",DevOps
+https://dzone.com/articles/tooltime-scm-manager,"Tooltime: SCM-Manager",DevOps
+https://dzone.com/articles/the-role-of-sres-in-observability,"The Role of SREs in Observability",DevOps
+https://dzone.com/articles/low-code-and-no-code-considerations,"Low Code and No-Code Considerations",DevOps
+https://dzone.com/articles/combine-developer-skills-and-automation-for-devops-success,"How to Combine Developer Skills and Automation to Achieve DevOps Success",DevOps
+https://dzone.com/articles/why-does-gitops-empower-developers-and-praise-oper,"Why Does GitOps Empower Developers and Praise Operations?",DevOps
+https://dzone.com/articles/co-founding-kubernetes-with-microsoft-cvp-brendan,"Co-Founding Kubernetes with Microsoft CVP Brendan Burns",DevOps
+https://dzone.com/articles/introduction-to-ansible,"Introduction to Ansible",DevOps
+https://dzone.com/articles/cicd-trend-report-2021-key-takeaways,"CI/CD Trend Report 2021: Key Takeaways",DevOps
+https://dzone.com/articles/selenium-ide-alternatives-chrome-firefox,"Top 3 Selenium IDE alternatives for Firefox &amp; Chrome",DevOps
+https://dzone.com/articles/devops-vs-agile-whats-right-for-your-team,"DevOps vs. Agile: What’s Right for Your Team?",DevOps
+https://dzone.com/articles/exploring-spring-cloud-configuration-serverin-micr,"Exploring Spring Cloud Configuration Server  in Microservices",DevOps
+https://dzone.com/articles/introduction-to-yaml,"Introduction to YAML",DevOps
+https://dzone.com/articles/ultimate-step-by-step-guide-on-behavior-driven-dev,"Ultimate Step-by-Step Guide on Behavior Driven Development (BDD) Testing",DevOps
+https://dzone.com/articles/site-reliability-engineering-sre-best-practices-1,"Site Reliability Engineering (SRE) Best Practices",DevOps
+https://dzone.com/articles/reliability-issues-triggered-by-math-errors,"You Do the Math: Reliability Issues Triggered by Math Errors",DevOps
+https://dzone.com/articles/leading-650-engineers-with-microsofts-brendan-burn,"Leading 650 Engineers with Microsoft's Brendan Burns",DevOps
+https://dzone.com/articles/testcontainers-from-zero-to-hero-video,"Testcontainers: From Zero To Hero [Video]",DevOps
+https://dzone.com/articles/how-to-effectively-build-successful-development-te,"How to Effectively Build Successful Development Teams",DevOps
+https://dzone.com/articles/3-ways-to-prepopulate-your-vuejs-global-stores-sta,"3 Ways to Prepopulate Your Vue.js Global Store’s State",DevOps
+https://dzone.com/articles/progressive-delivery-a-detailed-overview,"Progressive Delivery: A Detailed Overview",DevOps
+https://dzone.com/articles/top-nlp-use-cases-for-itsm,"Top 3 NLP Use Cases for ITSM",DevOps
+https://dzone.com/articles/running-mlops-pipeline-securely-using-azure-devops,"Running MLOps Pipeline Securely Using Azure DevOps",DevOps
+https://dzone.com/articles/the-importance-of-avoiding-tech-debt-for-growth-st,"The Importance of Avoiding Tech Debt for Growth-Stage Startups",DevOps
+https://dzone.com/articles/solo-devops,"Solo DevOps",DevOps
+https://dzone.com/articles/configure-slack-to-receive-notifications-about-you,"Configure Slack to receive notifications about your Tekton Pipeline",DevOps
+https://dzone.com/articles/top-time-wastes-as-a-software-engineer,"Top 6 Time Wastes as a Software Engineer",DevOps
+https://dzone.com/articles/team-topologies-organizing-business-and-technology-1,"Team Topologies: Organizing Business and Technology Teams - Part 2",DevOps
+https://dzone.com/articles/making-on-call-incident-management-programs-stick,"Making Your On-Call and Incident Management Program Stick",DevOps
+https://dzone.com/articles/a-response-why-devops-will-cease-to-exist,"A Response: Why DevOps Will Cease To Exist",DevOps
+https://dzone.com/articles/visualizing-spikes-in-devopsscrum,"Visualizing Spikes in DevOps/Scrum",DevOps
+https://dzone.com/articles/popular-tools-supporting-yaml-data-format,"Popular Tools Supporting YAML Data Format",DevOps
+https://dzone.com/articles/the-reality-of-testing-in-devops,"The Reality of Testing in DevOps",DevOps
+https://dzone.com/articles/upcoming-trends-in-devops-and-sre,"Upcoming Trends in DevOps and SRE in 2021",DevOps
+https://dzone.com/articles/how-developer-experience-and-role-of-sre-are-changing,"How the Developer Experience and the Role of the SRE Are Changing",DevOps
+https://dzone.com/articles/how-to-use-dora-engineering-metrics-to-improve-you,"How To Use DORA Engineering Metrics To Improve Your Dev Team",DevOps
+https://dzone.com/articles/dos-and-donts-of-building-a-cross-functional-team,"How to Build a Cross-Functional Team",DevOps
+https://dzone.com/articles/how-to-implement-the-gitops-approach-successfully,"How To Implement the GitOps Approach Successfully With 3 Actions",DevOps
+https://dzone.com/articles/what-ci-observability-means-for-devops,"CI Observability Strengthens Your DevOps Pipeline",DevOps
+https://dzone.com/articles/cypress-azuredevops-pipeline,"Setup Cypress Tests in Azure DevOps Pipeline",DevOps
+https://dzone.com/articles/team-topologies-organizing-business-and-technology,"Team Topologies: Organizing Business and Technology Teams",DevOps
+https://dzone.com/articles/the-top-5-devops-success-factors,"Top 5 DevOps Success Factors",DevOps
+https://dzone.com/articles/simple-code-version-control-commits,"Simple code: Version control commits",DevOps
+https://dzone.com/articles/containerd-kubernetes-syslog-forwarding,"ContainerD Kubernetes Syslog Forwarding",DevOps
+https://dzone.com/articles/battle-between-linters-scanners-data-flow-analysis,"The Battle Between Linters, Scanners, and Data Flow Analysis",DevOps
+https://dzone.com/articles/boost-your-development-environment-with-ubuntu-mul-5,"Boost Your Development Environment With Ubuntu Multipass",DevOps
+https://dzone.com/articles/what-is-no-code-and-low-code,"What is No-Code and Low-Code?",DevOps
+https://dzone.com/articles/how-to-build-a-cicd-pipeline-in-azure-devops,"How To Build a CI/CD Pipeline in Azure DevOps",DevOps
+https://dzone.com/articles/improving-upon-googles-four-golden-signals-of-monitoring,"How to Improve Upon Google’s Four Golden Signals of Monitoring",DevOps
+https://dzone.com/articles/writing-accessible-code-as-a-software-engineer,"5 Tips for Writing Accessible Code As a Software Engineer",DevOps
+https://dzone.com/articles/what-problems-are-you-likely-to-face-when-adopting,"What Problems Are You Likely To Face When Adopting DevOps?",DevOps
+https://dzone.com/articles/how-to-enable-on-demand-windows-installation-using,"Windows Management With Chocolatey",DevOps
+https://dzone.com/articles/how-toolchain-automation-can-empower-teams,"Automate to Empower: How Toolchain Automation Can Empower and Elevate Your...",DevOps
+https://dzone.com/articles/gitlab-as-your-continuous-deployment-one-stop-shop,"GitLab as Your Continuous Deployment One-Stop Shop",DevOps
+https://dzone.com/articles/data-what-is-devsecops,"Data: What Is DevSecOps?",DevOps
+https://dzone.com/articles/is-2021-the-year-of-the-internal-developer-platfor,"Is 2021 the Year of the Internal Developer Platform?",DevOps
+https://dzone.com/articles/devops-upskilling-report-3-takeaways-for-qa,"DevOps Upskilling Report: 3 Takeaways for QA",DevOps
+https://dzone.com/articles/incident-management-goes-to-the-olympics,"Incident Management Goes to the Olympics",DevOps
+https://dzone.com/articles/move-fast-break-things-amp-win-how-facebook-builds,"Move Fast, Break Things, and Win: How Facebook Builds Software",DevOps
+https://dzone.com/articles/prevent-supply-chain-attacks-by-securing-devops,"How to Prevent Supply Chain Attacks by Securing DevOps",DevOps
+https://dzone.com/articles/measuring-developers-isnt-tyranny,"Measuring Developers Isn’t Tyranny",DevOps
+https://dzone.com/articles/mobile-commerce-testing-how-global-leaders-optimiz,"Mobile Commerce Testing: How Global Leaders Optimize User Experience",DevOps
+https://dzone.com/articles/five-developer-secrets-to-speeding-mobile-devsecop,"Five Developer Secrets to Speeding Mobile DevSecOps",DevOps
+https://dzone.com/articles/top-5-free-kubernetes-certifications,"Top 5 Free Kubernetes Certifications",DevOps
+https://dzone.com/articles/7-pieces-of-bad-advice-for-women-in-engineering-le,"7 Pieces of Bad Advice for Women in Engineering Leadership",DevOps
+https://dzone.com/articles/how-to-raise-the-morale-of-the-remote-team,"How To Raise the Morale of a Remote Team",DevOps
+https://dzone.com/articles/the-truth-about-software-architecture-is-about-to,"The Truth About Software Architecture",DevOps
+https://dzone.com/articles/how-to-gather-high-quality-feedback-during-prototy,"How to Gather High-Quality Feedback During Prototype Testing",DevOps
+https://dzone.com/articles/understanding-selenium-the-automation-testing-tool,"Understanding Selenium: The Automation Testing Tool",DevOps
+https://dzone.com/articles/elephant-in-the-blameless-war-room-accountability,"Elephant in the Blameless War Room: Accountability",DevOps
+https://dzone.com/articles/net-6-azure-web-app-deployment-using-azure-devops,".NET 6 Azure Web App Deployment Using Azure DevOps Pipelines",DevOps
+https://dzone.com/articles/charlie-betz-on-building-better-business-outcomes,"Building Better Business Outcomes With Software Maturity",DevOps
+https://dzone.com/articles/one-ckackadcks-requirement-mastering-kubectl,"One CKA/CKAD/CKS Requirement: Mastering Kubectl",DevOps
+https://dzone.com/articles/avoiding-kubernetes-cluster-outages-with-synthetic-1,"Avoid Kubernetes Cluster Outages With Synthetic Monitoring",DevOps
+https://dzone.com/articles/what-is-low-code-application-development-and-why-s,"Low-Code Application Development and Its Importance for Businesses",DevOps
+https://dzone.com/articles/usage-of-practical-grep-commands-examples-useful-i,"Usage of Practical Grep Commands Examples Useful in Real World Debugging in...",DevOps
+https://dzone.com/articles/noops-what-does-the-future-hold-for-devops-enginee,"NoOps: What Does the Future Hold for DevOps Engineers?",DevOps
+https://dzone.com/articles/what-is-devops-automation-in-2021,"What DevOps Automation Looks Like in 2021",DevOps
+https://dzone.com/articles/enabling-cicd-to-maximize-the-potential-of-devops,"Enabling CI/CD to Maximize the Potential of DevOps",DevOps
+https://dzone.com/articles/tech-leadership-books,"Top 15 Tech Leadership Books",DevOps
+https://dzone.com/articles/devops-and-its-key-principles,"DevOps and Its Key Principles",DevOps
+https://dzone.com/articles/jenkins-tutorial-get-started-quickly-and-easily-wi,"Jenkins Tutorial: Get Started Quickly and Easily With CI",DevOps
+https://dzone.com/articles/networking-with-a-service-mesh,"Networking with a Service Mesh",DevOps
+https://dzone.com/articles/prometheus-ha-with-thanos-sidecar-or-receiver,"Prometheus HA With Thanos Sidecar or Receiver?",DevOps
+https://dzone.com/articles/deciphering-the-world-of-sap-s4hana,"Deciphering the World of SAP S/4HANA",DevOps
+https://dzone.com/articles/automated-gitops-with-flux,"Automated GitOps With Flux",DevOps
+https://dzone.com/articles/how-to-automate-anything,"How to Automate Anything",DevOps
+https://dzone.com/articles/how-to-explore-docker-containers-file-system,"How to Explore Docker Container’s File System?",DevOps
+https://dzone.com/articles/where-are-docker-images-stored-on-the-host-machine,"Where Are Docker Images Stored on the Host Machine?",DevOps
+https://dzone.com/articles/convert-csv-files-to-excel-in-net-framework,"Convert CSV Files to Excel in .NET Framework",DevOps
+https://dzone.com/articles/three-key-communication-skills-that-software-devel,"Three Key Communication Skills That Software Developers Must Master",DevOps
+https://dzone.com/articles/5-devops-mistakes-to-avoid,"5 DevOps Mistakes to Avoid",DevOps
+https://dzone.com/articles/13-best-practices-for-using-helm,"13 Best Practices for Using Helm",DevOps
+https://dzone.com/articles/estimating-effort-test-automation,"Estimating Effort of Test Automation Projects",DevOps
+https://dzone.com/articles/dmesg-unixlinux-command-beginners-introduction-wit,"dmesg – Unix/Linux Command, Beginners Introduction With Examples",DevOps
+https://dzone.com/articles/unravelling-the-best-practices-for-devops-testing,"Unravelling the Best Practices For DevOps Testing Strategy",DevOps
+https://dzone.com/articles/modernizing-software-testing-with-clark-golestani,"The CIO Perspective on Why Modernizing Software Testing Is a Business...",DevOps
+https://dzone.com/articles/the-perfect-saas-tech-stack,"The Perfect SaaS Tech Stack",DevOps
+https://dzone.com/articles/circleci-vs-gitlab-choosing-the-right-cicd-tool,"CircleCI vs. GitLab: Choosing the Right CI/CD Tool",DevOps
+https://dzone.com/articles/when-you-do-devsecops-dont-forget-the-sres,"When You Do DevSecOps, Don’t Forget the SREs",DevOps
+https://dzone.com/articles/7-essential-tools-for-sres,"7 Essential Tools for SREs",DevOps
+https://dzone.com/articles/top-25-devops-tools-for-2021,"Top 25 DevOps Tools for 2021",DevOps
+https://dzone.com/articles/cycle-time-breakdown-tactics-for-reducing-coding-t,"Cycle Time Breakdown: Tactics For Reducing Coding Time",DevOps
+https://dzone.com/articles/the-hats-of-release-management,"The Hats of Release Management",DevOps
+https://dzone.com/articles/utilizing-continuous-testing-to-drive-success-with-agile-and-devOps,"Utilizing Continuous Testing to Drive Success With Agile and DevOps",DevOps
+https://dzone.com/articles/understanding-kubernetes,"Understanding Kubernetes Basics",DevOps
+https://dzone.com/articles/anticipating-your-business-problem-with-infrastruc,"Anticipating Your Business Problem With Infrastructure as Code in DevOps",DevOps
+https://dzone.com/articles/de-siloing-incident-management-how-to-make-reliabi,"De-Siloing Incident Management: How to Make Reliability Engineering...",DevOps
+https://dzone.com/articles/popular-15-software-development-trends-thatll-soon,"15 SWE Trends Dominating the Tech Industry in 2021",DevOps
+https://dzone.com/articles/top-5-lessons-for-every-devops-leader,"Top 5 Lessons for Every DevOps Leader",DevOps
+https://dzone.com/articles/how-to-prepare-for-ckad-and-cka-certification,"How to Prepare for CKAD and CKA Certification",DevOps
+https://dzone.com/articles/running-experiments-to-create-change,"Running Experiments To Create Change",DevOps
+https://dzone.com/articles/most-viewed-articles-devops-zone-june,"Top 10 June '21 DevOps Articles to Read Now",DevOps
+https://dzone.com/articles/owasp-zap-security-tests-in-azure-devops-pipeline,"How to Run OWASP ZAP Security Tests in Azure DevOps Pipeline",DevOps
+https://dzone.com/articles/aws-eks-cluster-and-providing-access-to-developer,"Creating an AWS EKS Cluster and Providing Access to Developer",DevOps
+https://dzone.com/articles/automate-code-deployment-to-kubernetes-using-githu,"Automate Code Deployment to Kubernetes By Using GitHub Actions",DevOps
+https://dzone.com/articles/improving-visibility-without-being-annoying,"Improving Visibility Without Being Annoying",DevOps
+https://dzone.com/articles/how-to-create-a-kubernetes-cluster-and-load-balanc,"How to Create a Kubernetes Cluster and Load Balancer for Local Development",DevOps
+https://dzone.com/articles/quality-leaders-talk-digital-transformations-in-ne,"Quality Leaders Talk Digital Transformations in a New Podcast",DevOps
+https://dzone.com/articles/tips-on-using-devops-maturity-assessment-to-manage,"Tips on Using DevOps Maturity Assessments to Manage Change",DevOps
+https://dzone.com/articles/those-pesky-pull-requests-are-totally-worth-it-1,"Those “Pesky” Pull Requests are Totally Worth It",DevOps
+https://dzone.com/articles/top-open-source-projects-for-sres-and-devops,"Top 10 Open Source Projects for SREs and DevOps",DevOps
+https://dzone.com/articles/your-dev-team-lead-is-not-controlling-enough-2,"Your dev team lead is not controlling enough",DevOps
+https://dzone.com/articles/why-mobile-needs-its-own-devops,"Why Mobile Needs Its Own DevOps",DevOps
+https://dzone.com/articles/the-incident-review-4-incidents-in-outer-space,"The Incident Review: 4 Incidents in Outer Space",DevOps
+https://dzone.com/articles/monitoring-velero-backup-and-restore-with-botkube,"Monitoring Velero Backup and Restore With BotKube",DevOps
+https://dzone.com/articles/how-to-protect-net-web-applications-from-viruses-a,"How to Protect .NET Web Applications From Viruses and Zero-Day Threats",DevOps
+https://dzone.com/articles/uptime-is-for-amateurs,"Uptime Is For Amateurs",DevOps
+https://dzone.com/articles/ping-unixlinux-command-beginners-introduction-with,"Ping – Unix/Linux Command, Beginners Introduction With Examples",DevOps
+https://dzone.com/articles/set-up-websites-with-fedora-nginx-and-certbot-at-d,"Set Up Websites With Fedora, NGINX, and Certbot at DigitalOcean",DevOps
+https://dzone.com/articles/value-stream-mapping-the-devops-void,"Value Stream Mapping the DevOps Void",DevOps
+https://dzone.com/articles/role-of-continuous-monitoring-in-devops-pipeline,"Role of Continuous Monitoring in DevOps Pipeline",DevOps
+https://dzone.com/articles/focus-culture-and-metrics-in-a-remote-first-world,"Focus, Culture, and Metrics in a Remote-First World",DevOps
+https://dzone.com/articles/sharing-winscp-configurations,"Sharing WinSCP Configurations",DevOps
+https://dzone.com/articles/microservices-on-aws-part-2video,"Microservices on AWS: Part 2 [Video]",DevOps
+https://dzone.com/articles/5-tips-on-how-to-improve-value-stream-performance,"How to Improve Value Stream Performance with Automation",DevOps
+https://dzone.com/articles/schedule-azure-devops-pipelines-using-cron-job-expression,"Schedule Pipelines in Azure DevOps Using Cron Expressions",DevOps
+https://dzone.com/articles/top-devops-interview-questions,"Top 30+ DevOps Interview Questions",DevOps
+https://dzone.com/articles/environments-the-roi-of-tem,"Environments: The ROI of TEM",DevOps
+https://dzone.com/articles/kubernetes-full-stack-example-with-kong-ingress-co,"Full Stack Kubernetes with Kong Ingress Controller",DevOps
+https://dzone.com/articles/build-software-distribution-cdn-using-mirrorbits,"How to Build Your Software Distribution CDN Using Mirrorbits",DevOps
+https://dzone.com/articles/practical-guide-to-sre-incident-severity-levels,"Practical Guide to SRE: Incident Severity Levels",DevOps
+https://dzone.com/articles/feature-flag-what-why-how,"Feature Flag, What? Why? How?",DevOps
+https://dzone.com/articles/automation-testing-pyramid-today,"Automation Testing Pyramid Today",DevOps
+https://dzone.com/articles/software-engineers-need-to-know-devops-too-and-tha,"Software Engineers Need to Know DevOps Too, and That Starts with CI/CD",DevOps
+https://dzone.com/articles/things-to-look-out-for-a-large-scale-migration-or,"Things to Look Out for a Large-Scale Migration or Transition From...",DevOps
+https://dzone.com/articles/is-progressive-delivery-just-continuous-delivery-w,"Is Progressive Delivery Just Continuous Delivery With Feature Flags?",DevOps
+https://dzone.com/articles/the-incident-review-4-times-when-typos-brought-dow,"The Incident Review: 4 Times When Typos Brought Down Critical Systems",DevOps
+https://dzone.com/articles/case-for-software-architecture-makeover,"The Case for Software Architecture Makeover",DevOps
+https://dzone.com/articles/spot-instances-how-to-reduce-aws-azure-and-gcp-cos,"Spot Instances: How to Reduce AWS, Azure, and GCP Costs by 90%",DevOps
+https://dzone.com/articles/incident-management-vs-incident-response-whats-the,"Incident Management vs. Incident Response — What's the Difference?",DevOps
+https://dzone.com/articles/i-never-thought-a-simplified-spinnaker-was-possibl,"I Never Thought a Simplified Spinnaker Was Possible",DevOps
+https://dzone.com/articles/first-glimpse-production-constraints-for-developers,"A First Glimpse of Production Constraints for Developers",DevOps
+https://dzone.com/articles/scenarios-when-data-driven-testing-is-useful,"Scenarios When Data-Driven Testing Is Useful",DevOps
+https://dzone.com/articles/taking-kubemq-build-amp-deploy-for-a-test-drive-my,"Taking KubeMQ Build &amp; Deploy for a Test Drive: My Thoughts and...",DevOps
+https://dzone.com/articles/how-aiops-helps-in-application-monitoring,"How AIOps Helps in Application Monitoring",DevOps
+https://dzone.com/articles/increasing-insights-and-productivity-using-feature,"Increasing Insights and Productivity Using Feature Flags Across CI/CD",DevOps
+https://dzone.com/articles/does-observability-throw-you-for-a-loop,"Does Observability Throw You for a Loop?",DevOps
+https://dzone.com/articles/accelerate-application-management-using-jenkins-x-1,"Accelerate Application Management Using Jenkins X",DevOps
+https://dzone.com/articles/introduction-to-feature-flags-in-cd,"Introduction to Feature Flags in CD",DevOps
+https://dzone.com/articles/how-saml-20-authentication-works-amp-why-it-matter,"How SAML 2.0 Authentication Works and Why It Matters",DevOps
+https://dzone.com/articles/covid-19-and-poor-software-quality,"COVID-19 and Poor Software Quality: What You Need to Know",DevOps
+https://dzone.com/articles/restarts-and-gitops-dont-fix-everything,"Restarts and GitOps Don't Fix Everything",DevOps
+https://dzone.com/articles/how-to-create-software-architecture-culture-in-you,"How To Create Software Architecture Culture In Your Team",DevOps
+https://dzone.com/articles/leveraging-flexdeploy-project-package-features,"Leveraging FlexDeploy Project Package Features",DevOps
+https://dzone.com/articles/devopsing-devops,"DevOps'ing DevOps",DevOps
+https://dzone.com/articles/addressing-concerns-of-being-a-devops-engineer,"Addressing Concerns About Being a DevOps Engineer",DevOps
+https://dzone.com/articles/what-is-resilience-engineering-a-lightning-talk-wi,"What Is Resilience Engineering? A Lightning Talk With Background...",DevOps
+https://dzone.com/articles/what-is-mobile-backend-as-a-service-mbaas,"What Is Mobile Backend As A Service (MBaaS)?",DevOps
+https://dzone.com/articles/introduction-to-feature-flags-in-continuous-integr,"Introduction to Feature Flags in Continuous Integration",DevOps
+https://dzone.com/articles/the-first-stages-of-feature-flag-adoption,"The First Stages of Feature Flag Adoption",DevOps
+https://dzone.com/articles/microservices-deployment-through-awsome-pipeline,"Microservices on AWS [Video]",DevOps
+https://dzone.com/articles/top-sre-toolchain-used-by-site-reliability-enginee,"Top SRE Toolchain Used by Site Reliability Engineers",DevOps
+https://dzone.com/articles/how-to-achieve-higher-testing-maturity,"How To Achieve Higher Testing Maturity",DevOps
+https://dzone.com/articles/the-data-bimodal-agility-versus-security,"The Data Bimodal – Agility vs Security",DevOps
+https://dzone.com/articles/the-incident-review-4-odd-incidents-caused-by-anim,"The Incident Review: 4 Odd Incidents Caused by Animals",DevOps
+https://dzone.com/articles/advice-for-someone-moving-from-sre-to-backend-engi,"Advice for Someone Moving From SRE to Backend Engineering",DevOps
+https://dzone.com/articles/nginx-and-https-with-lets-encrypt-certbot-and-cron,"NGINX and HTTPs With Let’s Encrypt, Certbot, and Cron Dockerization In...",DevOps
+https://dzone.com/articles/why-going-fast-is-not-all-for-nationwide-building,"Why ''Going Fast'' Is Not All for Nationwide Building Society",DevOps
+https://dzone.com/articles/dora-metrics-to-measure-devops-performance,"DORA Metrics to Measure DevOps Performance",DevOps
+https://dzone.com/articles/changing-a-drive-letter-with-powershell,"Changing a Drive Letter With PowerShell",DevOps
+https://dzone.com/articles/using-coredns-effectively-with-kubernetes,"How to Use CoreDNS Effectively With Kubernetes",DevOps
+https://dzone.com/articles/managing-secrets-deployment-in-gitops-workflow-par-1,"Managing Secrets Deployment in GitOps Workflow - Part 2",DevOps
+https://dzone.com/articles/load-balancing-minecraft-servers-with-kong-gateway,"Load-Balancing Minecraft Servers with Kong Gateway",DevOps
+https://dzone.com/articles/optimizing-the-role-of-qa-in-continuous-delivery,"Optimizing the Role of QA in Continuous Delivery",DevOps
+https://dzone.com/articles/canary-deployment-constraints-and-benefits,"Canary Deployment, Constraints, and Benefits",DevOps
+https://dzone.com/articles/running-mule-application-in-aws,"Running Mule Application In AWS",DevOps
+https://dzone.com/articles/flutter-architecture,"Flutter Architecture",DevOps
+https://dzone.com/articles/on-premises-software-advantages,"On-Premises Software Advantages",DevOps
+https://dzone.com/articles/building-a-kubernetes-cicd-pipeline-with-gitlab-an,"Building a Kubernetes CI/CD Pipeline With GitLab and Helm",DevOps
+https://dzone.com/articles/kubernetes-multi-tenancy-best-practices-with-amazon-eks,"Kubernetes Multi-Tenancy Best Practices With Amazon EKS",DevOps
+https://dzone.com/articles/a-guide-to-open-source-iac-testing,"A Guide to Open-Source IaC Testing",DevOps
+https://dzone.com/articles/how-to-write-test-script-in-selenium,"How to Write Test Script in Selenium?",DevOps
+https://dzone.com/articles/four-mistakes-to-avoid-when-implementing-devops,"4 Mistakes to Avoid When Implementing DevOps",DevOps
+https://dzone.com/articles/azure-devops-artifacts,"Use Shared Packages From an Azure DevOps Feed in a Maven Project",DevOps
+https://dzone.com/articles/are-you-tracking-kubernetes-applications-effective,"Are You Tracking Kubernetes Applications Effectively?",DevOps
+https://dzone.com/articles/breaking-down-the-differences-between-cicd-and-cr,"The Differences Between CI/CD and CR and How to Instantly Pinpoint Issues...",DevOps
+https://dzone.com/articles/how-to-install-vpn-on-linux,"How to Install VPN on Linux?",DevOps
+https://dzone.com/articles/what-is-raid-in-linux,"What is RAID in Linux?",DevOps
+https://dzone.com/articles/top-35-git-commands-with-examples-and-bonus,"Top 35 Git Commands With Examples",DevOps
+https://dzone.com/articles/top-10-ways-to-perform-fast-code-reviews,"Top 10 Ways to Perform Fast Code Reviews",DevOps
+https://dzone.com/articles/faster-container-deployment-with-cicd-truth-or-blu,"Faster Container Deployment With CI/CD: Truth or Bluff?",DevOps
+https://dzone.com/articles/code-or-nocode-when-nocode-is-a-better-choice,"Code or NoCode?",DevOps
+https://dzone.com/articles/the-evolution-of-devsecops,"The Evolution of DevSecOps",DevOps
+https://dzone.com/articles/opportunities-for-devsecops-in-2021,"Opportunities for DevSecOps in 2021",DevOps
+https://dzone.com/articles/5-principles-of-infrastructure-as-code-iac,"5 Principles of Infrastructure-as-Code (IaC)",DevOps
+https://dzone.com/articles/reduce-toil-with-better-alerting-systems,"Reduce Toil With Better Alerting Systems",DevOps
+https://dzone.com/articles/monitoring-and-governance-for-aks-costs-with-kubec,"Monitoring and Governance for AKS Costs With Kubecost",DevOps
+https://dzone.com/articles/how-to-create-azure-pipelines-agent-fully-automated,"How to Create Custom Azure Pipelines Build Agent Fully Automated",DevOps
+https://dzone.com/articles/how-to-run-parallel-cypress-tests-on-bitbucket-pip-2,"How to Run Parallel Cypress Tests on BitBucket Pipeline",DevOps
+https://dzone.com/articles/important-uses-of-mobile-app-performance-testing-t,"Important Uses of Mobile App Performance Testing Tools",DevOps
+https://dzone.com/articles/infrastructure-as-code-pitfalls-and-how-to-avoid-t,"Infrastructure as Code Pitfalls and How To Avoid Them",DevOps
+https://dzone.com/articles/inner-source-the-key-to-improving-software-asset-r,"Inner Source: The Key To Improving Software Asset Reusability",DevOps
+https://dzone.com/articles/containers-and-vms-hosted-together,"Containers and VMs Hosted Together",DevOps
+https://dzone.com/articles/what-if-docker-doesnt-start-on-windows-10,"Solution To Docker Not Starting in Windows 10",DevOps
+https://dzone.com/articles/eks-vs-ecs-vs-fargate-vs-kubernetes-aws-containers,"EKS vs. ECS vs. Fargate vs. Kubernetes (AWS Containers Explained)",DevOps
+https://dzone.com/articles/observability-and-gitops,"Observability and GitOps",DevOps
+https://dzone.com/articles/how-data-science-can-drive-devops-growth,"How Data Science Can Drive DevOps Growth",DevOps
+https://dzone.com/articles/field-testing-with-headspin-bring-your-own-devices,"Field Testing With HeadSpin: Bring Your Own Devices",DevOps
+https://dzone.com/articles/how-innoveo-skye-business-canvas-is-built-ci-from,"How Innoveo Skye Business Canvas Is Built: CI From the Trenches # 8 [Video]",DevOps
+https://dzone.com/articles/how-continuous-testing-in-devops-enables-quality-i,"How Continuous Testing in DevOps Enables Quality in the CI/CD Pipeline",DevOps
+https://dzone.com/articles/deploy-application-using-anypoint-cli,"Deploy Application Using Anypoint CLI",DevOps
+https://dzone.com/articles/rspec-tests-config-for-github-actions-in-ruby-on-r,"RSpec Tests Config for Github Actions in Ruby on Rails Project",DevOps
+https://dzone.com/articles/serverless-guide-for-everyone,"Serverless Guide for Everyone",DevOps
+https://dzone.com/articles/what-are-mttx-metrics-good-for-lets-find-out,"What are MTTx Metrics Good For?",DevOps
+https://dzone.com/articles/hello-kubectl-cost-monitoring-kubernetes-spend-fro,"kubectl cost: Monitoring Kubernetes Spend From the Command Line!",DevOps
+https://dzone.com/articles/three-strategic-considerations-for-choosing-a-cd-p,"Three Strategic Considerations for Choosing a CD Platform",DevOps
+https://dzone.com/articles/8-best-practices-to-reduce-your-aws-bill-for-kuber,"8 Best Practices To Reduce Your AWS Bill for Kubernetes",DevOps
+https://dzone.com/articles/keep-your-openshift-cluster-operators-highly-trace,"Keep Your Openshift Cluster Operators Highly Traceable Using GitOps",DevOps
+https://dzone.com/articles/managing-kubernetes-secrets,"Managing Secrets Deployment in GitOps Workflow",DevOps
+https://dzone.com/articles/ruby-on-rails-minitest-on-github-actions-parallel,"Ruby on Rails Minitest on Github Actions: Parallel Testing",DevOps
+https://dzone.com/articles/running-selenium-tests-in-jenkins,"Running Selenium Tests in Jenkins",DevOps
+https://dzone.com/articles/devops-is-great-till-it-stops,"DevOps Is Great Till It Stops",DevOps
+https://dzone.com/articles/top-10-cicd-pipeline-implementation-challenges-and,"Top 10 CI/CD Pipeline Implementation Challenges and Solutions",DevOps
+https://dzone.com/articles/automating-bulk-transfer-of-mercurial-repos-to-git,"Automating Bulk Transfer of Mercurial Repos To Git",DevOps
+https://dzone.com/articles/2021-iac-forecast-5-predictions-for-the-upcoming-y,"2021 IaC Forecast: 5 Predictions for the Upcoming Year",DevOps
+https://dzone.com/articles/overcome-challenges-of-continuous-delivery-for-kub,"Overcome Challenges of Continuous Delivery for Kubernetes With Spinnaker",DevOps
+https://dzone.com/articles/should-i-consider-the-gitops-methodology,"Should You Use GitOps?",DevOps
+https://dzone.com/articles/can-a-shift-left-reduce-opex-cloud-expenditures,"Can a Shift-Left Reduce OpEx Cloud Expenditures?",DevOps
+https://dzone.com/articles/jenkins-and-spinnaker-a-honest-comparison,"Jenkins and Spinnaker: An Honest Comparison",DevOps
+https://dzone.com/articles/monitoring-vs-observability-1,"Monitoring vs. Observability",DevOps
+https://dzone.com/articles/so-you-want-an-sre-tool-do-you-build-buy-or-open-s,"So You Want an SRE Tool. Do You Build, Buy, or Open Source?",DevOps
+https://dzone.com/articles/caching-ruby-gems-on-github-actions-using-rubysetu,"Caching Ruby Gems on Github Actions Using ruby/setup-ruby or actions/cache",DevOps
+https://dzone.com/articles/cicd-meets-oracle-transactional-business-intellige,"CI/CD Meets Oracle Transactional Business Intelligence",DevOps
+https://dzone.com/articles/defining-gitops-making-git-your-single-source-of-t,"Defining GitOps: Making Git Your Single Source of Truth [Podcast]",DevOps
+https://dzone.com/articles/triggering-cloudbees-jenkins-build-remotely-using,"Triggering Jenkins Build Remotely Using API",DevOps
+https://dzone.com/articles/how-mits-rockets-are-built-ci-from-the-trenches-7,"How MIT's Rockets Are Built: CI From the Trenches #7 [Video]",DevOps
+https://dzone.com/articles/deploy-and-manage-postgresql-on-kubernetes,"Deploy and Manage PostgreSQL on Kubernetes",DevOps
+https://dzone.com/articles/how-to-give-your-devops-feedback-loop-the-update-i,"How To Give Your DevOps Feedback Loop The Update It Needs",DevOps
+https://dzone.com/articles/start-with-cicd-using-the-cloud-native-toolkit-fro,"Start With CI/CD Using the Cloud Native Toolkit From the IBM Garage",DevOps
+https://dzone.com/articles/how-to-analyze-incidents-better-with-the-right-met,"How To Analyze Incidents Better With the Right Metrics",DevOps
+https://dzone.com/articles/testing-is-not-a-monolith-lessons-from-devops-unbo,"Testing Is Not a Monolith: Lessons from DevOps Unbound",DevOps
+https://dzone.com/articles/automation-testing-benefits-and-best-practices,"Tips on How to Implement Automation Testing Fast",DevOps
+https://dzone.com/articles/sharpen-your-data-science-toolkit-with-cicd,"Sharpen Your Data Science Toolkit With CI/CD",DevOps
+https://dzone.com/articles/quality-sense-podcast-andrey-momot-the-holy-trinit,"Quality Sense Podcast: Andrey Momot - The "Holy Trinity" of Software...",DevOps
+https://dzone.com/articles/improve-your-robot-framework-tests-with-robocop,"Improve Your Robot Framework Tests With Robocop",DevOps
+https://dzone.com/articles/the-myth-of-noops,"The Myth of NoOps",DevOps
+https://dzone.com/articles/top-10-out-of-box-software-packages-of-all-time-in,"Top 10 Out-of-Box Software Packages of All Time in RT-Thread IoT OS",DevOps
+https://dzone.com/articles/is-docker-dead-discussing-docker-and-gitops-with-v,"Is Docker Dead? Discussing Docker and GitOps With Viktor Farcic",DevOps
+https://dzone.com/articles/how-to-run-buildkite-parallel-agents-with-rspec-te,"How to Run Buildkite Parallel Agents With RSpec Tests to Get Fast CI Build",DevOps
+https://dzone.com/articles/what-is-slowing-down-your-cicd-pipeline,"What Is Slowing Down Your CI/CD Pipeline?",DevOps
+https://dzone.com/articles/python-code-review-checklist,"Python Code Review Checklist",DevOps
+https://dzone.com/articles/quality-sense-podcast-sumit-agarwal-devops-and-tes,"Quality Sense Podcast: Sumit Agarwal — DevOps and Testing",DevOps
+https://dzone.com/articles/howe-antea-platform-is-built-ci-from-the-trenches,"How Antea Platform is Built: CI From the Trenches #6 [Video]",DevOps
+https://dzone.com/articles/ebbs-and-flows-of-devops-debugging-part-i,"Ebbs and Flows of DevOps Debugging",DevOps
+https://dzone.com/articles/git-reset-head,"Git Reset HEAD",DevOps
+https://dzone.com/articles/overcoming-owasps-sensitive-data-exposure-risk-thr,"Overcoming OWASP’s Sensitive Data Exposure Risk Through Application-layer...",DevOps
+https://dzone.com/articles/implementing-cicd-for-azure-data-factory,"Implementing CI/CD for Azure Data Factory",DevOps
+https://dzone.com/articles/feature-flags-in-rails-get-started-quickly-and-eas,"Feature Flags in Rails: Get Started Quickly and Easily",DevOps
+https://dzone.com/articles/what-is-a-cicd-pipeline,"What Is a CI/CD Pipeline?",DevOps
+https://dzone.com/articles/bizdevsecops-the-developers-path-forward-1,"BizDevSecOps: The Developer’s Path Forward",DevOps
+https://dzone.com/articles/how-to-use-business-process-management-for-orchest,"How To Use Business Process Management for Orchestration of Micro-Services,...",DevOps
+https://dzone.com/articles/scope-of-devops,"The Scope of DevOps",DevOps
+https://dzone.com/articles/5-key-hacks-to-deliver-a-successful-devops-strateg,"5 Keys to Delivering a Successful DevOps Strategy",DevOps
+https://dzone.com/articles/why-start-a-technical-blog,"Why Start a Technical Blog",DevOps
+https://dzone.com/articles/considerations-for-your-devops-toolchain,"Considerations for Your DevOps Toolchain",DevOps
+https://dzone.com/articles/kubernetes-cluster-automated-upgrade-in-jelastic-p,"Kubernetes Cluster Automated Upgrade in Jelastic PaaS",DevOps
+https://dzone.com/articles/how-to-sre-without-an-sre-on-your-team,"How to SRE Without An SRE on Your Team",DevOps
+https://dzone.com/articles/better-incident-management-while-working-remotely,"Better Incident Management While Working Remotely",DevOps
+https://dzone.com/articles/migrating-jenkins-freestyle-job-to-multibranch-pip,"Migrating Jenkins Freestyle Job to Multibranch Pipeline",DevOps
+https://dzone.com/articles/setup-velero-on-aks,"Setup and Configure Velero on AKS",DevOps
+https://dzone.com/articles/its-all-chaos-and-it-makes-for-resilience-at-scale,"It's All Chaos! And It Makes for Resilience at Scale",DevOps
+https://dzone.com/articles/7-major-roadblocks-in-devops-adoption-and-how-to-a,"7 Major Roadblocks in DevOps Adoption and How to Address Them",DevOps
+https://dzone.com/articles/set-up-your-continuous-testing-process-for-android,"Set Up Your Continuous Testing Process for Android",DevOps
+https://dzone.com/articles/webdriverio-integration-with-cucumber,"WebDriverIO Integration With Cucumber",DevOps
+https://dzone.com/articles/automating-developer-workflows-and-deployments,"Automating Developer Workflows and Deployments on Heroku and Salesforce",DevOps
+https://dzone.com/articles/application-development-for-embedded-systems,"Application Development for Embedded Systems",DevOps
+https://dzone.com/articles/how-to-successfully-implement-devops-techniques-in,"How to Successfully Implement DevOps Techniques Into Your Project",DevOps
+https://dzone.com/articles/how-gradle-is-built-ci-from-the-trenches-5-video,"How Gradle is Built: CI From the Trenches #5 [Video]",DevOps
+https://dzone.com/articles/deploying-salesforce-and-heroku-apps-with-ease,"Deploying Salesforce and Heroku Apps with Ease",DevOps
+https://dzone.com/articles/sre-from-sysadmin-to-sre-how-to-evolve-your-skills,"From SysAdmin to SRE: How to Evolve Your Skillset",DevOps
+https://dzone.com/articles/how-to-monitor-a-spring-boot-app,"How to Monitor a Spring Boot App",DevOps
+https://dzone.com/articles/ci-cd-gitlab-nomad,"Look, Ma! No Pods!",DevOps
+https://dzone.com/articles/setting-up-prometheus-for-apache-ignite-and-gridga,"Setting Up Prometheus for Apache Ignite and GridGain",DevOps
+https://dzone.com/articles/goodbye-minikube,"Goodbye minikube!",DevOps
+https://dzone.com/articles/how-will-devops-evolve-in-2021,"How DevOps Will Evolve in 2021",DevOps
+https://dzone.com/articles/observability-is-transforming-itom-landscape-as-ne,"Observability Is Transforming ITOM Landscape: Next-generation Monitoring",DevOps
+https://dzone.com/articles/essential-soft-skills-needed-to-become-a-devops-pr,"7 Essential Soft Skills Needed to Become a DevOps Pro in 2021",DevOps
+https://dzone.com/articles/backup-and-disaster-recovery-in-the-age-of-gitops,"Backup and Disaster Recovery in the Age of GitOps and CI/CD Deployments",DevOps
+https://dzone.com/articles/the-2021-devops-trend-everyone-is-missing,"The 2021 DevOps Trend Everyone Is Missing",DevOps
+https://dzone.com/articles/21-of-the-best-jenkins-alternatives-for-developers,"21 of the Best Jenkins Alternatives for Developers",DevOps
+https://dzone.com/articles/the-importance-of-devops-in-mobile-app-development,"The Importance of DevOps in Mobile App Development",DevOps
+https://dzone.com/articles/learn-powershell-with-these-5-steps,"Learn Powershell With These 5 Steps",DevOps
+https://dzone.com/articles/top-7-benefits-of-gitops-how-to-reinforce-your-sof,"Top 7 Benefits of GitOps: How to Reinforce Your Software Productivity and...",DevOps
+https://dzone.com/articles/sre-as-organizational-transformation-lessons-from,"SRE and Organizational Transformation: Lessons from Activist Organizers",DevOps
+https://dzone.com/articles/parallel-rspec-tests-on-circleci-with-junit-xml-re,"Parallel RSpec Tests on CircleCI With JUnit XML Reports",DevOps
+https://dzone.com/articles/the-low-code-brothers-two-dudes-on-a-mission-to-sa,"The Low-Code Brothers: Two Dudes on a Mission to Save the World From...",DevOps
+https://dzone.com/articles/how-operations-use-observability-data-to-increase,"How Operations Use Observability Data to Increase Customer Value",DevOps
+https://dzone.com/articles/how-is-product-centric-devops-fueling-the-dynamic-1,"How Product-Centric DevOps Is Fueling the Dynamic Retail and Hospitality...",DevOps
+https://dzone.com/articles/beyond-hello-world-zero-downtime-deployments-with,"Beyond “Hello World”: Zero-Downtime Deployments With Hazelcast on...",DevOps
+https://dzone.com/articles/sre2aux-how-flight-controllers-were-the-first-sres,"SRE2AUX: How Flight Controllers Were the First SREs",DevOps
+https://dzone.com/articles/leveraging-static-code-analysis-in-a-ruby-ci-pipel,"Leveraging Static Code Analysis in a Ruby CI Pipeline",DevOps
+https://dzone.com/articles/building-a-better-devops-culture-within-an-organiz,"Building a Better DevOps Culture Within an Organization",DevOps
+https://dzone.com/articles/steal-cpu-time-st-time-in-top,"Steal CPU Time — ‘st’ Time in Top",DevOps
+https://dzone.com/articles/quick-application-deployments-on-microk8s-using-he,"Quick Application Deployments on MicroK8s Using Helm Charts",DevOps
+https://dzone.com/articles/overview-of-incident-lifecycle-in-sre,"Overview of Incident Lifecycle in SRE",DevOps
+https://dzone.com/articles/ossiac-will-break-the-internet-1,"OSS + IaC Will Break the Internet",DevOps
+https://dzone.com/articles/software-distribution-tactics-to-win-at-devops,"Software Distribution Tactics to Win at DevOps",DevOps
+https://dzone.com/articles/learn-test-automation-by-taking-short-practical-st,"Learn Test Automation by Taking Short Practical Steps",DevOps
+https://dzone.com/articles/get-your-code-together-submodules-monorepo-or-the,"Get Your Code Together! Submodules, Monorepo: Is There Another Way?",DevOps
+https://dzone.com/articles/how-is-powershell-different-from-command-prompt-20,"How Is Powershell Different From Command Prompt? (2021)",DevOps
+https://dzone.com/articles/what-does-it-take-to-test-in-devops-key-challenges,"What Does It Take to Test in DevOps?: QA Best Practices",DevOps
+https://dzone.com/articles/how-to-setup-monitoring-using-prometheus-and-grafa,"How To Set Up Monitoring Using Prometheus and Grafana",DevOps
+https://dzone.com/articles/what-is-devops-culture,"What Is DevOps Culture?",DevOps
+https://dzone.com/articles/devops-pipeline-1,"What Is the DevOps Pipeline?",DevOps
+https://dzone.com/articles/how-a-devops-engineer-facilitates-devops,"How a DevOps Engineer Facilitates DevOps",DevOps
+https://dzone.com/articles/devops-best-practices-1,"DevOps Best Practices",DevOps
+https://dzone.com/articles/5-ways-devops-helps-in-digital-transformation,"5 Ways DevOps Helps in Digital Transformation",DevOps
+https://dzone.com/articles/qa-engineers-this-is-how-sre-will-transform-your-r,"How SRE Will Transform the Role of QA Engineers",DevOps
+https://dzone.com/articles/efficient-tips-for-scaling-your-devsecops-organiza,"5 Efficient Tips for Scaling Your DevSecOps Organization",DevOps
+https://dzone.com/articles/production-server-issue-how-to-solve-it-the-right,"Production Server Issue: How to Solve It the RIGHT WAY",DevOps
+https://dzone.com/articles/achieving-cloud-native-security-and-compliance-wit,"Achieving Cloud-Native Security and Compliance With Teleport",DevOps
+https://dzone.com/articles/what-weve-learned-from-coaching-devops-teams-in-gi,"What We’ve Learned From Coaching DevOps Teams in Git Branching Strategies",DevOps
+https://dzone.com/articles/6-mistakes-to-avoid-while-considering-devops-trans,"What to Avoid When Considering DevOps Transformation",DevOps
+https://dzone.com/articles/culture-and-capabilities-for-effective-devops-moni,"Culture and Capabilities for Effective DevOps Monitoring",DevOps
+https://dzone.com/articles/release-pipeline-using-azure-devops,"Release Pipeline Using Azure DevOps",DevOps
+https://dzone.com/articles/is-powershell-a-programming-language,"Is Powershell a Programming Language?",DevOps
+https://dzone.com/articles/devops-is-not-only-automation,"DevOps Is Not Just Automation!",DevOps
+https://dzone.com/articles/cdk8s-for-kubernetes-how-to-interact-with-kubernet,"CDK8S for Kubernetes: How to Interact With Kubernetes Without Kubectl",DevOps
+https://dzone.com/articles/how-eve-online-is-built-ci-from-the-trenches-4,"How EVE Online Is Built: CI From the Trenches #4 [Video]",DevOps
+https://dzone.com/articles/deploying-spring-boot-application-on-kubernetes,"Deploying Spring Boot Application on Kubernetes",DevOps
+https://dzone.com/articles/containerizing-springboot-application-with-jib,"Containerizing SpringBoot Application With Jib",DevOps
+https://dzone.com/articles/docker-hub-rate-limits-to-limitless-devops-in-the-1,"Docker Hub Rate Limits to Limitless DevOps in the Cloud",DevOps
+https://dzone.com/articles/the-business-value-of-continuous-testing,"The Business Value of Continuous Testing",DevOps
+https://dzone.com/articles/it-talent-the-most-important-skill-to-develop-in-2,"IT talent: The Most important Skill To Develop in 2021 Is DevOps",DevOps
+https://dzone.com/articles/what-is-devops-a-devops-tutorial-in-plain-english,"What is DevOps? A DevOps Tutorial in Plain English",DevOps
+https://dzone.com/articles/how-devops-will-change-now-that-remote-working-is,"How DevOps Will Change Now That Remote Working Is Here to Stay",DevOps
+https://dzone.com/articles/four-devops-trends-for-2021,"Four DevOps Trends for 2021",DevOps
+https://dzone.com/articles/site-reliability-engineering-sre-vs-devops-focus-d,"Site Reliability Engineering (SRE) vs DevOps: Focus, Differences,...",DevOps
+https://dzone.com/articles/what-terraform-can-learn-from-php,"What Terraform Can Learn From PHP",DevOps
+https://dzone.com/articles/small-peek-into-bash,"Small Peek Into Bash",DevOps
+https://dzone.com/articles/need-for-continuous-testing-ct-in-devops-cicd-pipe,"Need for Continuous Testing (CT) in DevOps CI/CD Pipeline",DevOps
+https://dzone.com/articles/flip-on-the-testing-switch-for-ops-devops-engineer,"Flip on the Testing Switch for Ops-DevOps Engineers",DevOps
+https://dzone.com/articles/dockerfile-optimization-for-fast-builds-and-light,"Dockerfile Optimization for Fast Builds and Light Images",DevOps
+https://dzone.com/articles/selenium-grid-performance-problems,"Selenium Grid Performance Problems",DevOps
+https://dzone.com/articles/serverless-services-on-aws-an-overview,"Serverless Services on AWS: An Overview",DevOps
+https://dzone.com/articles/the-changing-face-of-automation,"The Changing Face of Automation",DevOps
+https://dzone.com/articles/scaling-devops-and-delivery-with-a-platform-1,"Scaling DevOps and Delivery With a Platform",DevOps
+https://dzone.com/articles/why-is-log-management-so-important-and-how-can-it,"Why Log Management Is So Important",DevOps
+https://dzone.com/articles/5-principles-of-production-readiness,"5 Principles of Production Readiness",DevOps
+https://dzone.com/articles/the-key-differences-between-sli-slo-and-sla-in-sre,"The Key Differences Between SLI, SLO, and SLA in SRE",DevOps
+https://dzone.com/articles/the-reality-of-testing-in-devops-your-top-question,"The Reality of Testing in DevOps: Your Top Questions Answered",DevOps
+https://dzone.com/articles/top-devops-conferences-to-attend-in-2021-free-amp-1,"Top DevOps Conferences to Attend in 2021 (Free &amp; Virtual)",DevOps
+https://dzone.com/articles/who-else-wants-to-increase-development-velocity,"3 Ways SRE Can Increase Development Velocity",DevOps
+https://dzone.com/articles/a-quick-guide-through-ufw-uncomplicated-firewall-2,"A Quick Guide Through UFW: Uncomplicated Firewall",DevOps
+https://dzone.com/articles/keeping-always-on-services-always-on,"Keeping Always-on Services Always On",DevOps
+https://dzone.com/articles/using-codeship-with-codedeploy,"Using CodeShip With CodeDeploy",DevOps
+https://dzone.com/articles/15-software-architecture-newsletters-that-are-wort,"15 Software Architecture Newsletters That Are Worth Your Subscription",DevOps
+https://dzone.com/articles/how-world-of-tanks-is-built-ci-from-the-trenches-3,"How World of Tanks Is Built: CI From the Trenches #3 [Video]",DevOps
+https://dzone.com/articles/sre-key-insights-done-the-right-way,"SRE: Key Insights Done the Right Way",DevOps
+https://dzone.com/articles/what-are-the-process-states-in-unixlinux,"What Are the Process States in Unix/Linux?",DevOps
+https://dzone.com/articles/jenkins-vs-travis-vs-bamboo-vs-teamcity-clash-of-t,"Jenkins vs. Travis vs. Bamboo vs. TeamCity: Clash of the Titans",DevOps
+https://dzone.com/articles/are-you-following-these-jenkins-best-practices,"Are You Following These Jenkins Best Practices?",DevOps
+https://dzone.com/articles/demystifying-google-container-tool-jib-java-image,"Demystifying the Google Container Tool, Jib: Java Image Builder",DevOps
+https://dzone.com/articles/oops-were-multicloud-a-hitchhikers-guide-to-surviv,"Oops, We’re Multi-Cloud: A Hitchhiker's Guide to Surviving",DevOps
+https://dzone.com/articles/the-quick-wins-of-devsecops,"The Quick Wins of DevSecOps",DevOps
+https://dzone.com/articles/how-to-leverage-digital-product-development-princi,"How to Leverage 9 Digital Product Development Principles to Design and...",DevOps
+https://dzone.com/articles/awesome-things-you-didnt-know-about-odoo-developme,"5 Awesome Things You Didn't Know About Odoo Development",DevOps
+https://dzone.com/articles/incident-management-in-2021-from-basics-to-best-pr,"Incident Management in 2021: From Basics to Best Practices",DevOps
+https://dzone.com/articles/how-intellij-idea-is-built-ci-from-the-trenches-2,"How IntelliJ IDEA Is Built? CI From the Trenches #2",DevOps
+https://dzone.com/articles/change-management-is-broken-heres-how-to-fix-it,"Change Management Is Broken: Here’s How To Fix It",DevOps
+https://dzone.com/articles/devops-security-what-is-devsecops,"DevOps Security: What Is DevSecOps?",DevOps
+https://dzone.com/articles/tools-to-improve-your-golang-code-quality,"Tools to Improve Your Golang Code Quality",DevOps
+https://dzone.com/articles/kubernetes-image-policy-webhook-explained,"Kubernetes Image Policy Webhook Explained",DevOps
+https://dzone.com/articles/e2e-testing-with-cypress-on-jenkins-with-parallel,"E2E Testing With Cypress on Jenkins With Parallel Pipeline Stages",DevOps
+https://dzone.com/articles/how-to-run-gitlab-ci-pipeline-with-parallel-rspec,"How to Run GitLab CI Pipeline With Parallel RSpec Tests in Ruby",DevOps
+https://dzone.com/articles/configure-parallel-jobs-on-semaphore-ci-for-rspec,"Fast CI Build Time With Parallel Jobs on Semaphore CI for RSpec, Cypress,...",DevOps
+https://dzone.com/articles/testing-your-code-on-terraform-terratest,"Testing Your Code on Terraform: Terratest",DevOps
+https://dzone.com/articles/achieving-multi-tenancy-in-monitoring-with-prometh,"Achieving Multi-Tenancy in Monitoring With Prometheus: The Mighty Thanos...",DevOps
+https://dzone.com/articles/understanding-the-feature-flag-lifecycle,"Understanding the Feature Flag Lifecycle",DevOps
+https://dzone.com/articles/what-is-shift-left-testing-and-why-is-it-the-next,"What Is Shift-Left Testing and Why Is It the Next Big Thing?",DevOps
+https://dzone.com/articles/five-benefits-of-devops-for-database-and-how-to-ac,"Five Benefits of DevOps for Database and How to Achieve Them",DevOps
+https://dzone.com/articles/git-commands-to-keep-a-fork-up-to-date,"Git Commands to Keep a Fork Up to Date",DevOps
+https://dzone.com/articles/for-professors-note-use-pvs-studio-to-get-students,"Using PVS-Studio to Get Beginners Familiar With Code Analysis Tools",DevOps
+https://dzone.com/articles/how-to-scale-your-services-with-docker-during-deve,"How to Scale Your Services With Docker During Development",DevOps
+https://dzone.com/articles/8-youtube-channels-for-devops-professionals,"8 YouTube Channels for DevOps Professionals",DevOps
+https://dzone.com/articles/introducing-non-breaking-breakpoints,"Introducing Non-Breaking Breakpoints",DevOps
+https://dzone.com/articles/this-is-the-most-underappreciated-skill-for-sres,"This Is the Most Underappreciated Skill for SREs",DevOps
+https://dzone.com/articles/tackling-design-debt-with-carefully-considered-des,"Tackling Design Debt With Carefully Considered Design QA",DevOps
+https://dzone.com/articles/the-secret-of-communicating-incident-retrospective,"The Secret of Communicating Incident Retrospectives",DevOps
+https://dzone.com/articles/an-ultimate-guides-to-devops,"An Ultimate Guide to DevOps",DevOps
+https://dzone.com/articles/top-9-debunked-devops-myths,"Top 9 Debunked DevOps Myths",DevOps
+https://dzone.com/articles/run-ruby-and-javascript-automated-tests-faster-usi,"Run Faster Automated Tests in Ruby and JavaScript Using Optimal CI...",DevOps
+https://dzone.com/articles/how-to-get-text-of-an-element-in-selenium,"How to Get Text From an Element in Selenium",DevOps
+https://dzone.com/articles/how-observability-and-ai-support-devops-new-way-of,"How Observability and AI Support DevOps’ New Way of Working",DevOps
+https://dzone.com/articles/an-overview-of-devsecops-and-how-to-automate-it,"An Overview of DevSecOps and How to Automate It",DevOps
+https://dzone.com/articles/15-devops-trends-to-expect-in-2021,"15 DevOps Trends to Expect in 2021",DevOps
+https://dzone.com/articles/deploy-first-nodejs-app,"Build Node.js App Docker Image and Push to Docker Private Repo With GitHub...",DevOps
+https://dzone.com/articles/monitor-your-infrastructure-with-influxdb-and-graf,"Monitor Your Infrastructure With InfluxDB and Grafana on Kubernetes",DevOps
+https://dzone.com/articles/5-signs-you-should-adopt-devops,"5 Signs You Should Adopt DevOps",DevOps
+https://dzone.com/articles/little-known-ways-to-better-use-your-error-budgets,"Little Known Ways to Better Use Your Error Budgets",DevOps
+https://dzone.com/articles/a-brief-guide-to-testing-in-devops,"A Brief Guide to Testing in DevOps",DevOps
+https://dzone.com/articles/continuous-integration-from-the-trenches-1-hadi-ha,"Continuous Integration From The Trenches #1 — Hadi Hariri and Ktor",DevOps
+https://dzone.com/articles/modern-operations-best-practices-from-engineering,"Modern Operations Best Practices From Engineering Leaders at New Relic and...",DevOps
+https://dzone.com/articles/an-approach-to-apply-the-separation-of-concern-pri,"An Approach to Apply the Separation of Concern Principle in UI Test...",DevOps
+https://dzone.com/articles/limitations-of-task-based-build-tools,"Limitations of Task-Based Build Tools",DevOps
+https://dzone.com/articles/alexa-skill-auto-deployer,"Alexa Skill Auto-Deployer",DevOps
+https://dzone.com/articles/openshift-container-platform-311-cost-optimization,"OpenShift Container Platform 3.11 Cost Optimization on Public Cloud...",DevOps
+https://dzone.com/articles/aws-devops-services-faster-and-seamless-route-to-a,"AWS DevOps Services: A Faster, Seamless Route to AWS DevOps Cloud",DevOps
+https://dzone.com/articles/how-to-deploy-a-full-environment-for-wordpress-sit,"How to Deploy a Full Environment for a Wordpress Site via Docker by Using...",DevOps
+https://dzone.com/articles/12-common-software-testing-misconceptions-that-we,"12 Common Software Testing Misconceptions That We Need to Clear",DevOps
+https://dzone.com/articles/a-guide-to-common-automated-testing-failures-and-h,"A Guide to Common Automated Testing Failures and How to Avoid Them",DevOps
+https://dzone.com/articles/five-emerging-devops-trends-to-watch-in-2021,"5 Emerging DevOps Trends to Watch in 2021",DevOps
+https://dzone.com/articles/7-top-devops-trends-for-2021,"7 Top DevOps Trends for 2021",DevOps
+https://dzone.com/articles/how-will-devops-change-in-2021,"How Will DevOps Change in 2021?",DevOps
+https://dzone.com/articles/how-to-distribute-your-flutter-project-using-fireb,"How to Distribute Your Flutter Project Using Firebase App Distribution",DevOps
+https://dzone.com/articles/circleci-vs-travis-ci-comparing-the-best-cicd-tool,"CircleCI vs. Travis CI: Comparing the Best CI/CD Tools",DevOps
+https://dzone.com/articles/devsecops-as-an-aspect-of-grc,"DevSecOps as an Aspect of GRC",DevOps
+https://dzone.com/articles/hands-on-gitops-with-onedev-and-kubernetes,"Hands-On GitOps With OneDev and Kubernetes",DevOps
+https://dzone.com/articles/an-observability-balancing-act-with-gitops,"An Observability Balancing Act With GitOps",DevOps
+https://dzone.com/articles/the-role-of-devops-in-driving-business-outcomes,"The Role of DevOps In Driving Business Outcomes",DevOps
+https://dzone.com/articles/writing-compile-time-tests,"Writing Compile Time Tests",DevOps
+https://dzone.com/articles/native-vs-hybrid-app-development-know-what-matters,"Native vs Hybrid App Development: Know What Matters, in Less Than 10...",DevOps
+https://dzone.com/articles/trends-influencing-devopsdevsecops-adoptions,"Trends Influencing DevOps/DevSecOps Adoptions",DevOps
+https://dzone.com/articles/the-role-of-devops-in-driving-business-outcomes-1,"DevSecOps: Agile Security in the Face of Rapid Change",DevOps
+https://dzone.com/articles/can-devops-honestly-release-daily-cycles,"Can DevOps Honestly Release Daily Cycles?",DevOps
+https://dzone.com/articles/your-helm-zoo-will-kill-you,"Your Helm Zoo Will Kill You",DevOps
+https://dzone.com/articles/infrustructure-as-code-benefits-and-tools,"Infrastructure as Code: Benefits and Tools",DevOps
+https://dzone.com/articles/what-financial-crises-can-teach-us-about-sre,"What Financial Crises Can Teach Us About Sre",DevOps
+https://dzone.com/articles/multi-module-gradle-configuration-with-git-x-modul,"Multi-Module Gradle Configuration With Git X-Modules",DevOps
+https://dzone.com/articles/kubernetes-in-production-best-practices-to-follow,"Kubernetes in Production: Best Practices to Follow",DevOps
+https://dzone.com/articles/here-are-the-top-predictions-for-sre-in-2021,"Here Are the Top Predictions for SRE in 2021",DevOps
+https://dzone.com/articles/a-tale-of-two-migrations,"A Tale of Two Migrations",DevOps
+https://dzone.com/articles/a-spotlight-on-podman,"A Spotlight on Podman",DevOps
+https://dzone.com/articles/simplifying-arm-template-deployments-with-ansible,"Simplifying ARM Template Deployments With Ansible",DevOps
+https://dzone.com/articles/how-to-configure-tlsssl-with-pem-files,"How to Configure TLS/SSL With PEM Files",DevOps
+https://dzone.com/articles/analyzing-functional-in-rust,"Analyzing Functional in Rust",DevOps
+https://dzone.com/articles/difference-between-update-function-and-update-oper,"Difference Between Update Function and Update Operator in Dataweave",DevOps
+https://dzone.com/articles/cracking-the-continuous-deployment-code,"Cracking the Continuous Deployment Code",DevOps
+https://dzone.com/articles/automation-justification,"Automation Justification",DevOps
+https://dzone.com/articles/the-critical-role-a-devops-toolchain-plays-in-a-co,"The Critical Role a DevOps Toolchain Plays In a Company",DevOps
+https://dzone.com/articles/top-13-benefits-of-cicd-you-should-not-ignore,"Top 13 Benefits of CI/CD You Should Not Ignore",DevOps
+https://dzone.com/articles/gitops-devops-for-infrastructure-automation,"GitOps – DevOps for Infrastructure Automation",DevOps
+https://dzone.com/articles/devops-engineers-need-to-go-beyond-one-persons-job,"Interview Questions To Ask DevOps Engineers",DevOps
+https://dzone.com/articles/logging-in-kubernetes-with-loki-and-the-plg-stack,"Logging In Kubernetes With Loki and the PLG Stack",DevOps
+https://dzone.com/articles/top-five-leadership-sessions-from-devops-world-202,"Top 5 Leadership Sessions From DevOps World 2020",DevOps
+https://dzone.com/articles/autoscaling-groups-with-terraform-on-aws-part-3-el,"Autoscaling Groups With Terraform on AWS Part 3: Elastic Load Balancer and...",DevOps
+https://dzone.com/articles/shift-remote-2020-devops-heroes-scheduled,"Shift Remote 2020 - DevOps Heroes scheduled",DevOps
+https://dzone.com/articles/autoscaling-groups-with-terraform-on-aws-part-2-in,"Autoscaling Groups With Terraform on AWS Part 2: Instance Security Group...",DevOps
+https://dzone.com/articles/autoscaling-groups-with-terraform-on-aws-part-1-ba,"Autoscaling Groups With Terraform On AWS Part 1: Basic Steps",DevOps
+https://dzone.com/articles/kubernetes-cronjob-an-introduction,"Kubernetes CronJob: An Introduction",DevOps
+https://dzone.com/articles/running-springboot-app-on-openshift,"Running SpringBoot Application On OpenShift",DevOps
+https://dzone.com/articles/continuous-deployment-on-kubernetes-with-spinnaker,"Continuous Deployment on Kubernetes With Spinnaker",DevOps
+https://dzone.com/articles/7-arguments-against-devops,"7 Arguments Against DevOps",DevOps
+https://dzone.com/articles/is-security-in-devops-a-necessary-evil,"Is Security In DevOps a Necessary Evil?",DevOps
+https://dzone.com/articles/how-to-handle-errors-and-exceptions-in-large-scale,"How to Handle Errors and Exceptions in Large Scale Software Projects",DevOps
+https://dzone.com/articles/putting-bdd-in-practice-using-scala,"Putting BDD in Practice Using Scala",DevOps
+https://dzone.com/articles/devops-versus-other-ops,"DevOps Versus Other ‘Ops’",DevOps
+https://dzone.com/articles/7-tips-to-achieve-high-availabilityha-for-your-mav-1,"7 Tips to Achieve High-Availability(HA) For Your Maven Repository",DevOps
+https://dzone.com/articles/how-to-find-the-best-devops-tools-for-your-busines,"How to Find the Best DevOps Tools for Your Business",DevOps
+https://dzone.com/articles/automating-your-project-processes-with-github-acti,"Automating Your Project Processes with Github Actions",DevOps
+https://dzone.com/articles/engineers-stop-hoarding-your-metrics,"Engineers, Stop Hoarding Your Metrics",DevOps
+https://dzone.com/articles/how-to-make-a-windows-keylogger-by-yourself,"How To Make a Windows Keylogger By Yourself",DevOps
+https://dzone.com/articles/ddd-domain-driven-design-or-deadline-driven-design,"DDD-Domain Driven Design or Deadline Driven Design?",DevOps
+https://dzone.com/articles/experiment-with-opentelemetry-play-with-the-future,"Experiment With OpenTelemetry: Play With the Future Cloud Native Metrics...",DevOps
+https://dzone.com/articles/using-devops-during-the-covid-19-pandemic,"Using DevOps During the COVID-19 Pandemic",DevOps
+https://dzone.com/articles/yury-nino-roa-shares-her-insights-on-chaos-enginee,"Insights On Chaos Engineering and SRE With Yury Niño Roa",DevOps
+https://dzone.com/articles/infographic-software-understandability,"Infographic: Software Understandability",DevOps
+https://dzone.com/articles/why-the-world-needs-cicd,"Why the World Needs CI/CD",DevOps
+https://dzone.com/articles/here-are-4-ways-sre-helps-new-employees-onboard,"Four Ways SRE Helps New Employees Onboard",DevOps
+https://dzone.com/articles/pair-programming-at-codacy-and-why-we-do-it-1,"Pair Programming and Why We Do It",DevOps
+https://dzone.com/articles/5-reasons-you-shouldnt-trust-your-developers-with,"5 Reasons You Shouldn’t Trust Your Developers With Testing",DevOps
+https://dzone.com/articles/how-to-incorporate-release-management-tools-into-y,"How to Incorporate Release Management Tools into Your Delivery Processes",DevOps
+https://dzone.com/articles/5-crucial-elements-of-application-release-automati,"5 Crucial Elements of Application Release Automation",DevOps
+https://dzone.com/articles/are-your-devops-metrics-aligned-with-the-business,"Are Your DevOps Metrics Aligned With the Business Objectives?",DevOps
+https://dzone.com/articles/13-devops-metrics-for-increased-productivity,"13 DevOps Metrics for Increased Productivity",DevOps
+https://dzone.com/articles/terraforming-cloud-infrastructure-in-a-night-of-wo,"Terraforming Your Cloud Infrastructure The Right Way",DevOps
+https://dzone.com/articles/conciliate-the-tangled-mesh-using-istio-1,"Conciliate the Tangled Mesh Using ISTIO",DevOps
+https://dzone.com/articles/how-to-build-and-deploy-reactjs-with-no-downtime,"How To Build and Deploy React.js With No Downtime",DevOps
+https://dzone.com/articles/enable-continuous-delivery-of-your-resume-with-git-1,"[CSF] Enable Continuous Delivery of Your Resume With GitHub Actions",DevOps
+https://dzone.com/articles/aws-cloudtrail-features-of-the-aws-audit-logging-t,"AWS CloudTrail: Features of the AWS Audit Logging Tool",DevOps
+https://dzone.com/articles/how-to-continuously-deploy-your-net-core-azure-web,"How To Continuously Deploy Your .NET Core Azure WebJobs",DevOps
+https://dzone.com/articles/deveverythingops-explained-with-pizza-butchering-a,"DevEverythingOps: Explained With Pizza, Butchering, and Soccer",DevOps
+https://dzone.com/articles/java-cicd-from-jar-to-docker-octopus-deploy,"Java CI/CD: From JAR To Docker - Octopus Deploy",DevOps
+https://dzone.com/articles/devops-success-stories-in-the-financial-services-i,"DevOps Success Stories in the Financial Services Industry",DevOps
+https://dzone.com/articles/observability-101-terminology-and-concepts,"Observability 101: Terminology and Concepts",DevOps
+https://dzone.com/articles/how-to-land-that-first-devops-role,"How To Land Your First DevOps Role",DevOps
+https://dzone.com/articles/all-you-need-to-know-about-automating-regression-t,"All You Need To Know About Automating Regression Tests",DevOps
+https://dzone.com/articles/from-continuous-delivery-to-continuous-data-delive,"From Continuous Delivery To Continuous Data Delivery: Laying the...",DevOps
+https://dzone.com/articles/top-ten-industrial-benefits-of-qa-automation-testi,"Top 10 Industrial Benefits of QA Automation Testing Services",DevOps
+https://dzone.com/articles/10-signs-of-deadline-driven-development,"10 Signs of Deadline-Driven Development",DevOps
+https://dzone.com/articles/want-to-move-from-ops-to-devops-here-is-what-you-s,"Moving From Ops To DevOps? Here Is What You Should Know",DevOps
+https://dzone.com/articles/best-of-gene-kim-collection,"Best of Gene Kim Collection",DevOps
+https://dzone.com/articles/devops-and-sre-chapter-4-explaining-it-to-business,"DevOps and SRE, Chapter 4: Explaining It To Business Management Executives",DevOps
+https://dzone.com/articles/10-best-devops-courses-for-developers,"10 Best DevOps Courses for Developers",DevOps
+https://dzone.com/articles/devops-fast-forward-with-go,"DevOps Fast Forward with Go",DevOps
+https://dzone.com/articles/30-tools-list-for-gitops,"30+ Tools List for GitOps",DevOps
+https://dzone.com/articles/benefits-of-continuous-integration-for-businesses,"Benefits of Continuous Integration for Businesses and IT Teams",DevOps
+https://dzone.com/articles/continuous-integration-vs-continuous-delivery,"Continuous Integration vs. Continuous Delivery",DevOps
+https://dzone.com/articles/if-done-correctly-the-low-code-and-no-code-movemen,"The Low-Code and No-Code Movement Can Transform Your Startup Into Category...",DevOps
+https://dzone.com/articles/ansible-with-awsnbspec2,"Ansible with AWS and EC2",DevOps
+https://dzone.com/articles/3-lessons-devops-can-learn-from-5-biggest-outages,"3 Lessons DevOps Can Learn From 5 Biggest Outages of Q2 2020",DevOps
+https://dzone.com/articles/continuous-deployment-shouldnt-be-hard,"Continuous Deployment Shouldn't Be Hard",DevOps
+https://dzone.com/articles/why-devops-enterprise-summit-las-vegas-virtual-202,"Why DevOps Enterprise Summit Las Vegas - Virtual 2020 Will Be Amazing",DevOps
+https://dzone.com/articles/jenkins-vs-gitlab-ci-battle-of-cicd-tools,"Jenkins vs GitLab CI: Battle of CI/CD Tools",DevOps
+https://dzone.com/articles/how-tackleio-monitors-performance-in-serverless,"How Tackle.io Monitors Performance In Serverless",DevOps
+https://dzone.com/articles/4-signs-software-reliability-should-be-your-top-pr,"4 Signs That Software Reliability Should Be Your Top Priority",DevOps

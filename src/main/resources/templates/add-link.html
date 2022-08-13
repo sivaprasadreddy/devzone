@@ -48,10 +48,11 @@
                         <div class="mb-3">
                             <label for="category" class="control-label">Category</label>
                             <input type="text" id="category" name="category"
-                                   th:field="*{category}"
                                    class="form-control"
+                                   autocomplete="off"
+                                   th:field="*{category}"
                                    th:classappend="${#fields.hasErrors('category')} ? 'is-invalid' : ''"
-                                   placeholder="Enter category"
+                                   placeholder="Select category"
                             />
                             <div class="invalid-feedback" th:if="${#fields.hasErrors('category')}"
                                  th:errors="*{category}">Category Error</div>
@@ -66,6 +67,12 @@
         </div>
     </div>
 </div>
-
+<div layout:fragment="pageScripts">
+<script>
+    $(function () {
+        initCategoriesAutoComplete("#category")
+    });
+</script>
+</div>
 </body>
 </html>

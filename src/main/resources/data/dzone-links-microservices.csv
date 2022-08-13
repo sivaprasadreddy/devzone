@@ -1,0 +1,1001 @@
+url,title,category
+https://dzone.com/articles/discussing-backend-for-front-end,"Discussing Backend for Front-end",MicroServices
+https://dzone.com/articles/build-a-java-microservice-with-auradb-free,"Build a Java Microservice With AuraDB Free",MicroServices
+https://dzone.com/articles/externalize-microservice-configuration-with-spring-cloud-config,"Externalize Microservice Configuration With Spring Cloud Config",MicroServices
+https://dzone.com/articles/when-microservices-are-a-bad-idea,"When Microservices Are a Bad Idea",MicroServices
+https://dzone.com/articles/automatically-creating-microservices-architecture,"Automatically Creating Microservices Architecture Diagrams",MicroServices
+https://dzone.com/articles/get-started-with-kafka-and-docker-in-20-minutes,"Get Started With Kafka and Docker in 20 Minutes",MicroServices
+https://dzone.com/articles/distributed-tracing-for-microservices-on-elastic-c,"Distributed Tracing for Microservices on Elastic (ELK Stack)",MicroServices
+https://dzone.com/articles/how-microcontainers-gain-against-large-containers,"How Microcontainers Gain Against Large Containers",MicroServices
+https://dzone.com/articles/overcoming-challenges-in-end-to-end-microservices,"Overcoming Challenges in End-To-End Microservices Testing",MicroServices
+https://dzone.com/articles/stop-using-oauth-20-scopes-for-microservices-autho,"Stop Using OAuth 2.0 Scopes for Microservices Authorization",MicroServices
+https://dzone.com/articles/how-can-you-benefit-from-containerized-microservic,"How Can You Benefit from Containerized Microservices?",MicroServices
+https://dzone.com/articles/learn-microservices-with-coding-over-cocktails,"Learn Microservices With Coding Over Cocktails",MicroServices
+https://dzone.com/articles/getting-ready-for-microservices,"Getting Ready for Microservices",MicroServices
+https://dzone.com/articles/event-driven-order-processing-program,"Event-Driven Order Processing Program",MicroServices
+https://dzone.com/articles/architecture-as-code-with-c4-and-plantuml,"Architecture as Code With C4 and Plantuml",MicroServices
+https://dzone.com/articles/monitoring-spring-boot-application-with-prometheus,"Monitoring Spring Boot Application With Prometheus and Grafana",MicroServices
+https://dzone.com/articles/how-to-solve-context-propagation-challenges-in-dis,"How to Solve Context Propagation Challenges in Distributed Tracing",MicroServices
+https://dzone.com/articles/are-all-kubernetes-ingresses-the-same,"Are All Kubernetes Ingresses the Same?",MicroServices
+https://dzone.com/articles/reactive-kafka-with-streaming-in-spring-boot,"Reactive Kafka With Streaming in Spring Boot",MicroServices
+https://dzone.com/articles/develop-with-oracle-transactional-event-queues-kaf,"Develop With Oracle Transactional Event Queues",MicroServices
+https://dzone.com/articles/monolith-vs-microservices-architecture-split-or-no,"Monolith vs Microservices Architecture: To Split or Not to Split?",MicroServices
+https://dzone.com/articles/how-do-you-integrate-emissary-ingress-with-opa,"How Do You Integrate Emissary Ingress With OPA?",MicroServices
+https://dzone.com/articles/implementing-microservices-architectures-an-atypic,"Implementing Microservices Architectures",MicroServices
+https://dzone.com/articles/java-microservices-code-examples-tutorials-and-more,"Java Microservices: Code Examples, Tutorials, and More",MicroServices
+https://dzone.com/articles/design-patterns-for-microservices,"Design Patterns for Microservices",MicroServices
+https://dzone.com/articles/what-are-microservices-2,"What Are Microservices?",MicroServices
+https://dzone.com/articles/how-to-build-microservices-with-nodejs,"How to Build Microservices With Node.js",MicroServices
+https://dzone.com/articles/getting-started-with-service-calls-and-serverless,"Getting Started With Service Calls and Serverless Workflow",MicroServices
+https://dzone.com/articles/kotlin-spring-boot-web-service-integration-with-da,"Kotlin Spring Boot Web-Service Integration With Database",MicroServices
+https://dzone.com/articles/event-driven-hello-world-program,"Event-Driven Hello World Program",MicroServices
+https://dzone.com/articles/event-driven-microservices-1,"Event-Driven Microservices?",MicroServices
+https://dzone.com/articles/we-can-do-better-failure-detection-in-serverless-a,"We Can Do Better Failure Detection in Serverless Applications",MicroServices
+https://dzone.com/articles/ultra-fast-microservices-helidon-microstream,"Ultra-Fast Microservices: When Microstream Meets Helidon",MicroServices
+https://dzone.com/articles/chopping-the-monolith-the-demo,"Chopping the Monolith: The Demo",MicroServices
+https://dzone.com/articles/creating-an-event-driven-architecture-in-a-microse,"Creating an Event-Driven Architecture in a Microservices Setting",MicroServices
+https://dzone.com/articles/how-bdd-works-well-with-eda,"How BDD Works Well With EDA",MicroServices
+https://dzone.com/articles/implementing-rbac-configuration-for-kubernetes-applications,"Implementing RBAC Configuration for Kubernetes Applications",MicroServices
+https://dzone.com/articles/how-to-determine-if-microservices-architecture-is,"How to Determine if Microservices Architecture Is Right for Your Business",MicroServices
+https://dzone.com/articles/checklist-for-api-verification,"Checklist for API Verification",MicroServices
+https://dzone.com/articles/ultra-fast-microservices-when-microstream-meets-pa,"Ultra-Fast Microservices: When Microstream Meets Payara",MicroServices
+https://dzone.com/articles/composable-architecture,"Composable Architecture",MicroServices
+https://dzone.com/articles/path-based-routing-in-render-with-kong-api-gateway,"Path-Based Routing in Render With Kong API Gateway",MicroServices
+https://dzone.com/articles/ultra-fast-microservices-part-2-when-microstream-m,"Ultra-Fast Microservices: When Microstream Meets Wildfly",MicroServices
+https://dzone.com/articles/creating-microservices-in-nestjs,"Creating Microservices in Nest.js",MicroServices
+https://dzone.com/articles/ultra-fast-microservices-when-microstream-meets-op,"Ultra-Fast Microservices in Java: When Microstream Meets Open Liberty",MicroServices
+https://dzone.com/articles/handle-hl7-mllp-messages-with-mule-4,"Handle HL7 MLLP Messages With Mule 4",MicroServices
+https://dzone.com/articles/chopping-the-monolith,"Chopping the Monolith",MicroServices
+https://dzone.com/articles/federated-schema-design,"Federated Schema Design",MicroServices
+https://dzone.com/articles/golang-and-event-driven-architecture,"Golang and Event-Driven Architecture",MicroServices
+https://dzone.com/articles/functional-and-integration-testing-fit-framework,"Functional and Integration Testing (FIT) Framework",MicroServices
+https://dzone.com/articles/building-an-application-with-go-and-sqlite,"Building an Application With Go and SQLite",MicroServices
+https://dzone.com/articles/developing-micronaut-application-with-microcli,"Micronaut: Rapid Development With MicrostarterCLI",MicroServices
+https://dzone.com/articles/most-popular-technologies-for-java-microservices,"The Most Popular Technologies for Java Microservices Right Now",MicroServices
+https://dzone.com/articles/why-distributed-apps-need-dependency-management,"Why Distributed Apps Need Dependency Management",MicroServices
+https://dzone.com/articles/observability-for-monitoring-microservices-top-tools,"Observability for Monitoring Microservices: Top 5 Tools",MicroServices
+https://dzone.com/articles/exploring-the-api-first-design-pattern,"Exploring the API-First Design Pattern",MicroServices
+https://dzone.com/articles/how-log-and-analyze-api-calls-from-azure-api-manag,"Using XML Policies to Log and Analyze API Calls from Azure API Management",MicroServices
+https://dzone.com/articles/kong-plugins-as-microservices-writing-a-single-plu,"Kong Plugins as Microservices: Writing a Single-Plugin Server for Kong in...",MicroServices
+https://dzone.com/articles/split-the-monolith-what-when-how,"Split the Monolith: What, When, How",MicroServices
+https://dzone.com/articles/how-to-perform-fastapi-path-parameter-validation-u,"How To Perform FastAPI Path Parameter Validation Using Path Function",MicroServices
+https://dzone.com/articles/developing-and-testing-services-among-a-sea-of-mic,"Developing and Testing Services Among a Sea of Microservices",MicroServices
+https://dzone.com/articles/bounded-context-3,"Understanding Bounded Context",MicroServices
+https://dzone.com/articles/how-to-create-a-graphql-schema-with-graphqljs-and,"How To Create a GraphQL Schema With GraphQL.js and Express?",MicroServices
+https://dzone.com/articles/openshift-sandboxkata-containers,"Openshift Sandbox/Kata Containers",MicroServices
+https://dzone.com/articles/using-kong-ingress-controller-with-spring-boot-ser,"Using Kong Ingress Controller with Spring Boot Services",MicroServices
+https://dzone.com/articles/kafka-vs-chronicle-for-microservices,"Kafka vs Chronicle for Microservices",MicroServices
+https://dzone.com/articles/microservice-creating-a-jdbc-datasource-in-payara,"Microservice: Creating JPA Application Using Jakarta Persistence API in...",MicroServices
+https://dzone.com/articles/microservice-api-patterns-a-language-for-api-desig,"Microservice API Patterns: A Language for API Design",MicroServices
+https://dzone.com/articles/extra-micrometer-practices-with-quarkus,"Extra Micrometer Practices With Quarkus",MicroServices
+https://dzone.com/articles/7-modern-microservice-design-patterns,"Microservice Design Patterns",MicroServices
+https://dzone.com/articles/rapid-application-modernization,"Rapid Application Modernization Using Kong",MicroServices
+https://dzone.com/articles/enhancing-istio-operations-with-kong-istio-gateway,"Enhancing Istio Operations with Kong Istio Gateway",MicroServices
+https://dzone.com/articles/what-does-a-service-mesh-do,"What Does a Service Mesh Do?",MicroServices
+https://dzone.com/articles/how-to-develop-event-driven-architectures,"How to Develop Event-Driven Architectures",MicroServices
+https://dzone.com/articles/component-tests-for-spring-cloud-microservices,"Component Tests for Spring Cloud Microservices",MicroServices
+https://dzone.com/articles/circuit-breaker-pattern-with-netflix-hystix-java,"Circuit Breaker Pattern With Netflix-Hystrix: Java",MicroServices
+https://dzone.com/articles/a-robust-distributed-payment-network-with-enchante,"A Robust Distributed Payment Network With Enchanted Audit Functionality -...",MicroServices
+https://dzone.com/articles/how-to-build-web-service-using-spring-boot-2x,"How To Build Web Service Using Spring Boot 2.x",MicroServices
+https://dzone.com/articles/a-robust-distributed-money-transfer-system-with-en,"A Robust Distributed Payment Network With Enchanted Audit Functionality -...",MicroServices
+https://dzone.com/articles/the-differences-between-a-service-catalog-internal,"The Differences Between a Service Catalog, Internal Developer Platform, and...",MicroServices
+https://dzone.com/articles/web-scraping-at-a-large-scale-how-to-do-it-1,"Large-Scale Web Scraping: How To Do It?",MicroServices
+https://dzone.com/articles/how-to-maintain-quality-when-transitioning-from-mo,"How To Maintain Quality When Transitioning From Monolith to Microservices",MicroServices
+https://dzone.com/articles/graphql-core-concepts-you-should-definitely-know,"GraphQL Core Concepts You Should Definitely Know",MicroServices
+https://dzone.com/articles/service-mesh-101-the-role-of-envoy,"Service Mesh 101: The Role of Envoy",MicroServices
+https://dzone.com/articles/building-microservices-with-grpc-and-java,"Building Microservices With gRPC and Java",MicroServices
+https://dzone.com/articles/mullet-patter,"Hiding SOAP Legacy Applications Using the Mullet Pattern",MicroServices
+https://dzone.com/articles/migration-of-microservices-from-weblogic-to-openshift,"Migration of Microservice Applications From WebLogic to Openshift",MicroServices
+https://dzone.com/articles/how-i-built-my-own-rewards-card,"How I Built My Own Rewards Card",MicroServices
+https://dzone.com/articles/legacy-app-api-facelift,"Giving Your Legacy Applications an API Facelift",MicroServices
+https://dzone.com/articles/spring-boot-with-kubernetes,"Spring Boot With Kubernetes",MicroServices
+https://dzone.com/articles/machine-learning-observe-api-metrics,"Use Machine Learning to Observe API Metrics",MicroServices
+https://dzone.com/articles/building-microservices-using-spring-boot-harperdb,"Building Microservices Using Spring Boot, HarperDB, and AWS",MicroServices
+https://dzone.com/articles/simplify-microservice-transactions-with-oracle-dat,"Simplify Microservice Transactions With Oracle Database Sagas",MicroServices
+https://dzone.com/articles/microservices-testing-key-strategies-and-the-best,"Microservices Testing: Key Strategies and Tools",MicroServices
+https://dzone.com/articles/microservices-are-good-for-the-mental-health-of-de,"Microservices: Good for Developers' Mental Health",MicroServices
+https://dzone.com/articles/chain-of-responsibility-in-microservices,"Chain of Responsibility In Microservices",MicroServices
+https://dzone.com/articles/msa-as-a-project,"MSA as a Project",MicroServices
+https://dzone.com/articles/metrics-and-logs-are-out-distributed-tracing-is-in,"Metrics and Logs Are Out, Distributed Tracing Is In",MicroServices
+https://dzone.com/articles/polyglot-cloud-native-debugging-beyond-apm-and-log,"Polyglot Cloud-Native Debugging - Beyond APM and Logging",MicroServices
+https://dzone.com/articles/streaming-data-exchange-with-kafka-and-a-data-mesh,"Streaming Data Exchange With Kafka and a Data Mesh in Motion",MicroServices
+https://dzone.com/articles/2-approaches-to-microservices-monitoring-and-loggi,"2 Approaches to Microservices Monitoring and Logging",MicroServices
+https://dzone.com/articles/micro-frontend-architecture,"Micro-Frontend Architecture",MicroServices
+https://dzone.com/articles/how-to-practically-implement-microservices-infrast,"How to Practically Implement Microservices Infrastructure in Your Business",MicroServices
+https://dzone.com/articles/self-hosted-gateway-design-patterns-discussion,"Self-Hosted Gateway Design Patterns Discussion",MicroServices
+https://dzone.com/articles/why-develop-a-decentralized-application-architectu,"Why Develop a Decentralized Application Architecture for Cloud-Native,...",MicroServices
+https://dzone.com/articles/how-to-use-vaults-and-wallets-for-simple-secure-connectivity,"How to Vaults and Wallets for Simple, Secure Connectivity",MicroServices
+https://dzone.com/articles/developing-event-driven-microservices-in-java-java,"Developing Event-Driven Microservices",MicroServices
+https://dzone.com/articles/spring-cloud-stream-with-kafka-2,"Spring Cloud Stream With Kafka",MicroServices
+https://dzone.com/articles/when-dominoes-fall-microservices-and-distributed-s,"When Dominoes Fall: Microservices and Distributed Systems Need Intelligent...",MicroServices
+https://dzone.com/articles/designing-high-volume-transaction-systems-using-event-driven-architectures,"Designing High-Volume Systems Using Event-Driven Architectures",MicroServices
+https://dzone.com/articles/how-to-create-a-nestjs-redis-microservice,"How To Create a NestJS Redis Microservice?",MicroServices
+https://dzone.com/articles/how-to-pinpoint-and-fix-distributed-problems-acros,"How to Pinpoint and Fix Distributed Problems Across Microservices",MicroServices
+https://dzone.com/articles/low-latency-microservices-a-retrospective,"Low Latency Microservices, a Retrospective",MicroServices
+https://dzone.com/articles/microservices-and-their-communication-using-apache,"Microservices Communication With Apache Kafka",MicroServices
+https://dzone.com/articles/observability-its-not-what-you-think,"Observability: It’s Not What You Think",MicroServices
+https://dzone.com/articles/spring-boot-with-kafka-communication,"Spring Boot With Kafka Communication",MicroServices
+https://dzone.com/articles/designing-microservices-platforms-with-nats-book-r,"Designing Microservices Platforms With NATS [Book] Released!",MicroServices
+https://dzone.com/articles/nodejs-rest-api,"How to Make a REST API Using Only 2 Commands",MicroServices
+https://dzone.com/articles/breaking-up-a-monolithic-database-with-kong,"Breaking Up a Monolithic Database with Kong",MicroServices
+https://dzone.com/articles/a-schema-architecture-for-microservices,"A Schema Architecture for Microservices",MicroServices
+https://dzone.com/articles/case-study-servicemesh-with-docker-k8-istio-sidecar,"BankNext Case Study: ServiceMesh With Docker-K8-Istio-Sidecar",MicroServices
+https://dzone.com/articles/mutual-tls-with-grpc-between-python-and-go-service,"Mutual TLS With gRPC Between Python and Go Services",MicroServices
+https://dzone.com/articles/a-guide-to-nestjs-swagger-configuration,"A Guide to NestJS Swagger Configuration",MicroServices
+https://dzone.com/articles/how-to-build-micro-frontend-based-on-angular,"How to Build Micro Frontend Based on Angular",MicroServices
+https://dzone.com/articles/create-a-multi-tenancy-application-in-nestjs-part,"Create a Multi-tenancy Application In Nest.js - Part 1",MicroServices
+https://dzone.com/articles/reporting-in-microservices-how-to-optimize-perform-1,"Reporting in Microservices: How To Optimize Performance",MicroServices
+https://dzone.com/articles/sober-look-at-microservices,"Sober Look at Microservices",MicroServices
+https://dzone.com/articles/providing-external-access-istio-services-with-kong,"Providing External Access to Istio Services With Kong",MicroServices
+https://dzone.com/articles/major-features-and-benefits-of-google-kubernetes-e,"Main Features and Benefits of Google Kubernetes Engine",MicroServices
+https://dzone.com/articles/monolith-vs-microservices-the-battle-of-the-centur,"Monolith vs. Microservices: The Battle of the Century",MicroServices
+https://dzone.com/articles/concurrency-safe-execution-ballerina-isolation,"Concurrency-Safe Execution Using Ballerina Isolation",MicroServices
+https://dzone.com/articles/quarkus-for-spring-developers-kubernetes-native-de,"Quarkus for Spring Developers: Kubernetes-native Design Patterns",MicroServices
+https://dzone.com/articles/kappa-architecture-is-mainstream-replacing-lambda,"Kappa Architecture is Mainstream Replacing Lambda",MicroServices
+https://dzone.com/articles/cloud-native-essentials-abstracted-endpoints,"Cloud-Native Essentials: Abstracted Endpoints",MicroServices
+https://dzone.com/articles/is-monolith-dead,"Is Monolith Dead?",MicroServices
+https://dzone.com/articles/agile-architecture-what-is-it,"Agile Architecture - What Is It?",MicroServices
+https://dzone.com/articles/metrics-2x-in-spring-boot-2x,"Metrics 2.X in Spring Boot 2.X",MicroServices
+https://dzone.com/articles/distributed-tracing-with-spring-sleuth-kafka-and-z,"Distributed Tracing With Spring-cloud-Sleuth Kafka and Zipkin",MicroServices
+https://dzone.com/articles/trace-based-testing-with-opentelemetry-meet-open-s,"Trace-Based Testing with OpenTelemetry: Meet Open Source Malabi",MicroServices
+https://dzone.com/articles/how-to-migrating-a-monolithic-application-to-micro,"How To Migrate a Monolithic Application to Microservices",MicroServices
+https://dzone.com/articles/transaction-management-in-microservice-architectur,"How To Get Closer to Consistency in Microservice Architecture",MicroServices
+https://dzone.com/articles/unpacking-the-october-2021-release-adobe-document,"Adobe Document Services: Unpacking the October 2021 Release",MicroServices
+https://dzone.com/articles/8-keys-to-failproof-app-modernization,"8 Keys to Failproof App Modernization",MicroServices
+https://dzone.com/articles/terraform-vs-cloudformation-the-final-battle,"Terraform vs CloudFormation: The Final Battle",MicroServices
+https://dzone.com/articles/distributed-tracing-with-spring-cloud-jaeger,"Distributed Tracing With Spring Cloud Jaeger",MicroServices
+https://dzone.com/articles/microservices-quarkus-vs-spring-boot,"Microservices: Quarkus vs Spring Boot",MicroServices
+https://dzone.com/articles/automated-microservices-observability-in-the-cloud,"Automated Microservices Observability in the Cloud",MicroServices
+https://dzone.com/articles/microservice-roadmap,"Making a Microservice Architecture Roadmap",MicroServices
+https://dzone.com/articles/stateful-microservices-with-apache-ignite,"Stateful Microservices With Apache Ignite",MicroServices
+https://dzone.com/articles/fundamental-components-reusable-dotnet-microservices-platform,"3 Fundamental Components of a Reusable .NET Microservices Platform",MicroServices
+https://dzone.com/articles/microservice-testing-strategies,"Microservice Testing Strategies",MicroServices
+https://dzone.com/articles/seamless-migration-from-kafka-to-kubemq,"KubeMQ: A Modern Alternative to Kafka",MicroServices
+https://dzone.com/articles/microservices-patterns-sidecar,"Microservices Patterns: Sidecar",MicroServices
+https://dzone.com/articles/creating-microservices-with-native-executables,"Creating Microservices Using Native Executables and Observability",MicroServices
+https://dzone.com/articles/minimizing-microservices-complexity-with-reusable-apis,"Minimizing Microservices Complexity with Reusable APIs",MicroServices
+https://dzone.com/articles/distributed-tracing-spring-cloud-sleuth,"Distributed Tracing With Spring Cloud Sleuth and Zipkin",MicroServices
+https://dzone.com/articles/api-throttling-strategies,"API Throttling Strategies When Clients Exceed Their Limit",MicroServices
+https://dzone.com/articles/most-viewed-articles-microservices-zone-august,"Top 10 August '21 Microservices Articles to Read Now",MicroServices
+https://dzone.com/articles/serialize-access-to-a-shared-resource-in-distribut,"Control Concurrency for Shared Resources in Distributed Systems With DLM...",MicroServices
+https://dzone.com/articles/api-testing-with-cucumber,"API Testing With Cucumber",MicroServices
+https://dzone.com/articles/8-common-api-gateway-request-transformation-polici,"8 Common API Gateway Request Transformation Policies",MicroServices
+https://dzone.com/articles/apache-kafka-versus-oracle-transactional-event-que,"Apache Kafka vs. Oracle Transactional Event Queues as Microservices Event...",MicroServices
+https://dzone.com/articles/rest-api-versioning-strategies-1,"REST API Versioning Strategies",MicroServices
+https://dzone.com/articles/spring-boot-and-jhipster-bring-kubernetes-to-the-c-2,"Spring Boot and JHipster Bring Kubernetes to the Cloud",MicroServices
+https://dzone.com/articles/quickstart-openapi-with-ballerina,"Quickstart OpenAPI With Ballerina",MicroServices
+https://dzone.com/articles/spring-cloud-gateway-keycloak-oauth2-oidc-integrat,"Keycloak Integration WithSpring Cloud Gateway Using OAuth2 OIDC",MicroServices
+https://dzone.com/articles/kubernetes-ingress-grpc-example-with-a-dune-quote,"Kubernetes Ingress gRPC Example With a Dune Quote Service",MicroServices
+https://dzone.com/articles/7-microservices-best-practices-for-developers,"7 Microservices Best Practices for Developers",MicroServices
+https://dzone.com/articles/powering-kubernetes-in-the-cloud-with-kuma-service-1,"Nextcloud and Kubernetes in the Cloud With Kuma Service Mesh",MicroServices
+https://dzone.com/articles/spring-cloud-sleuth-rabbitmq-zipkin-elasticsearch,"Spring Cloud Sleuth + RabbitMQ + Zipkin + ElasticSearch",MicroServices
+https://dzone.com/articles/how-to-get-your-microservices-up-and-running,"How to Get Your Microservices Up-And-Running With Ronnie Mitra [Podcast]",MicroServices
+https://dzone.com/articles/how-kafka-can-make-microservice-planet-better,"How Kafka Can Make Microservice Planet a Better Place",MicroServices
+https://dzone.com/articles/top-8-postgresql-gui-software-in-2021,"Top 8 PostgreSQL GUI Software in 2021",MicroServices
+https://dzone.com/articles/event-driven-saga-compensation,"BankNext Event-Driven Case Study: SAGA Compensation",MicroServices
+https://dzone.com/articles/microservice-architecture-and-agile-teams,"Microservice Architecture and Agile Teams",MicroServices
+https://dzone.com/articles/top-10-low-code-articles-b,"Top 10 Low-Code Articles",MicroServices
+https://dzone.com/articles/top-10-low-code-articles,"Top 10 Low-Code Articles",MicroServices
+https://dzone.com/articles/how-to-implement-and-design-twitter-search-backend,"How To Implement and Design Twitter Search Backend Systems using Java...",MicroServices
+https://dzone.com/articles/ab-comparison-of-microservice-api-between-environm,"A/B Comparison of Microservice API Between Environments",MicroServices
+https://dzone.com/articles/from-monolith-to-microservices-an-epic-migration-j,"From Monolith to Microservices: An epic Migration Journey",MicroServices
+https://dzone.com/articles/a-typical-bounded-context-in-ddd,"A Typical Bounded Context in Domain-Driven Design",MicroServices
+https://dzone.com/articles/design-patterns-modern-day-commerce-using-microservices,"Design Patterns for Modern Day Commerce Using Microservices",MicroServices
+https://dzone.com/articles/guaranteed-ways-of-failing-with-microservices,"Guaranteed Ways of Failing With Microservices",MicroServices
+https://dzone.com/articles/versatile-events-in-event-driven-architecture,"Versatile Events in Event Driven Architecture",MicroServices
+https://dzone.com/articles/three-pillars-with-zero-answers-a-new-scorecard-for-observability,"Three Pillars With Zero Answers: A New Scorecard for Observability",MicroServices
+https://dzone.com/articles/scouting-the-future-of-modern-software-development,"Scouting the Future of Modern Software Development",MicroServices
+https://dzone.com/articles/rate-limiting-for-microservices,"Custom Rate Limiting for Microservices",MicroServices
+https://dzone.com/articles/implementing-google-oauth-to-use-google-api-cloudflare-workers,"Implementing Google OAuth to Use Google API in Cloudflare Workers",MicroServices
+https://dzone.com/articles/how-your-application-architecture-evolved,"How Your Application Architecture Has Evolved",MicroServices
+https://dzone.com/articles/reactive-microservices-1,"Reactive Microservices - 1",MicroServices
+https://dzone.com/articles/modelling-saga-as-a-state-machine,"Modeling Saga as a State Machine",MicroServices
+https://dzone.com/articles/microservices-vs-monolith-the-ultimate-comparison,"Microservices vs Monolith: The Ultimate Comparison 2021",MicroServices
+https://dzone.com/articles/developing-microservices-in-java-javascript-python,"Developing Microservices in Java, JavaScript, Python, .NET, and Go With the...",MicroServices
+https://dzone.com/articles/safely-upgrade-the-istio-control-plane-with-revisi,"Safely Upgrade the Istio Control Plane With Revisions and Tags",MicroServices
+https://dzone.com/articles/top-microservices-testing-tools-testers-should-kno,"Top Microservices Testing Tools Testers Should Know About",MicroServices
+https://dzone.com/articles/a-nocode-micro-service-appstore-to-avoid-technical,"A NoCode Micro Service AppStore to avoid Technical Debt",MicroServices
+https://dzone.com/articles/the-unique-reliability-engineering-requirements-of,"The Unique Reliability Engineering Requirements of Microservices",MicroServices
+https://dzone.com/articles/how-to-rewrite-a-huge-code-base,"How To Rewrite a Huge Codebase",MicroServices
+https://dzone.com/articles/logging-vs-tracing-why-logs-arent-enough-to-debug,"Logging vs Tracing: Why Logs Aren’t Enough to Debug Your Microservices",MicroServices
+https://dzone.com/articles/setting-up-rabbitmq-dead-letter-queue-with-spring,"Setting Up RabbitMQ Dead Letter Queue with Spring Cloud Stream",MicroServices
+https://dzone.com/articles/micro-frontends-by-example-8,"Micro Frontends With Example",MicroServices
+https://dzone.com/articles/why-pubsub-isnt-enough-for-modern-apps,"Why Pub/Sub Isn’t Enough for Modern Apps",MicroServices
+https://dzone.com/articles/using-the-strangler-pattern-to-break-down-your-e-c,"Using the Strangler Pattern to Break Down Your E-Commerce Monolith",MicroServices
+https://dzone.com/articles/one-step-ingress,"One-Step Ingress - Use One Command To Secure APIs and Microservices",MicroServices
+https://dzone.com/articles/can-cloud-native-computing-eliminate-technical-deb,"Can Cloud-Native Computing Eliminate Technical Debt?",MicroServices
+https://dzone.com/articles/revisiting-the-twelve-factor-app-methodology,"Revisiting the Twelve-Factor App Methodology",MicroServices
+https://dzone.com/articles/defining-event-driven-architectures-asyncapi,"Defining Event-Driven Architectures: AsyncAPI",MicroServices
+https://dzone.com/articles/not-only-spring-boot-a-review-of-alternatives,"Review of Microservices Frameworks: A Look at Spring Boot Alternatives",MicroServices
+https://dzone.com/articles/vertx-guice-config-retriever-dependency-injection-vertx-4x,"Vertx, Guice and Config Retriever: Dependency Injection in Vertx 4.x",MicroServices
+https://dzone.com/articles/most-viewed-articles-microservices-zone-june,"Top 10 June '21 Microservices Articles to Read Now",MicroServices
+https://dzone.com/articles/tooling-for-kubernetes-development-machines,"Developer Tooling for Kubernetes in 2021: Development Machines (Part 5)",MicroServices
+https://dzone.com/articles/key-observability-metrics-for-distributed-applicat,"4 Key Observability Metrics for Distributed Applications",MicroServices
+https://dzone.com/articles/the-great-migration-peculiar-complexities-of-monol,"The Great Migration: Peculiar Complexities of Monolith to Microservices...",MicroServices
+https://dzone.com/articles/microservices-with-jhipster,"Microservices With JHipster",MicroServices
+https://dzone.com/articles/moving-from-oracle-atg-to-microservices-based-comm,"Moving From Oracle ATG to Microservices-Based Commerce",MicroServices
+https://dzone.com/articles/kubernetes-service-types,"Kubernetes Service Types",MicroServices
+https://dzone.com/articles/microservices-event-driven-amp-the-hidden-landmine-1,"BankNext Microservices: A Case Study",MicroServices
+https://dzone.com/articles/chaos-engineering-make-disciplined-microservices,"Chaos Engineering Make Disciplined Microservices",MicroServices
+https://dzone.com/articles/rest-api-documentation-and-client-generation-with,"Rest API Documentation and Client Generation With OpenAPI",MicroServices
+https://dzone.com/articles/turning-cqrs-into-a-checkbox,"Turning CQRS into a CheckBox",MicroServices
+https://dzone.com/articles/set-up-a-service-mesh-on-istio,"Set Up a Service Mesh on Istio",MicroServices
+https://dzone.com/articles/developer-tooling-for-kubernetes-in-2021-docker-bu,"Developer Tooling for Kubernetes in 2021 – Docker, BuildKit, Buildpacks,...",MicroServices
+https://dzone.com/articles/performance-tuning-in-microservices,"Performance Tuning in Microservices",MicroServices
+https://dzone.com/articles/ddd-micro-services-and-an-enterprise-grade-chat-mo,"DDD, Micro Services, CQRS and an Enterprise Grade Chat Module backend",MicroServices
+https://dzone.com/articles/micro-management,"Micro Management",MicroServices
+https://dzone.com/articles/kind-a-new-kubernetes-cluster,"Kind : A New Kubernetes Cluster",MicroServices
+https://dzone.com/articles/using-distributed-tracing-in-microservices-archite,"Using Distributed Tracing in Microservices Architecture",MicroServices
+https://dzone.com/articles/top-microservices-frameworks,"Top Microservices Frameworks",MicroServices
+https://dzone.com/articles/the-biggest-microservices-mistake-you-dont-want-to,"The Biggest Microservices Mistake You Don’t Want to Make",MicroServices
+https://dzone.com/articles/event-sourcing-on-azure,"Event Sourcing on Azure",MicroServices
+https://dzone.com/articles/microservices-architecture-breaking-the-monolith,"Microservices Architecture: Breaking the Monolith",MicroServices
+https://dzone.com/articles/microservices-interview-questions-answers,"10 Microservices Interview Questions You Must Know",MicroServices
+https://dzone.com/articles/moving-from-shopify-plus-to-microservices-based-co,"Moving From Shopify Plus to Microservices-Based Commerce",MicroServices
+https://dzone.com/articles/considering-microservices-heres-why-you-shouldnt-d,"Considering Microservices? Here’s Why You Shouldn’t Dismiss Monoliths Just...",MicroServices
+https://dzone.com/articles/developer-tooling-for-kubernetes-in-2021-intellij,"Developer Tooling for Kubernetes in 2021: IntelliJ, VSCode, Gitpod, and...",MicroServices
+https://dzone.com/articles/distributed-tracing-in-aspnet-core-with-jaeger-and-1,"Distributed Tracing in ASP.NET Core With Jaeger and Tye, Part 2: Project...",MicroServices
+https://dzone.com/articles/message-queue-rabbit-mq-beginners-introduction,"Message Queue (Rabbit MQ): A Beginners Introduction",MicroServices
+https://dzone.com/articles/performance-testing-of-microservices,"Performance Testing of Microservices",MicroServices
+https://dzone.com/articles/spring-cloud-stream-channel-interceptor,"Spring Cloud Stream Channel Interceptor",MicroServices
+https://dzone.com/articles/java-vs-go-multiple-users-load-test-2,"Is Java Really Faster Than Go?",MicroServices
+https://dzone.com/articles/spring-cloud-config-server-on-kubernetes-part-2,"Spring Cloud Config Server on Kubernetes (Part 2)",MicroServices
+https://dzone.com/articles/spring-cloud-config-server-on-kubernetes-part-1,"Spring Cloud Config Server on Kubernetes (Part 1)",MicroServices
+https://dzone.com/articles/rabbitmq-rpc-with-fastapi-video,"RabbitMQ RPC With FastAPI [Video]",MicroServices
+https://dzone.com/articles/distributed-tracing-in-aspnet-core-with-jaeger-and,"Distributed Tracing in ASP.NET Core With Jaeger and Tye, Part 1:...",MicroServices
+https://dzone.com/articles/tracing-in-grafana-with-tempo-and-jaeger,"Tracing in Grafana With Tempo and Jaeger",MicroServices
+https://dzone.com/articles/what-is-a-microservice,"What Is a Microservice?",MicroServices
+https://dzone.com/articles/demystifying-transition-to-microservices,"Demystifying the Transition to Microservices",MicroServices
+https://dzone.com/articles/developer-tooling-for-kubernetes-in-2021-skaffold,"Developer Tooling for Kubernetes in 2021: Skaffold, Tilt, and Garden (Part...",MicroServices
+https://dzone.com/articles/edge-security-policy-at-kubernetes-ingress-using-h,"Edge Security Policy at Kubernetes Ingress Using Helm and Envoy",MicroServices
+https://dzone.com/articles/lightweight-parallel-tasks-in-java-microservices,"Lightweight Parallel Tasks in Java Microservices",MicroServices
+https://dzone.com/articles/service-discovery-consul-support-in-judge-d-demo,"Service Discovery: Consul Support in Judge-d (Part 2) [Demo]",MicroServices
+https://dzone.com/articles/why-your-microservices-need-graphql,"Why Your Microservices Need GraphQL",MicroServices
+https://dzone.com/articles/survivorship-bias-in-observability,"Survivorship Bias in Observability",MicroServices
+https://dzone.com/articles/spring-boot-microservices-apache-camel-hello-world,"Spring Boot Microservices + Apache Camel: A Hello World Example",MicroServices
+https://dzone.com/articles/why-you-should-care-about-service-mesh,"Why You Should Care About Service Meshes",MicroServices
+https://dzone.com/articles/cryptographically-signed-http-lambda-invocations,"Cryptographically Signed HTTP Lambda invocations",MicroServices
+https://dzone.com/articles/how-to-use-sagas-to-process-orders,"How to Use Sagas to Process Orders",MicroServices
+https://dzone.com/articles/simulating-cloudevents-with-asyncapi-and-microcks,"Simulating CloudEvents With AsyncAPI and Microcks",MicroServices
+https://dzone.com/articles/microservices-antipatterns-and-the-things-youre-do,"''Microservices Antipatterns and The Things You're Doing Wrong'' With Chris...",MicroServices
+https://dzone.com/articles/service-discovery-consul-support-in-judge-d,"Service Discovery: Consul Support in Judge-d (Part 1)",MicroServices
+https://dzone.com/articles/building-event-driven-microservices-that-scales,"Building Event-Driven Microservices That Scale",MicroServices
+https://dzone.com/articles/event-driven-architecture-with-apache-kafka-for-ne-2,"Event-Driven Architecture with Apache Kafka for .NET Developers Part 3:...",MicroServices
+https://dzone.com/articles/who-can-benefit-from-microservice-testing,"Who Can Benefit From Microservice Testing?",MicroServices
+https://dzone.com/articles/microservices-architecture-2,"Microservices Architecture",MicroServices
+https://dzone.com/articles/debugging-go-microservices-in-kubernetes-with-vsco,"Debugging Go Microservices in Kubernetes With VScode",MicroServices
+https://dzone.com/articles/component-testing-for-event-driven-microservice,"Component Testing for Event-Driven Microservice",MicroServices
+https://dzone.com/articles/your-job-is-not-to-create-software-it-is-to-think,"Your Job Is Not to Create Software, It Is to THINK!",MicroServices
+https://dzone.com/articles/event-driven-architecture-with-apache-kafka-for-ne-1,"Event-Driven Architecture With Apache Kafka for .NET Developers Part 2:...",MicroServices
+https://dzone.com/articles/microservices-breaking-down-traditional-applicatio,"Microservices: Breaking Down Traditional Application Design",MicroServices
+https://dzone.com/articles/why-istio-intro,"Service Meshes: Why Istio? An Introduction",MicroServices
+https://dzone.com/articles/why-you-should-care-about-service-mesh-1,"Why You Should Care About Service Mesh",MicroServices
+https://dzone.com/articles/event-driven-architecture-with-apache-kafka-for-ne,"Event-Driven Architecture With Apache Kafka for .NET Developers Part 1:...",MicroServices
+https://dzone.com/articles/microprofile-rest-client-20-first-look,"MicroProfile REST Client 2.0: First Look",MicroServices
+https://dzone.com/articles/moving-from-salesforce-commerce-cloud-to-microserv,"Moving from Salesforce Commerce Cloud to Microservices-Based Commerce",MicroServices
+https://dzone.com/articles/how-to-debug-microservices-in-the-cloud,"How to Debug Microservices in the Cloud",MicroServices
+https://dzone.com/articles/lack-of-time-knowledge-cited-as-biggest-obstacles,"Lack of Time, Knowledge Cited as Biggest Obstacles in API Production",MicroServices
+https://dzone.com/articles/rapidly-develop-java-microservices-on-kubernetes-w,"Rapidly Develop Java Microservices on Kubernetes With Telepresence",MicroServices
+https://dzone.com/articles/distributed-vs-replicated-cache,"Distributed Vs Replicated Cache",MicroServices
+https://dzone.com/articles/deploying-a-microservice-to-kubernetes-with-octopu,"Deploying a Microservice to Kubernetes With Octopus",MicroServices
+https://dzone.com/articles/python-unit-testing-one-time-initialization,"Python Unit Testing: One Time Initialization",MicroServices
+https://dzone.com/articles/building-a-kubernetes-based-solution-in-a-hybrid-e,"Building a Kubernetes-Based Solution in a Hybrid Environment by Using...",MicroServices
+https://dzone.com/articles/omni-channel-retail-and-customer-360-with-apache-k,"Omnichannel Retail and Customer 360 With Apache Kafka",MicroServices
+https://dzone.com/articles/http-for-inter-service-communication,"HTTP for Inter-Service Communication?",MicroServices
+https://dzone.com/articles/the-twelve-factor-app-and-wso2-micro-integrator,"The Twelve-Factor App and WSO2 Micro Integrator",MicroServices
+https://dzone.com/articles/how-kubemq-customers-build-scalable-messaging-plat,"How KubeMQ Customers Build Scalable Messaging Platforms With Kubernetes...",MicroServices
+https://dzone.com/articles/building-a-microservice-in-perl-part-2-up-and-running,"Building a Microservice in Perl (Part 2): Up and Running",MicroServices
+https://dzone.com/articles/application-modernization-in-baby-steps-video,"Application Modernization in Baby Steps [Video]",MicroServices
+https://dzone.com/articles/the-fundamentals-of-software-architecture-and-micr,"The Fundamentals of Software Architecture and Microservices [Podcast]",MicroServices
+https://dzone.com/articles/building-a-microservice-in-perl-part-1-designing-the-api,"Building a Microservice in Perl (Part 1): Designing the API",MicroServices
+https://dzone.com/articles/go-and-kubernetes-rapidly-develop-golang-microservices,"Go and Kubernetes: Rapidly Developing Golang Microservices",MicroServices
+https://dzone.com/articles/creating-a-formal-api-program-podcast-with-james-h,"Creating a Formal API Program With James Higginbotham",MicroServices
+https://dzone.com/articles/10-commandments-on-microservice-decomposition,"10 Commandments of Microservice Decomposition",MicroServices
+https://dzone.com/articles/developing-loosely-coupled-micro-frontends-via-rxj,"Developing Loosely Coupled Micro Frontends via RxJS",MicroServices
+https://dzone.com/articles/developing-micro-frontends-with-single-spa,"Developing Micro Frontends With Single-Spa",MicroServices
+https://dzone.com/articles/microservices-with-observability-on-kubernetes,"Microservices With Observability on Kubernetes",MicroServices
+https://dzone.com/articles/patterns-of-enterprise-software-development-babelf,"Patterns of Enterprise Software Development - Babelfish, localising your...",MicroServices
+https://dzone.com/articles/creating-an-api-story-with-mike-amundsen,"Creating an API Story With Mike Amundsen: Podcast",MicroServices
+https://dzone.com/articles/talking-apis-and-description-languages-with-api-ev,"Talking APIs and Description Languages with API Evangelist Kin Lane...",MicroServices
+https://dzone.com/articles/ballerina-concurrency-model-and-non-blocking-io,"Ballerina Concurrency Model and Non-Blocking I/O",MicroServices
+https://dzone.com/articles/configuring-ingress-to-run-minikube-on-wsl2-using,"Configuring Ingress to run Minikube on WSL2 using Docker runtime",MicroServices
+https://dzone.com/articles/scale-to-zero-with-kubernetes,"Scale to Zero With Kubernetes",MicroServices
+https://dzone.com/articles/from-modules-to-microservices-via-a-service-mesh,"From Modules to Microservices via a Service Mesh",MicroServices
+https://dzone.com/articles/event-driven-architectures-for-loosely-coupled-mic,"Event-Driven Architectures for Loosely Coupled Microservices",MicroServices
+https://dzone.com/articles/building-a-modern-b2b-e-commerce-tech-stack,"Building a Modern B2B E-Commerce Tech Stack",MicroServices
+https://dzone.com/articles/looking-beyond-json,"Looking Beyond JSON",MicroServices
+https://dzone.com/articles/eliminating-local-resource-constraints-for-buildin,"Eliminating Local Resource Constraints for Building Cloud-Native...",MicroServices
+https://dzone.com/articles/cloud-development-environments-using-skaffold-and,"Cloud Development Environments: Using Skaffold and Telepresence on...",MicroServices
+https://dzone.com/articles/a-gentle-introduction-to-event-driven-change-data,"A Gentle Introduction to Event-driven Change Data Capture",MicroServices
+https://dzone.com/articles/why-you-should-build-a-developer-portal-to-acceler,"Why You Should Build a Developer Portal to Accelerate Adoption of Your APIs...",MicroServices
+https://dzone.com/articles/microservices-and-its-security-patterns,"Microservices and Its Security Patterns",MicroServices
+https://dzone.com/articles/microservice-messaging-in-kubernetes,"The Why and How of Microservice Messaging in Kubernetes",MicroServices
+https://dzone.com/articles/jolie-micro-services-on-kubernetes,"Jolie Microservices on Kubernetes",MicroServices
+https://dzone.com/articles/introduction-to-jolie,"Build a Microservice in 4 Steps: An Introduction to Jolie",MicroServices
+https://dzone.com/articles/are-microservices-evolutionary-or-revolutionary,"The Fundamentals of Software Architecture and Microservices",MicroServices
+https://dzone.com/articles/ml-microservice-client-with-python-and-grpc-video,"ML Microservice Client With Python and gRPC [Video]",MicroServices
+https://dzone.com/articles/the-evolution-of-microservices-for-modern-software,"The Evolution of Microservices for Modern Software Development",MicroServices
+https://dzone.com/articles/microservices-and-scaling-strategy,"Microservices and Scaling Strategy",MicroServices
+https://dzone.com/articles/how-to-get-started-with-microservices,"How Do You Get Started With Microservices?",MicroServices
+https://dzone.com/articles/distributed-apps-need-dependency-management,"Distributed Apps Need Dependency Management",MicroServices
+https://dzone.com/articles/http-deep-dive-with-ballerina-services,"HTTP Deep-Dive with Ballerina: Services",MicroServices
+https://dzone.com/articles/what-is-microservice,"What Are Microservices?",MicroServices
+https://dzone.com/articles/step-by-step-instructions-for-mono2micro,"Step-by-Step Instructions for Mono2Micro",MicroServices
+https://dzone.com/articles/monitoring-vs-observability,"Monitoring vs Observability",MicroServices
+https://dzone.com/articles/from-the-simple-to-the-complex-monolith-vs-microse,"From the Simple to the Complex: Monolith vs. Microservices",MicroServices
+https://dzone.com/articles/a-new-expiring-item-service-for-microservice-syste,"A New Expiring Item Service For Microservice Environment: Tickler",MicroServices
+https://dzone.com/articles/dont-build-distributed-monoliths,"Don't Build Distributed Monoliths!",MicroServices
+https://dzone.com/articles/the-maths-of-complexity,"The Maths of Complexity",MicroServices
+https://dzone.com/articles/monitoring-spring-boot-applications-with-prometheu,"Monitoring Spring Boot Applications With Prometheus and Grafana",MicroServices
+https://dzone.com/articles/graphql-made-easy-with-ballerina,"GraphQL Made Easy With Ballerina",MicroServices
+https://dzone.com/articles/shared-microservice-configurations-using-spring-cl,"Shared Microservice Configurations Using Spring Cloud Config",MicroServices
+https://dzone.com/articles/when-and-when-not-to-use-microservices,"When and When Not to Use Microservices",MicroServices
+https://dzone.com/articles/6-requirements-of-cloud-native-software,"6 Requirements of Cloud-Native Software",MicroServices
+https://dzone.com/articles/versioning-multiple-microservices-in-a-monorepo-using-maven,"Versioning Multiple Microservices in a Monorepo Using Maven",MicroServices
+https://dzone.com/articles/digital-transformation-to-microservices-the-approa,"Digital Transformation to Microservices: The Approach",MicroServices
+https://dzone.com/articles/defining-polyglot-programming-podcast-with-neal-fo,"Defining Polyglot Programming: Podcast With Neal Ford",MicroServices
+https://dzone.com/articles/3-serverless-strategies-to-look-for-in-2021,"3 Serverless Strategies to Look for in 2021",MicroServices
+https://dzone.com/articles/the-modern-way-of-managing-apis-using-protobuf-and,"The Modern Way of Managing APIs Using Protobuf and OpenAPI",MicroServices
+https://dzone.com/articles/how-to-create-microservices-using-http4k,"How to Create Microservices Using http4k",MicroServices
+https://dzone.com/articles/how-to-make-microservices-communicate,"How to Make Microservices Communicate",MicroServices
+https://dzone.com/articles/containerization-and-helm-templatization-best-prac,"Containerization and Helm Templatization Best Practices for Microservices...",MicroServices
+https://dzone.com/articles/opensleigh-a-saga-management-library-for-net-core,"OpenSleigh: A Saga Management Library for .NET Core",MicroServices
+https://dzone.com/articles/securing-apis-2,"6 Ways to Secure APIs",MicroServices
+https://dzone.com/articles/service-mesh-comparison-istio-vs-linkerd,"Service Mesh Comparison: Istio vs Linkerd",MicroServices
+https://dzone.com/articles/log-monitoring-and-alerting-with-grafana-loki,"Log Monitoring and Alerting With Grafana Loki",MicroServices
+https://dzone.com/articles/how-to-create-microservices-using-spring,"How to Create Microservices Using Spring",MicroServices
+https://dzone.com/articles/introducing-tracing-cassandra-with-jaeger,"Introducing : Tracing Cassandra With Jaeger",MicroServices
+https://dzone.com/articles/monolith-modernization-with-apis-what-is-the-stran,"Monolith Modernization With APIs: What Is the Strangler Pattern?",MicroServices
+https://dzone.com/articles/the-story-of-a-micro-service-transformation-in-hep,"The Story of a Microservice Transformation in Hepsiburada",MicroServices
+https://dzone.com/articles/setting-up-spring-cloud-config-client,"Setting Up a Spring Cloud Config Client",MicroServices
+https://dzone.com/articles/microservices-online-shop,"Microservices Online Shop",MicroServices
+https://dzone.com/articles/how-to-setup-the-spring-cloud-configuration-server-with-git,"How to Setup the Spring Cloud Config Server With Git",MicroServices
+https://dzone.com/articles/modular-monoliths-vs-upfront-microservices,"Modular Monolith vs Upfront Microservices",MicroServices
+https://dzone.com/articles/approaches-to-automating-microservices-testing,"Approaches to Automating Microservices Testing",MicroServices
+https://dzone.com/articles/http-deep-dive-with-ballerina-client-communication,"HTTP Deep-Dive With Ballerina: Client Communication",MicroServices
+https://dzone.com/articles/i-just-installed-my-own-test-kubernetes-cluster-no,"I Just Installed Kubernetes on My Workstation – Now What?",MicroServices
+https://dzone.com/articles/why-transition-from-monolith-to-microservices,"Why Transition From Monolith to Microservices?",MicroServices
+https://dzone.com/articles/implementing-microservices-the-foundations,"The Principles of Planning and Implementing Microservices",MicroServices
+https://dzone.com/articles/getting-started-with-apache-kafka-and-red-hat-serv,"Getting started with Apache Kafka and Red Hat service registry",MicroServices
+https://dzone.com/articles/aspnet-core-structured-logging-introduction,"ASP.NET Core Structured Logging — Introduction",MicroServices
+https://dzone.com/articles/5-reasons-to-use-graphql-at-your-company,"5 Reasons to Use GraphQL at Your Company",MicroServices
+https://dzone.com/articles/mediator-pattern-using-net,"Mediator Pattern Using .NET",MicroServices
+https://dzone.com/articles/is-service-mesh-right-for-your-infrastructure,"Is Service Mesh Right for Your Infrastructure?",MicroServices
+https://dzone.com/articles/do-you-trust-your-microservices-identities,"Do You Trust Your Microservices Identities?",MicroServices
+https://dzone.com/articles/application-modernization-and-rabbits,"Application Modernization and Rabbits",MicroServices
+https://dzone.com/articles/practical-transaction-handling-in-microservice-arc,"Practical Transaction Handling in Microservice Architecture",MicroServices
+https://dzone.com/articles/debezium-serialization-with-apache-avro-and-apicur,"Debezium Serialization With Apache Avro and Apicurio Service Registry",MicroServices
+https://dzone.com/articles/microservices-powered-by-domain-driven-design,"Microservices Powered By Domain-Driven Design",MicroServices
+https://dzone.com/articles/serverless-vs-microservices-architecture-the-futur,"Serverless vs. Microservices Architecture: Is This the Future of Business...",MicroServices
+https://dzone.com/articles/what-is-cloud-native-observability-v-visibility-an,"What Is Cloud Native Observability V. Visibility and Why Is It So...",MicroServices
+https://dzone.com/articles/microservices-and-serverless-winning-strategies-an,"Microservices and Serverless: Winning Strategies and Challenges",MicroServices
+https://dzone.com/articles/build-time-boot-refine-java-framework,"Build Time Boot: Refine Java Framework",MicroServices
+https://dzone.com/articles/7-benefits-of-microservices-architecture,"7 Benefits of Microservices Architecture",MicroServices
+https://dzone.com/articles/microservice-performance-that-saves-you-money,"Microservice Performance That Saves You Money",MicroServices
+https://dzone.com/articles/websocket-quick-start-with-ballerina,"WebSocket Quick Start with Ballerina",MicroServices
+https://dzone.com/articles/resilient-microservices-pattern-bulkhead-pattern,"Resilient Microservice Design – Bulkhead Pattern",MicroServices
+https://dzone.com/articles/top-10-best-tips-for-api-testing-api-testing-tips,"Top 10 Best Tips for API Testing (API Testing Tips)",MicroServices
+https://dzone.com/articles/the-shift-from-polyrepos-to-monorepos,"The Shift from Polyrepos to Monorepos",MicroServices
+https://dzone.com/articles/fixing-your-microservices-architecture-using-graph,"Fixing Your Microservices Architecture Using Graph Analysis",MicroServices
+https://dzone.com/articles/12-factor-app-principles-and-cloud-native-microser-1,"12 Factor App Principles and Cloud-Native Microservices",MicroServices
+https://dzone.com/articles/full-acid-and-transactions-on-your-micro-services,"Full ACID and transactions on your Micro Services",MicroServices
+https://dzone.com/articles/csf-monitor-the-availability-of-kubernetes-applications,"[CSF] Observe and Measure the Availability of Kubernetes Applications",MicroServices
+https://dzone.com/articles/popular-javascript-frameworks-to-build-api-amp-mic,"Popular JavaScript Frameworks to Build API and Microservices",MicroServices
+https://dzone.com/articles/when-apis-go-wrong-the-overambitious-api-gateway,"When APIs Go Wrong: The Overambitious API Gateway",MicroServices
+https://dzone.com/articles/debugging-microservices-networking-issues-an-intro,"Debugging Microservices Networking Issues — An Introduction",MicroServices
+https://dzone.com/articles/configuring-java-apps-with-kubernetes-configmaps-a,"Configuring Java Apps With Kubernetes ConfigMaps and Helm",MicroServices
+https://dzone.com/articles/a-quick-and-practical-example-of-kafka-testing,"A Quick and Practical Example of Kafka Testing",MicroServices
+https://dzone.com/articles/consumer-driven-contract-testing-with-spring-cloud-contract,"Consumer-Driven Contract Testing With Spring Cloud Contract",MicroServices
+https://dzone.com/articles/build-j2ee-micro-services-architecture-by-using-sp,"Build J2EE Microservices Architecture",MicroServices
+https://dzone.com/articles/python-falcon-microservice-with-mongodb-and-docker,"Python Falcon Microservice With MongoDB and Docker",MicroServices
+https://dzone.com/articles/how-to-run-spring-boot-application-in-docker,"How to Run Spring-Boot App in Docker",MicroServices
+https://dzone.com/articles/protecting-your-domain-driven-design-from-anemia,"Protecting Your Domain-Driven Design from Anemia",MicroServices
+https://dzone.com/articles/the-biggest-misconception-about-micro-services,"The Biggest Misconception About Microservices",MicroServices
+https://dzone.com/articles/demystifying-aiml-microservice-with-tensorflow,"Demystifying AI/ML Microservice with TensorFlow",MicroServices
+https://dzone.com/articles/episode-2-quotthe-holy-grailquot-graalvm-building,"Episode 2: GraalVM - ''The Holy Grail''",MicroServices
+https://dzone.com/articles/learning-about-reactive-messaging-patterns,"Learning About Reactive Messaging Patterns",MicroServices
+https://dzone.com/articles/distributed-balanced-partition-queues-assignment-u,"Distributed Balanced Partition-Queues Assignment Using Kubernetes...",MicroServices
+https://dzone.com/articles/design-messaging-queue,"Understanding a Messaging Queue by Example",MicroServices
+https://dzone.com/articles/spring-security-using-oauth2-with-microsoft-azurea,"Spring security using OAuth2 with Microsoft AzureAD B2C",MicroServices
+https://dzone.com/articles/12-factor-app-principles-and-cloud-native-microser,"12 Factor App Principles and Cloud-Native Microservices",MicroServices
+https://dzone.com/articles/the-concept-of-domain-driven-design-explained,"The Concept of Domain-Driven Design Explained",MicroServices
+https://dzone.com/articles/is-enterprise-service-bus-esb-obsolete-after-micro,"Is Enterprise Service Bus (ESB) Obsolete After Microservices?",MicroServices
+https://dzone.com/articles/how-to-achieve-oauth2-security-in-microservices-di,"How to Implement Oauth2 Security in Microservices",MicroServices
+https://dzone.com/articles/graalvm-byte-code-to-bit-code,"GraalVM — Byte Code to Bit Code",MicroServices
+https://dzone.com/articles/how-to-execute-code-on-spring-application-start-up,"How to Execute Code on Spring Application Start-Up",MicroServices
+https://dzone.com/articles/making-monolith-to-microservices-easier-with-kafka,"Making Monolith to Microservices Easier With Kafka Streaming Data Connector",MicroServices
+https://dzone.com/articles/the-service-mesh-in-the-microservices-world,"The Service Mesh in the Microservices World",MicroServices
+https://dzone.com/articles/create-an-api-gateway-with-load-balancer-in-java,"Create an API Gateway with Load Balancer Using Java",MicroServices
+https://dzone.com/articles/deploying-citrix-adc-with-service-mesh-on-rancher,"Deploying Citrix ADC with Service Mesh on Rancher",MicroServices
+https://dzone.com/articles/saga-pattern-compensating-distributed-transaction,"Saga Pattern: Compensating Distributed Transactions",MicroServices
+https://dzone.com/articles/distributed-saga-and-resiliency,"Distributed Saga and Resiliency of Microservices",MicroServices
+https://dzone.com/articles/practical-serverless-integrating-amazon-s3-and-rek,"Practical Serverless: Integrating Amazon S3 and Rekognition with Ballerina",MicroServices
+https://dzone.com/articles/generic-code-just-dont,"Generic Code? Just Don't",MicroServices
+https://dzone.com/articles/microservices-governance-and-api-management,"Microservices Governance and API Management",MicroServices
+https://dzone.com/articles/testing-microservices-applications,"Testing Microservices Applications",MicroServices
+https://dzone.com/articles/challenges-of-securing-microservices,"Challenges of Securing Microservices",MicroServices
+https://dzone.com/articles/production-grade-ballerina-microservices-on-azure,"Production Grade Ballerina Microservices on Azure AKS - Part 2: Continuous...",MicroServices
+https://dzone.com/articles/microservices-adoption-using-different-patterns,"Microservices Adoption Using Different Patterns",MicroServices
+https://dzone.com/articles/microservices-for-java-ee-developers,"Microservices for Java EE/Jakarta EE Developers",MicroServices
+https://dzone.com/articles/qampa-how-eventbrite-prioritizes-developer-product,"Q&amp;A: How Eventbrite Prioritizes Developer Productivity",MicroServices
+https://dzone.com/articles/microservices-security-in-action,"Microservices Security in Action",MicroServices
+https://dzone.com/articles/when-apis-go-wrong-forgetting-the-i-stands-for-int,"When APIs Go Wrong: Forgetting the “I” Stands for “Interface” Not...",MicroServices
+https://dzone.com/articles/the-anatomy-of-a-microservice-java-at-warp-speed,"The Anatomy of a Microservice, Java at Warp Speed",MicroServices
+https://dzone.com/articles/what-is-a-microservice-architecture-why-is-it-impo,"What Is a Microservice Architecture? Why Is It Important Now?",MicroServices
+https://dzone.com/articles/how-to-build-better-infra-microservices-3-key-arch,"How to build better Infra Microservices?: 3 Key Architectural Guidelines",MicroServices
+https://dzone.com/articles/micro-frontends-benefits,"Micro-Frontend Benefits",MicroServices
+https://dzone.com/articles/micro-service-mini-service-and-macro-service,"Microservice, Miniservice, and Macroservice",MicroServices
+https://dzone.com/articles/game-of-microservices,"Game of Microservices",MicroServices
+https://dzone.com/articles/securing-grpc-microservices-with-istio-service-mes,"Securing gRPC Microservices With Istio Service Mesh",MicroServices
+https://dzone.com/articles/grpc-basics,"gRPC Basics",MicroServices
+https://dzone.com/articles/secure-spring-cloud-gateway-with-authentication-am,"Spring Web Flux UI with Spring Security",MicroServices
+https://dzone.com/articles/microservices-on-kubernetes-part-1-ide-amp-tools,"Microservices on Kubernetes Part 1 - IDE and Tools",MicroServices
+https://dzone.com/articles/grpc-client-and-bi-directional-streaming-with-ball,"gRPC Client and Bi-directional Streaming with Ballerina Swan Lake",MicroServices
+https://dzone.com/articles/rest-api-development-glossaries,"API Development - Glossaries",MicroServices
+https://dzone.com/articles/apis-only-rest,"APIs ≠ Only REST",MicroServices
+https://dzone.com/articles/how-to-develop-your-python-docker-applications-fas,"How to Develop Your Python Docker Applications Faster",MicroServices
+https://dzone.com/articles/grpc-basics-why-when-and-how,"gRPC Basics: Why, When, and How?",MicroServices
+https://dzone.com/articles/what-is-web-application-architecture,"What Is Web Application Architecture?",MicroServices
+https://dzone.com/articles/implementing-micro-services-architecture-for-build,"Monolithic Decomposition and Implementing Microservices Architecture",MicroServices
+https://dzone.com/articles/the-red-pill-of-microservices,"A Red Pill For (Micro)Services",MicroServices
+https://dzone.com/articles/building-scalable-systems,"Building Reactive Scalable Systems",MicroServices
+https://dzone.com/articles/microservices-and-data-management,"Microservices and Data Management",MicroServices
+https://dzone.com/articles/we-do-not-understand-the-internet,"Why Don’t We Understand the Internet?",MicroServices
+https://dzone.com/articles/explaining-microservices-and-service-mesh-with-ist,"Explaining Microservices and Service Mesh with Istio",MicroServices
+https://dzone.com/articles/how-to-manage-multi-cluster-kubernetes-with-operat,"How to Manage Multi-Cluster Kubernetes with Operators",MicroServices
+https://dzone.com/articles/building-a-secure-rest-api-with-openid-connect,"Building a Secure REST API with OpenID Connect",MicroServices
+https://dzone.com/articles/microprofile-opentracing-with-jaeger,"MicroProfile OpenTracing With Jaeger",MicroServices
+https://dzone.com/articles/spring-boot-application-with-kafka-elastic-search,"Spring Boot Application With Kafka, Elasticsearch, Redis With Enterprise...",MicroServices
+https://dzone.com/articles/cross-cutting-concerns-for-an-enterprise-applicati,"Cross-Cutting Concerns for An Enterprise Application",MicroServices
+https://dzone.com/articles/rsocket-in-cloud-native,"RSocket in Cloud Native",MicroServices
+https://dzone.com/articles/istio-16-improves-operability-simplicity,"Istio 1.6 Improves Operability and Enhances Simplicity",MicroServices
+https://dzone.com/articles/domain-driven-design-aggregate,"Understanding Aggregates in Domain-Driven Design",MicroServices
+https://dzone.com/articles/an-overview-of-health-check-patterns,"An Overview of Health Check Patterns",MicroServices
+https://dzone.com/articles/global-and-proeprty-configuration-in-mule4,"MuleSoft (Event-Based Process) With Enhanced Execution Engine",MicroServices
+https://dzone.com/articles/10-challenges-of-microservices-and-solutions-tips,"10 Challenges and Solutions for Microservices — Tips and Tricks",MicroServices
+https://dzone.com/articles/microservices-in-practice-deployment,"Microservices in Practice: Deployment Shouldn't Be an Afterthought",MicroServices
+https://dzone.com/articles/practical-microservices-development-patterns-sync,"Practical Microservices Development Patterns: Sync vs. Async",MicroServices
+https://dzone.com/articles/impact-of-covid-19-on-crypto-and-blockchain-paymen,"Impact of COVID-19 on Crypto and Blockchain Payments",MicroServices
+https://dzone.com/articles/microservices-must-have-communication-strategies,"Microservices: Must-Have Communication Strategies",MicroServices
+https://dzone.com/articles/spring-boot-micro-services-documentation-using-swa,"Spring Microservices RESTFul API Documentation With Swagger Part 1",MicroServices
+https://dzone.com/articles/getting-started-with-patch,"Getting Started with Patch Endpoint",MicroServices
+https://dzone.com/articles/sprint-boot-rest-mongo-db-poc,"Sprint Boot, REST, MongoDB POC",MicroServices
+https://dzone.com/articles/service-mesh-the-next-step-to-kubernetes-in-the-er,"Service Mesh: The Next Step to Kubernetes in the Era of Microservices",MicroServices
+https://dzone.com/articles/micro-services-implementation-tools-and-tech,"Microservices Implementation: Software Stacks and Concepts",MicroServices
+https://dzone.com/articles/quarkus-quickstart-deployment-for-the-hello-world,"Quarkus Quickstart - Deployment of The Hello-World App by Gradle Tasks",MicroServices
+https://dzone.com/articles/reactive-microservices-done-right,"Reactive Microservices Done Right!",MicroServices
+https://dzone.com/articles/-create-a-random-board-game-generator-using-micros,"Create a Random Board Game Generator Using Microservices on Heroku",MicroServices
+https://dzone.com/articles/quarkus-vs-spring-boot-performance,"Quarkus vs Spring Boot – Performance",MicroServices
+https://dzone.com/articles/the-challenges-of-using-microservices-in-software,"The Challenges of Using Microservices in Software Development",MicroServices
+https://dzone.com/articles/micronaut-quickstart-quothello-worldquot-deploymen,"Micronaut Quickstart - Deployment for The Hello-World App by Gradle Tasks",MicroServices
+https://dzone.com/articles/diving-into-reactive-microservices,"Diving Into Reactive Microservices",MicroServices
+https://dzone.com/articles/the-practical-difference-between-abstract-class-an,"The Practical Difference Between Abstract Class and Trait in Scala",MicroServices
+https://dzone.com/articles/11-patterns-to-secure-microservice-architectures,"11 Patterns to Secure Microservice Architectures",MicroServices
+https://dzone.com/articles/micro-services-implementation-using-spring-boot-an,"Microservices Implementation using (Spring Boot and Cloud)",MicroServices
+https://dzone.com/articles/how-to-design-a-robust-microservices-architecture,"How to Design a Robust Microservices Architecture: Top 4 Decisions",MicroServices
+https://dzone.com/articles/microservices-event-driven-architecture-and-kafka,"Microservices, Event-Driven Architecture and Kafka",MicroServices
+https://dzone.com/articles/ssl-based-feignclient-example-in-java-microcervice,"SSL-Based/Secured FeignClient Example in Java Microservices With Eureka",MicroServices
+https://dzone.com/articles/local-development-with-openshift-and-tilt,"Local Development With OpenShift and Tilt",MicroServices
+https://dzone.com/articles/tutorial-how-to-use-docker-volumes-to-code-faster,"How to Use Docker Volumes to Code Faster",MicroServices
+https://dzone.com/articles/what-are-the-real-time-examples-of-smoke-and-sanit,"What Are the Real-Time Examples of Smoke and Sanity Testing?",MicroServices
+https://dzone.com/articles/an-introduction-to-rsocket,"An Introduction to RSocket",MicroServices
+https://dzone.com/articles/first-look-at-apicurio-service-registry-ui-and-ope,"First Look at Apicurio Service Registry UI and Operator",MicroServices
+https://dzone.com/articles/handling-authentication-and-authorization-in-micro,"Handling Authentication and Authorization in Microservices",MicroServices
+https://dzone.com/articles/5-major-software-architecture-patterns,"5 Major Software Architecture Patterns",MicroServices
+https://dzone.com/articles/deploying-multiple-spring-boot-microservices-to-do,"Deploying Multiple Spring Boot Microservices to Docker",MicroServices
+https://dzone.com/articles/the-new-computer-machine,"From a Computation Machine to a Coordination Machine",MicroServices
+https://dzone.com/articles/akka-http-from-zero-to-heroku-in-10-minutes,"Akka HTTP From Zero to Heroku in 10 Minutes",MicroServices
+https://dzone.com/articles/apache-kafka-and-api-management-how-to-use-mulesof,"Apache Kafka and API Management — How to Use Mulesoft",MicroServices
+https://dzone.com/articles/running-axon-server-in-docker,"Running Axon Server in Docker",MicroServices
+https://dzone.com/articles/the-circuit-breaker-pattern-1,"The Circuit Breaker Pattern",MicroServices
+https://dzone.com/articles/vs-code-remote-development-with-docker-compose,"VS Code Remote Development With Docker Compose: Developing Services in...",MicroServices
+https://dzone.com/articles/production-grade-microservices-on-azure-aks-with-b,"Production-Grade Microservices on Azure AKS With Ballerina — Part 1: The...",MicroServices
+https://dzone.com/articles/time-to-step-up-your-microservices,"Time to Step up Your Microservices",MicroServices
+https://dzone.com/articles/a-guide-to-understanding-sidecar-deployment-with-i,"A Guide to Understanding Sidecar Deployment With Istio Service Mesh",MicroServices
+https://dzone.com/articles/using-apache-kafka-to-communicate-between-microser,"Using Apache Kafka to Communicate Between Microservices",MicroServices
+https://dzone.com/articles/running-axon-server-going-from-local-developer-ins,"Running Axon Server: From Local Install to Full-Featured Cluster in the...",MicroServices
+https://dzone.com/articles/build-deploy-and-monitor-an-express-application-on,"Kubernetes With Bitnami and Sentry",MicroServices
+https://dzone.com/articles/javacloud-how-to-quickly-create-a-kubernetes-ready,"Java/Cloud: How to Quickly Create a Kubernetes-Ready REST Microservice",MicroServices
+https://dzone.com/articles/asynchronous-programming-a-cautionary-tale,"Asynchronous Programming: A Cautionary Tale",MicroServices
+https://dzone.com/articles/thomas-jardinet-interview,"Author Spotlight: Thomas Jardinet",MicroServices
+https://dzone.com/articles/why-we-need-a-new-breed-of-hybrid-microservices-pl,"Why We Need a New Breed of Hybrid Microservices Platform",MicroServices
+https://dzone.com/articles/cicd-as-a-code-for-net-core-application-and-kubern,"CI/CD as a Code for .NET Core Application and Kubernetes",MicroServices
+https://dzone.com/articles/build-pragmatic-microservices-avoid-building-mini,"Build Pragmatic Microservices — Avoid Building Mini Monoliths",MicroServices
+https://dzone.com/articles/developing-spring-boot-applications-with-in-memory,"Developing Spring Boot Applications with In-Memory Database",MicroServices
+https://dzone.com/articles/from-docker-compose-to-kubernetes,"From Docker Compose to Kubernetes",MicroServices
+https://dzone.com/articles/dont-do-microservices-if-you-can,"Don't Do Microservices If You Can",MicroServices
+https://dzone.com/articles/openshift-and-aws-lambda-deployment-with-quarkus,"Openshift and AWS Lambda Deployment With Quarkus",MicroServices
+https://dzone.com/articles/quickly-deploy-rest-microservice-in-kubernetes,"Quickly Deploy REST Microservice in Kubernetes",MicroServices
+https://dzone.com/articles/packaging-microservices,"Packaging Microservices",MicroServices
+https://dzone.com/articles/five-questions-everyone-is-asking-about-microservi-4,"Five Questions Everyone Is Asking About Microservices (Part 5)",MicroServices
+https://dzone.com/articles/5-questions-everyones-asking-about-microservices-p,"Five Questions Everyone Is Asking About Microservices (Part 1)",MicroServices
+https://dzone.com/articles/micro-services-service-mesh-at-a-glance,"Microservices and Service Mesh at A Glance",MicroServices
+https://dzone.com/articles/a-new-era-of-spring-cloud,"A New Era Of Spring Cloud",MicroServices
+https://dzone.com/articles/running-kotlin-microservice-on-google-kubernetes-e,"Running Kotlin Microservice on Google Kubernetes Engine",MicroServices
+https://dzone.com/articles/tutorial-deploy-more-complex-microservice-apps-usi,"Deploy More Complex Microservice Apps Using Platform9 Managed Kubernetes...",MicroServices
+https://dzone.com/articles/microservices-and-the-new-holy-grail-of-scalabilit,"Microservices and the New Holy Grail of Scalability",MicroServices
+https://dzone.com/articles/microservices-a-mere-hype-or-the-future-of-software-development,"Microservices: A Mere Hype or the Future of Software Development?",MicroServices
+https://dzone.com/articles/things-i-have-learned-adopting-a-microservice-strategy-part-2,"Things I Have Learned Adopting a Microservice Strategy (Part 2)",MicroServices
+https://dzone.com/articles/efficient-enterprise-microservice-governance,"3 Keys to Efficient Enterprise Microservices Governance",MicroServices
+https://dzone.com/articles/rate-limited-on-enroute-envoy-proxy,"Getting Started With Advanced Rate-Limiting on Enroute Universal Gateway...",MicroServices
+https://dzone.com/articles/building-dynamic-ui-form-with-oracle-jet,"Building Dynamic UI Form With Oracle JET",MicroServices
+https://dzone.com/articles/monitoring-microservices-a-5-step-guide,"Monitoring Microservices: A 5-Step Guide",MicroServices
+https://dzone.com/articles/working-with-data-in-microservices,"Working With Data in Microservices",MicroServices
+https://dzone.com/articles/comparing-synchronous-and-asynchronous-access-to-p-1,"Comparing Synchronous and Asynchronous Access to Postgres",MicroServices
+https://dzone.com/articles/multi-module-monolithic-as-microservice,"Multi-Module Monolithic as Microservice",MicroServices
+https://dzone.com/articles/creating-camel-3-cdi-microservices,"Creating Camel 3 CDI Microservices",MicroServices
+https://dzone.com/articles/how-to-access-sensitive-and-regulated-data-through,"How to Access Sensitive and Regulated Data Through Microservices and APIs",MicroServices
+https://dzone.com/articles/java-microservice-async-rest-client-to-dynamodb-us,"Microservice: Async Rest Client to DynamoDB using Spring Boot",MicroServices
+https://dzone.com/articles/the-migration-path-to-microservices-amp-security-c,"The Migration Path To Microservices and Security Considerations",MicroServices
+https://dzone.com/articles/network-function-softwarization-microservices-and,"Network Function Softwarization: Microservices and Disaggregation",MicroServices
+https://dzone.com/articles/springboot-for-microservices-the-new-age-framework,"Spring Boot for Microservices: The New Age Framework for Your Apps",MicroServices
+https://dzone.com/articles/developing-reactive-microservices-with-spring-data,"Developing Reactive Microservices With Spring Data and Distributed SQL",MicroServices
+https://dzone.com/articles/things-i-have-learned-adopting-a-microservice-stra,"Things I Have Learned Adopting a Microservice Strategy (Part 1)",MicroServices
+https://dzone.com/articles/spring2quarkus-spring-boot-to-quarkus-migration,"Spring2quarkus — Spring Boot to Quarkus Migration",MicroServices
+https://dzone.com/articles/gateway-mesh,"Where Is My API Gateway?",MicroServices
+https://dzone.com/articles/how-to-graphql-in-kotlin-and-micronaut,"Create a Single Microservices Endpoint With GraphQL, Kotlin, and Micronaut",MicroServices
+https://dzone.com/articles/microservice-messaging-the-event-that-changed-ever,"Microservice Messaging: The Event That Changed Everything",MicroServices
+https://dzone.com/articles/spring-boot-microservice-jaxrs-jersey-hateoas-jers,"Spring Boot - Microservice- JaxRS Jersey - HATEOAS - JerseyTest -...",MicroServices
+https://dzone.com/articles/building-microservices-with-micronaut-1,"Building Microservices With Micronaut",MicroServices
+https://dzone.com/articles/microservices-integration-aggregators,"Microservices Integration Aggregators",MicroServices
+https://dzone.com/articles/-preaching-the-api-gospel-an-interview-with-the-ap,"Preaching the API Gospel: An Interview With the API Evangelist, Kin Lane of...",MicroServices
+https://dzone.com/articles/the-anatomy-of-a-microservice-one-service-multiple,"The Anatomy of a Microservice, One Service, Multiple Servers",MicroServices
+https://dzone.com/articles/why-grpc-for-inter-microservice-communication,"Why gRPC for Inter-Microservice Communication",MicroServices
+https://dzone.com/articles/the-dark-side-of-microservices,"The Dark Side of Microservices",MicroServices
+https://dzone.com/articles/building-microservices-with-oracle-helidon,"Building Microservices With Oracle Helidon",MicroServices
+https://dzone.com/articles/effective-microservices-cicd-with-github-actions-a,"Effective Microservices CI/CD With GitHub Actions and Ballerina",MicroServices
+https://dzone.com/articles/building-microservices-with-wildfly-swarm,"Building Microservices With Wildfly Swarm",MicroServices
+https://dzone.com/articles/building-microservices-with-red-hat-quarkus,"Building Microservices With Red Hat Quarkus",MicroServices
+https://dzone.com/articles/programming-microservices-communication-with-istio,"Programming Microservices Communication With Istio [Screencast]",MicroServices
+https://dzone.com/articles/programming-microservices-communication-with-istio-state,"Programming Microservices Communication With Istio",MicroServices
+https://dzone.com/articles/understanding-microservices-choreography-using-rab,"Understanding Microservices Choreography Using RabbitMQ and Node.js",MicroServices
+https://dzone.com/articles/incorporating-fault-tolerance-into-your-microservi,"Incorporating Fault-Tolerance Into Your Microservice Architecture",MicroServices
+https://dzone.com/articles/building-mancala-game-in-microservices-using-sprin-1,"Building Mancala Game in Microservices Using Spring Boot (Part 3: Web...",MicroServices
+https://dzone.com/articles/building-mancala-game-in-microservices-using-sprin-2,"Building Mancala Game in Microservices Using Spring Boot (Part 4: Testing)",MicroServices
+https://dzone.com/articles/building-mancala-game-in-microservices-using-sprin,"Building Mancala Game in Microservices Using Spring Boot (Part 2: Mancala...",MicroServices
+https://dzone.com/articles/mancala-game-implementation-using-microservices-ap,"Building Mancala Game in Microservices Using Spring Boot (Part 1: Solution...",MicroServices
+https://dzone.com/articles/securing-spring-boot-microservices-with-json-web-t,"Securing Spring Boot Microservices with JSON Web Tokens (JWT)",MicroServices
+https://dzone.com/articles/how-do-you-learn-what-makes-you-more-effective-tak,"How Do You Learn? What Makes You More Effective? Take Our Survey!",MicroServices
+https://dzone.com/articles/docker-with-spring-boot-and-mysql-docker-swarm-par,"Docker With Spring Boot and MySQL: Docker Swarm Part 3",MicroServices
+https://dzone.com/articles/the-anatomy-of-a-microservice-satisfying-the-inter,"The Anatomy of a Microservice, Satisfying the Interface",MicroServices
+https://dzone.com/articles/creating-a-microservice-with-quarkus-kotlin-and-gr,"Creating a Microservice With Quarkus, Kotlin, and Gradle",MicroServices
+https://dzone.com/articles/reactive-messaging-examples-for-quarkus,"Reactive Messaging Examples for Quarkus",MicroServices
+https://dzone.com/articles/microservices-architecture-what-when-how,"Microservices Architecture: What, When, and How",MicroServices
+https://dzone.com/articles/the-top-3-service-mesh-developments-in-2020,"The Top 3 Service Mesh Developments in 2020",MicroServices
+https://dzone.com/articles/building-microservices-through-event-driven-archit-6,"Building Microservices Through Event-Driven Architecture, Part 8",MicroServices
+https://dzone.com/articles/-kong-api-platform-for-multi-cloud-and-hybrid-orga,"Kong API Platform for Multi-Cloud and Hybrid Organizations",MicroServices
+https://dzone.com/articles/using-requestscope-with-your-api,"Using @RequestScope With Your API",MicroServices
+https://dzone.com/articles/stop-changing-my-toolbox,"Stop Changing My Toolbox!",MicroServices
+https://dzone.com/articles/the-anatomy-of-a-microservice-defining-the-domain,"The Anatomy of a Microservice, Defining the Domain",MicroServices
+https://dzone.com/articles/are-you-doing-this-with-your-api,"Are You Doing This With Your API?",MicroServices
+https://dzone.com/articles/istio-as-an-example-of-when-not-to-do-microservice,"Istio as an Example of When Not to Do Microservices",MicroServices
+https://dzone.com/articles/spring-boot-microservice-spring-data-rest-and-hate,"Spring Boot - Microservice - Spring Data REST and HATEOAS Integration",MicroServices
+https://dzone.com/articles/a-way-around-cache-eviction,"A Way Around Cache Eviction",MicroServices
+https://dzone.com/articles/avoiding-pitfalls-when-doing-microservices,"Avoiding Pitfalls When Doing Microservices",MicroServices
+https://dzone.com/articles/what-is-a-microservices-architecture,"What Is a Microservices Architecture?",MicroServices
+https://dzone.com/articles/improving-microservices-reliability-with-the-two-p,"Improving Microservices Reliability With Two-Phase Commit",MicroServices
+https://dzone.com/articles/microservice-definition-and-architecture,"Microservice Definition and Architecture",MicroServices
+https://dzone.com/articles/microservices-under-the-microscope,"Microservices Under the Microscope",MicroServices
+https://dzone.com/articles/spring-cloud-kubernetes-for-hybrid-microservices-a,"Spring Cloud Kubernetes For Hybrid Microservices Architecture",MicroServices
+https://dzone.com/articles/how-redis-fits-with-a-microservices-architecture-r,"How Redis Fits With a Microservices Architecture",MicroServices
+https://dzone.com/articles/how-microservices-enable-multi-cloud-at-the-expens,"How Microservices Enable Multi-Cloud at the Expense of Developers",MicroServices
+https://dzone.com/articles/how-to-design-an-optimal-microservice-architecture,"How to Design an Optimal Microservice Architecture",MicroServices
+https://dzone.com/articles/breaking-the-monolith,"Breaking the Monolith",MicroServices
+https://dzone.com/articles/microservices-are-not-the-new-black,"Microservices Are (Not) the New Black!",MicroServices
+https://dzone.com/articles/spring-boot-best-practices-for-microservices,"Spring Boot Best Practices for Microservices",MicroServices
+https://dzone.com/articles/how-to-build-a-microservices-architecture-with-nod,"How to Build a Microservices Architecture With Node.Js to Achieve Scale?",MicroServices
+https://dzone.com/articles/kubernetes-benefits-microservices-architecture-for,"Kubernetes: Benefits of Microservices Architecture for Large Enterprises",MicroServices
+https://dzone.com/articles/three-strategies-for-managing-apis-and-the-edge-wi,"Three Strategies for Managing APIs and the Edge With Kubernetes",MicroServices
+https://dzone.com/articles/conquering-highest-scalability-of-an-enterprise-ch,"Conquering Highest Scalability of an Enterprise Chat Application Using...",MicroServices
+https://dzone.com/articles/create-your-own-map-image-microservice,"Create Your Own Map Image Microservice",MicroServices
+https://dzone.com/articles/helidon-microservice-health-check,"Helidon: Microservice Health Check",MicroServices
+https://dzone.com/articles/the-real-difference-between-microservices-vs-soa-v,"The Real Difference Between Microservices vs SOA vs API Explained",MicroServices
+https://dzone.com/articles/microservices-with-spring-boot-spring-cloud-gatewa,"Microservices With Spring Boot, Spring Cloud Gateway and Consul Cluster",MicroServices
+https://dzone.com/articles/the-truth-about-your-source-of-truth,"The Truth About Your “Source of Truth”",MicroServices
+https://dzone.com/articles/how-and-when-to-use-microservices-and-serverless-c,"How and When to Use Microservices and Serverless Computing...and When Not...",MicroServices
+https://dzone.com/articles/what-is-a-service-mesh-and-why-do-you-need-one,"What Is a Service Mesh, and Why Do You Need One?",MicroServices
+https://dzone.com/articles/avoid-reloading-application-context-on-unit-tests,"Avoid Reloading Application Context on Unit Tests",MicroServices
+https://dzone.com/articles/building-microservices-through-event-driven-archit-5,"Building Microservices Through Event-Driven Architecture, Part 7:...",MicroServices
+https://dzone.com/articles/breaking-down-a-monolith-into-microservices-an-int,"Breaking Down a Monolith Into Microservices — an Integration Journey",MicroServices
+https://dzone.com/articles/publishsubscribe-logging-options,"Publish/Subscribe Logging Options",MicroServices
+https://dzone.com/articles/building-microservices-through-event-driven-archit-4,"Building Microservices Through Event-Driven Architecture, Part 6:...",MicroServices
+https://dzone.com/articles/microservices-integration-patterns-saga-pattern,"Microservice Integration — SAGA Pattern",MicroServices
+https://dzone.com/articles/helidon-2x-productivity-with-microprofile-rest-cli,"Helidon: 2x Productivity With Microprofile REST Client",MicroServices
+https://dzone.com/articles/build-microservices-with-helidon,"Build Microservices With Helidon",MicroServices
+https://dzone.com/articles/building-microservices-through-event-driven-archit-3,"Building Microservices Through Event-Driven Architecture, Part 5:...",MicroServices
+https://dzone.com/articles/windows-commands-and-powershell-scripts-as-api-mic,"Windows Commands and PowerShell Scripts as API Microservices",MicroServices
+https://dzone.com/articles/using-microservices-and-machine-learning-k-means-c,"Clustering Algorithms to Build a Smart Monitoring Tool With Machine...",MicroServices
+https://dzone.com/articles/building-microservices-through-event-driven-archit-2,"Building Microservices Through Event-Driven Architecture, Part 4:...",MicroServices
+https://dzone.com/articles/building-microservices-through-event-driven-archit-1,"Building Microservices Through Event-Driven Architecture, Part 3:...",MicroServices
+https://dzone.com/articles/stream-deduplication-with-hazelcast-jet,"Stream Deduplication With Hazelcast Jet",MicroServices
+https://dzone.com/articles/microservices-with-undertow-dependency-injection,"Microservices With Undertow: Dependency Injection",MicroServices
+https://dzone.com/articles/using-new-spring-cloud-load-balancer-in-microservi,"Using New Spring Cloud Load Balancer In Microservices Communication",MicroServices
+https://dzone.com/articles/voxxed-days-milan-2020-open-career-microservice-qu,"Voxxed Days Microservices Milan 2020 — Open Career, Microservice Questions,...",MicroServices
+https://dzone.com/articles/low-code-and-microservices,"Low-Code and Microservices",MicroServices
+https://dzone.com/articles/aspnet-core-microservices-getting-started,"ASP.NET Core Microservices: Getting Started",MicroServices
+https://dzone.com/articles/microservices-in-publish-subscribe-communication-u,"Microservices in Publish-Subscribe Communication Using Apache Kafka",MicroServices
+https://dzone.com/articles/migrating-to-microservices-its-easier-than-you-thi,"Migrating to Microservices — It's Easier Than You Think",MicroServices
+https://dzone.com/articles/navigating-the-microservice-deathstar-with-deployh,"Navigating the Microservice DeathStar With DeployHub",MicroServices
+https://dzone.com/articles/identity-microservices-and-service-meshes,"Identity, Microservices and Service Meshes",MicroServices
+https://dzone.com/articles/avoid-clustering-of-microservices-instances,"Avoid Clustering of Microservice Instances",MicroServices
+https://dzone.com/articles/the-two-most-important-challenges-with-an-api-gate,"The Two Most Important Challenges With an API Gateway When Adopting...",MicroServices
+https://dzone.com/articles/apache-kafka-streamline-communication-across-your,"Apache Kafka: Streamline Communication Across Your Microservices",MicroServices
+https://dzone.com/articles/using-coredns-to-conceal-network-identities-of-ser,"Using CoreDNS to Conceal Network Identities of Services in Istio",MicroServices
+https://dzone.com/articles/deep-systems-and-microservices,"Deep Systems and Microservices",MicroServices
+https://dzone.com/articles/writing-about-microservices-prompts,"Writing About Microservices [Prompts]",MicroServices
+https://dzone.com/articles/monitor-your-microservices-architecture-with-the-e,"Monitor Your Microservices Architecture With the Elastic Stack",MicroServices
+https://dzone.com/articles/circuit-breaker-design-pattern-using-netflix-hystr,"Circuit Breaker Design Pattern Using Netflix Hystrix",MicroServices
+https://dzone.com/articles/why-are-microservices-the-key-to-your-digital-tran,"Why Are Microservices the Key to Your Digital Transformation Journey?",MicroServices
+https://dzone.com/articles/executive-insights-on-migrating-to-microservices,"TechTalks With Tom Smith: Executive Insights on Migrating to Microservices",MicroServices
+https://dzone.com/articles/executive-insights-on-kubernetes-in-the-enterprise,"TechTalks With Tom Smith: Executive Insights on Kubernetes in the...",MicroServices
+https://dzone.com/articles/zombie-bots-are-killing-rpa-roi,"Zombie Bots Are Killing RPA ROI",MicroServices
+https://dzone.com/articles/modernizing-monolith-to-microservices,"Modernizing Monolith to Microservices",MicroServices
+https://dzone.com/articles/are-you-sure-youre-using-microservices,"Are You Sure You’re Using Microservices?",MicroServices
+https://dzone.com/articles/microservices-and-kafka-part-one,"Microservices and Kafka (Part One)",MicroServices
+https://dzone.com/articles/challenges-of-adopting-service-mesh-in-enterprise,"Challenges of Adopting Service Mesh in Enterprise Organizations",MicroServices
+https://dzone.com/articles/7-microservices-architecture-books-every-devops-en,"7 Microservices Architecture Books Every DevOps Enthusiast Must Read",MicroServices
+https://dzone.com/articles/java-microservices-tutorials-and-articles,"Java Microservices [Tutorials and Articles]",MicroServices
+https://dzone.com/articles/simple-event-driven-microservices-with-spring-clou,"Simple Event-Driven Microservices With Spring Cloud Stream",MicroServices
+https://dzone.com/articles/implementing-the-outbox-pattern,"Implementing the Outbox Pattern",MicroServices
+https://dzone.com/articles/business-impact-before-and-after-microservice-base,"Business Impact: Before and After Microservice-Based APIs",MicroServices
+https://dzone.com/articles/api-vs-microservices-a-microservice-is-more-than-j,"API vs. Microservices: A Microservice Is More Than Just an API",MicroServices
+https://dzone.com/articles/microservices-in-practice-1,"Microservices in Practice: From Architecture to Deployment",MicroServices
+https://dzone.com/articles/art-of-breaking-a-monolith-to-microservices,"Art Of Breaking A Monolith To Microservices",MicroServices
+https://dzone.com/articles/benefits-of-kubernetes-for-microservices-architect,"Benefits of Kubernetes for Microservices Architecture",MicroServices
+https://dzone.com/articles/how-to-deploy-your-microservices-under-kubernetes,"How to Deploy Your Microservices Under Kubernetes With Gravitee and...",MicroServices
+https://dzone.com/articles/building-a-microservices-architecture-with-nats,"Building a Microservices Architecture With NATS",MicroServices
+https://dzone.com/articles/three-pitfalls-everyone-ignores-with-microservices,"Three Pitfalls Everyone Ignores With Microservices [Video]",MicroServices
+https://dzone.com/articles/building-microservices-in-osgi-with-the-apache-kar,"Building Microservices in OSGi With the Apache Karaf Framework",MicroServices
+https://dzone.com/articles/microservice-observability-part-1-disambiguating-o,"Microservice Observability, Part 1: Disambiguating Observability and...",MicroServices
+https://dzone.com/articles/five-best-soa-and-microservice-courses-for-program,"Five Best SOA and Microservice Courses for Programmers",MicroServices
+https://dzone.com/articles/designing-fault-tolerant-microservices-with-toxipr,"Designing Fault-Tolerant Microservices With Toxiproxy and Cucumber",MicroServices
+https://dzone.com/articles/estimating-rois-to-a-microservices-migration,"Estimating ROIs to a Microservices Migration",MicroServices
+https://dzone.com/articles/elastic-kubernetes-service-eks-observability-with,"Elastic Kubernetes Service (EKS) Observability With Istio Service Mesh",MicroServices
+https://dzone.com/articles/bring-your-net-monolithic-applications-back-from-t,"Bring Your Monolithic Applications Back From the Dead",MicroServices
+https://dzone.com/articles/jms-contract-testing-vaunt,"JMS Contract Testing Using Vaunt",MicroServices
+https://dzone.com/articles/four-pillars-of-microservices-adoption-process-par,"Four Pillars of Microservices Adoption — Process (Part 1)",MicroServices
+https://dzone.com/articles/microservices-why-is-it-rapidly-gaining-popularity,"Microservices — Why Is It Rapidly Gaining Popularity Now?",MicroServices
+https://dzone.com/articles/right-strategies-for-microservices-deployment,"Right Strategies for Microservices Deployment",MicroServices
+https://dzone.com/articles/path-to-application-modernization,"The Path to Application Modernization",MicroServices
+https://dzone.com/articles/how-restql-v3-can-make-your-microservice-architect,"How RestQL V3 Can Make Your Microservice Architecture More Efficient",MicroServices
+https://dzone.com/articles/service-mesh-and-cloud-native-microservices-with-a,"Service Mesh and Cloud-Native Microservices",MicroServices
+https://dzone.com/articles/quick-walk-through-to-develop-micro-services-using,"Quick Walk-Through to Develop Micro-Services Using .Net Core 2.X",MicroServices
+https://dzone.com/articles/where-is-my-cache-architectural-patterns-for-cachi,"Where Is My Cache? Architectural Patterns for Caching Microservices",MicroServices
+https://dzone.com/articles/microservices-in-the-cloud-part-two,"Microservices in the Cloud, Part Two",MicroServices
+https://dzone.com/articles/rsocket-with-spring-boot-amp-js-zero-to-hero,"RSocket With Spring Boot + JS: Zero to Hero",MicroServices
+https://dzone.com/articles/micro-services-using-net-core-2x-with-c-and-docker,"Microservices Using .Net Core 2.X With C# and Docker",MicroServices
+https://dzone.com/articles/voxxed-days-microservices-2019-bernd-ruumlcker-on,"Voxxed Days Microservices 2019: Bernd Rucker on “Complex Event Flows in...",MicroServices
+https://dzone.com/articles/chaos-engineering-in-organic-microservice-architec,"Chaos Engineering in Organic Microservice Architectures",MicroServices
+https://dzone.com/articles/reactive-service-to-service-communication-with-rso-3,"Reactive Service to Service Communication With RSocket (Part 3):...",MicroServices
+https://dzone.com/articles/who-runs-microservices-devops,"Who Runs Microservices? DevOps",MicroServices
+https://dzone.com/articles/intuitive-universal-control-plane-for-service-mesh,"Intuitive Universal Control Plane for Service Mesh Based on Envoy",MicroServices
+https://dzone.com/articles/microservices-with-nodejs-scalable-superior-and-se,"Microservices With Node.js: Scalable, Superior, and Secure Apps",MicroServices
+https://dzone.com/articles/migrating-to-microservices-additional-consideratio,"TechTalks With Tom Smith: Migrating to Microservices, Additional...",MicroServices
+https://dzone.com/articles/what-developers-need-to-know-about-migrating-micro,"TechTalks With Tom Smith: What Developers Need to Know About Migrating...",MicroServices
+https://dzone.com/articles/spring-boot-microservices-2,"Spring Boot Microservices: Small Services, Big Results [Tutorials and...",MicroServices
+https://dzone.com/articles/issues-in-migrating-to-microservices,"TechTalks With Tom Smith: Issues in Migrating to Microservices",MicroServices
+https://dzone.com/articles/concerns-when-migrating-to-microservices,"TechTalks With Tom Smith: Concerns When Migrating to Microservices",MicroServices
+https://dzone.com/articles/the-future-of-microservices-migration,"TechTalks With Tom Smith: The Future of Microservices Migration",MicroServices
+https://dzone.com/articles/validate-your-microservices-with-microprofile-and,"Validate Your Microservices With MicroProfile and Bean Validation",MicroServices
+https://dzone.com/articles/microservices-migration-use-cases,"TechTalks With Tom Smith: Microservices Migration Use Cases",MicroServices
+https://dzone.com/articles/how-microservices-have-changed-the-migration-of-le,"TechTalks With Tom Smith: How Microservices Have Changed the Migration of...",MicroServices
+https://dzone.com/articles/keys-to-migrating-legacy-apps-to-microservices,"TechTalks With Tom Smith: Keys to Migrating Legacy Apps to Microservices",MicroServices
+https://dzone.com/articles/best-practices-for-event-driven-microservice-archi,"Best Practices for Event-Driven Microservice Architecture",MicroServices
+https://dzone.com/articles/exposing-microservices-in-kubernetes-clusters,"Exposing Microservices in Kubernetes Clusters",MicroServices
+https://dzone.com/articles/microservices-in-the-cloud-part-one,"Microservices in the Cloud, Part One",MicroServices
+https://dzone.com/articles/kubernetes-and-security,"TechTalks With Tom Smith: Kubernetes and Microservices Security",MicroServices
+https://dzone.com/articles/what-devs-need-to-know-about-kubernetes,"TechTalks With Tom Smith: What Devs Need to Know About Kubernetes",MicroServices
+https://dzone.com/articles/automation-testing-in-microservices,"Automation Testing in Microservices",MicroServices
+https://dzone.com/articles/contract-testing-in-hl-tech-with-judge-dredd-part,"Contract Testing in HL Tech With Judge Dredd, Part 2",MicroServices
+https://dzone.com/articles/learn-how-to-use-php-to-create-microservices,"Learn How to Use PHP to Create Microservices",MicroServices
+https://dzone.com/articles/kubernetes-use-cases,"TechTalks With Tom Smith: Kubernetes Use Cases",MicroServices
+https://dzone.com/articles/quick-guide-to-microservices-with-quarkus-on-opens,"Quick Guide to Microservices With Quarkus on Openshift",MicroServices
+https://dzone.com/articles/event-sourcing-microservices-and-deploying-with-do,"Event Sourcing Microservices and Deploying With Docker",MicroServices
+https://dzone.com/articles/how-kubernetes-changed-container-management,"How Kubernetes Changed Container Management",MicroServices
+https://dzone.com/articles/how-to-manage-agile-teams-with-microservices,"How to Manage Agile Teams With Microservices",MicroServices
+https://dzone.com/articles/voxxed-days-1,"Voxxed Days Microservices: Hugh Mckee on “the Evolution From Monolith to...",MicroServices
+https://dzone.com/articles/microservice-boundaries,"Microservice Boundaries",MicroServices
+https://dzone.com/articles/voxxed-days-microservices-guillaume-laforge-on-clo,"Voxxed Days Microservices: Guillaume Laforge on “Cloud Run, Serverless...",MicroServices
+https://dzone.com/articles/top-5-solutions-for-optimal-dft-in-microservices,"Top Five Solutions for Optimal DFT in Microservices",MicroServices
+https://dzone.com/articles/best-of-toms-tech-notes-season-1-podcast,"Best of Tom's Tech Notes (Season 1) [Podcast]",MicroServices
+https://dzone.com/articles/how-anti-patterns-can-constrain-microservices-adop,"How Anti-Patterns Can Constrain Microservices Adoption",MicroServices
+https://dzone.com/articles/everything-you-need-to-know-about-socketio,"Everything You Need To Know About Socket.IO",MicroServices
+https://dzone.com/articles/voxxed-days-microservices-katherine-stanley-on-cre,"Voxxed Days Microservices: Katherine Stanley on “Creating Event-Driven...",MicroServices
+https://dzone.com/articles/scaling-microservices-understanding-and-implementi,"Scaling Microservices — Understanding and Implementing Cache",MicroServices
+https://dzone.com/articles/microservices-enablers-devops-and-identity,"Microservices Enablers: DevOps and Identity",MicroServices
+https://dzone.com/articles/allard-buijze-on-event-driven-microservices-the-se,"Allard Buijze on “Event-Driven Microservices, the Sense, the Non-Sense and...",MicroServices
+https://dzone.com/articles/dropwizard-microservice-deployment-on-google-cloud,"Dropwizard Microservice Deployment on Google Cloud Kubernetes Engine With...",MicroServices
+https://dzone.com/articles/hybrid-microservices-an-insight,"Hybrid Microservices — An Insight",MicroServices
+https://dzone.com/articles/prometheus-monitoring-for-microservices-using-tibc,"Prometheus Monitoring for Microservices Using TIBCO",MicroServices
+https://dzone.com/articles/docker-containers-and-ibm-db2-warehouse-an-introdu,"Docker Containers and IBM DB2 Warehouse — An Introduction",MicroServices
+https://dzone.com/articles/building-a-java-cloud-native-spring-microservice-a,"Building a Java Cloud-Native Spring Microservice Application on Azure, Part...",MicroServices
+https://dzone.com/articles/persistence-in-event-driven-architectures,"Persistence in Event Driven Architectures",MicroServices
+https://dzone.com/articles/deploying-microprofile-microservices-with-tekton,"Deploying MicroProfile Microservices With Tekton",MicroServices
+https://dzone.com/articles/planning-for-isv-growth-with-microservices,"Planning For ISV Growth With Microservices",MicroServices
+https://dzone.com/articles/microservice-architecture-nfr-considerations,"Microservice Architecture NFR Considerations",MicroServices
+https://dzone.com/articles/reactive-service-to-service-communication-with-rso-2,"Reactive Service-To-Service Communication With RSocket (Part 2): Load...",MicroServices
+https://dzone.com/articles/microservice-architecture-on-kubernetes,"Microservice Architecture on Kubernetes",MicroServices
+https://dzone.com/articles/event-driven-microservices-with-spring-boot-and-ac,"Event-Driven Microservices With Spring Boot and ActiveMQ",MicroServices
+https://dzone.com/articles/managing-microservices-with-a-service-mesh-data-vs,"Managing Microservices With a Service Mesh: Data vs. Control Plane",MicroServices
+https://dzone.com/articles/improving-microservices-weighing-service-mesh-opti,"Improving Microservices: Weighing Service Mesh Options and Benefits",MicroServices
+https://dzone.com/articles/how-to-photograph-a-black-hole-observing-microserv,"How to Photograph a Black Hole — Observing Microservices With OpenTelemetry",MicroServices
+https://dzone.com/articles/verifying-service-mesh-tls-in-kubernetes-using-ksn,"Verifying Service Mesh TLS in Kubernetes, Using Ksniff and Wireshark",MicroServices
+https://dzone.com/articles/introduction-to-service-meshes-on-kubernetes-and-p,"Introduction to Service Meshes on Kubernetes and Progressive Delivery",MicroServices
+https://dzone.com/articles/voxxed-days-microservices-erez-berkner-on-monitori,"Voxxed Days Microservices: Erez Berkner on “Monitoring in the Microservices...",MicroServices
+https://dzone.com/articles/voxxed-days-microservices-chris-bailey-on-jakarta,"Voxxed Days Microservices: Chris Bailey on “Jakarta EE — Not Just for...",MicroServices
+https://dzone.com/articles/voxxed-days-microservices-phil-hardwick-on-pact-te,"Voxxed Days Microservices: Phil Hardwick on “Pact Tests — How We Split up...",MicroServices
+https://dzone.com/articles/kafka-in-microservices-with-micronaut,"Kafka In Microservices With Micronaut",MicroServices
+https://dzone.com/articles/voxxed-days-microservices-david-schmitz-on-event-s,"Voxxed Days Microservices: David Schmitz on “Event Sourcing – You Are Doing...",MicroServices
+https://dzone.com/articles/extending-spring-boots-zuul-proxy-to-record-reques,"Extending Spring Boot's Zuul Proxy to Record Requests and Responses",MicroServices
+https://dzone.com/articles/voxxed-days-microservices-roberto-cortez-on-graalv,"Voxxed Days Microservices: Roberto Cortez on “GraalVM and Microprofile: A...",MicroServices
+https://dzone.com/articles/implementing-serverless-microservices-architecture,"Implementing Serverless Microservices Architecture on AWS",MicroServices
+https://dzone.com/articles/managing-canary-release-of-microservice-applicatio,"Managing Canary Release of Microservice Application on Kubernetes With...",MicroServices
+https://dzone.com/articles/how-to-develop-open-liberty-microservices-on-opens,"How to Develop Open Liberty Microservices on OpenShift",MicroServices
+https://dzone.com/articles/voxxed-days-microservices-darya-talanina-on-lookin,"Voxxed Days Microservices: Darya Talanina on “Looking Back on Migrating 30...",MicroServices
+https://dzone.com/articles/microservices-for-modern-commerce-defining-the-m-i,"Microservices for Modern Commerce: Defining the “M” in Commercetools Mach...",MicroServices
+https://dzone.com/articles/in-the-beginning-there-is-architecture-well-maybe,"In the Beginning, There Is Architecture— Well Maybe",MicroServices
+https://dzone.com/articles/emmanuel-bernard-on-quarkus-why-how-and-what,"Voxxed Days Microservices: Emmanuel Bernard on “Quarkus Why, How, and What”",MicroServices
+https://dzone.com/articles/nate-schutta-on-quotresponsible-microservicesquot,"Voxxed Days Microservices: Nate Schutta on ''Responsible Microservices''",MicroServices
+https://dzone.com/articles/design-patterns-for-microservices-1,"Design Patterns for Microservices",MicroServices
+https://dzone.com/articles/five-reasons-to-use-an-internal-api-hub-for-micros,"Five Reasons To Use an Internal API Hub for Microservices",MicroServices
+https://dzone.com/articles/why-proxies-are-important-for-microservices,"Why Proxies Are Important for Microservices",MicroServices
+https://dzone.com/articles/alain-regnier-on-microservices-and-kubernetes-voxx,"Voxxed Days Microservices: Alain Regnier on Microservices and Kubernetes",MicroServices
+https://dzone.com/articles/preventing-systemic-failure-in-microservices-with-1,"Preventing Systemic Failure in Microservices With Circuit Breaking (Part 2)",MicroServices
+https://dzone.com/articles/build-a-microservices-architecture-with-spring-boo,"Build a Microservices Architecture With Spring Boot and Spring Cloud Config...",MicroServices
+https://dzone.com/articles/reactive-service-to-service-communication-with-rso-1,"Reactive Service-to-Service Communication With RSocket (Part 1)",MicroServices
+https://dzone.com/articles/microservice-architecture-and-design-patterns-for,"Microservice Architecture and Design Patterns for Microservices",MicroServices
+https://dzone.com/articles/detect-remediate-and-control-complex-emergent-beha,"Detect, Remediate, and Control Complex Emergent Behaviors in Organic...",MicroServices
+https://dzone.com/articles/evolving-integration-strategy-at-major-canadian-ba-3,"Evolving Integration Strategy at Major Canadian Bank, Part 3",MicroServices
+https://dzone.com/articles/3-popular-frameworks-to-build-microservices,"Three Popular Frameworks to Build Microservices",MicroServices
+https://dzone.com/articles/evolving-integration-strategy-at-major-canadian-ba-4,"Evolving Integration Strategy at Major Canadian Bank, Part 2",MicroServices
+https://dzone.com/articles/business-intelligence-in-microservices-improving-p,"Business Intelligence in Microservices: Improving Performance",MicroServices
+https://dzone.com/articles/evolving-integration-strategy-at-major-canadian-ba-1,"Evolving Integration Strategy at a Major Canadian Bank, Part 1",MicroServices
+https://dzone.com/articles/running-multiple-services-inside-a-single-containe,"Running Multiple Services Inside a Single Container Using Supervisord",MicroServices
+https://dzone.com/articles/evolving-integration-strategy-at-major-canadian-ba-2,"Evolving Integration Strategy at Major Canadian Bank, Part 4",MicroServices
+https://dzone.com/articles/microservices-observability,"Microservices Observability (Part 1)",MicroServices
+https://dzone.com/articles/minimize-the-blast-radius-of-changes-with-soloio-g,"Making Changes Better With Solo.io Gloo Gateway and Weaveworks Flagger...",MicroServices
+https://dzone.com/articles/microservices-architecture-with-spring-boot-and-sp,"Microservices Architecture With Spring Boot and Spring Cloud",MicroServices
+https://dzone.com/articles/debugging-istio-control-plane-with-squash,"Debugging Istio Control Plane With Squash [Video]",MicroServices
+https://dzone.com/articles/take-the-lead-on-technology-decisions-sustainable-1,"Sustainable and Efficient Infrastructures With Micro Designed...",MicroServices
+https://dzone.com/articles/preventing-systemic-failure-bulkheads-in-microserv,"Preventing Systemic Failure: Bulkheads in Microservice Architectures",MicroServices
+https://dzone.com/articles/service-discovery-in-microservice-ecosystem,"Service Discovery in a Microservices Architecture",MicroServices
+https://dzone.com/articles/writing-a-microservice-in-golang-which-communicate,"Writing a Microservice in Golang Which Communicates Over gRPC",MicroServices
+https://dzone.com/articles/leveraging-the-power-of-microservices-in-mobile-ap,"Leveraging the Power of Microservices",MicroServices
+https://dzone.com/articles/a-small-micro-service-developed-in-scala-using-hex,"A Small Microservice Developed in Scala Using Hexagonal Architecture",MicroServices
+https://dzone.com/articles/go-template-pattern-with-embedded-structs,"Go Template Pattern With Embedded Structs",MicroServices
+https://dzone.com/articles/deploy-a-spring-boot-microservice-architecture-to,"Deploy a Spring Boot Microservice Architecture to Google Cloud and Google...",MicroServices
+https://dzone.com/articles/voxxed-days-microservices-2019-transactions-in-you,"Voxxed Days Microservices 2019: Transactions in Your Microservices...",MicroServices
+https://dzone.com/articles/mitigating-deployment-risk-in-microservice-archite,"Mitigating Deployment Risk in Microservice Architectures: The Quarantine...",MicroServices
+https://dzone.com/articles/improving-reliability-with-alibaba-cloud-message-s,"Improving the Reliability of Microservices",MicroServices
+https://dzone.com/articles/a-magic-to-manage-microservices,"Tools to Help Manage Microservices",MicroServices
+https://dzone.com/articles/deploying-spring-boot-microservice-to-docker-a-qui,"Deploying a Spring Boot Microservice to Docker: A Quick Guide",MicroServices
+https://dzone.com/articles/6-parameters-to-measure-microservice-roi,"6 Parameters to Measure Microservices' ROI",MicroServices
+https://dzone.com/articles/seata-simple-extensible-autonomous-transaction-arc,"Seata: Simple, Extensible, Autonomous Transaction Architecture",MicroServices
+https://dzone.com/articles/deploying-open-liberty-microservices-to-openshift,"Deploying Open Liberty Microservices to OpenShift",MicroServices
+https://dzone.com/articles/part-1-how-canary-deployments-work-in-kubernetes-i,"Part 1: How Canary Deployments Work in Kubernetes, Istio, and Linkerd",MicroServices
+https://dzone.com/articles/asynchronous-communication-with-queues-and-microse,"Asynchronous Communication With Queues and Microservices: A Perfect...",MicroServices
+https://dzone.com/articles/making-your-microservices-resilient-and-fault-tole-1,"Making Your Microservices Resilient and Fault Tolerant",MicroServices
+https://dzone.com/articles/smart-pipes-and-smart-endpoints-with-service-mesh,"Smart Pipes and Smart Endpoints With Service Mesh",MicroServices
+https://dzone.com/articles/microservice-best-practices-build-an-archetype,"Microservice Best Practices: Build an Archetype",MicroServices
+https://dzone.com/articles/7-strategies-for-assigning-ids-to-microservices,"7 Strategies for Assigning Ids to Microservices",MicroServices
+https://dzone.com/articles/microservice-architecture-best-practices-messaging,"Microservice Architecture Best Practices: Messaging Queues",MicroServices
+https://dzone.com/articles/scaling-microservices-advanced-approaches-with-the,"Scaling Microservices: Advanced Approaches With the AKF Scaling Cube",MicroServices
+https://dzone.com/articles/learn-how-to-secure-service-to-service-microservic,"Learn How to Secure Service-to-Service Microservices",MicroServices
+https://dzone.com/articles/microservices-best-practices-why-build-a-vertical,"Microservices Best Practices: Why Build a Vertical Slice?",MicroServices
+https://dzone.com/articles/local-microservices-first-class-procedures,"Local Microservices: First-Class Procedures",MicroServices
+https://dzone.com/articles/visualizing-the-istio-service-mesh-using-kiali,"Visualizing the Istio Service Mesh Using Kiali",MicroServices
+https://dzone.com/articles/microservices-architectures-event-driven-approach,"Microservices Architectures: Event Driven Approach",MicroServices
+https://dzone.com/articles/the-12-factor-app-best-practices-in-cloud-native-a,"The 12 Factor App: Best Practices in Cloud Native Applications and...",MicroServices
+https://dzone.com/articles/using-a-microservices-architecture-to-develop-micr,"Using a Microservices Architecture to Develop Microapps",MicroServices
+https://dzone.com/articles/how-to-build-and-run-a-hello-world-java-microservi,"How to Build and Run a Hello World Java Microservice",MicroServices
+https://dzone.com/articles/istio-distributed-tracing-how-to-get-started-with,"Istio Distributed Tracing: How to Get Started With LightStep and Kubernetes",MicroServices
+https://dzone.com/articles/chaos-testing-your-microservices-with-istio,"Chaos Testing Your Microservices With Istio",MicroServices
+https://dzone.com/articles/toms-tech-notes-how-microservices-have-changed-app,"Tom's Tech Notes: How Microservices Have Changed AppDev [Podcast]",MicroServices
+https://dzone.com/articles/retry-design-pattern-with-istio,"Retry Design Pattern With Istio",MicroServices
+https://dzone.com/articles/monitoring-azure-service-fabric-microservices-with,"Monitoring Azure Service Fabric Microservices With Azure Monitor",MicroServices
+https://dzone.com/articles/resilient-microservices-with-istio-circuit-breaker,"Resilient Microservices With Istio Circuit Breaker",MicroServices
+https://dzone.com/articles/configuring-a-quarkus-application,"Configuring a Quarkus Application",MicroServices
+https://dzone.com/articles/moving-the-service-mesh-community-forward,"Moving the Service Mesh Community Forward",MicroServices
+https://dzone.com/articles/ms-chassis-pattern,"Microservices Chassis Pattern",MicroServices
+https://dzone.com/articles/microservices-journey-from-netflix-oss-to-istio-se,"Microservices Journey from Netflix OSS to Istio Service Mesh",MicroServices
+https://dzone.com/articles/local-microservices-breaking-up-the-jigsaw,"Local Microservices: Breaking Up the Jigsaw",MicroServices
+https://dzone.com/articles/istio-circuit-breaker-with-outlier-detection,"Istio Circuit Breaker With Outlier Detection",MicroServices
+https://dzone.com/articles/a-bootiful-podcast-spring-cloud-lead-spencer-gibb,"A Bootiful Podcast: Spring Cloud Lead Spencer Gibb on Microservices,...",MicroServices
+https://dzone.com/articles/toms-tech-notes-microservices-use-cases-podcast,"Tom's Tech Notes: Microservices Use Cases [Podcast]",MicroServices
+https://dzone.com/articles/istio-service-mesh-data-plane,"Istio Service Mesh Data Plane",MicroServices
+https://dzone.com/articles/guidance-for-building-a-control-plane-for-envoy-pa-3,"Guidance for Building a Control Plane for Envoy, Part 5: Deployment...",MicroServices
+https://dzone.com/articles/microservices-architectures-what-is-fault-toleranc,"Microservices Architectures: What Is Fault Tolerance?",MicroServices
+https://dzone.com/articles/guidance-for-building-a-control-plane-for-envoy-pa-2,"Guidance for Building a Control Plane for Envoy, Part 4: Build for...",MicroServices
+https://dzone.com/articles/microservices-architecture-introduction-to-auto-sc,"Microservices Architecture: Introduction to Auto Scaling",MicroServices
+https://dzone.com/articles/how-to-call-the-next-handler-in-vertx,"How to Call the Next Handler in Vert.x",MicroServices
+https://dzone.com/articles/api-interaction-types-in-a-microservice-architectu,"API Interaction Types in a Microservice Architecture: Queries, Commands,...",MicroServices
+https://dzone.com/articles/3-most-important-patterns-for-building-microservic,"Three Important Patterns for Building Microservices",MicroServices
+https://dzone.com/articles/local-microservices-object-orientation-behaviour-c,"Local Microservices: Object Orientation Behavior Coupling Problem",MicroServices
+https://dzone.com/articles/microservices-architecture-the-importance-of-centr,"Microservices Architecture: The Importance of Centralized Logging",MicroServices
+https://dzone.com/articles/istio-service-mesh-control-plane,"Istio Service Mesh Control Plane",MicroServices
+https://dzone.com/articles/microservices-architectures-introduction-to-api-ga,"Microservices Architectures: Introduction to API Gateways",MicroServices
+https://dzone.com/articles/sidecar-design-pattern-in-your-microservices-ecosy-1,"Sidecar Design Pattern in Your Microservices Ecosystem",MicroServices
+https://dzone.com/articles/the-rise-of-service-mesh-architecture,"The Rise of Service Mesh Architecture",MicroServices
+https://dzone.com/articles/microservices-architectures-centralized-configurat,"Microservices Architectures: Centralized Configuration and Config Server",MicroServices
+https://dzone.com/articles/microservices-architectures-what-is-service-discov,"Microservices Architecture: What Is Service Discovery?",MicroServices
+https://dzone.com/articles/cqrs-and-event-sourcing-intro-for-developers,"CQRS and Event Sourcing Intro For Developers",MicroServices
+https://dzone.com/articles/schemas-contracts-and-compatibility-part-2,"Schemas, Contracts, and Compatibility (Part 2)",MicroServices
+https://dzone.com/articles/schemas-contracts-and-compatibility-part-1,"Schemas, Contracts, and Compatibility (Part 1)",MicroServices
+https://dzone.com/articles/persistence-for-java-microservices-in-kubernetes-v,"Persistence for Java Microservices in Kubernetes Via JPA",MicroServices
+https://dzone.com/articles/configuration-plans-for-soa-suite-12c,"Configuration Plans for SOA Suite 12C",MicroServices
+https://dzone.com/articles/authorization-in-microservices-with-microprofile,"Authorization in Microservices With MicroProfile",MicroServices
+https://dzone.com/articles/writing-java-microservices-with-microprofile-13,"Writing Java Microservices With MicroProfile 1.3",MicroServices
+https://dzone.com/articles/sentinel-and-spring-cloud-building-a-better-micros,"Sentinel and Spring Cloud: Building a Better Microservice Ecosystem",MicroServices
+https://dzone.com/articles/how-to-share-and-sync-code-between-microservices,"How to Share and Sync Code Between Microservices",MicroServices
+https://dzone.com/articles/deploy-an-application-to-alibaba-cloud-edas-in-ecl,"Deploy an Application to Alibaba Cloud EDAS in Eclipse",MicroServices
+https://dzone.com/articles/when-http-status-codes-are-not-enough-tackling-web,"When HTTP Status Codes Are Not Enough: Tackling Web APIs Error Reporting",MicroServices
+https://dzone.com/articles/microservices-architecture-a-brief-history-at-zoom,"Microservices Architecture: A Brief History at Zoomdata",MicroServices
+https://dzone.com/articles/configuring-micro-services-spring-cloud-config-ser,"Microservice Configuration: Spring Cloud Config Server Tutorial",MicroServices
+https://dzone.com/articles/from-monolith-to-microservices-how-to-make-the-tra,"From Monolith to Microservices: How to Make the Transition",MicroServices
+https://dzone.com/articles/3-pitfalls-everyone-should-avoid-with-microservice,"3 Pitfalls Everyone Should Avoid With Microservices",MicroServices
+https://dzone.com/articles/microservices-nanoservices-teraservices-and-server-1,"Microservices, Nanoservices, Teraservices, and Serverless",MicroServices
+https://dzone.com/articles/microservices-and-distributed-transactions-beyond,"Microservices and Distributed Transactions: Beyond the 'Happy Path'",MicroServices
+https://dzone.com/articles/microservices-and-business-transactions,"Microservices and Business Transactions",MicroServices
+https://dzone.com/articles/microservices-architectures-microservices-vs-soa,"Microservices Architectures: Microservices vs. SOA",MicroServices
+https://dzone.com/articles/microservices-architecture-challenges-of-building,"Microservices Architecture: Challenges of Building Microservices",MicroServices
+https://dzone.com/articles/hystrix-vs-sentinel-a-tale-of-two-circuit-breakers-3,"Hystrix vs. Sentinel: A Tale of Two Circuit Breakers (Part 2)",MicroServices
+https://dzone.com/articles/microservices-architecture-advantages-of-microserv,"Microservices Architecture: Advantages of Microservices",MicroServices
+https://dzone.com/articles/hystrix-vs-sentinel-a-tale-of-two-circuit-breakers-2,"Hystrix vs. Sentinel: A Tale of Two Circuit Breakers (Part 1)",MicroServices
+https://dzone.com/articles/cloudbees-devoptics-value-stream-mapping-for-micro,"CloudBees DevOptics: Value Stream Mapping for Microservices Applications",MicroServices
+https://dzone.com/articles/microservics-architecture-introduction-to-spring-c,"Microservices Architecture: Introduction to Spring Cloud",MicroServices
+https://dzone.com/articles/microservices-architectures-and-a-quick-introducti,"Microservices Architecture and a Quick Introduction to Cloud: Why, What,...",MicroServices
+https://dzone.com/articles/introducing-nacos-config-server-for-the-micro-serv,"Introducing Nacos: Config Server for a Microservices Environment",MicroServices
+https://dzone.com/articles/migrating-to-microservices-heres-how-to-have-relia,"Migrating to Microservices? Here’s How to Have Reliable APIs From Day One",MicroServices
+https://dzone.com/articles/microservices-with-graphql,"Microservices With GraphQL",MicroServices
+https://dzone.com/articles/vms-vs-containers-for-microservices,"VMs vs. Containers for Microservices",MicroServices
+https://dzone.com/articles/envoy-and-the-programmable-edge-the-changing-role,"Envoy and the 'Programmable Edge': The Changing Role of Edge Proxies and...",MicroServices
+https://dzone.com/articles/micronaut-mastery-change-the-default-package-for-g,"Micronaut Mastery: Change the Default Package for Generated Classes",MicroServices
+https://dzone.com/articles/tracing-and-debugging-microservices-in-kubernetes,"Tracing and Debugging Microservices in Kubernetes [Video]",MicroServices
+https://dzone.com/articles/micronaut-mastery-binding-request-parameters-to-po,"Micronaut Mastery: Binding Request Parameters to POJO",MicroServices
+https://dzone.com/articles/microservices-using-saga-pattern,"Microservices Using the Saga Pattern",MicroServices
+https://dzone.com/articles/improved-developer-experience-and-microprofile-int,"Improved Developer Experience and MicroProfile Integration for MicroProfile...",MicroServices
+https://dzone.com/articles/microservices-integration-tests-with-hoverfly-and,"Microservices Integration Tests With Hoverfly and Testcontainers",MicroServices
+https://dzone.com/articles/monitoring-microservices-on-aws-lambda,"Monitoring Microservices on AWS Lambda",MicroServices
+https://dzone.com/articles/episode-9-how-to-deliver-a-kubernetes-microservice,"Episode 9: How to Deliver a Kubernetes Microservices Platform",MicroServices
+https://dzone.com/articles/reactive-programming-in-microservices-with-micropr,"Reactive Programming in Microservices With MicroProfile on Open Liberty...",MicroServices
+https://dzone.com/articles/micronaut-tutorial-server-application,"Micronaut Tutorial: Server Application",MicroServices
+https://dzone.com/articles/micronaut-tutorial-security,"Micronaut Tutorial: Security",MicroServices
+https://dzone.com/articles/weve-done-soa-why-should-we-care-about-microservic,"We've Done SOA, Why Should We Care About Microservices?",MicroServices
+https://dzone.com/articles/scaling-microservices-initial-approach,"Scaling Microservices: Initial Approach",MicroServices
+https://dzone.com/articles/quick-introduction-to-software-architecture,"Quick Introduction to Software Architecture",MicroServices
+https://dzone.com/articles/thoughts-on-microservices-part-3-throwawayware,"Thoughts on Microservices, Part 3, Throw Away Ware",MicroServices
+https://dzone.com/articles/contract-testing-in-hl-tech-judge-dredd,"Contract Testing in HL Tech With Judge Dredd, Part 1",MicroServices
+https://dzone.com/articles/thoughts-on-microservices-part-1-does-my-app-deser,"Thoughts on Microservices, Part 1: Does My App Need to Be...",MicroServices
+https://dzone.com/articles/microservices-and-devops-1,"Microservices and DevOps Using Java, Spring Boot, Git Flow, Jenkins, and...",MicroServices
+https://dzone.com/articles/deploying-your-microservices,"Deploying Your Microservices",MicroServices
+https://dzone.com/articles/distributed-transactions-and-microservices-still-d,"Distributed Transactions and Microservices Still Don't Mix",MicroServices
+https://dzone.com/articles/contracts-for-microservices-with-openapi-and-sprin,"Contracts for Microservices With OpenAPI and Spring Cloud Contract",MicroServices
+https://dzone.com/articles/how-to-launch-a-distributed-tracing-mvp-with-just,"How to Launch a Distributed Tracing MVP With Just 50 Lines of Code",MicroServices
+https://dzone.com/articles/on-microservices-architecture-and-18-wheelers,"On Microservices Architecture and 18 Wheelers",MicroServices
+https://dzone.com/articles/micronaut-tutorial-beans-and-scopes,"Micronaut Tutorial: Beans and Scopes",MicroServices
+https://dzone.com/articles/example-java-app-running-in-the-cloud-via-kubernet-1,"Example Java App Running in the Cloud via Kubernetes",MicroServices
+https://dzone.com/articles/micro-components-architecture-1,"Micro-Components Architecture",MicroServices
+https://dzone.com/articles/authentication-and-authorization-in-microservice-a,"Authentication and Authorization in Microservice Architecture",MicroServices
+https://dzone.com/articles/implementing-health-checks-with-microprofile-and-i,"Implementing Health Checks With MicroProfile and Istio",MicroServices
+https://dzone.com/articles/building-a-slack-slash-command-as-a-microservice-p,"Building a Slack Slash Command as a Microservice Pipeline",MicroServices
+https://dzone.com/articles/tensile-strength,"Tensile Strength",MicroServices
+https://dzone.com/articles/shared-databases-in-microservices-is-a-poblem,"Shared Databases in Microservices Are a Problem",MicroServices
+https://dzone.com/articles/configuring-microservices-with-microprofile-and-ku,"Configuring Microservices With MicroProfile and Kubernetes",MicroServices
+https://dzone.com/articles/microprofile-22-improving-the-developer-experience,"Improving the Developer Experience of Writing Cloud-Native Java...",MicroServices
+https://dzone.com/articles/example-java-app-running-in-the-cloud-via-kubernet,"Example Java Microservices App Running in the Cloud via Kubernetes",MicroServices
+https://dzone.com/articles/bounded-contexts-with-axon,"Bounded Contexts With Axon",MicroServices
+https://dzone.com/articles/microservices-and-distributed-transactions,"Microservices and Distributed Transactions",MicroServices
+https://dzone.com/articles/a-bootiful-podcast-data-sovereignty-microservices,"A Bootiful Podcast: Data Sovereignty, Microservices, Cloud Foundry, and...",MicroServices
+https://dzone.com/articles/the-future-of-spring-cloud-microservices-after-net,"The Future of Spring Cloud Microservices After Netflix Era",MicroServices
+https://dzone.com/articles/microservices-tutorial-using-spring-boot-and-feign,"Microservices Tutorial: Using Spring Boot and Feign for Communication...",MicroServices
+https://dzone.com/articles/the-liskov-substitution-principle-at-an-architectu,"The Liskov Substitution Principle at an Architectural Level",MicroServices
+https://dzone.com/articles/consistency-thru-compensation-in-micro-services,"Consistency Through Compensation in Microservices",MicroServices
+https://dzone.com/articles/getting-started-with-kafka-2,"Running Spring Batch Applications in PCF",MicroServices
+https://dzone.com/articles/building-microservices-through-event-driven-archit,"Building Microservices Through Event-Driven Architecture, Part 2: Domain...",MicroServices
+https://dzone.com/articles/the-difference-between-microservices-and-web-servi,"The Difference Between Microservices and Web Services",MicroServices
+https://dzone.com/articles/building-microservices-with-event-driven-architect,"Building Microservices Through Event-Driven Architecture, Part 1:...",MicroServices
+https://dzone.com/articles/correlation-id-for-logging-in-microservices,"Correlation ID for Logging in Microservices",MicroServices
+https://dzone.com/articles/integration-testing-for-java-ee-and-microprofile-a,"Integration Testing for Java EE and MicroProfile Apps With Testcontainers",MicroServices
+https://dzone.com/articles/how-to-use-recent-microprofile-and-jdk-features-to,"How to Use Recent MicroProfile and JDK Features to Scale Your Apps in the...",MicroServices
+https://dzone.com/articles/toms-tech-notes-microservices-advice-for-devs-podcast,"Tom's Tech Notes: Microservices Advice for Devs [Podcast]",MicroServices
+https://dzone.com/articles/a-handy-guide-to-micro-frontends-their-architectur,"A Look at Micro Front-Ends, Their Architecture, and More",MicroServices
+https://dzone.com/articles/prometheus-metrics-for-microprofile-microservices,"Prometheus Metrics for MicroProfile Microservices in Istio",MicroServices
+https://dzone.com/articles/strangling-a-monolith-with-axon-server,"Strangling a Monolith With the Axon Server",MicroServices
+https://dzone.com/articles/of-microservices-amp-containers,"On Microservices and Containers",MicroServices
+https://dzone.com/articles/micro-services-with-a-micro-services-style-of-test,"Microservices Testing Strategy (Part 2): Microservices Style of Testing",MicroServices
+https://dzone.com/articles/redirecting-http-requests-with-zuul-in-spring-boot,"Redirecting HTTP Requests With Zuul in Spring Boot",MicroServices
+https://dzone.com/articles/tracing-kumuluzee-microservices-with-jaeger-and-zi,"Tracing KumuluzEE Microservices With Jaeger and Zipkin",MicroServices
+https://dzone.com/articles/service-instance-sharing-in-pcf,"Service Instance Sharing in PCF",MicroServices
+https://dzone.com/articles/scaling-microservices-identifying-performance-bott,"Scaling Microservices: Identifying Performance Bottlenecks",MicroServices
+https://dzone.com/articles/microservices-anti-patterns,"Microservices Anti-Patterns",MicroServices
+https://dzone.com/articles/a-bootiful-podcast-cqrs-with-axoniqs-steven-van-be,"A Bootiful Podcast: CQRS With AxonIQ's Steven van Beelen and Pivotal's Ben...",MicroServices
+https://dzone.com/articles/should-every-application-leverage-microservices-pa-1,"Should Every Application Leverage Microservices? Part 3",MicroServices
+https://dzone.com/articles/why-object-oriented-code-accelerates-microservices,"Why Object-Oriented Code Accelerates Microservices Adoption",MicroServices
+https://dzone.com/articles/redis-in-a-microservices-architecture,"Redis in a Microservices Architecture",MicroServices
+https://dzone.com/articles/should-every-application-leverage-microservices,"Should Every Application Leverage Microservices? Part 1",MicroServices
+https://dzone.com/articles/lightweight-real-time-analytics-with-spring-boot-w,"Lightweight Real-Time Analytics With Spring Boot + WSO2 Siddhi",MicroServices
+https://dzone.com/articles/authentication-and-authorization-in-microservices,"Authentication and Authorization in Microservices",MicroServices
+https://dzone.com/articles/lightweight-serverless-java-functions-with-quarkus,"Lightweight Serverless Java Functions With Quarkus",MicroServices
+https://dzone.com/articles/a-look-at-the-future-of-microservices-and-serverle,"A Look at the Future of Microservices and Serverless",MicroServices
+https://dzone.com/articles/invoking-rest-apis-from-java-microservices,"Invoking REST APIs From Java Microservices",MicroServices
+https://dzone.com/articles/the-open-closed-principle-at-an-architectural-leve,"The Open-Closed Principle at an Architectural Level",MicroServices
+https://dzone.com/articles/using-quarkus-to-run-java-apps-on-kubernetes-1,"Using Quarkus to Run Java Microservice Apps on Kubernetes",MicroServices
+https://dzone.com/articles/scaling-microservices-general-strategy-instana,"Scaling Microservices: General Strategy",MicroServices
+https://dzone.com/articles/developing-resilient-microservices-with-istio-and,"Developing Resilient Microservices With Istio and MicroProfile",MicroServices
+https://dzone.com/articles/programming-styles-spring-boot-vis-a-vis-with-ecli,"Programming Styles Compared: Spring Framework vis-a-vis Eclipse...",MicroServices
+https://dzone.com/articles/top-3-strategies-of-moving-from-monolith-to-micros,"Top Three Strategies for Moving From a Monolith to Microservices",MicroServices
+https://dzone.com/articles/getting-on-track-with-microservices,"Getting on Track With Microservices",MicroServices
+https://dzone.com/articles/guidance-for-building-a-control-plane-for-envoy-do,"Guidance for Building a Control Plane for Envoy: Domain Specific...",MicroServices
+https://dzone.com/articles/techdays-2019-microservices-for-building-an-ide-an,"TechDays 2019: Microservices for Building an IDE and the Innards of...",MicroServices
+https://dzone.com/articles/guidance-for-building-a-control-plane-for-envoy-pa-1,"Guidance for Building a Control Plane for Envoy, Part 2: Identify...",MicroServices
+https://dzone.com/articles/how-are-your-microservices-talking,"How Are Your Microservices Talking?",MicroServices
+https://dzone.com/articles/top-3-service-mesh-developments-in-2019,"Top 3 Service Mesh Developments in 2019",MicroServices
+https://dzone.com/articles/hands-on-with-istio-service-mesh-implementing-zero,"Istio Service Mesh: Implementing “Zero Risk” Deployment Using Mirroring",MicroServices
+https://dzone.com/articles/breaking-a-monolith-into-microservices-best-practi,"Breaking a Monolith Into Microservices: Best Practices and Challenges",MicroServices
+https://dzone.com/articles/improve-microservice-testing-with-contract-testing,"Improve Microservice Testing With Contract Testing",MicroServices
+https://dzone.com/articles/distributed-systems-sidecar-pattern-part-2,"Distributed Systems and Sidecar Pattern, Part 2",MicroServices
+https://dzone.com/articles/wso2-enterprise-integrator-for-distributed-messagi,"WSO2 Enterprise Integrator for Distributed Messaging",MicroServices
+https://dzone.com/articles/distributed-systems-sidecar-pattern,"Distributed Systems and the Sidecar Pattern",MicroServices
+https://dzone.com/articles/kotlin-microservices-with-micronaut-spring-cloud-a,"Kotlin Microservices With Micronaut, Spring Cloud, and JPA",MicroServices
+https://dzone.com/articles/microservices-is-it-for-me,"Microservices: Are They for Me?",MicroServices
+https://dzone.com/articles/how-many-architects-does-it-take-to-change-a-light,"How Many Architects Does it Take to Change a Light Bulb?",MicroServices
+https://dzone.com/articles/communication-between-microservices,"Communication Between Microservices",MicroServices
+https://dzone.com/articles/hands-on-with-istio-service-mesh-implementing-cana,"Hands-on With Istio Service Mesh: Implementing Canary Deployment",MicroServices
+https://dzone.com/articles/developing-and-debugging-microservices-with-java,"Developing and Debugging Microservices With Java",MicroServices
+https://dzone.com/articles/a-quick-guide-to-microservices-with-the-micronaut,"A Quick Guide to Microservices With the Micronaut Framework",MicroServices
+https://dzone.com/articles/flyway-error-found-non-empty-schemas-without-schem,"Flyway Error: Found Non-Empty Schema(s) Without Schema History Table",MicroServices
+https://dzone.com/articles/writing-self-deploying-nodejs-applications,"Self-Deploying Node.js Applications",MicroServices
+https://dzone.com/articles/how-to-run-java-microservices-on-openshift-using-s,"How to Run Java Microservices on OpenShift Using Source-2-Image",MicroServices
+https://dzone.com/articles/testing-distributed-systems-at-1000-node-scale-for,"Testing Distributed Systems With Docker and AWS for the Cost of a Large...",MicroServices
+https://dzone.com/articles/guidance-for-building-a-control-plane-for-envoy-pa,"Guidance for Building a Control Plane for Envoy, Part 1",MicroServices
+https://dzone.com/articles/implementing-event-sourcing-with-axon-and-spring-b-1,"Implementing Event Sourcing With Axon and Spring Boot - Part 3",MicroServices
+https://dzone.com/articles/ibm-announced-managed-istio-and-managed-knative-1,"IBM Announced Managed Istio and Managed Knative",MicroServices
+https://dzone.com/articles/from-monolith-to-microservices,"From Monolith to Microservices",MicroServices
+https://dzone.com/articles/micro-hexagon,"The Micro-Hexagon Design Pattern to Architecture Pattern, Part 1",MicroServices
+https://dzone.com/articles/the-role-of-the-domain-model-with-cqrsevent-sourci,"The Role of the Domain Model With CQRS/Event Sourcing",MicroServices
+https://dzone.com/articles/monolithic-vs-microservices-which-is-the-better-ar,"Monolithic vs. Microservices: Which Is the Better Architecture App...",MicroServices
+https://dzone.com/articles/microservices-with-cqrs-and-event-sourcing,"Microservices With CQRS and Event Sourcing",MicroServices
+https://dzone.com/articles/easily-build-and-run-unikernels-with-ops,"Easily Build and Run Unikernels With OPS",MicroServices
+https://dzone.com/articles/quick-overview-of-concepts-for-kafka-testing,"What You Need to Know to Test Kafka",MicroServices
+https://dzone.com/articles/microservices-with-undertow-introduction,"An Introduction to Microservices With Undertow",MicroServices
+https://dzone.com/articles/javaee-8-payara-5-microprofile-21-docker-in-about,"JavaEE 8 + Payara 5 + MicroProfile 2.1 + Docker in About a Minute",MicroServices
+https://dzone.com/articles/want-to-expose-an-api-reactive-options,"Four Tools for Exposing an API in a Reactive Way",MicroServices
+https://dzone.com/articles/microservices-organizational-practices-part-2,"Microservices: Organizational Practices, Part 2",MicroServices
+https://dzone.com/articles/no-framework,"No Framework for Your Microservices?",MicroServices
+https://dzone.com/articles/implementing-event-sourcing-with-axon-and-spring-b,"Implementing Event Sourcing With Axon and Spring Boot (Part 2)",MicroServices
+https://dzone.com/articles/gateway-pattern,"API Gateway to the Rescue",MicroServices
+https://dzone.com/articles/monorepos-for-microservices-commerce-architecture,"Monorepo’s for Microservices Architecture",MicroServices
+https://dzone.com/articles/distributed-transactions-with-two-phase-commit-pro,"Distributed Transactions With the 2PC Protocol",MicroServices
+https://dzone.com/articles/design-first-not-mobile-first,"Design First, Not Mobile First",MicroServices
+https://dzone.com/articles/implementing-event-sourcing-using-axon-and-spring,"Implementing Event Sourcing Using Axon and Spring Boot - Part 1",MicroServices
+https://dzone.com/articles/developing-spring-cloud-micro-services-with-a-cent,"Developing Spring Cloud Microservices With a Central Environment",MicroServices
+https://dzone.com/articles/6-defining-features-of-microservices,"6 Defining Features of Microservices",MicroServices
+https://dzone.com/articles/looking-at-microservices-through-a-macro-lens,"Looking at Microservices Through a Macro Lens",MicroServices
+https://dzone.com/articles/6-data-management-patterns-for-microservices-1,"6 Data Management Patterns for Microservices",MicroServices
+https://dzone.com/articles/zoomdata-microservices-and-the-web-application,"Zoomdata Microservices and the Web Application",MicroServices
+https://dzone.com/articles/best-practices-for-instrumenting-applications-with-opentracing,"Best Practices for Instrumenting Applications With OpenTracing",MicroServices
+https://dzone.com/articles/microservices-organizational-practices,"Microservices: Organizational Practices, Part 1",MicroServices
+https://dzone.com/articles/cloud-native-microservices-with-tibco-configuratio,"Cloud-Native Microservices With TIBCO: Configuration Management Using...",MicroServices
+https://dzone.com/articles/rapid-api-development-using-open-api-generator,"Rapid Application Development With API First Approach Using Open-API...",MicroServices
+https://dzone.com/articles/installing-features-from-maven-dependencies-in-ope,"Installing Features From Maven Dependencies in Open Liberty 18.0.0.2",MicroServices
+https://dzone.com/articles/search-form-in-oracle-visual-builder-based-on-adf,"Search Form in Oracle Visual Builder Based on ADF BC REST",MicroServices
+https://dzone.com/articles/react-redux-and-saga-connecting-the-dots,"React, Redux and Saga: Connecting the Dots",MicroServices
+https://dzone.com/articles/fast-data-access-using-gemfire-and-apache-spark-pa,"Fast Data Access Using GemFire and Apache Spark (Part 1): Introduction",MicroServices
+https://dzone.com/articles/yaml-api-management-artifacts-from-aws-api-gateway,"YAML API Management Artifacts From AWS API Gateway",MicroServices
+https://dzone.com/articles/asynchronous-rest-with-jax-rs-and-microprofile,"Asynchronous REST With JAX-RS and MicroProfile",MicroServices
+https://dzone.com/articles/istio-service-mesh-the-step-by-step-guide-part-2-t,"Istio Service Mesh, the Step-by-Step Guide, Part 2: Tutorial",MicroServices
+https://dzone.com/articles/guidelinemigration-from-hystrix-to-sentinel,"Migrating From Hystrix to Sentinel Tutorial",MicroServices
+https://dzone.com/articles/metadata-management-in-big-data-systems-a-complete-1,"Istio Service Mesh, the Step-by-Step Guide, Part 1: Theory",MicroServices
+https://dzone.com/articles/your-microservice-architecture-will-collapse,"Your Microservice Architecture Will Collapse",MicroServices
+https://dzone.com/articles/kotlin-microservice-with-spring-boot,"Kotlin Microservice With Spring Boot Tutorial",MicroServices
+https://dzone.com/articles/microservices-and-the-saga-pattern-part-3,"Microservices and the Saga Pattern, Part 3",MicroServices
+https://dzone.com/articles/its-2am-do-you-know-what-your-istio-auth-policies,"It’s 2AM: Do You Know What Your Istio Auth Policies Are Doing?",MicroServices
+https://dzone.com/articles/microservices-and-the-saga-pattern-part-2,"Microservices and the Saga Pattern, Part 2",MicroServices
+https://dzone.com/articles/why-you-should-not-switch-to-microservices,"Why You Should Not Switch to Microservices",MicroServices
+https://dzone.com/articles/microservices-and-the-saga-pattern-part-1,"Microservices and the Saga Pattern, Part 1",MicroServices
+https://dzone.com/articles/integrating-lightstep-xpm-istio,"Integrating LightStep [x]PM With Istio",MicroServices
+https://dzone.com/articles/hippies-ants-healthy-microservices,"Hippies, Ants, and Healthy Microservices",MicroServices
+https://dzone.com/articles/monoliths-to-microservices-scale-changes-everything,"Monoliths to Microservices: Scale Changes Everything",MicroServices
+https://dzone.com/articles/top-microservices-interview-questions-for-2019-par,"Top Microservices Interview Questions and Answers, Part 2",MicroServices
+https://dzone.com/articles/top-29-microservices-interview-questions-for-2019,"Top Microservices Interview Questions and Answers, Part 1",MicroServices
+https://dzone.com/articles/build-and-push-spring-boot-docker-images-with-boos,"Build and Push Spring Boot Docker Images With boost-maven-plugin",MicroServices

@@ -9,9 +9,12 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.time.LocalDateTime;
+import java.util.List;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -22,6 +25,17 @@ import org.springframework.transaction.annotation.Transactional;
 public class LinksImportService {
     public static final Long SYSTEM_USER_ID = 1L;
     private final LinkService linkService;
+
+    @Async
+    public void importLinksAsync(List<String> fileNames) throws Exception {
+        linkService.deleteAllLinks();
+        for (String fileName : fileNames) {
+            log.info("Importing links from file: {}", fileName);
+            ClassPathResource file = new ClassPathResource(fileName, this.getClass());
+            long count = this.importLinks(file.getInputStream());
+            log.info("Imported {} links from file {}", count, fileName);
+        }
+    }
 
     public long importLinks(InputStream inputStream) throws IOException, CsvValidationException {
         long count = 0L;

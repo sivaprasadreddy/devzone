@@ -1,201 +1,301 @@
 url,title,category
-https://linuxize.com/post/how-to-remove-docker-images-containers-volumes-and-networks/,"How To Remove Docker Containers, Images, Volumes, and Networks",docker
-https://reflectoring.io/unit-testing-spring-boot/,"All You Need To Know About Unit Testing with Spring Boot",spring-boot|junit
-https://winterbe.com/posts/2018/08/29/migrate-maven-projects-to-java-11-jigsaw/,"Migrate Maven Projects to Java 11",java|maven
-https://www.devglan.com/spring-security/spring-boot-jwt-auth,"Spring Boot Security Jwt Authentication",spring-boot|security
-https://junit.org/junit5/docs/current/user-guide/,"JUnit 5 User Guide",junit
-https://shekhargulati.com/2019/01/13/running-tests-and-building-react-applications-with-gradle-build-tool/,"Running Tests and Building React applications with Gradle Build Tool",gradle
-http://lewandowski.io/2016/02/formatting-java-time-with-spring-boot-using-json/index.html,"Formatting Java Time with Spring Boot using JSON",spring-boot
-https://blog.ippon.tech/creating-a-modern-web-app-using-vuejs-and-spring-boot-with-jhipster/,"Creating a modern Web app using Vue.js and Spring Boot with JHipster",jhipster|spring-boot|vuejs
-https://advancedweb.hu/2019/02/19/post_java_8/,"A categorized list of all Java and JVM features since JDK 8",java
-https://blog.jooq.org/2014/06/25/flyway-and-jooq-for-unbeatable-sql-development-productivity/,"Flyway and jOOQ for Unbeatable SQL Development Productivity",jooq|flyway
-https://reversecoding.net/spring-mvc-requestparam-binding-request-parameters/,"Spring MVC @Requestparam - Binding request parameters",java|spring-mvc
-https://www.marcobehler.com/guides/java-microservices-a-practical-guide,"Java Microservices: A Practical Guide",microservices|spring-boot
-https://github.com/gavlyukovskiy/spring-boot-data-source-decorator, "Spring Boot integration with p6spy, datasource-proxy, flexy-pool and spring-cloud-sleuth",spring-boot
-https://www.sitepoint.com/javascript-command-line-interface-cli-node-js/,"Build a JavaScript Command Line Interface (CLI) with Node.js",nodejs
-https://medium.com/faun/continuous-integration-of-java-project-with-github-actions-7a8a0e8246ef,"Continuous Integration of Java project with GitHub Actions",java|github|ci-cd
-https://rachelcarmena.github.io/2018/12/12/how-to-teach-git.html,"How to teach Git",git
-https://blog.noizwaves.io/2017/09/02/slow-spring-boot-startup.html,"Fixing Slow Spring Boot Startup",spring-boot
-https://rskupnik.github.io/framework-independence-with-hexagonal-architecture,"Achieving framework-independent zen with the power of interfaces and hexagonal architecture",architecture|spring
-https://www.baeldung.com/jackson-deserialize-immutable-objects,"Deserialize Immutable Objects with Jackson",java|jackson|json
-https://sivalabs.in/2020/02/spring-boot-integration-testing-using-testcontainers-starter/,"SpringBoot Integration Testing using TestContainers Starter",spring-boot|testcontainers
-https://dzone.com//articles/listening-to-events-with-gservlet,"Handling Events With GServlet",java,groovy,servlet,java-tutorial,listeners,listener-interface,interface-definition-language,gservlet
-https://dzone.com//articles/rabbitmq-installation-rabbitmq-tutorial-rabbitmq-t,"RabbitMQ Installation | RabbitMQ Tutorial: Java, Java Spring [Video]",rabbitmq,rabbitmq-tutorial
-https://dzone.com//articles/how-to-download-and-install-apache-activemq-on-win,"Download and Install Apache ActiveMQ on Windows | ActiveMQ Tutorial [Video]",activemq
-https://dzone.com//articles/architecting-and-delivering-java,"Architecting and delivering Java Applications in the Cloud Era",java,cloud,cloud-native,microprofile,jakarta-ee
-https://dzone.com//articles/top-10-games-running-on-javascript-amp-html5,"Top 10 Games Running on Javascript and HTML5",java,html5,css,online-games,gaming
-https://dzone.com//articles/how-to-create-a-web-based-viewer-in-java,"How to Create a Web-Based Viewer in Java",api,java,online-document,html,embed,tutorial
-https://dzone.com//articles/how-to-sendreceive-a-product-object-tofrom-the-que,"How to Send/Receive a Product Object To/From the Queue (Spring Boot + JMS +...",jms,rabbitmq,java-messaging-service,video,tutorial,spring-boot
-https://dzone.com//articles/how-to-sendreceive-a-message-tofrom-the-queue-spri,"How to Send/Receive a Message To/From the Queue (Spring Boot + JMS +...",jms,spring-boot,rabbitmq,video,tutorial,message-queue
-https://dzone.com//articles/multithreading-java-and-interviews-part-2-wait-and,"Multithreading Java and Interviews Part 3: Wait and Notify All",java-multithreading-tutorial,java,multithreading,tutorial
-https://dzone.com//articles/chaos-engineering-simulating-outofmemoryerror,"Chaos Engineering: Simulating OutOfMemoryError",java-application-development,outofmemoryerror,hashmap,memory-allocation,heap-dump-analysis,java-heap,thread-dump,garbage-colection,performance-and-monitoring,tutorial
-https://dzone.com//articles/and-the-winner-is-meet-the-2020-dzone-award-winner,"And the Winner Is? Meet the 2020 DZone Award Winners From Java To John...",dzone,dzoneawards,awards
-https://dzone.com//articles/java-coding-style-or-bad-practice,"Java: Coding Style or Bad Practice?",java,programming,coding,coding-style,software-development
-https://dzone.com//articles/top-java-collection-interview-questions-for-2021,"Top Java Collection Interview Questions for 2021",java,interview-answers,java-tutorials,java-collection
-https://dzone.com//articles/implementing-user-sign-up-in-vaadin-flow,"Implementing User Sign Up in Vaadin Flow Applications (Simple)",java,vaadin,authentication,authorization,security,web-applications
-https://dzone.com//articles/how-to-convert-double-to-int-in-java,"How To Convert double To int In Java?",java,java-programming-lang,tutorial,int,double,java-18,basic-java-example-programs,basic-java-programs,basic-java
-https://dzone.com//articles/spring-boot-jmstemplate-with-embedded-activemq-spr-1,"Spring Boot JMSTemplate With Embedded ActiveMQ [Video]",spring-boot,jms,java-messaging-service,activemq
-https://dzone.com//articles/java-concurrency-understanding-the-volatile-keyword,"Java Concurrency: Understanding the ‘Volatile’ Keyword",concurrency-and-locking,volatile-field,programming-amp-design,synchronization,synchronized,java
-https://dzone.com//articles/an-overview-of-google-guava-and-introduction-to-it,"Google Guava and Its Two Fantastic Libraries: Graph and Eventbus",java,guava,google,tutorial
-https://dzone.com//articles/cassandra-udt,"Apache Cassandra With Java: Introduction to UDT",java,cassandra,jakarta-nosql,jnosql,udt,tutorial
-https://dzone.com//articles/how-to-detect-hate-speech-text-in-java,"How to Detect Hate Speech Text in Java",api,java,nlp-apis,hate-speech,tutorial
-https://dzone.com//articles/3-principles-for-java-engineers-to-apply-in-their-1,"3 Principles for Java Engineers to Stay Up-to-date With Technology",java,api-design,framework-development,library-design
-https://dzone.com//articles/spring-boot-jms-activemq-example,"Spring Boot JMS ActiveMQ Example [Video]",spring-boot,jms,java-messaging-service,activemq,java
-https://dzone.com//articles/gradle-goodness-enabling-preview-features-for-java,"Gradle Goodness: Enabling Preview Features For Java",java,kotlin,gradle,preview-features
-https://dzone.com//articles/using-microprofile-to-build-a-secure-graphql-api,"Using MicroProfile to Build a Secure GraphQL API",spring-boot,jhipster,java,rest,graphql,tutorial
-https://dzone.com//articles/virtual-tour-is-biggest-project-yet-for-new-java-c,"Virtual Tour Is the Biggest Project Yet for the New Java Community...",openjdk,java,open-source,news
-https://dzone.com//articles/monitoring-across-frameworks,"Monitoring Across Frameworks",java,devops,monitoring,frameworks,spring-boot,quarkus,micronaut,comparison,analysis
-https://dzone.com//articles/deadlock-free-synchronization-in-java,"Deadlock-Free Synchronization in Java",java,multithreading,synchronization,deadlocks,tutorial
-https://dzone.com//articles/re-thinking-the-visitor-pattern-with-scala-shapele,"Re-Thinking the Visitor Pattern With Scala: Shapeless and Polymorphic...",scala,shapeless,design-patterns,source-code,tutorial
-https://dzone.com//articles/implementing-authentication-and-authorization-with-vaadin,"Implementing Authentication and Authorization With Vaadin",vaadin,java,security,web,vaadin-flow
-https://dzone.com//articles/running-hazelcast-using-hazelcast-command-line,"Running Hazelcast Using Hazelcast Command Line",java,hazelcast,distributed-cache,tutorial,command-line-tool,hazelcast-command-line
-https://dzone.com//articles/multithreading-java-and-interviewspart-2,"Multithreading Java and Interviews Part 2: Mutex, the Java Monitor Model",java,multithreading,mutex,java-monitor-model,tutorial
-https://dzone.com//articles/migrating-cobol-batch-to-spring-batch,"Migrating COBOL Batch to Spring Batch",modernization,cobol,spring-batch,bulk-data,data-processing
-https://dzone.com//articles/how-to-sendreceive-product-object-tofrom-queuespri-2,"How to Send/Receive a Product Object to/from a Queue [Video]",jms,java-message-service,rabbitmq,spring
-https://dzone.com//articles/java_multi_interview_1,"Multithreading Java and Interviews Part 1: An Introduction",java,multithreading,multithreading-interview-questions
-https://dzone.com//articles/how-to-receive-messages-from-queue-asynchronously,"Receive Messages from Queue Asynchronously Using MessageListener | ActiveMQ...",jms,java-message-service,activemq,video
-https://dzone.com//articles/how-to-sendreceive-text-message-tofrom-queuespring-3,"How to Send/Receive Text Messages to/from a Queue (Spring + JMS + RabbitMQ...",jms,java-messaging-service,rabbitmq,spring-tutorial
-https://dzone.com//articles/differences-between-interfaces-and-abstract-classe,"What Are the Differences Between Interfaces and Abstract Classes?",interface,abstract-class,inheritance,polymorphism,java,tutorial,multiple-inheritances,inheritance-applicability
-https://dzone.com//articles/how-to-perform-lead-enrichment-in-java,"How to Perform Lead Enrichment in Java",api,java,sales-leads,tutorial,integration
-https://dzone.com//articles/creating-filters-and-listeners-with-gservlet,"Creating Filters With GServlet",groovy,servlet,java,gservlet,filter-interface,filter-methods,tutorial,java-tutorial
-https://dzone.com//articles/an-introduction-to-interference-implement-a-distri,"Implement a Distributed Database to Your Java Application",java,interference,sql,sql-queries,java-framework
-https://dzone.com//articles/skps-algorithms-and-data-structures-5-java-problem,"SKP's Algorithms and Data Structures #9: Java Problem: Monkeys in the...",techgig,core-java,algorithms,data-structures,problem-solving,mathematical-programming,complexity-metrics,iq,competitive,java-program
-https://dzone.com//articles/skps-algorithms-and-data-structures-8-java-problem,"SKP's Algorithms and Data Structures #8: Java Problem: Simple Inheritance...",techgig,core-java,algorithms,data-structures,problem-solving,mathematical-programming,complexity-metrics,iq,competitive,java-program
-https://dzone.com//articles/skps-algorithms-and-data-structures-7-functional-p,"SKP's Algorithms and Data Structures #7: Functional Programming and Java...",techgig,core-java,algorithms,data-structures,problem-solving,mathematical-programming,complexity-metrics,competitive,iq,java-program
-https://dzone.com//articles/skps-algorithms-and-data-structures-4-java-problem-1,"SKP's Algorithms and Data Structures #6: Java Problem: Active Traders",hacker-rank,core-java,algorithms,data-structures,problem-solving,mathematical-programming,complexity-metrics,competitive,iq,java-program
-https://dzone.com//articles/skps-algorithms-and-data-structures-4-java-problem,"SKP's Algorithms and Data Structures #5: Java Problem: Changes in Usernames",hacker-rank,core-java,algorithms,data-structures,problem-solving,mathematical-programming,complexity-metrics,competitive,iq,java-program
-https://dzone.com//articles/skps-javajava-ee-gotchas-bcel-issue-on-jibx-125-ja,"SKP's Java/Java EE Gotchas: BCEL Issue on JiBX 1.2.5...",bytecode,cxf,soap,web-services,jdk-18,root-cause-analysis,debugging,bytecode-tricks,java-internals,j2ee
-https://dzone.com//articles/skps-javajava-ee-gotchas-clustered-nodes-issue-usi,"SKP's Java/Java EE Gotchas: Clustered Nodes Issue Using Apache Lucene 5.4.y",lucene,hibernate-5,hibernate-search,search,j2ee,core-java,rdbms,distributed,clustered-index,root-cause-analysis
-https://dzone.com//articles/http-grpc-with-spring-web,"HTTP gRPC With spring-web",grpc,http,spring,java,tutorial
-https://dzone.com//articles/how-to-sendreceive-product-object-tofrom-queuespri-1,"How to Send/Receive Product Object To/From Queue (Spring + JMS + ActiveMQ...",jms,java-messaging-service,spring,activemq,video
-https://dzone.com//articles/skps-javajava-ee-gotchas-java-native-interface-jni,"SKP's Java/Java EE Gotchas: Java Native Interface (JNI): Unsatisfied Link...",jni,core-java,c,windows,linux,root-cause-analysis,debugging,code-maintenance,debugging-tutorial,native-integration
-https://dzone.com//articles/java-joy-merge-maps-using-stream-api,"Java Joy: Merge Maps Using Stream API",java,java-stream-api,java-maps,merge,tutorial,java-15
-https://dzone.com//articles/uploading-files-in-spring-boot-apps,"Uploading Files in Spring Boot Apps",java,spring-boot,file-upload,tutorial
-https://dzone.com//articles/how-to-sendreceive-text-message-tofrom-queuespring-2,"How to Send/Receive Text Messages to/from a Queue",jms,java-messaging-service,java,text-messages,tutorial,activemq,spring
-https://dzone.com//articles/using-quarkus-for-building-reactive-applications,"Using Quarkus for Building Reactive Applications",java,quarkus,microservices,java-ee,enterprise-java,tutorial,jakarta-ee
-https://dzone.com//articles/how-to-use-spring-boot-and-jhipster-with-reactive,"How to Use Spring Boot and JHipster With Reactive Java Microservices",spring-webflux,java,spring-boot,jhipster,java-microservice,tutorial,reactive-microservices
-https://dzone.com//articles/how-to-get-attribute-value-in-selenium-webdriver,"How To Get Attribute Value In Selenium WebDriver",selenium---web-browser-automation,selenium-automation,get-attribute,webdriver,selenium,selenium-automated-testing,selenium-automation-testing
-https://dzone.com//articles/using-hamcrest-and-vali4j-with-dbc-techniques-to-t,"Using Hamcrest and valid4j With DBC Techniques To Throw Recoverable...",java-programming-lang,hamcrest-matcher,exception
-https://dzone.com//articles/working-with-spring-boot-and-hazelcastdistributed,"Working With Spring Boot and Hazelcast (Distributed Cache)",hazelcast,tutorial,spring-boot,spring-boot-application
-https://dzone.com//articles/mxreflection-java-math-framework,"MXReflection: A Java Math Framework",java,framework,math,mxreflection
-https://dzone.com//articles/get-or-set-pdf-metadata-in-java,"Get or Set PDF Metadata in Java",api,java,metadata,pdf,tutorial
-https://dzone.com//articles/how-to-send-the-message-to-the-queue-of-activemq-j,"How to Send the Message to the Queue of ActiveMQ? | Java Message Service...",jms,java-messaging-service,tutorial,java
-https://dzone.com//articles/create-a-new-zip-archive-file-in-java,"Create a New ZIP Archive File in Java",api,java,zip,compression,tutorial
-https://dzone.com//articles/jms-api-programming-model-java-message-service-jms-1,"JMS API Programming Model and Java Message Service (JMS) Tutorial [Video]",jms,java-messaging-service,code-along,tutorial,java
-https://dzone.com//articles/java-threads-may-not-be-memory-efficient,"Java Threads: Are They Memory Efficient?",java-threads,jvm-arguments,memory-consumption,thread-class,java-application,memory-usage,memory-analysis
-https://dzone.com//articles/deploy-friday-e43,"Deploy Friday: E43 Move Your Java Microservices to the Cloud With Payara",java,payara,cloud,platformsh
-https://dzone.com//articles/working-with-json-document-in-gemfire-cache,"Working With JSON Document in Gemfire Cache",gemfire
-https://dzone.com//articles/java-unit-testing-private-methods,"Java: Unit Testing Private Methods",java,unit-testing,private-methods,tutorial
-https://dzone.com//articles/junit-and-tdd-for-testing,"JUnit and TDD for Testing",java,junit,tdd,unit-testing
-https://dzone.com//articles/java-joy-composing-functions,"Java Joy: Composing Functions",java,functions,tutorial,java-15
-https://dzone.com//articles/json-values,"The Value of JSON Values",java,functional-programming,immutability,persistent-data,json,tutorial
-https://dzone.com//articles/avoid-method-chaining-when-using-multiple-autoclos,"Avoid Method Chaining When Using Multiple AutoCloseable Instances",java-resources,java
-https://dzone.com//articles/java-memory-management,"Java Memory Management",java,java-memory-management,java-memory-leak,garbage-collection-in-java,reference-type,tutorial
-https://dzone.com//articles/event-notifier-apache-camel,"Event Notifier in Apache Camel Route",apache-camel,java,fuse,spring-boot-20,jboss-fuse,red-hat-fuse
-https://dzone.com//articles/spell-autocorrect-with-edit-distance-and-trie,"Spell Autocorrect With Edit Distance and Trie",java,trie-datastructure,hashmap,dynamic-programming,levenshtein-distance
-https://dzone.com//articles/what-are-path-parameters-web-services-tutorial,"What Are Path Parameters: Web Services Tutorial",web-service-api,web-services,java
-https://dzone.com//articles/distribution-of-jvm-desktop-applications,"Distribution of JVM Desktop Applications",java,gui,desktop,distribution,jpackage,jlink
-https://dzone.com//articles/efficient-multi-threaded-geo-web-crawler-using-jav,"Multi-Threaded Geo Web Crawler In Java",web-crawling,performance,tutorial,mowglee,multithreading
-https://dzone.com//articles/java-gitops,"Accelerating the Delivery of Your Project in the Cloud in an Easy and...",cloud,java,platformsh,gitops
-https://dzone.com//articles/how-to-get-a-countrys-time-zone-in-java,"How to Get a Country’s Time Zone in Java",api,java,tutorial,time-zone,international
-https://dzone.com//articles/jar-searcher-developer-tool,"JAR Searcher Developer Tool",java-developer,j2ee,jar-dependencies,java-classes,classpath,developer-tool,java-libraries,java-tools,java-ee-application,tutorial
-https://dzone.com//articles/skps-algorithms-and-data-structures-3,"SKP's Algorithms and Data Structures #3",sorting-algorithms,algorithms-and-data-structures,algorithms-implementation-in-java,data-structures,algorithms,core-java,mathematical-programming,sorting,java-sorting-algorithms,java-code-examples
-https://dzone.com//articles/skps-algorithms-and-data-structures-4,"SKP's Algorithms and Data Structures #4",core-java,java,dijkstra,linked-list-in-java,circular-linked-list,data-structure-using-java,algorithms-and-data-structures,data-structures,core-java-basics,java-code-examples
-https://dzone.com//articles/http-status-codes-200-301-401-etc-web-services-tut,"HTTP Status Codes: Web Services Tutorial [Video]",http-status-codes,java,web-services,tutorial
-https://dzone.com//articles/spring-dwr-ext-js-chat-application,"Spring — DWR — Ext JS Chat Application",spring,direct-web-remoting,extjs,spring-mvc,spring-30,web-dev,chat-application,ajax,chat-server,tutorial
-https://dzone.com//articles/spring-boot-on-quarkus-magic-or-madness,"Spring Boot on Quarkus: Magic or Madness?",quarkus,spring,spring-boot,microservices,java,migration,tutorial
-https://dzone.com//articles/preventing-xxe-in-java-applications,"Preventing XXE in Java Applications",java,security,application-development,software-development,secure-development,software-engineering,xml-external-entity,tutorial
-https://dzone.com//articles/decrypt-a-pdf-document-with-a-password-in-java,"Decrypt a PDF Document With a Password in Java",api,java,pdf,decrypt,password,tutorial
-https://dzone.com//articles/http-body-web-services-tutorial,"HTTP Body | Web Services Tutorial [Video]",http,tutorial,video
-https://dzone.com//articles/spring-hibernate-ehcache-recipe,"Spring, Hibernate, EhCache Recipe",core-java,spring-25,hibernate,hibernate-caching,ehcache,java-performance,j2ee,mysql--5-,java-persistence,data-caching
-https://dzone.com//articles/skaffolding-springboot-application,"CI/CD Workflow for Spring Boot Application on Kubernetes via Skaffold",devops,springboot,skaffold,jib-plugin,kubernetes,cicd-pipeline,java,tutorial
-https://dzone.com//articles/openldap-and-its-integration-with-camunda-using-ca,"Integrating OpenLDAP With Camunda Distribution in Windows",camunda-bpm,ldap-authentication,openldap,wildfly,directory-services,integration,tutorial,java
-https://dzone.com//articles/enhancing-the-development-loop-with-quarkus-remote,"Enhancing the Development Loop With Quarkus Remote Development",java,quarkus,kubernates,openshift,container,developer,cloud-native-applications
-https://dzone.com//articles/deploy-friday-e42,"Deploy Friday: E42 Subatomic Reactive Systems in cloud",java,cloud,reactive,platformsh
-https://dzone.com//articles/customizing-oracle-ebs-applications,"Customizing Oracle EBS Applications",oracle,oracle-cloud,oracle-ebs-testing
-https://dzone.com//articles/transactional-effect-in-scala,"Transactional Effects in Scala",scala,functinal-programming,cats-effect,java,tutorial
-https://dzone.com//articles/stranger-things-in-java-constants,"Stranger Things in Java: Constants",java,constants,inheritance,multiple-inheritances
-https://dzone.com//articles/http-headers-authorization-header-web-services-tut,"HTTP Headers: Authorization Header | Web Services Tutorial",http-headers,java,web-services,authorization-header
-https://dzone.com//articles/http-headers-content-type-header-web-services-tuto,"HTTP Headers: Content-Type Header | Web Services Tutorial [Video]",http-headers,java,web-services,video
-https://dzone.com//articles/declare-var-not-war,"Local Variable Type Inference: Declare Var, Not War",java,java-10,local-variable-type-inference,var,tutorial
-https://dzone.com//articles/your-input-needed-to-determine-path-for-jakarta-ee,"Your Input Needed to Determine Path for Jakarta EE/MicroProfile Alignment",java,java-ee,jakarta-ee,microprofile
-https://dzone.com//articles/http-headers-web-services-tutorial,"HTTP Headers: Web Services Tutorial",http-headers,java,web-services
-https://dzone.com//articles/java-2021-what-frameworks-and-trends-for-this-new,"Java 2021: What Frameworks and Trends for This New Year?",java,cloud,platformsh,quarkus,micronaut,payara,spring
-https://dzone.com//articles/crud-rest-service-with-spring-boot-hibernate-and-j,"Build a RESTful CRUD Service With Spring Boot, Hibernate, and JPA",spring-boot,java,hibernate,jpa
-https://dzone.com//articles/enable-spring-boot-applicationstartup-metrics-to-d,"Enable Spring Boot ApplicationStartup Metrics to Diagnose Slow Startup",spring-boot,tutorial,metrics-monitoring,spring-boot-tutorial
-https://dzone.com//articles/clojure-goodness-destructure-sequences,"Clojure Goodness: Destructure Sequences",java,clojure,vectors,lists,sequences,tutorial
-https://dzone.com//articles/most-viewed-articles-java-zone-january,"Top 10 Articles in the Java Zone: January 2021",java,java-articles,java-zone,dzone-java,java-interview-questions
-https://dzone.com//articles/new-feature-of-interference-cluster-release-20211,"New Feature of Interference Cluster Release in Version 2021.1",java,database-cluster,sql,cep,distributed-database
-https://dzone.com//articles/how-to-translate-a-language-in-java,"How to Translate a Language in Java",api,java,language-translation,deep-learning,tutorial
-https://dzone.com//articles/going-beyond-java-8-compact-strings,"Going Beyond Java 8: Compact Strings",java-programming-lang,architechture,strings,character,java,tutorial
-https://dzone.com//articles/jms-api-programming-model-java-message-service-jms,"JMS API Programming Model [Video]",jms,java-messaging-service,java,tutorial
-https://dzone.com//articles/getting-started-with-gservlet,"Getting Started With GServlet",servlet,groovy,java,gservlet,tutorial
-https://dzone.com//articles/convert-an-mp4-video-to-gif-in-java,"Convert an MP4 Video to GIF in Java",api,java,mp4,gif,file-conversion,video-api
-https://dzone.com//articles/the-state-of-jvm-desktop-frameworks-jetpack-compos,"The State of JVM Desktop Frameworks: Jetpack Compose for Desktop",gui,desktop,jetpack,desktop-application,java,desktop-framework,functional-programming,jvm
-https://dzone.com//articles/http-message-structure-web-services-tutorial,"HTTP Message Structure | Web Services Tutorial [Video]",http,web-service
-https://dzone.com//articles/introduction-to-reflectionless-know-what-the-new-t,"Introduction to Reflectionless: Discover the New Trend in the Java World",java,cloud,reflection
-https://dzone.com//articles/write-a-quarkus-function-in-two-steps-on-red-hat-o,"Write a Quarkus Function in Two Steps on Red Hat OpenShift Serverless",java,quarkus,serverless,function-app,function,cloud,cloud-native-and-kubernetes,openshift,kubernetes
-https://dzone.com//articles/stranger-things-about-java-the-protected-modifier,"Stranger Things About Java: The protected Modifier",protected,java,singleton,inheritance,access-modifiers,tutorial
-https://dzone.com//articles/5-top-programming-languages-for-your-android-app-d,"5 Top Programming Languages For Your Android App Development Project",android-app-developement,programming-languages,java-programming-lang,kotlin,c,c,lua,mobile-app-development,app-development,tutorial
-https://dzone.com//articles/deploy-friday-e41-empowering-business-automation-w,"Deploy Friday: E41 Empowering business automation with Quarkus",java,cloud,platformsh
-https://dzone.com//articles/scaling-secure-applications-with-spring-session-an,"Scaling Secure Applications With Spring Session and Redis",java,spring-boot,tutorial,redis,microservices
-https://dzone.com//articles/java-code-quality-tools-recommended-by-developers,"Java Code Quality Tools Recommended by Developers",java,java-tutorial-for-beginners,java-tutorials,java-developers,code-quality,code-reviews,static-analysis-tools,junit
-https://dzone.com//articles/modern-cloud-native-jakartaee-presentation,"Modern Cloud-Native Jakarta EE Frameworks: tips, challenges, and trends",java,cloud,platformsh,microprofile,jakarta-ee
-https://dzone.com//articles/the-state-of-jvm-desktop-frameworks-tornadofx,"The State of JVM Desktop Frameworks: TornadoFX",gui,kotlin,javafx,desktop,tornado
-https://dzone.com//articles/treemap-diagram-in-java-swing,"Treemap Diagram in Java Swing",java,tutorials,diagrams,treemap
-https://dzone.com//articles/how-to-generate-and-compile-sources-at-runtime-in-java,"How to Generate and Compile Sources at Runtime in Java",generate,compile,source-code,runtime,java,tutorial
-https://dzone.com//articles/what-is-java-message-service-jms-video,"What Is the Java Message Service (JMS)?",jms,java-messaging-service,java
-https://dzone.com//articles/jakarta-ee-microprofile-2021,"Jakarta EE/MicroProfile Prospects for 2021",java,cloud,microprofile,jakarta-ee,paas,payara,platformsh
-https://dzone.com//articles/what-is-load-average,"What is 'Load Average?'",devops-application,cpu-usage,cpu-memory-usage,java-application-development,top,vmstat-command,netstat-connections,unix-operating-system,linux-operating-system,operating-systems
-https://dzone.com//articles/java-serverless-on-steroids-with-fngraalvm-hands-o-1,"Java Serverless on Steroids With fn+GraalVM Hands-On",java,graalvm,serverless,container,docker,kubernates,cloud,performance,tutorial
-https://dzone.com//articles/the-state-design-pattern-in-java-video,"The State Design Pattern in Java [Video]",design-patterns,java,state-design-pattern,tutorial
-https://dzone.com//articles/how-pvs-studio-checked-elki-in-january,"What Happened When PVS-Studio Checked ELKI in January",java,programming,open-source,static-analysis,static-code-analysis,static-code-analyzer,bugs,data-mining
-https://dzone.com//articles/architectural-approaches-to-authorization-in-serve,"Architectural Approaches To Authorization in Server Applications:...",java,access-control,security,spring,framework-architecture,framework-development,abac,authorization,declarative,annotation-processors
-https://dzone.com//articles/customizing-cors-filtering-at-runtime,"Customizing CORS Filtering at Runtime",java,spring,cors,runtime,tutorial
-https://dzone.com//articles/clojure-goodness-invoke-a-java-method-with-a-varar,"Clojure Goodness: Invoke a Java Method With a Varargs Parameter",java,clojure,varargs,tutorial
-https://dzone.com//articles/native-memory-may-cause-unknown-memory-leaks,"Native Memory May Cause Unknown Memory Leaks",java-programming-lang,native-memory,memory-management,tutorial
-https://dzone.com//articles/diving-into-scala-cats-functors,"Diving into Scala Cats – Functors",scala,cats,functional-programming
-https://dzone.com//articles/diving-into-scala-cats-monoids,"Diving into Scala Cats – Monoids",scala,cats,functional-programming,monoids
-https://dzone.com//articles/diving-into-scala-cats-semigroups,"Diving into Scala Cats – Semigroups",scala,cats,functinal-programming
-https://dzone.com//articles/getting-started-with-scala-cats-1,"Getting Started with Scala Cats",scala,cats,functional-programming,type-classes,implicits
-https://dzone.com//articles/modernizing-java-ee-applications-with-websphere-li,"Modernizing Java EE Applications With WebSphere Liberty",java,java-ee,websphere-liberty,microprofile,microservices,tutorial
-https://dzone.com//articles/java-web-service-message-formats-video,"Java: Web Service Message Formats [Video]",web-services,java,tutorial
-https://dzone.com//articles/async-programming-java-part-ii,"Async Programming Java: Part II",java-programming-lang,executor-framework,future,multithreading,forkjoinpool,tutorial
-https://dzone.com//articles/why-do-we-need-http-web-services-tutorial,"Why Do We Need HTTP? | Web Services Tutorial",http,http-calls,https,java,tutorial
-https://dzone.com//articles/what-are-web-services-architecture-types-and-examples,"What Are Web Services? Architecture, Types, and Examples [Video]",java,web-services,code-architecture,tutorial
-https://dzone.com//articles/the-state-of-jvm-desktop-frameworks-swt,"The State of JVM Desktop Frameworks: SWT",gui,kotlin,swt
-https://dzone.com//articles/using-barcodes-in-itext-7,"Using Barcodes in iText 7",itext,barcode,java
-https://dzone.com//articles/advanced-search-amp-filtering-api-using-spring-dat,"Advanced Search and Filtering API Using Spring Data and MongoDB",spring-boot-22,spring-data,mongo-db,docker
-https://dzone.com//articles/spring-boot-boost-jpa-bulk-insert-performance-by-100x,"Spring Boot: Boost JPA Bulk Insert Performance by 100x",spring-boot,spring-data-jpa,java,mysql,performance,tutorial
-https://dzone.com//articles/top-5-java-full-stack-developer-courses,"Top 5 Java Full-Stack Developer Courses",java,fullstack,spring,angular,web-dev
-https://dzone.com//articles/how-to-detect-faces-in-an-image-in-java,"How To Detect Faces in an Image in Java",api,java,image-editing,face-detection-api,face-detection,face-recognition
-https://dzone.com//articles/how-to-convert-a-scanned-document-into-text-in-jav,"How To Convert a Scanned Document Into Text in Java",api,java,image-to-text-conversion,ocr-api,ocr-document-scanning
-https://dzone.com//articles/supersonic-subatomic-grpc-services-with-java-and-q,"Supersonic, Subatomic gRPC Services With Java and Quarkus",quarkus,java,grpc,kubernetes,microservices,rest,protobuf
-https://dzone.com//articles/heapdump-with-lots-of-unresolved-name-objects,"Heap Dump With Lots of 'Unresolved Name' Objects",heap-dump-analysis,memory-analysis,java,tutorial
-https://dzone.com//articles/jpa-goes-even-easier-with-its-buddy,"JPA Goes Even Easier With its Buddy",java,jpa,tools,spring-data,hibernate,liquibase
-https://dzone.com//articles/how-to-use-an-api-api-tutorial-web-services-tutori,"How to Use an API",application-programming-interface,web-service,api
-https://dzone.com//articles/mock-java-datetime-for-testing,"Mock Java Date/Time for Testing",java,testing-best-practices,archunit,java-8,date-and-time,time-mocking,jsr-310
-https://dzone.com//articles/analyze-monolithic-java-applications-in-multiple-w,"Analyze Monolith Java Applications in Multiple CodeReady Workspaces With...",java,migration,codeready-studio,microservice-best-practices,eclipse-che,operator
-https://dzone.com//articles/what-is-an-api-api-tutorial,"[Video] What Is an API?",application-programming-interface,web-service,api
-https://dzone.com//articles/java-syntax-puzzlers,"Java Syntax Puzzlers",java,java-language,compiler,jdt
-https://dzone.com//articles/logical-separation-hexagonal,"Logical Separation in the Hexagonal Architecture",software-architecture,software-design
-https://dzone.com//articles/respectful-rest-apis-sunset-and-deprecation-http-h,"Respectful REST APIs: ‘Sunset’ and ‘Deprecation’ HTTP Headers",api,rest,hateoas,java,spring,tutorial
-https://dzone.com//articles/data-access-object-design-pattern-introduction-exa,"Data Access Object Design Pattern: Introduction, Example, and Key Points...",dao,data-access-patterns,video
-https://dzone.com//articles/what-makes-java-open-source,"What Makes Java Open-Source?",java,open-source,openjdk,microprofile,quarkus,eclipse,jakarta-ee
-https://dzone.com//articles/microprofile-your-cloud-native-companion-for-enter,"MicroProfile: Your Cloud-Native Companion for Enterprise Java [Video]",java,microservices,microprofile,enterprise-java,jakarta-ee
-https://dzone.com//articles/abstract-factory-design-pattern-in-java,"Abstract Factory Design Pattern in Java [Video]",abstract-factory-pattern,java,tutorial,design-patterns
-https://dzone.com//articles/how-to-rephrase-or-paraphrase-text-using-ai-in-java,"How to Rephrase or Paraphrase Text Using AI in Java",api,nlp-apis,deep-learning-for-ai,java,paraphrasing-tool-online,language
-https://dzone.com//articles/jdk-17-hexadecimal-formatting-and-parsing,"JDK 17: Hexadecimal Formatting and Parsing",java,java-17,hexadecimal-parsing,hexadecimal-formatting,tutorial
-https://dzone.com//articles/java-joy-turn-streams-into-arrays-snippet,"Java Joy: Turn Streams Into Arrays [Snippet]",java,java-streams,java-arrays
-https://dzone.com//articles/upgrading-a-maven-spring-boot-and-javafx-applicati,"Upgrading a Maven, Spring Boot, and JavaFX Application",java,java-15,kotlin,maven,javafx,spring-boot,upgrade,tutorial
-https://dzone.com//articles/4-things-cloud-native-java-must-provide,"4 Things Cloud-Native Java Must Provide",java,serverless,open-source,kubernetes,kafka,vertx,jaeger,prometheus
-https://dzone.com//articles/clustered-quartz-scheduler-with-spring-boot-and-mo,"Clustered Quartz Scheduler With Spring Boot and MongoDB",quartz,spring-boot,mongo-db,cluster,scheduler-lock
-https://dzone.com//articles/the-state-of-jvm-desktop-frameworks-swing,"The State of JVM Desktop Frameworks: Swing",kotlin,gui,desktop,swing
-https://dzone.com//articles/threads-in-java,"Threads in Java",java,tutorial,threads-in-java,thread-class-in-java
-https://dzone.com//articles/proper-strings-normalization-for-comparison-purpos,"Proper String Normalization for Comparison Purposes",java,i18n,normalization,string-normalization
-https://dzone.com//articles/garbage-collection-in-javajvm,"Garbage Collection in Java (JVM)",jvm,garbage-colection,gc-monitoring,eden-space,java,memory,perfoemance,memory-management,memory-leak
-https://dzone.com//articles/celebrating-25-years-of-java-and-javascript,"Celebrating 25 Years of Java and JavaScript!",java,javascript,history-of-java,history-of-javascript,jquery,nodejs,react,angular,vue
-https://dzone.com//articles/creating-a-cad-application-in-java,"Creating a CAD Application in Java",java,javafx,user-interface-design,user-experience,jmetro,analysis
-https://dzone.com//articles/a-case-study-on-spring-framework,"A Case Study on Spring Framework",static-analysis-tools,clean-architecture,clean-code,software-quality,code-metrics,complexity,coupling,cohesion,performance,spring
-https://dzone.com//articles/how-to-convert-a-price-from-usd-to-eur-in-java,"How to Convert a Price from USD to EUR in Java",api,currency-converter,tutorial,java
-https://dzone.com//articles/creating-a-kubernetes-operator-in-java-video,"Creating a Kubernetes Operator in Java [Video]",java,kubernetes-operators,docker,containers
+https://sivalabs.in/how-to-not-to-ask-for-technical-help/,"How (not) to ask for Technical Help?",Tech
+https://sivalabs.in/my-all-time-favourite-20-inspiring-tech-talks/,"My all-time favourite 20 inspiring Tech Talks",Tech
+https://sivalabs.in/announcing-my-springboot-tips-video-series/,"Announcing My "SpringBoot Tips Video Series" on YouTube",SpringBoot
+https://sivalabs.in/my-attempt-to-understand-why-people-perceive-java-as-complex/,"My attempt to understand why people perceive Java as complex",Java
+https://sivalabs.in/code-simplicity-by-abstraction-vs-verbosity/,"Code simplicity by Abstraction vs Verbosity",Thoughts
+https://sivalabs.in/kubernetes-ingress/,"Kubernetes - Exposing Services to outside of Cluster using Ingress",Kubernetes
+https://sivalabs.in/kubernetes-blue-green-deployments/,"Kubernetes - Blue/Green Deployments",Kubernetes
+https://sivalabs.in/kubernetes-deployment-rolling-updates/,"Kubernetes - Releasing a new version of the application using Deployment Rolling Updates",Kubernetes
+https://sivalabs.in/getting-started-with-kubernetes/,"Getting Started with Kubernetes",Kubernetes
+https://sivalabs.in/get-super-productive-with-intellij-file-templates/,"Get Super Productive with Intellij File Templates",IntellijIDEA
+https://sivalabs.in/few-things-i-learned-the-hardway-in-15-years-of-my-career/,"Few Things I learned in the HardWay in 15 years of my career",Thoughts
+https://sivalabs.in/springboot-application-deployment-monitoring-part-2-jenkins-setup/,"SpringBoot application deployment and monitoring series - Part 2 - Build Server Setup using Jenkins",SpringBoot
+https://sivalabs.in/springboot-application-deployment-monitoring-part-1/,"SpringBoot application deployment and monitoring series - Part 1 - Build Services",SpringBoot
+https://sivalabs.in/springboot-application-deployment-monitoring-series/,"SpringBoot Application deployment and monitoring series",SpringBoot
+https://sivalabs.in/tips-to-work-with-traditional-enterprise-organizations/,"Tips to work at traditional enterprise organizations as consultant/contractor (and save your ass)",Thoughts
+https://sivalabs.in/improve-jpa-performance-using-hypersistence-optimizer/,"Improve JPA application performance using HypersistenceOptimizer",JPA
+https://sivalabs.in/quirks-of-spring-testconfiguration/,"Quirks of Spring's @TestConfiguration",SpringBoot
+https://sivalabs.in/my-thoughts-on-cleancode-simplicity-automation-empathy/,"My Thoughts on CleanCode, Simplicity, Automation and Empathy",Thoughts
+https://sivalabs.in/localstack-spring-boot-starter-tutorial/,"LocalStack SpringBoot Starter Tutorial",Localstack
+https://sivalabs.in/all-the-resources-you-ever-need-as-a-java-spring-application-developer/,"All the resources you ever need as a Java & Spring application developer",SpringBoot
+https://sivalabs.in/golang-from-a-java-developer-perspective/,"GoLang from a Java developer perspective",Thoughts
+https://sivalabs.in/my-proud-moment-as-a-mentor/,"My proud moment as a mentor",Thoughts
+https://sivalabs.in/remote-debugging-spring-boot-application/,"Remote debugging SpringBoot application",SpringBoot
+https://sivalabs.in/impose-architecture-guidelines-using-archunit/,"Imposing Code Structure Guidelines using ArchUnit",CleanCode
+https://sivalabs.in/spring-boot-integration-testing-using-testcontainers-starter/,"SpringBoot Integration Testing using TestContainers Starter",Testcontainers
+https://sivalabs.in/creating-yeoman-based-springboot-generator/,"Creating Yeoman based SpringBoot Generator",Yeoman
+https://sivalabs.in/testing-rest-apis-with-postman-newman/,"Testing REST APIs using Postman and Newman",Testing
+https://sivalabs.in/spring-boot-testing/,"Testing SpringBoot Applications",Testing
+https://sivalabs.in/kafka-tutorial-producer-consumer-using-spring-boot/,"Kafka Tutorial - Producer and Consumer using SpringBoot",Kafka
+https://sivalabs.in/kafka-tutorial-java-producer-consumer/,"Kafka Tutorial - Java Producer and Consumer",Kafka
+https://sivalabs.in/spring-boot-best-practices/,"SpringBoot Best Practices",SpringBoot
+https://sivalabs.in/microservices-part-6-distributed-tracing-with-spring-cloud-sleuth-and-zipkin/,"MicroServices - Part 6 : Distributed Tracing with Spring Cloud Sleuth and Zipkin",MicroServices
+https://sivalabs.in/microservices-part-5-spring-cloud-zuul-proxy-as-api-gateway/,"MicroServices - Part 5 : Spring Cloud Zuul Proxy as API Gateway",MicroServices
+https://sivalabs.in/spring-cloud-netflix-circuit-breaker/,"MicroServices - Part 4 : Spring Cloud Circuit Breaker using Netflix Hystrix",MicroServices
+https://sivalabs.in/microservices-springcloud-eureka/,"MicroServices - Part 3 : Spring Cloud Service Registry and Discovery",MicroServices
+https://sivalabs.in/microservices-part-2-configuration-management-spring-cloud-config-vault/,"MicroServices - Part 2 : Configuration Management with Spring Cloud Config and Vault",MicroServices
+https://sivalabs.in/microservices-using-springboot-spring-cloud-part-1-overview/,"MicroServices using Spring Boot & Spring Cloud – Part 1 : Overview",MicroServices
+https://sivalabs.in/why-springboot-so-popular-how-to-learn-springboot/,"Why SpringBoot is so popular and how to learn SpringBoot effectively?",SpringBoot
+https://sivalabs.in/springboot-messaging-rabbitmq/,"SpringBoot Messaging with RabbitMQ",SpringBoot
+https://sivalabs.in/session-management-using-spring-session-jdbc-datastore/,"Session Management using Spring Session with JDBC DataStore",SpringBoot
+https://sivalabs.in/ci-cd-springboot-applications-using-travis-ci/,"CI/CD for SpringBoot applications using Travis-CI",CICD
+https://sivalabs.in/spring-cloud-tutorials-auto-refresh-config-changes-using-spring-cloud-bus/,"Spring Cloud Tutorials – Auto Refresh Config Changes using Spring Cloud Bus",SpringBoot
+https://sivalabs.in/spring-cloud-tutorials-introduction-to-spring-cloud-config-server/,"Spring Cloud Tutorials – Introduction to Spring Cloud Config Server",SpringBoot
+https://sivalabs.in/getting-started-springboot-intellij-idea-community-edition/,"Getting Started with SpringBoot in Intellij IDEA Community Edition",SpringBoot
+https://sivalabs.in/creating-custom-springboot-starter-for/,"Creating Custom SpringBoot Starter for Twitter4j",SpringBoot
+https://sivalabs.in/springboot-working-with-jooq/,"SpringBoot : Working with JOOQ",SpringBoot
+https://sivalabs.in/springboot-working-with-mybatis/,"SpringBoot : Working with MyBatis",SpringBoot
+https://sivalabs.in/springboot-working-with-jdbctemplate/,"SpringBoot : Working with JdbcTemplate",SpringBoot
+https://sivalabs.in/how-springboot-autoconfiguration-magic/,"How SpringBoot AutoConfiguration magic works?",SpringBoot
+https://sivalabs.in/why-springboot/,"Why SpringBoot?",SpringBoot
+https://sivalabs.in/retrying-method-execution-using-spring-aop/,"Retrying Method Execution using Spring AOP",SpringBoot
+https://sivalabs.in/2015/07/my-life-as-software-developer-in-india/,"My Life as a Software Developer in India",Thoughts
+https://sivalabs.in/2015/06/a-developers-perspective-on-spring-vs-javaee/,"A Developers Perspective on Spring vs JavaEE",Thoughts
+https://sivalabs.in/2014/11/can-microservices-architecture-solve-all-your-problems/,"Can MicroServices Architecture Solve All Your Problems?",Thoughts
+https://sivalabs.in/2013/12/clean-code-dont-mix-different-levels-of-abstractions/,"Clean Code: Don’t mix different levels of abstractions",CleanCode
+https://sivalabs.in/2012/10/mybatis-tutorial-part4-spring-integration/,"MyBatis Tutorial : Part4 – Spring Integration",MyBatis
+https://sivalabs.in/2012/10/mybatis-tutorial-part-3-mapping-relationships/,"MyBatis Tutorial: Part 3 – Mapping Relationships",MyBatis
+https://sivalabs.in/2012/10/mybatis-tutorial-part-2-crud-operations-using-annotations/,"MyBatis Tutorial: Part-2: CRUD operations Using Annotations",MyBatis
+https://sivalabs.in/2012/10/mybatis-tutorial-part1-crud-operations/,"MyBatis Tutorial: Part1 – CRUD Operations",MyBatis
+https://sivalabs.in/2012/08/keep-code-clean-watchdog-spotthebug/,"Keep The Code Clean: WatchDog & SpotTheBug Approach",CleanCode
+https://sivalabs.in/2011/08/when-to-use-requestdispatcherforward/,"When to use RequestDispatcher.forward() and response.sendRedirect()?",Java
+https://sivalabs.in/2011/08/frameworks-making-developers-dumb/,"Are frameworks making developers dumb?",Thoughts
+https://sivalabs.in/2011/01/10-things-to-become-outstanding-java/,"10 things to become an outstanding Java developer",Java
+https://reflectoring.io/date-time-feature-flags/,"Testing Time-Based Features with Feature Flags",Java
+https://reflectoring.io/getting-started-with-aws-step-functions-tutorial/,"Getting Started with AWS Step Functions",AWS
+https://reflectoring.io/node-logging-winston/,"Node.js Logging with Winston",NodeJS
+https://reflectoring.io/jackson/,"All You Need To Know About JSON Parsing With Jackson",Java
+https://reflectoring.io/understanding-kotlin-coroutines-tutorial/,"Understanding Kotlin Coroutines",Kotlin
+https://reflectoring.io/gradle-wrapper/,"Run Your Gradle Build Anywhere with the Gradle Wrapper",Gradle
+https://reflectoring.io/distribute-static-content-with-cloudfront-tutorial/,"Distribute Static Content with Amazon CloudFront",AWS
+https://reflectoring.io/java-mapping-with-mapstruct/,"One-Stop Guide to Mapping with MapStruct",Java
+https://reflectoring.io/connect-rds-byjumphost/,"Using a Jump host to access an RDS database in a private subnet",AWS
+https://reflectoring.io/tutorial-guide-axios/,"Complete Guide to Axios HTTP Client",Web
+https://reflectoring.io/okhttp-retrofit/,"Typesafe HTTP Clients with OkHttp and Retrofit",Java
+https://reflectoring.io/reactive-architecture-with-spring-boot/,"Reactive Architecture with Spring Boot",SpringBoot
+https://reflectoring.io/comprehensive-guide-to-java-streams/,"Comprehensive Guide to Java Streams",Java
+https://reflectoring.io/getting-started-with-amazon-ec2/,"Getting Started with Amazon EC2",AWS
+https://reflectoring.io/express-error-handling/,"Error Handling in Express",NodeJS
+https://reflectoring.io/when-to-use-lombok/,"When Should I Use Project Lombok?",Java
+https://reflectoring.io/spring-boot-info-endpoint/,"Exposing a Helpful Info Endpoint with Spring Boot Actuator",SpringBoot
+https://reflectoring.io/express-middleware/,"Complete Guide to Express Middleware",NodeJS
+https://reflectoring.io/getting-started-with-spring-boot/,"Getting Started with Spring Boot",SpringBoot
+https://reflectoring.io/processing-streams-with-aws-kinesis/,"Processing Streams with Amazon Kinesis",AWS
+https://reflectoring.io/feature-flags-make-or-buy/,"Feature Flags: Make or Buy?",Java
+https://reflectoring.io/getting-started-with-spring-webflux/,"Getting Started with Spring WebFlux",SpringBoot
+https://reflectoring.io/spring-shell/,"Create Command-line Applications with Spring Shell",SpringBoot
+https://reflectoring.io/java-completablefuture/,"Improving Performance with Java's CompletableFuture",Java
+https://reflectoring.io/nodejs-modules-imports/,"CommonJS vs. ES Modules: Modules and Imports in NodeJS",NodeJS
+https://reflectoring.io/getting-started-with-express/,"Getting Started with Express",NodeJS
+https://reflectoring.io/getting-started-with-aws-sqs/,"Getting Started with Amazon SQS",AWS
+https://reflectoring.io/java-annotation-processing/,"An Introduction to Annotations and Annotation Processing in Java",Java
+https://reflectoring.io/spring-boot-null-safety-annotations/,"Protect Your Code from NullPointerExceptions with Spring's Null-Safety Annotations",Java
+https://reflectoring.io/getting-started-with-aws-cdk/,"Getting Started with AWS CDK",AWS
+https://reflectoring.io/immutables-library/,"Complete Guide to the Immutables Java Library",Java
+https://reflectoring.io/common-operations-on-java-collections/,"Common Operations on Java Collections",Java
+https://reflectoring.io/spring-boot-tracing/,"Tracing with Spring Boot, OpenTelemetry, and Jaeger",SpringBoot
+https://reflectoring.io/spring-resttemplate/,"Complete Guide to Spring RestTemplate",SpringBoot
+https://reflectoring.io/spring-boot-internationalization/,"How to Internationalize a Spring Boot Application",SpringBoot
+https://reflectoring.io/java-release-notes/,"Java Features from Java 8 to Java 17",Java
+https://reflectoring.io/creating-hashes-in-java/,"Creating Hashes in Java",Java
+https://reflectoring.io/comparison-of-java-http-clients/,"Comparison of Java HTTP Clients",Java
+https://reflectoring.io/spring-boot-feature-flags/,"Feature Flags with Spring Boot",SpringBoot
+https://reflectoring.io/laws-and-principles-of-software-development/,"Laws and Principles of Software Development",Tech
+https://reflectoring.io/time-limiting-with-springboot-resilience4j/,"Timeouts with Spring Boot and Resilience4j",SpringBoot
+https://reflectoring.io/assertj-lists/,"Asserting Lists with AssertJ",Java
+https://reflectoring.io/atomic-habits-in-software-development/,"Atomic Habits in Software Development",Tech
+https://reflectoring.io/zero-downtime-deployments-with-feature-flags/,"Zero Downtime Database Changes with Feature Flags - Step by Step",Java
+https://reflectoring.io/spring-scheduler/,"Running Scheduled Jobs in Spring Boot",SpringBoot
+https://reflectoring.io/spring-aws-cloudwatch/,"Publishing Metrics from Spring Boot to Amazon CloudWatch",AWS
+https://reflectoring.io/rate-limiting-with-springboot-resilience4j/,"Rate-Limiting with Spring Boot and Resilience4j",SpringBoot
+https://reflectoring.io/structured-logging/,"Saving Time with Structured Logging",Java
+https://reflectoring.io/bean-validation-with-spring-boot/,"Validation with Spring Boot - the Complete Guide",SpringBoot
+https://reflectoring.io/complete-guide-to-csrf/,"Complete Guide to CSRF/XSRF (Cross-Site Request Forgery)",Security
+https://reflectoring.io/retry-with-springboot-resilience4j/,"Retry with Spring Boot and Resilience4j",SpringBoot
+https://reflectoring.io/spring-boot-test/,"Testing with Spring Boot and @SpringBootTest",SpringBoot
+https://reflectoring.io/profile-specific-logging-spring-boot/,"Per-Environment Logging with Plain Java and Spring Boot",SpringBoot
+https://reflectoring.io/complete-guide-to-cors/,"Complete Guide to CORS",Java
+https://reflectoring.io/java-feature-flags/,"Feature Flags in Java with Togglz and LaunchDarkly",Java
+https://reflectoring.io/spring-cloud-aws-ses/,"Sending Emails with Amazon SES and Spring Cloud AWS",AWS
+https://reflectoring.io/spring-cloud-aws-redis/,"Caching with ElastiCache for Redis and Spring Cloud AWS",AWS
+https://reflectoring.io/spring-camel/,"Getting Started with Apache Camel and Spring Boot",SpringBoot
+https://reflectoring.io/complete-guide-to-csrf/,"Complete Guide to CSRF",Java
+https://reflectoring.io/spring-dynamodb/,"Working with AWS DynamoDB and Spring",AWS
+https://reflectoring.io/spring-boot-testconfiguration/,"Testing with Spring Boot's @TestConfiguration Annotation",SpringBoot
+https://reflectoring.io/spring-cloud-aws-rds/,"Getting Started With AWS RDS and Spring Cloud",AWS
+https://reflectoring.io/spring-webclient/,"Sending HTTP requests with Spring WebClient",SpringBoot
+https://reflectoring.io/spring-cloud-aws-sqs/,"Getting Started With AWS SQS and Spring Cloud",AWS
+https://reflectoring.io/securing-data-on-aws/,"Securing Data in AWS",AWS
+https://reflectoring.io/analyzing-thread-dumps/,"Creating and Analyzing Thread Dumps",Java
+https://reflectoring.io/designing-a-aws-cdk-project/,"Designing an AWS CDK Project with Java",AWS
+https://reflectoring.io/exploring-a-spring-boot-app-with-actuator-and-jq/,"Exploring a Spring Boot App with Actuator and jq",SpringBoot
+https://reflectoring.io/clean-unit-tests-with-mockito/,"Clean Unit Tests with Mockito",Testing
+https://reflectoring.io/terraform-aws/,"Using Terraform to Deploy AWS Resources",AWS
+https://reflectoring.io/first-java-program-robot-arena/,"Getting Started With Java: Build a Robot Arena",Java
+https://reflectoring.io/maven-bom/,"Using Maven's Bill of Materials (BOM)",Java
+https://reflectoring.io/service-provider-interface/,"Implementing Plugins with Java's Service Provider Interface",Java
+https://reflectoring.io/dont-use-spring-profile-annotation/,"Don't Use the @Profile Annotation in a Spring Boot App!",SpringBoot
+https://reflectoring.io/deploy-spring-boot-app-with-aws-cdk/,"Deploying a Spring Boot App with the AWS CDK",AWS
+https://reflectoring.io/create-analyze-heapdump/,"Creating and Analyzing Java Heap Dumps",Java
+https://reflectoring.io/meaningful-commit-messages/,"Writing Meaningful Commit Messages",Tech
+https://reflectoring.io/painless-code-formatting-with-editor-config/,"Painless Code Formatting with EditorConfig",Java
+https://reflectoring.io/spring-boot-s3/,"Getting Started with AWS S3 and Spring Boot",AWS
+https://reflectoring.io/spring-boot-cookies/,"Handling Cookies with Spring Boot and the Servlet API",SpringBoot
+https://reflectoring.io/open-closed-principle-explained/,"The Open-Closed Principle Explained",CleanCode
+https://reflectoring.io/getting-started-with-graphql/,"Getting Started with GraphQL",GraphQL
+https://reflectoring.io/git-rebase-merge/,"Git Rebase vs. Git Merge Explained",Git
+https://reflectoring.io/getting-started-with-aws-cloudformation/,"Getting Started with AWS CloudFormation",AWS
+https://reflectoring.io/spring-boot-exception-handling/,"Complete Guide to Exception Handling in Spring Boot",SpringBoot
+https://reflectoring.io/circuitbreaker-with-resilience4j/,"Implementing a Circuit Breaker with Resilience4j",SpringBoot
+https://reflectoring.io/spring-boot-elasticsearch/,"Using Elasticsearch with Spring Boot",SpringBoot
+https://reflectoring.io/spring-boot-modules-mocking/,"Building Reusable Mock Modules with Spring Boot",SpringBoot
+https://reflectoring.io/spring-data-specifications/,"Getting Started with Spring Data Specifications",SpringBoot
+https://reflectoring.io/manage-jdks-with-sdkman/,"Managing Multiple JDK Installations With SDKMAN!",Java
+https://reflectoring.io/spring-boot-12-factor-app/,"12 Factor Apps with Spring Boot",SpringBoot
+https://reflectoring.io/manage-jdks-with-jenv/,"Managing Multiple JDK Installations With jEnv",Java
+https://reflectoring.io/hibernate-search/,"Full-Text Search with Hibernate Search and Spring Boot",SpringBoot
+https://reflectoring.io/processing-files-using-java-8-streams/,"Processing Files With Java 8 Streams",Java
+https://reflectoring.io/spring-component-scanning/,"Component Scanning with Spring Boot",SpringBoot
+https://reflectoring.io/spring-boot-health-check/,"Health Checks with Spring Boot",SpringBoot
+https://reflectoring.io/bulkhead-with-resilience4j/,"Implementing Bulkhead with Resilience4j",SpringBoot
+https://reflectoring.io/spring-boot-docker/,"Creating Optimized Docker Images for a Spring Boot Application",SpringBoot
+https://reflectoring.io/springboot-logging/,"Logging In Spring Boot",SpringBoot
+https://reflectoring.io/time-limiting-with-resilience4j/,"Implementing Timeouts with Resilience4j",SpringBoot
+https://reflectoring.io/spring-boot-dev-tools/,"Optimize Your Dev Loop with Spring Boot Dev Tools",SpringBoot
+https://reflectoring.io/spring-bean-lifecycle/,"Hooking Into the Spring Bean Lifecycle",SpringBoot
+https://reflectoring.io/rate-limiting-with-resilience4j/,"Implementing Rate Limiting with Resilience4j",SpringBoot
+https://reflectoring.io/amqp-request-response/,"Request/Response Pattern with Spring AMQP",SpringBoot
+https://reflectoring.io/maven-wrapper/,"Run Your Maven Build Anywhere with the Maven Wrapper",Java
+https://reflectoring.io/aws-localstack/,"Local Development with AWS on LocalStack",Localstack
+https://reflectoring.io/spring-boot-kafka/,"Using Kafka with Spring Boot",Kafka
+https://reflectoring.io/retry-with-resilience4j/,"Implementing Retry with Resilience4j",SpringBoot
+https://reflectoring.io/aws-cloudformation-ecs-deployment/,"The AWS Journey Part 4: Zero-Downtime Deployment with CloudFormation and ECS",AWS
+https://reflectoring.io/lsp-explained/,"The Liskov Substitution Principle Explained",CleanCode
+https://reflectoring.io/what-is-aws/,"What is AWS? A High-Level Overview of the Most Important AWS Services",AWS
+https://reflectoring.io/spring-boot-cache/,"Implementing a Cache with Spring Boot",SpringBoot
+https://reflectoring.io/spring-boot-hazelcast/,"Distributed Cache with Hazelcast and Spring",SpringBoot
+https://reflectoring.io/validate-spring-boot-configuration-parameters-at-startup/,"Validate Spring Boot Configuration Parameters at Startup",SpringBoot
+https://reflectoring.io/aws-cloudformation-rds/,"The AWS Journey Part 3: Connecting a Spring Boot Application to an RDS Instance with CloudFormation",AWS
+https://reflectoring.io/spring-boot-flyway-testcontainers/,"Testing Database Migration Scripts with Spring Boot and Testcontainers",SpringBoot
+https://reflectoring.io/aws-cloudformation-deploy-docker-image/,"The AWS Journey Part 2: Deploying a Docker Image with AWS CloudFormation",AWS
+https://reflectoring.io/database-migration-spring-boot-liquibase/,"One-Stop Guide to Database Migration with Liquibase and Spring Boot",SpringBoot
+https://reflectoring.io/spring-robust-sqs-client/,"Building a Robust SQS Client with Spring Boot",AWS
+https://reflectoring.io/spring-boot-application-events-explained/,"Spring Boot Application Events Explained",SpringBoot
+https://reflectoring.io/constructor-injection/,"Why You Should Use Constructor Injection in Spring",SpringBoot
+https://reflectoring.io/java-components-clean-boundaries/,"Clean Architecture Boundaries with Spring Boot and ArchUnit",SpringBoot
+https://reflectoring.io/spring-boot-openapi/,"API-First Development with Spring Boot and Swagger",SpringBoot
+https://reflectoring.io/spring-boot-argumentresolver/,"Custom Web Controller Arguments with Spring MVC and Spring Boot",SpringBoot
+https://reflectoring.io/spring-security-password-handling/,"Handling Passwords with Spring Boot and Spring Security",SpringBoot
+https://reflectoring.io/interface-segregation-principle/,"Interface Segregation Principle: Everything You Need to Know",CleanCode
+https://reflectoring.io/single-responsibility-principle/,"Single Responsibility Principle Unpacked",CleanCode
+https://reflectoring.io/database-migration-spring-boot-flyway/,"One-Stop Guide to Database Migration with Flyway and Spring Boot",SpringBoot
+https://reflectoring.io/aws-deploy-docker-image-via-web-console/,"The AWS Journey Part 1: Deploying Your First Docker Image",AWS
+https://reflectoring.io/spring-boot-application-events-explained/,"Spring Boot Application Events Explained",SpringBoot
+https://reflectoring.io/flyway-spring-boot-multitenancy/,"Multitenancy Applications with Spring Boot and Flyway",SpringBoot
+https://reflectoring.io/rxjava-reactive-batch-processing/,"Reactive Multi-Threading with RxJava - Pitfalls and Solutions",Java
+https://reflectoring.io/flyway-kubernetes-continuous-database-configuration/,"Continuous Database Configuration with Flyway and Kubernetes",Kubernetes
+https://reflectoring.io/spring-boot-profiles/,"One-Stop Guide to Profiles with Spring Boot",SpringBoot
+https://reflectoring.io/spring-boot-execute-on-startup/,"Executing Code on Spring Boot Application Startup",SpringBoot
+https://reflectoring.io/spring-boot-static-data/,"Static Data with Spring Boot",SpringBoot
+https://reflectoring.io/spring-hexagonal/,"Hexagonal Architecture with Java and Spring",SpringBoot
+https://reflectoring.io/java-immutables/,"Immutables in Java - Are Setters Allowed?",Java
+https://reflectoring.io/spring-boot-mock/,"Mocking with (and without) Spring Boot",SpringBoot
+https://reflectoring.io/bean-validation-anti-patterns/,"Bean Validation Anti-Patterns",Java
+https://reflectoring.io/spring-boot-starter/,"Quick Guide to Building a Spring Boot Starter",SpringBoot
+https://reflectoring.io/gradle-pollution-free-dependencies/,"Pollution-Free Dependency Management with Gradle",Gradle
+https://reflectoring.io/maven-scopes-gradle-configurations/,"Maven Scopes and Gradle Configurations Explained",Gradle
+https://reflectoring.io/spring-boot-gradle-multi-module/,"Building a Multi-Module Spring Boot Application with Gradle",Gradle
+https://reflectoring.io/spring-boot-paging/,"Paging with Spring Boot",SpringBoot
+https://reflectoring.io/spring-boot-configuration-properties/,"Configuring a Spring Boot Module with @ConfigurationProperties",SpringBoot
+https://reflectoring.io/spring-boot-conditionals/,"Conditional Beans with Spring Boot",SpringBoot
+https://reflectoring.io/spring-boot-data-jpa-test/,"Testing JPA Queries with Spring Boot and @DataJpaTest",SpringBoot
+https://reflectoring.io/spring-boot-web-controller-test/,"Testing MVC Web Controllers with Spring Boot and @WebMvcTest",SpringBoot
+https://reflectoring.io/unit-testing-spring-boot/,"Unit Testing with Spring Boot",SpringBoot
+https://reflectoring.io/jacoco/,"Definitive Guide to the JaCoCo Gradle Plugin",Gradle
+https://reflectoring.io/upstream-downstream/,"What is Upstream and Downstream in Software Development?",Tech
+https://reflectoring.io/cdc-pact-messages/,"Testing a Spring Message Producer and Consumer against a Contract with Pact",SpringBoot
+https://reflectoring.io/objectmother-fluent-builder/,"Combining Object Mother and Fluent Builder for the Ultimate Test Data Factory",Java
+https://reflectoring.io/consumer-driven-contract-provider-spring-cloud-contract/,"Testing a Spring Boot REST API against a Contract with Spring Cloud Contract",SpringBoot
+https://reflectoring.io/log-server/,"5 Good Reasons to Use a Log Server",Java
+https://reflectoring.io/logging-format-logback/,"How to Configure a Human-Readable Logging Format with Logback and Descriptive Logger",Java
+https://reflectoring.io/consumer-driven-contract-provider-pact-spring/,"Testing a Spring Boot REST API against a Consumer-Driven Contract with Pact",SpringBoot
+https://reflectoring.io/consumer-driven-contract-feign-pact/,"Creating a Consumer-Driven Contract with Feign and Pact",SpringBoot
+https://reflectoring.io/logging-context/,"Tip: Provide Contextual Information in Log Messages",Java
+https://reflectoring.io/logging-format/,"Tip: Use a Human-Readable Logging Format",Java
+https://reflectoring.io/logging-levels/,"Tip: Use Logging Levels Consistently",Java
+https://reflectoring.io/testing-verticals-and-layers-spring-boot/,"Structuring and Testing Modules and Layers with Spring Boot",SpringBoot
+https://reflectoring.io/microservice-communication-patterns/,"Microservice Communication Patterns",MicroServices
+https://reflectoring.io/spring-boot-modules/,"Modularizing a Spring Boot Application",SpringBoot
+https://reflectoring.io/bintray-jcenter-maven-central/,"Publishing Open Source Releases to JCenter and Maven Central",Java
+https://reflectoring.io/consumer-driven-contract-consumer-spring-cloud-contract/,"Testing a Spring Boot REST API Consumer against a Contract with Spring Cloud Contract",SpringBoot
+https://reflectoring.io/autostart-with-winsw/,"Autostart for your Spring Boot Application",SpringBoot
+https://reflectoring.io/fully-automated-open-source-release-chain/,"A Fully Automated Open Source Release Chain with Gradle and Travis CI",Gradle
+https://reflectoring.io/publish-snapshots-with-gradle/,"Publishing Open Source Snapshots with Gradle",Gradle
+https://reflectoring.io/guide-publishing-to-bintray-with-gradle/,"Publishing Open Source Releases with Gradle",Gradle
+https://reflectoring.io/7-reasons-for-consumer-driven-contracts/,"7 Reasons to Choose Consumer-Driven Contract Tests Over End-to-End Tests",Testing
+https://reflectoring.io/gradle-lazy-property-evaluation/,"Lazy Evaluation of Gradle Properties",Gradle
+https://reflectoring.io/conditional-junit4-junit5-tests/,"Assumptions and Conditional Test Execution with JUnit 4 and 5",Testing
+https://reflectoring.io/autotmatic-refactoring-safe-java-mapping/,"Robust Java Object Mapping With Minimal Testing Overhead Using reMap",Java
+https://reflectoring.io/event-messaging-with-spring-boot-and-rabbitmq/,"Event Messaging for Microservices with Spring Boot and RabbitMQ",SpringBoot
+https://reflectoring.io/howto-format-code-snippets-in-javadoc/,"A Guide to Formatting Code Snippets in Javadoc",Java
+https://reflectoring.io/consumer-driven-contracts-with-pact-feign-spring-data-rest/,"Consumer-Driven Contracts with Pact, Feign and Spring Data REST",Testing
+https://reflectoring.io/documenting-spring-data-rest-api-with-springfox/,"Documenting a Spring Data REST API with Springfox and Swagger",SpringBoot
+https://reflectoring.io/accessing-spring-data-rest-with-feign/,"Accessing a Spring Data REST API with Feign",SpringBoot
+https://reflectoring.io/relations-with-spring-data-rest/,"Handling Associations Between Entities with Spring Data REST",SpringBoot
+https://reflectoring.io/configuring-localdate-serialization-spring-boot/,"Serializing LocalDate to JSON in Spring Boot",SpringBoot
+https://reflectoring.io/locking-dependencies-with-npm/,"Locking transitive Dependencies with NPM",NodeJS
+https://reflectoring.io/checklist-architecture-setup/,"A Checklist for setting up a Java-based Software Architecture",Java
+https://reflectoring.io/database-refactoring-flyway-vs-liquibase/,"Tool-based Database Refactoring: Flyway vs. Liquibase",Java
+https://reflectoring.io/monitoring-error-rate-spring-boot/,"Monitoring the Error Rate of a Spring Boot Web Application",SpringBoot
+https://reflectoring.io/monitoring-spring-boot-with-prometheus/,"Exposing Metrics of a Spring Boot Application for Prometheus",SpringBoot
+https://reflectoring.io/transparency-with-spring-boot/,"Exposing Metrics of a Spring Boot Application using Dropwizard",SpringBoot
+https://reflectoring.io/openid-connect/,"OpenID Connect",OAuth
+https://reflectoring.io/How%20to%20sign/,"Digital Signature in Java",Java
+https://reflectoring.io/git-neo4j/,"Modeling Git Commits with Neo4j",Java
+https://reflectoring.io/tool-based-database-refactoring/,"Tool-based Database Refactoring",Java
+https://reflectoring.io/externalizing-properties-gradle-bootrun/,"Loading External Application Properties in the Gradle bootRun Task",Gradle
+https://reflectoring.io/github-fork-and-pull/,"Github's Fork & Pull Workflow for Git Beginners",Git
+https://reflectoring.io/spring-restdocs/,"Documenting your REST API with Spring Rest Docs",SpringBoot
+https://reflectoring.io/getting-svn-revision-in-gradle/,"Getting the current Subversion Revision Number in Gradle",Gradle
+https://reflectoring.io/spring-boot-springdoc/,"'Code First' API Documentation with Springdoc and Spring Boot",SpringBoot
+https://reflectoring.io/book/,"Get Your Hands Dirty on Clean Architecture",Architecture
+https://reflectoring.io/reusable-vue-components-in-thymeleaf/,"Marrying Vue.js and Thymeleaf: Embedding Javascript Components in Server-Side Templates",Java
+https://reflectoring.io/rest-hypermedia/,"REST with Hypermedia - Hot or Not?",Java
+https://rieckpil.de/test-thymeleaf-controller-endpoints-with-spring-boot-and-mockmvc/,"Test Thymeleaf Controller Endpoints with Spring Boot and MockMvc",SpringBoot
+https://rieckpil.de/spring-boot-testing-mockmvc-vs-webtestclient-vs-testresttemplate/,"Spring Boot Testing: MockMvc vs. WebTestClient vs. TestRestTemplate",SpringBoot
+https://rieckpil.de/amazon-sqs-listener-testing-with-sqstest-spring-cloud-aws/,"Amazon SQS Listener Testing with @SqsTest (Spring Cloud AWS)",SpringBoot
+https://rieckpil.de/spring-boot-test-spring-web-mvc-handlerinterceptor/,"Spring Boot Test Spring Web MVC HandlerInterceptor",SpringBoot
+https://rieckpil.de/launchdarkly-java-testing-and-local-development-hints/,"LaunchDarkly Java Testing and Local Development Hints",Tech
+https://rieckpil.de/java-development-on-an-apple-m1-a-one-year-review/,"Java Development on an Apple M1 – A One Year Review",Java
+https://rieckpil.de/automatic-java-code-migration-with-openrewrite-mockito-example/,"Automatic Java Code Migration with OpenRewrite (Mockito Example)",Java
+https://rieckpil.de/write-gatling-performance-tests-with-java/,"Write Gatling Performance Tests with Java",Gatling
+https://rieckpil.de/run-java-tests-with-maven-silently-only-log-on-failure/,"Run Java Tests With Maven Silently (Only Log on Failure)",Maven
+https://rieckpil.de/aws-lambda-with-kotlin-and-spring-cloud-function/,"AWS Lambda with Kotlin and Spring Cloud Function",AWS
+https://rieckpil.de/common-pitfalls-when-testing-spring-boot-applications/,"Testing Spring Boot Applications: Five Common Pitfalls",SpringBoot
+https://rieckpil.de/what-the-heck-is-the-springextension-used-for/,"What the Heck Is the SpringExtension Used For?",SpringBoot
+https://rieckpil.de/maven-setup-for-testing-java-applications/,"Maven Setup For Testing Java Applications",Maven
+https://rieckpil.de/guide-to-springboottest-for-spring-boot-integration-tests/,"Guide to @SpringBootTest for Spring Boot Integration Tests",SpringBoot
+https://linuxize.com/post/how-to-remove-docker-images-containers-volumes-and-networks/,"How To Remove Docker Containers, Images, Volumes, and Networks",Docker
+https://winterbe.com/posts/2018/08/29/migrate-maven-projects-to-java-11-jigsaw/,"Migrate Maven Projects to Java 11",Maven
+https://www.devglan.com/spring-security/spring-boot-jwt-auth,"Spring Boot Security Jwt Authentication",SpringBoot
+https://junit.org/junit5/docs/current/user-guide/,"JUnit 5 User Guide",Testing
+https://shekhargulati.com/2019/01/13/running-tests-and-building-react-applications-with-gradle-build-tool/,"Running Tests and Building React applications with Gradle Build Tool",Gradle
+http://lewandowski.io/2016/02/formatting-java-time-with-spring-boot-using-json/index.html,"Formatting Java Time with Spring Boot using JSON",SpringBoot
+https://blog.ippon.tech/creating-a-modern-web-app-using-vuejs-and-spring-boot-with-jhipster/,"Creating a modern Web app using Vue.js and Spring Boot with JHipster",Jhipster
+https://advancedweb.hu/2019/02/19/post_java_8/,"A categorized list of all Java and JVM features since JDK 8",Java
+https://blog.jooq.org/2014/06/25/flyway-and-jooq-for-unbeatable-sql-development-productivity/,"Flyway and jOOQ for Unbeatable SQL Development Productivity",Jooq
+https://reversecoding.net/spring-mvc-requestparam-binding-request-parameters/,"Spring MVC @Requestparam - Binding request parameters",SpringBoot
+https://www.marcobehler.com/guides/java-microservices-a-practical-guide,"Java Microservices: A Practical Guide",MicroServices
+https://github.com/gavlyukovskiy/spring-boot-data-source-decorator, "Spring Boot integration with p6spy, datasource-proxy, flexy-pool and spring-cloud-sleuth",SpringBoot
+https://www.sitepoint.com/javascript-command-line-interface-cli-node-js/,"Build a JavaScript Command Line Interface (CLI) with Node.js",NodeJS
+https://medium.com/faun/continuous-integration-of-java-project-with-github-actions-7a8a0e8246ef,"Continuous Integration of Java project with GitHub Actions",CICD
+https://rachelcarmena.github.io/2018/12/12/how-to-teach-git.html,"How to teach Git",Git
+https://blog.noizwaves.io/2017/09/02/slow-spring-boot-startup.html,"Fixing Slow Spring Boot Startup",SpringBoot
+https://rskupnik.github.io/framework-independence-with-hexagonal-architecture,"Achieving framework-independent zen with the power of interfaces and hexagonal architecture",Architecture
+https://www.baeldung.com/jackson-deserialize-immutable-objects,"Deserialize Immutable Objects with Jackson",Java
+https://medium.com/ing-blog/how-does-non-blocking-io-work-under-the-hood-6299d2953c74,"How does non-blocking IO work under the hood?",Java
+https://fullstackcode.dev/2022/01/22/integration-testing-with-docker-compose-and-testcontainers/,"Integration Testing with Docker-compose and Testcontainers",Testcontainers
+https://fullstackcode.dev/2022/07/12/complete-guide-to-database-migrations-with-flyway-and-spring-boot/,"Complete Guide to Database Migrations with Flyway and Spring Boot",SpringBoot
+https://letterstoanewdeveloper.com/2022/05/16/you-are-responsible-for-your-career-no-one-else-is/,"You are responsible for your career. No one else is",Thoughts
+https://letterstoanewdeveloper.com/2021/01/25/how-to-criticize-code/,"How to criticize code",Thoughts

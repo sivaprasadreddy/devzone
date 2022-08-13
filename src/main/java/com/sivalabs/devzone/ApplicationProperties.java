@@ -1,5 +1,6 @@
 package com.sivalabs.devzone;
 
+import java.util.List;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
@@ -7,7 +8,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @Data
 public class ApplicationProperties {
     private boolean importDataEnabled = true;
-    private String importFilePath;
+    private List<String> importFilePaths;
 
     private JwtConfig jwt = new JwtConfig();
 
