@@ -45,7 +45,7 @@ ext {
     set('commons_io_version', "2.11.0")
     set('problem_spring_web_version', "0.26.2")
     set('jjwt_version', "0.9.1")
-    set('springdoc_openapi', "1.6.9")
+    set('springdoc_openapi', "1.6.11")
     set('opencsv_version', "5.6")
     set('jsoup_version', "1.15.2")
     set('p6spy_version', "1.8.0")
