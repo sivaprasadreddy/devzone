@@ -1,4 +1,4 @@
-package com.sivalabs.devzone.api.controllers;
+package com.sivalabs.devzone.web.controllers;
 
 import com.sivalabs.devzone.domain.entities.Category;
 import com.sivalabs.devzone.domain.services.CategoryService;

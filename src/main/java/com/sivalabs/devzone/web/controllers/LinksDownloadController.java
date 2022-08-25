@@ -11,13 +11,13 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
+@AdminOnly
 @RequiredArgsConstructor
 @Slf4j
 public class LinksDownloadController {
     private final LinksExportService linksExportService;
 
     @GetMapping("/links/download")
-    @AdminOnly
     public void downloadBookmarks(HttpServletResponse response) throws IOException {
         String filename = "links.csv";
         String mimeType = "text/csv";

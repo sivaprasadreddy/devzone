@@ -22,7 +22,8 @@ public class SecurityService {
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         if (authentication != null
                 && authentication.getPrincipal() instanceof SecurityUser securityUser) {
-            return securityUser.getUser();
+            String username = securityUser.getUsername();
+            return userService.getUserByEmail(username).orElse(null);
         } else if (authentication instanceof UsernamePasswordAuthenticationToken) {
             UserDetails userDetails = (UserDetails) authentication.getPrincipal();
             return userService.getUserByEmail(userDetails.getUsername()).orElse(null);

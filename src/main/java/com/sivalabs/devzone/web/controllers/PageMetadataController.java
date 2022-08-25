@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @Slf4j
-public class UtilitiesController {
+public class PageMetadataController {
 
     @GetMapping("/page-metadata")
     public Map<String, String> getPageMetadata(@RequestParam String url) {

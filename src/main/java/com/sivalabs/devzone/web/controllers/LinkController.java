@@ -1,7 +1,5 @@
 package com.sivalabs.devzone.web.controllers;
 
-import static org.springframework.data.domain.Sort.Direction.DESC;
-
 import com.sivalabs.devzone.config.annotations.AnyAuthenticatedUser;
 import com.sivalabs.devzone.config.annotations.CurrentUser;
 import com.sivalabs.devzone.domain.entities.Category;
@@ -13,13 +11,11 @@ import com.sivalabs.devzone.domain.services.CategoryService;
 import com.sivalabs.devzone.domain.services.LinkService;
 import com.sivalabs.devzone.domain.services.SecurityService;
 import java.util.List;
+import java.util.Objects;
 import javax.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
-import org.springframework.data.domain.Pageable;
-import org.springframework.data.web.PageableDefault;
-import org.springframework.data.web.SortDefault;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -53,27 +49,22 @@ public class LinkController {
     public String home(
             @RequestParam(name = "query", required = false) String query,
             @RequestParam(name = "category", required = false) String category,
-            @PageableDefault(size = 15)
-                    @SortDefault.SortDefaults({@SortDefault(sort = "createdAt", direction = DESC)})
-                    Pageable pageable,
+            @RequestParam(name = "page", defaultValue = "1") Integer page,
             Model model) {
         LinksDTO data;
         if (StringUtils.isNotEmpty(category)) {
-            log.info(
-                    "Fetching links for category {} with page: {}",
-                    category,
-                    pageable.getPageNumber());
-            data = linkService.getLinksByCategory(category, pageable);
+            log.info("Fetching links for category {} with page: {}", category, page);
+            data = linkService.getLinksByCategory(category, page);
             model.addAttribute("header", "Links by Category : " + category);
             model.addAttribute(PAGINATION_PREFIX, "/links?category=" + category);
         } else if (StringUtils.isNotEmpty(query)) {
-            log.info("Searching links for {} with page: {}", query, pageable.getPageNumber());
-            data = linkService.searchLinks(query, pageable);
+            log.info("Searching links for {} with page: {}", query, page);
+            data = linkService.searchLinks(query, page);
             model.addAttribute("header", "Search Results for : " + query);
             model.addAttribute(PAGINATION_PREFIX, "/links?query=" + query);
         } else {
-            log.info("Fetching links with page: {}", pageable.getPageNumber());
-            data = linkService.getAllLinks(pageable);
+            log.info("Fetching links with page: {}", page);
+            data = linkService.getAllLinks(page);
             model.addAttribute(PAGINATION_PREFIX, "/links?");
         }
         model.addAttribute("linksData", data);
@@ -97,7 +88,8 @@ public class LinkController {
             return "add-link";
         }
         link.setCreatedUserId(loginUser.getId());
-        linkService.createLink(link);
+        LinkDTO linkDTO = linkService.createLink(link);
+        log.info("Link saved successfully with id: {}", linkDTO.getId());
         return "redirect:/links";
     }
 
@@ -123,7 +115,8 @@ public class LinkController {
         link.setId(id);
         link.setCreatedUserId(loginUser.getId());
         this.checkPrivilege(id, link, loginUser);
-        linkService.updateLink(link);
+        LinkDTO linkDTO = linkService.updateLink(link);
+        log.info("Link with id: {} updated successfully", linkDTO.getId());
         return "redirect:/links";
     }
 
@@ -139,7 +132,7 @@ public class LinkController {
 
     private void checkPrivilege(Long linkId, LinkDTO link, User loginUser) {
         if (link == null
-                || !(link.getCreatedUserId().equals(loginUser.getId())
+                || !(Objects.equals(link.getCreatedUserId(), loginUser.getId())
                         || securityService.isUserAdminOrModerator(loginUser))) {
             throw new ResourceNotFoundException("Link not found with id=" + linkId);
         }

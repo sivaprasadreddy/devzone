@@ -1,12 +1,12 @@
 plugins {
     id 'java'
     id 'jacoco'
-    id 'org.springframework.boot' version '2.7.2'
-    id 'io.spring.dependency-management' version '1.0.12.RELEASE'
+    id 'org.springframework.boot' version '2.7.3'
+    id 'io.spring.dependency-management' version '1.0.13.RELEASE'
     id 'com.gorylenko.gradle-git-properties' version "2.4.1"
     id 'com.google.cloud.tools.jib' version "3.2.1"
-    id 'com.diffplug.spotless' version "6.9.0"
-    id 'org.sonarqube' version "3.0"
+    id 'com.diffplug.spotless' version "6.10.0"
+    id 'org.sonarqube' version "3.4.0.2513"
 }
 
 def jacocoToolVersion = "0.8.8"
@@ -43,9 +43,8 @@ ext {
     set('font_awesome_version', "6.1.2")
     set('commons_lang_version', "3.12.0")
     set('commons_io_version', "2.11.0")
-    set('problem_spring_web_version', "0.26.2")
     set('jjwt_version', "0.9.1")
-    set('springdoc_openapi', "1.6.9")
+    set('springdoc_openapi', "1.6.11")
     set('opencsv_version', "5.6")
     set('jsoup_version', "1.15.2")
     set('p6spy_version', "1.8.0")
@@ -65,7 +64,6 @@ dependencies {
 
     implementation "org.springframework.boot:spring-boot-starter-security"
     implementation "io.jsonwebtoken:jjwt:${jjwt_version}"
-    implementation "org.zalando:problem-spring-web-starter:${problem_spring_web_version}"
     implementation "org.springdoc:springdoc-openapi-ui:${springdoc_openapi}"
     implementation "com.opencsv:opencsv:${opencsv_version}"
     implementation "org.jsoup:jsoup:${jsoup_version}"

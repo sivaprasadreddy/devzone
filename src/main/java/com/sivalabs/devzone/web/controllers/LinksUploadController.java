@@ -14,19 +14,18 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 @Controller
+@AdminOnly
 @RequiredArgsConstructor
 @Slf4j
 public class LinksUploadController {
     private final LinksImportService linksImportService;
 
     @GetMapping("/links/upload")
-    @AdminOnly
     public String showUploadBookmarksPage() {
         return "upload-links";
     }
 
     @PostMapping("/links/upload")
-    @AdminOnly
     public String uploadBookmarks(
             @RequestParam("file") MultipartFile file, RedirectAttributes redirectAttributes)
             throws IOException, CsvValidationException {

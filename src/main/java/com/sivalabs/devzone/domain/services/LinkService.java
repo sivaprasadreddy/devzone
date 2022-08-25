@@ -22,7 +22,9 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -48,7 +50,9 @@ public class LinkService {
     }
 
     @Transactional(readOnly = true)
-    public LinksDTO getAllLinks(Pageable pageable) {
+    public LinksDTO getAllLinks(Integer page) {
+        int pageNo = page > 0 ? page - 1 : 0;
+        Pageable pageable = PageRequest.of(pageNo, 15, Sort.by(Sort.Direction.DESC, "createdAt"));
         Page<Long> pageOfLinkIds = linkRepository.fetchLinkIds(pageable);
         List<Link> links =
                 linkRepository.findLinksWithCategory(
@@ -58,7 +62,10 @@ public class LinkService {
     }
 
     @Transactional(readOnly = true)
-    public LinksDTO searchLinks(String query, Pageable pageable) {
+    public LinksDTO searchLinks(String query, Integer page) {
+        int pageNo = page > 0 ? page - 1 : 0;
+        Pageable pageable = PageRequest.of(pageNo, 15, Sort.by(Sort.Direction.DESC, "createdAt"));
+
         Page<Long> pageOfLinkIds =
                 linkRepository.fetchLinkIdsByTitleContainingIgnoreCase(query, pageable);
         List<Link> links =
@@ -69,7 +76,10 @@ public class LinkService {
     }
 
     @Transactional(readOnly = true)
-    public LinksDTO getLinksByCategory(String category, Pageable pageable) {
+    public LinksDTO getLinksByCategory(String category, Integer page) {
+        int pageNo = page > 0 ? page - 1 : 0;
+        Pageable pageable = PageRequest.of(pageNo, 15, Sort.by(Sort.Direction.DESC, "createdAt"));
+
         Optional<Category> categoryOptional = categoryService.findCategoryByName(category);
         if (categoryOptional.isEmpty()) {
             throw new ResourceNotFoundException("Category " + category + " not found");
