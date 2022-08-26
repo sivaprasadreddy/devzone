@@ -1,4 +1,4 @@
-version: '3.5'
+version: '3.8'
 services:
   prometheus:
     image: prom/prometheus:v2.38.0
@@ -15,7 +15,7 @@ services:
     container_name: monitoring-promtail
     volumes:
       - ./promtail/promtail-docker-config.yaml:/etc/promtail/docker-config.yaml
-      - ../logs/devzone.log:/var/log/devzone.log
+      - ../logs/:/var/log/
     command: "--config.file=/etc/promtail/docker-config.yaml"
 
   loki:

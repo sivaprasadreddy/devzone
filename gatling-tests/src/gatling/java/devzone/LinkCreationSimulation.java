@@ -6,6 +6,8 @@ import io.gatling.javaapi.core.ScenarioBuilder;
 import io.gatling.javaapi.core.Simulation;
 import io.gatling.javaapi.http.HttpProtocolBuilder;
 
+import java.time.Duration;
+
 import static io.gatling.javaapi.core.CoreDsl.*;
 import static io.gatling.javaapi.http.HttpDsl.http;
 
@@ -52,11 +54,11 @@ public class LinkCreationSimulation extends Simulation {
             .pause(2)
             .exec(createLink);
 
-    /*ScenarioBuilder scnCreateLink = scenario("Create Link")
-            .during(Duration.ofMinutes(1), "Counter")
-            .on(createOrderFlow);*/
+    ScenarioBuilder scnCreateLink = scenario("Create Link")
+            .during(Duration.ofMinutes(5), "Counter")
+            .on(createLinkFlow);
 
-    ScenarioBuilder scnCreateLink = scenario("Create Link").exec(createLinkFlow);
+    //ScenarioBuilder scnCreateLink = scenario("Create Link").exec(createLinkFlow);
 
     {
         setUp(

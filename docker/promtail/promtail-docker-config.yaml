@@ -14,5 +14,5 @@ scrape_configs:
       - targets:
           - localhost
         labels:
-          job: varlogs
+          job: devzone
           __path__: /var/log/*.log

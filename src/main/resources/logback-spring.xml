@@ -3,8 +3,22 @@
     <include resource="org/springframework/boot/logging/logback/defaults.xml" />
     <include resource="org/springframework/boot/logging/logback/console-appender.xml" />
 
-    <root level="INFO">
-        <appender-ref ref="CONSOLE" />
-    </root>
+    <springProfile name="!docker">
+        <root level="INFO">
+            <appender-ref ref="CONSOLE" />
+        </root>
+    </springProfile>
+
+    <springProfile name="docker">
+        <property name="LOG_FILE" value="/logs/devzone.log"/>
+        <include resource="org/springframework/boot/logging/logback/file-appender.xml" />
+        <root level="INFO">
+            <appender-ref ref="CONSOLE" />
+            <appender-ref ref="FILE" />
+        </root>
+    </springProfile>
+
+    <logger name="com.sivalabs" level="DEBUG"/>
+    <logger name="org.springframework" level="INFO"/>
 
 </configuration>

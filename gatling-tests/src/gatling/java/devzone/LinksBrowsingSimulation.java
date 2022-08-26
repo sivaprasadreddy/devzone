@@ -6,6 +6,8 @@ import static io.gatling.javaapi.http.HttpDsl.*;
 import io.gatling.javaapi.core.*;
 import io.gatling.javaapi.http.*;
 
+import java.time.Duration;
+
 public class LinksBrowsingSimulation extends Simulation {
 
     HttpProtocolBuilder httpProtocol =
@@ -36,13 +38,13 @@ public class LinksBrowsingSimulation extends Simulation {
             .exec(byCategory)
             .exec(search);
 
-/*
-    ScenarioBuilder browseLinks = scenario("Browse Links")
-            .during(Duration.ofMinutes(1), "Counter")
-            .on(browseProducts);
-*/
 
-    ScenarioBuilder scnBrowseLinks = scenario("Browse Links").exec(browseLinks);
+    ScenarioBuilder scnBrowseLinks = scenario("Browse Links")
+            .during(Duration.ofMinutes(5), "Counter")
+            .on(browseLinks);
+
+
+    //ScenarioBuilder scnBrowseLinks = scenario("Browse Links").exec(browseLinks);
 
     {
         setUp(
