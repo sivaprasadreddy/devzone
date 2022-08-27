@@ -1,6 +1,6 @@
 package com.sivalabs.devzone.config.security;
 
-import com.sivalabs.devzone.domain.entities.RoleEnum;
+import com.sivalabs.devzone.users.domain.models.RoleEnum;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -7,6 +7,8 @@ import com.tngtech.archunit.core.domain.JavaClasses;
 import com.tngtech.archunit.core.importer.ClassFileImporter;
 import com.tngtech.archunit.core.importer.ImportOption;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
 import org.springframework.beans.factory.annotation.Autowired;
 
 class ArchTest {
@@ -16,15 +18,29 @@ class ArchTest {
                     .withImportOption(ImportOption.Predefined.DO_NOT_INCLUDE_TESTS)
                     .importPackages("com.sivalabs.devzone");
 
-    @Test
-    void domainShouldNotDependOnWebLayer() {
+    @ParameterizedTest
+    @CsvSource({"links", "users"})
+    void domainShouldNotDependOnWebLayer(String module) {
         noClasses()
                 .that()
-                .resideInAnyPackage("com.sivalabs.devzone.domain..")
+                .resideInAnyPackage("com.sivalabs.devzone." + module + ".domain..")
                 .should()
                 .dependOnClassesThat()
-                .resideInAnyPackage("com.sivalabs.devzone.web..", "com.sivalabs.devzone.api..")
+                .resideInAnyPackage("com.sivalabs.devzone." + module + ".web..")
                 .because("Domain layer should not depend on Web or API layer")
+                .check(importedClasses);
+    }
+
+    @ParameterizedTest
+    @CsvSource({"links", "users"})
+    void domainShouldNotDependOnAdapterLayer(String module) {
+        noClasses()
+                .that()
+                .resideInAnyPackage("com.sivalabs.devzone." + module + ".domain..")
+                .should()
+                .dependOnClassesThat()
+                .resideInAnyPackage("com.sivalabs.devzone." + module + ".adapter..")
+                .because("Domain layer should not depend on adapter layer")
                 .check(importedClasses);
     }
 
@@ -55,18 +71,19 @@ class ArchTest {
                 .check(importedClasses);
     }
 
-    @Test
-    void shouldFollowNamingConvention() {
+    @ParameterizedTest
+    @CsvSource({"links", "users"})
+    void shouldFollowNamingConvention(String module) {
         classes()
                 .that()
-                .resideInAPackage("com.sivalabs.devzone.domain.repositories")
+                .resideInAPackage("com.sivalabs.devzone." + module + ".domain.repositories")
                 .should()
                 .haveSimpleNameEndingWith("Repository")
                 .check(importedClasses);
 
         classes()
                 .that()
-                .resideInAPackage("com.sivalabs.devzone.domain.services")
+                .resideInAPackage("com.sivalabs.devzone." + module + ".domain.services")
                 .should()
                 .haveSimpleNameEndingWith("Service")
                 .check(importedClasses);

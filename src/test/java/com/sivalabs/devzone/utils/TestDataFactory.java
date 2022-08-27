@@ -1,22 +1,22 @@
 package com.sivalabs.devzone.utils;
 
-import com.sivalabs.devzone.domain.entities.User;
+import com.sivalabs.devzone.users.adapter.entities.UserEntity;
 import java.util.UUID;
 
 public class TestDataFactory {
 
-    public static User createUser() {
+    public static UserEntity createUser() {
         String uuid = UUID.randomUUID().toString();
         return createUser(uuid + "@gmail.com", uuid);
     }
 
-    public static User createUser(String email) {
+    public static UserEntity createUser(String email) {
         String uuid = UUID.randomUUID().toString();
         return createUser(email, uuid);
     }
 
-    public static User createUser(String email, String password) {
-        User user = new User();
+    public static UserEntity createUser(String email, String password) {
+        UserEntity user = new UserEntity();
         user.setName("someuser");
         user.setEmail(email);
         user.setPassword(password);

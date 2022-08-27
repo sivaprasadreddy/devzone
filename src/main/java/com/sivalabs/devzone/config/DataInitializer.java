@@ -1,8 +1,8 @@
 package com.sivalabs.devzone.config;
 
 import com.sivalabs.devzone.ApplicationProperties;
-import com.sivalabs.devzone.domain.services.LinkService;
-import com.sivalabs.devzone.domain.services.LinksImportService;
+import com.sivalabs.devzone.links.domain.services.LinkService;
+import com.sivalabs.devzone.links.domain.services.LinksImportService;
 import java.util.List;
 import java.util.Locale;
 import lombok.RequiredArgsConstructor;

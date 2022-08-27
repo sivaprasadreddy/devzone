@@ -1,6 +1,6 @@
 package com.sivalabs.devzone.config.security;
 
-import com.sivalabs.devzone.domain.entities.User;
+import com.sivalabs.devzone.users.domain.models.User;
 import java.util.Set;
 import lombok.EqualsAndHashCode;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

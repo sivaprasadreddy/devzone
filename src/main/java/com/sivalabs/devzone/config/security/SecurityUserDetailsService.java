@@ -1,6 +1,6 @@
 package com.sivalabs.devzone.config.security;
 
-import com.sivalabs.devzone.domain.services.UserService;
+import com.sivalabs.devzone.users.domain.services.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
