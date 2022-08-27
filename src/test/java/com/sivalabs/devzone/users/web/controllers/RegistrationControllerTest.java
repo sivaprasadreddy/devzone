@@ -16,8 +16,8 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 
-@WebMvcTest(controllers = UserController.class)
-class UserControllerTest extends AbstractWebMvcTest {
+@WebMvcTest(controllers = RegistrationController.class)
+class RegistrationControllerTest extends AbstractWebMvcTest {
 
     @MockBean private UserService userService;
 

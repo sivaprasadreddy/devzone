@@ -9,7 +9,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import com.sivalabs.devzone.common.AbstractIntegrationTest;
 import org.junit.jupiter.api.Test;
 
-class UserControllerIT extends AbstractIntegrationTest {
+class RegistrationControllerIT extends AbstractIntegrationTest {
 
     @Test
     void shouldRegisterSuccessfully() throws Exception {

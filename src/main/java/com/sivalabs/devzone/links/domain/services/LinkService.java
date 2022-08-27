@@ -21,10 +21,6 @@ import org.apache.commons.lang3.StringUtils;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageImpl;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -50,45 +46,17 @@ public class LinkService {
 
     @Transactional(readOnly = true)
     public LinksDTO getAllLinks(Integer page) {
-        int pageNo = page > 0 ? page - 1 : 0;
-        Pageable pageable = PageRequest.of(pageNo, 15, Sort.by(Sort.Direction.DESC, "createdAt"));
-        Page<Long> pageOfLinkIds = linkRepository.fetchLinkIds(pageable);
-        List<Link> links =
-                linkRepository.findLinksWithCategory(
-                        pageOfLinkIds.getContent(), pageable.getSort());
-        Page<Link> linksPage = new PageImpl<>(links, pageable, pageOfLinkIds.getTotalElements());
-        return buildLinksResult(linksPage);
+        return linkRepository.getAllLinks(page);
     }
 
     @Transactional(readOnly = true)
     public LinksDTO searchLinks(String query, Integer page) {
-        int pageNo = page > 0 ? page - 1 : 0;
-        Pageable pageable = PageRequest.of(pageNo, 15, Sort.by(Sort.Direction.DESC, "createdAt"));
-
-        Page<Long> pageOfLinkIds =
-                linkRepository.fetchLinkIdsByTitleContainingIgnoreCase(query, pageable);
-        List<Link> links =
-                linkRepository.findLinksWithCategory(
-                        pageOfLinkIds.getContent(), pageable.getSort());
-        Page<Link> linksPage = new PageImpl<>(links, pageable, pageOfLinkIds.getTotalElements());
-        return buildLinksResult(linksPage);
+        return linkRepository.searchLinks(query, page);
     }
 
     @Transactional(readOnly = true)
     public LinksDTO getLinksByCategory(String category, Integer page) {
-        int pageNo = page > 0 ? page - 1 : 0;
-        Pageable pageable = PageRequest.of(pageNo, 15, Sort.by(Sort.Direction.DESC, "createdAt"));
-
-        Optional<Category> categoryOptional = categoryService.findCategoryByName(category);
-        if (categoryOptional.isEmpty()) {
-            throw new ResourceNotFoundException("Category " + category + " not found");
-        }
-        Page<Long> pageOfLinkIds = linkRepository.fetchLinkIdsByCategory(category, pageable);
-        List<Link> links =
-                linkRepository.findLinksWithCategory(
-                        pageOfLinkIds.getContent(), pageable.getSort());
-        Page<Link> linksPage = new PageImpl<>(links, pageable, pageOfLinkIds.getTotalElements());
-        return buildLinksResult(linksPage);
+        return linkRepository.getLinksByCategory(category, page);
     }
 
     @Transactional(readOnly = true)
@@ -133,7 +101,7 @@ public class LinkService {
 
     public void deleteAllLinks() {
         log.debug("process=delete_all_links");
-        linkRepository.deleteAllInBatch();
+        linkRepository.deleteAll();
     }
 
     private LinksDTO buildLinksResult(Page<Link> links) {
