@@ -1,19 +1,25 @@
 package com.sivalabs.devzone.links.domain.models;
 
 import java.time.LocalDateTime;
-import java.util.HashSet;
 import java.util.Set;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Setter
 @Getter
+@NoArgsConstructor
 public class Category {
     private Long id;
     private String name;
     private Set<Link> links;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
+
+    public Category(Long id, String name) {
+        this.id = id;
+        this.name = name;
+    }
 
     @Override
     public boolean equals(Object o) {
@@ -29,12 +35,5 @@ public class Category {
     @Override
     public int hashCode() {
         return getClass().hashCode();
-    }
-
-    public Set<Link> getLinks() {
-        if (this.links == null) {
-            this.links = new HashSet<>();
-        }
-        return this.links;
     }
 }

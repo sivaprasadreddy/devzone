@@ -23,7 +23,7 @@ class CategoryRepositoryImpl implements CategoryRepository {
     @Override
     public List<Category> findAll() {
         Sort sort = Sort.by("name");
-        return jpaCategoryRepository.findAll(sort).stream().map(categoryMapper::toModel).toList();
+        return jpaCategoryRepository.findAllCategories(sort);
     }
 
     @Override

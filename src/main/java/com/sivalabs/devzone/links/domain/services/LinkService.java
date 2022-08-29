@@ -1,47 +1,37 @@
 package com.sivalabs.devzone.links.domain.services;
 
 import com.sivalabs.devzone.common.exceptions.ResourceNotFoundException;
-import com.sivalabs.devzone.links.domain.mappers.LinkDTOMapper;
 import com.sivalabs.devzone.links.domain.models.Category;
+import com.sivalabs.devzone.links.domain.models.CreateLinkRequest;
 import com.sivalabs.devzone.links.domain.models.Link;
-import com.sivalabs.devzone.links.domain.models.LinkDTO;
 import com.sivalabs.devzone.links.domain.models.LinksDTO;
+import com.sivalabs.devzone.links.domain.models.UpdateLinkRequest;
+import com.sivalabs.devzone.links.domain.repositories.CategoryRepository;
 import com.sivalabs.devzone.links.domain.repositories.LinkRepository;
+import com.sivalabs.devzone.links.domain.utils.JsoupUtils;
 import com.sivalabs.devzone.users.domain.models.User;
-import java.io.IOException;
-import java.text.Normalizer;
-import java.util.List;
-import java.util.Locale;
-import java.util.Optional;
-import java.util.regex.Pattern;
-import java.util.stream.Collectors;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import java.util.List;
+import java.util.Optional;
+
+import static com.sivalabs.devzone.links.domain.utils.StringUtils.toSlug;
 
 @Service
 @Transactional
 @RequiredArgsConstructor
 @Slf4j
 public class LinkService {
-
-    private static final Pattern NON_LATIN = Pattern.compile("[^\\w-]");
-    private static final Pattern WHITESPACE = Pattern.compile("\\s");
-
-    private final CategoryService categoryService;
+    private final CategoryRepository categoryRepository;
     private final LinkRepository linkRepository;
-    private final LinkDTOMapper linkDTOMapper;
 
     @Transactional(readOnly = true)
-    public List<LinkDTO> getAllLinks() {
-        return linkRepository.findAll().stream()
-                .map(linkDTOMapper::toDTO)
-                .collect(Collectors.toList());
+    public List<Link> getAllLinks() {
+        return linkRepository.findAll();
     }
 
     @Transactional(readOnly = true)
@@ -60,38 +50,41 @@ public class LinkService {
     }
 
     @Transactional(readOnly = true)
-    public Optional<LinkDTO> getLinkById(Long id) {
+    public Optional<Link> getLinkById(Long id) {
         log.debug("process=get_link_by_id, id={}", id);
-        return linkRepository.findById(id).map(linkDTOMapper::toDTO);
+        return linkRepository.findById(id);
     }
 
-    public LinkDTO createLink(LinkDTO linkDTO) {
+    public Link createLink(CreateLinkRequest createLinkRequest) {
         Link link = new Link();
-        link.setUrl(linkDTO.getUrl());
-        link.setTitle(getTitle(linkDTO));
-        User user = new User();
-        user.setId(linkDTO.getCreatedUserId());
-        link.setCreatedBy(user);
-        Category category = this.getOrCreateCategory(linkDTO.getCategory().trim());
+        link.setUrl(createLinkRequest.getUrl());
+        link.setTitle(getTitle(createLinkRequest.getUrl(), createLinkRequest.getTitle()));
+        Category category = this.buildCategory(createLinkRequest.getCategory());
         link.setCategory(category);
+        User user = new User();
+        user.setId(createLinkRequest.getCreatedUserId());
+        link.setCreatedBy(user);
         log.debug("process=create_link, url={}", link.getUrl());
-        return linkDTOMapper.toDTO(linkRepository.save(link));
+        link.setTitle(getTitle(link.getUrl(), link.getTitle()));
+        return linkRepository.save(link);
     }
 
-    public LinkDTO updateLink(LinkDTO linkDTO) {
+    public Link updateLink(UpdateLinkRequest updateLinkRequest) {
         Link link =
                 linkRepository
-                        .findById(linkDTO.getId())
+                        .findById(updateLinkRequest.getId())
                         .orElseThrow(
                                 () ->
                                         new ResourceNotFoundException(
-                                                "Link with id: " + linkDTO.getId() + " not found"));
-        link.setUrl(linkDTO.getUrl());
-        link.setTitle(getTitle(linkDTO));
-        Category category = this.getOrCreateCategory(linkDTO.getCategory().trim());
+                                                "Link with id: "
+                                                        + updateLinkRequest.getId()
+                                                        + " not found"));
+        link.setUrl(updateLinkRequest.getUrl());
+        link.setTitle(getTitle(updateLinkRequest.getUrl(), updateLinkRequest.getTitle()));
+        Category category = this.buildCategory(updateLinkRequest.getCategory());
         link.setCategory(category);
         log.debug("process=update_link, url={}", link.getUrl());
-        return linkDTOMapper.toDTO(linkRepository.save(link));
+        return linkRepository.save(link);
     }
 
     public void deleteLink(Long id) {
@@ -104,25 +97,19 @@ public class LinkService {
         linkRepository.deleteAll();
     }
 
-    private LinksDTO buildLinksResult(Page<Link> links) {
-        log.trace("Found {} links in page", links.getNumberOfElements());
-        return new LinksDTO(links.map(linkDTOMapper::toDTO));
+    @Transactional(readOnly = true)
+    public List<Category> findAllCategories() {
+        return categoryRepository.findAll();
     }
 
-    private String getTitle(LinkDTO link) {
-        if (StringUtils.isNotEmpty(link.getTitle())) {
-            return link.getTitle();
+    private String getTitle(String utl, String title) {
+        if (StringUtils.isNotEmpty(title)) {
+            return title;
         }
-        try {
-            Document doc = Jsoup.connect(link.getUrl()).get();
-            return doc.title();
-        } catch (IOException e) {
-            log.error(e.getMessage(), e);
-        }
-        return link.getUrl();
+        return JsoupUtils.getTitle(utl);
     }
 
-    private Category getOrCreateCategory(String categoryName) {
+    private Category buildCategory(String categoryName) {
         if (StringUtils.isBlank(categoryName)) {
             return null;
         }
@@ -130,12 +117,5 @@ public class LinkService {
         Category category = new Category();
         category.setName(name);
         return category;
-    }
-
-    public static String toSlug(String input) {
-        String noWhitespace = WHITESPACE.matcher(input).replaceAll("-");
-        String normalized = Normalizer.normalize(noWhitespace, Normalizer.Form.NFD);
-        String slug = NON_LATIN.matcher(normalized).replaceAll("");
-        return slug.toLowerCase(Locale.ENGLISH);
     }
 }

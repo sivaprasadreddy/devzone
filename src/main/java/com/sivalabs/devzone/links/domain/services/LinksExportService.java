@@ -1,6 +1,6 @@
 package com.sivalabs.devzone.links.domain.services;
 
-import com.sivalabs.devzone.links.domain.models.LinkDTO;
+import com.sivalabs.devzone.links.domain.models.Link;
 import java.nio.charset.StandardCharsets;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
@@ -16,14 +16,15 @@ public class LinksExportService {
     public byte[] getLinksCSVFileAsString() {
         StringBuilder sb = new StringBuilder();
         sb.append("url,title,category").append(System.lineSeparator());
-        List<LinkDTO> allLinks = linkService.getAllLinks();
-        for (LinkDTO linkDTO : allLinks) {
+        List<Link> allLinks = linkService.getAllLinks();
+        for (Link linkDTO : allLinks) {
+            String category = linkDTO.getCategory() == null? null:linkDTO.getCategory().getName();
             sb.append(
                             String.join(
                                     ",",
                                     linkDTO.getUrl(),
                                     "\"" + linkDTO.getTitle() + "\"",
-                                    linkDTO.getCategory()))
+                                category))
                     .append(System.lineSeparator());
         }
         return sb.toString().getBytes(StandardCharsets.UTF_8);

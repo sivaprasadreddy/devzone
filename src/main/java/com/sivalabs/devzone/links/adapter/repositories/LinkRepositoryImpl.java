@@ -57,7 +57,7 @@ class LinkRepositoryImpl implements LinkRepository {
     @Override
     public LinksDTO getAllLinks(Integer page) {
         Pageable pageable = getPageable(page);
-        Page<Long> pageOfLinkIds = jpaLinkRepository.fetchLinkIds(pageable);
+        Page<Long> pageOfLinkIds = jpaLinkRepository.findLinkIds(pageable);
         return getLinksDTO(pageable, pageOfLinkIds);
     }
 
@@ -65,7 +65,7 @@ class LinkRepositoryImpl implements LinkRepository {
     public LinksDTO searchLinks(String query, Integer page) {
         Pageable pageable = getPageable(page);
         Page<Long> pageOfLinkIds =
-                jpaLinkRepository.fetchLinkIdsByTitleContainingIgnoreCase(query, pageable);
+                jpaLinkRepository.findLinkIdsByTitleContainingIgnoreCase(query, pageable);
         return getLinksDTO(pageable, pageOfLinkIds);
     }
 
@@ -77,7 +77,7 @@ class LinkRepositoryImpl implements LinkRepository {
         }
 
         Pageable pageable = getPageable(page);
-        Page<Long> pageOfLinkIds = jpaLinkRepository.fetchLinkIdsByCategory(category, pageable);
+        Page<Long> pageOfLinkIds = jpaLinkRepository.findLinkIdsByCategory(category, pageable);
         return getLinksDTO(pageable, pageOfLinkIds);
     }
 
@@ -98,9 +98,7 @@ class LinkRepositoryImpl implements LinkRepository {
 
     private LinksDTO getLinksDTO(Pageable pageable, Page<Long> pageOfLinkIds) {
         var links =
-                jpaLinkRepository
-                        .findLinksWithCategory(pageOfLinkIds.getContent(), pageable.getSort())
-                        .stream()
+                jpaLinkRepository.findLinks(pageOfLinkIds.getContent(), pageable.getSort()).stream()
                         .map(linkMapper::toModel)
                         .toList();
         Page<Link> linksPage = new PageImpl<>(links, pageable, pageOfLinkIds.getTotalElements());

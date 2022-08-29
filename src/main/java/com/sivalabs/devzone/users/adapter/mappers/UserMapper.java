@@ -13,18 +13,16 @@ public class UserMapper {
         userEntity.setName(user.getName());
         userEntity.setEmail(user.getEmail());
         userEntity.setPassword(user.getPassword());
-        userEntity.setImageUrl(user.getImageUrl());
         userEntity.setRole(user.getRole());
         return userEntity;
     }
 
-    public User toDTO(UserEntity userEntity) {
+    public User toModel(UserEntity userEntity) {
         User user = new User();
         user.setId(userEntity.getId());
         user.setName(userEntity.getName());
         user.setEmail(userEntity.getEmail());
         user.setPassword(userEntity.getPassword());
-        user.setImageUrl(userEntity.getImageUrl());
         user.setRole(userEntity.getRole());
         return user;
     }

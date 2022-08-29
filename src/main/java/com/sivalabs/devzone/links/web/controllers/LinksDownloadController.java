@@ -21,6 +21,7 @@ public class LinksDownloadController {
     public void downloadBookmarks(HttpServletResponse response) throws IOException {
         String filename = "links.csv";
         String mimeType = "text/csv";
+        // TODO; fetching all the data at once is OutOfMemoryException waiting to happen
         byte[] csvData = linksExportService.getLinksCSVFileAsString();
         response.setContentType(mimeType);
         response.setHeader(

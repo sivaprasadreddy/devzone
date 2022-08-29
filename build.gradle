@@ -35,7 +35,6 @@ repositories {
 
 ext {
     set('spring_cloud_version', "2021.0.3")
-    set('awspring_version', "2.4.2")
     set('testcontainers_version', "1.17.3")
     set('webjars_locator_version', "0.45")
     set('bootstrap_version', "5.2.0")
@@ -43,7 +42,6 @@ ext {
     set('font_awesome_version', "6.1.2")
     set('commons_lang_version', "3.12.0")
     set('commons_io_version', "2.11.0")
-    set('jjwt_version', "0.9.1")
     set('springdoc_openapi', "1.6.11")
     set('opencsv_version', "5.6")
     set('jsoup_version', "1.15.3")
@@ -63,7 +61,6 @@ dependencies {
     implementation "nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect"
 
     implementation "org.springframework.boot:spring-boot-starter-security"
-    implementation "io.jsonwebtoken:jjwt:${jjwt_version}"
     implementation "org.springdoc:springdoc-openapi-ui:${springdoc_openapi}"
     implementation "com.opencsv:opencsv:${opencsv_version}"
     implementation "org.jsoup:jsoup:${jsoup_version}"

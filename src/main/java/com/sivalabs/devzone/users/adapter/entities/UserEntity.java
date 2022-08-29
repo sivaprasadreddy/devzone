@@ -43,8 +43,6 @@ public class UserEntity extends BaseEntity implements Serializable {
     @Size(min = 4)
     private String password;
 
-    @Column private String imageUrl;
-
     @Column(nullable = false)
     @Enumerated(EnumType.STRING)
     private RoleEnum role;

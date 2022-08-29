@@ -59,7 +59,7 @@
 
                 <p sec:authorize="isAuthenticated()" class="mt-3 mb-0"
                     th:if="${link.editable}">
-                    <a class="button" href="#" th:href="${'/links/edit/'+link.id}">
+                    <a class="button" href="#" th:href="${'/links/'+link.id+'/edit'}">
                         <i class="fas fa-edit" ></i> Edit
                     </a>
 

@@ -1,16 +1,12 @@
 package com.sivalabs.devzone.links.adapter.entities;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.sivalabs.devzone.common.BaseEntity;
 import java.io.Serializable;
-import java.util.HashSet;
-import java.util.Set;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.OneToMany;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 import javax.validation.constraints.NotEmpty;
@@ -32,10 +28,6 @@ public class CategoryEntity extends BaseEntity implements Serializable {
     @NotEmpty()
     private String name;
 
-    @JsonIgnore
-    @OneToMany(mappedBy = "category")
-    private Set<LinkEntity> links;
-
     @Override
     public boolean equals(Object o) {
         if (this == o) {
@@ -50,12 +42,5 @@ public class CategoryEntity extends BaseEntity implements Serializable {
     @Override
     public int hashCode() {
         return getClass().hashCode();
-    }
-
-    public Set<LinkEntity> getLinks() {
-        if (this.links == null) {
-            this.links = new HashSet<>();
-        }
-        return this.links;
     }
 }

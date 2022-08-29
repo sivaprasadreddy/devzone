@@ -1,25 +1,29 @@
 package com.sivalabs.devzone.utils;
 
-import com.sivalabs.devzone.users.adapter.entities.UserEntity;
-import java.util.UUID;
+import com.sivalabs.devzone.links.domain.models.Link;
+import com.sivalabs.devzone.users.domain.models.RoleEnum;
+import com.sivalabs.devzone.users.domain.models.User;
 
 public class TestDataFactory {
 
-    public static UserEntity createUser() {
-        String uuid = UUID.randomUUID().toString();
-        return createUser(uuid + "@gmail.com", uuid);
+    public static Link getMockLink(Long userId) {
+        Link link = new Link();
+        link.setUrl("https://google.com");
+        link.setTitle("Google");
+        link.setCreatedBy(getMockUser(userId, RoleEnum.ROLE_USER));
+        return link;
     }
 
-    public static UserEntity createUser(String email) {
-        String uuid = UUID.randomUUID().toString();
-        return createUser(email, uuid);
+    public static User getMockUser() {
+        return getMockUser(1L, RoleEnum.ROLE_USER);
     }
 
-    public static UserEntity createUser(String email, String password) {
-        UserEntity user = new UserEntity();
-        user.setName("someuser");
-        user.setEmail(email);
-        user.setPassword(password);
+    public static User getMockUser(Long id, RoleEnum role) {
+        User user = new User();
+        user.setId(id);
+        user.setEmail("user@gmail.com");
+        user.setPassword("user");
+        user.setRole(role);
         return user;
     }
 }

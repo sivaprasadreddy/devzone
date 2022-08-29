@@ -3,12 +3,11 @@ package com.sivalabs.devzone.links.domain.services;
 import com.opencsv.CSVIterator;
 import com.opencsv.CSVReader;
 import com.opencsv.exceptions.CsvValidationException;
-import com.sivalabs.devzone.links.domain.models.LinkDTO;
+import com.sivalabs.devzone.links.domain.models.CreateLinkRequest;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
-import java.time.LocalDateTime;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -48,15 +47,15 @@ public class LinksImportService {
 
             while (iterator.hasNext()) {
                 String[] linkTokens = iterator.next();
-                LinkDTO linkDTO = new LinkDTO();
-                linkDTO.setUrl(linkTokens[0]);
-                linkDTO.setTitle(linkTokens[1]);
-                linkDTO.setCreatedUserId(SYSTEM_USER_ID);
-                linkDTO.setCreatedAt(LocalDateTime.now());
+                CreateLinkRequest createLinkRequest = new CreateLinkRequest();
+                createLinkRequest.setUrl(linkTokens[0]);
+                createLinkRequest.setTitle(linkTokens[1]);
+                createLinkRequest.setCreatedUserId(SYSTEM_USER_ID);
                 if (linkTokens.length > 2 && StringUtils.trimToNull(linkTokens[2]) != null) {
-                    linkDTO.setCategory(StringUtils.trimToEmpty(linkTokens[2].split("\\|")[0]));
+                    createLinkRequest.setCategory(
+                            StringUtils.trimToEmpty(linkTokens[2].split("\\|")[0]));
                 }
-                linkService.createLink(linkDTO);
+                linkService.createLink(createLinkRequest);
                 count++;
             }
         }

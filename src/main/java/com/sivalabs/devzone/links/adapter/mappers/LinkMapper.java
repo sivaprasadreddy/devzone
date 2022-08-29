@@ -29,7 +29,7 @@ public class LinkMapper {
         dto.setId(link.getId());
         dto.setUrl(link.getUrl());
         dto.setTitle(link.getTitle());
-        dto.setCreatedBy(userMapper.toDTO(link.getCreatedBy()));
+        dto.setCreatedBy(userMapper.toModel(link.getCreatedBy()));
         dto.setCreatedAt(link.getCreatedAt());
         dto.setUpdatedAt(link.getUpdatedAt());
         dto.setCategory(categoryMapper.toModel(link.getCategory()));

@@ -3,9 +3,9 @@ package com.sivalabs.devzone.common.exceptions;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
-@ResponseStatus(HttpStatus.NOT_FOUND)
-public class ResourceNotFoundException extends DevZoneException {
-    public ResourceNotFoundException(String message) {
+@ResponseStatus(HttpStatus.FORBIDDEN)
+public class UnauthorisedAccessException extends DevZoneException {
+    public UnauthorisedAccessException(String message) {
         super(message);
     }
 }

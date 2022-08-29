@@ -15,7 +15,7 @@ class UserRepositoryImpl implements UserRepository {
     private final UserMapper userMapper;
 
     public Optional<User> findByEmail(String email) {
-        return jpaUserRepository.findByEmail(email).map(userMapper::toDTO);
+        return jpaUserRepository.findByEmail(email);
     }
 
     public boolean existsByEmail(String email) {
@@ -23,13 +23,13 @@ class UserRepositoryImpl implements UserRepository {
     }
 
     public Optional<User> findById(Long id) {
-        return jpaUserRepository.findById(id).map(userMapper::toDTO);
+        return jpaUserRepository.findByUserId(id);
     }
 
     public User save(User user) {
         UserEntity userEntity = userMapper.toEntity(user);
         UserEntity savedUser = jpaUserRepository.save(userEntity);
-        return userMapper.toDTO(savedUser);
+        return userMapper.toModel(savedUser);
     }
 
     public void delete(User user) {
