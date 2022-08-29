@@ -1,5 +1,7 @@
 package com.sivalabs.devzone.links.domain.services;
 
+import static com.sivalabs.devzone.links.domain.utils.StringUtils.toSlug;
+
 import com.sivalabs.devzone.common.exceptions.ResourceNotFoundException;
 import com.sivalabs.devzone.links.domain.models.Category;
 import com.sivalabs.devzone.links.domain.models.CreateLinkRequest;
@@ -10,16 +12,13 @@ import com.sivalabs.devzone.links.domain.repositories.CategoryRepository;
 import com.sivalabs.devzone.links.domain.repositories.LinkRepository;
 import com.sivalabs.devzone.links.domain.utils.JsoupUtils;
 import com.sivalabs.devzone.users.domain.models.User;
+import java.util.List;
+import java.util.Optional;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
-import java.util.List;
-import java.util.Optional;
-
-import static com.sivalabs.devzone.links.domain.utils.StringUtils.toSlug;
 
 @Service
 @Transactional

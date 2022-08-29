@@ -18,13 +18,14 @@ public class LinksExportService {
         sb.append("url,title,category").append(System.lineSeparator());
         List<Link> allLinks = linkService.getAllLinks();
         for (Link linkDTO : allLinks) {
-            String category = linkDTO.getCategory() == null? null:linkDTO.getCategory().getName();
+            String category =
+                    linkDTO.getCategory() == null ? null : linkDTO.getCategory().getName();
             sb.append(
                             String.join(
                                     ",",
                                     linkDTO.getUrl(),
                                     "\"" + linkDTO.getTitle() + "\"",
-                                category))
+                                    category))
                     .append(System.lineSeparator());
         }
         return sb.toString().getBytes(StandardCharsets.UTF_8);
