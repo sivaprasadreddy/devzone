@@ -1,2 +1,3 @@
 rootProject.name = 'devzone'
 include 'gatling-tests'
+include 'playwright-e2e-tests'

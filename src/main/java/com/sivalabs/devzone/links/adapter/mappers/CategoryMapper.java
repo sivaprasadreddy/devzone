@@ -8,6 +8,9 @@ import org.springframework.stereotype.Component;
 public class CategoryMapper {
 
     public Category toModel(CategoryEntity categoryEntity) {
+        if (categoryEntity == null) {
+            return null;
+        }
         Category category = new Category();
         category.setId(category.getId());
         category.setName(categoryEntity.getName());
@@ -17,6 +20,9 @@ public class CategoryMapper {
     }
 
     public CategoryEntity toEntity(Category category) {
+        if (category == null) {
+            return null;
+        }
         CategoryEntity categoryEntity = new CategoryEntity();
         categoryEntity.setId(category.getId());
         categoryEntity.setName(category.getName());

@@ -149,8 +149,8 @@ test {
     useJUnitPlatform()
     testLogging {
         events = ["PASSED", "FAILED", "SKIPPED"]
-        showStandardStreams = true
-        exceptionFormat = "full"
+        // showStandardStreams = true
+        // exceptionFormat = "full"
     }
 }
 jacoco {

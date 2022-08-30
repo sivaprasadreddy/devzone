@@ -11,6 +11,14 @@
 
 `$ ./gradlew gatlingRun`
 
+### Run PlayWright E2E Tests
+
+```
+$ ./gradlew :playwright-e2e-tests:e2eTest
+$ export CONFIG_FILE=dev.json
+$ ./gradlew :playwright-e2e-tests:e2eTest
+```
+
 ### Important Links
 
 * Application: http://localhost:8080 

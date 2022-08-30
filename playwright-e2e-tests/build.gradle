@@ -1,0 +1,65 @@
+plugins {
+    id 'java'
+}
+
+group = "com.sivalabs"
+version = "0.0.1-SNAPSHOT"
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+sourceSets {
+    e2eTest {
+        compileClasspath += sourceSets.main.output
+        runtimeClasspath += sourceSets.main.output
+    }
+}
+
+configurations {
+    e2eTestImplementation.extendsFrom implementation
+    e2eTestRuntimeOnly.extendsFrom runtimeOnly
+}
+
+dependencies {
+    e2eTestImplementation(platform('org.junit:junit-bom:5.9.0'))
+    e2eTestImplementation('org.junit.jupiter:junit-jupiter')
+    e2eTestImplementation('org.assertj:assertj-core:3.23.1')
+    e2eTestImplementation('com.fasterxml.jackson.core:jackson-databind:2.13.3')
+    e2eTestImplementation('com.microsoft.playwright:playwright:1.25.0')
+}
+
+tasks.register('e2eTest', Test) {
+    description = 'Runs e2e tests.'
+    group = 'verification'
+
+    testClassesDirs = sourceSets.e2eTest.output.classesDirs
+    classpath = sourceSets.e2eTest.runtimeClasspath
+    shouldRunAfter test
+}
+
+check.dependsOn e2eTest
+
+test {
+    useJUnitPlatform()
+    testLogging {
+        events = ["PASSED", "FAILED", "SKIPPED"]
+        // showStandardStreams = true
+        // exceptionFormat = "full"
+    }
+}
+
+e2eTest {
+    useJUnitPlatform()
+    testLogging {
+        events = ["PASSED", "FAILED", "SKIPPED"]
+         showStandardStreams = true
+        // exceptionFormat = "full"
+    }
+}
