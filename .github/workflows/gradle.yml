@@ -12,6 +12,8 @@ jobs:
       matrix:
         distribution: [ 'temurin' ]
         java: [ '17']
+    env:
+      DOCKER_IMAGE_NAME: ${{ secrets.DOCKER_USERNAME }}/devzone
     steps:
       - uses: actions/checkout@v3
 
@@ -24,6 +26,13 @@ jobs:
 
       - name: Build with Gradle
         run: ./gradlew build
+
+      - if: ${{ github.ref == 'refs/heads/main' }}
+        name: Build and Publish Docker Image
+        run: |
+          ./gradlew jibDockerBuild --image=$DOCKER_IMAGE_NAME
+          docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
+          docker push $DOCKER_IMAGE_NAME
 
       - if: ${{ github.ref == 'refs/heads/main' }}
         name: SonarQube Scan
