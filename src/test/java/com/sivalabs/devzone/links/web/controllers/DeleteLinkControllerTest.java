@@ -48,4 +48,29 @@ public class DeleteLinkControllerTest extends AbstractWebMvcTest {
         mockMvc.perform(delete("/links/{id}", 1).with(csrf()).with(user(securityUser)))
                 .andExpect(status().isOk());
     }
+
+    @Test
+    void normalUserShouldNotBeAbleToDeleteOthersLink() throws Exception {
+        User user = TestDataFactory.getMockUser(1L, RoleEnum.ROLE_USER);
+        SecurityUser securityUser = new SecurityUser(user);
+        given(securityService.loginUser()).willReturn(user);
+        given(securityService.isUserAdminOrModerator(user)).willReturn(false);
+        Link link = TestDataFactory.getMockLink(2L);
+        given(linkService.getLinkById(any(Long.class))).willReturn(Optional.of(link));
+
+        mockMvc.perform(delete("/links/{id}", 1).with(csrf()).with(user(securityUser)))
+                .andExpect(status().isForbidden());
+    }
+
+    @Test
+    void return404IfLinkNotExists() throws Exception {
+        User user = TestDataFactory.getMockUser(1L, RoleEnum.ROLE_USER);
+        SecurityUser securityUser = new SecurityUser(user);
+        given(securityService.loginUser()).willReturn(user);
+        given(securityService.isUserAdminOrModerator(user)).willReturn(false);
+        given(linkService.getLinkById(any(Long.class))).willReturn(Optional.empty());
+
+        mockMvc.perform(delete("/links/{id}", 1).with(csrf()).with(user(securityUser)))
+                .andExpect(status().isNotFound());
+    }
 }

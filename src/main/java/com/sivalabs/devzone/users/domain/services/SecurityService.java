@@ -31,18 +31,6 @@ public class SecurityService {
         return null;
     }
 
-    public Long loginUserId() {
-        User loginUser = loginUser();
-        if (loginUser != null) {
-            return loginUser.getId();
-        }
-        return null;
-    }
-
-    public boolean isCurrentUserAdmin() {
-        return isUserHasAnyRole(loginUser(), RoleEnum.ROLE_ADMIN);
-    }
-
     public boolean isUserAdminOrModerator(User loginUser) {
         return isUserHasAnyRole(loginUser, RoleEnum.ROLE_ADMIN, RoleEnum.ROLE_MODERATOR);
     }
