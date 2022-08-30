@@ -1,5 +1,6 @@
 package com.sivalabs.devzone.links.web.controllers;
 
+import com.sivalabs.devzone.config.logging.Loggable;
 import com.sivalabs.devzone.links.domain.models.LinksDTO;
 import com.sivalabs.devzone.links.domain.services.LinkService;
 import lombok.RequiredArgsConstructor;
@@ -12,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 @RequiredArgsConstructor
+@Loggable
 @Slf4j
 public class GetLinksController {
     private static final String PAGINATION_PREFIX = "paginationPrefix";

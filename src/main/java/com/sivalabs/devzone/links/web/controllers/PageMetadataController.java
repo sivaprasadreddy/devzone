@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 public class PageMetadataController {
 
-    @GetMapping("/page-metadata")
+    @GetMapping("/api/page-metadata")
     public Map<String, String> getPageMetadata(@RequestParam String url) {
         Map<String, String> metadata = new ConcurrentHashMap<>();
         try {

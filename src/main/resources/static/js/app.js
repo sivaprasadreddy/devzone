@@ -24,7 +24,7 @@ function getPageMetadata(formId)
     let url = $("#"+formId+" input[name=url]").val();
     if(url === '') return;
     $.ajax ({
-        url: '/page-metadata?url='+url,
+        url: '/api/page-metadata?url='+url,
         type: "GET",
         dataType: "json",
         success: function(responseData, status){
