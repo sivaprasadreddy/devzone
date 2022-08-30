@@ -12,7 +12,7 @@ public class CategoryMapper {
             return null;
         }
         Category category = new Category();
-        category.setId(category.getId());
+        category.setId(categoryEntity.getId());
         category.setName(categoryEntity.getName());
         category.setCreatedAt(categoryEntity.getCreatedAt());
         category.setUpdatedAt(categoryEntity.getUpdatedAt());

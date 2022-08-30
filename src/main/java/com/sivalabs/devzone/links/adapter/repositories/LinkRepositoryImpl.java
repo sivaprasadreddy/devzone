@@ -9,6 +9,7 @@ import com.sivalabs.devzone.links.domain.mappers.LinkDTOMapper;
 import com.sivalabs.devzone.links.domain.models.Category;
 import com.sivalabs.devzone.links.domain.models.Link;
 import com.sivalabs.devzone.links.domain.models.LinksDTO;
+import com.sivalabs.devzone.links.domain.repositories.CategoryRepository;
 import com.sivalabs.devzone.links.domain.repositories.LinkRepository;
 import com.sivalabs.devzone.users.adapter.entities.UserEntity;
 import java.util.List;
@@ -28,6 +29,7 @@ class LinkRepositoryImpl implements LinkRepository {
     private final JpaLinkRepository jpaLinkRepository;
     private final JpaLinkCreatorRepository jpaLinkCreatorRepository;
     private final JpaCategoryRepository jpaCategoryRepository;
+    private final CategoryRepository categoryRepository;
     private final LinkMapper linkMapper;
     private final LinkDTOMapper linkDTOMapper;
     private final CategoryMapper categoryMapper;
@@ -109,7 +111,10 @@ class LinkRepositoryImpl implements LinkRepository {
     private CategoryEntity getOrCreateCategory(Category category) {
         Optional<CategoryEntity> categoryOptional =
                 jpaCategoryRepository.findByName(category.getName());
-        return categoryOptional.orElseGet(
-                () -> jpaCategoryRepository.save(categoryMapper.toEntity(category)));
+        if(categoryOptional.isPresent()) {
+            return categoryOptional.get();
+        }
+        Category savedCategory = categoryRepository.save(category);
+        return jpaCategoryRepository.getReferenceById(savedCategory.getId());
     }
 }
