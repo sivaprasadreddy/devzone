@@ -18,13 +18,13 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 @Controller
+@AnyAuthenticatedUser
 @RequiredArgsConstructor
 @Slf4j
 public class ChangePasswordController {
     private final UserService userService;
 
     @GetMapping("/change-password")
-    @AnyAuthenticatedUser
     public String changePasswordForm(Model model) {
         model.addAttribute("changePassword", new ChangePasswordRequest());
         return "change-password";
