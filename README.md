@@ -1,11 +1,53 @@
 # DevZone
+DevZone is a web application where developers can register and post their favourite article/video links. 
+
+## Features
+* Users can register and login
+* Authenticated user can create a new link under a category
+* Authenticated user can delete own links
+* Admin user can delete any link
+* Any user(including guest users) can view links with pagination
+  * sort by posted date desc (default)
+  * by category
+  * by searching for a keyword in title
 
 [![Build](https://github.com/sivaprasadreddy/devzone/actions/workflows/gradle.yml/badge.svg)](https://github.com/sivaprasadreddy/devzone/actions/workflows/gradle.yml) 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=sivaprasadreddy_devzone&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=sivaprasadreddy_devzone)
 
-### Run locally
+## Tech Stack
+* [SpringBoot](https://spring.io/projects/spring-boot)
+* [Spring Data JPA](https://spring.io/projects/spring-data-jpa)
+* [Spring Security](https://spring.io/projects/spring-security)
+* [Postgres](https://www.postgresql.org/)
+* [Thymeleaf](https://www.thymeleaf.org/)
+* [Testcontainers](https://www.testcontainers.org/)
+* [ArchUnit](https://www.archunit.org/)
+* [Jib](https://github.com/GoogleContainerTools/jib/tree/master/jib-gradle-plugin)
+* [Gradle](https://gradle.org/)
+* [JUnit 5](https://junit.org/junit5/)
+* [SonarQube](https://www.sonarqube.org/)
+* [JaCoCo](https://docs.gradle.org/current/userguide/jacoco_plugin.html)
+* [GH Actions](https://github.com/features/actions)
+* [DockerCompose](https://docs.docker.com/compose/)
+* [Kubernetes](https://kubernetes.io/)
+* [Helm Charts](https://helm.sh/)
+* [Skaffold](https://skaffold.dev/)
+* [ELK](https://www.elastic.co/what-is/elk-stack)
+* [Prometheus](https://prometheus.io/)
+* [Grafana](https://grafana.com/)
+* [Loki](https://grafana.com/oss/loki/)
+* [Gatling](https://gatling.io/) Performance Tests
+* [PlayWright](https://playwright.dev/) E2E Tests
+
+## How to run?
+
+### Run application locally
 
 `$ ./gradlew bootRun`
+
+### Run application using docker-compose
+
+`$ ./run.sh start_app`
 
 ### Run Gatling Tests
 
@@ -18,13 +60,6 @@ $ ./gradlew :playwright-e2e-tests:e2eTest
 $ export CONFIG_FILE=dev.json
 $ ./gradlew :playwright-e2e-tests:e2eTest
 ```
-
-### Important Links
-
-* Application: http://localhost:8080 
-* Prometheus: http://localhost:9090
-* Grafana: http://localhost:3000
-* Kibana: http://localhost:5601/
 
 ## ELK Stack
 * Start ELK stack using `$ ./run.sh start_elk`
@@ -45,3 +80,10 @@ $ ./gradlew :playwright-e2e-tests:e2eTest
 * Click on Save & Test
 * Click on Explore in the Left Nav and Select Loki
 * In Log browser input text enter `{job="devzone"}`
+
+## Important Links
+
+* Application: http://localhost:8080
+* Prometheus: http://localhost:9090
+* Grafana: http://localhost:3000
+* Kibana: http://localhost:5601/
