@@ -44,8 +44,6 @@ tasks.register('e2eTest', Test) {
     shouldRunAfter test
 }
 
-check.dependsOn e2eTest
-
 test {
     useJUnitPlatform()
     testLogging {

@@ -1,6 +1,6 @@
 {
   "rootUrl": "http://localhost:18080",
-  "headlessMode": false,
+  "headlessMode": true,
   "slowMo": 1000,
   "normalUserEmail": "siva@gmail.com",
   "normalUserPassword": "siva",
