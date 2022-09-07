@@ -34,7 +34,7 @@ repositories {
 }
 
 ext {
-    set('spring_cloud_version', "2021.0.3")
+    set('spring_cloud_version', "2021.0.4")
     set('testcontainers_version', "1.17.3")
     set('webjars_locator_version', "0.45")
     set('bootstrap_version', "5.2.0")
