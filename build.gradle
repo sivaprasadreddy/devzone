@@ -18,7 +18,7 @@ version = "0.0.1-SNAPSHOT"
 
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(17)
+        languageVersion = JavaLanguageVersion.of(19)
         vendor = JvmVendorSpec.ADOPTIUM
     }
 }
@@ -49,7 +49,7 @@ ext {
     set('jsoup_version', "1.15.3")
     set('p6spy_version', "1.8.1")
     set('flexypool_version', "1.8.1")
-    set('archunit_junit5_version', "0.23.1")
+    set('archunit_junit5_version', "1.0.0-rc1")
 }
 
 dependencies {

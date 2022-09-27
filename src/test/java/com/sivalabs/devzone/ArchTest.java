@@ -52,6 +52,7 @@ class ArchTest {
     @Test
     void shouldFollowLayeredArchitecture() {
         layeredArchitecture()
+                .consideringAllDependencies()
                 .layer("Config")
                 .definedBy("..config..")
                 .layer("Web")
