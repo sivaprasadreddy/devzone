@@ -55,7 +55,7 @@ public class LinkCreationSimulation extends Simulation {
             .exec(createLink);
 
     ScenarioBuilder scnCreateLink = scenario("Create Link")
-            .during(Duration.ofMinutes(5), "Counter")
+            .during(Duration.ofMinutes(2), "Counter")
             .on(createLinkFlow);
 
     //ScenarioBuilder scnCreateLink = scenario("Create Link").exec(createLinkFlow);
@@ -67,7 +67,7 @@ public class LinkCreationSimulation extends Simulation {
         .protocols(httpProtocol)
             .assertions(
                 global().responseTime().max().lt(2000),
-                global().successfulRequests().percent().gt(95.0)
+                global().successfulRequests().percent().is(100.0)
             );
     }
 }

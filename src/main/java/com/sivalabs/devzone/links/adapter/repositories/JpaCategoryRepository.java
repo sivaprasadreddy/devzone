@@ -6,7 +6,9 @@ import java.util.List;
 import java.util.Optional;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
 
 interface JpaCategoryRepository extends JpaRepository<CategoryEntity, Long> {
     Optional<CategoryEntity> findByName(String name);
@@ -17,4 +19,14 @@ interface JpaCategoryRepository extends JpaRepository<CategoryEntity, Long> {
         from CategoryEntity c
         """)
     List<Category> findAllCategories(Sort sort);
+
+    @Modifying
+    @Query(
+            value =
+                    """
+             insert into categories(name)
+             values(:#{#c.name}) ON CONFLICT (name) DO NOTHING
+             """,
+            nativeQuery = true)
+    void upsert(@Param("c") CategoryEntity category);
 }

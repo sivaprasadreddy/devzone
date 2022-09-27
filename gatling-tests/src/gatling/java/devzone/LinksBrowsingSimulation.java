@@ -40,7 +40,7 @@ public class LinksBrowsingSimulation extends Simulation {
 
 
     ScenarioBuilder scnBrowseLinks = scenario("Browse Links")
-            .during(Duration.ofMinutes(5), "Counter")
+            .during(Duration.ofMinutes(2), "Counter")
             .on(browseLinks);
 
 
@@ -53,7 +53,7 @@ public class LinksBrowsingSimulation extends Simulation {
         .protocols(httpProtocol)
             .assertions(
                 global().responseTime().max().lt(2000),
-                global().successfulRequests().percent().gt(95.0)
+                global().successfulRequests().percent().is(100.0)
             );
     }
 }

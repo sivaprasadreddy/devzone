@@ -109,12 +109,7 @@ class LinkRepositoryImpl implements LinkRepository {
     }
 
     private CategoryEntity getOrCreateCategory(Category category) {
-        Optional<CategoryEntity> categoryOptional =
-                jpaCategoryRepository.findByName(category.getName());
-        if (categoryOptional.isPresent()) {
-            return categoryOptional.get();
-        }
-        Category savedCategory = categoryRepository.save(category);
-        return jpaCategoryRepository.getReferenceById(savedCategory.getId());
+        categoryRepository.upsert(category);
+        return jpaCategoryRepository.findByName(category.getName()).orElseThrow();
     }
 }

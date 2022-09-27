@@ -31,7 +31,7 @@ dependencies {
     e2eTestImplementation(platform('org.junit:junit-bom:5.9.0'))
     e2eTestImplementation('org.junit.jupiter:junit-jupiter')
     e2eTestImplementation('org.assertj:assertj-core:3.23.1')
-    e2eTestImplementation('com.fasterxml.jackson.core:jackson-databind:2.13.3')
+    e2eTestImplementation('com.fasterxml.jackson.core:jackson-databind:2.13.4')
     e2eTestImplementation('com.microsoft.playwright:playwright:1.25.0')
 }
 

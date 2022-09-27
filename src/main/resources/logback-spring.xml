@@ -8,7 +8,13 @@
             <appender-ref ref="CONSOLE" />
         </root>
     </springProfile>
-
+    <springProfile name="dev">
+        <property name="LOG_FILE" value="logs/devzone.log"/>
+        <include resource="org/springframework/boot/logging/logback/file-appender.xml" />
+        <root level="INFO">
+            <appender-ref ref="FILE" />
+        </root>
+    </springProfile>
     <springProfile name="docker">
         <property name="LOG_FILE" value="/logs/devzone.log"/>
         <include resource="org/springframework/boot/logging/logback/file-appender.xml" />
