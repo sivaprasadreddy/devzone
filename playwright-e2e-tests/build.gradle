@@ -6,8 +6,10 @@ group = "com.sivalabs"
 version = "0.0.1-SNAPSHOT"
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_17
-    targetCompatibility = JavaVersion.VERSION_17
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(19)
+        vendor = JvmVendorSpec.ADOPTIUM
+    }
 }
 
 repositories {
@@ -32,7 +34,7 @@ dependencies {
     e2eTestImplementation('org.junit.jupiter:junit-jupiter')
     e2eTestImplementation('org.assertj:assertj-core:3.23.1')
     e2eTestImplementation('com.fasterxml.jackson.core:jackson-databind:2.13.4')
-    e2eTestImplementation('com.microsoft.playwright:playwright:1.25.0')
+    e2eTestImplementation('com.microsoft.playwright:playwright:1.26.0')
 }
 
 tasks.register('e2eTest', Test) {

@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        distribution: [ 'temurin' ]
-        java: [ '17']
+        distribution: [ 'zulu' ]
+        java: [ '19']
     env:
       DOCKER_IMAGE_NAME: ${{ secrets.DOCKER_USERNAME }}/devzone
     steps:

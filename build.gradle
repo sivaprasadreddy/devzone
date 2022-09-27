@@ -1,11 +1,11 @@
 plugins {
     id 'java'
     id 'jacoco'
-    id 'org.springframework.boot' version '2.7.3'
-    id 'io.spring.dependency-management' version '1.0.13.RELEASE'
+    id 'org.springframework.boot' version '2.7.4'
+    id 'io.spring.dependency-management' version '1.0.14.RELEASE'
     id 'com.gorylenko.gradle-git-properties' version "2.4.1"
     id 'com.google.cloud.tools.jib' version "3.3.0"
-    id 'com.diffplug.spotless' version "6.10.0"
+    id 'com.diffplug.spotless' version "6.11.0"
     id 'org.sonarqube' version "3.4.0.2513"
 }
 
@@ -17,8 +17,10 @@ group = "com.sivalabs"
 version = "0.0.1-SNAPSHOT"
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_17
-    targetCompatibility = JavaVersion.VERSION_17
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(19)
+        vendor = JvmVendorSpec.ADOPTIUM
+    }
 }
 
 configurations {
@@ -89,7 +91,7 @@ dependencies {
     testImplementation "org.testcontainers:postgresql"
     testImplementation "org.projectlombok:lombok"
     testImplementation "com.tngtech.archunit:archunit-junit5:${archunit_junit5_version}"
-    testImplementation "com.apptasticsoftware:rssreader:3.1.0"
+    testImplementation "com.apptasticsoftware:rssreader:3.2.0"
 }
 
 dependencyManagement {
@@ -119,10 +121,10 @@ gitProperties {
 
 jib {
     from {
-        image = 'eclipse-temurin:17-jre-focal'
+        image = 'azul/zulu-openjdk:19-jre'
     }
     to {
-        image = 'sivaprasadreddy/video-library'
+        image = 'sivaprasadreddy/devzone'
         tags = ['latest']
     }
     container {

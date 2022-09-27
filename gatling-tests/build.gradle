@@ -1,6 +1,13 @@
 plugins {
     id 'java'
-    id 'io.gatling.gradle' version '3.8.3.2'
+    id 'io.gatling.gradle' version '3.8.4'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(19)
+        vendor = JvmVendorSpec.ADOPTIUM
+    }
 }
 
 repositories {
