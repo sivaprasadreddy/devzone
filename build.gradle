@@ -121,7 +121,7 @@ gitProperties {
 
 jib {
     from {
-        image = 'azul/zulu-openjdk:19-jre'
+        image = 'eclipse-temurin:19-jre-focal'
     }
     to {
         image = 'sivaprasadreddy/devzone'
