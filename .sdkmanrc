@@ -1,2 +1,2 @@
-java=19-zulu
+java=17.0.4-zulu
 gradle=7.5.1

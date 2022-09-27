@@ -11,7 +11,7 @@ jobs:
     strategy:
       matrix:
         distribution: [ 'zulu' ]
-        java: [ '18']
+        java: [ '17']
     env:
       DOCKER_IMAGE_NAME: ${{ secrets.DOCKER_USERNAME }}/devzone
     steps:
