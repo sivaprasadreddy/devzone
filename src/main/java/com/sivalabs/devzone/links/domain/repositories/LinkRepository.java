@@ -16,9 +16,9 @@ public interface LinkRepository {
 
     Optional<Link> findById(Long id);
 
+    Link save(Link link);
+
     void deleteAll();
 
     void deleteById(Long id);
-
-    Link save(Link link);
 }

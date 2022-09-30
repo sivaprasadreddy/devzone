@@ -38,11 +38,9 @@ public class LinksBrowsingSimulation extends Simulation {
             .exec(byCategory)
             .exec(search);
 
-
     ScenarioBuilder scnBrowseLinks = scenario("Browse Links")
             .during(Duration.ofMinutes(2), "Counter")
             .on(browseLinks);
-
 
     //ScenarioBuilder scnBrowseLinks = scenario("Browse Links").exec(browseLinks);
 

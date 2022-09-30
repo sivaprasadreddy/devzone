@@ -47,8 +47,6 @@ ext {
     set('springdoc_openapi', "1.6.11")
     set('opencsv_version', "5.7.0")
     set('jsoup_version', "1.15.3")
-    set('p6spy_version', "1.8.1")
-    set('flexypool_version', "1.8.1")
     set('archunit_junit5_version', "1.0.0-rc1")
 }
 
@@ -66,8 +64,6 @@ dependencies {
     implementation "org.springdoc:springdoc-openapi-ui:${springdoc_openapi}"
     implementation "com.opencsv:opencsv:${opencsv_version}"
     implementation "org.jsoup:jsoup:${jsoup_version}"
-    implementation "com.github.gavlyukovskiy:p6spy-spring-boot-starter:${p6spy_version}"
-    implementation("com.github.gavlyukovskiy:flexy-pool-spring-boot-starter:${flexypool_version}")
     implementation "org.apache.commons:commons-lang3:${commons_lang_version}"
     implementation "commons-io:commons-io:${commons_io_version}"
     implementation "org.flywaydb:flyway-core"

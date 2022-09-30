@@ -7,7 +7,7 @@ version = "0.0.1-SNAPSHOT"
 
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(19)
+        languageVersion = JavaLanguageVersion.of(17)
         vendor = JvmVendorSpec.ADOPTIUM
     }
 }
@@ -50,8 +50,8 @@ test {
     useJUnitPlatform()
     testLogging {
         events = ["PASSED", "FAILED", "SKIPPED"]
-        // showStandardStreams = true
-        // exceptionFormat = "full"
+        showStandardStreams = true
+        exceptionFormat = "full"
     }
 }
 
@@ -59,7 +59,7 @@ e2eTest {
     useJUnitPlatform()
     testLogging {
         events = ["PASSED", "FAILED", "SKIPPED"]
-         showStandardStreams = true
-        // exceptionFormat = "full"
+        showStandardStreams = true
+        exceptionFormat = "full"
     }
 }

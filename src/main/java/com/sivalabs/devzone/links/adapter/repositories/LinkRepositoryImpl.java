@@ -8,6 +8,7 @@ import com.sivalabs.devzone.links.adapter.mappers.LinkMapper;
 import com.sivalabs.devzone.links.domain.mappers.LinkDTOMapper;
 import com.sivalabs.devzone.links.domain.models.Category;
 import com.sivalabs.devzone.links.domain.models.Link;
+import com.sivalabs.devzone.links.domain.models.LinkDTO;
 import com.sivalabs.devzone.links.domain.models.LinksDTO;
 import com.sivalabs.devzone.links.domain.repositories.CategoryRepository;
 import com.sivalabs.devzone.links.domain.repositories.LinkRepository;
@@ -99,13 +100,18 @@ class LinkRepositoryImpl implements LinkRepository {
     }
 
     private LinksDTO getLinksDTO(Pageable pageable, Page<Long> pageOfLinkIds) {
+        if (pageOfLinkIds.isEmpty()) {
+            return new LinksDTO(Page.empty());
+        }
         var links =
                 jpaLinkRepository.findLinks(pageOfLinkIds.getContent(), pageable.getSort()).stream()
                         .map(linkMapper::toModel)
                         .toList();
         Page<Link> linksPage = new PageImpl<>(links, pageable, pageOfLinkIds.getTotalElements());
-
-        return new LinksDTO(linksPage.map(linkDTOMapper::toDTO));
+        List<LinkDTO> linkDTOs = linkDTOMapper.toDTOs(linksPage.getContent());
+        Page<LinkDTO> linkDTOsPage =
+                new PageImpl<>(linkDTOs, pageable, pageOfLinkIds.getTotalElements());
+        return new LinksDTO(linkDTOsPage);
     }
 
     private CategoryEntity getOrCreateCategory(Category category) {
