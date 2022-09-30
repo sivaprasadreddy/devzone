@@ -1,18 +1,18 @@
 package com.sivalabs.devzone.links.domain.repositories;
 
+import com.sivalabs.devzone.common.PagedResult;
 import com.sivalabs.devzone.links.domain.models.Link;
-import com.sivalabs.devzone.links.domain.models.LinksDTO;
 import java.util.List;
 import java.util.Optional;
 
 public interface LinkRepository {
     List<Link> findAll();
 
-    LinksDTO getAllLinks(Integer page);
+    PagedResult<Link> getAllLinks(Integer page);
 
-    LinksDTO searchLinks(String query, Integer page);
+    PagedResult<Link> searchLinks(String query, Integer page);
 
-    LinksDTO getLinksByCategory(String category, Integer page);
+    PagedResult<Link> getLinksByCategory(String category, Integer page);
 
     Optional<Link> findById(Long id);
 
