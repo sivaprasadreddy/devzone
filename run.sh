@@ -69,11 +69,13 @@ function stop_elk() {
 }
 
 function k8sdeploy() {
-    echo 'Deploying to kubernetes....'
-    kubectl apply -f k8s/config.yaml
-    kubectl apply -f k8s/postgresdb.yaml
-    sleep 5
-    kubectl apply -f k8s/devzone.yaml
+    echo 'Deploying devzone to kubernetes....'
+    kubectl apply -f k8s/
+}
+
+function k8sundeploy() {
+    echo 'Undeploying devzone from kubernetes....'
+    kubectl delete -f k8s/
 }
 
 action="start"

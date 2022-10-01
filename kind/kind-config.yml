@@ -1,6 +1,6 @@
 apiVersion: kind.x-k8s.io/v1alpha4
 kind: Cluster
-name: simple-k8s
+name: devzone-k8s
 nodes:
 - role: control-plane
   kubeadmConfigPatches:
@@ -15,4 +15,7 @@ nodes:
     protocol: TCP
   - containerPort: 443
     hostPort: 443
+    protocol: TCP
+  - containerPort: 30090
+    hostPort: 30090
     protocol: TCP

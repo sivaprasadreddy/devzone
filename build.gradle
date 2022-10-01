@@ -1,23 +1,23 @@
 plugins {
-    id 'java'
-    id 'jacoco'
-    id 'org.springframework.boot' version '2.7.4'
-    id 'io.spring.dependency-management' version '1.0.14.RELEASE'
-    id 'com.gorylenko.gradle-git-properties' version "2.4.1"
-    id 'com.google.cloud.tools.jib' version "3.3.0"
-    id 'com.diffplug.spotless' version "6.11.0"
-    id 'org.sonarqube' version "3.4.0.2513"
+    id "java"
+    id "jacoco"
+    id "org.springframework.boot" version "2.7.4"
+    id "io.spring.dependency-management" version "1.0.14.RELEASE"
+    id "com.gorylenko.gradle-git-properties" version "2.4.1"
+    id "com.google.cloud.tools.jib" version "3.3.0"
+    id "com.diffplug.spotless" version "6.11.0"
+    id "org.sonarqube" version "3.4.0.2513"
 }
 
 def dockerImageName = "sivaprasadreddy/devzone"
-def dockerImageTags = ['latest', project.version]
-def dockerBaseImage = "eclipse-temurin:17-jre-focal"
-def appMainClass = "com.sivalabs.devzone.DevZoneApplication"
+def dockerImageTags = ["latest", "${project.version}"]
+def dockerBaseImage = "eclipse-temurin:19-jre-focal"
+def appMainClass = "com.sivalabs.devzone.Application"
 def jacocoToolVersion = "0.8.8"
 def jacocoMinCoverageRequired = 0.30
 def googleJavaFormatToolVersion = "1.12.0"
 def jacocoExcludes = [
-    'com/sivalabs/devzone/*Application.*',
+    "com/sivalabs/devzone/*Application.*",
 ]
 
 group = "com.sivalabs"
@@ -39,23 +39,23 @@ configurations {
 repositories {
     mavenLocal()
     mavenCentral()
-    maven { url 'https://repo.spring.io/milestone' }
+    maven { url "https://repo.spring.io/milestone" }
 }
 
 ext {
-    set('spring_cloud_version', "2021.0.4")
-    set('testcontainers_version', "1.17.4")
-    set('webjars_locator_version', "0.45")
-    set('bootstrap_version', "5.2.0")
-    set('jquery_version', "3.6.1")
-    set('font_awesome_version', "6.2.0")
-    set('commons_lang_version', "3.12.0")
-    set('commons_io_version', "2.11.0")
-    set('springdoc_openapi', "1.6.11")
-    set('opencsv_version', "5.7.0")
-    set('jsoup_version', "1.15.3")
-    set('datasource_proxy_version', "1.8.1")
-    set('archunit_junit5_version', "1.0.0-rc1")
+    set("spring_cloud_version", "2021.0.4")
+    set("testcontainers_version", "1.17.4")
+    set("webjars_locator_version", "0.45")
+    set("bootstrap_version", "5.2.0")
+    set("jquery_version", "3.6.1")
+    set("font_awesome_version", "6.2.0")
+    set("commons_lang_version", "3.12.0")
+    set("commons_io_version", "2.11.0")
+    set("springdoc_openapi", "1.6.11")
+    set("opencsv_version", "5.7.0")
+    set("jsoup_version", "1.15.3")
+    set("datasource_proxy_version", "1.8.1")
+    set("archunit_junit5_version", "1.0.0-rc1")
 }
 
 dependencies {
@@ -120,10 +120,10 @@ jib {
         tags = dockerImageTags
     }
     container {
-        jvmFlags = ['-Xms512m', '-Xdebug']
+        jvmFlags = ["-Xms512m", "-Xdebug"]
         mainClass = appMainClass
         args = []
-        ports = ['8080/tcp']
+        ports = ["8080/tcp"]
     }
 }
 
@@ -148,7 +148,7 @@ spotless {
         googleJavaFormat(googleJavaFormatToolVersion)
             .aosp()
             .reflowLongStrings()
-            .groupArtifact('com.google.googlejavaformat:google-java-format')
+            .groupArtifact("com.google.googlejavaformat:google-java-format")
 
     }
 }
@@ -192,8 +192,8 @@ jacocoTestCoverageVerification {
     violationRules {
         rule {
             limit {
-                counter = 'LINE'
-                value = 'COVEREDRATIO'
+                counter = "LINE"
+                value = "COVEREDRATIO"
                 minimum = jacocoMinCoverageRequired
             }
             excludes = jacocoExcludes

@@ -2,4 +2,4 @@
 
 echo "🏴‍☠️ Destroying Kubernetes cluster..."
 
-kind delete cluster --name simple-k8s
+kind delete cluster --name devzone-k8s
