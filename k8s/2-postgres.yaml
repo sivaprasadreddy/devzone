@@ -80,5 +80,5 @@ spec:
       volumes:
         - name: postgres-storage
           persistentVolumeClaim:
-            claimName: devzone-postgres-pv-claim
+            claimName: postgres-pv-claim
 

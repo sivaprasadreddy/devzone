@@ -9,6 +9,16 @@ plugins {
     id "org.sonarqube" version "3.4.0.2513"
 }
 
+group = "com.sivalabs"
+version = "0.0.1-SNAPSHOT"
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+        vendor = JvmVendorSpec.ADOPTIUM
+    }
+}
+
 def dockerImageName = "sivaprasadreddy/devzone"
 def dockerImageTags = ["latest", "${project.version}"]
 def dockerBaseImage = "eclipse-temurin:19-jre-focal"
@@ -19,16 +29,6 @@ def googleJavaFormatToolVersion = "1.12.0"
 def jacocoExcludes = [
     "com/sivalabs/devzone/*Application.*",
 ]
-
-group = "com.sivalabs"
-version = "0.0.1-SNAPSHOT"
-
-java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(17)
-        vendor = JvmVendorSpec.ADOPTIUM
-    }
-}
 
 configurations {
     compileOnly {
