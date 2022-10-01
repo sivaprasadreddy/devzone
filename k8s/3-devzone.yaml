@@ -30,6 +30,7 @@ spec:
       containers:
         - name: devzone
           image: sivaprasadreddy/devzone
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
           env:
@@ -64,14 +65,14 @@ spec:
             httpGet:
               path: /actuator/health/liveness
               port: 8080
-            initialDelaySeconds: 30
-            timeoutSeconds: 120
+            initialDelaySeconds: 60
+            timeoutSeconds: 240
           readinessProbe:
             httpGet:
               path: /actuator/health/readiness
               port: 8080
-            initialDelaySeconds: 30
-            timeoutSeconds: 120
+            initialDelaySeconds: 60
+            timeoutSeconds: 240
           lifecycle:
             preStop:
               exec:

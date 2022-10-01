@@ -73,7 +73,20 @@ spec:
                   key: postgres_database
             - name: PGDATA
               value: /var/lib/postgresql/data/pgdata
-
+          readinessProbe:
+            tcpSocket:
+              port: 5432
+            #exec:
+            #  command: [ "psql", "-w", "-U", "siva", "-d", "postgres", "-c", "SELECT 1" ]
+            initialDelaySeconds: 15
+            timeoutSeconds: 2
+          livenessProbe:
+            tcpSocket:
+              port: 5432
+            #exec:
+            #  command: [ "psql", "-w", "-U", "siva", "-d", "postgres", "-c", "SELECT 1" ]
+            initialDelaySeconds: 45
+            timeoutSeconds: 2
           volumeMounts:
             - name: postgres-storage
               mountPath: /var/lib/postgresql/data

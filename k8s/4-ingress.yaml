@@ -2,15 +2,13 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: devzone-api-ingress
-  annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: /$2
 spec:
   rules:
 
     - http:
         paths:
           - pathType: Prefix
-            path: /devzone(/|$)(.*)
+            path: /
             backend:
               service:
                 name: devzone-svc

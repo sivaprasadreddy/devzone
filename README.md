@@ -52,16 +52,18 @@ DevZone is a web application where developers can register and post their favour
 ### Deploying on kubernetes
 
 ```shell
-./kind/create-cluster.sh
-./run.sh k8sdeploy
-curl http://localhost:30090/actuator
-./run.sh k8sundeploy
+$ ./kind/create-cluster.sh
+$ ./run.sh k8sdeploy
+$ curl http://localhost:30090/actuator
+$ curl http://localhost/actuator
+$ ./run.sh k8sundeploy
 ```
 
 ### Development using Skaffold
 
 ```shell
-skaffold dev --port-forward --skip-tests=true
+$ skaffold dev --port-forward --skip-tests=true
+$ curl http://localhost:8080/actuator
 ```
 ### Run Gatling Tests
 
