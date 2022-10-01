@@ -21,5 +21,7 @@ gatling {
 }
 
 dependencies {
-    gatling "org.apache.commons:commons-lang3:3.12.0"
+    testImplementation 'io.gatling:gatling-http-java:3.8.4'
+    testImplementation "org.apache.commons:commons-lang3:3.12.0"
+    testImplementation "com.typesafe:config:1.4.2"
 }

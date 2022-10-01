@@ -26,5 +26,6 @@
 
     <logger name="com.sivalabs" level="DEBUG"/>
     <logger name="org.springframework" level="INFO"/>
+    <logger name="net.ttddyy.dsproxy.listener" level="DEBUG"/>
 
 </configuration>

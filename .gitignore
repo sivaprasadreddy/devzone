@@ -38,6 +38,7 @@ out/
 .vscode/
 
 ### Others ###
+*.log
 /logs
 nohup.out
 *.pid
