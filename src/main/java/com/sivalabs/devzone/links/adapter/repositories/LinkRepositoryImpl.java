@@ -1,14 +1,12 @@
 package com.sivalabs.devzone.links.adapter.repositories;
 
+import com.sivalabs.devzone.common.PagedResult;
 import com.sivalabs.devzone.common.exceptions.ResourceNotFoundException;
 import com.sivalabs.devzone.links.adapter.entities.CategoryEntity;
 import com.sivalabs.devzone.links.adapter.entities.LinkEntity;
-import com.sivalabs.devzone.links.adapter.mappers.CategoryMapper;
 import com.sivalabs.devzone.links.adapter.mappers.LinkMapper;
-import com.sivalabs.devzone.links.domain.mappers.LinkDTOMapper;
 import com.sivalabs.devzone.links.domain.models.Category;
 import com.sivalabs.devzone.links.domain.models.Link;
-import com.sivalabs.devzone.links.domain.models.LinksDTO;
 import com.sivalabs.devzone.links.domain.repositories.CategoryRepository;
 import com.sivalabs.devzone.links.domain.repositories.LinkRepository;
 import com.sivalabs.devzone.users.adapter.entities.UserEntity;
@@ -31,8 +29,6 @@ class LinkRepositoryImpl implements LinkRepository {
     private final JpaCategoryRepository jpaCategoryRepository;
     private final CategoryRepository categoryRepository;
     private final LinkMapper linkMapper;
-    private final LinkDTOMapper linkDTOMapper;
-    private final CategoryMapper categoryMapper;
 
     @Override
     public List<Link> findAll() {
@@ -57,14 +53,14 @@ class LinkRepositoryImpl implements LinkRepository {
     }
 
     @Override
-    public LinksDTO getAllLinks(Integer page) {
+    public PagedResult<Link> getAllLinks(Integer page) {
         Pageable pageable = getPageable(page);
         Page<Long> pageOfLinkIds = jpaLinkRepository.findLinkIds(pageable);
         return getLinksDTO(pageable, pageOfLinkIds);
     }
 
     @Override
-    public LinksDTO searchLinks(String query, Integer page) {
+    public PagedResult<Link> searchLinks(String query, Integer page) {
         Pageable pageable = getPageable(page);
         Page<Long> pageOfLinkIds =
                 jpaLinkRepository.findLinkIdsByTitleContainingIgnoreCase(query, pageable);
@@ -72,7 +68,7 @@ class LinkRepositoryImpl implements LinkRepository {
     }
 
     @Override
-    public LinksDTO getLinksByCategory(String category, Integer page) {
+    public PagedResult<Link> getLinksByCategory(String category, Integer page) {
         Optional<CategoryEntity> categoryOptional = jpaCategoryRepository.findByName(category);
         if (categoryOptional.isEmpty()) {
             throw new ResourceNotFoundException("Category " + category + " not found");
@@ -98,14 +94,16 @@ class LinkRepositoryImpl implements LinkRepository {
         return PageRequest.of(pageNo, PAGE_SIZE, Sort.by(Sort.Direction.DESC, "createdAt"));
     }
 
-    private LinksDTO getLinksDTO(Pageable pageable, Page<Long> pageOfLinkIds) {
+    private PagedResult<Link> getLinksDTO(Pageable pageable, Page<Long> pageOfLinkIds) {
+        if (pageOfLinkIds.isEmpty()) {
+            return new PagedResult<>(Page.empty());
+        }
         var links =
                 jpaLinkRepository.findLinks(pageOfLinkIds.getContent(), pageable.getSort()).stream()
                         .map(linkMapper::toModel)
                         .toList();
         Page<Link> linksPage = new PageImpl<>(links, pageable, pageOfLinkIds.getTotalElements());
-
-        return new LinksDTO(linksPage.map(linkDTOMapper::toDTO));
+        return new PagedResult<>(linksPage);
     }
 
     private CategoryEntity getOrCreateCategory(Category category) {

@@ -9,16 +9,23 @@ plugins {
     id 'org.sonarqube' version "3.4.0.2513"
 }
 
+def dockerImageName = "sivaprasadreddy/devzone"
+def dockerImageTags = ['latest', project.version]
+def dockerBaseImage = "eclipse-temurin:17-jre-focal"
+def appMainClass = "com.sivalabs.devzone.DevZoneApplication"
 def jacocoToolVersion = "0.8.8"
 def jacocoMinCoverageRequired = 0.30
 def googleJavaFormatToolVersion = "1.12.0"
+def jacocoExcludes = [
+    'com/sivalabs/devzone/*Application.*',
+]
 
 group = "com.sivalabs"
 version = "0.0.1-SNAPSHOT"
 
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(19)
+        languageVersion = JavaLanguageVersion.of(17)
         vendor = JvmVendorSpec.ADOPTIUM
     }
 }
@@ -47,8 +54,7 @@ ext {
     set('springdoc_openapi', "1.6.11")
     set('opencsv_version', "5.7.0")
     set('jsoup_version', "1.15.3")
-    set('p6spy_version', "1.8.1")
-    set('flexypool_version', "1.8.1")
+    set('datasource_proxy_version', "1.8.1")
     set('archunit_junit5_version', "1.0.0-rc1")
 }
 
@@ -66,14 +72,13 @@ dependencies {
     implementation "org.springdoc:springdoc-openapi-ui:${springdoc_openapi}"
     implementation "com.opencsv:opencsv:${opencsv_version}"
     implementation "org.jsoup:jsoup:${jsoup_version}"
-    implementation "com.github.gavlyukovskiy:p6spy-spring-boot-starter:${p6spy_version}"
-    implementation("com.github.gavlyukovskiy:flexy-pool-spring-boot-starter:${flexypool_version}")
     implementation "org.apache.commons:commons-lang3:${commons_lang_version}"
     implementation "commons-io:commons-io:${commons_io_version}"
     implementation "org.flywaydb:flyway-core"
     runtimeOnly "com.h2database:h2"
     runtimeOnly "io.micrometer:micrometer-registry-prometheus"
     runtimeOnly "org.postgresql:postgresql"
+    implementation "com.github.gavlyukovskiy:datasource-proxy-spring-boot-starter:${datasource_proxy_version}"
 
     implementation "org.webjars:webjars-locator:${webjars_locator_version}"
     implementation "org.webjars:bootstrap:${bootstrap_version}"
@@ -85,7 +90,7 @@ dependencies {
     annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
     annotationProcessor "org.projectlombok:lombok"
 
-    testImplementation("org.springframework.boot:spring-boot-starter-test")
+    testImplementation "org.springframework.boot:spring-boot-starter-test"
     testImplementation "org.springframework.security:spring-security-test"
     testImplementation "org.testcontainers:junit-jupiter"
     testImplementation "org.testcontainers:postgresql"
@@ -102,7 +107,24 @@ dependencyManagement {
 }
 
 bootBuildImage {
-    imageName = "sivaprasadreddy/devzone"
+    imageName = dockerImageName
+    tags = dockerImageTags
+}
+
+jib {
+    from {
+        image = dockerBaseImage
+    }
+    to {
+        image = dockerImageName
+        tags = dockerImageTags
+    }
+    container {
+        jvmFlags = ['-Xms512m', '-Xdebug']
+        mainClass = appMainClass
+        args = []
+        ports = ['8080/tcp']
+    }
 }
 
 if (project.hasProperty("dev")) {
@@ -117,22 +139,6 @@ gitProperties {
             "git.commit.id.abbrev",
             "git.commit.user.name",
             "git.commit.message.full"]
-}
-
-jib {
-    from {
-        image = 'eclipse-temurin:19-jre-focal'
-    }
-    to {
-        image = 'sivaprasadreddy/devzone'
-        tags = ['latest']
-    }
-    container {
-        jvmFlags = ['-Xms512m', '-Xdebug']
-        mainClass = 'com.sivalabs.devzone.DevZoneApplication'
-        args = []
-        ports = ['8080/tcp']
-    }
 }
 
 spotless {
@@ -151,8 +157,8 @@ test {
     useJUnitPlatform()
     testLogging {
         events = ["PASSED", "FAILED", "SKIPPED"]
-        // showStandardStreams = true
-        // exceptionFormat = "full"
+        showStandardStreams = true
+        exceptionFormat = "full"
     }
 }
 
@@ -161,10 +167,6 @@ test.dependsOn(spotlessCheck)
 jacoco {
     toolVersion = jacocoToolVersion
 }
-
-def jacocoExcludes = [
-    'com/sivalabs/devzone/*Application.*',
-]
 
 jacocoTestReport {
     executionData tasks.withType(Test)

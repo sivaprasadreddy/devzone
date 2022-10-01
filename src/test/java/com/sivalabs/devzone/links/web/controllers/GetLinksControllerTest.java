@@ -9,20 +9,25 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.view;
 
 import com.sivalabs.devzone.common.AbstractWebMvcTest;
-import com.sivalabs.devzone.links.domain.models.LinksDTO;
+import com.sivalabs.devzone.common.PagedResult;
+import com.sivalabs.devzone.links.domain.models.Link;
 import com.sivalabs.devzone.links.domain.services.LinkService;
+import com.sivalabs.devzone.links.web.mappers.LinkDTOMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.boot.test.mock.mockito.SpyBean;
+import org.springframework.data.domain.Page;
 
 @WebMvcTest(controllers = GetLinksController.class)
 public class GetLinksControllerTest extends AbstractWebMvcTest {
 
     @MockBean protected LinkService linkService;
+    @SpyBean protected LinkDTOMapper linkDTOMapper;
 
     @Test
     void shouldFetchLinksFirstPage() throws Exception {
-        LinksDTO linksDTO = new LinksDTO();
+        PagedResult<Link> linksDTO = new PagedResult<>(Page.empty());
         given(linkService.getAllLinks(any(Integer.class))).willReturn(linksDTO);
 
         this.mockMvc
@@ -34,7 +39,7 @@ public class GetLinksControllerTest extends AbstractWebMvcTest {
 
     @Test
     void shouldFetchLinksByCategory() throws Exception {
-        LinksDTO linksDTO = new LinksDTO();
+        PagedResult<Link> linksDTO = new PagedResult<>(Page.empty());
         given(linkService.getLinksByCategory(anyString(), any(Integer.class))).willReturn(linksDTO);
 
         this.mockMvc
@@ -46,7 +51,7 @@ public class GetLinksControllerTest extends AbstractWebMvcTest {
 
     @Test
     void shouldFetchLinksBySearchKey() throws Exception {
-        LinksDTO linksDTO = new LinksDTO();
+        PagedResult<Link> linksDTO = new PagedResult<>(Page.empty());
         given(linkService.searchLinks(anyString(), any(Integer.class))).willReturn(linksDTO);
 
         this.mockMvc

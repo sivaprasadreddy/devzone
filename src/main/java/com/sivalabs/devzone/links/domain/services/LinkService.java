@@ -2,11 +2,11 @@ package com.sivalabs.devzone.links.domain.services;
 
 import static com.sivalabs.devzone.links.domain.utils.StringUtils.toSlug;
 
+import com.sivalabs.devzone.common.PagedResult;
 import com.sivalabs.devzone.common.exceptions.ResourceNotFoundException;
 import com.sivalabs.devzone.links.domain.models.Category;
 import com.sivalabs.devzone.links.domain.models.CreateLinkRequest;
 import com.sivalabs.devzone.links.domain.models.Link;
-import com.sivalabs.devzone.links.domain.models.LinksDTO;
 import com.sivalabs.devzone.links.domain.models.UpdateLinkRequest;
 import com.sivalabs.devzone.links.domain.repositories.CategoryRepository;
 import com.sivalabs.devzone.links.domain.repositories.LinkRepository;
@@ -34,17 +34,17 @@ public class LinkService {
     }
 
     @Transactional(readOnly = true)
-    public LinksDTO getAllLinks(Integer page) {
+    public PagedResult<Link> getAllLinks(Integer page) {
         return linkRepository.getAllLinks(page);
     }
 
     @Transactional(readOnly = true)
-    public LinksDTO searchLinks(String query, Integer page) {
+    public PagedResult<Link> searchLinks(String query, Integer page) {
         return linkRepository.searchLinks(query, page);
     }
 
     @Transactional(readOnly = true)
-    public LinksDTO getLinksByCategory(String category, Integer page) {
+    public PagedResult<Link> getLinksByCategory(String category, Integer page) {
         return linkRepository.getLinksByCategory(category, page);
     }
 
