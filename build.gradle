@@ -55,7 +55,7 @@ ext {
     set("opencsv_version", "5.7.0")
     set("jsoup_version", "1.15.3")
     set("datasource_proxy_version", "1.8.1")
-    set("archunit_junit5_version", "1.0.0-rc1")
+    set("archunit_junit5_version", "1.0.0")
 }
 
 dependencies {
