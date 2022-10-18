@@ -3,22 +3,16 @@ package com.sivalabs.devzone.common;
 import org.springframework.test.context.DynamicPropertyRegistry;
 import org.springframework.test.context.DynamicPropertySource;
 import org.testcontainers.containers.PostgreSQLContainer;
+import org.testcontainers.lifecycle.Startables;
 
 public class TestContainersInitializer {
-    static PostgreSQLContainer<?> sqlContainer =
-            new PostgreSQLContainer<>("postgres:14.5-alpine")
-                    .withDatabaseName("integration-tests-db")
-                    .withUsername("username")
-                    .withPassword("password");
-
-    static {
-        sqlContainer.start();
-    }
+    static PostgreSQLContainer<?> postgres = new PostgreSQLContainer<>("postgres:15.0-alpine");
 
     @DynamicPropertySource
     static void postgresProperties(DynamicPropertyRegistry registry) {
-        registry.add("spring.datasource.url", sqlContainer::getJdbcUrl);
-        registry.add("spring.datasource.username", sqlContainer::getUsername);
-        registry.add("spring.datasource.password", sqlContainer::getPassword);
+        Startables.deepStart(postgres).join();
+        registry.add("spring.datasource.url", postgres::getJdbcUrl);
+        registry.add("spring.datasource.username", postgres::getUsername);
+        registry.add("spring.datasource.password", postgres::getPassword);
     }
 }
