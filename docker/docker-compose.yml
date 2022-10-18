@@ -2,7 +2,7 @@ version: '3.8'
 services:
 
   app-db:
-    image: postgres:14.5-alpine
+    image: postgres:15.0-alpine
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
