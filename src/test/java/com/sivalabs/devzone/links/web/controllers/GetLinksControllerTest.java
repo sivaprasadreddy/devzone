@@ -12,7 +12,7 @@ import com.sivalabs.devzone.common.AbstractWebMvcTest;
 import com.sivalabs.devzone.common.PagedResult;
 import com.sivalabs.devzone.links.domain.models.Link;
 import com.sivalabs.devzone.links.domain.services.LinkService;
-import com.sivalabs.devzone.links.web.mappers.LinkDTOMapper;
+import com.sivalabs.devzone.links.web.mappers.LinkDtoMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
@@ -23,12 +23,12 @@ import org.springframework.data.domain.Page;
 public class GetLinksControllerTest extends AbstractWebMvcTest {
 
     @MockBean protected LinkService linkService;
-    @SpyBean protected LinkDTOMapper linkDTOMapper;
+    @SpyBean protected LinkDtoMapper linkDTOMapper;
 
     @Test
     void shouldFetchLinksFirstPage() throws Exception {
         PagedResult<Link> linksDTO = new PagedResult<>(Page.empty());
-        given(linkService.getAllLinks(any(Integer.class))).willReturn(linksDTO);
+        given(linkService.getLinks(any(Integer.class))).willReturn(linksDTO);
 
         this.mockMvc
                 .perform(get("/links"))

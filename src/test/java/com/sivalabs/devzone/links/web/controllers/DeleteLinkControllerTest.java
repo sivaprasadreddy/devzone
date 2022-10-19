@@ -21,7 +21,6 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 
 @WebMvcTest(controllers = DeleteLinkController.class)
 public class DeleteLinkControllerTest extends AbstractWebMvcTest {
-
     @MockBean protected LinkService linkService;
 
     @Test
@@ -41,7 +40,6 @@ public class DeleteLinkControllerTest extends AbstractWebMvcTest {
         User user = TestDataFactory.getMockUser(1L, RoleEnum.ROLE_ADMIN);
         SecurityUser securityUser = new SecurityUser(user);
         given(securityService.loginUser()).willReturn(user);
-        given(securityService.isUserAdminOrModerator(user)).willReturn(true);
         Link link = TestDataFactory.getMockLink(1L);
         given(linkService.getLinkById(any(Long.class))).willReturn(Optional.of(link));
 
@@ -54,7 +52,6 @@ public class DeleteLinkControllerTest extends AbstractWebMvcTest {
         User user = TestDataFactory.getMockUser(1L, RoleEnum.ROLE_USER);
         SecurityUser securityUser = new SecurityUser(user);
         given(securityService.loginUser()).willReturn(user);
-        given(securityService.isUserAdminOrModerator(user)).willReturn(false);
         Link link = TestDataFactory.getMockLink(2L);
         given(linkService.getLinkById(any(Long.class))).willReturn(Optional.of(link));
 
@@ -67,7 +64,6 @@ public class DeleteLinkControllerTest extends AbstractWebMvcTest {
         User user = TestDataFactory.getMockUser(1L, RoleEnum.ROLE_USER);
         SecurityUser securityUser = new SecurityUser(user);
         given(securityService.loginUser()).willReturn(user);
-        given(securityService.isUserAdminOrModerator(user)).willReturn(false);
         given(linkService.getLinkById(any(Long.class))).willReturn(Optional.empty());
 
         mockMvc.perform(delete("/links/{id}", 1).with(csrf()).with(user(securityUser)))

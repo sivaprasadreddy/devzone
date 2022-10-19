@@ -10,7 +10,6 @@ import com.sivalabs.devzone.links.domain.models.Link;
 import com.sivalabs.devzone.links.domain.repositories.CategoryRepository;
 import com.sivalabs.devzone.links.domain.repositories.LinkRepository;
 import com.sivalabs.devzone.users.adapter.entities.UserEntity;
-import java.util.List;
 import java.util.Optional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
@@ -29,11 +28,6 @@ class LinkRepositoryImpl implements LinkRepository {
     private final JpaCategoryRepository jpaCategoryRepository;
     private final CategoryRepository categoryRepository;
     private final LinkMapper linkMapper;
-
-    @Override
-    public List<Link> findAll() {
-        return jpaLinkRepository.findAll().stream().map(linkMapper::toModel).toList();
-    }
 
     @Override
     public Optional<Link> findById(Long id) {

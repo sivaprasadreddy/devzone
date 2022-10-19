@@ -29,22 +29,20 @@ public class LinkService {
     private final LinkRepository linkRepository;
 
     @Transactional(readOnly = true)
-    public List<Link> getAllLinks() {
-        return linkRepository.findAll();
-    }
-
-    @Transactional(readOnly = true)
-    public PagedResult<Link> getAllLinks(Integer page) {
+    public PagedResult<Link> getLinks(Integer page) {
+        log.debug("process=get_links, page={}", page);
         return linkRepository.getAllLinks(page);
     }
 
     @Transactional(readOnly = true)
     public PagedResult<Link> searchLinks(String query, Integer page) {
+        log.debug("process=search_links, query={}, page={}", query, page);
         return linkRepository.searchLinks(query, page);
     }
 
     @Transactional(readOnly = true)
     public PagedResult<Link> getLinksByCategory(String category, Integer page) {
+        log.debug("process=get_links_by_category, category={}, page={}", category, page);
         return linkRepository.getLinksByCategory(category, page);
     }
 
@@ -55,6 +53,7 @@ public class LinkService {
     }
 
     public Link createLink(CreateLinkRequest createLinkRequest) {
+        log.debug("process=create_link, url={}", createLinkRequest.getUrl());
         Link link = new Link();
         link.setUrl(createLinkRequest.getUrl());
         link.setTitle(getTitle(createLinkRequest.getUrl(), createLinkRequest.getTitle()));
@@ -63,26 +62,21 @@ public class LinkService {
         User user = new User();
         user.setId(createLinkRequest.getCreatedUserId());
         link.setCreatedBy(user);
-        log.debug("process=create_link, url={}", link.getUrl());
         link.setTitle(getTitle(link.getUrl(), link.getTitle()));
         return linkRepository.save(link);
     }
 
     public Link updateLink(UpdateLinkRequest updateLinkRequest) {
-        Link link =
-                linkRepository
-                        .findById(updateLinkRequest.getId())
-                        .orElseThrow(
-                                () ->
-                                        new ResourceNotFoundException(
-                                                "Link with id: "
-                                                        + updateLinkRequest.getId()
-                                                        + " not found"));
+        log.debug("process=update_link, id={}", updateLinkRequest.getId());
+        Link link = linkRepository.findById(updateLinkRequest.getId()).orElse(null);
+        if (link == null) {
+            throw new ResourceNotFoundException(
+                    "Link with id: " + updateLinkRequest.getId() + " not found");
+        }
         link.setUrl(updateLinkRequest.getUrl());
         link.setTitle(getTitle(updateLinkRequest.getUrl(), updateLinkRequest.getTitle()));
         Category category = this.buildCategory(updateLinkRequest.getCategory());
         link.setCategory(category);
-        log.debug("process=update_link, url={}", link.getUrl());
         return linkRepository.save(link);
     }
 
@@ -101,11 +95,11 @@ public class LinkService {
         return categoryRepository.findAll();
     }
 
-    private String getTitle(String utl, String title) {
+    private String getTitle(String url, String title) {
         if (StringUtils.isNotEmpty(title)) {
             return title;
         }
-        return JsoupUtils.getTitle(utl);
+        return JsoupUtils.getTitle(url);
     }
 
     private Category buildCategory(String categoryName) {

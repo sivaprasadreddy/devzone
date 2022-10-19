@@ -1,9 +1,7 @@
 package com.sivalabs.devzone.users.domain.services;
 
 import com.sivalabs.devzone.config.security.SecurityUser;
-import com.sivalabs.devzone.users.domain.models.RoleEnum;
 import com.sivalabs.devzone.users.domain.models.User;
-import java.util.Arrays;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
@@ -29,13 +27,5 @@ public class SecurityService {
             return userService.getUserByEmail(userDetails.getUsername()).orElse(null);
         }
         return null;
-    }
-
-    public boolean isUserAdminOrModerator(User loginUser) {
-        return isUserHasAnyRole(loginUser, RoleEnum.ROLE_ADMIN, RoleEnum.ROLE_MODERATOR);
-    }
-
-    private boolean isUserHasAnyRole(User loginUser, RoleEnum... roles) {
-        return Arrays.asList(roles).contains(loginUser.getRole());
     }
 }

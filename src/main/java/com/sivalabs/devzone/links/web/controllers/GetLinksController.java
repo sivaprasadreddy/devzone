@@ -5,7 +5,7 @@ import com.sivalabs.devzone.config.logging.Loggable;
 import com.sivalabs.devzone.links.domain.models.Link;
 import com.sivalabs.devzone.links.domain.models.LinkDTO;
 import com.sivalabs.devzone.links.domain.services.LinkService;
-import com.sivalabs.devzone.links.web.mappers.LinkDTOMapper;
+import com.sivalabs.devzone.links.web.mappers.LinkDtoMapper;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -25,7 +25,7 @@ public class GetLinksController {
     private static final String PAGINATION_PREFIX = "paginationPrefix";
 
     private final LinkService linkService;
-    private final LinkDTOMapper linkDTOMapper;
+    private final LinkDtoMapper linkDTOMapper;
 
     @GetMapping("/links")
     public String home(
@@ -46,7 +46,7 @@ public class GetLinksController {
             model.addAttribute(PAGINATION_PREFIX, "/links?query=" + query);
         } else {
             log.info("Fetching links with page: {}", page);
-            data = convert(linkService.getAllLinks(page));
+            data = convert(linkService.getLinks(page));
             model.addAttribute(PAGINATION_PREFIX, "/links?");
         }
         model.addAttribute("linksData", data);

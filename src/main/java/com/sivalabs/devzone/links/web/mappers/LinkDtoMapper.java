@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @RequiredArgsConstructor
-public class LinkDTOMapper {
+public class LinkDtoMapper {
     private final SecurityService securityService;
 
     public List<LinkDTO> toDTOs(List<Link> links) {
@@ -45,6 +45,6 @@ public class LinkDTOMapper {
         return loginUser != null
                 && linkDTO != null
                 && (Objects.equals(linkDTO.getCreatedUserId(), loginUser.getId())
-                        || securityService.isUserAdminOrModerator(loginUser));
+                        || loginUser.isAdminOrModerator());
     }
 }

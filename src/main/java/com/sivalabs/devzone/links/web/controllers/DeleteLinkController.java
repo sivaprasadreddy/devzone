@@ -7,7 +7,6 @@ import com.sivalabs.devzone.config.annotations.CurrentUser;
 import com.sivalabs.devzone.links.domain.models.Link;
 import com.sivalabs.devzone.links.domain.services.LinkService;
 import com.sivalabs.devzone.users.domain.models.User;
-import com.sivalabs.devzone.users.domain.services.SecurityService;
 import java.util.Objects;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -21,9 +20,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 @RequiredArgsConstructor
 @Slf4j
 public class DeleteLinkController {
-
     private final LinkService linkService;
-    private final SecurityService securityService;
 
     @DeleteMapping("/links/{id}")
     @ResponseStatus
@@ -40,7 +37,7 @@ public class DeleteLinkController {
 
     private void checkPrivilege(Link link, User loginUser) {
         if (!(Objects.equals(link.getCreatedBy().getId(), loginUser.getId())
-                || securityService.isUserAdminOrModerator(loginUser))) {
+                || loginUser.isAdminOrModerator())) {
             throw new UnauthorisedAccessException("Permission Denied");
         }
     }

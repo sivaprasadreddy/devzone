@@ -33,6 +33,5 @@ public class LinksUploadControllerIT extends AbstractIntegrationTest {
                 .andExpect(status().is3xxRedirection())
                 .andExpect(flash().attribute("msg", "Links imported successfully"))
                 .andExpect(header().string("Location", "/links/upload"));
-        ;
     }
 }

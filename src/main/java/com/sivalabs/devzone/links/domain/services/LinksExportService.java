@@ -1,5 +1,6 @@
 package com.sivalabs.devzone.links.domain.services;
 
+import com.sivalabs.devzone.common.PagedResult;
 import com.sivalabs.devzone.links.domain.models.Link;
 import java.nio.charset.StandardCharsets;
 import java.util.List;
@@ -16,10 +17,19 @@ public class LinksExportService {
     public byte[] getLinksCSVFileAsString() {
         StringBuilder sb = new StringBuilder();
         sb.append("url,title,category").append(System.lineSeparator());
-        List<Link> allLinks = linkService.getAllLinks();
+        PagedResult<Link> pagedResult = linkService.getLinks(1);
+        this.addLinks(sb, pagedResult.getData());
+        int totalPages = pagedResult.getTotalPages();
+        for (int page = 2; page <= totalPages; page++) {
+            pagedResult = linkService.getLinks(page);
+            this.addLinks(sb, pagedResult.getData());
+        }
+        return sb.toString().getBytes(StandardCharsets.UTF_8);
+    }
+
+    private void addLinks(StringBuilder sb, List<Link> allLinks) {
         for (Link linkDTO : allLinks) {
-            String category =
-                    linkDTO.getCategory() == null ? null : linkDTO.getCategory().getName();
+            String category = linkDTO.getCategory() == null ? "" : linkDTO.getCategory().getName();
             sb.append(
                             String.join(
                                     ",",
@@ -28,6 +38,5 @@ public class LinksExportService {
                                     category))
                     .append(System.lineSeparator());
         }
-        return sb.toString().getBytes(StandardCharsets.UTF_8);
     }
 }

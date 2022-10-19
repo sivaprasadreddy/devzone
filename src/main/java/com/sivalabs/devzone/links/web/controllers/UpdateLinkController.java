@@ -72,7 +72,7 @@ public class UpdateLinkController {
 
     private void checkPrivilege(Link link, User loginUser) {
         if (!(Objects.equals(link.getCreatedBy().getId(), loginUser.getId())
-                || securityService.isUserAdminOrModerator(loginUser))) {
+                || loginUser.isAdminOrModerator())) {
             throw new UnauthorisedAccessException("Permission Denied");
         }
     }

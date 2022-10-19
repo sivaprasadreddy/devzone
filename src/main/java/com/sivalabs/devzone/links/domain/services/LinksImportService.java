@@ -1,5 +1,7 @@
 package com.sivalabs.devzone.links.domain.services;
 
+import static java.nio.charset.StandardCharsets.UTF_8;
+
 import com.opencsv.CSVIterator;
 import com.opencsv.CSVReader;
 import com.opencsv.exceptions.CsvValidationException;
@@ -7,7 +9,6 @@ import com.sivalabs.devzone.links.domain.models.CreateLinkRequest;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.nio.charset.StandardCharsets;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -36,29 +37,32 @@ public class LinksImportService {
         }
     }
 
-    public long importLinks(InputStream inputStream) throws IOException, CsvValidationException {
+    public long importLinks(InputStream is) throws IOException, CsvValidationException {
         long count = 0L;
 
-        try (InputStreamReader inputStreamReader =
-                        new InputStreamReader(inputStream, StandardCharsets.UTF_8);
-                CSVReader csvReader = new CSVReader(inputStreamReader); ) {
+        try (InputStreamReader isr = new InputStreamReader(is, UTF_8);
+                CSVReader csvReader = new CSVReader(isr)) {
             csvReader.skip(1);
             CSVIterator iterator = new CSVIterator(csvReader);
 
             while (iterator.hasNext()) {
                 String[] linkTokens = iterator.next();
-                CreateLinkRequest createLinkRequest = new CreateLinkRequest();
-                createLinkRequest.setUrl(linkTokens[0]);
-                createLinkRequest.setTitle(linkTokens[1]);
-                createLinkRequest.setCreatedUserId(SYSTEM_USER_ID);
-                if (linkTokens.length > 2 && StringUtils.trimToNull(linkTokens[2]) != null) {
-                    createLinkRequest.setCategory(
-                            StringUtils.trimToEmpty(linkTokens[2].split("\\|")[0]));
-                }
+                CreateLinkRequest createLinkRequest = parseLink(linkTokens);
                 linkService.createLink(createLinkRequest);
                 count++;
             }
         }
         return count;
+    }
+
+    private CreateLinkRequest parseLink(String[] linkTokens) {
+        CreateLinkRequest createLinkRequest = new CreateLinkRequest();
+        createLinkRequest.setUrl(linkTokens[0]);
+        createLinkRequest.setTitle(linkTokens[1]);
+        createLinkRequest.setCreatedUserId(SYSTEM_USER_ID);
+        if (linkTokens.length > 2 && StringUtils.trimToNull(linkTokens[2]) != null) {
+            createLinkRequest.setCategory(StringUtils.trimToEmpty(linkTokens[2].split("\\|")[0]));
+        }
+        return createLinkRequest;
     }
 }
