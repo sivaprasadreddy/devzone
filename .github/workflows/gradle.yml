@@ -14,6 +14,9 @@ jobs:
         java: [ '17']
     env:
       DOCKER_IMAGE_NAME: ${{ secrets.DOCKER_USERNAME }}/devzone
+    defaults:
+      run:
+        working-directory: application
     steps:
       - uses: actions/checkout@v3
 

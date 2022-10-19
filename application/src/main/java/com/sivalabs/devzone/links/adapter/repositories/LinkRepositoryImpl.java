@@ -49,16 +49,16 @@ class LinkRepositoryImpl implements LinkRepository {
     @Override
     public PagedResult<Link> getAllLinks(Integer page) {
         Pageable pageable = getPageable(page);
-        Page<Long> pageOfLinkIds = jpaLinkRepository.findLinkIds(pageable);
-        return getLinksDTO(pageable, pageOfLinkIds);
+        Page<LinkEntity> linksPage = jpaLinkRepository.findLinks(pageable);
+        return getLinks(pageable, linksPage);
     }
 
     @Override
     public PagedResult<Link> searchLinks(String query, Integer page) {
         Pageable pageable = getPageable(page);
-        Page<Long> pageOfLinkIds =
-                jpaLinkRepository.findLinkIdsByTitleContainingIgnoreCase(query, pageable);
-        return getLinksDTO(pageable, pageOfLinkIds);
+        Page<LinkEntity> linksPage =
+                jpaLinkRepository.findLinksByTitleContainingIgnoreCase(query, pageable);
+        return getLinks(pageable, linksPage);
     }
 
     @Override
@@ -67,10 +67,9 @@ class LinkRepositoryImpl implements LinkRepository {
         if (categoryOptional.isEmpty()) {
             throw new ResourceNotFoundException("Category " + category + " not found");
         }
-
         Pageable pageable = getPageable(page);
-        Page<Long> pageOfLinkIds = jpaLinkRepository.findLinkIdsByCategory(category, pageable);
-        return getLinksDTO(pageable, pageOfLinkIds);
+        Page<LinkEntity> linksPage = jpaLinkRepository.findLinksByCategory(category, pageable);
+        return getLinks(pageable, linksPage);
     }
 
     @Override
@@ -88,15 +87,12 @@ class LinkRepositoryImpl implements LinkRepository {
         return PageRequest.of(pageNo, PAGE_SIZE, Sort.by(Sort.Direction.DESC, "createdAt"));
     }
 
-    private PagedResult<Link> getLinksDTO(Pageable pageable, Page<Long> pageOfLinkIds) {
-        if (pageOfLinkIds.isEmpty()) {
+    private PagedResult<Link> getLinks(Pageable pageable, Page<LinkEntity> linkEntitiesPage) {
+        if (linkEntitiesPage.isEmpty()) {
             return new PagedResult<>(Page.empty());
         }
-        var links =
-                jpaLinkRepository.findLinks(pageOfLinkIds.getContent(), pageable.getSort()).stream()
-                        .map(linkMapper::toModel)
-                        .toList();
-        Page<Link> linksPage = new PageImpl<>(links, pageable, pageOfLinkIds.getTotalElements());
+        var links = linkEntitiesPage.stream().map(linkMapper::toModel).toList();
+        Page<Link> linksPage = new PageImpl<>(links, pageable, linkEntitiesPage.getTotalElements());
         return new PagedResult<>(linksPage);
     }
 

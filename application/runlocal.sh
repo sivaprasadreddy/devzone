@@ -1,6 +1,6 @@
 #!/bin/bash
 
-declare jar_name='build/libs/devzone-0.0.1-SNAPSHOT.jar'
+declare jar_name='build/libs/devzone-0.0.1.jar'
 
 function build_docker_image() {
     ./gradlew bootBuildImage

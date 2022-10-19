@@ -5,7 +5,7 @@ metadata:
 build:
   artifacts:
     - image: sivaprasadreddy/devzone
-      context: .
+      context: ./application
       jib: {}
       #buildpacks:
       #  builder: paketobuildpacks/builder:base
