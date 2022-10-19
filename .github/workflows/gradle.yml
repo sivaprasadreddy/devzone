@@ -14,9 +14,6 @@ jobs:
         java: [ '17']
     env:
       DOCKER_IMAGE_NAME: ${{ secrets.DOCKER_USERNAME }}/devzone
-    defaults:
-      run:
-        working-directory: application
     steps:
       - uses: actions/checkout@v3
 
@@ -28,17 +25,17 @@ jobs:
           cache: 'gradle'
 
       - name: Build with Gradle
-        run: ./gradlew build
+        run: ./gradlew :application:build
 
       - if: ${{ github.ref == 'refs/heads/main' }}
         name: Build and Publish Docker Image
         run: |
-          ./gradlew jibDockerBuild
+          ./gradlew :application:jibDockerBuild
           docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
           docker push $DOCKER_IMAGE_NAME --all-tags
 
       - if: ${{ github.ref == 'refs/heads/main' }}
         name: SonarQube Scan
-        run: ./gradlew sonarqube
+        run: ./gradlew :application:sonarqube
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
