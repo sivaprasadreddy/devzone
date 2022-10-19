@@ -48,17 +48,14 @@ public class UserService {
     }
 
     public void changePassword(String email, ChangePasswordRequest changePasswordRequest) {
-        User user =
-                this.getUserByEmail(email)
-                        .orElseThrow(
-                                () ->
-                                        new ResourceNotFoundException(
-                                                "User with email " + email + " not found"));
-        if (passwordEncoder.matches(changePasswordRequest.getOldPassword(), user.getPassword())) {
-            user.setPassword(passwordEncoder.encode(changePasswordRequest.getNewPassword()));
-            userRepository.save(user);
-        } else {
+        User user = this.getUserByEmail(email).orElse(null);
+        if (user == null) {
+            throw new ResourceNotFoundException("User with email " + email + " not found");
+        }
+        if (!passwordEncoder.matches(changePasswordRequest.getOldPassword(), user.getPassword())) {
             throw new DevZoneException("Current password doesn't match");
         }
+        user.setPassword(passwordEncoder.encode(changePasswordRequest.getNewPassword()));
+        userRepository.save(user);
     }
 }
