@@ -8,7 +8,6 @@ import com.sivalabs.devzone.links.domain.models.Link;
 import com.sivalabs.devzone.links.domain.models.UpdateLinkRequest;
 import com.sivalabs.devzone.links.domain.services.LinkService;
 import com.sivalabs.devzone.users.domain.models.User;
-import com.sivalabs.devzone.users.domain.services.SecurityService;
 import java.util.Objects;
 import javax.validation.Valid;
 import lombok.RequiredArgsConstructor;
@@ -28,7 +27,6 @@ public class UpdateLinkController {
     private static final String MODEL_ATTRIBUTE_LINK = "link";
 
     private final LinkService linkService;
-    private final SecurityService securityService;
 
     @GetMapping("/links/{id}/edit")
     @AnyAuthenticatedUser

@@ -16,6 +16,7 @@ import com.sivalabs.devzone.config.security.SecurityUser;
 import com.sivalabs.devzone.links.domain.models.Link;
 import com.sivalabs.devzone.links.domain.models.UpdateLinkRequest;
 import com.sivalabs.devzone.links.domain.services.LinkService;
+import com.sivalabs.devzone.users.domain.models.RoleEnum;
 import com.sivalabs.devzone.users.domain.models.User;
 import com.sivalabs.devzone.utils.TestDataFactory;
 import java.util.Optional;
@@ -29,8 +30,19 @@ public class UpdateLinkControllerTest extends AbstractWebMvcTest {
     @MockBean protected LinkService linkService;
 
     @Test
+    void shouldShowNotFoundWhenUpdatingLinkNotExists() throws Exception {
+        User user = TestDataFactory.getMockUser();
+        SecurityUser securityUser = new SecurityUser(user);
+        given(securityService.loginUser()).willReturn(user);
+        given(linkService.getLinkById(any(Long.class))).willReturn(Optional.empty());
+
+        mockMvc.perform(get("/links/{id}/edit", 1).with(user(securityUser)))
+                .andExpect(status().isNotFound());
+    }
+
+    @Test
     void shouldShowEditLinkFormPage() throws Exception {
-        Link link = TestDataFactory.getMockLink(1L);
+        Link link = TestDataFactory.getMockLink(1L, 1L);
         User user = TestDataFactory.getMockUser();
         SecurityUser securityUser = new SecurityUser(user);
         given(securityService.loginUser()).willReturn(user);
@@ -43,16 +55,76 @@ public class UpdateLinkControllerTest extends AbstractWebMvcTest {
     }
 
     @Test
-    void shouldUpdateLinkSuccessfully() throws Exception {
+    void shouldFailToUpdateLinkIfUrlIsEmpty() throws Exception {
         User user = TestDataFactory.getMockUser();
         SecurityUser securityUser = new SecurityUser(user);
         given(securityService.loginUser()).willReturn(user);
-        Link link = TestDataFactory.getMockLink(1L);
+        Link link = TestDataFactory.getMockLink(1L, 1L);
         given(linkService.getLinkById(1L)).willReturn(Optional.of(link));
         given(linkService.updateLink(any(UpdateLinkRequest.class))).willReturn(link);
 
         mockMvc.perform(
-                        put("/links/{id}", 1)
+                        put("/links/{id}", link.getId())
+                                .with(csrf())
+                                .with(user(securityUser))
+                                .param("url", "")
+                                .param("title", "SivaLabs")
+                                .param("category", "java"))
+                .andExpect(model().hasErrors())
+                .andExpect(model().attributeHasFieldErrors("link", "url"))
+                .andExpect(view().name("edit-link"));
+    }
+
+    @Test
+    void shouldUpdateLinkSuccessfully() throws Exception {
+        User user = TestDataFactory.getMockUser();
+        SecurityUser securityUser = new SecurityUser(user);
+        given(securityService.loginUser()).willReturn(user);
+        Link link = TestDataFactory.getMockLink(1L, 1L);
+        given(linkService.getLinkById(1L)).willReturn(Optional.of(link));
+        given(linkService.updateLink(any(UpdateLinkRequest.class))).willReturn(link);
+
+        mockMvc.perform(
+                        put("/links/{id}", link.getId())
+                                .with(csrf())
+                                .with(user(securityUser))
+                                .param("url", "https://sivalabs.in")
+                                .param("title", "SivaLabs")
+                                .param("category", "java"))
+                .andExpect(status().is3xxRedirection())
+                .andExpect(header().string("Location", "/links"));
+    }
+
+    @Test
+    void shouldNotBeAbleToUpdateOthersLink() throws Exception {
+        User user = TestDataFactory.getMockUser(1L, RoleEnum.ROLE_USER);
+        SecurityUser securityUser = new SecurityUser(user);
+        given(securityService.loginUser()).willReturn(user);
+        Link link = TestDataFactory.getMockLink(1L, 2L);
+        given(linkService.getLinkById(link.getId())).willReturn(Optional.of(link));
+        given(linkService.updateLink(any(UpdateLinkRequest.class))).willReturn(link);
+
+        mockMvc.perform(
+                        put("/links/{id}", link.getId())
+                                .with(csrf())
+                                .with(user(securityUser))
+                                .param("url", "https://sivalabs.in")
+                                .param("title", "SivaLabs")
+                                .param("category", "java"))
+                .andExpect(status().is(403));
+    }
+
+    @Test
+    void adminShouldBeAbleToUpdateOthersLink() throws Exception {
+        User user = TestDataFactory.getMockUser(1L, RoleEnum.ROLE_ADMIN);
+        SecurityUser securityUser = new SecurityUser(user);
+        given(securityService.loginUser()).willReturn(user);
+        Link link = TestDataFactory.getMockLink(1L, 2L);
+        given(linkService.getLinkById(link.getId())).willReturn(Optional.of(link));
+        given(linkService.updateLink(any(UpdateLinkRequest.class))).willReturn(link);
+
+        mockMvc.perform(
+                        put("/links/{id}", link.getId())
                                 .with(csrf())
                                 .with(user(securityUser))
                                 .param("url", "https://sivalabs.in")

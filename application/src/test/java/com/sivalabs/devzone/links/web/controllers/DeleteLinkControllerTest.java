@@ -28,7 +28,7 @@ public class DeleteLinkControllerTest extends AbstractWebMvcTest {
         User user = TestDataFactory.getMockUser();
         SecurityUser securityUser = new SecurityUser(user);
         given(securityService.loginUser()).willReturn(user);
-        Link link = TestDataFactory.getMockLink(1L);
+        Link link = TestDataFactory.getMockLink(1L, 1L);
         given(linkService.getLinkById(any(Long.class))).willReturn(Optional.of(link));
 
         mockMvc.perform(delete("/links/{id}", 1).with(csrf()).with(user(securityUser)))
@@ -40,7 +40,7 @@ public class DeleteLinkControllerTest extends AbstractWebMvcTest {
         User user = TestDataFactory.getMockUser(1L, RoleEnum.ROLE_ADMIN);
         SecurityUser securityUser = new SecurityUser(user);
         given(securityService.loginUser()).willReturn(user);
-        Link link = TestDataFactory.getMockLink(1L);
+        Link link = TestDataFactory.getMockLink(1L, 1L);
         given(linkService.getLinkById(any(Long.class))).willReturn(Optional.of(link));
 
         mockMvc.perform(delete("/links/{id}", 1).with(csrf()).with(user(securityUser)))
@@ -52,7 +52,7 @@ public class DeleteLinkControllerTest extends AbstractWebMvcTest {
         User user = TestDataFactory.getMockUser(1L, RoleEnum.ROLE_USER);
         SecurityUser securityUser = new SecurityUser(user);
         given(securityService.loginUser()).willReturn(user);
-        Link link = TestDataFactory.getMockLink(2L);
+        Link link = TestDataFactory.getMockLink(1L, 2L);
         given(linkService.getLinkById(any(Long.class))).willReturn(Optional.of(link));
 
         mockMvc.perform(delete("/links/{id}", 1).with(csrf()).with(user(securityUser)))
