@@ -6,7 +6,7 @@ import com.sivalabs.devzone.links.domain.models.CreateLinkRequest;
 import com.sivalabs.devzone.links.domain.models.Link;
 import com.sivalabs.devzone.links.domain.services.LinkService;
 import com.sivalabs.devzone.users.domain.models.User;
-import javax.validation.Valid;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
@@ -26,6 +26,8 @@ public class CreateLinkController {
 
     @GetMapping("/links/new")
     @AnyAuthenticatedUser
+    // @PreAuthorize("hasAnyRole('ROLE_USER', 'ROLE_ADMIN')")
+    // @PreAuthorize("hasRole('ROLE_USER')")
     public String newLinkForm(Model model) {
         model.addAttribute(MODEL_ATTRIBUTE_LINK, new CreateLinkRequest());
         return "add-link";

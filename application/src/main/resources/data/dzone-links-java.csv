@@ -4389,7 +4389,7 @@ https://dzone.com/articles/java-command-line-interfaces-part-13-jargs,"Java Comm
 https://dzone.com/articles/rulebook-grows-up-keeping-feature-rich-software-simple,"RuleBook Grows Up: Keeping Feature-Rich Software Simple",Java
 https://dzone.com/articles/understanding-classes-in-java-part-1,"Understanding Classes in Java (Part 1)",Java
 https://dzone.com/articles/rxjava-faq-loading-files-with-backpressure,"RxJava FAQ: Loading Files With Backpressure",Java
-https://dzone.com/articles/what-is-javaxwsrscorecontext-part-4,"What Is javax.ws.rs.core.context? (Part 4)? [Snippets]",Java
+https://dzone.com/articles/what-is-javaxwsrscorecontext-part-4,"What Is jakarta.ws.rs.core.context? (Part 4)? [Snippets]",Java
 https://dzone.com/articles/rxjava2-continue-till-success,"RxJava2: Continue Until Success",Java
 https://dzone.com/articles/jarchitect-a-review,"JArchitect: A Review",Java
 https://dzone.com/articles/fixing-7-common-java-exception-handling-mistakes,"Fixing 7 Common Java Exception Handling Mistakes",Java
@@ -4429,7 +4429,7 @@ https://dzone.com/articles/this-week-in-spring-reactive-code-quality-and-serv,"T
 https://dzone.com/articles/simplifying-monads-in-scala,"Simplifying Monads in Scala",Java
 https://dzone.com/articles/introducing-actuator-endpoints-in-spring-boot-20,"Introducing Actuator Endpoints in Spring Boot 2.0",Java
 https://dzone.com/articles/why-im-excited-about-scalaz-8,"Why I'm Excited About Scalaz 8",Java
-https://dzone.com/articles/what-is-javaxwsrscorecontext,"What Is javax.ws.rs.core.context? (Part 3)",Java
+https://dzone.com/articles/what-is-javaxwsrscorecontext,"What Is jakarta.ws.rs.core.context? (Part 3)",Java
 https://dzone.com/articles/jdk-9-xxtra-command-line-options,"JDK 9: XXtra Command Line Options",Java
 https://dzone.com/articles/thoughts-on-opening-up-java-ee,"Thoughts on Opening Up Java EE",Java
 https://dzone.com/articles/the-rise-and-fall-of-jvm-languages,"The Rise and Fall of JVM Languages",Java
@@ -4439,7 +4439,7 @@ https://dzone.com/articles/using-eclipse-with-its-local-version-of-the-jvm,"Usin
 https://dzone.com/articles/rxjava-1x-to-2x-migration-observable-vs-observable,"RxJava 1.x to 2.x Migration: Observable vs. Observable",Java
 https://dzone.com/articles/examining-kotlins-also-apply-let-run-and-with-intentions,"Examining Kotlin: also, apply, let, run, and with",Java
 https://dzone.com/articles/getting-to-know-javaniofilepath-part-1,"Getting to Know java.nio.file.Path (Part 1)",Java
-https://dzone.com/articles/what-is-javaxwsrscorecontext-part-2,"What Is javax.ws.rs.core.context? (Part 2)",Java
+https://dzone.com/articles/what-is-javaxwsrscorecontext-part-2,"What Is jakarta.ws.rs.core.context? (Part 2)",Java
 https://dzone.com/articles/rxjava-generating-backpressure-aware-streams,"RxJava: Generating Backpressure-Aware Streams",Java
 https://dzone.com/articles/what-the-singleton-pattern-costs-you,"What the Singleton Pattern Costs You",Java
 https://dzone.com/articles/oracle-opening-up-java-ee,"Oracle Opening Up Java EE",Java
@@ -4451,7 +4451,7 @@ https://dzone.com/articles/code-smells-deeply-nested-code,"Code Smells: Deeply N
 https://dzone.com/articles/akka-message-delivery-at-most-once-at-least-once-a,"Akka Message Delivery: At-Most, At-Least, and Exactly-Once",Java
 https://dzone.com/articles/concourse-caching-for-java-maven-and-gradle-builds,"Concourse Caching for Java Maven and Gradle Builds",Java
 https://dzone.com/articles/new-regex-features-in-java-9,"New RegEx Features in Java 9",Java
-https://dzone.com/articles/what-is-javaxwsrscorecontext-part-1,"What Is javax.ws.rs.core.context? (Part 1)",Java
+https://dzone.com/articles/what-is-javaxwsrscorecontext-part-1,"What Is jakarta.ws.rs.core.context? (Part 1)",Java
 https://dzone.com/articles/9-best-practices-to-handle-exceptions-in-java,"9 Best Practices to Handle Exceptions in Java",Java
 https://dzone.com/articles/handling-custom-objects-with-jax-rs-sse-api,"Handling Custom Objects With JAX-RS SSE API",Java
 https://dzone.com/articles/this-week-in-spring-august-15th-2017,"This Week in Spring - August 15th, 2017",Java
@@ -6095,7 +6095,7 @@ https://dzone.com//articles/java8-hashmap-implementation-and-performance,"Java 8
 https://dzone.com//articles/a-gentle-and-easy-to-grasp-introduction-to-solid-p,"Introduction to SOLID Design Principles for Java Developers",Java
 https://dzone.com//articles/applying-cicd-to-java-apps-using-spring-boot,"Applying CI/CD to Java Apps Using Spring Boot",Java
 https://dzone.com//articles/six-more-jeps-proposed-for-jdk-14,"Six More JEPs Proposed for JDK 14",Java
-https://dzone.com//articles/from-javax-to-jakarta-a-simple-proof-of-concept,"From javax.* to jakarta.*: A Simple Proof of Concept",Java
+https://dzone.com//articles/from-javax-to-jakarta-a-simple-proof-of-concept,"From jakarta.* to jakarta.*: A Simple Proof of Concept",Java
 https://dzone.com//articles/build-a-java-app-with-gradle,"Building a Java App With Gradle",Java
 https://dzone.com//articles/tens-of-thousands-of-socket-connections-in-java,"Programming Models for Servers in Java",Java
 https://dzone.com//articles/why-do-we-need-threadcurrentthreadinterrupt-in-int,"Why Do We Need Thread.currentThread().interrupt() in Interruptible Methods?",Java
@@ -8585,7 +8585,7 @@ https://dzone.com//articles/rulebook-grows-up-keeping-feature-rich-software-simp
 https://dzone.com//articles/understanding-classes-in-java-part-1,"Understanding Classes in Java (Part 1)",Java
 https://dzone.com//articles/configuring-logback-with-spring-boot,"Configuring Logback With Spring Boot",Java
 https://dzone.com//articles/rxjava-faq-loading-files-with-backpressure,"RxJava FAQ: Loading Files With Backpressure",Java
-https://dzone.com//articles/what-is-javaxwsrscorecontext-part-4,"What Is javax.ws.rs.core.context? (Part 4)? [Snippets]",Java
+https://dzone.com//articles/what-is-javaxwsrscorecontext-part-4,"What Is jakarta.ws.rs.core.context? (Part 4)? [Snippets]",Java
 https://dzone.com//articles/rxjava2-continue-till-success,"RxJava2: Continue Until Success",Java
 https://dzone.com//articles/jarchitect-a-review,"JArchitect: A Review",Java
 https://dzone.com//articles/fixing-7-common-java-exception-handling-mistakes,"Fixing 7 Common Java Exception Handling Mistakes",Java
@@ -8625,7 +8625,7 @@ https://dzone.com//articles/this-week-in-spring-reactive-code-quality-and-serv,"
 https://dzone.com//articles/simplifying-monads-in-scala,"Simplifying Monads in Scala",Java
 https://dzone.com//articles/introducing-actuator-endpoints-in-spring-boot-20,"Introducing Actuator Endpoints in Spring Boot 2.0",Java
 https://dzone.com//articles/why-im-excited-about-scalaz-8,"Why I'm Excited About Scalaz 8",Java
-https://dzone.com//articles/what-is-javaxwsrscorecontext,"What Is javax.ws.rs.core.context? (Part 3)",Java
+https://dzone.com//articles/what-is-javaxwsrscorecontext,"What Is jakarta.ws.rs.core.context? (Part 3)",Java
 https://dzone.com//articles/jdk-9-xxtra-command-line-options,"JDK 9: XXtra Command Line Options",Java
 https://dzone.com//articles/thoughts-on-opening-up-java-ee,"Thoughts on Opening Up Java EE",Java
 https://dzone.com//articles/the-rise-and-fall-of-jvm-languages,"The Rise and Fall of JVM Languages",Java
@@ -8635,7 +8635,7 @@ https://dzone.com//articles/using-eclipse-with-its-local-version-of-the-jvm,"Usi
 https://dzone.com//articles/rxjava-1x-to-2x-migration-observable-vs-observable,"RxJava 1.x to 2.x Migration: Observable vs. Observable",Java
 https://dzone.com//articles/examining-kotlins-also-apply-let-run-and-with-intentions,"Examining Kotlin: also, apply, let, run, and with",Java
 https://dzone.com//articles/getting-to-know-javaniofilepath-part-1,"Getting to Know java.nio.file.Path (Part 1)",Java
-https://dzone.com//articles/what-is-javaxwsrscorecontext-part-2,"What Is javax.ws.rs.core.context? (Part 2)",Java
+https://dzone.com//articles/what-is-javaxwsrscorecontext-part-2,"What Is jakarta.ws.rs.core.context? (Part 2)",Java
 https://dzone.com//articles/rxjava-generating-backpressure-aware-streams,"RxJava: Generating Backpressure-Aware Streams",Java
 https://dzone.com//articles/what-the-singleton-pattern-costs-you,"What the Singleton Pattern Costs You",Java
 https://dzone.com//articles/oracle-opening-up-java-ee,"Oracle Opening Up Java EE",Java
@@ -8647,7 +8647,7 @@ https://dzone.com//articles/code-smells-deeply-nested-code,"Code Smells: Deeply 
 https://dzone.com//articles/akka-message-delivery-at-most-once-at-least-once-a,"Akka Message Delivery: At-Most, At-Least, and Exactly-Once",Java
 https://dzone.com//articles/concourse-caching-for-java-maven-and-gradle-builds,"Concourse Caching for Java Maven and Gradle Builds",Java
 https://dzone.com//articles/new-regex-features-in-java-9,"New RegEx Features in Java 9",Java
-https://dzone.com//articles/what-is-javaxwsrscorecontext-part-1,"What Is javax.ws.rs.core.context? (Part 1)",Java
+https://dzone.com//articles/what-is-javaxwsrscorecontext-part-1,"What Is jakarta.ws.rs.core.context? (Part 1)",Java
 https://dzone.com//articles/jooq-tuesdays-lets-talk-about-spring-data,"jOOQ Tuesdays: Let's Talk About Spring Data",Java
 https://dzone.com//articles/9-best-practices-to-handle-exceptions-in-java,"9 Best Practices to Handle Exceptions in Java",Java
 https://dzone.com//articles/handling-custom-objects-with-jax-rs-sse-api,"Handling Custom Objects With JAX-RS SSE API",Java
@@ -11217,7 +11217,7 @@ https://dzone.com//articles/some-cool-things-in-lucee,"Some Cool Things in Lucee
 https://dzone.com//articles/docker-java-app-with-mariadbdeployment-in-less-tha,"Docker Java App with MariaDB—Deployment in Less than a Minute",Java
 https://dzone.com//articles/an-answer-to-circlecis-why-were-no-longer-using-co,"An Answer to CircleCI’s “Why We’re No Longer Using Core.typed”",Java
 https://dzone.com//articles/the-basics-of-scaling-java-ee-applications,"The Basics of Scaling Java EE Applications",Java
-https://dzone.com//articles/bringing-javaxcacheing-to-your-spring-applications,"Bringing javax.cache'ing To Your Spring Applications",Java
+https://dzone.com//articles/bringing-javaxcacheing-to-your-spring-applications,"Bringing jakarta.cache'ing To Your Spring Applications",Java
 https://dzone.com//articles/mvc-10-in-java-ee-8-getting-started-with-netbeans,"MVC 1.0 in Java EE 8 – Getting Started with NetBeans 8.1 and Payara 4.1",Java
 https://dzone.com//articles/how-to-handle-the-interruptedexception,"How to Handle an InterruptedException",Java
 https://dzone.com//articles/key-takeaways-from-containercon,"Key Takeaways from ContainerCon",Java

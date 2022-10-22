@@ -1,7 +1,7 @@
 plugins {
     id "java"
     id "jacoco"
-    id "org.springframework.boot" version "2.7.5"
+    id "org.springframework.boot" version "3.0.0-RC1"
     id "io.spring.dependency-management" version "1.1.0"
     id "com.gorylenko.gradle-git-properties" version "2.4.1"
     id "com.google.cloud.tools.jib" version "3.3.0"
@@ -66,7 +66,7 @@ dependencies {
     implementation "org.springframework.boot:spring-boot-starter-validation"
     implementation "org.springframework.boot:spring-boot-starter-web"
     implementation "org.springframework.boot:spring-boot-starter-thymeleaf"
-    implementation "org.thymeleaf.extras:thymeleaf-extras-springsecurity5"
+    implementation "org.thymeleaf.extras:thymeleaf-extras-springsecurity6"
     implementation "nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect"
 
     implementation "org.springframework.boot:spring-boot-starter-security"
