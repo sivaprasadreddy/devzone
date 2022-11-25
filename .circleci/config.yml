@@ -1,6 +1,6 @@
 version: '2.1'
 orbs:
-  maven: circleci/maven@1.3.0
+  gradle: circleci/gradle@3.0.0
 executors:
   machine_executor_amd64:
     machine:
@@ -9,7 +9,7 @@ executors:
       architecture: "amd64"
       platform: "linux/amd64"
 workflows:
-  maven_test:
+  build_and_test:
     jobs:
-      - maven/test:
+      - gradle/test:
           executor: machine_executor_amd64
