@@ -52,11 +52,11 @@ ext {
     set("font_awesome_version", "6.2.0")
     set("commons_lang_version", "3.12.0")
     set("commons_io_version", "2.11.0")
-    set("springdoc_openapi", "1.6.12")
+    set("springdoc_openapi", "1.6.13")
     set("opencsv_version", "5.7.0")
     set("jsoup_version", "1.15.3")
     set("datasource_proxy_version", "1.8.1")
-    set("archunit_junit5_version", "1.0.0")
+    set("archunit_junit5_version", "1.0.1")
 }
 
 dependencies {
