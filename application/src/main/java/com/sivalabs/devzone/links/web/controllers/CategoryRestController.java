@@ -17,6 +17,7 @@ public class CategoryRestController {
     private final LinkService linkService;
 
     @GetMapping
+    // @PreAuthorize("permitAll()")
     public List<Category> allCategories() {
         return linkService.findAllCategories();
     }

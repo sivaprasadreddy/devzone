@@ -2,8 +2,8 @@ package com.sivalabs.devzone.links.web.controllers;
 
 import com.sivalabs.devzone.config.annotations.AdminOnly;
 import com.sivalabs.devzone.links.domain.services.LinksExportService;
+import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import javax.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpHeaders;
