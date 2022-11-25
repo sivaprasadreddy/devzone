@@ -20,7 +20,6 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 @RequiredArgsConstructor
 @Slf4j
 public class WebSecurityConfig {
-    // private final RoleHierarchyImpl roleHierarchy;
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
@@ -40,10 +39,6 @@ public class WebSecurityConfig {
                 .anyRequest()
                 .permitAll();
 
-        /*http.exceptionHandling(
-                (exceptionHandling) -> exceptionHandling.accessDeniedPage("/errors/access-denied"))
-        // .expressionHandler(webExpressionHandler(roleHierarchy))
-        ;*/
         http.formLogin()
                 .loginPage("/login")
                 .defaultSuccessUrl("/")
@@ -69,23 +64,4 @@ public class WebSecurityConfig {
         expressionHandler.setRoleHierarchy(roleHierarchy());
         return expressionHandler;
     }
-
-    /*
-
-    @Bean
-    AccessDecisionVoter hierarchyVoter() {
-        RoleHierarchyImpl roleHierarchy = new RoleHierarchyImpl();
-        roleHierarchy.setHierarchy(RoleEnum.getRoleHierarchy());
-        log.debug("RoleHierarchy: {}", RoleEnum.getRoleHierarchy());
-        return new RoleHierarchyVoter(roleHierarchy);
-    }
-    private static SecurityExpressionHandler<FilterInvocation> webExpressionHandler(
-            RoleHierarchy roleHierarchy) {
-        DefaultWebSecurityExpressionHandler defaultWebSecurityExpressionHandler =
-                new DefaultWebSecurityExpressionHandler();
-        defaultWebSecurityExpressionHandler.setRoleHierarchy(roleHierarchy);
-        return defaultWebSecurityExpressionHandler;
-    }
-
-    */
 }
