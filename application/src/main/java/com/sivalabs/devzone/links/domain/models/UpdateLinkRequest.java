@@ -1,6 +1,6 @@
 package com.sivalabs.devzone.links.domain.models;
 
-import javax.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotEmpty;
 import lombok.Data;
 
 @Data

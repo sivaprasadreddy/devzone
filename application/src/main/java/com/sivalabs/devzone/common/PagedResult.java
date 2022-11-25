@@ -37,6 +37,7 @@ public class PagedResult<T> {
         this.setPageNumber(page.getNumber() + 1); // 1 - based page numbering
         this.setTotalPages(page.getTotalPages());
         this.setFirst(page.isFirst());
+        this.setLast(page.isLast());
         this.setHasNext(page.hasNext());
         this.setHasPrevious(page.hasPrevious());
     }

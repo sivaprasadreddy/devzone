@@ -3,7 +3,7 @@ package com.sivalabs.devzone.users.web.controllers;
 import com.sivalabs.devzone.common.exceptions.ResourceAlreadyExistsException;
 import com.sivalabs.devzone.users.domain.models.CreateUserRequest;
 import com.sivalabs.devzone.users.domain.services.UserService;
-import javax.validation.Valid;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;

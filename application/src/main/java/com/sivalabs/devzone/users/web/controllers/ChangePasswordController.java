@@ -6,7 +6,7 @@ import com.sivalabs.devzone.config.annotations.CurrentUser;
 import com.sivalabs.devzone.users.domain.models.ChangePasswordRequest;
 import com.sivalabs.devzone.users.domain.models.User;
 import com.sivalabs.devzone.users.domain.services.UserService;
-import javax.validation.Valid;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;

@@ -1,12 +1,12 @@
 plugins {
     id "java"
     id "jacoco"
-    id "org.springframework.boot" version "2.7.5"
+    id "org.springframework.boot" version "3.0.0"
     id "io.spring.dependency-management" version "1.1.0"
     id "com.gorylenko.gradle-git-properties" version "2.4.1"
-    id "com.google.cloud.tools.jib" version "3.3.0"
+    id "com.google.cloud.tools.jib" version "3.3.1"
     id "com.diffplug.spotless" version "6.11.0"
-    id "org.sonarqube" version "3.4.0.2513"
+    id "org.sonarqube" version "3.5.0.2730"
 }
 
 group = "com.sivalabs"
@@ -44,16 +44,16 @@ repositories {
 }
 
 ext {
-    set("spring_cloud_version", "2021.0.4")
+    set("spring_cloud_version", "2021.0.5")
     set("testcontainers_version", "1.17.5")
-    set("webjars_locator_version", "0.45")
+    set("webjars_locator_version", "0.46")
     set("bootstrap_version", "5.2.2")
     set("jquery_version", "3.6.1")
     set("font_awesome_version", "6.2.0")
     set("commons_lang_version", "3.12.0")
     set("commons_io_version", "2.11.0")
     set("springdoc_openapi", "1.6.13")
-    set("opencsv_version", "5.7.0")
+    set("opencsv_version", "5.7.1")
     set("jsoup_version", "1.15.3")
     set("datasource_proxy_version", "1.8.1")
     set("archunit_junit5_version", "1.0.1")
@@ -66,7 +66,7 @@ dependencies {
     implementation "org.springframework.boot:spring-boot-starter-validation"
     implementation "org.springframework.boot:spring-boot-starter-web"
     implementation "org.springframework.boot:spring-boot-starter-thymeleaf"
-    implementation "org.thymeleaf.extras:thymeleaf-extras-springsecurity5"
+    implementation "org.thymeleaf.extras:thymeleaf-extras-springsecurity6"
     implementation "nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect"
 
     implementation "org.springframework.boot:spring-boot-starter-security"
@@ -97,7 +97,7 @@ dependencies {
     testImplementation "org.testcontainers:postgresql"
     testImplementation "org.projectlombok:lombok"
     testImplementation "com.tngtech.archunit:archunit-junit5:${archunit_junit5_version}"
-    testImplementation "com.apptasticsoftware:rssreader:3.2.0"
+    testImplementation "com.apptasticsoftware:rssreader:3.2.4"
 }
 
 dependencyManagement {
