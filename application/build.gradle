@@ -22,7 +22,7 @@ java {
 
 def dockerImageName = "sivaprasadreddy/devzone"
 def dockerImageTags = ["latest", "${project.version}"]
-def dockerBaseImage = "eclipse-temurin:17-jre-focal"
+def dockerBaseImage = "eclipse-temurin:17.0.5_8-jre-focal"
 def appMainClass = "com.sivalabs.devzone.Application"
 def jacocoToolVersion = "0.8.8"
 def jacocoMinCoverageRequired = 0.30
@@ -45,7 +45,7 @@ repositories {
 
 ext {
     set("spring_cloud_version", "2021.0.5")
-    set("testcontainers_version", "1.17.5")
+    set("testcontainers_version", "1.17.6")
     set("webjars_locator_version", "0.46")
     set("bootstrap_version", "5.2.2")
     set("jquery_version", "3.6.1")
