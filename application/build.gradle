@@ -97,7 +97,7 @@ dependencies {
     testImplementation "org.testcontainers:postgresql"
     testImplementation "org.projectlombok:lombok"
     testImplementation "com.tngtech.archunit:archunit-junit5:${archunit_junit5_version}"
-    testImplementation "com.apptasticsoftware:rssreader:3.2.4"
+    testImplementation "com.apptasticsoftware:rssreader:3.2.5"
 }
 
 dependencyManagement {
