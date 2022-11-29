@@ -2,20 +2,11 @@ version: '3.8'
 services:
 
   app-db:
-    image: postgres:15.0-alpine
+    image: postgres:15.1-alpine
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_DB=postgres
-      - PGDATA=/data/postgres
     ports:
       - "15432:5432"
-    restart: unless-stopped
-
-  pghero:
-    image: ankane/pghero
-    environment:
-      - DATABASE_URL=postgres://postgres:postgres@app-db:5432/postgres
-    ports:
-      - "28080:8080"
     restart: unless-stopped
