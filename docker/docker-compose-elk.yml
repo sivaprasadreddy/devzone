@@ -2,7 +2,7 @@ version: '3.8'
 services:
 
   elasticsearch:
-    image: elasticsearch:8.5.1
+    image: elasticsearch:8.5.2
     container_name: elasticsearch
     environment:
       - cluster.name=docker-es-cluster
