@@ -2,7 +2,7 @@ version: '3.8'
 services:
 
   elasticsearch:
-    image: elasticsearch:8.5.1
+    image: elasticsearch:8.5.2
     container_name: elasticsearch
     environment:
       - cluster.name=docker-es-cluster
@@ -21,7 +21,7 @@ services:
         hard: -1
 
   logstash:
-    image: logstash:8.5.1
+    image: logstash:8.5.2
     container_name: logstash
     command: logstash -f /etc/logstash/conf.d/logstash.conf
     volumes:
@@ -33,7 +33,7 @@ services:
       - elasticsearch
 
   kibana:
-    image: kibana:8.5.1
+    image: kibana:8.5.2
     container_name: kibana
     environment:
       - ELASTICSEARCH_URL=http://elasticsearch:9200
