@@ -33,7 +33,7 @@ services:
       - elasticsearch
 
   kibana:
-    image: kibana:8.5.1
+    image: kibana:8.5.2
     container_name: kibana
     environment:
       - ELASTICSEARCH_URL=http://elasticsearch:9200
