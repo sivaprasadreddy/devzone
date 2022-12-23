@@ -41,7 +41,7 @@ public class WebSecurityConfig {
                         "/favicon.ico",
                         "/h2-console/**")
                 .permitAll()
-                .requestMatchers("/", "/login", "/registration", "/links", "/api/categories")
+                .requestMatchers("/", "/login", "/registration", "/posts", "/api/categories")
                 .permitAll()
                 .anyRequest()
                 .permitAll();

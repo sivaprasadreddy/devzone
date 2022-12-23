@@ -1,7 +1,7 @@
 package com.sivalabs.devzone.config;
 
 import com.sivalabs.devzone.ApplicationProperties;
-import com.sivalabs.devzone.links.domain.services.LinksImportService;
+import com.sivalabs.devzone.posts.domain.services.PostsImportService;
 import java.util.List;
 import java.util.Locale;
 import org.slf4j.Logger;
@@ -16,15 +16,15 @@ import org.springframework.transaction.annotation.Transactional;
 public class DataInitializer implements CommandLineRunner {
     private static final Logger log = LoggerFactory.getLogger(DataInitializer.class);
     private final ApplicationProperties applicationProperties;
-    private final LinksImportService linksImportService;
+    private final PostsImportService postsImportService;
     private final MessageSource messageSource;
 
     public DataInitializer(
             ApplicationProperties applicationProperties,
-            LinksImportService linksImportService,
+            PostsImportService postsImportService,
             MessageSource messageSource) {
         this.applicationProperties = applicationProperties;
-        this.linksImportService = linksImportService;
+        this.postsImportService = postsImportService;
         this.messageSource = messageSource;
     }
 
@@ -35,7 +35,7 @@ public class DataInitializer implements CommandLineRunner {
                         "startup-message", null, "Welcome to DevZone!!!", Locale.getDefault()));
         if (applicationProperties.importDataEnabled()) {
             List<String> fileNames = applicationProperties.importFilePaths();
-            linksImportService.importLinksAsync(fileNames);
+            postsImportService.importPostsAsync(fileNames);
         } else {
             log.info("Data importing is disabled");
         }

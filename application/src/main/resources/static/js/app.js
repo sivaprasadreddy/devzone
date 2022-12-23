@@ -1,12 +1,12 @@
 
-function deleteLink(id)
+function deletePost(id)
 {
     let yes = confirm("Are you sure to delete?");
     if (yes) {
         let token = $("meta[name='_csrf']").attr("content");
         let header = $("meta[name='_csrf_header']").attr("content");
         $.ajax ({
-            url: '/links/'+id,
+            url: '/posts/'+id,
             type: "DELETE",
             headers: {
               [header]: token

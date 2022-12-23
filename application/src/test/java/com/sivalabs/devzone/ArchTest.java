@@ -19,7 +19,7 @@ class ArchTest {
                     .importPackages("com.sivalabs.devzone");
 
     @ParameterizedTest
-    @CsvSource({"links", "users"})
+    @CsvSource({"posts", "users"})
     void domainShouldNotDependOnWebLayer(String module) {
         noClasses()
                 .that()
@@ -32,7 +32,7 @@ class ArchTest {
     }
 
     @ParameterizedTest
-    @CsvSource({"links", "users"})
+    @CsvSource({"posts", "users"})
     void domainShouldNotDependOnAdapterLayer(String module) {
         noClasses()
                 .that()
@@ -73,7 +73,7 @@ class ArchTest {
     }
 
     @ParameterizedTest
-    @CsvSource({"links", "users"})
+    @CsvSource({"posts", "users"})
     void shouldFollowNamingConvention(String module) {
         classes()
                 .that()

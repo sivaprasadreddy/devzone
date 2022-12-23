@@ -13,7 +13,7 @@ public class AuthenticatedUserActionsTests extends BaseTest {
     }
 
     @Test
-    void shouldAddNewLink() {
+    void shouldAddNewPost() {
         doLogin(configuration.getNormalUserEmail(), configuration.getNormalUserPassword());
         page.locator("text='Add'").click();
         page.locator("#url").fill("https://sivalabs.in");
@@ -21,11 +21,11 @@ public class AuthenticatedUserActionsTests extends BaseTest {
         page.locator("#category-selectized").fill("springboot");
         page.locator("#category-selectized").press("Enter");
         page.locator("button:has-text(\"Submit\")").click();
-        page.waitForURL(rootUrl+"/links");
+        page.waitForURL(rootUrl+"/posts");
     }
 
     @Test
-    void shouldEditLink() {
+    void shouldEditPost() {
         doLogin(configuration.getAdminUserEmail(), configuration.getAdminUserPassword());
         page.locator("a:has-text(\"Edit\")").first().click();
         page.locator("#url").fill("https://sivalabs.in");
@@ -33,16 +33,16 @@ public class AuthenticatedUserActionsTests extends BaseTest {
         page.locator("#category-selectized").fill("newcategory");
         page.locator("#category-selectized").press("Enter");
         page.locator("button:has-text(\"Submit\")").click();
-        page.waitForURL(rootUrl+"/links");
+        page.waitForURL(rootUrl+"/posts");
     }
 
     @Test
-    void shouldDeleteLink() {
+    void shouldDeletePost() {
         doLogin(configuration.getAdminUserEmail(), configuration.getAdminUserPassword());
         page.onDialog(Dialog::accept);
         page.locator("a:has-text(\"Delete\")").first().click();
 
-        page.waitForURL(rootUrl+"/links");
+        page.waitForURL(rootUrl+"/posts");
     }
 
     private void doLogin(String email, String password) {
@@ -50,7 +50,7 @@ public class AuthenticatedUserActionsTests extends BaseTest {
         page.locator("#username").fill(email);
         page.locator("#password").fill(password);
         page.locator("button:has-text(\"Login\")").click();
-        page.waitForURL(rootUrl+"/links");
-        assertEquals(rootUrl+"/links", page.url());
+        page.waitForURL(rootUrl+"/posts");
+        assertEquals(rootUrl+"/posts", page.url());
     }
 }

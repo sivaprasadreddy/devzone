@@ -1,5 +1,5 @@
 create sequence user_id_seq start with 1 increment by 50;
-create sequence link_id_seq start with 1 increment by 50;
+create sequence post_id_seq start with 1 increment by 50;
 create sequence cat_id_seq start with 1 increment by 50;
 
 create table users (
@@ -24,8 +24,8 @@ create table categories (
     CONSTRAINT category_name_unique UNIQUE(name)
 );
 
-create table links (
-    id bigint DEFAULT nextval('link_id_seq') not null,
+create table posts (
+    id bigint DEFAULT nextval('post_id_seq') not null,
     url varchar(1024) not null,
     title varchar(1024),
     created_by bigint not null,

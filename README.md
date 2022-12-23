@@ -1,12 +1,12 @@
 # DevZone
-DevZone is a web application where developers can register and post their favourite article/video links. 
+DevZone is a web application where developers can register and post their favourite article/video posts. 
 
 ## Features
 * Users can register and login
-* Authenticated user can create a new link under a category
-* Authenticated user can delete own links
-* Admin user can delete any link
-* Any user(including guest users) can view links with pagination
+* Authenticated user can create a new post under a category
+* Authenticated user can delete own posts
+* Admin user can delete any post
+* Any user(including guest users) can view posts with pagination
   * sort by posted date desc (default)
   * by category
   * by searching for a keyword in title

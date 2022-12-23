@@ -35,7 +35,7 @@
                         <a class="nav-link" href="#" th:href="@{/registration}">Register</a>
                     </li>
                     <li class="nav-item" sec:authorize="!isAnonymous()">
-                        <a class="nav-link" href="#" th:href="@{/links/new}">
+                        <a class="nav-link" href="#" th:href="@{/posts/new}">
                             <i class="fas fa-plus-circle" ></i> Add
                         </a>
                     </li>
@@ -56,13 +56,13 @@
                             </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#" th:href="@{/links/download}"
+                                <a class="dropdown-item" href="#" th:href="@{/posts/download}"
                                    sec:authorize="hasRole('ROLE_ADMIN')">
                                     <i class="fas fa-download" ></i> Download Links
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#" th:href="@{/links/upload}"
+                                <a class="dropdown-item" href="#" th:href="@{/posts/upload}"
                                    sec:authorize="hasRole('ROLE_ADMIN')">
                                     <i class="fas fa-upload" ></i> Upload Links
                                 </a>

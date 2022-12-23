@@ -1,16 +1,16 @@
 package com.sivalabs.devzone.utils;
 
-import com.sivalabs.devzone.links.domain.models.Category;
-import com.sivalabs.devzone.links.domain.models.Link;
+import com.sivalabs.devzone.posts.domain.models.Category;
+import com.sivalabs.devzone.posts.domain.models.Post;
 import com.sivalabs.devzone.users.domain.models.RoleEnum;
 import com.sivalabs.devzone.users.domain.models.User;
 
 public class TestDataFactory {
 
-    public static Link getMockLink(Long linkId, Long userId) {
+    public static Post getMockPost(Long postId, Long userId) {
         Category category = new Category(1L, "Java");
-        return new Link(
-                linkId,
+        return new Post(
+                postId,
                 "https://google.com",
                 "Google",
                 category,
