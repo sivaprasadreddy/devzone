@@ -10,8 +10,8 @@ import com.sivalabs.devzone.links.domain.services.LinkService;
 import com.sivalabs.devzone.users.domain.models.User;
 import jakarta.validation.Valid;
 import java.util.Objects;
-import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -21,12 +21,15 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PutMapping;
 
 @Controller
-@RequiredArgsConstructor
-@Slf4j
 public class UpdateLinkController {
     private static final String MODEL_ATTRIBUTE_LINK = "link";
+    private static final Logger log = LoggerFactory.getLogger(UpdateLinkController.class);
 
     private final LinkService linkService;
+
+    public UpdateLinkController(LinkService linkService) {
+        this.linkService = linkService;
+    }
 
     @GetMapping("/links/{id}/edit")
     @AnyAuthenticatedUser

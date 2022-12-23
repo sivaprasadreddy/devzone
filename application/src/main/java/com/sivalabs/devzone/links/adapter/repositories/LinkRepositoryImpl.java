@@ -11,7 +11,6 @@ import com.sivalabs.devzone.links.domain.repositories.CategoryRepository;
 import com.sivalabs.devzone.links.domain.repositories.LinkRepository;
 import com.sivalabs.devzone.users.adapter.entities.UserEntity;
 import java.util.Optional;
-import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.PageRequest;
@@ -20,7 +19,6 @@ import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Repository;
 
 @Repository
-@RequiredArgsConstructor
 class LinkRepositoryImpl implements LinkRepository {
     private static final Integer PAGE_SIZE = 15;
     private final JpaLinkRepository jpaLinkRepository;
@@ -28,6 +26,19 @@ class LinkRepositoryImpl implements LinkRepository {
     private final JpaCategoryRepository jpaCategoryRepository;
     private final CategoryRepository categoryRepository;
     private final LinkMapper linkMapper;
+
+    public LinkRepositoryImpl(
+            JpaLinkRepository jpaLinkRepository,
+            JpaLinkCreatorRepository jpaLinkCreatorRepository,
+            JpaCategoryRepository jpaCategoryRepository,
+            CategoryRepository categoryRepository,
+            LinkMapper linkMapper) {
+        this.jpaLinkRepository = jpaLinkRepository;
+        this.jpaLinkCreatorRepository = jpaLinkCreatorRepository;
+        this.jpaCategoryRepository = jpaCategoryRepository;
+        this.categoryRepository = categoryRepository;
+        this.linkMapper = linkMapper;
+    }
 
     @Override
     public Optional<Link> findById(Long id) {

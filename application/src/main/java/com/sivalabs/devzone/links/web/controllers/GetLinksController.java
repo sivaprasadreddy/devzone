@@ -7,9 +7,9 @@ import com.sivalabs.devzone.links.domain.models.LinkDTO;
 import com.sivalabs.devzone.links.domain.services.LinkService;
 import com.sivalabs.devzone.links.web.mappers.LinkDtoMapper;
 import java.util.List;
-import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.stereotype.Controller;
@@ -18,14 +18,18 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
-@RequiredArgsConstructor
 @Loggable
-@Slf4j
 public class GetLinksController {
+    private static final Logger log = LoggerFactory.getLogger(GetLinksController.class);
     private static final String PAGINATION_PREFIX = "paginationPrefix";
 
     private final LinkService linkService;
     private final LinkDtoMapper linkDTOMapper;
+
+    public GetLinksController(LinkService linkService, LinkDtoMapper linkDTOMapper) {
+        this.linkService = linkService;
+        this.linkDTOMapper = linkDTOMapper;
+    }
 
     @GetMapping("/links")
     public String home(

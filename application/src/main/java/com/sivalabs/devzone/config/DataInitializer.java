@@ -4,8 +4,8 @@ import com.sivalabs.devzone.ApplicationProperties;
 import com.sivalabs.devzone.links.domain.services.LinksImportService;
 import java.util.List;
 import java.util.Locale;
-import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Component;
@@ -13,12 +13,20 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Component
 @Transactional
-@RequiredArgsConstructor
-@Slf4j
 public class DataInitializer implements CommandLineRunner {
+    private static final Logger log = LoggerFactory.getLogger(DataInitializer.class);
     private final ApplicationProperties applicationProperties;
     private final LinksImportService linksImportService;
     private final MessageSource messageSource;
+
+    public DataInitializer(
+            ApplicationProperties applicationProperties,
+            LinksImportService linksImportService,
+            MessageSource messageSource) {
+        this.applicationProperties = applicationProperties;
+        this.linksImportService = linksImportService;
+        this.messageSource = messageSource;
+    }
 
     @Override
     public void run(String... args) throws Exception {

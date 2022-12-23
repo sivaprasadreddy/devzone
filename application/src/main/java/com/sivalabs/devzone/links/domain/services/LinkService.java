@@ -14,19 +14,22 @@ import com.sivalabs.devzone.links.domain.utils.JsoupUtils;
 import com.sivalabs.devzone.users.domain.models.User;
 import java.util.List;
 import java.util.Optional;
-import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
+import org.slf4j.Logger;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 @Service
 @Transactional
-@RequiredArgsConstructor
-@Slf4j
 public class LinkService {
+    private static final Logger log = org.slf4j.LoggerFactory.getLogger(LinkService.class);
     private final CategoryRepository categoryRepository;
     private final LinkRepository linkRepository;
+
+    public LinkService(CategoryRepository categoryRepository, LinkRepository linkRepository) {
+        this.categoryRepository = categoryRepository;
+        this.linkRepository = linkRepository;
+    }
 
     @Transactional(readOnly = true)
     public PagedResult<Link> getLinks(Integer page) {

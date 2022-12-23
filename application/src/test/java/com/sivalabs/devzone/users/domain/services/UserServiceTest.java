@@ -33,11 +33,7 @@ class UserServiceTest {
         User user = TestDataFactory.getMockUser();
         user.setPassword(passwordEncoder.encode("siva123"));
         given(userRepository.findByEmail(email)).willReturn(Optional.of(user));
-        ChangePasswordRequest request =
-                ChangePasswordRequest.builder()
-                        .oldPassword("siva123")
-                        .newPassword("siva456")
-                        .build();
+        ChangePasswordRequest request = new ChangePasswordRequest("siva123", "siva456");
         userService.changePassword(email, request);
     }
 
@@ -47,11 +43,7 @@ class UserServiceTest {
         User user = TestDataFactory.getMockUser();
         user.setPassword(passwordEncoder.encode("incorrect-password"));
         given(userRepository.findByEmail(email)).willReturn(Optional.of(user));
-        ChangePasswordRequest request =
-                ChangePasswordRequest.builder()
-                        .oldPassword("siva123")
-                        .newPassword("siva456")
-                        .build();
+        ChangePasswordRequest request = new ChangePasswordRequest("siva123", "siva456");
         assertThrows(DevZoneException.class, () -> userService.changePassword(email, request));
     }
 }

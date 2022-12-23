@@ -2,15 +2,7 @@ package com.sivalabs.devzone.users.domain.models;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 
-@NoArgsConstructor
-@AllArgsConstructor
-@Data
-@Builder
 public class CreateUserRequest {
     @NotBlank(message = "Name cannot be blank")
     private String name;
@@ -21,4 +13,36 @@ public class CreateUserRequest {
 
     @NotBlank(message = "Password cannot be blank")
     private String password;
+
+    public CreateUserRequest(String name, String email, String password) {
+        this.name = name;
+        this.email = email;
+        this.password = password;
+    }
+
+    public CreateUserRequest() {}
+
+    public String getName() {
+        return this.name;
+    }
+
+    public String getEmail() {
+        return this.email;
+    }
+
+    public String getPassword() {
+        return this.password;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
 }

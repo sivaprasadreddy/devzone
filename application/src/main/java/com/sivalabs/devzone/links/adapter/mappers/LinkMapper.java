@@ -3,14 +3,17 @@ package com.sivalabs.devzone.links.adapter.mappers;
 import com.sivalabs.devzone.links.adapter.entities.LinkEntity;
 import com.sivalabs.devzone.links.domain.models.Link;
 import com.sivalabs.devzone.users.adapter.mappers.UserMapper;
-import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 
 @Component
-@RequiredArgsConstructor
 public class LinkMapper {
     private final CategoryMapper categoryMapper;
     private final UserMapper userMapper;
+
+    public LinkMapper(CategoryMapper categoryMapper, UserMapper userMapper) {
+        this.categoryMapper = categoryMapper;
+        this.userMapper = userMapper;
+    }
 
     public LinkEntity toEntity(Link link) {
         LinkEntity linkEntity = new LinkEntity();

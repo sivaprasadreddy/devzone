@@ -7,8 +7,8 @@ import com.sivalabs.devzone.users.domain.models.ChangePasswordRequest;
 import com.sivalabs.devzone.users.domain.models.User;
 import com.sivalabs.devzone.users.domain.services.UserService;
 import jakarta.validation.Valid;
-import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -19,10 +19,13 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 @Controller
 @AnyAuthenticatedUser
-@RequiredArgsConstructor
-@Slf4j
 public class ChangePasswordController {
+    private static final Logger log = LoggerFactory.getLogger(ChangePasswordController.class);
     private final UserService userService;
+
+    public ChangePasswordController(UserService userService) {
+        this.userService = userService;
+    }
 
     @GetMapping("/change-password")
     public String changePasswordForm(Model model) {

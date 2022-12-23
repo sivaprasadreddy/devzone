@@ -9,7 +9,6 @@ import java.io.PrintWriter;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Stream;
-import lombok.Data;
 import org.springframework.web.client.RestTemplate;
 
 public class LinkReaderUtils {
@@ -121,9 +120,10 @@ class DZoneResult {
     }
 }
 
-@Data
 class DZoneData {
     private List<DZoneArticle> nodes;
+
+    public DZoneData() {}
 
     public List<DZoneArticle> getNodes() {
         return nodes;

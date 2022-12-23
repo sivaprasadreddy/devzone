@@ -10,9 +10,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.List;
-import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
+import org.slf4j.Logger;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
@@ -20,11 +19,14 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Service
 @Transactional
-@RequiredArgsConstructor
-@Slf4j
 public class LinksImportService {
     public static final Long SYSTEM_USER_ID = 1L;
+    private static final Logger log = org.slf4j.LoggerFactory.getLogger(LinksImportService.class);
     private final LinkService linkService;
+
+    public LinksImportService(LinkService linkService) {
+        this.linkService = linkService;
+    }
 
     @Async
     public void importLinksAsync(List<String> fileNames) throws Exception {

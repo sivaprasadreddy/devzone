@@ -7,13 +7,15 @@ import com.sivalabs.devzone.users.domain.services.SecurityService;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
-import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 
 @Component
-@RequiredArgsConstructor
 public class LinkDtoMapper {
     private final SecurityService securityService;
+
+    public LinkDtoMapper(SecurityService securityService) {
+        this.securityService = securityService;
+    }
 
     public List<LinkDTO> toDTOs(List<Link> links) {
         if (links == null) {

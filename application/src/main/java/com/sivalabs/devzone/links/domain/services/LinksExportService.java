@@ -4,15 +4,17 @@ import com.sivalabs.devzone.common.PagedResult;
 import com.sivalabs.devzone.links.domain.models.Link;
 import java.nio.charset.StandardCharsets;
 import java.util.List;
-import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 @Service
 @Transactional
-@RequiredArgsConstructor
 public class LinksExportService {
     private final LinkService linkService;
+
+    public LinksExportService(LinkService linkService) {
+        this.linkService = linkService;
+    }
 
     public byte[] getLinksCSVFileAsString() {
         StringBuilder sb = new StringBuilder();

@@ -6,8 +6,6 @@ declare dc_app=${project_dir}/docker/docker-compose-app.yml
 declare dc_elk=${project_dir}/docker/docker-compose-elk.yml
 declare dc_monitoring=${project_dir}/docker/docker-compose-monitoring.yml
 declare devzone="devzone"
-declare elk="  elasticsearch logstash kibana"
-declare monitoring="prometheus loki grafana"
 
 function build_api() {
     ./gradlew clean bootJar
@@ -70,12 +68,12 @@ function stop_elk() {
 
 function k8sdeploy() {
     echo 'Deploying devzone to kubernetes....'
-    kubectl apply -f k8s/
+    kubectl apply -f deploymnt/k8s/
 }
 
 function k8sundeploy() {
     echo 'Undeploying devzone from kubernetes....'
-    kubectl delete -f k8s/
+    kubectl delete -f deploymnt/k8s/
 }
 
 action="start"

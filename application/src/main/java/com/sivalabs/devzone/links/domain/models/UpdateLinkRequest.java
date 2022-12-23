@@ -1,9 +1,7 @@
 package com.sivalabs.devzone.links.domain.models;
 
 import jakarta.validation.constraints.NotEmpty;
-import lombok.Data;
 
-@Data
 public class UpdateLinkRequest {
     private Long id;
 
@@ -12,4 +10,36 @@ public class UpdateLinkRequest {
 
     private String title;
     private String category;
+
+    public Long getId() {
+        return this.id;
+    }
+
+    public String getUrl() {
+        return this.url;
+    }
+
+    public String getTitle() {
+        return this.title;
+    }
+
+    public String getCategory() {
+        return this.category;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
 }

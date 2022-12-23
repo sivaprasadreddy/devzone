@@ -9,19 +9,22 @@ import com.sivalabs.devzone.users.domain.models.RoleEnum;
 import com.sivalabs.devzone.users.domain.models.User;
 import com.sivalabs.devzone.users.domain.repositories.UserRepository;
 import java.util.Optional;
-import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 @Service
 @Transactional
-@Slf4j
-@RequiredArgsConstructor
 public class UserService {
+    private static final Logger log = org.slf4j.LoggerFactory.getLogger(UserService.class);
     private final PasswordEncoder passwordEncoder;
     private final UserRepository userRepository;
+
+    public UserService(PasswordEncoder passwordEncoder, UserRepository userRepository) {
+        this.passwordEncoder = passwordEncoder;
+        this.userRepository = userRepository;
+    }
 
     @Transactional(readOnly = true)
     public Optional<User> getUserByEmail(String email) {

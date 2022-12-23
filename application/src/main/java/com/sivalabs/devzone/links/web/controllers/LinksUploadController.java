@@ -4,8 +4,6 @@ import com.opencsv.exceptions.CsvValidationException;
 import com.sivalabs.devzone.config.annotations.AdminOnly;
 import com.sivalabs.devzone.links.domain.services.LinksImportService;
 import java.io.IOException;
-import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -15,10 +13,12 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 @Controller
 @AdminOnly
-@RequiredArgsConstructor
-@Slf4j
 public class LinksUploadController {
     private final LinksImportService linksImportService;
+
+    public LinksUploadController(LinksImportService linksImportService) {
+        this.linksImportService = linksImportService;
+    }
 
     @GetMapping("/links/upload")
     public String showUploadBookmarksPage() {

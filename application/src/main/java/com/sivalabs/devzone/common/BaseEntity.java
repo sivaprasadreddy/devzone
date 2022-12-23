@@ -5,19 +5,15 @@ import jakarta.persistence.MappedSuperclass;
 import jakarta.persistence.PrePersist;
 import jakarta.persistence.PreUpdate;
 import java.time.LocalDateTime;
-import lombok.Getter;
-import lombok.Setter;
 
 @MappedSuperclass
-@Setter
-@Getter
 public abstract class BaseEntity {
 
     @Column(updatable = false)
-    private LocalDateTime createdAt = LocalDateTime.now();
+    protected LocalDateTime createdAt = LocalDateTime.now();
 
     @Column(insertable = false)
-    private LocalDateTime updatedAt = LocalDateTime.now();
+    protected LocalDateTime updatedAt = LocalDateTime.now();
 
     protected abstract Long getId();
 
@@ -29,5 +25,21 @@ public abstract class BaseEntity {
     @PreUpdate
     public void onUpdate() {
         updatedAt = LocalDateTime.now();
+    }
+
+    public LocalDateTime getCreatedAt() {
+        return this.createdAt;
+    }
+
+    public LocalDateTime getUpdatedAt() {
+        return this.updatedAt;
+    }
+
+    public void setCreatedAt(LocalDateTime createdAt) {
+        this.createdAt = createdAt;
+    }
+
+    public void setUpdatedAt(LocalDateTime updatedAt) {
+        this.updatedAt = updatedAt;
     }
 }

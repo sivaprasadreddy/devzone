@@ -3,7 +3,6 @@ package com.sivalabs.devzone.config.argresolvers;
 import com.sivalabs.devzone.config.annotations.CurrentUser;
 import com.sivalabs.devzone.users.domain.services.SecurityService;
 import java.lang.annotation.Annotation;
-import lombok.RequiredArgsConstructor;
 import org.springframework.core.MethodParameter;
 import org.springframework.core.annotation.AnnotationUtils;
 import org.springframework.stereotype.Component;
@@ -13,9 +12,12 @@ import org.springframework.web.method.support.HandlerMethodArgumentResolver;
 import org.springframework.web.method.support.ModelAndViewContainer;
 
 @Component
-@RequiredArgsConstructor
 public class CurrentUserArgumentResolver implements HandlerMethodArgumentResolver {
     private final SecurityService securityService;
+
+    public CurrentUserArgumentResolver(SecurityService securityService) {
+        this.securityService = securityService;
+    }
 
     @Override
     public boolean supportsParameter(MethodParameter methodParameter) {

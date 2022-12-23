@@ -2,11 +2,7 @@ package com.sivalabs.devzone.links.domain.models;
 
 import com.sivalabs.devzone.users.domain.models.User;
 import java.time.LocalDateTime;
-import lombok.Getter;
-import lombok.Setter;
 
-@Setter
-@Getter
 public class Link {
     private Long id;
     private String url;
@@ -16,21 +12,59 @@ public class Link {
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) {
-            return true;
-        }
-
-        if (!(o instanceof Link other)) {
-            return false;
-        }
-
-        return id != null && id.equals(other.getId());
+    public Long getId() {
+        return this.id;
     }
 
-    @Override
-    public int hashCode() {
-        return getClass().hashCode();
+    public String getUrl() {
+        return this.url;
+    }
+
+    public String getTitle() {
+        return this.title;
+    }
+
+    public Category getCategory() {
+        return this.category;
+    }
+
+    public User getCreatedBy() {
+        return this.createdBy;
+    }
+
+    public LocalDateTime getCreatedAt() {
+        return this.createdAt;
+    }
+
+    public LocalDateTime getUpdatedAt() {
+        return this.updatedAt;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setCategory(Category category) {
+        this.category = category;
+    }
+
+    public void setCreatedBy(User createdBy) {
+        this.createdBy = createdBy;
+    }
+
+    public void setCreatedAt(LocalDateTime createdAt) {
+        this.createdAt = createdAt;
+    }
+
+    public void setUpdatedAt(LocalDateTime updatedAt) {
+        this.updatedAt = updatedAt;
     }
 }
