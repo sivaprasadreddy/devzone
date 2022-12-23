@@ -2,7 +2,7 @@ package com.sivalabs.devzone.posts.adapter.repositories;
 
 import com.sivalabs.devzone.posts.adapter.mappers.CategoryMapper;
 import com.sivalabs.devzone.posts.domain.models.Category;
-import com.sivalabs.devzone.posts.domain.repositories.CategoryRepository;
+import com.sivalabs.devzone.posts.gateways.data.repository.CategoryRepository;
 import java.util.List;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Component;

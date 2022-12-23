@@ -41,8 +41,7 @@ public class AuthenticatedUserActionsTests extends BaseTest {
         doLogin(configuration.getAdminUserEmail(), configuration.getAdminUserPassword());
         page.onDialog(Dialog::accept);
         page.locator("a:has-text(\"Delete\")").first().click();
-
-        page.waitForURL(rootUrl+"/posts");
+        page.waitForURL(rootUrl+"/posts#");
     }
 
     private void doLogin(String email, String password) {

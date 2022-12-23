@@ -2,8 +2,8 @@ package com.sivalabs.devzone.utils;
 
 import com.sivalabs.devzone.posts.domain.models.Category;
 import com.sivalabs.devzone.posts.domain.models.Post;
-import com.sivalabs.devzone.users.domain.models.RoleEnum;
-import com.sivalabs.devzone.users.domain.models.User;
+import com.sivalabs.devzone.users.domain.RoleEnum;
+import com.sivalabs.devzone.users.domain.User;
 
 public class TestDataFactory {
 

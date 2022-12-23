@@ -1,7 +1,7 @@
 package com.sivalabs.devzone.posts.adapter.entities;
 
 import com.sivalabs.devzone.common.BaseEntity;
-import com.sivalabs.devzone.users.adapter.entities.UserEntity;
+import com.sivalabs.devzone.users.adapter.data.UserEntity;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;

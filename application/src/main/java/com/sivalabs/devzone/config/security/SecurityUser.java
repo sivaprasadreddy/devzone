@@ -1,6 +1,6 @@
 package com.sivalabs.devzone.config.security;
 
-import com.sivalabs.devzone.users.domain.models.User;
+import com.sivalabs.devzone.users.domain.User;
 import java.util.Set;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 

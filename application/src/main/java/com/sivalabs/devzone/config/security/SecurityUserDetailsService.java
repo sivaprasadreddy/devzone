@@ -1,6 +1,6 @@
 package com.sivalabs.devzone.config.security;
 
-import com.sivalabs.devzone.users.domain.services.UserService;
+import com.sivalabs.devzone.users.gateways.data.repository.UserRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -8,16 +8,16 @@ import org.springframework.stereotype.Service;
 
 @Service("userDetailsService")
 public class SecurityUserDetailsService implements UserDetailsService {
-    private final UserService userService;
+    private final UserRepository userRepository;
 
-    public SecurityUserDetailsService(UserService userService) {
-        this.userService = userService;
+    public SecurityUserDetailsService(UserRepository userRepository) {
+        this.userRepository = userRepository;
     }
 
     @Override
     public UserDetails loadUserByUsername(String username) {
-        return userService
-                .getUserByEmail(username)
+        return userRepository
+                .findByEmail(username)
                 .map(SecurityUser::new)
                 .orElseThrow(
                         () ->

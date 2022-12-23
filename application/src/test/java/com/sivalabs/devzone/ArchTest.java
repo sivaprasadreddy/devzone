@@ -1,7 +1,6 @@
 package com.sivalabs.devzone;
 
 import static com.tngtech.archunit.lang.syntax.ArchRuleDefinition.*;
-import static com.tngtech.archunit.library.Architectures.layeredArchitecture;
 
 import com.tngtech.archunit.core.domain.JavaClasses;
 import com.tngtech.archunit.core.importer.ClassFileImporter;
@@ -20,74 +19,35 @@ class ArchTest {
 
     @ParameterizedTest
     @CsvSource({"posts", "users"})
-    void domainShouldNotDependOnWebLayer(String module) {
+    void usecasesShouldNotDependOnAdapterPackage(String module) {
         noClasses()
                 .that()
-                .resideInAnyPackage("com.sivalabs.devzone." + module + ".domain..")
+                .resideInAnyPackage("com.sivalabs.devzone." + module + ".usecases..")
                 .should()
                 .dependOnClassesThat()
-                .resideInAnyPackage("com.sivalabs.devzone." + module + ".web..")
-                .because("Domain layer should not depend on Web or API layer")
+                .resideInAnyPackage("com.sivalabs.devzone." + module + ".adapter..")
+                .because("UseCases should not depend on adapter package")
                 .check(importedClasses);
     }
 
     @ParameterizedTest
     @CsvSource({"posts", "users"})
-    void domainShouldNotDependOnAdapterLayer(String module) {
+    void domainShouldNotDependOnOtherPackages(String module) {
         noClasses()
                 .that()
                 .resideInAnyPackage("com.sivalabs.devzone." + module + ".domain..")
                 .should()
                 .dependOnClassesThat()
-                .resideInAnyPackage("com.sivalabs.devzone." + module + ".adapter..")
-                .because("Domain layer should not depend on adapter layer")
+                .resideInAnyPackage(
+                        "com.sivalabs.devzone." + module + ".usecases..",
+                        "com.sivalabs.devzone." + module + ".adapter..")
+                .because("Domain classes should not depend on usecases or adapter layer")
                 .check(importedClasses);
     }
 
     @Test
     void shouldNotUseFieldInjection() {
         noFields().should().beAnnotatedWith(Autowired.class).check(importedClasses);
-    }
-
-    @Test
-    void shouldFollowLayeredArchitecture() {
-        layeredArchitecture()
-                .consideringAllDependencies()
-                .layer("Config")
-                .definedBy("..config..")
-                .layer("Web")
-                .definedBy("..web..", "..api..")
-                .layer("Service")
-                .definedBy("..services..")
-                .layer("Mapper")
-                .definedBy("..mappers..")
-                .layer("Persistence")
-                .definedBy("..repositories..")
-                .whereLayer("Web")
-                .mayNotBeAccessedByAnyLayer()
-                .whereLayer("Service")
-                .mayOnlyBeAccessedByLayers("Config", "Web", "Mapper")
-                .whereLayer("Persistence")
-                .mayOnlyBeAccessedByLayers("Service")
-                .check(importedClasses);
-    }
-
-    @ParameterizedTest
-    @CsvSource({"posts", "users"})
-    void shouldFollowNamingConvention(String module) {
-        classes()
-                .that()
-                .resideInAPackage("com.sivalabs.devzone." + module + ".domain.repositories")
-                .should()
-                .haveSimpleNameEndingWith("Repository")
-                .check(importedClasses);
-
-        classes()
-                .that()
-                .resideInAPackage("com.sivalabs.devzone." + module + ".domain.services")
-                .should()
-                .haveSimpleNameEndingWith("Service")
-                .check(importedClasses);
     }
 
     @Test

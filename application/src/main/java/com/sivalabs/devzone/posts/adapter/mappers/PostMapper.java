@@ -2,7 +2,7 @@ package com.sivalabs.devzone.posts.adapter.mappers;
 
 import com.sivalabs.devzone.posts.adapter.entities.PostEntity;
 import com.sivalabs.devzone.posts.domain.models.Post;
-import com.sivalabs.devzone.users.adapter.mappers.UserMapper;
+import com.sivalabs.devzone.users.adapter.data.UserMapper;
 import org.springframework.stereotype.Component;
 
 @Component

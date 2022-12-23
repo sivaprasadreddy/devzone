@@ -53,6 +53,7 @@ DevZone is a web application where developers can register and post their favour
 ### Deploying on kubernetes
 
 ```shell
+$ cd deployment
 $ ./kind/kind-cluster.sh create
 $ ./run.sh k8sdeploy
 $ curl http://localhost:30090/actuator

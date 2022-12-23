@@ -1,6 +1,6 @@
 package com.sivalabs.devzone.posts.domain.models;
 
-import com.sivalabs.devzone.users.domain.models.User;
+import com.sivalabs.devzone.users.domain.User;
 import java.time.LocalDateTime;
 
 public record Post(
