@@ -26,27 +26,27 @@ public class LinkDtoMapper {
     }
 
     public LinkDTO toDTO(User loginUser, Link link) {
-        LinkDTO dto = new LinkDTO();
-        dto.setId(link.getId());
-        dto.setUrl(link.getUrl());
-        dto.setTitle(link.getTitle());
-        dto.setCreatedUserId(link.getCreatedBy().getId());
-        dto.setCreatedUserName(link.getCreatedBy().getName());
-        dto.setCreatedAt(link.getCreatedAt());
-        dto.setUpdatedAt(link.getUpdatedAt());
-        if (link.getCategory() != null) {
-            dto.setCategory(link.getCategory().getName());
+        String category = null;
+        if (link.category() != null) {
+            category = link.category().name();
         }
-
-        boolean editable = this.canCurrentUserEditLink(loginUser, dto);
-        dto.setEditable(editable);
-        return dto;
+        boolean editable = this.canCurrentUserEditLink(loginUser, link);
+        return new LinkDTO(
+                link.id(),
+                link.url(),
+                link.title(),
+                category,
+                link.createdBy().id(),
+                link.createdBy().name(),
+                link.createdAt(),
+                link.updatedAt(),
+                editable);
     }
 
-    public boolean canCurrentUserEditLink(User loginUser, LinkDTO linkDTO) {
+    public boolean canCurrentUserEditLink(User loginUser, Link link) {
         return loginUser != null
-                && linkDTO != null
-                && (Objects.equals(linkDTO.getCreatedUserId(), loginUser.getId())
+                && link != null
+                && (Objects.equals(link.createdBy().id(), loginUser.id())
                         || loginUser.isAdminOrModerator());
     }
 }

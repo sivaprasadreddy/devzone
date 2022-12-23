@@ -29,7 +29,7 @@ public class ChangePasswordController {
 
     @GetMapping("/change-password")
     public String changePasswordForm(Model model) {
-        model.addAttribute("changePassword", new ChangePasswordRequest());
+        model.addAttribute("changePassword", new ChangePasswordRequest("", ""));
         return "change-password";
     }
 
@@ -43,7 +43,7 @@ public class ChangePasswordController {
             return "change-password";
         }
         try {
-            userService.changePassword(loginUser.getEmail(), changePasswordRequest);
+            userService.changePassword(loginUser.email(), changePasswordRequest);
             redirectAttributes.addFlashAttribute("msg", "Password changed successfully");
         } catch (DevZoneException e) {
             log.error("ChangePassword err", e);

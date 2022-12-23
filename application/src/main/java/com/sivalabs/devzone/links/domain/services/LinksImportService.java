@@ -58,13 +58,10 @@ public class LinksImportService {
     }
 
     private CreateLinkRequest parseLink(String[] linkTokens) {
-        CreateLinkRequest createLinkRequest = new CreateLinkRequest();
-        createLinkRequest.setUrl(linkTokens[0]);
-        createLinkRequest.setTitle(linkTokens[1]);
-        createLinkRequest.setCreatedUserId(SYSTEM_USER_ID);
+        String category = null;
         if (linkTokens.length > 2 && StringUtils.trimToNull(linkTokens[2]) != null) {
-            createLinkRequest.setCategory(StringUtils.trimToEmpty(linkTokens[2].split("\\|")[0]));
+            category = StringUtils.trimToEmpty(linkTokens[2].split("\\|")[0]);
         }
-        return createLinkRequest;
+        return new CreateLinkRequest(linkTokens[0], linkTokens[1], category, SYSTEM_USER_ID);
     }
 }

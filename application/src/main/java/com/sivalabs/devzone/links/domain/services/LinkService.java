@@ -12,6 +12,7 @@ import com.sivalabs.devzone.links.domain.repositories.CategoryRepository;
 import com.sivalabs.devzone.links.domain.repositories.LinkRepository;
 import com.sivalabs.devzone.links.domain.utils.JsoupUtils;
 import com.sivalabs.devzone.users.domain.models.User;
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
 import org.apache.commons.lang3.StringUtils;
@@ -56,31 +57,39 @@ public class LinkService {
     }
 
     public Link createLink(CreateLinkRequest createLinkRequest) {
-        log.debug("process=create_link, url={}", createLinkRequest.getUrl());
-        Link link = new Link();
-        link.setUrl(createLinkRequest.getUrl());
-        link.setTitle(getTitle(createLinkRequest.getUrl(), createLinkRequest.getTitle()));
-        Category category = this.buildCategory(createLinkRequest.getCategory());
-        link.setCategory(category);
-        User user = new User();
-        user.setId(createLinkRequest.getCreatedUserId());
-        link.setCreatedBy(user);
-        link.setTitle(getTitle(link.getUrl(), link.getTitle()));
+        log.debug("process=create_link, url={}", createLinkRequest.url());
+        Category category = this.buildCategory(createLinkRequest.category());
+        User user = new User(createLinkRequest.createdUserId());
+        Link link =
+                new Link(
+                        null,
+                        createLinkRequest.url(),
+                        getTitle(createLinkRequest.url(), createLinkRequest.title()),
+                        category,
+                        user,
+                        LocalDateTime.now(),
+                        null);
         return linkRepository.save(link);
     }
 
     public Link updateLink(UpdateLinkRequest updateLinkRequest) {
-        log.debug("process=update_link, id={}", updateLinkRequest.getId());
-        Link link = linkRepository.findById(updateLinkRequest.getId()).orElse(null);
+        log.debug("process=update_link, id={}", updateLinkRequest.id());
+        Link link = linkRepository.findById(updateLinkRequest.id()).orElse(null);
         if (link == null) {
             throw new ResourceNotFoundException(
-                    "Link with id: " + updateLinkRequest.getId() + " not found");
+                    "Link with id: " + updateLinkRequest.id() + " not found");
         }
-        link.setUrl(updateLinkRequest.getUrl());
-        link.setTitle(getTitle(updateLinkRequest.getUrl(), updateLinkRequest.getTitle()));
-        Category category = this.buildCategory(updateLinkRequest.getCategory());
-        link.setCategory(category);
-        return linkRepository.save(link);
+        Category category = this.buildCategory(updateLinkRequest.category());
+        Link updatedLink =
+                new Link(
+                        link.id(),
+                        updateLinkRequest.url(),
+                        getTitle(updateLinkRequest.url(), updateLinkRequest.title()),
+                        category,
+                        link.createdBy(),
+                        link.createdAt(),
+                        link.updatedAt());
+        return linkRepository.save(updatedLink);
     }
 
     public void deleteLink(Long id) {
@@ -110,8 +119,6 @@ public class LinkService {
             return null;
         }
         String name = toSlug(categoryName.trim());
-        Category category = new Category();
-        category.setName(name);
-        return category;
+        return new Category(null, name);
     }
 }

@@ -17,25 +17,35 @@ class UserRepositoryImpl implements UserRepository {
         this.userMapper = userMapper;
     }
 
+    @Override
     public Optional<User> findByEmail(String email) {
         return jpaUserRepository.findByEmail(email);
     }
 
+    @Override
     public boolean existsByEmail(String email) {
         return jpaUserRepository.existsByEmail(email);
     }
 
+    @Override
     public Optional<User> findById(Long id) {
         return jpaUserRepository.findByUserId(id);
     }
 
+    @Override
     public User save(User user) {
         UserEntity userEntity = userMapper.toEntity(user);
         UserEntity savedUser = jpaUserRepository.save(userEntity);
         return userMapper.toModel(savedUser);
     }
 
+    @Override
     public void delete(User user) {
-        jpaUserRepository.deleteById(user.getId());
+        jpaUserRepository.deleteById(user.id());
+    }
+
+    @Override
+    public void updatePassword(String email, String password) {
+        jpaUserRepository.updatePassword(email, password);
     }
 }

@@ -20,7 +20,7 @@ public class UserProfileController {
 
     @GetMapping("/profile")
     public String viewProfile(Model model, @CurrentUser User loginUser) {
-        Optional<User> userOptional = userService.getUserById(loginUser.getId());
+        Optional<User> userOptional = userService.getUserById(loginUser.id());
         model.addAttribute("user", userOptional.orElseThrow());
         return "profile";
     }

@@ -36,7 +36,7 @@ public class DeleteLinkController {
     }
 
     private void checkPrivilege(Link link, User loginUser) {
-        if (!(Objects.equals(link.getCreatedBy().getId(), loginUser.getId())
+        if (!(Objects.equals(link.createdBy().id(), loginUser.id())
                 || loginUser.isAdminOrModerator())) {
             throw new UnauthorisedAccessException("Permission Denied");
         }

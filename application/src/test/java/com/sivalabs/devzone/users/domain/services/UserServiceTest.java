@@ -6,9 +6,9 @@ import static org.mockito.Mockito.mock;
 
 import com.sivalabs.devzone.common.exceptions.DevZoneException;
 import com.sivalabs.devzone.users.domain.models.ChangePasswordRequest;
+import com.sivalabs.devzone.users.domain.models.RoleEnum;
 import com.sivalabs.devzone.users.domain.models.User;
 import com.sivalabs.devzone.users.domain.repositories.UserRepository;
-import com.sivalabs.devzone.utils.TestDataFactory;
 import java.util.Optional;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -30,8 +30,8 @@ class UserServiceTest {
     @Test
     void shouldUpdatePasswordIfValid() {
         String email = "siva@gmail.com";
-        User user = TestDataFactory.getMockUser();
-        user.setPassword(passwordEncoder.encode("siva123"));
+        User user =
+                new User(1L, "user", email, passwordEncoder.encode("siva123"), RoleEnum.ROLE_USER);
         given(userRepository.findByEmail(email)).willReturn(Optional.of(user));
         ChangePasswordRequest request = new ChangePasswordRequest("siva123", "siva456");
         userService.changePassword(email, request);
@@ -40,8 +40,13 @@ class UserServiceTest {
     @Test
     void shouldThrowErrorIfCurrentPasswordIsInvalid() {
         String email = "siva@gmail.com";
-        User user = TestDataFactory.getMockUser();
-        user.setPassword(passwordEncoder.encode("incorrect-password"));
+        User user =
+                new User(
+                        1L,
+                        "user",
+                        email,
+                        passwordEncoder.encode("incorrect-password"),
+                        RoleEnum.ROLE_USER);
         given(userRepository.findByEmail(email)).willReturn(Optional.of(user));
         ChangePasswordRequest request = new ChangePasswordRequest("siva123", "siva456");
         assertThrows(DevZoneException.class, () -> userService.changePassword(email, request));

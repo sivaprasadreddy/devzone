@@ -37,16 +37,18 @@ public class UserService {
     }
 
     public User createUser(CreateUserRequest createUserRequest) {
-        if (userRepository.existsByEmail(createUserRequest.getEmail())) {
+        if (userRepository.existsByEmail(createUserRequest.email())) {
             throw new ResourceAlreadyExistsException(
-                    "User with email " + createUserRequest.getEmail() + " already exists");
+                    "User with email " + createUserRequest.email() + " already exists");
         }
-        User user = new User();
-        user.setName(createUserRequest.getName());
-        user.setEmail(createUserRequest.getEmail());
-        String encPwd = passwordEncoder.encode(createUserRequest.getPassword());
-        user.setPassword(encPwd);
-        user.setRole(RoleEnum.ROLE_USER);
+        String encPwd = passwordEncoder.encode(createUserRequest.password());
+        User user =
+                new User(
+                        null,
+                        createUserRequest.name(),
+                        createUserRequest.email(),
+                        encPwd,
+                        RoleEnum.ROLE_USER);
         return userRepository.save(user);
     }
 
@@ -55,10 +57,10 @@ public class UserService {
         if (user == null) {
             throw new ResourceNotFoundException("User with email " + email + " not found");
         }
-        if (!passwordEncoder.matches(changePasswordRequest.getOldPassword(), user.getPassword())) {
+        if (!passwordEncoder.matches(changePasswordRequest.oldPassword(), user.password())) {
             throw new DevZoneException("Current password doesn't match");
         }
-        user.setPassword(passwordEncoder.encode(changePasswordRequest.getNewPassword()));
-        userRepository.save(user);
+        var pwd = passwordEncoder.encode(changePasswordRequest.newPassword());
+        userRepository.updatePassword(email, pwd);
     }
 }

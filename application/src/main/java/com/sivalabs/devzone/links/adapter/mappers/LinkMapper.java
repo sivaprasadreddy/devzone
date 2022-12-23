@@ -17,25 +17,24 @@ public class LinkMapper {
 
     public LinkEntity toEntity(Link link) {
         LinkEntity linkEntity = new LinkEntity();
-        linkEntity.setId(link.getId());
-        linkEntity.setUrl(link.getUrl());
-        linkEntity.setTitle(link.getTitle());
-        linkEntity.setCreatedBy(userMapper.toEntity(link.getCreatedBy()));
-        linkEntity.setCreatedAt(link.getCreatedAt());
-        linkEntity.setUpdatedAt(link.getUpdatedAt());
-        linkEntity.setCategory(categoryMapper.toEntity(link.getCategory()));
+        linkEntity.setId(link.id());
+        linkEntity.setUrl(link.url());
+        linkEntity.setTitle(link.title());
+        linkEntity.setCreatedBy(userMapper.toEntity(link.createdBy()));
+        linkEntity.setCreatedAt(link.createdAt());
+        linkEntity.setUpdatedAt(link.updatedAt());
+        linkEntity.setCategory(categoryMapper.toEntity(link.category()));
         return linkEntity;
     }
 
     public Link toModel(LinkEntity link) {
-        Link dto = new Link();
-        dto.setId(link.getId());
-        dto.setUrl(link.getUrl());
-        dto.setTitle(link.getTitle());
-        dto.setCreatedBy(userMapper.toModel(link.getCreatedBy()));
-        dto.setCreatedAt(link.getCreatedAt());
-        dto.setUpdatedAt(link.getUpdatedAt());
-        dto.setCategory(categoryMapper.toModel(link.getCategory()));
-        return dto;
+        return new Link(
+                link.getId(),
+                link.getUrl(),
+                link.getTitle(),
+                categoryMapper.toModel(link.getCategory()),
+                userMapper.toModel(link.getCreatedBy()),
+                link.getCreatedAt(),
+                link.getUpdatedAt());
     }
 }

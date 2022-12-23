@@ -30,22 +30,24 @@ public class CreateLinkController {
     @GetMapping("/links/new")
     @AnyAuthenticatedUser
     public String newLinkForm(Model model) {
-        model.addAttribute(MODEL_ATTRIBUTE_LINK, new CreateLinkRequest());
+        model.addAttribute(MODEL_ATTRIBUTE_LINK, new CreateLinkRequest("", "", "", null));
         return "add-link";
     }
 
     @PostMapping("/links")
     @AnyAuthenticatedUser
     public String createLink(
-            @Valid @ModelAttribute(MODEL_ATTRIBUTE_LINK) CreateLinkRequest createLinkRequest,
+            @Valid @ModelAttribute(MODEL_ATTRIBUTE_LINK) CreateLinkRequest request,
             BindingResult bindingResult,
             @CurrentUser User loginUser) {
         if (bindingResult.hasErrors()) {
             return "add-link";
         }
-        createLinkRequest.setCreatedUserId(loginUser.getId());
+        var createLinkRequest =
+                new CreateLinkRequest(
+                        request.url(), request.title(), request.category(), loginUser.id());
         Link link = linkService.createLink(createLinkRequest);
-        log.info("Link saved successfully with id: {}", link.getId());
+        log.info("Link saved successfully with id: {}", link.id());
         return "redirect:/links";
     }
 }

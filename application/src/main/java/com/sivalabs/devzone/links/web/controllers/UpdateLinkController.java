@@ -39,13 +39,13 @@ public class UpdateLinkController {
             throw new ResourceNotFoundException("Link not found");
         }
         this.checkPrivilege(link, loginUser);
-        UpdateLinkRequest updateLinkRequest = new UpdateLinkRequest();
-        updateLinkRequest.setId(id);
-        updateLinkRequest.setUrl(link.getUrl());
-        updateLinkRequest.setTitle(link.getTitle());
-        if (link.getCategory() != null) {
-            updateLinkRequest.setCategory(link.getCategory().getName());
+        String category = null;
+        if (link.category() != null) {
+            category = link.category().name();
         }
+        UpdateLinkRequest updateLinkRequest =
+                new UpdateLinkRequest(id, link.url(), link.title(), category);
+
         model.addAttribute(MODEL_ATTRIBUTE_LINK, updateLinkRequest);
         return "edit-link";
     }
@@ -54,7 +54,7 @@ public class UpdateLinkController {
     @AnyAuthenticatedUser
     public String updateBookmark(
             @PathVariable Long id,
-            @Valid @ModelAttribute(MODEL_ATTRIBUTE_LINK) UpdateLinkRequest updateLinkRequest,
+            @Valid @ModelAttribute(MODEL_ATTRIBUTE_LINK) UpdateLinkRequest request,
             BindingResult bindingResult,
             @CurrentUser User loginUser) {
         if (bindingResult.hasErrors()) {
@@ -64,15 +64,16 @@ public class UpdateLinkController {
         if (link == null) {
             throw new ResourceNotFoundException("Link not found");
         }
-        updateLinkRequest.setId(id);
+        var updateLinkRequest =
+                new UpdateLinkRequest(id, request.url(), request.title(), request.category());
         this.checkPrivilege(link, loginUser);
         Link updatedLink = linkService.updateLink(updateLinkRequest);
-        log.info("Link with id: {} updated successfully", updatedLink.getId());
+        log.info("Link with id: {} updated successfully", updatedLink.id());
         return "redirect:/links";
     }
 
     private void checkPrivilege(Link link, User loginUser) {
-        if (!(Objects.equals(link.getCreatedBy().getId(), loginUser.getId())
+        if (!(Objects.equals(link.createdBy().id(), loginUser.id())
                 || loginUser.isAdminOrModerator())) {
             throw new UnauthorisedAccessException("Permission Denied");
         }

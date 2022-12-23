@@ -49,8 +49,8 @@ class LinkRepositoryImpl implements LinkRepository {
     public Link save(Link link) {
         LinkEntity entity = linkMapper.toEntity(link);
         UserEntity createdBy =
-                jpaLinkCreatorRepository.findById(link.getCreatedBy().getId()).orElseThrow();
-        CategoryEntity category = this.getOrCreateCategory(link.getCategory());
+                jpaLinkCreatorRepository.findById(link.createdBy().id()).orElseThrow();
+        CategoryEntity category = this.getOrCreateCategory(link.category());
         entity.setCreatedBy(createdBy);
         entity.setCategory(category);
         var savedLink = jpaLinkRepository.save(entity);
@@ -109,6 +109,6 @@ class LinkRepositoryImpl implements LinkRepository {
 
     private CategoryEntity getOrCreateCategory(Category category) {
         categoryRepository.upsert(category);
-        return jpaCategoryRepository.findByName(category.getName()).orElseThrow();
+        return jpaCategoryRepository.findByName(category.name()).orElseThrow();
     }
 }

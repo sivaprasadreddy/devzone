@@ -9,21 +9,20 @@ public class UserMapper {
 
     public UserEntity toEntity(User user) {
         UserEntity userEntity = new UserEntity();
-        userEntity.setId(user.getId());
-        userEntity.setName(user.getName());
-        userEntity.setEmail(user.getEmail());
-        userEntity.setPassword(user.getPassword());
-        userEntity.setRole(user.getRole());
+        userEntity.setId(user.id());
+        userEntity.setName(user.name());
+        userEntity.setEmail(user.email());
+        userEntity.setPassword(user.password());
+        userEntity.setRole(user.role());
         return userEntity;
     }
 
     public User toModel(UserEntity userEntity) {
-        User user = new User();
-        user.setId(userEntity.getId());
-        user.setName(userEntity.getName());
-        user.setEmail(userEntity.getEmail());
-        user.setPassword(userEntity.getPassword());
-        user.setRole(userEntity.getRole());
-        return user;
+        return new User(
+                userEntity.getId(),
+                userEntity.getName(),
+                userEntity.getEmail(),
+                userEntity.getPassword(),
+                userEntity.getRole());
     }
 }

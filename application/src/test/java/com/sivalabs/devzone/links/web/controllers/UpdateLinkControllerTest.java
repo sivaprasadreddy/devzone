@@ -64,7 +64,7 @@ public class UpdateLinkControllerTest extends AbstractWebMvcTest {
         given(linkService.updateLink(any(UpdateLinkRequest.class))).willReturn(link);
 
         mockMvc.perform(
-                        put("/links/{id}", link.getId())
+                        put("/links/{id}", link.id())
                                 .with(csrf())
                                 .with(user(securityUser))
                                 .param("url", "")
@@ -85,7 +85,7 @@ public class UpdateLinkControllerTest extends AbstractWebMvcTest {
         given(linkService.updateLink(any(UpdateLinkRequest.class))).willReturn(link);
 
         mockMvc.perform(
-                        put("/links/{id}", link.getId())
+                        put("/links/{id}", link.id())
                                 .with(csrf())
                                 .with(user(securityUser))
                                 .param("url", "https://sivalabs.in")
@@ -101,11 +101,11 @@ public class UpdateLinkControllerTest extends AbstractWebMvcTest {
         SecurityUser securityUser = new SecurityUser(user);
         given(securityService.loginUser()).willReturn(user);
         Link link = TestDataFactory.getMockLink(1L, 2L);
-        given(linkService.getLinkById(link.getId())).willReturn(Optional.of(link));
+        given(linkService.getLinkById(link.id())).willReturn(Optional.of(link));
         given(linkService.updateLink(any(UpdateLinkRequest.class))).willReturn(link);
 
         mockMvc.perform(
-                        put("/links/{id}", link.getId())
+                        put("/links/{id}", link.id())
                                 .with(csrf())
                                 .with(user(securityUser))
                                 .param("url", "https://sivalabs.in")
@@ -120,11 +120,11 @@ public class UpdateLinkControllerTest extends AbstractWebMvcTest {
         SecurityUser securityUser = new SecurityUser(user);
         given(securityService.loginUser()).willReturn(user);
         Link link = TestDataFactory.getMockLink(1L, 2L);
-        given(linkService.getLinkById(link.getId())).willReturn(Optional.of(link));
+        given(linkService.getLinkById(link.id())).willReturn(Optional.of(link));
         given(linkService.updateLink(any(UpdateLinkRequest.class))).willReturn(link);
 
         mockMvc.perform(
-                        put("/links/{id}", link.getId())
+                        put("/links/{id}", link.id())
                                 .with(csrf())
                                 .with(user(securityUser))
                                 .param("url", "https://sivalabs.in")

@@ -9,11 +9,11 @@ public class SecurityUser extends org.springframework.security.core.userdetails.
 
     public SecurityUser(User user) {
         super(
-                user.getEmail(),
-                user.getPassword(),
-                Set.of(new SimpleGrantedAuthority(user.getRole().name())));
+                user.email(),
+                user.password(),
+                Set.of(new SimpleGrantedAuthority(user.role().name())));
 
-        this.name = user.getName();
+        this.name = user.name();
     }
 
     public String getName() {

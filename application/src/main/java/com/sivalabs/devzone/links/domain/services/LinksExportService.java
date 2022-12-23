@@ -31,13 +31,8 @@ public class LinksExportService {
 
     private void addLinks(StringBuilder sb, List<Link> allLinks) {
         for (Link linkDTO : allLinks) {
-            String category = linkDTO.getCategory() == null ? "" : linkDTO.getCategory().getName();
-            sb.append(
-                            String.join(
-                                    ",",
-                                    linkDTO.getUrl(),
-                                    "\"" + linkDTO.getTitle() + "\"",
-                                    category))
+            String category = linkDTO.category() == null ? "" : linkDTO.category().name();
+            sb.append(String.join(",", linkDTO.url(), "\"" + linkDTO.title() + "\"", category))
                     .append(System.lineSeparator());
         }
     }

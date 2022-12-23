@@ -44,7 +44,7 @@ public class CreateLinkControllerTest extends AbstractWebMvcTest {
         User user = TestDataFactory.getMockUser();
         SecurityUser securityUser = new SecurityUser(user);
         given(securityService.loginUser()).willReturn(user);
-        Link link = new Link();
+        Link link = new Link(1L, "https://sivalabs.in", "SivaLabs", null, user, null, null);
         given(linkService.createLink(any(CreateLinkRequest.class))).willReturn(link);
         mockMvc.perform(
                         post("/links")
@@ -62,7 +62,7 @@ public class CreateLinkControllerTest extends AbstractWebMvcTest {
         User user = TestDataFactory.getMockUser();
         SecurityUser securityUser = new SecurityUser(user);
         given(securityService.loginUser()).willReturn(user);
-        Link link = new Link();
+        Link link = new Link(1L, "https://sivalabs.in", "SivaLabs", null, user, null, null);
         given(linkService.createLink(any(CreateLinkRequest.class))).willReturn(link);
 
         mockMvc.perform(
