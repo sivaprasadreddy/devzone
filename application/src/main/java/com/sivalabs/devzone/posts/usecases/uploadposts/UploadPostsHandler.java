@@ -6,7 +6,6 @@ import com.opencsv.CSVIterator;
 import com.opencsv.CSVReader;
 import com.opencsv.exceptions.CsvValidationException;
 import com.sivalabs.devzone.posts.domain.models.Category;
-import com.sivalabs.devzone.posts.domain.models.CreatePostRequest;
 import com.sivalabs.devzone.posts.domain.models.Post;
 import com.sivalabs.devzone.posts.domain.utils.JsoupUtils;
 import com.sivalabs.devzone.posts.gateways.data.repository.PostRepository;
@@ -37,7 +36,8 @@ public class UploadPostsHandler {
     }
 
     @Async
-    public void importPostsAsync(List<String> fileNames) throws Exception {
+    public void importPostsAsync(List<String> fileNames)
+            throws IOException, CsvValidationException {
         postRepository.deleteAll();
         for (String fileName : fileNames) {
             log.info("Importing posts from file: {}", fileName);
@@ -57,42 +57,26 @@ public class UploadPostsHandler {
 
             while (iterator.hasNext()) {
                 String[] postTokens = iterator.next();
-                CreatePostRequest createPostRequest = parsePost(postTokens);
-                this.createPost(createPostRequest);
+                Post post = parsePost(postTokens);
+                postRepository.save(post);
                 count++;
             }
         }
         return count;
     }
 
-    private CreatePostRequest parsePost(String[] postTokens) {
-        String category = null;
+    private Post parsePost(String[] postTokens) {
+        String categoryName = null;
         if (postTokens.length > 2 && StringUtils.trimToNull(postTokens[2]) != null) {
-            category = StringUtils.trimToEmpty(postTokens[2].split("\\|")[0]);
+            categoryName = StringUtils.trimToEmpty(postTokens[2].split("\\|")[0]);
         }
-        return new CreatePostRequest(postTokens[0], postTokens[1], category, SYSTEM_USER_ID);
-    }
-
-    private Post createPost(CreatePostRequest createPostRequest) {
-        log.debug("process=create_post, url={}", createPostRequest.url());
-        Category category = Category.buildCategory(createPostRequest.category());
-        User user = new User(createPostRequest.createdUserId());
-        Post post =
-                new Post(
-                        null,
-                        createPostRequest.url(),
-                        getTitle(createPostRequest.url(), createPostRequest.title()),
-                        category,
-                        user,
-                        LocalDateTime.now(),
-                        null);
-        return postRepository.save(post);
-    }
-
-    private String getTitle(String url, String title) {
-        if (StringUtils.isNotEmpty(title)) {
-            return title;
+        Category category = categoryName == null ? null : Category.buildCategory(categoryName);
+        String url = postTokens[0];
+        String title = postTokens[1];
+        if (StringUtils.isEmpty(title)) {
+            title = JsoupUtils.getTitle(url);
         }
-        return JsoupUtils.getTitle(url);
+        User user = new User(SYSTEM_USER_ID);
+        return new Post(null, url, title, category, user, LocalDateTime.now(), null);
     }
 }

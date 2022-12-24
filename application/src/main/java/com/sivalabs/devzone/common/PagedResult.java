@@ -36,27 +36,6 @@ public class PagedResult<T> {
         this.setHasPrevious(page.hasPrevious());
     }
 
-    public PagedResult(
-            Pageable pageable,
-            List<T> data,
-            long totalElements,
-            int pageNumber,
-            int totalPages,
-            boolean isFirst,
-            boolean isLast,
-            boolean hasNext,
-            boolean hasPrevious) {
-        this.pageable = pageable;
-        this.data = data;
-        this.totalElements = totalElements;
-        this.pageNumber = pageNumber;
-        this.totalPages = totalPages;
-        this.isFirst = isFirst;
-        this.isLast = isLast;
-        this.hasNext = hasNext;
-        this.hasPrevious = hasPrevious;
-    }
-
     public Pageable getPageable() {
         return this.pageable;
     }

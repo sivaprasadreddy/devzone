@@ -58,7 +58,7 @@ public class WebSecurityConfig {
 
     @Bean
     public WebSecurityCustomizer ignoringCustomizer() {
-        return (web) -> web.expressionHandler(webSecurityExpressionHandler());
+        return web -> web.expressionHandler(webSecurityExpressionHandler());
     }
 
     RoleHierarchy roleHierarchy() {

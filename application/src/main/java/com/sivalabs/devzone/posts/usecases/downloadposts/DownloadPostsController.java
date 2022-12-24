@@ -20,7 +20,7 @@ public class DownloadPostsController {
     public void downloadBookmarks(HttpServletResponse response) throws IOException {
         String filename = "posts.csv";
         String mimeType = "text/csv";
-        // TODO; fetching all the data at once is OutOfMemoryException waiting to happen
+        // fetching all the data at once is OutOfMemoryException waiting to happen
         byte[] csvData = downloadPostsHandler.getPostsCSVFileAsString();
         response.setContentType(mimeType);
         response.setHeader(

@@ -1,14 +1,10 @@
 package com.sivalabs.devzone.posts.usecases.updatepost;
 
-import static com.sivalabs.devzone.posts.domain.utils.StringUtils.toSlug;
-
 import com.sivalabs.devzone.common.exceptions.ResourceNotFoundException;
 import com.sivalabs.devzone.posts.domain.models.Category;
 import com.sivalabs.devzone.posts.domain.models.Post;
-import com.sivalabs.devzone.posts.domain.utils.JsoupUtils;
 import com.sivalabs.devzone.posts.gateways.data.repository.PostRepository;
 import java.util.Optional;
-import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -38,31 +34,16 @@ public class UpdatePostHandler {
             throw new ResourceNotFoundException(
                     "Post with id: " + updatePostRequest.id() + " not found");
         }
-        Category category = this.buildCategory(updatePostRequest.category());
+        Category category = Category.buildCategory(updatePostRequest.category());
         Post updatedPost =
                 new Post(
                         post.id(),
                         updatePostRequest.url(),
-                        getTitle(updatePostRequest.url(), updatePostRequest.title()),
+                        updatePostRequest.derivedTitle(),
                         category,
                         post.createdBy(),
                         post.createdAt(),
                         post.updatedAt());
         return postRepository.save(updatedPost);
-    }
-
-    private String getTitle(String url, String title) {
-        if (StringUtils.isNotEmpty(title)) {
-            return title;
-        }
-        return JsoupUtils.getTitle(url);
-    }
-
-    private Category buildCategory(String categoryName) {
-        if (StringUtils.isBlank(categoryName)) {
-            return null;
-        }
-        String name = toSlug(categoryName.trim());
-        return new Category(null, name);
     }
 }
