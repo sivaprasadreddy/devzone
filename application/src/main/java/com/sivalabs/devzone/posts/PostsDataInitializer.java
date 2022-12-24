@@ -12,7 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
 @Component
 @Transactional
 public class PostsDataInitializer implements CommandLineRunner {
-    private static final Logger log = LoggerFactory.getLogger(PostsDataInitializer.class);
+    private static final Logger logger = LoggerFactory.getLogger(PostsDataInitializer.class);
 
     private final ApplicationProperties applicationProperties;
     private final UploadPostsHandler uploadPostsHandler;
@@ -29,7 +29,7 @@ public class PostsDataInitializer implements CommandLineRunner {
             List<String> fileNames = applicationProperties.importFilePaths();
             uploadPostsHandler.importPostsAsync(fileNames);
         } else {
-            log.info("Data importing is disabled");
+            logger.info("Data importing is disabled");
         }
     }
 }

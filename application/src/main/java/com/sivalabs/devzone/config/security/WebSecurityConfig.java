@@ -21,7 +21,7 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 @EnableWebSecurity
 @EnableMethodSecurity
 public class WebSecurityConfig {
-    private static final Logger log = LoggerFactory.getLogger(WebSecurityConfig.class);
+    private static final Logger logger = LoggerFactory.getLogger(WebSecurityConfig.class);
 
     @Bean
     public PasswordEncoder passwordEncoder() {
@@ -64,7 +64,7 @@ public class WebSecurityConfig {
     RoleHierarchy roleHierarchy() {
         RoleHierarchyImpl roleHierarchy = new RoleHierarchyImpl();
         roleHierarchy.setHierarchy(RoleEnum.getRoleHierarchy());
-        log.debug("RoleHierarchy: {}", RoleEnum.getRoleHierarchy());
+        logger.debug("RoleHierarchy: {}", RoleEnum.getRoleHierarchy());
         return roleHierarchy;
     }
 

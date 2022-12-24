@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 @Controller
 public class CreatePostController {
-    private static final Logger log = LoggerFactory.getLogger(CreatePostController.class);
+    private static final Logger logger = LoggerFactory.getLogger(CreatePostController.class);
     private static final String MODEL_ATTRIBUTE_POST = "post";
 
     private final CreatePostHandler createPostHandler;
@@ -46,7 +46,7 @@ public class CreatePostController {
                 new CreatePostRequest(
                         request.url(), request.title(), request.category(), loginUser.id());
         Post post = createPostHandler.createPost(createPostRequest);
-        log.info("Post saved successfully with id: {}", post.id());
+        logger.info("Post saved successfully with id: {}", post.id());
         return "redirect:/posts";
     }
 }

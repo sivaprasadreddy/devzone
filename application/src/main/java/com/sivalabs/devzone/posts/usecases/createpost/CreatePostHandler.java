@@ -23,19 +23,12 @@ public class CreatePostHandler {
     }
 
     public Post createPost(CreatePostRequest createPostRequest) {
-        logger.info("process=create_post, url={}", createPostRequest.url());
+        String url = createPostRequest.url();
+        logger.info("process=create_post, url={}", url);
         Category category = Category.buildCategory(createPostRequest.category());
         User user = new User(createPostRequest.createdUserId());
         String title = createPostRequest.derivedTitle();
-        Post post =
-                new Post(
-                        null,
-                        createPostRequest.url(),
-                        title,
-                        category,
-                        user,
-                        LocalDateTime.now(),
-                        null);
+        Post post = new Post(null, url, title, category, user, LocalDateTime.now(), null);
         return postRepository.save(post);
     }
 }

@@ -14,8 +14,8 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 @Controller
 public class RegistrationController {
-    private static final Logger log = LoggerFactory.getLogger(RegistrationController.class);
-    private static final String registrationView = "registration";
+    private static final Logger logger = LoggerFactory.getLogger(RegistrationController.class);
+    private static final String REGISTRATION_VIEW = "registration";
 
     private final CreateUserHandler createUserHandler;
 
@@ -26,7 +26,7 @@ public class RegistrationController {
     @GetMapping("/registration")
     public String registrationForm(Model model) {
         model.addAttribute("user", new CreateUserRequest("", "", ""));
-        return registrationView;
+        return REGISTRATION_VIEW;
     }
 
     @PostMapping("/registration")
@@ -35,15 +35,15 @@ public class RegistrationController {
             BindingResult bindingResult,
             RedirectAttributes redirectAttributes) {
         if (bindingResult.hasErrors()) {
-            return registrationView;
+            return REGISTRATION_VIEW;
         }
         try {
             createUserHandler.createUser(createUserRequest);
             redirectAttributes.addFlashAttribute("msg", "Registration is successful");
         } catch (ResourceAlreadyExistsException e) {
-            log.error("Registration err", e);
+            logger.error("Registration err", e);
             bindingResult.rejectValue("email", "email.exists", e.getMessage());
-            return registrationView;
+            return REGISTRATION_VIEW;
         }
         return "redirect:/login";
     }

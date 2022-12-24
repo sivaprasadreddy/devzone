@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class LoggingAspect {
 
-    private static final Logger log = LoggerFactory.getLogger(LoggingAspect.class);
+    private static final Logger logger = LoggerFactory.getLogger(LoggingAspect.class);
 
     @Pointcut(
             "within(@org.springframework.stereotype.Repository *)"
@@ -34,7 +34,7 @@ public class LoggingAspect {
 
     @AfterThrowing(pointcut = "applicationPackagePointcut()", throwing = "e")
     public void logAfterThrowing(JoinPoint joinPoint, Throwable e) {
-        log.error(
+        logger.error(
                 "Exception in {}.{}() with cause = '{}'",
                 joinPoint.getSignature().getDeclaringTypeName(),
                 joinPoint.getSignature().getName(),
@@ -44,8 +44,8 @@ public class LoggingAspect {
 
     @Around("applicationPackagePointcut()")
     public Object logAround(ProceedingJoinPoint joinPoint) throws Throwable {
-        if (log.isTraceEnabled()) {
-            log.trace(
+        if (logger.isTraceEnabled()) {
+            logger.trace(
                     "Enter: {}.{}()",
                     joinPoint.getSignature().getDeclaringTypeName(),
                     joinPoint.getSignature().getName());
@@ -53,8 +53,8 @@ public class LoggingAspect {
         long start = System.currentTimeMillis();
         Object result = joinPoint.proceed();
         long end = System.currentTimeMillis();
-        if (log.isTraceEnabled()) {
-            log.trace(
+        if (logger.isTraceEnabled()) {
+            logger.trace(
                     "Exit: {}.{}(). Time taken: {} millis",
                     joinPoint.getSignature().getDeclaringTypeName(),
                     joinPoint.getSignature().getName(),

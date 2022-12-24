@@ -7,14 +7,14 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class JsoupUtils {
-    private static final Logger log = LoggerFactory.getLogger(JsoupUtils.class);
+    private static final Logger logger = LoggerFactory.getLogger(JsoupUtils.class);
 
     public static String getTitle(String url) {
         try {
             Document doc = Jsoup.connect(url).get();
             return doc.title();
         } catch (IOException e) {
-            log.error(e.getMessage(), e);
+            logger.error(e.getMessage(), e);
         }
         return url;
     }

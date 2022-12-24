@@ -26,8 +26,8 @@ import org.springframework.transaction.annotation.Transactional;
 @Service
 @Transactional
 public class UploadPostsHandler {
+    private static final Logger logger = LoggerFactory.getLogger(UploadPostsHandler.class);
     public static final Long SYSTEM_USER_ID = 1L;
-    private static final Logger log = LoggerFactory.getLogger(UploadPostsHandler.class);
 
     private final PostRepository postRepository;
 
@@ -40,10 +40,10 @@ public class UploadPostsHandler {
             throws IOException, CsvValidationException {
         postRepository.deleteAll();
         for (String fileName : fileNames) {
-            log.info("Importing posts from file: {}", fileName);
+            logger.info("Importing posts from file: {}", fileName);
             ClassPathResource file = new ClassPathResource(fileName, this.getClass());
             long count = this.importPosts(file.getInputStream());
-            log.info("Imported {} posts from file {}", count, fileName);
+            logger.info("Imported {} posts from file {}", count, fileName);
         }
     }
 

@@ -18,7 +18,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 @Controller
 @AnyAuthenticatedUser
 public class ChangePasswordController {
-    private static final Logger log = LoggerFactory.getLogger(ChangePasswordController.class);
+    private static final Logger logger = LoggerFactory.getLogger(ChangePasswordController.class);
     private final ChangePasswordHandler changePasswordHandler;
 
     public ChangePasswordController(ChangePasswordHandler changePasswordHandler) {
@@ -44,7 +44,7 @@ public class ChangePasswordController {
             changePasswordHandler.changePassword(loginUser.email(), changePasswordRequest);
             redirectAttributes.addFlashAttribute("msg", "Password changed successfully");
         } catch (DevZoneException e) {
-            log.error("ChangePassword err", e);
+            logger.error("ChangePassword err", e);
             redirectAttributes.addFlashAttribute("msg", e.getMessage());
         }
         return "redirect:/change-password";

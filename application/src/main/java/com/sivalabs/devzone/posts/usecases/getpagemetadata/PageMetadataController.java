@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class PageMetadataController {
 
-    private static final Logger log = LoggerFactory.getLogger(PageMetadataController.class);
+    private static final Logger logger = LoggerFactory.getLogger(PageMetadataController.class);
 
     @GetMapping("/api/page-metadata")
     public Map<String, String> getPageMetadata(@RequestParam String url) {
@@ -23,7 +23,7 @@ public class PageMetadataController {
             Document doc = Jsoup.connect(url).get();
             metadata.put("title", doc.title());
         } catch (IOException e) {
-            log.error(e.getMessage(), e);
+            logger.error(e.getMessage(), e);
         }
         return metadata;
     }
