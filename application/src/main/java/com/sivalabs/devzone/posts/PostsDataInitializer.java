@@ -1,7 +1,7 @@
 package com.sivalabs.devzone.posts;
 
 import com.sivalabs.devzone.ApplicationProperties;
-import com.sivalabs.devzone.posts.usecases.uploadposts.UploadPostsHandler;
+import com.sivalabs.devzone.posts.application.usecases.uploadposts.UploadPostsHandler;
 import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

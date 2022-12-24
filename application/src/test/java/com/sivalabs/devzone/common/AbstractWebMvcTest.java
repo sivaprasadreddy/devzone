@@ -3,8 +3,8 @@ package com.sivalabs.devzone.common;
 import static com.sivalabs.devzone.utils.TestConstants.PROFILE_TEST;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.sivalabs.devzone.config.security.SecurityService;
-import com.sivalabs.devzone.config.security.WebSecurityConfig;
+import com.sivalabs.devzone.config.WebSecurityConfig;
+import com.sivalabs.devzone.security.SecurityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.context.annotation.Import;

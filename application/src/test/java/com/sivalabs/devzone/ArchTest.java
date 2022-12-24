@@ -19,19 +19,6 @@ class ArchTest {
 
     @ParameterizedTest
     @CsvSource({"posts", "users"})
-    void usecasesShouldNotDependOnAdapterPackage(String module) {
-        noClasses()
-                .that()
-                .resideInAnyPackage("com.sivalabs.devzone." + module + ".usecases..")
-                .should()
-                .dependOnClassesThat()
-                .resideInAnyPackage("com.sivalabs.devzone." + module + ".adapter..")
-                .because("UseCases should not depend on adapter package")
-                .check(importedClasses);
-    }
-
-    @ParameterizedTest
-    @CsvSource({"posts", "users"})
     void domainShouldNotDependOnOtherPackages(String module) {
         noClasses()
                 .that()
@@ -39,9 +26,23 @@ class ArchTest {
                 .should()
                 .dependOnClassesThat()
                 .resideInAnyPackage(
-                        "com.sivalabs.devzone." + module + ".usecases..",
-                        "com.sivalabs.devzone." + module + ".adapter..")
+                        "com.sivalabs.devzone." + module + ".application..",
+                        "com.sivalabs.devzone." + module + ".adapter..",
+                        "com.sivalabs.devzone." + module + ".web..")
                 .because("Domain classes should not depend on usecases or adapter layer")
+                .check(importedClasses);
+    }
+
+    @ParameterizedTest
+    @CsvSource({"posts", "users"})
+    void usecasesShouldNotDependOnAdapterPackage(String module) {
+        noClasses()
+                .that()
+                .resideInAnyPackage("com.sivalabs.devzone." + module + ".application.usecases..")
+                .should()
+                .dependOnClassesThat()
+                .resideInAnyPackage("com.sivalabs.devzone." + module + ".application.adapter..")
+                .because("UseCases should not depend on adapter package")
                 .check(importedClasses);
     }
 

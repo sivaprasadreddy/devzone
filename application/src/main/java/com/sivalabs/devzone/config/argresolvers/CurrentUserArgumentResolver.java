@@ -1,7 +1,7 @@
 package com.sivalabs.devzone.config.argresolvers;
 
 import com.sivalabs.devzone.config.annotations.CurrentUser;
-import com.sivalabs.devzone.config.security.SecurityService;
+import com.sivalabs.devzone.security.SecurityService;
 import java.lang.annotation.Annotation;
 import org.springframework.core.MethodParameter;
 import org.springframework.core.annotation.AnnotationUtils;
