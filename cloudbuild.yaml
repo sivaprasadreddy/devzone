@@ -1,0 +1,8 @@
+steps:
+  - name: 'eclipse-temurin:17.0.5_8-jdk-focal'
+    args:
+      - '-c'
+      - |
+        ./gradlew build
+    dir: '${_APP_NAME}'
+    entrypoint: bash
