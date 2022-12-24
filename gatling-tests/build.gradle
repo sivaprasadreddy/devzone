@@ -2,13 +2,14 @@ plugins {
     id 'java'
     id 'io.gatling.gradle' version '3.8.4'
 }
+sourceCompatibility = '17'
 
-java {
+/*java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(17)
         vendor = JvmVendorSpec.ADOPTIUM
     }
-}
+}*/
 
 repositories {
     mavenLocal()

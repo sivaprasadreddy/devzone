@@ -4,13 +4,14 @@ plugins {
 
 group = "com.sivalabs"
 version = "0.0.1-SNAPSHOT"
+sourceCompatibility = '17'
 
-java {
+/*java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(17)
         vendor = JvmVendorSpec.ADOPTIUM
     }
-}
+}*/
 
 repositories {
     mavenLocal()

@@ -11,14 +11,15 @@ plugins {
 
 group = "com.sivalabs"
 version = "0.0.1"
+sourceCompatibility = '17'
 archivesBaseName = "devzone"
 
-java {
+/*java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(17)
         vendor = JvmVendorSpec.ADOPTIUM
     }
-}
+}*/
 
 def dockerImageName = "sivaprasadreddy/devzone"
 def dockerImageTags = ["latest", "${project.version}"]
