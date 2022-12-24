@@ -1,0 +1,39 @@
+# DinD service is required for Testcontainers
+services:
+  - name: docker:dind
+    # explicitly disable tls to avoid docker startup interruption
+    command: ["--tls=false"]
+
+variables:
+  # Instruct Testcontainers to use the daemon of DinD, use port 2735 for non-tls connections.
+  DOCKER_HOST: "tcp://docker:2375"
+  # Instruct Docker not to start over TLS.
+  DOCKER_TLS_CERTDIR: ""
+  # Improve performance with overlayfs.
+  DOCKER_DRIVER: overlay2
+  # `showDateTime` will show the passed time in milliseconds. You need to specify `--batch-mode` to make this work.
+
+
+image: eclipse-temurin:17.0.5_8-jdk-focal
+
+cache:
+  key: gradle-cache-key
+  paths:
+    - .gradle/wrapper
+    - .gradle/caches
+  policy: pull
+
+test:
+  stage: test
+  script:
+    - './gradlew build'
+  only:
+    changes:
+      - "*.gradle"
+      - gradle.properties
+  cache:
+    key: gradle-cache-key
+    paths:
+      - .gradle/wrapper
+      - .gradle/caches
+    policy: push
