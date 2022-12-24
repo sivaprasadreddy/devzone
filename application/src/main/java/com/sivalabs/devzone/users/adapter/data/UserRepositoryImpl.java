@@ -4,8 +4,10 @@ import com.sivalabs.devzone.users.domain.User;
 import com.sivalabs.devzone.users.gateways.data.repository.UserRepository;
 import java.util.Optional;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 
 @Repository
+@Transactional
 class UserRepositoryImpl implements UserRepository {
     private final JpaUserRepository jpaUserRepository;
     private final UserMapper userMapper;

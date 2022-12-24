@@ -12,7 +12,6 @@ DevZone is a web application where developers can register and post their favour
   * by searching for a keyword in title
 
 [![GitHub Build](https://github.com/sivaprasadreddy/devzone/actions/workflows/gradle.yml/badge.svg)](https://github.com/sivaprasadreddy/devzone/actions/workflows/gradle.yml)
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/sivaprasadreddy/devzone/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/sivaprasadreddy/devzone/tree/main)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=sivaprasadreddy_devzone&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=sivaprasadreddy_devzone)
 
 ## Tech Stack

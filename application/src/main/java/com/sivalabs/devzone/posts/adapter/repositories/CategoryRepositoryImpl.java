@@ -5,9 +5,11 @@ import com.sivalabs.devzone.posts.domain.models.Category;
 import com.sivalabs.devzone.posts.gateways.data.repository.CategoryRepository;
 import java.util.List;
 import org.springframework.data.domain.Sort;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 
-@Component
+@Repository
+@Transactional
 class CategoryRepositoryImpl implements CategoryRepository {
     private final JpaCategoryRepository jpaCategoryRepository;
     private final CategoryMapper categoryMapper;
