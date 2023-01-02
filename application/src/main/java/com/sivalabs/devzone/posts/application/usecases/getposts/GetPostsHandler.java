@@ -8,8 +8,6 @@ import com.sivalabs.devzone.posts.domain.model.Post;
 import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageImpl;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -51,9 +49,15 @@ public class GetPostsHandler {
 
     private PagedResult<PostDTO> convert(PagedResult<Post> postsPage) {
         List<PostDTO> postDTOs = postDtoMapper.toDTOs(postsPage.getData());
-        Page<PostDTO> postDTOsPage =
-                new PageImpl<>(postDTOs, postsPage.getPageable(), postsPage.getTotalElements());
-        return new PagedResult<>(postDTOsPage);
+        return new PagedResult<>(
+                postDTOs,
+                postsPage.getTotalElements(),
+                postsPage.getPageNumber(),
+                postsPage.getTotalPages(),
+                postsPage.isFirst(),
+                postsPage.isLast(),
+                postsPage.isHasNext(),
+                postsPage.isHasPrevious());
     }
 
     public List<Category> getAllCategories() {

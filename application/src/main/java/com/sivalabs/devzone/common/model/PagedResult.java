@@ -3,10 +3,8 @@ package com.sivalabs.devzone.common.model;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.List;
 import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
 
 public class PagedResult<T> {
-    private Pageable pageable;
     private List<T> data;
     private long totalElements;
     private int pageNumber;
@@ -25,7 +23,6 @@ public class PagedResult<T> {
     private boolean hasPrevious;
 
     public PagedResult(Page<T> page) {
-        this.setPageable(page.getPageable());
         this.setData(page.getContent());
         this.setTotalElements(page.getTotalElements());
         this.setPageNumber(page.getNumber() + 1); // 1 - based page numbering
@@ -36,8 +33,23 @@ public class PagedResult<T> {
         this.setHasPrevious(page.hasPrevious());
     }
 
-    public Pageable getPageable() {
-        return this.pageable;
+    public PagedResult(
+            List<T> data,
+            long totalElements,
+            int pageNumber,
+            int totalPages,
+            boolean isFirst,
+            boolean isLast,
+            boolean hasNext,
+            boolean hasPrevious) {
+        this.data = data;
+        this.totalElements = totalElements;
+        this.pageNumber = pageNumber;
+        this.totalPages = totalPages;
+        this.isFirst = isFirst;
+        this.isLast = isLast;
+        this.hasNext = hasNext;
+        this.hasPrevious = hasPrevious;
     }
 
     public List<T> getData() {
@@ -70,10 +82,6 @@ public class PagedResult<T> {
 
     public boolean isHasPrevious() {
         return this.hasPrevious;
-    }
-
-    public void setPageable(Pageable pageable) {
-        this.pageable = pageable;
     }
 
     public void setData(List<T> data) {
