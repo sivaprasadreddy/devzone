@@ -49,7 +49,7 @@ ext {
     set("testcontainers_version", "1.17.6")
     set("webjars_locator_version", "0.46")
     set("bootstrap_version", "5.2.3")
-    set("jquery_version", "3.6.1")
+    set("jquery_version", "3.6.3")
     set("font_awesome_version", "6.2.0")
     set("commons_lang_version", "3.12.0")
     set("commons_io_version", "2.11.0")
