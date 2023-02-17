@@ -39,6 +39,6 @@ out/
 
 ### Others ###
 *.log
-/logs
+/application/logs
 nohup.out
 *.pid
