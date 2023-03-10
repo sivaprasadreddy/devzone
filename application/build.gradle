@@ -58,7 +58,7 @@ ext {
     set("jsoup_version", "1.15.4")
     set("datasource_proxy_version", "1.8.1")
     set("archunit_junit5_version", "1.0.1")
-    set("rssreader_version", "3.4.1")
+    set("rssreader_version", "3.4.4")
 }
 
 dependencies {
