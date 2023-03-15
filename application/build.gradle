@@ -53,12 +53,12 @@ ext {
     set("font_awesome_version", "6.3.0")
     set("commons_lang_version", "3.12.0")
     set("commons_io_version", "2.11.0")
-    set("springdoc_openapi", "1.6.14")
+    set("springdoc_openapi", "1.6.15")
     set("opencsv_version", "5.7.1")
     set("jsoup_version", "1.15.4")
     set("datasource_proxy_version", "1.8.1")
     set("archunit_junit5_version", "1.0.1")
-    set("rssreader_version", "3.4.1")
+    set("rssreader_version", "3.4.4")
 }
 
 dependencies {
