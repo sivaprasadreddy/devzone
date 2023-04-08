@@ -34,14 +34,10 @@ public abstract class BaseTest {
         System.out.println("rootUrl=================>"+rootUrl);
     }
 
-    @AfterAll
-    static void closeBrowser() {
-        playwright.close();
-    }
-
     @BeforeEach
     void createContextAndPage() {
-        context = browser.newContext();
+        context = browser.newContext(new Browser.NewContextOptions()
+            .setViewportSize(1920, 850));
         page = context.newPage();
     }
 
@@ -50,4 +46,8 @@ public abstract class BaseTest {
         context.close();
     }
 
+    @AfterAll
+    static void closeBrowser() {
+        playwright.close();
+    }
 }

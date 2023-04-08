@@ -4,25 +4,11 @@ plugins {
 }
 sourceCompatibility = '17'
 
-/*java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(17)
-        vendor = JvmVendorSpec.ADOPTIUM
-    }
-}*/
-
 repositories {
     mavenLocal()
     mavenCentral()
 }
-gatling {
-    // WARNING: options below only work when logback config file isn't provided
-    logLevel = 'WARN' // logback root level
-    logHttp = 'NONE' // set to 'ALL' for all HTTP traffic in TRACE, 'FAILURES' for failed HTTP traffic in DEBUG
-}
 
 dependencies {
     testImplementation 'io.gatling:gatling-http-java:3.8.4'
-    testImplementation "org.apache.commons:commons-lang3:3.12.0"
-    testImplementation "com.typesafe:config:1.4.2"
 }
