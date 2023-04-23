@@ -1,6 +1,7 @@
 package com.sivalabs.devzone.security;
 
 import com.sivalabs.devzone.users.application.data.repository.UserRepository;
+
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

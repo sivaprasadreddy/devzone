@@ -3,10 +3,12 @@ package com.sivalabs.devzone.posts.adapter.data.repository;
 import com.sivalabs.devzone.posts.adapter.data.mapper.CategoryMapper;
 import com.sivalabs.devzone.posts.application.data.repository.CategoryRepository;
 import com.sivalabs.devzone.posts.domain.model.Category;
-import java.util.List;
+
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
+
+import java.util.List;
 
 @Repository
 @Transactional

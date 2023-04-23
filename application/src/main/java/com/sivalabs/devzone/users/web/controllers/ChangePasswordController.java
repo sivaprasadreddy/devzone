@@ -6,7 +6,9 @@ import com.sivalabs.devzone.config.annotations.CurrentUser;
 import com.sivalabs.devzone.users.application.usecases.changepassword.ChangePasswordHandler;
 import com.sivalabs.devzone.users.application.usecases.changepassword.ChangePasswordRequest;
 import com.sivalabs.devzone.users.domain.model.User;
+
 import jakarta.validation.Valid;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;

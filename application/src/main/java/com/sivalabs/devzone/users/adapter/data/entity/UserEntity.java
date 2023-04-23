@@ -1,6 +1,7 @@
 package com.sivalabs.devzone.users.adapter.data.entity;
 
 import com.sivalabs.devzone.users.domain.model.RoleEnum;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -14,6 +15,7 @@ import jakarta.persistence.Table;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Size;
+
 import java.time.LocalDateTime;
 
 @Entity

@@ -3,10 +3,12 @@ package com.sivalabs.devzone.posts.application.usecases.getposts;
 import com.sivalabs.devzone.posts.domain.model.Post;
 import com.sivalabs.devzone.security.SecurityService;
 import com.sivalabs.devzone.users.domain.model.User;
+
+import org.springframework.stereotype.Component;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
-import org.springframework.stereotype.Component;
 
 @Component
 public class PostDtoMapper {

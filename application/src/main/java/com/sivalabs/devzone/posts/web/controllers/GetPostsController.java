@@ -4,6 +4,7 @@ import com.sivalabs.devzone.common.model.PagedResult;
 import com.sivalabs.devzone.config.logging.Loggable;
 import com.sivalabs.devzone.posts.application.usecases.getposts.GetPostsHandler;
 import com.sivalabs.devzone.posts.application.usecases.getposts.PostDTO;
+
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

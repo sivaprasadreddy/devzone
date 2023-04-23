@@ -4,9 +4,11 @@ import com.sivalabs.devzone.users.adapter.data.entity.UserEntity;
 import com.sivalabs.devzone.users.adapter.data.mapper.UserMapper;
 import com.sivalabs.devzone.users.application.data.repository.UserRepository;
 import com.sivalabs.devzone.users.domain.model.User;
-import java.util.Optional;
+
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
+
+import java.util.Optional;
 
 @Repository
 @Transactional

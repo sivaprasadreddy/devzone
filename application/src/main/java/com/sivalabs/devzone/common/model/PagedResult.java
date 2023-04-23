@@ -1,8 +1,10 @@
 package com.sivalabs.devzone.common.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import java.util.List;
+
 import org.springframework.data.domain.Page;
+
+import java.util.List;
 
 public class PagedResult<T> {
     private List<T> data;

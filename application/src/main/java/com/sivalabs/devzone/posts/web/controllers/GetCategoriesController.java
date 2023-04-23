@@ -2,10 +2,12 @@ package com.sivalabs.devzone.posts.web.controllers;
 
 import com.sivalabs.devzone.posts.application.data.repository.CategoryRepository;
 import com.sivalabs.devzone.posts.domain.model.Category;
-import java.util.List;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/api/categories")

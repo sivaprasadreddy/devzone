@@ -4,6 +4,7 @@ import com.sivalabs.devzone.common.exceptions.ResourceAlreadyExistsException;
 import com.sivalabs.devzone.users.application.data.repository.UserRepository;
 import com.sivalabs.devzone.users.domain.model.RoleEnum;
 import com.sivalabs.devzone.users.domain.model.User;
+
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

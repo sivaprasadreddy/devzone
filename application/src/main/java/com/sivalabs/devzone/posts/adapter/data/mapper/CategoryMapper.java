@@ -2,8 +2,10 @@ package com.sivalabs.devzone.posts.adapter.data.mapper;
 
 import com.sivalabs.devzone.posts.adapter.data.entity.CategoryEntity;
 import com.sivalabs.devzone.posts.domain.model.Category;
-import java.util.Set;
+
 import org.springframework.stereotype.Component;
+
+import java.util.Set;
 
 @Component
 public class CategoryMapper {

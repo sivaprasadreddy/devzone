@@ -12,6 +12,7 @@ import com.sivalabs.devzone.common.AbstractWebMvcTest;
 import com.sivalabs.devzone.common.model.PagedResult;
 import com.sivalabs.devzone.posts.application.usecases.getposts.GetPostsHandler;
 import com.sivalabs.devzone.posts.application.usecases.getposts.PostDTO;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;

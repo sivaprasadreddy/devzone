@@ -2,11 +2,13 @@ package com.sivalabs.devzone.users.adapter.data.repository;
 
 import com.sivalabs.devzone.users.adapter.data.entity.UserEntity;
 import com.sivalabs.devzone.users.domain.model.User;
-import java.util.Optional;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
+
+import java.util.Optional;
 
 @Repository
 interface JpaUserRepository extends JpaRepository<UserEntity, Long> {

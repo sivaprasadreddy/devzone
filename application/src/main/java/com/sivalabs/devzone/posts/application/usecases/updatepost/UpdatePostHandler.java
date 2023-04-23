@@ -4,11 +4,13 @@ import com.sivalabs.devzone.common.exceptions.ResourceNotFoundException;
 import com.sivalabs.devzone.posts.application.data.repository.PostRepository;
 import com.sivalabs.devzone.posts.domain.model.Category;
 import com.sivalabs.devzone.posts.domain.model.Post;
-import java.util.Optional;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import java.util.Optional;
 
 @Service
 @Transactional

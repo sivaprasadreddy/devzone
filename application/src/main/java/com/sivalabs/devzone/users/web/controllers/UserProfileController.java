@@ -4,10 +4,12 @@ import com.sivalabs.devzone.config.annotations.AnyAuthenticatedUser;
 import com.sivalabs.devzone.config.annotations.CurrentUser;
 import com.sivalabs.devzone.users.application.usecases.viewprofile.ViewUserProfileHandler;
 import com.sivalabs.devzone.users.domain.model.User;
-import java.util.Optional;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+
+import java.util.Optional;
 
 @Controller
 @AnyAuthenticatedUser

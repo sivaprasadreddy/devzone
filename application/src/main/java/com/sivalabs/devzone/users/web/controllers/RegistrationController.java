@@ -3,7 +3,9 @@ package com.sivalabs.devzone.users.web.controllers;
 import com.sivalabs.devzone.common.exceptions.ResourceAlreadyExistsException;
 import com.sivalabs.devzone.users.application.usecases.registration.CreateUserHandler;
 import com.sivalabs.devzone.users.application.usecases.registration.CreateUserRequest;
+
 import jakarta.validation.Valid;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;

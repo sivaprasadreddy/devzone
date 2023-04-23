@@ -1,6 +1,7 @@
 package com.sivalabs.devzone.config;
 
 import com.sivalabs.devzone.users.domain.model.RoleEnum;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Bean;

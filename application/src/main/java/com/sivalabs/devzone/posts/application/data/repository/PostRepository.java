@@ -2,6 +2,7 @@ package com.sivalabs.devzone.posts.application.data.repository;
 
 import com.sivalabs.devzone.common.model.PagedResult;
 import com.sivalabs.devzone.posts.domain.model.Post;
+
 import java.util.Optional;
 
 public interface PostRepository {

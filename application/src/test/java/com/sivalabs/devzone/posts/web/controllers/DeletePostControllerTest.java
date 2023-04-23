@@ -14,10 +14,12 @@ import com.sivalabs.devzone.security.SecurityUser;
 import com.sivalabs.devzone.users.domain.model.RoleEnum;
 import com.sivalabs.devzone.users.domain.model.User;
 import com.sivalabs.devzone.utils.TestDataFactory;
-import java.util.Optional;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
+
+import java.util.Optional;
 
 @WebMvcTest(controllers = DeletePostController.class)
 public class DeletePostControllerTest extends AbstractWebMvcTest {
