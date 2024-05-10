@@ -6,7 +6,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 import com.sivalabs.devzone.common.AbstractWebMvcTest;
 
-import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 
@@ -18,8 +17,9 @@ class PageMetadataControllerTest extends AbstractWebMvcTest {
         mockMvc.perform(get("/api/page-metadata?url=https://sivalabs.in"))
                 .andExpect(status().isOk())
                 .andExpect(
-                        jsonPath(
-                                "$.title",
-                                Matchers.equalTo("SivaLabs - My Experiments with Technology")));
+                        jsonPath("$.title")
+                                .value(
+                                        "Java, Spring Boot, Microservices, Cloud and DevOps"
+                                                + " Tutorials"));
     }
 }
