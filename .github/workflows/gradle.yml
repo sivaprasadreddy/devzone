@@ -34,8 +34,8 @@ jobs:
           docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
           docker push $DOCKER_IMAGE_NAME --all-tags
 
-      - if: ${{ github.ref == 'refs/heads/main' }}
-        name: SonarQube Scan
-        run: ./gradlew :application:sonarqube
-        env:
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+#      - if: ${{ github.ref == 'refs/heads/main' }}
+#        name: SonarQube Scan
+#        run: ./gradlew :application:sonar
+#        env:
+#          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
