@@ -30,28 +30,32 @@ public class WebSecurityConfig {
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
-        http.authorizeHttpRequests()
-                .requestMatchers(
-                        "/webjars/**",
-                        "/resources/**",
-                        "/static/**",
-                        "/js/**",
-                        "/css/**",
-                        "/images/**",
-                        "/favicon.ico",
-                        "/h2-console/**")
-                .permitAll()
-                .requestMatchers("/", "/login", "/registration", "/posts", "/api/categories")
-                .permitAll()
-                .anyRequest()
-                .permitAll();
+        http.authorizeHttpRequests(
+                c ->
+                        c.requestMatchers(
+                                        "/webjars/**",
+                                        "/resources/**",
+                                        "/static/**",
+                                        "/js/**",
+                                        "/css/**",
+                                        "/images/**",
+                                        "/favicon.ico",
+                                        "/h2-console/**")
+                                .permitAll()
+                                .requestMatchers(
+                                        "/", "/login", "/registration", "/posts", "/api/categories")
+                                .permitAll()
+                                .anyRequest()
+                                .permitAll());
 
-        http.formLogin()
-                .loginPage("/login")
-                .defaultSuccessUrl("/")
-                .failureUrl("/login?error")
-                .permitAll();
-        http.logout().logoutRequestMatcher(new AntPathRequestMatcher("/logout")).permitAll();
+        http.formLogin(
+                c ->
+                        c.loginPage("/login")
+                                .defaultSuccessUrl("/")
+                                .failureUrl("/login?error")
+                                .permitAll());
+
+        http.logout(c -> c.logoutRequestMatcher(new AntPathRequestMatcher("/logout")).permitAll());
 
         return http.build();
     }

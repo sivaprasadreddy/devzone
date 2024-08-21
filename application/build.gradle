@@ -1,8 +1,8 @@
 plugins {
     id "java"
     id "jacoco"
-    id "org.springframework.boot" version "3.0.6"
-    id "io.spring.dependency-management" version "1.1.0"
+    id "org.springframework.boot" version "3.3.2"
+    id "io.spring.dependency-management" version "1.1.6"
     id "com.gorylenko.gradle-git-properties" version "2.4.1"
     id "com.google.cloud.tools.jib" version "3.3.1"
     id "com.diffplug.spotless" version "6.25.0"
@@ -45,8 +45,6 @@ repositories {
 }
 
 ext {
-    set("spring_cloud_version", "2022.0.2")
-    set("testcontainers_version", "1.18.0")
     set("webjars_locator_version", "0.46")
     set("bootstrap_version", "5.2.3")
     set("jquery_version", "3.6.4")
@@ -78,6 +76,7 @@ dependencies {
     implementation "org.apache.commons:commons-lang3:${commons_lang_version}"
     implementation "commons-io:commons-io:${commons_io_version}"
     implementation "org.flywaydb:flyway-core"
+    implementation "org.flywaydb:flyway-database-postgresql"
     runtimeOnly "com.h2database:h2"
     runtimeOnly "io.micrometer:micrometer-registry-prometheus"
     runtimeOnly "org.postgresql:postgresql"
@@ -97,13 +96,6 @@ dependencies {
     testImplementation "org.testcontainers:postgresql"
     testImplementation "com.tngtech.archunit:archunit-junit5:${archunit_junit5_version}"
     testImplementation "com.apptasticsoftware:rssreader:${rssreader_version}"
-}
-
-dependencyManagement {
-    imports {
-        mavenBom "org.springframework.cloud:spring-cloud-dependencies:${spring_cloud_version}"
-        mavenBom "org.testcontainers:testcontainers-bom:${testcontainers_version}"
-    }
 }
 
 bootBuildImage {
