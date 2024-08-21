@@ -1,7 +1,6 @@
 package com.sivalabs.devzone.posts.adapter.data.entity;
 
 import com.sivalabs.devzone.users.adapter.data.entity.UserEntity;
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
@@ -14,7 +13,6 @@ import jakarta.persistence.PrePersist;
 import jakarta.persistence.PreUpdate;
 import jakarta.persistence.Table;
 import jakarta.validation.constraints.NotEmpty;
-
 import java.time.LocalDateTime;
 
 @Entity

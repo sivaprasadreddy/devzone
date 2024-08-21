@@ -3,12 +3,10 @@ package com.sivalabs.devzone.posts.application.usecases.downloadposts;
 import com.sivalabs.devzone.common.model.PagedResult;
 import com.sivalabs.devzone.posts.application.data.repository.PostRepository;
 import com.sivalabs.devzone.posts.domain.model.Post;
-
-import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-
 import java.nio.charset.StandardCharsets;
 import java.util.List;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service
 @Transactional

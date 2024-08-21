@@ -1,11 +1,9 @@
 package com.sivalabs.devzone.security;
 
 import com.sivalabs.devzone.users.domain.model.User;
-
-import org.springframework.security.core.authority.SimpleGrantedAuthority;
-
 import java.util.Objects;
 import java.util.Set;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 
 public class SecurityUser extends org.springframework.security.core.userdetails.User {
     private final String name;

@@ -1,7 +1,6 @@
 package com.sivalabs.devzone.posts.adapter.data.repository;
 
 import com.sivalabs.devzone.posts.adapter.data.entity.PostEntity;
-
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

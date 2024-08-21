@@ -14,13 +14,11 @@ import com.sivalabs.devzone.security.SecurityUser;
 import com.sivalabs.devzone.users.application.usecases.viewprofile.ViewUserProfileHandler;
 import com.sivalabs.devzone.users.domain.model.User;
 import com.sivalabs.devzone.utils.TestDataFactory;
-
+import java.util.Optional;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
-
-import java.util.Optional;
 
 @WebMvcTest(controllers = UserProfileController.class)
 class UserProfileControllerTest extends AbstractWebMvcTest {

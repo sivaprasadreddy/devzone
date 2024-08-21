@@ -22,7 +22,6 @@ import com.sivalabs.devzone.users.application.usecases.changepassword.ChangePass
 import com.sivalabs.devzone.users.application.usecases.changepassword.ChangePasswordRequest;
 import com.sivalabs.devzone.users.domain.model.User;
 import com.sivalabs.devzone.utils.TestDataFactory;
-
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;

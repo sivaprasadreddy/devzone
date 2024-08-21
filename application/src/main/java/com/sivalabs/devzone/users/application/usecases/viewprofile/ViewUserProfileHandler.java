@@ -2,11 +2,9 @@ package com.sivalabs.devzone.users.application.usecases.viewprofile;
 
 import com.sivalabs.devzone.users.application.data.repository.UserRepository;
 import com.sivalabs.devzone.users.domain.model.User;
-
+import java.util.Optional;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
-import java.util.Optional;
 
 @Service
 @Transactional

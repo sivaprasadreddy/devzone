@@ -8,9 +8,8 @@ import com.sivalabs.devzone.posts.application.usecases.updatepost.UpdatePostHand
 import com.sivalabs.devzone.posts.application.usecases.updatepost.UpdatePostRequest;
 import com.sivalabs.devzone.posts.domain.model.Post;
 import com.sivalabs.devzone.users.domain.model.User;
-
 import jakarta.validation.Valid;
-
+import java.util.Objects;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
@@ -20,8 +19,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PutMapping;
-
-import java.util.Objects;
 
 @Controller
 public class UpdatePostController {

@@ -2,7 +2,6 @@ package com.sivalabs.devzone.users.adapter.data.mapper;
 
 import com.sivalabs.devzone.users.adapter.data.entity.UserEntity;
 import com.sivalabs.devzone.users.domain.model.User;
-
 import org.springframework.stereotype.Component;
 
 @Component

@@ -2,14 +2,11 @@ package com.sivalabs.devzone.posts.web.controllers;
 
 import com.sivalabs.devzone.config.annotations.AdminOnly;
 import com.sivalabs.devzone.posts.application.usecases.downloadposts.DownloadPostsHandler;
-
 import jakarta.servlet.http.HttpServletResponse;
-
+import java.io.IOException;
 import org.springframework.http.HttpHeaders;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-
-import java.io.IOException;
 
 @Controller
 @AdminOnly

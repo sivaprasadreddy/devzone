@@ -2,7 +2,6 @@ package com.sivalabs.devzone.security;
 
 import com.sivalabs.devzone.users.application.data.repository.UserRepository;
 import com.sivalabs.devzone.users.domain.model.User;
-
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;

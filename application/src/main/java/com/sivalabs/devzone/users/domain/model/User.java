@@ -1,10 +1,8 @@
 package com.sivalabs.devzone.users.domain.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
-
 import java.util.Arrays;
 
 public record User(

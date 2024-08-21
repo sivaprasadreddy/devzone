@@ -2,10 +2,9 @@ package com.sivalabs.devzone.posts.domain.model;
 
 import static com.sivalabs.devzone.posts.domain.utils.StringUtils.toSlug;
 
-import org.apache.commons.lang3.StringUtils;
-
 import java.time.LocalDateTime;
 import java.util.Set;
+import org.apache.commons.lang3.StringUtils;
 
 public record Category(
         Long id, String name, Set<Post> posts, LocalDateTime createdAt, LocalDateTime updatedAt) {

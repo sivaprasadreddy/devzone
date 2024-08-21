@@ -1,8 +1,7 @@
 package com.sivalabs.devzone.utils;
 
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-
 import java.util.List;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 public class PasswordUtils {
     public static void main(String[] args) {

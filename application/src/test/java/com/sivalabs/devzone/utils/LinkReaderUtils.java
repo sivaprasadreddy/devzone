@@ -2,9 +2,6 @@ package com.sivalabs.devzone.utils;
 
 import com.apptasticsoftware.rssreader.Item;
 import com.apptasticsoftware.rssreader.RssReader;
-
-import org.springframework.web.client.RestTemplate;
-
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -12,6 +9,7 @@ import java.io.PrintWriter;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Stream;
+import org.springframework.web.client.RestTemplate;
 
 public class LinkReaderUtils {
     public static void main(String[] args) throws Exception {

@@ -7,14 +7,12 @@ import com.sivalabs.devzone.config.annotations.CurrentUser;
 import com.sivalabs.devzone.posts.application.data.repository.PostRepository;
 import com.sivalabs.devzone.posts.domain.model.Post;
 import com.sivalabs.devzone.users.domain.model.User;
-
+import java.util.Objects;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.ResponseStatus;
-
-import java.util.Objects;
 
 @Controller
 public class DeletePostController {

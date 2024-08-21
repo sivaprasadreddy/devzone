@@ -1,9 +1,7 @@
 package com.sivalabs.devzone.posts.application.usecases.createpost;
 
 import com.sivalabs.devzone.posts.domain.utils.JsoupUtils;
-
 import jakarta.validation.constraints.NotEmpty;
-
 import org.apache.commons.lang3.StringUtils;
 
 public record CreatePostRequest(

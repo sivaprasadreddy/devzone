@@ -16,7 +16,6 @@ import com.sivalabs.devzone.posts.domain.model.Post;
 import com.sivalabs.devzone.users.application.data.repository.UserRepository;
 import com.sivalabs.devzone.users.domain.model.User;
 import com.sivalabs.devzone.utils.TestDataFactory;
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
