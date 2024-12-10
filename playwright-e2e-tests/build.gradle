@@ -4,14 +4,12 @@ plugins {
 
 group = "com.sivalabs"
 version = "0.0.1-SNAPSHOT"
-sourceCompatibility = '21'
 
-/*java {
+java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(21)
-        vendor = JvmVendorSpec.ADOPTIUM
     }
-}*/
+}
 
 repositories {
     mavenLocal()
@@ -31,11 +29,11 @@ configurations {
 }
 
 dependencies {
-    e2eTestImplementation(platform('org.junit:junit-bom:5.9.2'))
+    e2eTestImplementation(platform('org.junit:junit-bom:5.11.3'))
     e2eTestImplementation('org.junit.jupiter:junit-jupiter')
-    e2eTestImplementation('org.assertj:assertj-core:3.24.2')
-    e2eTestImplementation('com.fasterxml.jackson.core:jackson-databind:2.14.2')
-    e2eTestImplementation('com.microsoft.playwright:playwright:1.32.0')
+    e2eTestImplementation('org.assertj:assertj-core:3.26.3')
+    e2eTestImplementation('com.fasterxml.jackson.core:jackson-databind:2.18.2')
+    e2eTestImplementation('com.microsoft.playwright:playwright:1.49.0')
 }
 
 tasks.register('e2eTest', Test) {

@@ -1,8 +1,13 @@
 plugins {
     id 'java'
-    id 'io.gatling.gradle' version '3.9.3.1'
+    id 'io.gatling.gradle' version '3.13.1'
 }
-sourceCompatibility = '21'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
 
 repositories {
     mavenLocal()
@@ -10,5 +15,5 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'io.gatling:gatling-http-java:3.8.4'
+    testImplementation 'io.gatling:gatling-http-java:3.13.1'
 }
