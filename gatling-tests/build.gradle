@@ -10,5 +10,5 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'io.gatling:gatling-http-java:3.8.4'
+    testImplementation 'io.gatling:gatling-http-java:3.13.1'
 }
