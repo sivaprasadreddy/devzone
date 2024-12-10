@@ -10,7 +10,7 @@ services:
     command: "--config.file=/etc/prometheus/prometheus.yml"
 
   promtail:
-    image: grafana/promtail:3.2.2
+    image: grafana/promtail:3.3.1
     container_name: monitoring-promtail
     volumes:
       - ./promtail/promtail-docker-config.yaml:/etc/promtail/docker-config.yaml
@@ -18,7 +18,7 @@ services:
     command: "--config.file=/etc/promtail/docker-config.yaml"
 
   loki:
-    image: grafana/loki:3.2.2
+    image: grafana/loki:3.3.1
     container_name: monitoring-loki
     command: -config.file=/etc/loki/local-config.yaml
     ports:
