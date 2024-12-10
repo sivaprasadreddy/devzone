@@ -18,11 +18,11 @@ import java.util.Optional;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
-import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.test.context.bean.override.mockito.MockitoBean;
 
 @WebMvcTest(controllers = UserProfileController.class)
 class UserProfileControllerTest extends AbstractWebMvcTest {
-    @MockBean private ViewUserProfileHandler viewUserProfileHandler;
+    @MockitoBean private ViewUserProfileHandler viewUserProfileHandler;
 
     @Test
     void shouldViewProfile() throws Exception {

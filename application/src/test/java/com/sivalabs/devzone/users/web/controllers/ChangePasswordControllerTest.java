@@ -25,11 +25,11 @@ import com.sivalabs.devzone.utils.TestDataFactory;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
-import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.test.context.bean.override.mockito.MockitoBean;
 
 @WebMvcTest(controllers = ChangePasswordController.class)
 public class ChangePasswordControllerTest extends AbstractWebMvcTest {
-    @MockBean private ChangePasswordHandler changePasswordHandler;
+    @MockitoBean private ChangePasswordHandler changePasswordHandler;
 
     @Test
     void shouldShowChangePasswordFormPage() throws Exception {

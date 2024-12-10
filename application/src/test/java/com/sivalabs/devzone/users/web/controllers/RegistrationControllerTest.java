@@ -14,12 +14,12 @@ import com.sivalabs.devzone.common.exceptions.ResourceAlreadyExistsException;
 import com.sivalabs.devzone.users.application.usecases.registration.CreateUserHandler;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
-import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.test.context.bean.override.mockito.MockitoBean;
 
 @WebMvcTest(controllers = RegistrationController.class)
 class RegistrationControllerTest extends AbstractWebMvcTest {
 
-    @MockBean private CreateUserHandler createUserHandler;
+    @MockitoBean private CreateUserHandler createUserHandler;
 
     @Test
     void shouldShowRegistrationFormPage() throws Exception {

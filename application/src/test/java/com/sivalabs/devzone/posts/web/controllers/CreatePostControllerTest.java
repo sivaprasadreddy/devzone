@@ -20,12 +20,12 @@ import com.sivalabs.devzone.users.domain.model.User;
 import com.sivalabs.devzone.utils.TestDataFactory;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
-import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.test.context.bean.override.mockito.MockitoBean;
 
 @WebMvcTest(controllers = CreatePostController.class)
 public class CreatePostControllerTest extends AbstractWebMvcTest {
 
-    @MockBean protected CreatePostHandler createPostHandler;
+    @MockitoBean protected CreatePostHandler createPostHandler;
 
     @Test
     void shouldShowCreatePostFormPage() throws Exception {

@@ -1,7 +1,7 @@
 plugins {
     id "java"
     id "jacoco"
-    id "org.springframework.boot" version "3.3.2"
+    id "org.springframework.boot" version "3.4.0"
     id "io.spring.dependency-management" version "1.1.6"
     id "com.gorylenko.gradle-git-properties" version "2.4.1"
     id "com.google.cloud.tools.jib" version "3.4.3"
@@ -11,15 +11,13 @@ plugins {
 
 group = "com.sivalabs"
 version = "0.0.1"
-sourceCompatibility = '21'
 archivesBaseName = "devzone"
 
-/*java {
+java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(21)
-        vendor = JvmVendorSpec.ADOPTIUM
     }
-}*/
+}
 
 def dockerImageName = "sivaprasadreddy/devzone"
 def dockerImageTags = ["latest", "${project.version}"]
@@ -45,13 +43,12 @@ repositories {
 }
 
 ext {
-    set("webjars_locator_version", "0.46")
     set("bootstrap_version", "5.2.3")
-    set("jquery_version", "3.6.4")
-    set("font_awesome_version", "6.4.0")
+    set("jquery_version", "3.7.1")
+    set("font_awesome_version", "6.7.1")
     set("commons_lang_version", "3.12.0")
     set("commons_io_version", "2.11.0")
-    set("springdoc_openapi", "1.7.0")
+    set("springdoc_openapi", "2.7.0")
     set("opencsv_version", "5.7.1")
     set("jsoup_version", "1.15.4")
     set("datasource_proxy_version", "1.9.0")
@@ -70,7 +67,7 @@ dependencies {
     implementation "nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect"
 
     implementation "org.springframework.boot:spring-boot-starter-security"
-    implementation "org.springdoc:springdoc-openapi-ui:${springdoc_openapi}"
+    implementation "org.springdoc:springdoc-openapi-starter-webmvc-ui:${springdoc_openapi}"
     implementation "com.opencsv:opencsv:${opencsv_version}"
     implementation "org.jsoup:jsoup:${jsoup_version}"
     implementation "org.apache.commons:commons-lang3:${commons_lang_version}"
@@ -82,7 +79,7 @@ dependencies {
     runtimeOnly "org.postgresql:postgresql"
     implementation "com.github.gavlyukovskiy:datasource-proxy-spring-boot-starter:${datasource_proxy_version}"
 
-    implementation "org.webjars:webjars-locator:${webjars_locator_version}"
+    implementation "org.webjars:webjars-locator-lite"
     implementation "org.webjars:bootstrap:${bootstrap_version}"
     implementation "org.webjars:jquery:${jquery_version}"
     implementation "org.webjars:font-awesome:${font_awesome_version}"

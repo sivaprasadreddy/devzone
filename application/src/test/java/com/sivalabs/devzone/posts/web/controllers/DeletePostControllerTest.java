@@ -17,11 +17,11 @@ import com.sivalabs.devzone.utils.TestDataFactory;
 import java.util.Optional;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
-import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.test.context.bean.override.mockito.MockitoBean;
 
 @WebMvcTest(controllers = DeletePostController.class)
 public class DeletePostControllerTest extends AbstractWebMvcTest {
-    @MockBean protected PostRepository postRepository;
+    @MockitoBean protected PostRepository postRepository;
 
     @Test
     void shouldBeAbleToDeleteOwnPostSuccessfully() throws Exception {

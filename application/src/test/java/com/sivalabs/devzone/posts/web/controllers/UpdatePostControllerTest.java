@@ -22,12 +22,12 @@ import com.sivalabs.devzone.utils.TestDataFactory;
 import java.util.Optional;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
-import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.test.context.bean.override.mockito.MockitoBean;
 
 @WebMvcTest(controllers = UpdatePostController.class)
 public class UpdatePostControllerTest extends AbstractWebMvcTest {
 
-    @MockBean protected UpdatePostHandler updatePostHandler;
+    @MockitoBean protected UpdatePostHandler updatePostHandler;
 
     @Test
     void shouldShowNotFoundWhenUpdatingPostNotExists() throws Exception {

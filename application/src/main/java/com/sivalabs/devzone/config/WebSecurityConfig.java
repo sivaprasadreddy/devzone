@@ -66,10 +66,9 @@ public class WebSecurityConfig {
     }
 
     RoleHierarchy roleHierarchy() {
-        RoleHierarchyImpl roleHierarchy = new RoleHierarchyImpl();
-        roleHierarchy.setHierarchy(RoleEnum.getRoleHierarchy());
-        logger.debug("RoleHierarchy: {}", RoleEnum.getRoleHierarchy());
-        return roleHierarchy;
+        String roleHierarchy = RoleEnum.getRoleHierarchy();
+        logger.debug("RoleHierarchy: {}", roleHierarchy);
+        return RoleHierarchyImpl.fromHierarchy(roleHierarchy);
     }
 
     DefaultWebSecurityExpressionHandler webSecurityExpressionHandler() {

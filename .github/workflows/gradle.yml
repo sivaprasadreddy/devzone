@@ -8,20 +8,16 @@ jobs:
   build:
     name: Gradle Build
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        distribution: [ 'temurin' ]
-        java: [ '21']
     env:
       DOCKER_IMAGE_NAME: ${{ secrets.DOCKER_USERNAME }}/devzone
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Java ${{ matrix.java }} (${{ matrix.distribution }})
+      - name: Setup Java
         uses: actions/setup-java@v4
         with:
-          java-version: ${{ matrix.java }}
-          distribution: ${{ matrix.distribution }}
+          java-version: '21'
+          distribution: 'temurin'
           cache: 'gradle'
 
       - name: Build with Gradle
