@@ -17,19 +17,14 @@ interface JpaPostRepository extends JpaRepository<PostEntity, Long> {
     Page<PostEntity> findPosts(Pageable pageable);
 
     @Query(
-            value =
-                    "select l from PostEntity l JOIN FETCH l.category c join fetch l.createdBy u"
-                            + " where lower(l.title) like lower(concat('%', :query,'%'))",
+            value = "select l from PostEntity l JOIN FETCH l.category c join fetch l.createdBy u"
+                    + " where lower(l.title) like lower(concat('%', :query,'%'))",
             countQuery =
-                    "select count(l) from PostEntity l where lower(l.title) like lower(concat('%',"
-                            + " :query,'%'))")
-    Page<PostEntity> findPostsByTitleContainingIgnoreCase(
-            @Param("query") String query, Pageable pageable);
+                    "select count(l) from PostEntity l where lower(l.title) like lower(concat('%'," + " :query,'%'))")
+    Page<PostEntity> findPostsByTitleContainingIgnoreCase(@Param("query") String query, Pageable pageable);
 
     @Query(
-            value =
-                    "select l from PostEntity l join l.category c join fetch l.createdBy u where"
-                            + " c.name=?1",
+            value = "select l from PostEntity l join l.category c join fetch l.createdBy u where" + " c.name=?1",
             countQuery = "select count(l) from PostEntity l join l.category c where c.name=?1")
     Page<PostEntity> findPostsByCategory(String categoryName, Pageable pageable);
 }

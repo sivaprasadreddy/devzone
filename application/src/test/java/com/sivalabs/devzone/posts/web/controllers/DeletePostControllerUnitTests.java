@@ -20,8 +20,9 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.test.context.bean.override.mockito.MockitoBean;
 
 @WebMvcTest(controllers = DeletePostController.class)
-public class DeletePostControllerTest extends AbstractWebMvcTest {
-    @MockitoBean protected PostRepository postRepository;
+public class DeletePostControllerUnitTests extends AbstractWebMvcTest {
+    @MockitoBean
+    protected PostRepository postRepository;
 
     @Test
     void shouldBeAbleToDeleteOwnPostSuccessfully() throws Exception {

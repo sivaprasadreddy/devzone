@@ -8,7 +8,7 @@ import com.sivalabs.devzone.common.AbstractIntegrationTest;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Test;
 
-class GetCategoriesControllerIT extends AbstractIntegrationTest {
+class GetCategoriesControllerTests extends AbstractIntegrationTest {
 
     @Test
     void shouldGetAllCategories() throws Exception {

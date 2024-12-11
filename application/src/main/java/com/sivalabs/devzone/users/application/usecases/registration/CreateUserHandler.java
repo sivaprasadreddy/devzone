@@ -25,13 +25,7 @@ public class CreateUserHandler {
                     "User with email " + createUserRequest.email() + " already exists");
         }
         String encPwd = passwordEncoder.encode(createUserRequest.password());
-        User user =
-                new User(
-                        null,
-                        createUserRequest.name(),
-                        createUserRequest.email(),
-                        encPwd,
-                        RoleEnum.ROLE_USER);
+        User user = new User(null, createUserRequest.name(), createUserRequest.email(), encPwd, RoleEnum.ROLE_USER);
         return userRepository.save(user);
     }
 }

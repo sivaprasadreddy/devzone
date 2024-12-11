@@ -17,8 +17,7 @@ public class PostsDataInitializer implements CommandLineRunner {
     private final ApplicationProperties applicationProperties;
     private final UploadPostsHandler uploadPostsHandler;
 
-    public PostsDataInitializer(
-            ApplicationProperties applicationProperties, UploadPostsHandler uploadPostsHandler) {
+    public PostsDataInitializer(ApplicationProperties applicationProperties, UploadPostsHandler uploadPostsHandler) {
         this.applicationProperties = applicationProperties;
         this.uploadPostsHandler = uploadPostsHandler;
     }

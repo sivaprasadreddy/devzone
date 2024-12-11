@@ -9,17 +9,16 @@ import com.sivalabs.devzone.common.AbstractIntegrationTest;
 import org.junit.jupiter.api.Test;
 import org.springframework.security.test.context.support.WithUserDetails;
 
-public class CreatePostControllerIT extends AbstractIntegrationTest {
+public class CreatePostControllerTests extends AbstractIntegrationTest {
 
     @Test
     @WithUserDetails(value = "admin@gmail.com")
     void shouldCreatePostSuccessfully() throws Exception {
-        mockMvc.perform(
-                        post("/posts")
-                                .with(csrf())
-                                .param("url", "https://sivalabs.in")
-                                .param("title", "SivaLabs")
-                                .param("category", "java"))
+        mockMvc.perform(post("/posts")
+                        .with(csrf())
+                        .param("url", "https://sivalabs.in")
+                        .param("title", "SivaLabs")
+                        .param("category", "java"))
                 .andExpect(status().is3xxRedirection())
                 .andExpect(header().string("Location", "/posts"));
     }

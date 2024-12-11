@@ -44,8 +44,7 @@ public class CreatePostController {
             return "add-post";
         }
         var createPostRequest =
-                new CreatePostRequest(
-                        request.url(), request.title(), request.category(), loginUser.id());
+                new CreatePostRequest(request.url(), request.title(), request.category(), loginUser.id());
         Post post = createPostHandler.createPost(createPostRequest);
         logger.info("Post saved successfully with id: {}", post.id());
         return "redirect:/posts";

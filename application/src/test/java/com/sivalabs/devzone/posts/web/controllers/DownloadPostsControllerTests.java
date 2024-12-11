@@ -7,7 +7,7 @@ import com.sivalabs.devzone.common.AbstractIntegrationTest;
 import org.junit.jupiter.api.Test;
 import org.springframework.security.test.context.support.WithUserDetails;
 
-class DownloadPostsControllerIT extends AbstractIntegrationTest {
+class DownloadPostsControllerTests extends AbstractIntegrationTest {
 
     @Test
     @WithUserDetails(value = "admin@gmail.com")

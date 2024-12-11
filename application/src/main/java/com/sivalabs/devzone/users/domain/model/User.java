@@ -8,10 +8,8 @@ import java.util.Arrays;
 public record User(
         Long id,
         @NotBlank(message = "Name cannot be blank") String name,
-        @NotBlank(message = "Email cannot be blank") @Email(message = "Invalid email address")
-                String email,
-        @NotBlank(message = "Password cannot be blank")
-                @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
+        @NotBlank(message = "Email cannot be blank") @Email(message = "Invalid email address") String email,
+        @NotBlank(message = "Password cannot be blank") @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
                 String password,
         RoleEnum role) {
 

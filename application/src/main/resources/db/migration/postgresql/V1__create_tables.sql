@@ -2,34 +2,37 @@ create sequence user_id_seq start with 1 increment by 50;
 create sequence post_id_seq start with 1 increment by 50;
 create sequence cat_id_seq start with 1 increment by 50;
 
-create table users (
-    id bigint DEFAULT nextval('user_id_seq') not null,
-    email varchar(255) not null,
-    password varchar(255) not null,
-    name varchar(255) not null,
-    role varchar(20) not null,
-    created_at timestamp,
+create table users
+(
+    id         bigint    not null default nextval('user_id_seq'),
+    email      text      not null,
+    password   text      not null,
+    name       text      not null,
+    role       text      not null,
+    created_at timestamp not null default now(),
     updated_at timestamp,
     primary key (id),
-    CONSTRAINT user_email_unique UNIQUE(email)
+    constraint user_email_unique unique (email)
 );
 
-create table categories (
-    id bigint DEFAULT nextval('cat_id_seq') not null,
-    name varchar(255) not null,
-    created_at timestamp,
+create table categories
+(
+    id         bigint    not null default nextval('cat_id_seq'),
+    name       text      not null,
+    created_at timestamp not null default now(),
     updated_at timestamp,
     primary key (id),
-    CONSTRAINT category_name_unique UNIQUE(name)
+    constraint category_name_unique unique (name)
 );
 
-create table posts (
-    id bigint DEFAULT nextval('post_id_seq') not null,
-    url varchar(1024) not null,
-    title varchar(1024),
-    created_by bigint not null REFERENCES users(id),
-    cat_id bigint not null REFERENCES categories(id),
-    created_at timestamp,
+create table posts
+(
+    id         bigint    not null default nextval('post_id_seq'),
+    url        text      not null,
+    title      text,
+    cat_id     bigint    not null references categories (id),
+    created_by bigint    not null references users (id),
+    created_at timestamp not null default now(),
     updated_at timestamp,
     primary key (id)
 );

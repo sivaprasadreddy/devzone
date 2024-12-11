@@ -16,15 +16,20 @@ import org.springframework.test.web.servlet.MockMvc;
 @ActiveProfiles(PROFILE_TEST)
 @Import({WebSecurityConfig.class})
 public abstract class AbstractWebMvcTest {
-    @Autowired protected MockMvc mockMvc;
+    @Autowired
+    protected MockMvc mockMvc;
 
-    @MockitoBean protected UserDetailsService userDetailsService;
+    @MockitoBean
+    protected UserDetailsService userDetailsService;
 
-    @MockitoBean protected SecurityService securityService;
+    @MockitoBean
+    protected SecurityService securityService;
 
-    @MockitoBean protected PasswordEncoder passwordEncoder;
+    @MockitoBean
+    protected PasswordEncoder passwordEncoder;
 
     // @MockitoBean protected RoleHierarchyImpl roleHierarchy;
 
-    @Autowired protected ObjectMapper objectMapper;
+    @Autowired
+    protected ObjectMapper objectMapper;
 }

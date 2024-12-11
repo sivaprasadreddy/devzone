@@ -33,8 +33,7 @@ public class CurrentUserArgumentResolver implements HandlerMethodArgumentResolve
         return securityService.loginUser();
     }
 
-    private <T extends Annotation> T findMethodAnnotation(
-            Class<T> annotationClass, MethodParameter parameter) {
+    private <T extends Annotation> T findMethodAnnotation(Class<T> annotationClass, MethodParameter parameter) {
         T annotation = parameter.getParameterAnnotation(annotationClass);
         if (annotation != null) {
             return annotation;

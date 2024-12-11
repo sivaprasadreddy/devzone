@@ -20,7 +20,8 @@ import org.springframework.test.context.bean.override.mockito.MockitoBean;
 @WebMvcTest(controllers = GetPostsController.class)
 public class GetPostsControllerTest extends AbstractWebMvcTest {
 
-    @MockitoBean protected GetPostsHandler getPostsHandler;
+    @MockitoBean
+    protected GetPostsHandler getPostsHandler;
 
     // @SpyBean protected PostDtoMapper postDTOMapper;
 

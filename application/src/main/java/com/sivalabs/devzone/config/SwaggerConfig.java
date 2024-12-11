@@ -18,10 +18,9 @@ public class SwaggerConfig {
                 .title("DevZone")
                 .description("DevZone API")
                 .version("0.0.1")
-                .contact(
-                        new Contact()
-                                .email("sivalabs@sivalabs.in")
-                                .url("https://sivalabs.in")
-                                .name("SivaLabs"));
+                .contact(new Contact()
+                        .email("sivalabs@sivalabs.in")
+                        .url("https://sivalabs.in")
+                        .name("SivaLabs"));
     }
 }

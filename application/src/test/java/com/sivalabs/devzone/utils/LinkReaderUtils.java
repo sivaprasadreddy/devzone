@@ -19,13 +19,12 @@ public class LinkReaderUtils {
     static void fromDZone() throws Exception {
         RestTemplate restTemplate = new RestTemplate();
 
-        Map<String, Integer> portalCodeMap =
-                Map.of(
-                        "Java", 1,
-                        "DevOps", 6,
-                        "MicroServices", 6001,
-                        "WebDev", 11,
-                        "Cloud", 4);
+        Map<String, Integer> portalCodeMap = Map.of(
+                "Java", 1,
+                "DevOps", 6,
+                "MicroServices", 6001,
+                "WebDev", 11,
+                "Cloud", 4);
         for (Map.Entry<String, Integer> entry : portalCodeMap.entrySet()) {
             String portalName = entry.getKey();
             Integer portalCode = entry.getValue();
@@ -35,24 +34,22 @@ public class LinkReaderUtils {
             pr.println("url,title,category");
 
             for (int page = 1; page <= 50; page++) {
-                DZoneResponse response =
-                        restTemplate.getForObject(
-                                "https://dzone.com/services/widget/article-listV2/list?page="
-                                        + page
-                                        + "&portal="
-                                        + portalCode
-                                        + "&sort=newest",
-                                DZoneResponse.class);
+                DZoneResponse response = restTemplate.getForObject(
+                        "https://dzone.com/services/widget/article-listV2/list?page="
+                                + page
+                                + "&portal="
+                                + portalCode
+                                + "&sort=newest",
+                        DZoneResponse.class);
                 List<DZoneArticle> articles = response.getResult().getData().getNodes();
                 System.out.println("portalName=" + portalName + ", Page = " + page);
                 for (DZoneArticle article : articles) {
-                    pr.println(
-                            "https://dzone.com"
-                                    + article.getArticleLink()
-                                    + ",\""
-                                    + article.getTitle()
-                                    + "\","
-                                    + portalName);
+                    pr.println("https://dzone.com"
+                            + article.getArticleLink()
+                            + ",\""
+                            + article.getTitle()
+                            + "\","
+                            + portalName);
                 }
                 Thread.sleep(1000);
             }
@@ -62,11 +59,8 @@ public class LinkReaderUtils {
 
     static void fromRss() throws IOException {
         RssReader reader = new RssReader();
-        List<String> feedUrls =
-                List.of(
-                        "https://www.sivalabs.in/index.xml",
-                        "https://reflectoring.io/index.xml",
-                        "https://rieckpil.de/feed/");
+        List<String> feedUrls = List.of(
+                "https://www.sivalabs.in/index.xml", "https://reflectoring.io/index.xml", "https://rieckpil.de/feed/");
         File file = new File("links.csv");
         FileWriter fr = new FileWriter(file);
         PrintWriter pr = new PrintWriter(fr);
@@ -80,15 +74,12 @@ public class LinkReaderUtils {
                     System.out.println("Title = " + article.getTitle().orElse(null));
                     System.out.println("link = " + article.getLink().orElse(null));
                     System.out.println("guid = " + article.getGuid().orElse(null));
-                    System.out.println("description = " + article.getDescription().orElse(null));
+                    System.out.println(
+                            "description = " + article.getDescription().orElse(null));
                     System.out.println("pubDate = " + article.getPubDate().orElse(null));
                     System.out.println("========================================================");
                     pr.println(
-                            article.getLink().get()
-                                    + ",\""
-                                    + article.getTitle().orElse(null)
-                                    + "\""
-                                    + ",Java");
+                            article.getLink().get() + ",\"" + article.getTitle().orElse(null) + "\"" + ",Java");
                 }
             }
         }

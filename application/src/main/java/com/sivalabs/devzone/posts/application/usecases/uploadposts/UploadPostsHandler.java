@@ -36,8 +36,7 @@ public class UploadPostsHandler {
     }
 
     @Async
-    public void importPostsAsync(List<String> fileNames)
-            throws IOException, CsvValidationException {
+    public void importPostsAsync(List<String> fileNames) throws IOException, CsvValidationException {
         postRepository.deleteAll();
         for (String fileName : fileNames) {
             logger.info("Importing posts from file: {}", fileName);

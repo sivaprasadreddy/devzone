@@ -21,9 +21,7 @@ public class GetPostsHandler {
     private final PostDtoMapper postDtoMapper;
 
     public GetPostsHandler(
-            PostRepository postRepository,
-            CategoryRepository categoryRepository,
-            PostDtoMapper postDtoMapper) {
+            PostRepository postRepository, CategoryRepository categoryRepository, PostDtoMapper postDtoMapper) {
         this.postRepository = postRepository;
         this.categoryRepository = categoryRepository;
         this.postDtoMapper = postDtoMapper;

@@ -36,8 +36,7 @@ public class DeletePostController {
     }
 
     private void checkPrivilege(Post post, User loginUser) {
-        if (!(Objects.equals(post.createdBy().id(), loginUser.id())
-                || loginUser.isAdminOrModerator())) {
+        if (!(Objects.equals(post.createdBy().id(), loginUser.id()) || loginUser.isAdminOrModerator())) {
             throw new UnauthorisedAccessException("Permission Denied");
         }
     }

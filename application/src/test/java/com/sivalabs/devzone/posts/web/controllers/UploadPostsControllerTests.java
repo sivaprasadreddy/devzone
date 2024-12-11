@@ -14,20 +14,19 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.mock.web.MockMultipartFile;
 import org.springframework.security.test.context.support.WithUserDetails;
 
-public class UploadPostsControllerIT extends AbstractIntegrationTest {
+public class UploadPostsControllerTests extends AbstractIntegrationTest {
 
     @Test
     @WithUserDetails(value = "admin@gmail.com")
     void showUploadBookmarksPage() throws Exception {
-        mockMvc.perform(get("/posts/upload"))
-                .andExpect(status().isOk())
-                .andExpect(view().name("upload-posts"));
+        mockMvc.perform(get("/posts/upload")).andExpect(status().isOk()).andExpect(view().name("upload-posts"));
     }
 
     @Test
     @WithUserDetails(value = "admin@gmail.com")
     void uploadBookmarks() throws Exception {
-        byte[] bytes = new ClassPathResource("data/posts-test.csv").getInputStream().readAllBytes();
+        byte[] bytes =
+                new ClassPathResource("data/posts-test.csv").getInputStream().readAllBytes();
         MockMultipartFile file = new MockMultipartFile("file", "posts-test.csv", "text/csv", bytes);
         mockMvc.perform(multipart("/posts/upload").file(file).with(csrf()))
                 .andExpect(status().is3xxRedirection())

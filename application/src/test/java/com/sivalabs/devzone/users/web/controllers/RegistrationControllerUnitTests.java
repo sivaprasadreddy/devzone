@@ -17,9 +17,10 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.test.context.bean.override.mockito.MockitoBean;
 
 @WebMvcTest(controllers = RegistrationController.class)
-class RegistrationControllerTest extends AbstractWebMvcTest {
+class RegistrationControllerUnitTests extends AbstractWebMvcTest {
 
-    @MockitoBean private CreateUserHandler createUserHandler;
+    @MockitoBean
+    private CreateUserHandler createUserHandler;
 
     @Test
     void shouldShowRegistrationFormPage() throws Exception {
@@ -33,12 +34,11 @@ class RegistrationControllerTest extends AbstractWebMvcTest {
     void shouldRedisplayRegistrationFormPageWhenSubmittedInvalidData() throws Exception {
         given(createUserHandler.createUser(any())).willAnswer(ans -> ans.getArgument(0));
 
-        mockMvc.perform(
-                        post("/registration")
-                                .with(csrf())
-                                .param("name", "")
-                                .param("email", "")
-                                .param("password", ""))
+        mockMvc.perform(post("/registration")
+                        .with(csrf())
+                        .param("name", "")
+                        .param("email", "")
+                        .param("password", ""))
                 .andExpect(model().hasErrors())
                 .andExpect(model().attributeHasFieldErrors("user", "name", "email", "password"))
                 .andExpect(model().attributeHasFieldErrorCode("user", "name", "NotBlank"))
@@ -49,14 +49,12 @@ class RegistrationControllerTest extends AbstractWebMvcTest {
 
     @Test
     void shouldRedisplayRegistrationFormPageWhenEmailAlreadyExists() throws Exception {
-        given(createUserHandler.createUser(any()))
-                .willThrow(new ResourceAlreadyExistsException("user already exists"));
-        mockMvc.perform(
-                        post("/registration")
-                                .with(csrf())
-                                .param("name", "dummy")
-                                .param("email", "dummy@mail.com")
-                                .param("password", "admin1234"))
+        given(createUserHandler.createUser(any())).willThrow(new ResourceAlreadyExistsException("user already exists"));
+        mockMvc.perform(post("/registration")
+                        .with(csrf())
+                        .param("name", "dummy")
+                        .param("email", "dummy@mail.com")
+                        .param("password", "admin1234"))
                 .andExpect(model().hasErrors())
                 .andExpect(model().attributeHasFieldErrors("user", "email"))
                 .andExpect(model().attributeHasFieldErrorCode("user", "email", "email.exists"))

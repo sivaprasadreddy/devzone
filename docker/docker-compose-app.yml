@@ -2,18 +2,22 @@ services:
   devzone:
     build: ../application
     ports:
-      - "18080:8080"
-      - "18787:8787"
+      - "8080:8080"
+      - "8787:8787"
       - "9010:9010"
     restart: unless-stopped
     depends_on:
-      - app-db
+      - devzone-db
     environment:
       SPRING_PROFILES_ACTIVE: docker
       SPRING_DATASOURCE_DRIVER_CLASS_NAME: org.postgresql.Driver
-      SPRING_DATASOURCE_URL: jdbc:postgresql://app-db:5432/postgres
+      SPRING_DATASOURCE_URL: jdbc:postgresql://devzone-db:5432/postgres
       SPRING_DATASOURCE_USERNAME: postgres
       SPRING_DATASOURCE_PASSWORD: postgres
       JAVA_TOOL_OPTIONS: "-Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=9010 -Dcom.sun.management.jmxremote.local.only=false -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djava.rmi.server.hostname=localhost -Dcom.sun.management.jmxremote.rmi.port=9010"
+      MANAGEMENT_TRACING_ENABLED: 'true'
+      MANAGEMENT_ZIPKIN_TRACING_ENDPOINT: http://tempo:9411/api/v2/spans
+    labels:
+      logging: "promtail"
     volumes:
-    - ../logs/:/logs/
+      - ../logs/:/logs/

@@ -10,17 +10,14 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 
 @WebMvcTest(controllers = PageMetadataController.class)
-class PageMetadataControllerTest extends AbstractWebMvcTest {
+class PageMetadataControllerUnitTests extends AbstractWebMvcTest {
 
     @Test
     void getPageMetadata() throws Exception {
         mockMvc.perform(get("/api/page-metadata?url=https://sivalabs.in"))
                 .andExpect(status().isOk())
-                .andExpect(
-                        jsonPath(
-                                "$.title",
-                                Matchers.equalTo(
-                                        "Java, Spring Boot, Microservices, Cloud and DevOps"
-                                                + " Tutorials")));
+                .andExpect(jsonPath(
+                        "$.title",
+                        Matchers.equalTo("Java, Spring Boot, Microservices, Cloud and DevOps" + " Tutorials")));
     }
 }

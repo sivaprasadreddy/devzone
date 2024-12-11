@@ -30,32 +30,28 @@ public class WebSecurityConfig {
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
-        http.authorizeHttpRequests(
-                c ->
-                        c.requestMatchers(
-                                        "/webjars/**",
-                                        "/resources/**",
-                                        "/static/**",
-                                        "/js/**",
-                                        "/css/**",
-                                        "/images/**",
-                                        "/favicon.ico",
-                                        "/h2-console/**")
-                                .permitAll()
-                                .requestMatchers(
-                                        "/", "/login", "/registration", "/posts", "/api/categories")
-                                .permitAll()
-                                .anyRequest()
-                                .permitAll());
+        http.authorizeHttpRequests(c -> c.requestMatchers(
+                        "/webjars/**",
+                        "/resources/**",
+                        "/static/**",
+                        "/js/**",
+                        "/css/**",
+                        "/images/**",
+                        "/favicon.ico",
+                        "/h2-console/**")
+                .permitAll()
+                .requestMatchers("/", "/login", "/registration", "/posts", "/api/categories")
+                .permitAll()
+                .anyRequest()
+                .permitAll());
 
-        http.formLogin(
-                c ->
-                        c.loginPage("/login")
-                                .defaultSuccessUrl("/")
-                                .failureUrl("/login?error")
-                                .permitAll());
+        http.formLogin(c -> c.loginPage("/login")
+                .defaultSuccessUrl("/")
+                .failureUrl("/login?error")
+                .permitAll());
 
-        http.logout(c -> c.logoutRequestMatcher(new AntPathRequestMatcher("/logout")).permitAll());
+        http.logout(c ->
+                c.logoutRequestMatcher(new AntPathRequestMatcher("/logout")).permitAll());
 
         return http.build();
     }
@@ -72,8 +68,7 @@ public class WebSecurityConfig {
     }
 
     DefaultWebSecurityExpressionHandler webSecurityExpressionHandler() {
-        DefaultWebSecurityExpressionHandler expressionHandler =
-                new DefaultWebSecurityExpressionHandler();
+        DefaultWebSecurityExpressionHandler expressionHandler = new DefaultWebSecurityExpressionHandler();
         expressionHandler.setRoleHierarchy(roleHierarchy());
         return expressionHandler;
     }

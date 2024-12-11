@@ -21,8 +21,9 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.test.context.bean.override.mockito.MockitoBean;
 
 @WebMvcTest(controllers = UserProfileController.class)
-class UserProfileControllerTest extends AbstractWebMvcTest {
-    @MockitoBean private ViewUserProfileHandler viewUserProfileHandler;
+class UserProfileControllerUnitTests extends AbstractWebMvcTest {
+    @MockitoBean
+    private ViewUserProfileHandler viewUserProfileHandler;
 
     @Test
     void shouldViewProfile() throws Exception {

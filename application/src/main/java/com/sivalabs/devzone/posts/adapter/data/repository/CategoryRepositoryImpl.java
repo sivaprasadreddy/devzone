@@ -14,8 +14,7 @@ class CategoryRepositoryImpl implements CategoryRepository {
     private final JpaCategoryRepository jpaCategoryRepository;
     private final CategoryMapper categoryMapper;
 
-    public CategoryRepositoryImpl(
-            JpaCategoryRepository jpaCategoryRepository, CategoryMapper categoryMapper) {
+    public CategoryRepositoryImpl(JpaCategoryRepository jpaCategoryRepository, CategoryMapper categoryMapper) {
         this.jpaCategoryRepository = jpaCategoryRepository;
         this.categoryMapper = categoryMapper;
     }

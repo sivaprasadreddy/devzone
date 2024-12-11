@@ -9,7 +9,7 @@ import com.sivalabs.devzone.common.AbstractIntegrationTest;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
-class GetPostsControllerIT extends AbstractIntegrationTest {
+class GetPostsControllerTests extends AbstractIntegrationTest {
 
     @ParameterizedTest
     @CsvSource({"1", "2"})

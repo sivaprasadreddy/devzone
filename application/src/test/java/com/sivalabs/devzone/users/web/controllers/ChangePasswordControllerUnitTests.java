@@ -28,8 +28,9 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.test.context.bean.override.mockito.MockitoBean;
 
 @WebMvcTest(controllers = ChangePasswordController.class)
-public class ChangePasswordControllerTest extends AbstractWebMvcTest {
-    @MockitoBean private ChangePasswordHandler changePasswordHandler;
+public class ChangePasswordControllerUnitTests extends AbstractWebMvcTest {
+    @MockitoBean
+    private ChangePasswordHandler changePasswordHandler;
 
     @Test
     void shouldShowChangePasswordFormPage() throws Exception {
@@ -48,16 +49,13 @@ public class ChangePasswordControllerTest extends AbstractWebMvcTest {
         User user = TestDataFactory.getMockUser();
         SecurityUser securityUser = new SecurityUser(user);
         given(securityService.loginUser()).willReturn(user);
-        willDoNothing()
-                .given(changePasswordHandler)
-                .changePassword(anyString(), any(ChangePasswordRequest.class));
+        willDoNothing().given(changePasswordHandler).changePassword(anyString(), any(ChangePasswordRequest.class));
 
-        mockMvc.perform(
-                        post("/change-password")
-                                .with(csrf())
-                                .with(user(securityUser))
-                                .param("oldPassword", "siva")
-                                .param("newPassword", "siva123"))
+        mockMvc.perform(post("/change-password")
+                        .with(csrf())
+                        .with(user(securityUser))
+                        .param("oldPassword", "siva")
+                        .param("newPassword", "siva123"))
                 .andExpect(status().is3xxRedirection())
                 .andExpect(flash().attribute("msg", "Password changed successfully"))
                 .andExpect(header().string("Location", "/change-password"));
@@ -68,22 +66,15 @@ public class ChangePasswordControllerTest extends AbstractWebMvcTest {
         User user = TestDataFactory.getMockUser();
         SecurityUser securityUser = new SecurityUser(user);
         given(securityService.loginUser()).willReturn(user);
-        mockMvc.perform(
-                        post("/change-password")
-                                .with(csrf())
-                                .with(user(securityUser))
-                                .param("oldPassword", "")
-                                .param("newPassword", ""))
+        mockMvc.perform(post("/change-password")
+                        .with(csrf())
+                        .with(user(securityUser))
+                        .param("oldPassword", "")
+                        .param("newPassword", ""))
                 .andExpect(model().hasErrors())
-                .andExpect(
-                        model().attributeHasFieldErrors(
-                                        "changePassword", "oldPassword", "newPassword"))
-                .andExpect(
-                        model().attributeHasFieldErrorCode(
-                                        "changePassword", "oldPassword", "NotBlank"))
-                .andExpect(
-                        model().attributeHasFieldErrorCode(
-                                        "changePassword", "newPassword", "NotBlank"))
+                .andExpect(model().attributeHasFieldErrors("changePassword", "oldPassword", "newPassword"))
+                .andExpect(model().attributeHasFieldErrorCode("changePassword", "oldPassword", "NotBlank"))
+                .andExpect(model().attributeHasFieldErrorCode("changePassword", "newPassword", "NotBlank"))
                 .andExpect(view().name("change-password"));
     }
 
@@ -96,12 +87,11 @@ public class ChangePasswordControllerTest extends AbstractWebMvcTest {
                 .given(changePasswordHandler)
                 .changePassword(anyString(), any(ChangePasswordRequest.class));
 
-        mockMvc.perform(
-                        post("/change-password")
-                                .with(csrf())
-                                .with(user(securityUser))
-                                .param("oldPassword", "siva")
-                                .param("newPassword", "siva123"))
+        mockMvc.perform(post("/change-password")
+                        .with(csrf())
+                        .with(user(securityUser))
+                        .param("oldPassword", "siva")
+                        .param("newPassword", "siva123"))
                 .andExpect(status().is3xxRedirection())
                 .andExpect(flash().attribute("msg", "Current password is not matching"))
                 .andExpect(header().string("Location", "/change-password"));

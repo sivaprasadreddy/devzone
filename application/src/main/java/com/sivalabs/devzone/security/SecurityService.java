@@ -20,8 +20,7 @@ public class SecurityService {
 
     public User loginUser() {
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
-        if (authentication != null
-                && authentication.getPrincipal() instanceof SecurityUser securityUser) {
+        if (authentication != null && authentication.getPrincipal() instanceof SecurityUser securityUser) {
             String username = securityUser.getUsername();
             return userRepository.findByEmail(username).orElse(null);
         } else if (authentication instanceof UsernamePasswordAuthenticationToken) {

@@ -25,9 +25,10 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.test.context.bean.override.mockito.MockitoBean;
 
 @WebMvcTest(controllers = UpdatePostController.class)
-public class UpdatePostControllerTest extends AbstractWebMvcTest {
+public class UpdatePostControllerUnitTests extends AbstractWebMvcTest {
 
-    @MockitoBean protected UpdatePostHandler updatePostHandler;
+    @MockitoBean
+    protected UpdatePostHandler updatePostHandler;
 
     @Test
     void shouldShowNotFoundWhenUpdatingPostNotExists() throws Exception {
@@ -36,8 +37,7 @@ public class UpdatePostControllerTest extends AbstractWebMvcTest {
         given(securityService.loginUser()).willReturn(user);
         given(updatePostHandler.getPostById(any(Long.class))).willReturn(Optional.empty());
 
-        mockMvc.perform(get("/posts/{id}/edit", 1).with(user(securityUser)))
-                .andExpect(status().isNotFound());
+        mockMvc.perform(get("/posts/{id}/edit", 1).with(user(securityUser))).andExpect(status().isNotFound());
     }
 
     @Test
@@ -63,13 +63,12 @@ public class UpdatePostControllerTest extends AbstractWebMvcTest {
         given(updatePostHandler.getPostById(1L)).willReturn(Optional.of(post));
         given(updatePostHandler.updatePost(any(UpdatePostRequest.class))).willReturn(post);
 
-        mockMvc.perform(
-                        put("/posts/{id}", post.id())
-                                .with(csrf())
-                                .with(user(securityUser))
-                                .param("url", "")
-                                .param("title", "SivaLabs")
-                                .param("category", "java"))
+        mockMvc.perform(put("/posts/{id}", post.id())
+                        .with(csrf())
+                        .with(user(securityUser))
+                        .param("url", "")
+                        .param("title", "SivaLabs")
+                        .param("category", "java"))
                 .andExpect(model().hasErrors())
                 .andExpect(model().attributeHasFieldErrors("post", "url"))
                 .andExpect(view().name("edit-post"));
@@ -84,13 +83,12 @@ public class UpdatePostControllerTest extends AbstractWebMvcTest {
         given(updatePostHandler.getPostById(1L)).willReturn(Optional.of(post));
         given(updatePostHandler.updatePost(any(UpdatePostRequest.class))).willReturn(post);
 
-        mockMvc.perform(
-                        put("/posts/{id}", post.id())
-                                .with(csrf())
-                                .with(user(securityUser))
-                                .param("url", "https://sivalabs.in")
-                                .param("title", "SivaLabs")
-                                .param("category", "java"))
+        mockMvc.perform(put("/posts/{id}", post.id())
+                        .with(csrf())
+                        .with(user(securityUser))
+                        .param("url", "https://sivalabs.in")
+                        .param("title", "SivaLabs")
+                        .param("category", "java"))
                 .andExpect(status().is3xxRedirection())
                 .andExpect(header().string("Location", "/posts"));
     }
@@ -104,13 +102,12 @@ public class UpdatePostControllerTest extends AbstractWebMvcTest {
         given(updatePostHandler.getPostById(post.id())).willReturn(Optional.of(post));
         given(updatePostHandler.updatePost(any(UpdatePostRequest.class))).willReturn(post);
 
-        mockMvc.perform(
-                        put("/posts/{id}", post.id())
-                                .with(csrf())
-                                .with(user(securityUser))
-                                .param("url", "https://sivalabs.in")
-                                .param("title", "SivaLabs")
-                                .param("category", "java"))
+        mockMvc.perform(put("/posts/{id}", post.id())
+                        .with(csrf())
+                        .with(user(securityUser))
+                        .param("url", "https://sivalabs.in")
+                        .param("title", "SivaLabs")
+                        .param("category", "java"))
                 .andExpect(status().is(403));
     }
 
@@ -123,13 +120,12 @@ public class UpdatePostControllerTest extends AbstractWebMvcTest {
         given(updatePostHandler.getPostById(post.id())).willReturn(Optional.of(post));
         given(updatePostHandler.updatePost(any(UpdatePostRequest.class))).willReturn(post);
 
-        mockMvc.perform(
-                        put("/posts/{id}", post.id())
-                                .with(csrf())
-                                .with(user(securityUser))
-                                .param("url", "https://sivalabs.in")
-                                .param("title", "SivaLabs")
-                                .param("category", "java"))
+        mockMvc.perform(put("/posts/{id}", post.id())
+                        .with(csrf())
+                        .with(user(securityUser))
+                        .param("url", "https://sivalabs.in")
+                        .param("title", "SivaLabs")
+                        .param("category", "java"))
                 .andExpect(status().is3xxRedirection())
                 .andExpect(header().string("Location", "/posts"));
     }

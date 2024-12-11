@@ -45,7 +45,6 @@ public class PostDtoMapper {
     public boolean canCurrentUserEditPost(User loginUser, Post post) {
         return loginUser != null
                 && post != null
-                && (Objects.equals(post.createdBy().id(), loginUser.id())
-                        || loginUser.isAdminOrModerator());
+                && (Objects.equals(post.createdBy().id(), loginUser.id()) || loginUser.isAdminOrModerator());
     }
 }

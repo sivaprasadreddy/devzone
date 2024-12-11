@@ -26,8 +26,7 @@ public class UploadPostsController {
     }
 
     @PostMapping("/posts/upload")
-    public String uploadBookmarks(
-            @RequestParam("file") MultipartFile file, RedirectAttributes redirectAttributes)
+    public String uploadBookmarks(@RequestParam("file") MultipartFile file, RedirectAttributes redirectAttributes)
             throws IOException, CsvValidationException {
         if (file.isEmpty()) {
             redirectAttributes.addFlashAttribute("msg", "Please select the file to upload");

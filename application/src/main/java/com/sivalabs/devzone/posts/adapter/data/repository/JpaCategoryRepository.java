@@ -21,8 +21,6 @@ interface JpaCategoryRepository extends JpaRepository<CategoryEntity, Long> {
     List<Category> findAllCategories(Sort sort);
 
     @Modifying
-    @Query(
-            value = "insert into categories(name) values(:#{#c.name}) ON CONFLICT DO NOTHING",
-            nativeQuery = true)
+    @Query(value = "insert into categories(name) values(:#{#c.name}) ON CONFLICT DO NOTHING", nativeQuery = true)
     void upsert(@Param("c") CategoryEntity category);
 }

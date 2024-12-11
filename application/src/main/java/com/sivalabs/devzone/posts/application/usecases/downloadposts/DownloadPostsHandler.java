@@ -33,7 +33,8 @@ public class DownloadPostsHandler {
 
     private void addPosts(StringBuilder sb, List<Post> allPosts) {
         for (Post postDTO : allPosts) {
-            String category = postDTO.category() == null ? "" : postDTO.category().name();
+            String category =
+                    postDTO.category() == null ? "" : postDTO.category().name();
             sb.append(String.join(",", postDTO.url(), "\"" + postDTO.title() + "\"", category))
                     .append(System.lineSeparator());
         }

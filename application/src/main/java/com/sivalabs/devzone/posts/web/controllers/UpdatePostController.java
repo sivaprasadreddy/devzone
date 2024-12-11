@@ -43,8 +43,7 @@ public class UpdatePostController {
         if (post.category() != null) {
             category = post.category().name();
         }
-        UpdatePostRequest updatePostRequest =
-                new UpdatePostRequest(id, post.url(), post.title(), category);
+        UpdatePostRequest updatePostRequest = new UpdatePostRequest(id, post.url(), post.title(), category);
 
         model.addAttribute(MODEL_ATTRIBUTE_POST, updatePostRequest);
         return "edit-post";
@@ -64,8 +63,7 @@ public class UpdatePostController {
         if (post == null) {
             throw new ResourceNotFoundException("Post not found");
         }
-        var updatePostRequest =
-                new UpdatePostRequest(id, request.url(), request.title(), request.category());
+        var updatePostRequest = new UpdatePostRequest(id, request.url(), request.title(), request.category());
         this.checkPrivilege(post, loginUser);
         Post updatedPost = updatePostHandler.updatePost(updatePostRequest);
         logger.info("Post with id: {} updated successfully", updatedPost.id());
@@ -73,8 +71,7 @@ public class UpdatePostController {
     }
 
     private void checkPrivilege(Post post, User loginUser) {
-        if (!(Objects.equals(post.createdBy().id(), loginUser.id())
-                || loginUser.isAdminOrModerator())) {
+        if (!(Objects.equals(post.createdBy().id(), loginUser.id()) || loginUser.isAdminOrModerator())) {
             throw new UnauthorisedAccessException("Permission Denied");
         }
     }

@@ -21,13 +21,16 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.test.context.support.WithUserDetails;
 
-public class UpdatePostControllerIT extends AbstractIntegrationTest {
+public class UpdatePostControllerTests extends AbstractIntegrationTest {
 
-    @Autowired PostRepository postRepository;
+    @Autowired
+    PostRepository postRepository;
 
-    @Autowired UserRepository userRepository;
+    @Autowired
+    UserRepository userRepository;
 
-    @Autowired CategoryRepository categoryRepository;
+    @Autowired
+    CategoryRepository categoryRepository;
 
     Post post = null;
 
@@ -50,12 +53,11 @@ public class UpdatePostControllerIT extends AbstractIntegrationTest {
     @Test
     @WithUserDetails(value = "user@gmail.com")
     void shouldUpdatePostSuccessfully() throws Exception {
-        mockMvc.perform(
-                        put("/posts/{id}", post.id())
-                                .with(csrf())
-                                .param("url", "https://sivalabs.in")
-                                .param("title", "SivaLabs")
-                                .param("category", "java"))
+        mockMvc.perform(put("/posts/{id}", post.id())
+                        .with(csrf())
+                        .param("url", "https://sivalabs.in")
+                        .param("title", "SivaLabs")
+                        .param("category", "java"))
                 .andExpect(status().is3xxRedirection())
                 .andExpect(header().string("Location", "/posts"));
     }
@@ -67,24 +69,22 @@ public class UpdatePostControllerIT extends AbstractIntegrationTest {
         Category category = categoryRepository.findAll().get(0);
         Post post = new Post(null, "https://google.com", "Google", category, admin, null, null);
         post = postRepository.save(post);
-        mockMvc.perform(
-                        put("/posts/{id}", post.id())
-                                .with(csrf())
-                                .param("url", "https://sivalabs.in")
-                                .param("title", "SivaLabs")
-                                .param("category", "java"))
+        mockMvc.perform(put("/posts/{id}", post.id())
+                        .with(csrf())
+                        .param("url", "https://sivalabs.in")
+                        .param("title", "SivaLabs")
+                        .param("category", "java"))
                 .andExpect(status().is(403));
     }
 
     @Test
     @WithUserDetails(value = "admin@gmail.com")
     void adminShouldBeAbleToUpdateOthersPost() throws Exception {
-        mockMvc.perform(
-                        put("/posts/{id}", post.id())
-                                .with(csrf())
-                                .param("url", "https://sivalabs.in")
-                                .param("title", "SivaLabs")
-                                .param("category", "java"))
+        mockMvc.perform(put("/posts/{id}", post.id())
+                        .with(csrf())
+                        .param("url", "https://sivalabs.in")
+                        .param("title", "SivaLabs")
+                        .param("category", "java"))
                 .andExpect(status().is3xxRedirection())
                 .andExpect(header().string("Location", "/posts"));
     }

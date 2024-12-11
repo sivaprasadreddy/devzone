@@ -31,19 +31,17 @@ public class UpdatePostHandler {
         logger.debug("process=update_post, id={}", updatePostRequest.id());
         Post post = postRepository.findById(updatePostRequest.id()).orElse(null);
         if (post == null) {
-            throw new ResourceNotFoundException(
-                    "Post with id: " + updatePostRequest.id() + " not found");
+            throw new ResourceNotFoundException("Post with id: " + updatePostRequest.id() + " not found");
         }
         Category category = Category.buildCategory(updatePostRequest.category());
-        Post updatedPost =
-                new Post(
-                        post.id(),
-                        updatePostRequest.url(),
-                        updatePostRequest.derivedTitle(),
-                        category,
-                        post.createdBy(),
-                        post.createdAt(),
-                        post.updatedAt());
+        Post updatedPost = new Post(
+                post.id(),
+                updatePostRequest.url(),
+                updatePostRequest.derivedTitle(),
+                category,
+                post.createdBy(),
+                post.createdAt(),
+                post.updatedAt());
         return postRepository.save(updatedPost);
     }
 }

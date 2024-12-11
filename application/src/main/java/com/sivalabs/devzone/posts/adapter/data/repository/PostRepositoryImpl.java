@@ -69,8 +69,7 @@ class PostRepositoryImpl implements PostRepository {
     @Override
     public PagedResult<Post> searchPosts(String query, Integer page) {
         Pageable pageable = getPageable(page);
-        Page<PostEntity> postsPage =
-                jpaPostRepository.findPostsByTitleContainingIgnoreCase(query, pageable);
+        Page<PostEntity> postsPage = jpaPostRepository.findPostsByTitleContainingIgnoreCase(query, pageable);
         return getPosts(pageable, postsPage);
     }
 

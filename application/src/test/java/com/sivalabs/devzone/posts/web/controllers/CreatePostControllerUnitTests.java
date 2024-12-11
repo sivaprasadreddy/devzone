@@ -23,9 +23,10 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.test.context.bean.override.mockito.MockitoBean;
 
 @WebMvcTest(controllers = CreatePostController.class)
-public class CreatePostControllerTest extends AbstractWebMvcTest {
+public class CreatePostControllerUnitTests extends AbstractWebMvcTest {
 
-    @MockitoBean protected CreatePostHandler createPostHandler;
+    @MockitoBean
+    protected CreatePostHandler createPostHandler;
 
     @Test
     void shouldShowCreatePostFormPage() throws Exception {
@@ -46,13 +47,12 @@ public class CreatePostControllerTest extends AbstractWebMvcTest {
         given(securityService.loginUser()).willReturn(user);
         Post post = new Post(1L, "https://sivalabs.in", "SivaLabs", null, user, null, null);
         given(createPostHandler.createPost(any(CreatePostRequest.class))).willReturn(post);
-        mockMvc.perform(
-                        post("/posts")
-                                .with(csrf())
-                                .with(user(securityUser))
-                                .param("url", "https://sivalabs.in")
-                                .param("title", "SivaLabs")
-                                .param("category", "java"))
+        mockMvc.perform(post("/posts")
+                        .with(csrf())
+                        .with(user(securityUser))
+                        .param("url", "https://sivalabs.in")
+                        .param("title", "SivaLabs")
+                        .param("category", "java"))
                 .andExpect(status().is3xxRedirection())
                 .andExpect(header().string("Location", "/posts"));
     }
@@ -65,13 +65,12 @@ public class CreatePostControllerTest extends AbstractWebMvcTest {
         Post post = new Post(1L, "https://sivalabs.in", "SivaLabs", null, user, null, null);
         given(createPostHandler.createPost(any(CreatePostRequest.class))).willReturn(post);
 
-        mockMvc.perform(
-                        post("/posts")
-                                .with(csrf())
-                                .with(user(securityUser))
-                                .param("url", "")
-                                .param("title", "SivaLabs")
-                                .param("category", "java"))
+        mockMvc.perform(post("/posts")
+                        .with(csrf())
+                        .with(user(securityUser))
+                        .param("url", "")
+                        .param("title", "SivaLabs")
+                        .param("category", "java"))
                 .andExpect(model().hasErrors())
                 .andExpect(model().attributeHasFieldErrors("post", "url"))
                 .andExpect(view().name("add-post"));

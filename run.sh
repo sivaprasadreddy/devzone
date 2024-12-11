@@ -4,7 +4,7 @@ declare project_dir=$(dirname "$0")
 declare dc_app_deps=${project_dir}/docker/docker-compose.yml
 declare dc_app=${project_dir}/docker/docker-compose-app.yml
 declare dc_elk=${project_dir}/docker/docker-compose-elk.yml
-declare dc_monitoring=${project_dir}/docker/docker-compose-monitoring.yml
+declare dc_monitoring=${project_dir}/docker/docker-compose-grafana-stack.yml
 declare devzone="devzone"
 
 function build_api() {
@@ -40,6 +40,12 @@ function stop_app() {
     # shellcheck disable=SC2086
     docker-compose -f ${dc_app_deps} -f ${dc_app} stop
     docker-compose -f "${dc_app_deps}" -f "${dc_app}" rm -f
+}
+
+function restart_app() {
+    stop_app
+    sleep 5
+    start_app
 }
 
 function start_monitoring() {
@@ -84,3 +90,5 @@ then
 fi
 
 eval "${action}"
+
+}

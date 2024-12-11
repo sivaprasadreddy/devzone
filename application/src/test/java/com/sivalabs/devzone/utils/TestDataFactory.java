@@ -10,13 +10,7 @@ public class TestDataFactory {
     public static Post getMockPost(Long postId, Long userId) {
         Category category = new Category(1L, "Java");
         return new Post(
-                postId,
-                "https://google.com",
-                "Google",
-                category,
-                getMockUser(userId, RoleEnum.ROLE_USER),
-                null,
-                null);
+                postId, "https://google.com", "Google", category, getMockUser(userId, RoleEnum.ROLE_USER), null, null);
     }
 
     public static User getMockUser() {

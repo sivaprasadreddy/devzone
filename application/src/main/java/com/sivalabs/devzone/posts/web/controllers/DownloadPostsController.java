@@ -24,8 +24,7 @@ public class DownloadPostsController {
         // fetching all the data at once is OutOfMemoryException waiting to happen
         byte[] csvData = downloadPostsHandler.getPostsCSVFileAsString();
         response.setContentType(mimeType);
-        response.setHeader(
-                HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=\"" + filename + "\"");
+        response.setHeader(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=\"" + filename + "\"");
         response.getOutputStream().write(csvData);
     }
 }
