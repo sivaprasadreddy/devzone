@@ -1,5 +1,5 @@
 steps:
-  - name: 'eclipse-temurin:21-jdk-focal'
+  - name: 'eclipse-temurin:23-jdk-focal'
     args:
       - '-c'
       - |

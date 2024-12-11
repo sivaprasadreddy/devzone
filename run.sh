@@ -53,6 +53,7 @@ function start_monitoring() {
     docker-compose -f "${dc_monitoring}" up --build --force-recreate -d
     docker-compose -f "${dc_monitoring}" logs -f
 }
+
 function stop_monitoring() {
     echo 'Stopping monitoring....'
     # shellcheck disable=SC2086
@@ -65,6 +66,7 @@ function start_elk() {
     docker-compose -f "${dc_elk}" up --build --force-recreate -d
     docker-compose -f "${dc_elk}" logs -f
 }
+
 function stop_elk() {
     echo 'Stopping ELK....'
     # shellcheck disable=SC2086
@@ -90,5 +92,3 @@ then
 fi
 
 eval "${action}"
-
-}

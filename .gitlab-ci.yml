@@ -14,7 +14,7 @@ variables:
   # `showDateTime` will show the passed time in milliseconds. You need to specify `--batch-mode` to make this work.
 
 
-image: eclipse-temurin:21-jdk-focal
+image: eclipse-temurin:23-jdk-focal
 
 cache:
   key: gradle-cache-key

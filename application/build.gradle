@@ -15,13 +15,13 @@ archivesBaseName = "devzone"
 
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(21)
+        languageVersion = JavaLanguageVersion.of(23)
     }
 }
 
 def dockerImageName = "sivaprasadreddy/devzone"
-def dockerImageTags = ["latest", "${project.version}"]
-def dockerBaseImage = "eclipse-temurin:21-jre"
+def dockerImageTags = ["${dockerImageName}:latest", "${dockerImageName}:${project.version}"]
+def dockerBaseImage = "eclipse-temurin:23-jre"
 def appMainClass = "com.sivalabs.devzone.Application"
 def jacocoToolVersion = "0.8.12"
 def jacocoMinCoverageRequired = 0.30
