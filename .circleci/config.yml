@@ -1,12 +1,14 @@
 version: '2.1'
-orbs:
-  gradle: circleci/gradle@3.0.0
-executors:
-  machine_executor:
-    machine:
-      image: ubuntu-2404:2024.11.1
+jobs:
+  build:
+    docker:
+      - image: cimg/openjdk:23.0.1
+    steps:
+      - checkout
+      - run: java --version
+      - run: ./gradlew build
+
 workflows:
   build_and_test:
     jobs:
-      - gradle/test:
-          executor: machine_executor
+      - build
