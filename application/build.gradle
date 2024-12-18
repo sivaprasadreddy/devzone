@@ -21,7 +21,7 @@ java {
 
 def dockerImageName = "sivaprasadreddy/devzone"
 def dockerImageTags = ["${dockerImageName}:latest", "${dockerImageName}:${project.version}"]
-def dockerBaseImage = "eclipse-temurin:23-jre"
+def dockerBaseImage = "eclipse-temurin:21-jre"
 def appMainClass = "com.sivalabs.devzone.Application"
 def jacocoToolVersion = "0.8.12"
 def jacocoMinCoverageRequired = 0.30
